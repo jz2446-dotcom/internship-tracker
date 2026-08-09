@@ -1,0 +1,24 @@
+- generic [ref=f134e5]:
+  - banner:
+    - generic [ref=f134e8]:
+      - generic [ref=f134e10]:
+        - generic:
+          - button [disabled]
+        - button "Facebook" [ref=f134e12] [cursor=pointer]:
+          - img "Facebook" [ref=f134e13]
+      - generic [ref=f134e18]:
+        - textbox "Email or phone" [ref=f134e21]
+        - textbox "Password" [ref=f134e24]
+        - button "Log In" [ref=f134e27] [cursor=pointer]
+        - link "Forgot Account?" [ref=f134e34] [cursor=pointer]:
+          - /url: https://www.facebook.com/recover/initiate?ars=royal_blue_bar
+  - dialog [ref=f134e41]:
+    - generic [ref=f134e44]:
+      - generic [ref=f134e45]:
+        - generic [ref=f134e46]:
+          - heading "Asian Development Bank's Post" [level=2] [ref=f134e49]
+          - button "Close" [active] [ref=f134e53] [cursor=pointer]
+        - separator [ref=f134e56]
+      - article [ref=f134e62]:
+        - status "Loading..." [ref=f134e63]
+      - status "Loading..." [ref=f134e80]

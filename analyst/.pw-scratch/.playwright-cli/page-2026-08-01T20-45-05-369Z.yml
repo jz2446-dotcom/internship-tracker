@@ -1,0 +1,383 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e7]:
+    - banner [ref=e16]:
+      - generic [ref=e19]:
+        - button "Go to Goldman Sachs Home Page" [ref=e22] [cursor=pointer]:
+          - img "GoldmanSachs Logo" [ref=e24]
+        - navigation [ref=e27]:
+          - list "menu-list" [ref=e29]:
+            - listitem [ref=e30]:
+              - link "What We Do" [ref=e31] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=e33]:
+              - link "Insights" [ref=e34] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=e36]:
+              - link "Our Firm" [ref=e37] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=e39]:
+              - link "Careers" [ref=e40] [cursor=pointer]:
+                - /url: "#"
+          - list
+        - list [ref=e42]:
+          - listitem [ref=e43]:
+            - link "Investor Relations" [ref=e44] [cursor=pointer]:
+              - /url: https://www.goldmansachs.com/investor-relations
+          - listitem [ref=e46]:
+            - link "Pressroom" [ref=e47] [cursor=pointer]:
+              - /url: https://www.goldmansachs.com/pressroom
+          - listitem [ref=e49]:
+            - link "Worldwide" [ref=e50] [cursor=pointer]:
+              - /url: https://www.goldmansachs.com/worldwide
+          - listitem [ref=e52]:
+            - link "Alumni" [ref=e53] [cursor=pointer]:
+              - /url: https://www.goldmansachs.com/alumni
+          - listitem [ref=e55]:
+            - button [ref=e56] [cursor=pointer]:
+              - img "Search" [ref=e57]
+          - listitem [ref=e61]:
+            - link "Client Login" [ref=e62] [cursor=pointer]:
+              - /url: https://www.goldmansachs.com/login
+    - generic [ref=e72]:
+      - button [ref=e75] [cursor=pointer]
+      - generic [ref=e82]:
+        - generic [ref=e83]:
+          - generic [ref=e84]: Careers
+          - heading "Choose Excellence" [level=1] [ref=e85]
+          - generic [ref=e90]:
+            - generic [ref=e92]:
+              - img "Search" [ref=e94]
+              - textbox "Search by Role, Skill, or Business" [ref=e98]
+            - button [ref=e99] [cursor=pointer]
+        - generic [ref=e104]:
+          - generic [ref=e109] [cursor=pointer]:
+            - generic [ref=e110]: Students
+            - generic [ref=e111]: Discover our internships and programs for students and recent graduates.
+          - generic [ref=e121] [cursor=pointer]:
+            - generic [ref=e122]: Open Roles
+            - generic [ref=e123]: Explore job openings that align with your skills.
+    - generic [ref=e131]:
+      - heading "The Best People Backed by World-Class Benefits" [level=2] [ref=e138]
+      - generic [ref=e144]:
+        - generic [ref=e150]:
+          - heading "The Goldman Sachs Culture" [level=4] [ref=e151]
+          - paragraph [ref=e155]: Our firm is for those who insist on excellence, strive for performance, and thrive on opportunities to learn from the best.
+          - link "Discover Life at GS" [ref=e158] [cursor=pointer]:
+            - /url: /careers/life-at-goldman-sachs
+        - link "Supporting Success We provide top-tier benefits, from comprehensive healthcare options and crisis support to wellness programs and more. Learn More" [ref=e160] [cursor=pointer]:
+          - /url: /careers/benefits
+          - generic [ref=e164]:
+            - heading "Supporting Success" [level=4] [ref=e165]
+            - paragraph [ref=e169]: We provide top-tier benefits, from comprehensive healthcare options and crisis support to wellness programs and more.
+            - link "Learn More" [ref=e172]:
+              - /url: /careers/benefits
+      - generic [ref=e178]:
+        - heading "Voices of the Firm" [level=4] [ref=e182]
+        - separator [ref=e183]
+      - region "Carousel" [ref=e185]:
+        - generic [ref=e187]:
+          - generic [ref=e188]:
+            - button "Previous Button" [disabled] [ref=e189]
+            - button "Next Button" [ref=e194] [cursor=pointer]
+          - generic [ref=e200]:
+            - generic [ref=e201]:
+              - group "1 / 5" [ref=e202]:
+                - link "Rahul Executive Director/Vice President Engineering, Bengaluru" [ref=e207] [cursor=pointer]:
+                  - /url: /careers/blog/meet-our-people-rahul
+                  - generic [ref=e209]:
+                    - blockquote [ref=e212]:
+                      - generic [ref=e215]:
+                        - generic [ref=e216]: “
+                        - generic [ref=e218]: The best part of being an engineer at Goldman Sachs is having the opportunity to interact with people globally...”
+                    - generic [ref=e224]:
+                      - generic [ref=e225]: Rahul
+                      - generic [ref=e226]:
+                        - generic [ref=e227]: Executive Director/Vice President
+                        - generic [ref=e228]: Engineering, Bengaluru
+              - group "2 / 5" [ref=e231]:
+                - link "Elaine Managing Director CF&O - Risk, Dallas" [ref=e236] [cursor=pointer]:
+                  - /url: /careers/blog/meet-our-people-elaine
+                  - generic [ref=e238]:
+                    - blockquote [ref=e241]:
+                      - generic [ref=e244]:
+                        - generic [ref=e245]: “
+                        - generic [ref=e247]: Inclusion networks play an important role in creating a sense of community within the firm.”
+                    - generic [ref=e253]:
+                      - generic [ref=e254]: Elaine
+                      - generic [ref=e255]:
+                        - generic [ref=e256]: Managing Director
+                        - generic [ref=e257]: CF&O - Risk, Dallas
+              - group "3 / 5" [ref=e260]:
+                - link "Stephanie Managing Director Global Compliance, Hong Kong" [ref=e265] [cursor=pointer]:
+                  - /url: /careers/blog/meet-our-people-stephanie-s
+                  - generic [ref=e267]:
+                    - blockquote [ref=e270]:
+                      - generic [ref=e273]:
+                        - generic [ref=e274]: “
+                        - generic [ref=e276]: It is quite refreshing to have a firm say to you, ‘we realize that you have a life outside the firm, and we want to support you.”
+                    - generic [ref=e282]:
+                      - generic [ref=e283]: Stephanie
+                      - generic [ref=e284]:
+                        - generic [ref=e285]: Managing Director
+                        - generic [ref=e286]: Global Compliance, Hong Kong
+              - group "4 / 5" [ref=e289]:
+                - link "George Executive Director/Vice President Wealth Management, New York" [ref=e294] [cursor=pointer]:
+                  - /url: /careers/blog/meet-our-people-george-o
+                  - generic [ref=e296]:
+                    - blockquote [ref=e299]:
+                      - generic [ref=e302]:
+                        - generic [ref=e303]: “
+                        - generic [ref=e305]: Goldman puts trust in the people that work here.”
+                    - generic [ref=e311]:
+                      - generic [ref=e312]: George
+                      - generic [ref=e313]:
+                        - generic [ref=e314]: Executive Director/Vice President
+                        - generic [ref=e315]: Wealth Management, New York
+              - group "5 / 5" [ref=e318]:
+                - link "Joanna Associate Wealth Management, Shenzhen" [ref=e323] [cursor=pointer]:
+                  - /url: /careers/blog/meet-our-people-joanna
+                  - generic [ref=e325]:
+                    - blockquote [ref=e328]:
+                      - generic [ref=e331]:
+                        - generic [ref=e332]: “
+                        - generic [ref=e334]: These are exciting times to work in Shenzhen. The city is a growing hub for tech firms and entrepreneurs.”
+                    - generic [ref=e340]:
+                      - generic [ref=e341]: Joanna
+                      - generic [ref=e342]:
+                        - generic [ref=e343]: Associate
+                        - generic [ref=e344]: Wealth Management, Shenzhen
+            - generic: Slide 1 of 5
+      - generic [ref=e350]:
+        - generic [ref=e354]:
+          - heading "Featured Roles" [level=3] [ref=e355]
+          - heading "Your Pursuit of Exceptional Starts Here" [level=4] [ref=e356]
+          - generic [ref=e357]: At Goldman Sachs, we choose excellence and champion apprenticeship. Explore current opportunities and discover how you can learn and grow with our teams around the world.
+          - link "Open Roles" [ref=e362] [cursor=pointer]:
+            - /url: https://higher.gs.com/
+        - generic [ref=e369]:
+          - generic [ref=e370]:
+            - button "Previous Button" [disabled] [ref=e371]
+            - button "Next Button" [ref=e376] [cursor=pointer]
+          - generic [ref=e382]:
+            - generic [ref=e383]:
+              - group "1 / 5" [ref=e384]:
+                - heading "Artificial Intelligence" [level=4] [ref=e390]
+              - group "2 / 5" [ref=e391]:
+                - heading "Technology Audit" [level=4] [ref=e397]
+              - group "3 / 5" [ref=e398]:
+                - heading "Business Operations" [level=4] [ref=e404]
+              - group "4 / 5" [ref=e405]:
+                - heading "Client Services and Sales Solutions" [level=4] [ref=e411]
+              - group "5 / 5" [ref=e412]:
+                - heading "Machine Learning" [level=4] [ref=e418]
+            - generic: Slide 1 of 5
+      - heading "Find Your Place" [level=3] [ref=e425]
+      - generic [ref=e431]:
+        - generic [ref=e435]:
+          - heading "Match Your Skills" [level=4] [ref=e436]
+          - paragraph [ref=e440]: We seek a wide variety of expertise and backgrounds to support our businesses. Match your skills and strengths with our open roles.
+          - link "Open Roles" [ref=e443] [cursor=pointer]:
+            - /url: https://higher.gs.com/results?&page=1&sort=RELEVANCE
+        - generic [ref=e451]:
+          - heading "Student Programs" [level=4] [ref=e452]
+          - paragraph [ref=e456]: Start your career journey through one of our program opportunities tailored for students.
+          - link "Internships and Programs" [ref=e459] [cursor=pointer]:
+            - /url: /careers/students/programs-and-internships
+        - generic [ref=e463]:
+          - heading "Professional Programs" [level=4] [ref=e464]
+          - paragraph [ref=e468]: Advance your career journey through one of our program opportunities tailored for working professionals.
+          - link "Programs for Professionals" [ref=e471] [cursor=pointer]:
+            - /url: /careers/programs-for-professionals
+        - generic [ref=e475]:
+          - heading "Feel Prepared" [level=4] [ref=e476]
+          - paragraph [ref=e480]: Once you’ve applied, we want you to feel ready and confident for your first conversation with Goldman Sachs. Find helpful insights and tips to prepare.
+          - link "Advice and Tips" [ref=e483] [cursor=pointer]:
+            - /url: /careers/students/prepare
+      - heading "There are many chapters in a career. There is only one Goldman Sachs." [level=2] [ref=e500]
+      - generic [ref=e506]:
+        - generic [ref=e510]:
+          - heading "Who We Are" [level=4] [ref=e511]
+          - paragraph [ref=e515]: We aspire to be the world’s most exceptional financial institution, united by our shared values of partnership, client service, integrity, and excellence.
+          - link "Our Purpose and Values" [ref=e518] [cursor=pointer]:
+            - /url: /our-firm/purpose-and-values
+        - generic [ref=e522]:
+          - heading "The Business of Impact" [level=4] [ref=e523]
+          - paragraph [ref=e527]:
+            - generic [ref=e528]: We put our people, ideas, and capital to work through impact-oriented programs including 10,000 Small Businesses, 10,000 Women, One Million Black Women, and Community TeamWorks.
+          - link "Our Initiatives" [ref=e531] [cursor=pointer]:
+            - /url: https://www.goldmansachs.com/our-commitments/community-engagement/index.html
+        - generic [ref=e535]:
+          - heading "Culture of Belonging" [level=4] [ref=e536]
+          - paragraph [ref=e540]: We believe diverse teams drive stronger results. Our focus on diversity and inclusion is critical to our commercial success.
+          - link "Diversity and Inclusion" [ref=e543] [cursor=pointer]:
+            - /url: /our-firm/diversity
+      - generic [ref=e550]:
+        - generic [ref=e551]:
+          - generic [ref=e552]: Our Offices
+          - generic [ref=e553]: Located in More Than 60 Cities Worldwide
+          - generic [ref=e554]: Our global presence provides on-the-ground opportunities around the world.
+        - link "See Our Featured Offices" [ref=e562] [cursor=pointer]:
+          - /url: /careers/featured-offices
+      - generic [ref=e568]:
+        - heading "Our Firm" [level=3] [ref=e571]
+        - generic [ref=e573]:
+          - generic [ref=e574]: Our people leverage diverse skillsets to deliver a broad range of services to our clients. Explore what we do, who we look for, and how we invest in our people across every area of our business.
+          - link "Explore Our Firm" [ref=e580] [cursor=pointer]:
+            - /url: /careers/our-firm
+      - generic [ref=e586]:
+        - link "Risk Identifies, monitors, evaluates, and manages the firm’s financial and non-financial risks in support of the firm’s strategic plan." [ref=e588] [cursor=pointer]:
+          - /url: /careers/our-firm/risk
+          - generic [ref=e592]:
+            - heading "Risk" [level=4] [ref=e593]
+            - paragraph [ref=e597]: Identifies, monitors, evaluates, and manages the firm’s financial and non-financial risks in support of the firm’s strategic plan.
+        - link "Asset Management Provides investment management solutions across all major asset classes to a diverse set of institutional and individual clients." [ref=e599] [cursor=pointer]:
+          - /url: /careers/our-firm/asset-management
+          - generic [ref=e603]:
+            - heading "Asset Management" [level=4] [ref=e604]
+            - paragraph [ref=e608]: Provides investment management solutions across all major asset classes to a diverse set of institutional and individual clients.
+        - link "Operations Enables business to flow by supporting every agreed trade, new product launch, new market entry, and completed transaction." [ref=e610] [cursor=pointer]:
+          - /url: /careers/our-firm/operations
+          - generic [ref=e614]:
+            - heading "Operations" [level=4] [ref=e615]
+            - paragraph [ref=e619]: Enables business to flow by supporting every agreed trade, new product launch, new market entry, and completed transaction.
+        - link "Engineering Envisions, builds, and deploys industry-leading innovations that drive our business and extend boundaries." [ref=e621] [cursor=pointer]:
+          - /url: /careers/our-firm/engineering
+          - generic [ref=e625]:
+            - heading "Engineering" [level=4] [ref=e626]
+            - paragraph [ref=e630]: Envisions, builds, and deploys industry-leading innovations that drive our business and extend boundaries.
+    - generic [ref=e639]:
+      - generic [ref=e640]: Get the Latest Career Opportunities
+      - generic [ref=e641]:
+        - generic [ref=e642]: Follow us on LinkedIn for the latest open roles and news.
+        - link [ref=e644] [cursor=pointer]:
+          - /url: https://www.linkedin.com/company/goldman-sachs
+          - button "See Jobs on LinkedIn" [ref=e645]
+    - contentinfo [ref=e659]:
+      - generic [ref=e660]:
+        - generic [ref=e661]:
+          - button "Goldman Sachs Logo" [ref=e663] [cursor=pointer]:
+            - img "GoldmanSachs Logo" [ref=e665]
+          - generic [ref=e669]:
+            - generic [ref=e672]:
+              - heading "CAREERS" [level=2] [ref=e674]
+              - list "CAREERS" [ref=e675]:
+                - listitem [ref=e676]:
+                  - link "Overview" [ref=e677] [cursor=pointer]:
+                    - /url: /careers
+                - listitem [ref=e678]:
+                  - link "Students" [ref=e679] [cursor=pointer]:
+                    - /url: /careers/students
+                - listitem [ref=e680]:
+                  - link "Life at GS" [ref=e681] [cursor=pointer]:
+                    - /url: /careers/life-at-goldman-sachs
+                - listitem [ref=e682]:
+                  - link "Benefits" [ref=e683] [cursor=pointer]:
+                    - /url: /careers/benefits
+                - listitem [ref=e684]:
+                  - link "Featured Locations" [ref=e685] [cursor=pointer]:
+                    - /url: /careers/featured-offices
+                - listitem [ref=e686]:
+                  - link [ref=e687] [cursor=pointer]:
+                    - /url: https://higher.gs.com/
+                    - text: Open Roles
+                    - img "Opens in a new tab" [ref=e688]
+                - listitem [ref=e692]:
+                  - link "Disability Accommodation" [ref=e693] [cursor=pointer]:
+                    - /url: /careers/disability-statement
+                - listitem [ref=e694]:
+                  - link "Statement on Equal Employment Opportunities" [ref=e695] [cursor=pointer]:
+                    - /url: /careers/statements/diversity-global
+                - listitem [ref=e696]:
+                  - link "Recruiting Scams Alert" [ref=e697] [cursor=pointer]:
+                    - /url: /careers/recruiting-scams
+            - generic [ref=e700]:
+              - heading "RESOURCES" [level=2] [ref=e702]
+              - list "RESOURCES" [ref=e703]:
+                - listitem [ref=e704]:
+                  - link "Client Logins" [ref=e705] [cursor=pointer]:
+                    - /url: /login
+                - listitem [ref=e706]:
+                  - link "Employee Login" [ref=e707] [cursor=pointer]:
+                    - /url: /login/login-gs-message
+                - listitem [ref=e708]:
+                  - link "Pressroom" [ref=e709] [cursor=pointer]:
+                    - /url: /pressroom
+                - listitem [ref=e710]:
+                  - link "Investor Relations" [ref=e711] [cursor=pointer]:
+                    - /url: /investor-relations
+                - listitem [ref=e712]:
+                  - link "Alumni Network" [ref=e713] [cursor=pointer]:
+                    - /url: /alumni
+            - generic [ref=e716]:
+              - heading "OUR BUSINESSES" [level=2] [ref=e718]
+              - list "OUR BUSINESSES" [ref=e719]:
+                - listitem [ref=e720]:
+                  - link "Investment Banking" [ref=e721] [cursor=pointer]:
+                    - /url: /what-we-do/investment-banking
+                - listitem [ref=e722]:
+                  - link "FICC and Equities" [ref=e723] [cursor=pointer]:
+                    - /url: /what-we-do/ficc-and-equities
+                - listitem [ref=e724]:
+                  - link [ref=e725] [cursor=pointer]:
+                    - /url: https://www.gsam.com/
+                    - text: Asset Management
+                    - img "Opens in a new tab" [ref=e726]
+                - listitem [ref=e730]:
+                  - link [ref=e731] [cursor=pointer]:
+                    - /url: https://pwm.gs.com/nam/en-us?gsid=10200&chl=ref&plt=gs
+                    - text: Private Wealth Management
+                    - img "Opens in a new tab" [ref=e732]
+                - listitem [ref=e736]:
+                  - link "Ayco" [ref=e737] [cursor=pointer]:
+                    - /url: /what-we-do/ayco
+                - listitem [ref=e738]:
+                  - link [ref=e739] [cursor=pointer]:
+                    - /url: https://www.marcus.com/
+                    - text: Marcus
+                    - img "Opens in a new tab" [ref=e740]
+                - listitem [ref=e744]:
+                  - link [ref=e745] [cursor=pointer]:
+                    - /url: https://marquee.gs.com/
+                    - text: Marquee
+                    - img "Opens in a new tab" [ref=e746]
+                - listitem [ref=e750]:
+                  - link "Transaction Banking" [ref=e751] [cursor=pointer]:
+                    - /url: /what-we-do/transaction-banking
+            - generic [ref=e754]:
+              - heading "CONNECT" [level=2] [ref=e756]
+              - list "CONNECT" [ref=e757]:
+                - list [ref=e759]:
+                  - listitem [ref=e760]:
+                    - link "link for linkedin share" [ref=e761] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/company/goldman-sachs
+                  - listitem [ref=e766]:
+                    - link "link for instagram share" [ref=e767] [cursor=pointer]:
+                      - /url: https://www.instagram.com/goldmansachs
+                  - listitem [ref=e772]:
+                    - link "link for youtube share" [ref=e773] [cursor=pointer]:
+                      - /url: https://www.youtube.com/user/GoldmanSachs
+                  - listitem [ref=e778]:
+                    - link [ref=e779] [cursor=pointer]:
+                      - /url: https://twitter.com/goldmansachs
+        - generic [ref=e784]:
+          - separator [ref=e785]
+          - generic [ref=e786]:
+            - generic [ref=e787]: © 2026 Goldman Sachs. All rights reserved.
+            - navigation [ref=e791]:
+              - list "menu-list" [ref=e793]:
+                - listitem [ref=e794]:
+                  - link "Privacy and Cookies" [ref=e795] [cursor=pointer]:
+                    - /url: /privacy-and-cookies
+                - complementary "Open Cookie Preferences Modal" [ref=e796]:
+                  - link "Cookie Preferences, opens a dedicated popup modal window" [ref=e797] [cursor=pointer]: Your Privacy Choices
+                - listitem [ref=e798]:
+                  - link "Terms & Conditions" [ref=e799] [cursor=pointer]:
+                    - /url: /terms-and-conditions
+                - listitem [ref=e800]:
+                  - link "Security & Fraud Awareness" [ref=e801] [cursor=pointer]:
+                    - /url: /security
+                - listitem [ref=e802]:
+                  - link "Regulatory Disclosures" [ref=e803] [cursor=pointer]:
+                    - /url: /disclosures
+              - list
+  - alert [ref=e804]

@@ -1,0 +1,273 @@
+- generic [active] [ref=f457e1]:
+  - dialog [ref=f457e2]:
+    - generic [ref=f457e3]:
+      - generic [ref=f457e5]:
+        - img "logo" [ref=f457e7]
+        - link "Cookiebot by Usercentrics - opens in a new window" [ref=f457e8] [cursor=pointer]:
+          - /url: https://www.cookiebot.com/en/what-is-behind-powered-by-cookiebot/?utm_source=banner_cb&utm_medium=referral&utm_content=v2
+      - tabpanel "Consent" [ref=f457e36]:
+        - generic [ref=f457e38]:
+          - heading "This website uses cookies" [level=2] [ref=f457e39]
+          - generic [ref=f457e40]:
+            - paragraph [ref=f457e41]:
+              - text: This website features third-party cookies, pixels, and similar technologies set by our trusted partners (“cookies”) which are used to track usage of our website and ensure we provide you with the best user experience. You can update your preferences at any time using the preferences tab in the corner of the webpage. More details can be found in our
+              - link [ref=f457e42] [cursor=pointer]:
+                - /url: https://assets.ctfassets.net/zakijxeilt6j/79agmgSMKDFK9hwZhdmVjJ/0562788b593a62f27a9b77fc440f0c2b/PJT_Cookie_Policy.pdf
+                - strong [ref=f457e44]: Cookie Policy
+              - text: .
+            - paragraph [ref=f457e45]
+            - paragraph [ref=f457e46]: Please use the "Accept all", "Set Preferences" or "Reject all", buttons to make your cookie choices (we will always set the cookies necessary for our website to function).
+        - generic [ref=f457e47]:
+          - group "Consent Selection" [ref=f457e53]:
+            - generic [ref=f457e55]:
+              - generic [ref=f457e56]:
+                - strong [ref=f457e58]: Necessary
+                - generic [ref=f457e59]:
+                  - checkbox "Necessary" [checked] [disabled]
+              - generic [ref=f457e60]:
+                - strong [ref=f457e62] [cursor=pointer]: Preferences
+                - switch "Preferences" [ref=f457e64] [cursor=pointer]
+              - generic [ref=f457e65]:
+                - strong [ref=f457e67] [cursor=pointer]: Statistics
+                - switch "Statistics" [ref=f457e69] [cursor=pointer]
+              - generic [ref=f457e70]:
+                - strong [ref=f457e72] [cursor=pointer]: Marketing
+                - switch "Marketing" [ref=f457e74] [cursor=pointer]
+          - link "Show details" [ref=f457e76] [cursor=pointer]:
+            - /url: "#"
+      - generic [ref=f457e80]:
+        - button "Accept all" [ref=f457e81] [cursor=pointer]
+        - button "Set Preferences" [ref=f457e82] [cursor=pointer]
+        - button "Reject all" [ref=f457e83] [cursor=pointer]
+  - main [ref=f457e84]:
+    - figure [ref=f457e88]:
+      - img "cover image" [ref=f457e89]
+    - generic [ref=f457e99]:
+      - link [ref=f457e101] [cursor=pointer]:
+        - /url: /
+        - figure [ref=f457e102]:
+          - img "PJT Partners Logo" [ref=f457e103]
+      - navigation "Main navigation" [ref=f457e105]:
+        - generic [ref=f457e106]:
+          - link [ref=f457e107] [cursor=pointer]:
+            - /url: "#"
+            - text: About
+            - img "down arrow" [ref=f457e110]
+          - generic:
+            - list:
+              - listitem:
+                - link "Who We Are":
+                  - /url: /about/who-we-are
+              - listitem:
+                - link "Our Story":
+                  - /url: /about/our-story
+              - listitem:
+                - link "Community Impact":
+                  - /url: /about/community-impact
+              - listitem:
+                - link "Locations":
+                  - /url: /locations
+        - link "Team" [ref=f457e117] [cursor=pointer]:
+          - /url: /people
+        - generic [ref=f457e123]:
+          - link [ref=f457e124] [cursor=pointer]:
+            - /url: "#"
+            - text: Expertise
+            - img "down arrow" [ref=f457e127]
+          - generic:
+            - list:
+              - listitem:
+                - link "Expertise":
+                  - /url: /expertise
+              - listitem:
+                - link "Strategic Advisory":
+                  - /url: /expertise/strategic-advisory
+              - listitem:
+                - link "Restructuring & Special Situations":
+                  - /url: /expertise/restructuring-special-situations
+              - listitem:
+                - link "Fund Advisory":
+                  - /url: /expertise/fund-advisory
+              - listitem:
+                - link "Geographic Reach":
+                  - /url: /geographic-reach
+              - listitem:
+                - link "Integrated Client Solutions":
+                  - /url: /integrated-client-solutions
+        - link "Investors" [ref=f457e134] [cursor=pointer]:
+          - /url: " https://ir.pjtpartners.com/"
+        - generic [ref=f457e140]:
+          - link [ref=f457e141] [cursor=pointer]:
+            - /url: "#"
+            - text: Careers
+            - img "down arrow" [ref=f457e144]
+          - generic:
+            - list:
+              - listitem:
+                - link "Careers at PJT Partners":
+                  - /url: /careers
+              - listitem:
+                - link "Experienced Professionals":
+                  - /url: /careers/experienced-professionals
+              - listitem:
+                - link "Students":
+                  - /url: /careers/students
+    - generic [ref=f457e152]:
+      - link [ref=f457e154] [cursor=pointer]:
+        - /url: /
+        - figure [ref=f457e156]:
+          - img "PJT Partners Logo" [ref=f457e157]
+      - navigation "Main navigation" [ref=f457e159]:
+        - generic [ref=f457e160]:
+          - link [ref=f457e161] [cursor=pointer]:
+            - /url: "#"
+            - text: About
+            - img "down arrow" [ref=f457e164]
+          - generic:
+            - list:
+              - listitem:
+                - link "Who We Are":
+                  - /url: /about/who-we-are
+              - listitem:
+                - link "Our Story":
+                  - /url: /about/our-story
+              - listitem:
+                - link "Community Impact":
+                  - /url: /about/community-impact
+              - listitem:
+                - link "Locations":
+                  - /url: /locations
+        - link "Team" [ref=f457e171] [cursor=pointer]:
+          - /url: /people
+        - generic [ref=f457e177]:
+          - link [ref=f457e178] [cursor=pointer]:
+            - /url: "#"
+            - text: Expertise
+            - img "down arrow" [ref=f457e181]
+          - generic:
+            - list:
+              - listitem:
+                - link "Expertise":
+                  - /url: /expertise
+              - listitem:
+                - link "Strategic Advisory":
+                  - /url: /expertise/strategic-advisory
+              - listitem:
+                - link "Restructuring & Special Situations":
+                  - /url: /expertise/restructuring-special-situations
+              - listitem:
+                - link "Fund Advisory":
+                  - /url: /expertise/fund-advisory
+              - listitem:
+                - link "Geographic Reach":
+                  - /url: /geographic-reach
+              - listitem:
+                - link "Integrated Client Solutions":
+                  - /url: /integrated-client-solutions
+        - link "Investors" [ref=f457e188] [cursor=pointer]:
+          - /url: " https://ir.pjtpartners.com/"
+        - generic [ref=f457e194]:
+          - link [ref=f457e195] [cursor=pointer]:
+            - /url: "#"
+            - text: Careers
+            - img "down arrow" [ref=f457e198]
+          - generic:
+            - list:
+              - listitem:
+                - link "Careers at PJT Partners":
+                  - /url: /careers
+              - listitem:
+                - link "Experienced Professionals":
+                  - /url: /careers/experienced-professionals
+              - listitem:
+                - link "Students":
+                  - /url: /careers/students
+    - generic [ref=f457e206]:
+      - generic [ref=f457e209]:
+        - heading "Together, we create differentiated solutions to complex challenges" [level=2] [ref=f457e211]
+        - generic [ref=f457e212]:
+          - paragraph [ref=f457e215]: Our highly experienced, collaborative teams provide independent advice coupled with high-touch client service. This ethos has allowed us to attract some of the very best talent in the markets in which we operate.
+          - generic [ref=f457e218]:
+            - paragraph [ref=f457e219]: We deliver leading advice to many of the world’s most consequential companies, effect some of the most transformative transactions and restructurings and raise billions of dollars of capital around the globe to support startups and more established companies.
+            - link [ref=f457e220] [cursor=pointer]:
+              - /url: /people
+      - generic [ref=f457e231]:
+        - figure [ref=f457e235]
+        - figure [ref=f457e239]
+      - generic [ref=f457e242]:
+        - generic [ref=f457e245]:
+          - generic [ref=f457e247]:
+            - heading "One Firm." [level=3] [ref=f457e248]
+            - heading "Many Capabilities." [level=3] [ref=f457e249]
+          - generic [ref=f457e251]:
+            - paragraph [ref=f457e252]: PJT Partners is a trusted advisor to global companies focused on driving growth, value creation and durability for the future.
+            - link [ref=f457e253] [cursor=pointer]:
+              - /url: /expertise
+        - generic [ref=f457e265]:
+          - link [ref=f457e267] [cursor=pointer]:
+            - /url: /expertise/strategic-advisory
+            - generic [ref=f457e275]:
+              - generic [ref=f457e276]:
+                - heading "Strategic Advisory" [level=4] [ref=f457e277]
+                - paragraph [ref=f457e280]: Our highly experienced Strategic Advisory teams offer clients innovative and differentiated advice paired with old-world, high-touch service.
+              - generic "Link" [ref=f457e282]
+          - link [ref=f457e289] [cursor=pointer]:
+            - /url: /expertise/restructuring-special-situations
+            - generic [ref=f457e297]:
+              - generic [ref=f457e298]:
+                - heading "Restructuring & Special Situations" [level=4] [ref=f457e299]
+                - paragraph [ref=f457e302]: PJT Partners remains consistently atop the global restructuring league table rankings and was recognized as IFR’s Restructuring Advisor of the Year for four consecutive years ('20-'23).
+              - generic "Link" [ref=f457e304]
+          - link [ref=f457e311] [cursor=pointer]:
+            - /url: /expertise/fund-advisory
+            - generic [ref=f457e319]:
+              - generic [ref=f457e320]:
+                - heading "Fund Advisory" [level=4] [ref=f457e321]
+                - paragraph [ref=f457e324]: PJT Park Hill is a premier advisor to alternative asset managers, delivering investor access and capital intelligence across asset classes.
+              - generic "Link" [ref=f457e326]
+  - contentinfo [ref=f457e332]:
+    - generic [ref=f457e333]:
+      - generic [ref=f457e334]:
+        - generic [ref=f457e335]:
+          - link "PJT Partners":
+            - /url: /
+            - img "PJT Partners"
+        - generic [ref=f457e336]:
+          - paragraph [ref=f457e337]: Contact us
+          - link "info@pjtpartners.com" [ref=f457e338] [cursor=pointer]:
+            - /url: mailto:info@pjtpartners.com
+      - generic [ref=f457e340]:
+        - navigation [ref=f457e341]:
+          - list [ref=f457e342]:
+            - listitem [ref=f457e343]:
+              - link "About" [ref=f457e344] [cursor=pointer]:
+                - /url: /about/who-we-are
+            - listitem [ref=f457e345]:
+              - link "Team" [ref=f457e346] [cursor=pointer]:
+                - /url: /people
+            - listitem [ref=f457e347]:
+              - link "Expertise" [ref=f457e348] [cursor=pointer]:
+                - /url: /expertise
+            - listitem [ref=f457e349]:
+              - link "Investor Relations" [ref=f457e350] [cursor=pointer]:
+                - /url: " https://ir.pjtpartners.com/"
+            - listitem [ref=f457e351]:
+              - link "Careers" [ref=f457e352] [cursor=pointer]:
+                - /url: /careers
+        - list [ref=f457e353]:
+          - listitem [ref=f457e354]:
+            - link "Privacy Notice" [ref=f457e355] [cursor=pointer]:
+              - /url: /privacy-notice
+          - listitem [ref=f457e356]:
+            - link "Terms of Use" [ref=f457e357] [cursor=pointer]:
+              - /url: /terms-of-use
+          - listitem [ref=f457e358]:
+            - link "Regulatory Disclosure" [ref=f457e359] [cursor=pointer]:
+              - /url: /regulatory-disclosure
+          - listitem [ref=f457e360]:
+            - link "Cookie Policy" [ref=f457e361] [cursor=pointer]:
+              - /url: https://assets.ctfassets.net/zakijxeilt6j/79agmgSMKDFK9hwZhdmVjJ/0562788b593a62f27a9b77fc440f0c2b/PJT_Cookie_Policy.pdf
+      - paragraph [ref=f457e363]: Copyright © 2026PJT Partners Inc. All rights reserved.
+  - alert [ref=f457e364]
+  - iframe [ref=f457e365]:
+    

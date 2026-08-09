@@ -1,0 +1,287 @@
+- generic [active] [ref=e1]:
+  - paragraph [ref=e2]: Top of page
+  - banner [ref=e3]:
+    - link "Skip to main content" [ref=e4] [cursor=pointer]:
+      - /url: "#page-title"
+    - generic [ref=e5]:
+      - link "Library of Congress" [ref=e7] [cursor=pointer]:
+        - /url: /
+      - search [ref=e14]:
+        - generic [ref=e15]:
+          - combobox "Filter search by" [ref=e16]:
+            - option "Everything"
+            - option "Audio Recordings"
+            - option "Books/Printed Material"
+            - option "Films, Videos"
+            - option "Legislation"
+            - option "Manuscripts/Mixed Material"
+            - option "Maps"
+            - option "Notated Music"
+            - option "Newspapers"
+            - option "Periodicals"
+            - option "Personal Narratives"
+            - option "Photos, Prints, Drawings"
+            - option "Software, E-Resources"
+            - option "Web Archives"
+            - option "Web Pages"
+            - option "3D Objects"
+            - option "Library of Congress Resources" [selected]
+          - searchbox "Search the Library of Congress" [ref=e17]
+          - button "Search" [ref=e18] [cursor=pointer]:
+            - generic [ref=e20]: 
+      - navigation [ref=e21]:
+        - button "Global Menu" [ref=e22] [cursor=pointer]:
+          - generic [ref=e24]: 
+  - navigation "Breadcrumb and share" [ref=e25]:
+    - generic [ref=e26]:
+      - region "breadcrumbs" [ref=e27]:
+        - link "Library of Congress " [ref=e29] [cursor=pointer]:
+          - /url: https://www.loc.gov
+          - generic [ref=e30]: Library of Congress
+          - generic [ref=e31]: 
+        - text: 
+        - generic [ref=e32]:
+          - link "Library of Congress Resources" [ref=e33] [cursor=pointer]:
+            - /url: https://www.loc.gov/library-of-congress-resources/
+          - link "Share and Distribute" [ref=e35] [cursor=pointer]:
+            - /url: https://www.loc.gov/library-of-congress-resources/share-and-distribute/
+        - generic [ref=e37]: Career and Internship Opportunities
+      - region "share" [ref=e38]:
+        - button "Share" [ref=e39] [cursor=pointer]:
+          - generic [ref=e40]: 
+          - text: Share
+  - main [ref=e41]:
+    - generic "Library of Congress Resources" [ref=e42]:
+      - generic [ref=e45]:
+        - generic [ref=e46]: Library Information
+        - text: Library of Congress Resources
+    - generic [ref=e47]:
+      - navigation "Page navigation" [ref=e48]:
+        - text: 
+        - list [ref=e50]:
+          - listitem [ref=e51]:
+            - link "About the Library's Resources" [ref=e52] [cursor=pointer]:
+              - /url: https://www.loc.gov/library-of-congress-resources/
+          - listitem [ref=e53]:
+            - link "Discover" [ref=e54] [cursor=pointer]:
+              - /url: https://www.loc.gov/library-of-congress-resources/discover/
+          - listitem [ref=e55]:
+            - button "Share and Distribute " [ref=e56] [cursor=pointer]
+      - heading "Career and Internship Opportunities" [level=1] [ref=e57]
+      - generic [ref=e59]:
+        - generic [ref=e60]:
+          - paragraph [ref=e61]:
+            - text: Download printable version of
+            - link "Career and Internship Opportunities (PDF, 1.2MB)" [ref=e62] [cursor=pointer]:
+              - /url: /static/portals/library-of-congress-resources/documents/Career-Internship-and-Fellowship-Opportunities-at-the-Library-of-Congress.pdf
+          - heading "Career opportunities at the Library of Congress" [level=2] [ref=e63]
+          - paragraph [ref=e64]: The Library of Congress offers amazing opportunities. Located primarily on Capitol Hill in Washington, D.C., the Library is the home of the U.S. Copyright Office, the Congressional Research Service (CRS), the Law Library of Congress, and the National Library Service for the Blind and Print Disabled. We seek talent from various fields. Explore the possibilities and apply today.
+          - paragraph [ref=e65]:
+            - link "Visit loc.gov/careers " [ref=e66] [cursor=pointer]:
+              - /url: /careers/
+              - text: Visit loc.gov/careers
+              - generic [ref=e67]: 
+          - heading "Working at the Library" [level=2] [ref=e68]
+          - paragraph [ref=e69]: The Library of Congress serves the Congress in fulfilling its duties and preserves and promotes knowledge and creativity for the benefit of the American people. It is the nation’s oldest federal cultural institution and the world’s largest library, with more than 170 million items in its physical collections (including books, manuscripts, prints, photos, film, video, and sound recordings) and millions of items online.
+          - heading "Various types of Librarians" [level=2] [ref=e70]
+          - list [ref=e71]:
+            - listitem [ref=e72]: Acquisitions Librarian
+            - listitem [ref=e73]: Cataloging Librarian
+            - listitem [ref=e74]: Collection & Foreign Language Librarian
+            - listitem [ref=e75]: Collection Development Librarian
+            - listitem [ref=e76]: Education and Training Librarian
+            - listitem [ref=e77]: Information Science Librarian
+            - listitem [ref=e78]: Law Librarian
+            - listitem [ref=e79]: Library Technician
+            - listitem [ref=e80]: Manuscript Librarian
+            - listitem [ref=e81]: Metadata Librarian
+            - listitem [ref=e82]: Preservation Librarian
+            - listitem [ref=e83]: Reference Librarian
+            - listitem [ref=e84]: Research Librarian and many more…
+          - heading "Other Careers You Can Find at the Library of Congress" [level=2] [ref=e85]
+          - list [ref=e86]:
+            - listitem [ref=e87]: Accountant
+            - listitem [ref=e88]: Administrative
+            - listitem [ref=e89]: Attorney
+            - listitem [ref=e90]: Contract Specialist
+            - listitem [ref=e91]: Copyright
+            - listitem [ref=e92]: Economist
+            - listitem [ref=e93]: Foreign Affairs
+            - listitem [ref=e94]: Human Resources
+            - listitem [ref=e95]: Information Technology and many more…
+          - heading "Benefits" [level=2] [ref=e96]
+          - list [ref=e97]:
+            - listitem [ref=e98]: Federal Benefits Plan options (including health insurance, life insurance, retirement)
+            - listitem [ref=e99]: Transit Subsidy
+            - listitem [ref=e100]: Leave Entitlement
+            - listitem [ref=e101]: Student Loan Repayment
+            - listitem [ref=e102]: Relocation Expenses
+            - listitem [ref=e103]: Flexible Work Arrangements
+          - heading "Job Openings" [level=2] [ref=e104]
+          - list [ref=e105]:
+            - listitem [ref=e106]:
+              - text: "View Current Job Openings here:"
+              - link "loc.gov/careers " [ref=e107] [cursor=pointer]:
+                - /url: /careers/
+                - text: loc.gov/careers
+                - generic [ref=e108]: 
+            - listitem [ref=e109]:
+              - text: "View Internship and Fellowships here:"
+              - link "loc.gov/internships-and-fellowships " [ref=e110] [cursor=pointer]:
+                - /url: /internships-and-fellowships
+                - text: loc.gov/internships-and-fellowships
+                - generic [ref=e111]: 
+          - heading "Internship and Fellowship Opportunities Portal" [level=2] [ref=e112]
+          - paragraph [ref=e113]: Internship and Fellowship Programs (IFP) promotes a portfolio of 60+ programs throughout the Library of Congress. Search our Opportunities portal to find volunteer and paid opportunities and a wide range of applied learning and career development placements. Whether you’re an undergraduate or graduate student, emerging professional, or established scholar, your career can find a launching pad in the world’s largest library.
+          - paragraph [ref=e114]:
+            - link "Visit loc.gov/ifp " [ref=e115] [cursor=pointer]:
+              - /url: https://www.loc.gov/ifp
+              - text: Visit loc.gov/ifp
+              - generic [ref=e116]: 
+          - heading "Junior Fellows Program" [level=2] [ref=e117]
+          - paragraph [ref=e118]: "The Library of Congress Junior Fellows Program is an annual summer internship program that enables undergraduate and graduate students to experience the integrated analog and digital collections and services of the world’s largest, all-inclusive library. Fellows are exposed to a broad spectrum of library work: copyright; preservation; reference; access; and information. No previous experience is necessary, but fellowships are competitive and special skills or knowledge are usually desired."
+          - paragraph [ref=e119]:
+            - link "Visit loc.gov/item/internships/junior-fellows-program " [ref=e120] [cursor=pointer]:
+              - /url: /item/internships/junior-fellows-program
+              - text: Visit loc.gov/item/internships/junior-fellows-program
+              - generic [ref=e121]: 
+          - heading "Archives, History and Heritage Advanced Internship (AHHA)" [level=2] [ref=e122]
+          - paragraph [ref=e123]: The AHHA program offers undergraduate juniors and seniors, graduate and doctoral students insights into the Library of Congress collections. Interns will work under the supervision and guidance of a senior specialist and learn the standards and techniques to properly arrange and provide online descriptions for archival collection materials. Responsibilities will include analyzing, organizing, and interpreting collections or programs that help share an inclusive story of the American experience.
+          - paragraph [ref=e124]:
+            - link "Visit loc.gov//item/internships/archives-history-and-heritage-advanced-internship-program/ " [ref=e125] [cursor=pointer]:
+              - /url: /item/internships/archives-history-and-heritage-advanced-internship-program/
+              - text: Visit loc.gov//item/internships/archives-history-and-heritage-advanced-internship-program/
+              - generic [ref=e126]: 
+          - text: "-->"
+          - heading "Librarians-in-Residence" [level=2] [ref=e127]
+          - paragraph [ref=e128]: "The Librarians-in-Residence program provides early-career librarians the opportunity to gain meaningful work experience in one of seven professional tracks:"
+          - list [ref=e129]:
+            - listitem [ref=e130]: Archives and Special Collections;
+            - listitem [ref=e131]: Cataloging and Metadata;
+            - listitem [ref=e132]: Collection Preservation;
+            - listitem [ref=e133]: Community Engagement;
+            - listitem [ref=e134]: Digital Services;
+            - listitem [ref=e135]: Reference and Instruction; and
+            - listitem [ref=e136]: Systems and Standards.
+          - paragraph [ref=e137]: The program is open to students who have earned or will complete their master’s degree in library and information science from an American Library Association-accredited program within 18 months prior to the start of the residency.
+          - paragraph [ref=e138]:
+            - link "Visit loc.gov/item/internships/librarian-in-residence " [ref=e139] [cursor=pointer]:
+              - /url: /item/internships/librarian-in-residence
+              - text: Visit loc.gov/item/internships/librarian-in-residence
+              - generic [ref=e140]: 
+          - paragraph [ref=e141]: Scan the codes below to visit the Library’s listing of jobs and internships, or to sign up for the e-mail list to receive job alerts.
+        - complementary [ref=e142]:
+          - generic [ref=e143]:
+            - heading "Related Resources" [level=2] [ref=e144]
+            - list "Related Resources" [ref=e145]:
+              - listitem [ref=e146]:
+                - link "Center for the Book" [ref=e147] [cursor=pointer]:
+                  - /url: /programs/center-for-the-book/about-this-program/
+              - listitem [ref=e148]:
+                - link "Literacy Awards" [ref=e149] [cursor=pointer]:
+                  - /url: /programs/library-of-congress-literacy-awards/about-this-program/
+              - listitem [ref=e150]:
+                - link "Teachers Page" [ref=e151] [cursor=pointer]:
+                  - /url: /programs/teachers/about-this-program/
+              - listitem [ref=e152]:
+                - link "News" [ref=e153] [cursor=pointer]:
+                  - /url: https://www.loc.gov/today/pr/
+              - listitem [ref=e154]:
+                - link "Library of Congress Magazine" [ref=e155] [cursor=pointer]:
+                  - /url: https://www.loc.gov/lcm/
+              - listitem [ref=e156]:
+                - link "Library of Congress Publishing Office" [ref=e157] [cursor=pointer]:
+                  - /url: https://www.loc.gov/publish/general/
+              - listitem [ref=e158]:
+                - link "Careers" [ref=e159] [cursor=pointer]:
+                  - /url: /careers/
+              - listitem [ref=e160]:
+                - link "Internships & Fellowships" [ref=e161] [cursor=pointer]:
+                  - /url: /internships-and-fellowships/overview/
+              - listitem [ref=e162]:
+                - link "Support the Library" [ref=e163] [cursor=pointer]:
+                  - /url: https://www.loc.gov/philanthropy/
+  - contentinfo [ref=e164]:
+    - generic: 
+    - generic [ref=e165]:
+      - generic [ref=e166]:
+        - link "Follow Us" [ref=e168] [cursor=pointer]:
+          - /url: /connect/
+        - list [ref=e169]:
+          - listitem [ref=e170]:
+            - link [ref=e171] [cursor=pointer]:
+              - /url: https://www.facebook.com/libraryofcongress/
+              - img "Library of Congress Facebook" [ref=e172]
+          - listitem [ref=e173]:
+            - link [ref=e174] [cursor=pointer]:
+              - /url: https://x.com/librarycongress
+              - img "Library of Congress X" [ref=e175]
+          - listitem [ref=e176]:
+            - link [ref=e177] [cursor=pointer]:
+              - /url: https://www.youtube.com/libraryofcongress/
+              - img "Library of Congress YouTube" [ref=e178]
+          - listitem [ref=e179]:
+            - link [ref=e180] [cursor=pointer]:
+              - /url: https://www.pinterest.com/LibraryCongress/
+              - img "Library of Congress Pinterest" [ref=e181]
+          - listitem [ref=e182]:
+            - link [ref=e183] [cursor=pointer]:
+              - /url: https://www.flickr.com/photos/library_of_congress/
+              - img "Library of Congress Flickr" [ref=e184]
+          - listitem [ref=e185]:
+            - link [ref=e186] [cursor=pointer]:
+              - /url: https://instagram.com/librarycongress/
+              - img "Library of Congress Instagram" [ref=e187]
+          - listitem [ref=e188]:
+            - link [ref=e189] [cursor=pointer]:
+              - /url: https://itunes.apple.com/us/artist/library-of-congress/id1280713133?mt=2
+              - img "Library of Congress iTunesU" [ref=e190]
+          - listitem [ref=e191]:
+            - link [ref=e192] [cursor=pointer]:
+              - /url: https://www.linkedin.com/company/library-of-congress
+              - img "Library of Congress LinkedIn" [ref=e193]
+          - listitem [ref=e194]:
+            - link [ref=e195] [cursor=pointer]:
+              - /url: https://loc.gov/subscribe/
+              - img "Email" [ref=e196]
+          - listitem [ref=e197]:
+            - link "Take our survey" [ref=e198] [cursor=pointer]:
+              - /url: https://www.research.net/r/libraryofcongress
+      - generic [ref=e199]:
+        - list [ref=e201]:
+          - listitem [ref=e202]:
+            - link "Accessibility" [ref=e203] [cursor=pointer]:
+              - /url: /accessibility/
+          - listitem [ref=e204]:
+            - link "Legal" [ref=e205] [cursor=pointer]:
+              - /url: /legal/
+          - listitem [ref=e206]:
+            - link "Inspector General" [ref=e207] [cursor=pointer]:
+              - /url: /about/office-of-the-inspector-general/
+          - listitem [ref=e208]:
+            - link "External Link Disclaimer" [ref=e209] [cursor=pointer]:
+              - /url: /legal/standard-disclaimer-for-external-links/
+          - listitem [ref=e210]:
+            - link "USA.gov" [ref=e211] [cursor=pointer]:
+              - /url: https://www.usa.gov/
+          - listitem [ref=e212]:
+            - link "Contact" [ref=e213] [cursor=pointer]:
+              - /url: /contact/
+          - listitem [ref=e214]:
+            - link "Media" [ref=e215] [cursor=pointer]:
+              - /url: https://newsroom.loc.gov
+          - listitem [ref=e216]:
+            - link "Donate" [ref=e217] [cursor=pointer]:
+              - /url: /programs/support-the-library-of-congress/
+          - listitem [ref=e218]:
+            - link "Shop" [ref=e219] [cursor=pointer]:
+              - /url: https://library-of-congress-shop.myshopify.com/
+        - list [ref=e221]:
+          - listitem [ref=e222]:
+            - link [ref=e223] [cursor=pointer]:
+              - /url: https://www.congress.gov/
+              - img "Congress.gov" [ref=e224]
+          - listitem [ref=e225]:
+            - link [ref=e226] [cursor=pointer]:
+              - /url: https://copyright.gov
+              - img "United States Copyright Office" [ref=e227]

@@ -1,0 +1,256 @@
+- generic [active] [ref=f638e1]:
+  - link "Skip to main content" [ref=f638e2] [cursor=pointer]:
+    - /url: "#skipto"
+  - banner [ref=f638e3]:
+    - navigation "Main Navigation" [ref=f638e5]:
+      - link [ref=f638e7] [cursor=pointer]:
+        - /url: /
+        - img "Salt Lake County Home Page" [ref=f638e8]
+  - region "Banner" [ref=f638e9]:
+    - heading "Jobs" [level=1] [ref=f638e13]
+  - navigation "Main Menu for Information Technology":
+    - generic:
+      - generic:
+        - navigation
+  - main "Career Portal" [ref=f638e17]:
+    - iframe [ref=f638e18]:
+      - generic [ref=f649e1]:
+        - text: 
+        - generic [ref=f649e2]:
+          - generic [ref=f649e6]:
+            - generic [ref=f649e7]: Returning Candidate?
+            - link "Log back in!" [ref=f649e9] [cursor=pointer]:
+              - /url: https://careers-slco.icims.com/jobs/login?loginOnly=1&redirect=&in_iframe=1&hashed=-625947255
+          - heading "Welcome" [level=1] [ref=f649e11]
+          - generic [ref=f649e14]:
+            - paragraph [ref=f649e15]: Welcome to Salt County's career site. Here you can view our current job openings and apply for positions online.
+            - paragraph [ref=f649e16]
+            - paragraph [ref=f649e17]:
+              - text: We look forward to reviewing your application for one of the many opportunities to help our great community. At Salt Lake County, we strive to ensure our employees have the best Total Rewards Package. If you would like to estimate what your pay and benefits will be worth, select this link
+              - strong [ref=f649e18]:
+                - link "Total Rewards Estimator" [ref=f649e19] [cursor=pointer]:
+                  - /url: https://app.powerbigov.us/view?r=eyJrIjoiZmQ0MzYyMTgtODNjMS00NDQ2LTk0MGQtYmE4MTRiN2FjMzhhIiwidCI6IjY1MTY4MTYzLTA5M2ItNDAzNi1hYmRiLTdhMmQ2YjZlNDk0OCJ9
+              - text: .
+            - paragraph [ref=f649e20]
+            - paragraph [ref=f649e21]:
+              - generic [ref=f649e22]:
+                - text: You can
+                - strong [ref=f649e23]:
+                  - link "v" [ref=f649e24] [cursor=pointer]:
+                    - /url: https://careers-slco.icims.com/jobs/search
+                  - link "iew" [ref=f649e25] [cursor=pointer]:
+                    - /url: https://careers-slco.icims.com/jobs/search
+                  - link "all open positions" [ref=f649e26] [cursor=pointer]:
+                    - /url: https://careers-slco.icims.com/jobs/search
+                - text: or use the following search form to find jobs that suit your specific career interests.
+            - paragraph [ref=f649e27]
+            - paragraph [ref=f649e28]:
+              - generic [ref=f649e29]:
+                - text: "Current SLCO employees can apply for internal positions here:"
+                - link [ref=f649e30] [cursor=pointer]:
+                  - /url: https://employees-slco.icims.com/
+                  - strong [ref=f649e31]: Employee Internal Site
+                - text: .
+            - paragraph [ref=f649e32]
+            - paragraph [ref=f649e33]:
+              - generic [ref=f649e34]:
+                - text: For internship information visit our
+                - strong [ref=f649e35]:
+                  - link "Internship Page" [ref=f649e36] [cursor=pointer]:
+                    - /url: https://www.slco.org/human-resources/recruitment/internships/
+                  - text: .
+            - paragraph [ref=f649e37]
+            - paragraph [ref=f649e38]:
+              - strong [ref=f649e39]:
+                - emphasis [ref=f649e40]:
+                  - generic [ref=f649e41]:
+                    - text: Para ver nuestro sitio de carreras en español, haga clic
+                    - link "AQUÍ" [ref=f649e42] [cursor=pointer]:
+                      - /url: https://careersspanish-slco.icims.com/jobs/intro
+                    - text: .
+            - paragraph [ref=f649e43]
+            - paragraph [ref=f649e44]
+            - paragraph [ref=f649e45]:
+              - iframe [ref=f649e46]
+            - paragraph [ref=f649e47]
+            - text: Or, if you prefer, you can simply
+            - link "submit your resume" [ref=f649e48] [cursor=pointer]:
+              - /url: https://careers-slco.icims.com/jobs/login?back=intro&in_iframe=1&hashed=-625947255
+            - text: for general consideration.
+          - heading "Job Listings" [level=2] [ref=f649e49]
+          - text: 
+          - generic [ref=f649e56]:
+            - generic [ref=f649e57]:
+              - generic [ref=f649e58]: Start your job search here
+              - generic [ref=f649e59]:
+                - textbox "Start your job search here" [ref=f649e60]
+                - generic: 
+              - button "Search" [ref=f649e62] [cursor=pointer]
+            - generic [ref=f649e63]:
+              - generic [ref=f649e64]:
+                - generic [ref=f649e65] [cursor=pointer]:
+                  - radio "All Keywords" [checked] [ref=f649e66]
+                  - text: All Keywords
+                - generic [ref=f649e67] [cursor=pointer]:
+                  - radio "Any Keywords" [ref=f649e68]
+                  - text: Any Keywords
+              - generic [ref=f649e70]:
+                - generic [ref=f649e71]:
+                  - generic [ref=f649e72]: Category
+                  - combobox "Category" [ref=f649e73]:
+                    - option "(All)" [selected]
+                    - option "Active Transportation"
+                    - option "Addressing"
+                    - option "Administrative Services"
+                    - option "Aging & Adult Services"
+                    - option "Animal Services"
+                    - option "Archives"
+                    - option "Arts and Culture"
+                    - option "Assessor"
+                    - option "Auditor"
+                    - option "Behavioral Health Services"
+                    - option "Bicycle Advisory Committee"
+                    - option "blank"
+                    - option "Building and Inspection"
+                    - option "Clark Planetarium"
+                    - option "Clerk"
+                    - option "Community Services"
+                    - option "Contracts and Procurement"
+                    - option "Council"
+                    - option "Council Tax Administration"
+                    - option "Criminal Justice Services"
+                    - option "District Attorney"
+                    - option "Diversity & Inclusion"
+                    - option "Economic Development"
+                    - option "Elected Officials"
+                    - option "Elections"
+                    - option "Emergency Services"
+                    - option "Employee University"
+                    - option "Equestrian Park"
+                    - option "Facilities Management"
+                    - option "Fleet Management"
+                    - option "Flood Control"
+                    - option "Garbage & Recycling Collection"
+                    - option "Grant Partnerships & Special Projects"
+                    - option "Green & Healthy Homes"
+                    - option "Health Department"
+                    - option "Homeless Services"
+                    - option "Housing & Community Development"
+                    - option "Human Resources"
+                    - option "Human Services"
+                    - option "Information Technology"
+                    - option "Justice Court"
+                    - option "Landfill"
+                    - option "Lead Safe Housing"
+                    - option "Library Services"
+                    - option "Maps"
+                    - option "Mayor"
+                    - option "Mayor's Finance"
+                    - option "Mayor's Office"
+                    - option "Mayor's Office of Criminal Justice Initiatives"
+                    - option "Mental Health Services"
+                    - option "Mountain America Expo Center (formerly South Town Expo Center)"
+                    - option "New Americans"
+                    - option "Office of Data & Innovation"
+                    - option "Open Space Trust Fund"
+                    - option "Parks and Recreation"
+                    - option "Planetarium"
+                    - option "Planning and Development Services"
+                    - option "Printing"
+                    - option "Property Tax Information"
+                    - option "Public Art"
+                    - option "Public Works & Municipal Services"
+                    - option "Public Works Engineering"
+                    - option "Public Works Operations"
+                    - option "Real Estate"
+                    - option "Recorder"
+                    - option "Records Management"
+                    - option "Recycle"
+                    - option "Regional Development"
+                    - option "Salt Lake Convention and Visitors Bureau"
+                    - option "Salt Palace Convention Center"
+                    - option "Sheriff"
+                    - option "SLCo Sustainability"
+                    - option "Stream Flow - Realtime Reporting"
+                    - option "Surveyor"
+                    - option "Treasurer"
+                    - option "Unified Fire Authority"
+                    - option "USU Extension Services"
+                    - option "Volunteer Services"
+                    - option "Watershed Planning and Restoration"
+                    - option "Weed Control"
+                    - option "Youth Services"
+                    - option "Zoo, Arts, and Parks"
+                - generic [ref=f649e74]:
+                  - generic [ref=f649e75]: Position Type
+                  - combobox "Position Type" [ref=f649e76]:
+                    - option "(All)" [selected]
+                    - option "Regular Full-Time (Merit)"
+                    - option "Regular Full-Time (Sworn Merit)"
+                    - option "Regular Part-Time (Merit)"
+                    - option "Temporary Full-Time"
+                    - option "Temporary Part-Time"
+                    - option "Contract"
+                    - option "Intern"
+                    - option "Appointed"
+                    - option "Time-Limited"
+                    - option "Elected"
+                - generic [ref=f649e77]:
+                  - generic [ref=f649e78]: Location
+                  - combobox "Location" [ref=f649e79]:
+                    - option "(All)" [selected]
+                    - option "(Current Location)"
+                    - option "(Zip Code)"
+                    - option "UT,Draper"
+                    - option "UT,Holladay"
+                    - option "UT,Magna"
+                    - option "UT,MIDVALE"
+                    - option "UT,Millcreek"
+                    - option "UT,Murray"
+                    - option "UT,Riverton"
+                    - option "UT,SALT LAKE CITY"
+                    - option "UT,Sandy"
+                    - option "UT,South Jordan"
+                    - option "UT,SOUTH SALT LAKE"
+                    - option "UT,Taylorsville"
+                    - option "UT,West Jordan"
+                    - option "UT,West Valley City"
+                  - generic [ref=f649e81]: One additional field has been created
+                  - generic [ref=f649e82]: Two additional fields have been created
+                  - generic [ref=f649e83]: One field has been collapsed
+                  - generic [ref=f649e84]: Two fields have been collapsed
+        - generic [ref=f649e87]:
+          - link "Application FAQs" [ref=f649e88] [cursor=pointer]:
+            - /url: https://icims.help/candidate-faq
+          - paragraph [ref=f649e90]:
+            - text: Software Powered by ICIMS
+            - link "www.icims.com" [ref=f649e91] [cursor=pointer]:
+              - /url: http://www.icims.com/platform_help?utm_source=platform&utm_medium=link&utm_content=page1&utm_campaign=platform%20help
+  - contentinfo "Footer" [ref=f638e19]:
+    - navigation "Footer Navigation" [ref=f638e20]:
+      - list [ref=f638e23]:
+        - listitem [ref=f638e24]:
+          - link "TTY" [ref=f638e25] [cursor=pointer]:
+            - /url: /tty/
+        - listitem [ref=f638e26]:
+          - link "Disclaimer" [ref=f638e27] [cursor=pointer]:
+            - /url: /disclaimer/
+        - listitem [ref=f638e28]:
+          - link "Non Discrimination" [ref=f638e29] [cursor=pointer]:
+            - /url: /non-discrimination/
+        - listitem [ref=f638e30]:
+          - link "Accessibility" [ref=f638e31] [cursor=pointer]:
+            - /url: /accessibility/
+        - listitem [ref=f638e32]:
+          - link "Privacy Statement" [ref=f638e33] [cursor=pointer]:
+            - /url: /privacy-policy/
+        - listitem [ref=f638e34]:
+          - link "GRAMA" [ref=f638e35] [cursor=pointer]:
+            - /url: https://saltlakecountyut.nextrequest.com/
+        - listitem [ref=f638e36]:
+          - link "County Directory" [ref=f638e37] [cursor=pointer]:
+            - /url: /contact/
+        - listitem [ref=f638e38]:
+          - link "Employee Connect" [ref=f638e39] [cursor=pointer]:
+            - /url: /econnect/
+      - paragraph [ref=f638e40]

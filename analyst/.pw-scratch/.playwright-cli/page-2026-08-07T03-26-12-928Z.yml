@@ -1,0 +1,317 @@
+- generic [active] [ref=f81e1]:
+  - region "skip navigation":
+    - link "Skip to main content" [ref=f81e2] [cursor=pointer]:
+      - /url: "#main"
+    - link "Skip to footer" [ref=f81e3] [cursor=pointer]:
+      - /url: "#footer"
+  - generic [ref=f81e4]:
+    - banner [ref=f81e6]:
+      - navigation "global" [ref=f81e12]:
+        - text: 
+        - link "Accenture Home" [ref=f81e14] [cursor=pointer]:
+          - /url: /us-en
+          - img "Accenture" [ref=f81e16]
+        - toolbar [ref=f81e19]:
+          - text: 
+          - list [ref=f81e20]:
+            - listitem [ref=f81e21]:
+              - button "What we do" [ref=f81e22] [cursor=pointer]:
+                - generic [ref=f81e24]: 
+            - listitem [ref=f81e25]:
+              - link "What we think" [ref=f81e26] [cursor=pointer]:
+                - /url: /us-en/insights
+            - listitem [ref=f81e28]:
+              - button "Who we are" [ref=f81e29] [cursor=pointer]:
+                - generic [ref=f81e31]: 
+            - listitem [ref=f81e32]:
+              - button "Careers" [ref=f81e33] [cursor=pointer]:
+                - generic [ref=f81e35]: 
+          - text:   
+        - generic [ref=f81e36]:
+          - link "Search" [ref=f81e38] [cursor=pointer]:
+            - /url: /us-en/search
+            - generic [ref=f81e40]: 
+          - 'button "Country and language selector. Current Country: USA" [ref=f81e42]':
+            - text: 
+            - generic [ref=f81e43]: USA
+            - generic [ref=f81e44]: 
+    - main [ref=f81e45]:
+      - generic [ref=f81e46]:
+        - generic [ref=f81e52]:
+          - link "Careers" [ref=f81e54] [cursor=pointer]:
+            - /url: /us-en/careers
+          - generic [ref=f81e55]:
+            - navigation "Page" [ref=f81e56]:
+              - link "Job Search" [ref=f81e57] [cursor=pointer]:
+                - /url: /us-en/careers/jobsearch
+              - link "Saved Jobs" [ref=f81e59] [cursor=pointer]:
+                - /url: /us-en/careers/saved-jobs
+              - link "Access Application" [ref=f81e61] [cursor=pointer]:
+                - /url: https://accenture.wd103.myworkdayjobs.com/AccentureCareers/userHome
+            - text: 
+        - generic [ref=f81e65]:
+          - heading "Belong. Grow. Thrive. Reinvent with Accenture" [level=1] [ref=f81e66]
+          - paragraph [ref=f81e68]: Join a great place to work for reinventors who drive meaningful change for our clients, communities, and the world.
+          - link "Search open roles at Accenture" [ref=f81e70] [cursor=pointer]:
+            - /url: /us-en/careers/jobsearch
+            - generic [ref=f81e71]: Search open roles
+        - region [ref=f81e73]:
+          - heading "Whatever you want to do" [level=2] [ref=f81e75]
+          - generic [ref=f81e76]:
+            - generic:
+              - text: 
+              - button "pause automatic slide show" [ref=f81e77] [cursor=pointer]:
+                - generic [ref=f81e79]: 
+            - generic [ref=f81e80]:
+              - button "show previous slide" [ref=f81e81] [cursor=pointer]:
+                - generic [ref=f81e83]: 
+              - generic [ref=f81e84]:
+                - generic [ref=f81e85]: slideText
+                - generic [ref=f81e86]: "1"
+                - generic [ref=f81e87]: ofText
+                - generic [ref=f81e88]: /
+                - generic [ref=f81e89]: "8"
+              - button "show next slide" [ref=f81e90] [cursor=pointer]:
+                - generic [ref=f81e92]: 
+          - generic [ref=f81e95]:
+            - group "slide 1 of 8" [ref=f81e96]:
+              - img "A man looks down smiling" [ref=f81e98]
+              - generic [ref=f81e99]:
+                - heading "Grow your career" [level=3] [ref=f81e100]
+                - paragraph [ref=f81e101]: From developers and designers to strategists and SAP pros, there are endless opportunities for you to learn, grow and make a difference.
+                - link "Learn more about Career Areas" [ref=f81e102] [cursor=pointer]:
+                  - /url: /us-en/careers/explore-careers/career-areas
+                  - generic [ref=f81e103]: Learn more
+                  - generic [ref=f81e104]: 
+            - group [ref=f81e105]:
+              - generic [ref=f81e108]:
+                - heading [level=3] [ref=f81e109]: Artificial intelligence (AI) & data science
+                - paragraph [ref=f81e110]: Unlock the power of AI and data to reinvent all facets of business–responsibly.
+                - link [ref=f81e111] [cursor=pointer]:
+                  - /url: /us-en/careers/explore-careers/area-of-interest/ai-data-science-careers
+                  - generic [ref=f81e112]: Learn more
+                  - generic [ref=f81e113]: 
+            - group [ref=f81e114]:
+              - generic [ref=f81e117]:
+                - heading [level=3] [ref=f81e118]: Consulting
+                - paragraph [ref=f81e119]: Industry understanding. Deep insights. Big ideas. You’ll help clients understand what they need to reinvent for the future.
+                - link [ref=f81e120] [cursor=pointer]:
+                  - /url: /us-en/careers/explore-careers/area-of-interest/consulting-careers
+                  - generic [ref=f81e121]: Learn more
+                  - generic [ref=f81e122]: 
+            - group [ref=f81e123]:
+              - generic [ref=f81e126]:
+                - heading [level=3] [ref=f81e127]: Engineering & manufacturing
+                - paragraph [ref=f81e128]: Use data, insights, and emerging technology to help clients reimagine what they make—and how they can make it faster, better and more sustainably.
+                - link [ref=f81e129] [cursor=pointer]:
+                  - /url: /us-en/careers/explore-careers/area-of-interest/engineering-manufacturing-careers
+                  - generic [ref=f81e130]: Learn more
+                  - generic [ref=f81e131]: 
+            - group [ref=f81e132]:
+              - generic [ref=f81e135]:
+                - heading [level=3] [ref=f81e136]: Operations & delivery
+                - paragraph [ref=f81e137]: Use data, insights and tech to reimagine how people work, moving operations from transactional to transformational.
+                - link [ref=f81e138] [cursor=pointer]:
+                  - /url: /us-en/careers/explore-careers/area-of-interest/operations-delivery-careers
+                  - generic [ref=f81e139]: Learn more
+                  - generic [ref=f81e140]: 
+            - group [ref=f81e141]:
+              - generic [ref=f81e144]:
+                - heading [level=3] [ref=f81e145]: Software engineering
+                - paragraph [ref=f81e146]: Create software that will power change and empower people.
+                - link [ref=f81e147] [cursor=pointer]:
+                  - /url: /us-en/careers/explore-careers/area-of-interest/software-engineering-careers
+                  - generic [ref=f81e148]: Learn more
+                  - generic [ref=f81e149]: 
+            - group [ref=f81e150]:
+              - generic [ref=f81e153]:
+                - heading [level=3] [ref=f81e154]: Strategy
+                - paragraph [ref=f81e155]: Success is rooted in smart strategy. Use your insights and strategic thinking to understand how our clients can reinvent to stay ahead of change.
+                - link [ref=f81e156] [cursor=pointer]:
+                  - /url: /us-en/careers/explore-careers/area-of-interest/strategy-careers
+                  - generic [ref=f81e157]: Learn more
+                  - generic [ref=f81e158]: 
+            - group [ref=f81e159]:
+              - generic [ref=f81e162]:
+                - heading [level=3] [ref=f81e163]: Technology
+                - paragraph [ref=f81e164]: Get hands-on with the technologies that our clients need to reinvent, work in new ways and change the world for the better.
+                - link [ref=f81e165] [cursor=pointer]:
+                  - /url: /us-en/careers/explore-careers/area-of-interest/technology-careers
+                  - generic [ref=f81e166]: Learn more
+                  - generic [ref=f81e167]: 
+        - generic [ref=f81e169]:
+          - heading "Wherever you are in your career" [level=2] [ref=f81e171]
+          - tablist [ref=f81e173]:
+            - tab "Students" [selected] [ref=f81e174] [cursor=pointer]:
+              - heading "Students" [level=3] [ref=f81e175]
+            - tab [selected] [ref=f81e176]:
+              - generic [ref=f81e178]:
+                - paragraph [ref=f81e180]: You'll join a great place to build your skills and launch your career. From summer internships to innovation-led opportunities, we welcome your curiosity.
+                - img "The back view of a girl wearing a yellow backpack going to her class" [ref=f81e182]
+            - tab "Apprenticeships" [ref=f81e183] [cursor=pointer]:
+              - heading "Apprenticeships" [level=3] [ref=f81e184]
+            - tab [ref=f81e185]
+            - tab "Early career professionals" [ref=f81e186] [cursor=pointer]:
+              - heading "Early career professionals" [level=3] [ref=f81e187]
+            - tab [ref=f81e188]
+            - tab "Experienced professionals" [ref=f81e189] [cursor=pointer]:
+              - heading "Experienced professionals" [level=3] [ref=f81e190]
+            - tab [ref=f81e191]
+            - tab "Executive leaders" [ref=f81e192] [cursor=pointer]:
+              - heading "Executive leaders" [level=3] [ref=f81e193]
+            - tab [ref=f81e194]
+            - 'tab "Explore opportunities: Accenture Flex - Powering Industries with Agile, Expert Talent" [ref=f81e195] [cursor=pointer]':
+              - heading "Accenture Flex" [level=3] [ref=f81e196]
+            - tab [ref=f81e197]
+        - generic [ref=f81e199]:
+          - generic [ref=f81e200]:
+            - heading "You belong here" [level=2] [ref=f81e201]
+            - paragraph [ref=f81e202]: No two people are the same. By prioritizing six areas of well-being, we foster an inclusive environment where we all feel valued, seen and heard—we call this Net Better Off.
+          - generic [ref=f81e203]:
+            - generic [ref=f81e204]:
+              - link "Emotional & mental" [ref=f81e205] [cursor=pointer]:
+                - /url: /us-en/careers/local/benefits
+                - img "A young woman smiling and enjoying the breeze and sunset from a mountain viewpoint." [ref=f81e207]
+              - generic [ref=f81e208]:
+                - heading "Emotional & mental" [level=3] [ref=f81e209]
+                - paragraph [ref=f81e210]: Ongoing support for mental health and wellness
+                - 'link "See benefits: Emotional & mental" [ref=f81e211] [cursor=pointer]':
+                  - /url: /us-en/careers/local/benefits
+                  - generic [ref=f81e212]: See benefits
+                  - generic [ref=f81e213]: 
+            - generic [ref=f81e214]:
+              - link "Relational" [ref=f81e215] [cursor=pointer]:
+                - /url: /us-en/about/inclusion-diversity-index
+                - img "They are sitting on orange chairs and discussing together with laptop and notes" [ref=f81e217]
+              - generic [ref=f81e218]:
+                - heading "Relational" [level=3] [ref=f81e219]
+                - paragraph [ref=f81e220]: Ensuring a sense of belonging and connection for all
+                - 'link "Explore our approach: Relational" [ref=f81e221] [cursor=pointer]':
+                  - /url: /us-en/about/inclusion-diversity-index
+                  - generic [ref=f81e222]: Explore our approach
+                  - generic [ref=f81e223]: 
+            - generic [ref=f81e224]:
+              - link "Physical" [ref=f81e225] [cursor=pointer]:
+                - /url: /us-en/careers/local/benefits
+                - img "Sprinter seen from above with shadow and copy space" [ref=f81e227]
+              - generic [ref=f81e228]:
+                - heading "Physical" [level=3] [ref=f81e229]
+                - paragraph [ref=f81e230]: Supporting physical well-being
+                - 'link "See physical benefits : Benefits for the whole you" [ref=f81e231] [cursor=pointer]':
+                  - /url: /us-en/careers/local/benefits
+                  - generic [ref=f81e232]: See benefits
+                  - generic [ref=f81e233]: 
+        - generic [ref=f81e236]:
+          - generic [ref=f81e237]:
+            - link "Purposeful" [ref=f81e238] [cursor=pointer]:
+              - /url: /us-en/about/company-index
+              - img "The class tutor addresses the group while answering the question of a student." [ref=f81e240]
+            - generic [ref=f81e241]:
+              - heading "Purposeful" [level=3] [ref=f81e242]
+              - paragraph [ref=f81e243]: Evolving our purpose to meet an enlightened workforce, customers and community
+              - 'link "See what we believe: About our company Accenture" [ref=f81e244] [cursor=pointer]':
+                - /url: /us-en/about/company-index
+                - generic [ref=f81e245]: See what we believe
+                - generic [ref=f81e246]: 
+          - generic [ref=f81e247]:
+            - link "Employable" [ref=f81e248] [cursor=pointer]:
+              - /url: /us-en/careers/life-at-accenture/learning-development
+              - img "Group of people talking" [ref=f81e250]
+            - generic [ref=f81e251]:
+              - heading "Employable" [level=3] [ref=f81e252]
+              - paragraph [ref=f81e253]: Helping you get the right skills to advance to higher paying roles
+              - link "Explore learning and development" [ref=f81e254] [cursor=pointer]:
+                - /url: /us-en/careers/life-at-accenture/learning-development
+                - generic [ref=f81e256]: 
+          - generic [ref=f81e257]:
+            - link "Financial" [ref=f81e258] [cursor=pointer]:
+              - /url: /us-en/careers/local/benefits
+              - img "Holding and browsing laptop in one hand" [ref=f81e260]
+            - generic [ref=f81e261]:
+              - heading "Financial" [level=3] [ref=f81e262]
+              - paragraph [ref=f81e263]: Offering rewards and benefits packages to meet your needs
+              - 'link "See financial benefits: Benefits for the whole you" [ref=f81e264] [cursor=pointer]':
+                - /url: /us-en/careers/local/benefits
+                - generic [ref=f81e265]: See benefits
+                - generic [ref=f81e266]: 
+        - generic [ref=f81e269]:
+          - heading "We are everywhere" [level=2] [ref=f81e270]
+          - generic [ref=f81e271]:
+            - generic [ref=f81e273]:
+              - paragraph [ref=f81e274]: 799k
+              - paragraph [ref=f81e276]: Accenture people worldwide
+            - generic [ref=f81e278]:
+              - paragraph [ref=f81e279]: 200+
+              - paragraph [ref=f81e281]: Cities with Accenture offices in 52 countries
+            - generic [ref=f81e283]:
+              - paragraph [ref=f81e284]: 9,000+
+              - paragraph [ref=f81e286]: Clients served across more than 120 countries
+        - generic:
+          - generic:
+            - generic:
+              - generic:
+                - heading [level=2]
+        - generic [ref=f81e291]:
+          - heading "Stay connected" [level=2] [ref=f81e292]
+          - generic [ref=f81e293]:
+            - generic [ref=f81e295]:
+              - heading "Join us" [level=3] [ref=f81e299]
+              - paragraph [ref=f81e301]: Explore open roles that match your interests and skills.
+              - link "Search jobs at Accenture" [ref=f81e302] [cursor=pointer]:
+                - /url: /us-en/careers/jobsearch
+                - generic [ref=f81e303]: Search jobs
+                - generic [ref=f81e304]: 
+            - generic [ref=f81e306]:
+              - heading "Stay in touch" [level=3] [ref=f81e310]
+              - paragraph [ref=f81e312]: Get career tips and industry-leading insights.
+              - link "Learn more about careers blogs" [ref=f81e313] [cursor=pointer]:
+                - /url: /us-en/blogs/blogs-careers
+                - generic [ref=f81e314]: Learn more
+                - generic [ref=f81e315]: 
+    - contentinfo [ref=f81e316]:
+      - generic [ref=f81e322]:
+        - heading "Let there be change" [level=2] [ref=f81e323]
+        - generic [ref=f81e324]:
+          - generic [ref=f81e325]:
+            - list [ref=f81e326]:
+              - listitem [ref=f81e327]:
+                - link "About Us" [ref=f81e328] [cursor=pointer]:
+                  - /url: /us-en/about/company-index
+              - listitem [ref=f81e329]:
+                - link "Contact Us" [ref=f81e330] [cursor=pointer]:
+                  - /url: /us-en/about/contact-us
+              - listitem [ref=f81e331]:
+                - link "Alumni" [ref=f81e332] [cursor=pointer]:
+                  - /url: https://www.accenturealumni.com/
+              - listitem [ref=f81e333]:
+                - link "Privacy Statement" [ref=f81e334] [cursor=pointer]:
+                  - /url: /us-en/support/privacy-policy
+            - list [ref=f81e335]:
+              - listitem [ref=f81e336]:
+                - link "Recruiting and Hiring Privacy Statement" [ref=f81e337] [cursor=pointer]:
+                  - /url: /us-en/careers/support/privacy-statement
+              - listitem [ref=f81e338]:
+                - link "Applicant Notices – Federal, State & Local" [ref=f81e339] [cursor=pointer]:
+                  - /url: /us-en/careers/support/e-verify-legal-notices
+              - listitem [ref=f81e340]:
+                - link "Terms & Conditions" [ref=f81e341] [cursor=pointer]:
+                  - /url: /us-en/support/terms-of-use
+              - listitem [ref=f81e342]:
+                - link "Cookie Policy" [ref=f81e343] [cursor=pointer]:
+                  - /url: /us-en/support/company-cookies-similar-technology
+              - listitem [ref=f81e344]:
+                - link "Accessibility Statement" [ref=f81e345] [cursor=pointer]:
+                  - /url: /us-en/support/accessibility-statement
+              - listitem [ref=f81e346]:
+                - link "Sitemap" [ref=f81e347] [cursor=pointer]:
+                  - /url: /us-en/support/site-map
+              - listitem [ref=f81e348]:
+                - link "Global Meritocracy" [ref=f81e349] [cursor=pointer]:
+                  - /url: /us-en/support/global-meritocracy
+              - listitem [ref=f81e350]:
+                - link "Labor Condition Applications" [ref=f81e351] [cursor=pointer]:
+                  - /url: /us-en/careers/support/labor-condition-applications
+              - listitem [ref=f81e352]:
+                - link "Do Not Sell/Share My Personal Information" [ref=f81e353] [cursor=pointer]:
+                  - /url: /us-en/support/form-do-not-sell-my-personal-information
+          - paragraph [ref=f81e354]: © 2026 Accenture. All Rights Reserved.

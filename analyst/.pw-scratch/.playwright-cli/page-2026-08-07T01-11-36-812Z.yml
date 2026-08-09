@@ -1,0 +1,163 @@
+- generic [active] [ref=f45e1]:
+  - generic [ref=f45e6]:
+    - link "Skip to main content" [ref=f45e7] [cursor=pointer]:
+      - /url: javascript:void(0)
+    - banner [ref=f45e8]:
+      - generic [ref=f45e10]:
+        - text:  
+        - link "Microsoft" [ref=f45e11] [cursor=pointer]:
+          - /url: https://www.microsoft.com
+        - text:  
+        - link "Careers" [ref=f45e15] [cursor=pointer]:
+          - /url: https://careers.microsoft.com/v2/global/en/home.html
+        - navigation "Contextual menu" [ref=f45e17]:
+          - list [ref=f45e18]:
+            - listitem [ref=f45e19]:
+              - link "Locations" [ref=f45e20] [cursor=pointer]:
+                - /url: https://careers.microsoft.com/v2/global/en/locations.html
+            - listitem [ref=f45e21]:
+              - link "Professions" [ref=f45e22] [cursor=pointer]:
+                - /url: https://careers.microsoft.com/v2/global/en/professions.html
+            - listitem [ref=f45e23]:
+              - button "Programs " [ref=f45e25] [cursor=pointer]
+            - listitem [ref=f45e26]:
+              - button "Life at Microsoft " [ref=f45e28] [cursor=pointer]
+            - listitem [ref=f45e29]:
+              - link "Hiring tips" [ref=f45e30] [cursor=pointer]:
+                - /url: https://careers.microsoft.com/v2/global/en/hiring-tips.html
+            - text: 
+            - listitem
+        - generic [ref=f45e31]:
+          - button "Search jobs" [ref=f45e33] [cursor=pointer]: 
+          - generic:  
+          - generic [ref=f45e34]: Sign in
+  - generic [ref=f45e40]:
+    - banner [ref=f45e41]:
+      - heading "Join Our Talent Network" [level=1] [ref=f45e43]
+    - main [ref=f45e45]:
+      - generic [ref=f45e46]: Whether you're in the market or just keeping your options open, our Talent Network keeps you connected to the latest news at Microsoft.We'll keep you in the loop with job opportunities, employee stories, innovative projects, and tips to help you grow. No pressure, just possibilities.
+      - generic [ref=f45e49]: Required fields are indicated with *
+      - generic [ref=f45e54]:
+        - generic [ref=f45e55]: Resume *
+        - button "Please upload resume" [ref=f45e60] [cursor=pointer]
+      - generic [ref=f45e61]:
+        - alert [ref=f45e62]
+        - generic [ref=f45e63]:
+          - generic [ref=f45e67]:
+            - generic [ref=f45e68]:
+              - generic [ref=f45e69]: Preferred first name
+              - text: "*"
+            - textbox "Preferred first name" [ref=f45e72]
+          - generic [ref=f45e74]:
+            - generic [ref=f45e75]:
+              - generic [ref=f45e76]: Preferred last name
+              - text: "*"
+            - textbox "Preferred last name" [ref=f45e79]
+          - generic [ref=f45e81]:
+            - generic [ref=f45e82]:
+              - generic [ref=f45e83]: Email address
+              - text: "*"
+            - textbox "Email address" [ref=f45e86]:
+              - /placeholder: Email
+          - generic [ref=f45e87]:
+            - generic [ref=f45e88]:
+              - generic [ref=f45e89]: Country/region of residence
+              - text: "*"
+            - generic [ref=f45e91]:
+              - status [ref=f45e92]
+              - generic [ref=f45e97] [cursor=pointer]:
+                - combobox "Country/region of residence" [ref=f45e98]
+                - button [ref=f45e99]
+          - generic [ref=f45e103]:
+            - generic [ref=f45e104]: When are you willing to make a career move?
+            - generic [ref=f45e108]:
+              - status [ref=f45e109]
+              - generic [ref=f45e114] [cursor=pointer]:
+                - combobox "When are you willing to make a career move?" [ref=f45e115]
+                - button [ref=f45e116]
+          - generic [ref=f45e120]:
+            - generic [ref=f45e121]: "For US only: Do you have Active Security Clearance?"
+            - generic [ref=f45e125]:
+              - status [ref=f45e126]
+              - generic [ref=f45e131] [cursor=pointer]:
+                - 'combobox "For US only: Do you have Active Security Clearance?" [ref=f45e132]'
+                - button [ref=f45e133]
+      - generic [ref=f45e138]:
+        - generic [ref=f45e139]:
+          - generic [ref=f45e140]: Desired area of work
+          - text: "*"
+        - generic [ref=f45e144]:
+          - generic [ref=f45e145]: Select
+          - combobox "Desired area of work" [ref=f45e147]
+      - generic [ref=f45e153]:
+        - group:
+          - generic [ref=f45e155]:
+            - checkbox "I agree to receive electronic communication from Microsoft Recruiting, including updates about events, news, career opportunities, and direct outreach from recruiters. I also agree to receive email notifications when new jobs open that align with my profile. If I no longer wish to receive these communications, I can unsubscribe at any time using the “unsubscribe” link provided in the footer of each email. I understand that Microsoft Recruiting may view my profile as a potential match recommendation for roles I haven't applied for, based on AI insights." [ref=f45e157] [cursor=pointer]: 
+            - generic [ref=f45e158]: "* I agree to receive electronic communication from Microsoft Recruiting, including updates about events, news, career opportunities, and direct outreach from recruiters. I also agree to receive email notifications when new jobs open that align with my profile. If I no longer wish to receive these communications, I can unsubscribe at any time using the “unsubscribe” link provided in the footer of each email. I understand that Microsoft Recruiting may view my profile as a potential match recommendation for roles I haven't applied for, based on AI insights."
+      - button "Join Talent Network" [ref=f45e162] [cursor=pointer]
+  - contentinfo [ref=f45e164]:
+    - generic [ref=f45e167]:
+      - paragraph [ref=f45e169]:
+        - link [ref=f45e170] [cursor=pointer]:
+          - /url: https://eightfold.ai
+          - text: Powered by
+          - img "Eightfold AI Logo" [ref=f45e171]
+      - paragraph [ref=f45e174]:
+        - text: This site uses AI technology provided by Eightfold, the provider of the system. Microsoft, as the deployer, applies human oversight and judgment when using this technology. For details on Eightfold's AI functionality, please see
+        - link "Eightfold's transparency documentation" [ref=f45e175] [cursor=pointer]:
+          - /url: https://eightfold.ai/responsible-ai/
+        - text: . Learn more about Microsoft's data practices in the
+        - link "Microsoft Data Privacy Notice" [ref=f45e176] [cursor=pointer]:
+          - /url: http://go.microsoft.com/fwlink/?LinkId=518021
+        - text: and
+        - link "Career Site Transparency FAQs" [ref=f45e177] [cursor=pointer]:
+          - /url: https://careers.microsoft.com/v2/global/en/transparency.html
+        - text: .
+      - contentinfo [ref=f45e178]:
+        - contentinfo [ref=f45e179]:
+          - generic [ref=f45e180]:
+            - generic [ref=f45e181]:
+              - generic [ref=f45e182]:
+                - generic [ref=f45e183]: 
+                - generic [ref=f45e184]:
+                  - link "English" [disabled]
+                  - text: "|"
+                - link "FR - Canada" [ref=f45e186] [cursor=pointer]
+              - generic [ref=f45e188]:
+                - link "Support" [ref=f45e190] [cursor=pointer]:
+                  - /url: https://apply.careers.microsoft.com/careers/forms/create?templateId=yx2LlRBJ7wq&fullPageResponse=1&hl=en-US
+                - link "Accessibility" [ref=f45e192] [cursor=pointer]:
+                  - /url: https://careers.microsoft.com/v2/global/en/accessibility.html
+                - link "Microsoft Data Privacy Notice" [ref=f45e194] [cursor=pointer]:
+                  - /url: http://go.microsoft.com/fwlink/?LinkId=518021
+                - link "Transparency FAQ" [ref=f45e196] [cursor=pointer]:
+                  - /url: https://careers.microsoft.com/v2/global/en/transparency.html
+                - link "Legal policies" [ref=f45e198] [cursor=pointer]:
+                  - /url: https://careers.microsoft.com/v2/global/en/legal-policies.html
+                - link "Contractor roles" [ref=f45e200] [cursor=pointer]:
+                  - /url: https://careers.microsoft.com/v2/global/en/contractor-roles.html
+            - generic [ref=f45e201]:
+              - link "Facebook" [ref=f45e203] [cursor=pointer]:
+                - /url: https://www.facebook.com/MicrosoftLife
+              - link "Linkedin" [ref=f45e208] [cursor=pointer]:
+                - /url: https://www.linkedin.com/company/microsoft
+              - link "Instagram" [ref=f45e215] [cursor=pointer]:
+                - /url: https://www.instagram.com/microsoftlife
+              - link "x" [ref=f45e225] [cursor=pointer]:
+                - /url: https://x.com/microsoft
+          - generic [ref=f45e232]:
+            - link "Your Privacy Choices" [ref=f45e239] [cursor=pointer]:
+              - /url: https://aka.ms/yourcaliforniaprivacychoices
+            - link "Consumer Health Privacy" [ref=f45e240] [cursor=pointer]:
+              - /url: https://go.microsoft.com/fwlink/?linkid=2259814
+            - link "Privacy" [ref=f45e241] [cursor=pointer]:
+              - /url: https://go.microsoft.com/fwlink/?LinkId=521839
+            - link "Trademarks" [ref=f45e242] [cursor=pointer]:
+              - /url: https://go.microsoft.com/fwlink/?linkid=2196228
+            - link "Terms of use" [ref=f45e243] [cursor=pointer]:
+              - /url: https://go.microsoft.com/fwlink/?LinkID=206977
+            - generic [ref=f45e244]: © Microsoft 2026
+  - iframe [ref=f45e247]:
+    - generic [ref=f46e6]:
+      - text: protected by
+      - strong [ref=f46e7]: reCAPTCHA

@@ -1,0 +1,87 @@
+- generic [ref=f15e12]:
+  - generic [ref=f15e14]:
+    - generic [ref=f15e15]: Explore the things you love.
+    - generic [ref=f15e34]:
+      - generic [ref=f15e35]: Log into Facebook
+      - generic [ref=f15e46]:
+        - textbox "Email or mobile number" [ref=f15e51]
+        - textbox "Password" [ref=f15e56]
+        - button "Log In" [ref=f15e60] [cursor=pointer]:
+          - generic [ref=f15e61]: Log in
+        - link "Forgot password?" [ref=f15e67] [cursor=pointer]:
+          - /url: /recover/initiate/?privacy_mutation_token=eyJ0eXBlIjo1LCJjcmVhdGlvbl90aW1lIjoxNzg2MDc0NTI5fQ%3D%3D&ars=facebook_login
+        - link "Create new account" [ref=f15e73] [cursor=pointer]:
+          - /url: /reg/?entry_point=login&next=
+        - img "Meta logo" [ref=f15e78]
+  - separator [ref=f15e86]
+  - main [ref=f15e92]:
+    - separator [ref=f15e94]
+    - generic [ref=f15e99]:
+      - generic [ref=f15e101]:
+        - generic [ref=f15e102]: English (US)
+        - link "Español" [ref=f15e106] [cursor=pointer]:
+          - /url: "#"
+        - link "Français (France)" [ref=f15e109] [cursor=pointer]:
+          - /url: "#"
+        - link "中文(简体)" [ref=f15e112] [cursor=pointer]:
+          - /url: "#"
+        - link "العربية" [ref=f15e115] [cursor=pointer]:
+          - /url: "#"
+        - link "Português (Brasil)" [ref=f15e118] [cursor=pointer]:
+          - /url: "#"
+        - link "Italiano" [ref=f15e121] [cursor=pointer]:
+          - /url: "#"
+        - link "More languages…" [ref=f15e124] [cursor=pointer]:
+          - /url: "#"
+      - generic [ref=f15e127]:
+        - link "Sign Up" [ref=f15e130] [cursor=pointer]:
+          - /url: https://www.facebook.com/reg/
+        - link "Log In" [ref=f15e133] [cursor=pointer]:
+          - /url: https://www.facebook.com/login/
+        - link "Messenger" [ref=f15e136] [cursor=pointer]:
+          - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fmessenger.com%2F&h=AUAuar_px8BG9sWvIDQO6ThYD3Xz3zRtGpxnp-pKmB0fuh3u1KsAPuKiSWPC15AfDQvjv2EJrcJhni4fiAey8eGLC-G8VelV4jm2NQRJaB3yiuf5n6KrsZQ5WaTrBVorLbbN_XevR1hECYEVVgiKsw
+        - link "Facebook Lite" [ref=f15e139] [cursor=pointer]:
+          - /url: https://www.facebook.com/lite/
+        - link "Video" [ref=f15e142] [cursor=pointer]:
+          - /url: https://www.facebook.com/watch/
+        - link "Meta Pay" [ref=f15e145] [cursor=pointer]:
+          - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fabout.meta.com%2Ftechnologies%2Fmeta-pay&h=AUAuar_px8BG9sWvIDQO6ThYD3Xz3zRtGpxnp-pKmB0fuh3u1KsAPuKiSWPC15AfDQvjv2EJrcJhni4fiAey8eGLC-G8VelV4jm2NQRJaB3yiuf5n6KrsZQ5WaTrBVorLbbN_XevR1hECYEVVgiKsw
+        - link "Meta Store" [ref=f15e148] [cursor=pointer]:
+          - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.meta.com%2F&h=AUAuar_px8BG9sWvIDQO6ThYD3Xz3zRtGpxnp-pKmB0fuh3u1KsAPuKiSWPC15AfDQvjv2EJrcJhni4fiAey8eGLC-G8VelV4jm2NQRJaB3yiuf5n6KrsZQ5WaTrBVorLbbN_XevR1hECYEVVgiKsw
+        - link "Meta Quest" [ref=f15e151] [cursor=pointer]:
+          - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.meta.com%2Fquest%2F&h=AUAuar_px8BG9sWvIDQO6ThYD3Xz3zRtGpxnp-pKmB0fuh3u1KsAPuKiSWPC15AfDQvjv2EJrcJhni4fiAey8eGLC-G8VelV4jm2NQRJaB3yiuf5n6KrsZQ5WaTrBVorLbbN_XevR1hECYEVVgiKsw
+        - link "Ray-Ban Meta" [ref=f15e154] [cursor=pointer]:
+          - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.meta.com%2Fai-glasses%2Fray-ban-meta%2F&h=AUAuar_px8BG9sWvIDQO6ThYD3Xz3zRtGpxnp-pKmB0fuh3u1KsAPuKiSWPC15AfDQvjv2EJrcJhni4fiAey8eGLC-G8VelV4jm2NQRJaB3yiuf5n6KrsZQ5WaTrBVorLbbN_XevR1hECYEVVgiKsw
+        - link "Meta AI" [ref=f15e157] [cursor=pointer]:
+          - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.meta.ai%2F&h=AUAuar_px8BG9sWvIDQO6ThYD3Xz3zRtGpxnp-pKmB0fuh3u1KsAPuKiSWPC15AfDQvjv2EJrcJhni4fiAey8eGLC-G8VelV4jm2NQRJaB3yiuf5n6KrsZQ5WaTrBVorLbbN_XevR1hECYEVVgiKsw
+        - link "Instagram" [ref=f15e160] [cursor=pointer]:
+          - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.instagram.com%2F&h=AUAuar_px8BG9sWvIDQO6ThYD3Xz3zRtGpxnp-pKmB0fuh3u1KsAPuKiSWPC15AfDQvjv2EJrcJhni4fiAey8eGLC-G8VelV4jm2NQRJaB3yiuf5n6KrsZQ5WaTrBVorLbbN_XevR1hECYEVVgiKsw
+        - link "Threads" [ref=f15e163] [cursor=pointer]:
+          - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.threads.com%2F&h=AUAuar_px8BG9sWvIDQO6ThYD3Xz3zRtGpxnp-pKmB0fuh3u1KsAPuKiSWPC15AfDQvjv2EJrcJhni4fiAey8eGLC-G8VelV4jm2NQRJaB3yiuf5n6KrsZQ5WaTrBVorLbbN_XevR1hECYEVVgiKsw
+        - link "Privacy Policy" [ref=f15e166] [cursor=pointer]:
+          - /url: https://www.facebook.com/privacy/policy/?entry_point=facebook_page_footer
+        - link "Consumer Health Privacy" [ref=f15e169] [cursor=pointer]:
+          - /url: https://www.facebook.com/privacy/policies/health/?entry_point=facebook_page_footer
+        - link "Privacy Center" [ref=f15e172] [cursor=pointer]:
+          - /url: https://www.facebook.com/privacy/center/?entry_point=facebook_page_footer
+        - link "About" [ref=f15e175] [cursor=pointer]:
+          - /url: https://www.facebook.com/about/
+        - link "Create ad" [ref=f15e178] [cursor=pointer]:
+          - /url: https://www.facebook.com/ad_campaign/landing.php?placement=pflo&campaign_id=402047449186&nav_source=unknown&extra_1=auto
+        - link "Create Page" [ref=f15e181] [cursor=pointer]:
+          - /url: https://www.facebook.com/pages/create/?ref_type=site_footer
+        - link "Developers" [ref=f15e184] [cursor=pointer]:
+          - /url: https://developers.facebook.com/?ref=pf
+        - link "Careers" [ref=f15e187] [cursor=pointer]:
+          - /url: https://www.facebook.com/careers/?ref=pf
+        - link "Cookies" [ref=f15e190] [cursor=pointer]:
+          - /url: https://www.facebook.com/policies/cookies/
+        - link [ref=f15e193] [cursor=pointer]:
+          - /url: https://www.facebook.com/help/568137493302217
+        - link "Terms" [ref=f15e198] [cursor=pointer]:
+          - /url: https://www.facebook.com/policies?ref=pf
+        - link "Help" [ref=f15e201] [cursor=pointer]:
+          - /url: https://www.facebook.com/help/?ref=pf
+        - link "Contact Uploading & Non-Users" [ref=f15e204] [cursor=pointer]:
+          - /url: https://www.facebook.com/help/637205020878504
+      - generic [ref=f15e205]: Meta © 2026

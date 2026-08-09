@@ -1,0 +1,281 @@
+- generic [ref=f451e1]:
+  - dialog "Cookie Consent Banner" [ref=f451e2]:
+    - generic [ref=f451e3]:
+      - generic [ref=f451e4]: This website utilizes technologies such as cookies to enable essential site functionality, as well as for analytics, personalization, and targeted advertising.
+      - link "Privacy Policy" [active] [ref=f451e5] [cursor=pointer]:
+        - /url: https://www.governmentjobs.com/home/privacypolicy
+    - generic [ref=f451e6]:
+      - button "Accept" [ref=f451e7] [cursor=pointer]
+      - button "Deny Non-Essential" [ref=f451e8] [cursor=pointer]
+      - button "Manage Preferences" [ref=f451e9] [cursor=pointer]
+  - form
+  - region:
+    - generic "Home Page page has loaded."
+  - link [ref=f451e15] [cursor=pointer]:
+    - paragraph [ref=f451e16]: Skip to main content
+  - generic [ref=f451e17]:
+    - generic [ref=f451e18]:
+      - banner [ref=f451e19]:
+        - navigation "header" [ref=f451e21]:
+          - button "Menu" [ref=f451e23] [cursor=pointer]:
+            - generic [ref=f451e24]: 
+            - text: Menu
+            - generic [ref=f451e25]: 
+            - text: 
+          - heading "Current Job Openings" [level=1] [ref=f451e27]
+          - generic [ref=f451e29] [cursor=pointer]:
+            - img "Translation tip" [ref=f451e31]
+            - button "Sign In" [ref=f451e32]:
+              - generic [ref=f451e33]: 
+              - text: Sign In
+            - generic: ⚠ ? or sign in with 
+          - text:            
+        - generic [ref=f451e34]:
+          - heading [level=2] [ref=f451e35]:
+            - link "City of Saint Paul logo City of Saint Paul" [ref=f451e36] [cursor=pointer]:
+              - /url: /careers/stpaul
+              - generic [ref=f451e39]:
+                - img "City of Saint Paul logo" [ref=f451e41]
+                - generic "City of Saint Paul" [ref=f451e43]
+          - generic [ref=f451e44]:
+            - text: powered by NEOGOV
+            - generic [ref=f451e45]: ®
+      - main [ref=f451e46]:
+        - generic [ref=f451e47]:
+          - generic [ref=f451e48]:
+            - generic [ref=f451e49]:
+              - paragraph [ref=f451e50]:
+                - strong [ref=f451e51]: Apply for current employment opportunities open to the public by clicking the job title listed below.
+              - list [ref=f451e52]:
+                - listitem [ref=f451e53]: A valid email address is required to create an application account. Future communication with applicants will be via email.
+                - listitem [ref=f451e54]: All required documents listed on the job announcement must be submitted with your application prior to 11:59 p.m. on the posted closing date. Incomplete applications may be rejected. A resume is not a substitute for required information on the application, unless otherwise stated.
+                - listitem [ref=f451e55]: The City of Saint Paul does not retain login or password information.
+                - listitem [ref=f451e56]: User accounts are established for one person only. All applications submitted by multiple users using one account will be rejected. Applicants who login to an account understand that falsely identifying themselves or providing false information will jeopardize their application status.
+              - paragraph [ref=f451e57]
+              - paragraph [ref=f451e58]:
+                - strong [ref=f451e59]: Technical Support?
+                - text: 1-855-524-5627.
+            - button "Show more content" [ref=f451e62] [cursor=pointer]: MORE 
+          - generic [ref=f451e64]:
+            - generic [ref=f451e65]:
+              - combobox "Search by keyword. When autocomplete results are available use up and down arrows to select an item." [ref=f451e67]
+              - text: ␡
+              - button "Search" [ref=f451e68] [cursor=pointer]: 
+            - list [ref=f451e71]:
+              - listitem [ref=f451e72]:
+                - group "View toggle" [ref=f451e73]:
+                  - radio "Grid View" [checked] [ref=f451e76] [cursor=pointer]: 
+                  - radio "List View" [ref=f451e78] [cursor=pointer]: 
+              - listitem [ref=f451e79]:
+                - button " Sort " [ref=f451e80] [cursor=pointer]:
+                  - text:  Sort
+                  - generic [ref=f451e81]: 
+              - listitem [ref=f451e82]:
+                - button " Filter " [ref=f451e83] [cursor=pointer]:
+                  - text:  Filter
+                  - generic [ref=f451e84]: 
+            - generic [ref=f451e85]: 12 jobs found
+          - generic [ref=f451e90]:
+            - table [ref=f451e93]:
+              - caption [ref=f451e94]: Job Search Results
+              - rowgroup [ref=f451e95]:
+                - row [ref=f451e96]:
+                  - columnheader [ref=f451e97]:
+                    - button "Sort by Job Title. Sorted ascending" [ref=f451e98] [cursor=pointer]:
+                      - text: Job Title
+                      - generic [ref=f451e99]: 
+                  - columnheader "Job Type" [ref=f451e100]
+                  - columnheader [ref=f451e101]:
+                    - button "Sort by Salary" [ref=f451e102] [cursor=pointer]:
+                      - text: Salary
+                      - generic [ref=f451e103]: 
+                  - columnheader [ref=f451e104]:
+                    - button "Sort by Closing Date" [ref=f451e105] [cursor=pointer]:
+                      - text: Closing
+                      - generic [ref=f451e106]: 
+                  - columnheader [ref=f451e107]:
+                    - button "Sort by Posting Date" [ref=f451e108] [cursor=pointer]:
+                      - text: Posted
+                      - generic [ref=f451e109]: 
+                  - columnheader "Category" [ref=f451e110]
+                  - columnheader "Department" [ref=f451e111]
+                  - columnheader "Location" [ref=f451e112]
+                  - columnheader "Job Number" [ref=f451e113]
+              - rowgroup [ref=f451e114]:
+                - row [ref=f451e115]:
+                  - rowheader [ref=f451e116]:
+                    - link "Accountant III New Job Link will be opened in a flyout." [ref=f451e117] [cursor=pointer]:
+                      - /url: /careers/stpaul/jobs/5409798/accountant-iii
+                      - text: Accountant III
+                    - text: New
+                  - cell "Full Time" [ref=f451e118]
+                  - cell "$80,745.60 - $115,772.80 Annually" [ref=f451e119]
+                  - cell "08/24/26" [ref=f451e120]
+                  - cell "08/04/26" [ref=f451e121]
+                  - cell "Accounting and Finance / Water Agency" [ref=f451e122]
+                  - cell "Saint Paul Regional Water Services" [ref=f451e123]
+                  - cell "Saint Paul, MN" [ref=f451e124]
+                  - cell "26-UNSP-01765A" [ref=f451e125]
+                - row [ref=f451e126]:
+                  - rowheader [ref=f451e127]:
+                    - link "Animal Services Officer I New Job Link will be opened in a flyout." [ref=f451e128] [cursor=pointer]:
+                      - /url: /careers/stpaul/jobs/5433525/animal-services-officer-i
+                      - text: Animal Services Officer I
+                    - text: New
+                  - cell "Full Time" [ref=f451e129]
+                  - cell "$55,307.20 - $77,084.80 Annually" [ref=f451e130]
+                  - cell "08/25/26" [ref=f451e131]
+                  - cell "08/06/26" [ref=f451e132]
+                  - cell "Code Enforcement / Animal Control" [ref=f451e133]
+                  - cell "Department of Safety & Inspections" [ref=f451e134]
+                  - cell "Saint Paul, MN" [ref=f451e135]
+                  - cell "26-02054O" [ref=f451e136]
+                - row [ref=f451e137]:
+                  - rowheader [ref=f451e138]:
+                    - link "Business Analyst II Link will be opened in a flyout." [ref=f451e139] [cursor=pointer]:
+                      - /url: /careers/stpaul/jobs/5419622/business-analyst-ii
+                      - text: Business Analyst II
+                  - cell "Full Time" [ref=f451e140]
+                  - cell "$76,190.40 - $108,971.20 Annually" [ref=f451e141]
+                  - cell "08/12/26" [ref=f451e142]
+                  - cell "07/24/26" [ref=f451e143]
+                  - cell "Accounting and Finance" [ref=f451e144]
+                  - cell "Office of Financial Services" [ref=f451e145]
+                  - cell "Saint Paul, MN" [ref=f451e146]
+                  - cell "26-UNSP-02066" [ref=f451e147]
+                - row [ref=f451e148]:
+                  - rowheader [ref=f451e149]:
+                    - link "Communication Equipment Technician - Radio Systems and Network Support New Job Link will be opened in a flyout." [ref=f451e150] [cursor=pointer]:
+                      - /url: /careers/stpaul/jobs/5427856/communication-equipment-technician-radio-systems-and-network-support
+                      - text: Communication Equipment Technician - Radio Systems and Network Support
+                    - text: New
+                  - cell "Full Time" [ref=f451e151]
+                  - cell "$66,331.20 - $91,790.40 Annually" [ref=f451e152]
+                  - cell "08/24/26" [ref=f451e153]
+                  - cell "08/04/26" [ref=f451e154]
+                  - cell "Communications" [ref=f451e155]
+                  - cell "Police" [ref=f451e156]
+                  - cell "Saint Paul, MN" [ref=f451e157]
+                  - cell "26-01897A" [ref=f451e158]
+                - row [ref=f451e159]:
+                  - rowheader [ref=f451e160]:
+                    - link "Custodian Engineer III New Job Link will be opened in a flyout." [ref=f451e161] [cursor=pointer]:
+                      - /url: /careers/stpaul/jobs/5405247/custodian-engineer-iii
+                      - text: Custodian Engineer III
+                    - text: New
+                  - cell "Full Time" [ref=f451e162]
+                  - cell "$75,587.20 - $83,886.40 Annually" [ref=f451e163]
+                  - cell "08/27/26" [ref=f451e164]
+                  - cell "08/07/26" [ref=f451e165]
+                  - cell "Building & Grounds Cleaning and Maintenance" [ref=f451e166]
+                  - cell "Police" [ref=f451e167]
+                  - cell "Saint Paul, MN" [ref=f451e168]
+                  - cell "26-02049" [ref=f451e169]
+                - row [ref=f451e170]:
+                  - rowheader [ref=f451e171]:
+                    - link "Deputy Director of Human Rights and Labor Standards Link will be opened in a flyout." [ref=f451e172] [cursor=pointer]:
+                      - /url: /careers/stpaul/jobs/5351609/deputy-director-of-human-rights-and-labor-standards
+                      - text: Deputy Director of Human Rights and Labor Standards
+                  - cell "Full Time" [ref=f451e173]
+                  - cell "$112,257.60 - $166,441.60 Annually" [ref=f451e174]
+                  - cell "08/10/26" [ref=f451e175]
+                  - cell "07/09/26" [ref=f451e176]
+                  - cell "Administration" [ref=f451e177]
+                  - cell "Human Rights and Equal Economic Opportunity" [ref=f451e178]
+                  - cell "Saint Paul, MN" [ref=f451e179]
+                  - cell "26-UNCL-01929" [ref=f451e180]
+                - row [ref=f451e181]:
+                  - rowheader [ref=f451e182]:
+                    - link "Official/Umpire Link will be opened in a flyout." [ref=f451e183] [cursor=pointer]:
+                      - /url: /careers/stpaul/jobs/5231931/official-umpire
+                      - text: Official/Umpire
+                  - cell "Contract" [ref=f451e184]
+                  - cell "See Position Description" [ref=f451e185]
+                  - cell "12/31/26" [ref=f451e186]
+                  - cell "02/12/25" [ref=f451e187]
+                  - cell "Parks and Recreation" [ref=f451e188]
+                  - cell "Parks and Recreation" [ref=f451e189]
+                  - cell "Parks and Recreation--Administration, MN" [ref=f451e190]
+                  - cell "26-CONT-09314" [ref=f451e191]
+                - row [ref=f451e192]:
+                  - rowheader [ref=f451e193]:
+                    - link "Police Officer (Lateral Transfers) Link will be opened in a flyout." [ref=f451e194] [cursor=pointer]:
+                      - /url: /careers/stpaul/jobs/2518025/police-officer-lateral-transfers
+                      - text: Police Officer (Lateral Transfers)
+                  - cell "Full Time" [ref=f451e195]
+                  - cell "$91,291.20 - $119,329.60 Annually" [ref=f451e196]
+                  - cell "Continuous" [ref=f451e197]
+                  - cell "02/15/24" [ref=f451e198]
+                  - cell "Law Enforcement" [ref=f451e199]
+                  - cell "Police" [ref=f451e200]
+                  - cell "Saint Paul, MN" [ref=f451e201]
+                  - cell "24TRANS-323B" [ref=f451e202]
+                - row [ref=f451e203]:
+                  - rowheader [ref=f451e204]:
+                    - link "Public Works Technician II New Job Link will be opened in a flyout." [ref=f451e205] [cursor=pointer]:
+                      - /url: /careers/stpaul/jobs/5412098/public-works-technician-ii
+                      - text: Public Works Technician II
+                    - text: New
+                  - cell "Full Time" [ref=f451e206]
+                  - cell "$61,443.20 - $84,968.00 Annually" [ref=f451e207]
+                  - cell "09/02/26" [ref=f451e208]
+                  - cell "08/04/26" [ref=f451e209]
+                  - cell "Public Works" [ref=f451e210]
+                  - cell "Public Works" [ref=f451e211]
+                  - cell "Saint Paul, MN" [ref=f451e212]
+                  - cell "26-01388O" [ref=f451e213]
+                - row [ref=f451e214]:
+                  - rowheader [ref=f451e215]:
+                    - link "Sewer Services Worker Link will be opened in a flyout." [ref=f451e216] [cursor=pointer]:
+                      - /url: /careers/stpaul/jobs/5293431/sewer-services-worker
+                      - text: Sewer Services Worker
+                  - cell "Full Time" [ref=f451e217]
+                  - cell "$68,952.00 - $76,523.20 Annually" [ref=f451e218]
+                  - cell "09/17/26" [ref=f451e219]
+                  - cell "04/20/26" [ref=f451e220]
+                  - cell "Public Works" [ref=f451e221]
+                  - cell "Public Works" [ref=f451e222]
+                  - cell "Saint Paul, MN" [ref=f451e223]
+                  - cell "26-UNSP-00939" [ref=f451e224]
+            - generic [ref=f451e225]:
+              - generic [ref=f451e226]:
+                - list [ref=f451e228]:
+                  - listitem:
+                    - generic "Go to Previous Page" [ref=f451e229]:
+                      - generic [ref=f451e230]: 
+                      - text: Prev
+                  - listitem:
+                    - link "Go to Page 1" [disabled]:
+                      - /url: ""
+                      - text: "1"
+                  - listitem:
+                    - link "Go to Page 2" [ref=f451e231] [cursor=pointer]:
+                      - /url: /careers/Home?page=2
+                      - text: "2"
+                  - listitem:
+                    - link "Go to Next Page" [ref=f451e232] [cursor=pointer]:
+                      - /url: /careers/Home?page=2
+                      - text: Next
+                      - generic [ref=f451e233]: 
+                - generic [ref=f451e234]: Showing items 1 - 10
+              - text:  
+      - generic: ␡
+      - contentinfo [ref=f451e235]:
+        - generic [ref=f451e236]:
+          - generic [ref=f451e237]:
+            - link "Current Job Openings" [ref=f451e239] [cursor=pointer]:
+              - /url: /careers/stpaul
+            - link "Account" [ref=f451e241] [cursor=pointer]:
+              - /url: /careers/stpaul/applications/submitted
+            - link "Privacy Policy" [ref=f451e244] [cursor=pointer]:
+              - /url: /careers/stpaul/privacypolicy
+            - link "Terms Of Use" [ref=f451e246] [cursor=pointer]:
+              - /url: /careers/stpaul/termsofuse
+            - link "Accessibility Statement (opens in new tab)" [ref=f451e248] [cursor=pointer]:
+              - /url: /careers/stpaul/accessibilitystatement
+              - text: Accessibility Statement
+            - button "Privacy Settings" [ref=f451e250] [cursor=pointer]
+          - generic [ref=f451e251]: Copyright © 2026
+    - text: ␡             
+  - status [ref=f451e253]
+  - text:       ␡   ␡  ␡ ␡ ⎙

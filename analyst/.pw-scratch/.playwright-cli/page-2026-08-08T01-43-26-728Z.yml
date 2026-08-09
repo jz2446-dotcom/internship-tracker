@@ -1,0 +1,282 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - link "Skip to main content" [ref=e5] [cursor=pointer]:
+      - /url: "#main"
+    - generic [ref=e6]:
+      - banner "Main site header" [ref=e7]:
+        - link "UCLA Home" [ref=e9] [cursor=pointer]:
+          - /url: https://www.ucla.edu
+        - generic [ref=e16]:
+          - navigation "Secondary Navigation" [ref=e17]:
+            - generic [ref=e19]:
+              - list [ref=e20]:
+                - listitem [ref=e21]:
+                  - link "Locations & Hours" [ref=e22] [cursor=pointer]:
+                    - /url: /visit/locations/
+                - listitem [ref=e23]:
+                  - link "Ask Us" [ref=e24] [cursor=pointer]:
+                    - /url: /help/services-resources/ask-us/
+                - listitem [ref=e25]:
+                  - link "Give Now" [ref=e26] [cursor=pointer]:
+                    - /url: https://giving.ucla.edu/Standard/NetDonate.aspx?SiteNum=463
+              - link "My Account" [ref=e27] [cursor=pointer]:
+                - /url: https://search.library.ucla.edu/discovery/login?vid=01UCS_LAL:UCLA&targetURL=https:%2F%2Fsearch.library.ucla.edu%2Fdiscovery%2Fsearch%3Fvid%3D01UCS_LAL:UCLA
+              - button "Search" [ref=e32] [cursor=pointer]
+          - navigation "Primary Navigation" [ref=e35]:
+            - link "UCLA Library home page" [ref=e37] [cursor=pointer]:
+              - /url: /
+              - button [ref=e38]
+            - list [ref=e50]:
+              - listitem [ref=e51]:
+                - button "Research" [ref=e52] [cursor=pointer]
+                - list:
+                  - listitem [ref=e53]:
+                    - link "A-Z Databases" [ref=e54] [cursor=pointer]:
+                      - /url: https://guides.library.ucla.edu/az/databases
+                  - listitem [ref=e55]:
+                    - link "Collections" [ref=e56] [cursor=pointer]:
+                      - /url: /collections/
+                  - listitem [ref=e57]:
+                    - link "Course Reserves" [ref=e58] [cursor=pointer]:
+                      - /url: /help/services-resources/course-reserves/
+                  - listitem [ref=e59]:
+                    - link "Databases by Subject" [ref=e60] [cursor=pointer]:
+                      - /url: https://guides.library.ucla.edu/databases-by-subject
+                  - listitem [ref=e61]:
+                    - link "Research Guides" [ref=e62] [cursor=pointer]:
+                      - /url: https://guides.library.ucla.edu/index.php
+                  - listitem [ref=e63]:
+                    - link "UC Library Search" [ref=e64] [cursor=pointer]:
+                      - /url: https://search.library.ucla.edu/discovery/search?vid=01UCS_LAL:UCLA
+              - listitem [ref=e65]:
+                - button "Get help with..." [ref=e66] [cursor=pointer]
+                - list:
+                  - listitem [ref=e67]:
+                    - link "Using the Library" [ref=e68] [cursor=pointer]:
+                      - /url: /help/using-the-library/
+                  - listitem [ref=e69]:
+                    - link "Research Help" [ref=e70] [cursor=pointer]:
+                      - /url: /help/research-help/
+                  - listitem [ref=e71]:
+                    - link "Connecting from Off-Campus" [ref=e72] [cursor=pointer]:
+                      - /url: /help/services-resources/connecting-from-off-campus/
+                  - listitem [ref=e73]:
+                    - link "Teaching Support" [ref=e74] [cursor=pointer]:
+                      - /url: /help/teaching/
+                  - listitem [ref=e75]:
+                    - link "All Services & Resources" [ref=e76] [cursor=pointer]:
+                      - /url: /help/services-resources/
+              - listitem [ref=e77]:
+                - button "Visit" [ref=e78] [cursor=pointer]
+                - list:
+                  - listitem [ref=e79]:
+                    - link "Locations & Hours" [ref=e80] [cursor=pointer]:
+                      - /url: /visit/locations/
+                  - listitem [ref=e81]:
+                    - link "Reserve a Study Space" [ref=e82] [cursor=pointer]:
+                      - /url: /help/services-resources/reserve-a-study-space/
+                  - listitem [ref=e83]:
+                    - link "Events & Exhibitions" [ref=e84] [cursor=pointer]:
+                      - /url: /visit/events-exhibitions/
+                  - listitem [ref=e85]:
+                    - link "For the General Public" [ref=e86] [cursor=pointer]:
+                      - /url: /help/services-for-the-general-public/
+              - listitem [ref=e87]:
+                - button "About" [ref=e88] [cursor=pointer]
+                - list:
+                  - listitem [ref=e89]:
+                    - link "About Us" [ref=e90] [cursor=pointer]:
+                      - /url: /about/
+                  - listitem [ref=e91]:
+                    - link "News" [ref=e92] [cursor=pointer]:
+                      - /url: /about/news/
+                  - listitem [ref=e93]:
+                    - link "Programs & Initiatives" [ref=e94] [cursor=pointer]:
+                      - /url: /about/programs/
+                  - listitem [ref=e95]:
+                    - link "Staff Directory" [ref=e96] [cursor=pointer]:
+                      - /url: /about/staff/
+                  - listitem [ref=e97]:
+                    - link "Student Opportunities" [ref=e98] [cursor=pointer]:
+                      - /url: /about/student-opportunities/
+                  - listitem [ref=e99]:
+                    - link "Give to UCLA Library" [ref=e100] [cursor=pointer]:
+                      - /url: /give/
+      - main [ref=e102]:
+        - navigation "Breadcrumb" [ref=e103]:
+          - list [ref=e104]:
+            - listitem [ref=e105]:
+              - link "Jobs at UCLA Library" [ref=e106] [cursor=pointer]:
+                - /url: /about/jobs/
+            - listitem [ref=e107]:
+              - generic [ref=e108]: About Student Jobs
+        - generic [ref=e110]:
+          - figure [ref=e111]:
+            - img "Student in stacks" [ref=e112]
+          - generic [ref=e169]:
+            - heading "About Student Jobs" [level=1] [ref=e170]
+            - paragraph [ref=e173]: The UCLA Library system offers jobs to more than 500 part-time student employees. Find out how you can join our team.
+            - link "Find Student Jobs" [ref=e174] [cursor=pointer]:
+              - /url: https://www.library.ucla.edu/about/student-opportunities
+        - generic [ref=e190]:
+          - heading "More Information" [level=2] [ref=e191]
+          - generic [ref=e193]:
+            - heading "Overview" [level=3] [ref=e195]
+            - generic [ref=e198]:
+              - paragraph [ref=e199]: Ranked among the top ten research libraries in the US, the UCLA Library system is a campus-wide network of libraries that offers jobs to more than 500 part-time student employees. Our libraries depend heavily on student employees for both public service and technical processing work.
+              - paragraph [ref=e200]: Read on for more information about applying for jobs at the Library.
+          - generic [ref=e202]:
+            - heading "How to Apply" [level=3] [ref=e204]
+            - generic [ref=e207]:
+              - paragraph [ref=e208]:
+                - text: To apply for a job at the Library, view
+                - link "student opportunities" [ref=e209] [cursor=pointer]:
+                  - /url: /about/student-opportunities
+                - text: . New jobs are posted on our website every day, and positions will remain listed until they are filled.
+              - paragraph [ref=e210]:
+                - text: You can apply for a job or internship using our
+                - link "student employment portal (opens in a new tab)" [ref=e211] [cursor=pointer]:
+                  - /url: https://uclalibrary.atlassian.net/servicedesk/customer/portal/10/group/20/create/89
+                  - text: student employment portal
+                  - generic [ref=e212]: (opens in a new tab)
+                - text: . New users will need to sign up for an account. Although an account is not required to view available opportunities, it is required to apply for a job.
+              - paragraph [ref=e213]: Before applying, carefully review the duties, required skills and knowledge of each job to determine if you are qualified. Please make sure to note the job code for the online application. When completing the application, list all the skills and experience you possess that qualify you for the job. It is extremely important to complete the availability portion for the application as the Library is committed to working around your schedule. Attaching a resume is optional, and only Microsoft Word or PDF formats (not a link to your resume) will be accepted.
+              - paragraph [ref=e214]: If you wish, you may apply for multiple opportunities.
+          - generic [ref=e216]:
+            - heading "Student Employment Resources" [level=3] [ref=e218]
+            - list [ref=e221]:
+              - listitem [ref=e222]:
+                - heading [level=3] [ref=e223]:
+                  - link "Student Opportunities" [ref=e224] [cursor=pointer]:
+                    - /url: /about/student-opportunities/
+                - generic [ref=e225]: The UCLA Library employs 360 part-time student employees. Search our student job listings to find one that is the right fit for you!
+              - listitem [ref=e231]:
+                - heading [level=3] [ref=e232]:
+                  - link "Student Employment Portal" [ref=e233] [cursor=pointer]:
+                    - /url: https://uclalibrary.atlassian.net/servicedesk/customer/portal/10/group/20/create/89
+                - generic [ref=e234]: Submit an application for a UCLA Library Student Job.
+          - generic [ref=e242]:
+            - heading "After You Apply" [level=3] [ref=e244]
+            - generic [ref=e247]:
+              - paragraph [ref=e248]:
+                - text: To check your application status, log back into the
+                - link "student employment portal (opens in a new tab)" [ref=e249] [cursor=pointer]:
+                  - /url: https://uclalibrary.atlassian.net/servicedesk/customer/portal/10/group/20/create/89
+                  - text: student employment portal
+                  - generic [ref=e250]: (opens in a new tab)
+                - text: using the username and password you created when you submitted your application. Once you've successfully logged in, click on "Requests" then "My Requests" in the dropdown. If a decision has not been made, your open applications should appear with a status that will display "Application Submitted" or "Application Under Review."
+              - paragraph [ref=e251]: If your experience meets the department's criteria, you will be called in for an interview. The length of the hiring process varies depending on the department and the job. If you are called in for an interview, make sure you find out who you are interviewing with, the time and the location. It is optional to bring a resume and letters of recommendation with you.
+              - paragraph [ref=e252]: If you can't find the application you wish to check on the portal, it is likely because a decision has already been made. If you wish to check the decision, change the left dropdown filter that reads "Open Requests" to "Any Status." Those not chosen for the job will have a status of "Not Selected," while those selected will display a "Proceed to HR" status on their application. If selected, you will be contacted via email or phone.
+              - paragraph [ref=e253]: Due to the high volume of applications we receive, you may not hear back from a specific department. If you don't get a response within two weeks, you may assume you haven't been selected for an interview. At this time, you may apply to other jobs by resubmitting your application.
+          - generic [ref=e255]:
+            - heading "Eligibility to Work" [level=3] [ref=e257]
+            - generic [ref=e260]:
+              - list [ref=e261]:
+                - listitem [ref=e262]: Library student jobs are available to currently registered UCLA students only.
+                - listitem [ref=e263]: Entering undergraduate and graduate students are eligible for Library employment effective the beginning of the quarter (Fall or Winter) for which they are accepted to UCLA.
+                - listitem [ref=e264]:
+                  - text: UCLA extension students are
+                  - strong [ref=e265]: NOT ELIGIBLE
+                  - text: for Library employment.
+                - listitem [ref=e266]: All employees must have the legal right to work in the United States. Upon hire, you will be required to provide proof of this.
+              - paragraph [ref=e267]: To maintain eligibility to work, an employee must remain registered as a UCLA student throughout their employment with the Library.
+          - generic [ref=e269]:
+            - heading "UC Nondiscrimination & Affirmative Action Policy" [level=3] [ref=e271]
+            - generic [ref=e274]:
+              - paragraph [ref=e275]:
+                - text: The University of California is an Equal Opportunity / Affirmative Action Employer advancing inclusive excellence. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, disability, age, protected veteran status, or other protected categories covered by the
+                - link "UC Nondiscrimination & Affirmative Action Policy (opens in a new tab)" [ref=e276] [cursor=pointer]:
+                  - /url: http://policy.ucop.edu/doc/4000376/NondiscrimAffirmAct
+                  - text: UC Nondiscrimination & Affirmative Action Policy
+                  - generic [ref=e277]: (opens in a new tab)
+                - text: .
+              - paragraph [ref=e278]:
+                - text: Learn more about
+                - link "UCLA Diversity (opens in a new tab)" [ref=e279] [cursor=pointer]:
+                  - /url: https://equity.ucla.edu/
+                  - text: UCLA Diversity
+                  - generic [ref=e280]: (opens in a new tab)
+                - text: .
+          - generic [ref=e282]:
+            - heading "Questions" [level=3] [ref=e284]
+            - generic [ref=e287]:
+              - paragraph [ref=e288]: "If you need assistance with completing the online application, please contact:"
+              - paragraph [ref=e289]:
+                - strong [ref=e290]: Library Human Resources
+                - link "jobs-hr@library.ucla.edu (opens in a new tab)" [ref=e291] [cursor=pointer]:
+                  - /url: mailto:jobs-hr@library.ucla.edu
+                  - text: jobs-hr@library.ucla.edu
+                  - generic [ref=e292]: (opens in a new tab)
+                - text: "| (310) 825-7947"
+                - link "Charles E. Young Research Library (YRL)" [ref=e293] [cursor=pointer]:
+                  - /url: /visit/locations/research-library
+                - text: ", Room 22478Customer service phone hours: Monday - Friday, 8 a.m. - 5 p.m.In-person customer service hours: By appointment only"
+              - paragraph [ref=e294]: Upon request, individuals with disabilities are given reasonable accommodations with the application, interview and employment processes.
+          - generic [ref=e301]:
+            - generic [ref=e307]:
+              - heading "Get in Touch" [level=2] [ref=e308]
+              - generic [ref=e309]: Contact Library Human Resources with your employment questions. Email us using the button below or call us at (310) 825-7947.
+            - link "Email Us" [ref=e312] [cursor=pointer]:
+              - /url: mailto:jobs-hr@library.ucla.edu
+      - contentinfo [ref=e324]:
+        - generic [ref=e331]:
+          - generic [ref=e332]:
+            - link "UCLA Library Home" [ref=e333] [cursor=pointer]:
+              - /url: /
+            - list [ref=e347]:
+              - listitem [ref=e348]:
+                - link "Bluesky" [ref=e349] [cursor=pointer]:
+                  - /url: https://bsky.app/profile/did:plc:zjoycvq5jl7gtb57bzagqpgz
+              - listitem [ref=e350]:
+                - link "Facebook" [ref=e351] [cursor=pointer]:
+                  - /url: https://www.facebook.com/uclalibrary/
+              - listitem [ref=e352]:
+                - link "Instagram" [ref=e353] [cursor=pointer]:
+                  - /url: https://www.instagram.com/uclalibrary/
+              - listitem [ref=e354]:
+                - link "LinkedIn" [ref=e355] [cursor=pointer]:
+                  - /url: https://www.linkedin.com/company/ucla-library/
+              - listitem [ref=e356]:
+                - link "Threads" [ref=e357] [cursor=pointer]:
+                  - /url: https://www.threads.net/@uclalibrary
+              - listitem [ref=e358]:
+                - link "YouTube" [ref=e359] [cursor=pointer]:
+                  - /url: https://www.youtube.com/@UCLALibraryOfficial
+            - list [ref=e360]:
+              - listitem [ref=e361]:
+                - link "Library Status Updates" [ref=e362] [cursor=pointer]:
+                  - /url: https://www.library.ucla.edu/about/status-updates/
+              - listitem [ref=e363]:
+                - link "Jobs at UCLA Library" [ref=e364] [cursor=pointer]:
+                  - /url: https://www.library.ucla.edu/about/jobs
+              - listitem [ref=e365]:
+                - link "Press Room" [ref=e366] [cursor=pointer]:
+                  - /url: https://www.library.ucla.edu/press-room
+              - listitem [ref=e367]:
+                - link "Give Us Feedback" [ref=e368] [cursor=pointer]:
+                  - /url: https://ucla.libwizard.com/f/giveusfeedback
+          - generic [ref=e369]:
+            - generic [ref=e370]:
+              - heading "Stay updated" [level=2] [ref=e371]
+              - paragraph [ref=e372]: Subscribe to get the latest updates on what's happening with UCLA Library.
+            - generic [ref=e373]:
+              - generic [ref=e374]:
+                - textbox "Email Address" [ref=e375]:
+                  - /placeholder: email@ucla.edu
+                - generic [ref=e376]: Email Address
+              - textbox [ref=e378]
+              - button "Subscribe" [ref=e379] [cursor=pointer]
+        - generic [ref=e384]:
+          - generic [ref=e385]: © 2026 Regents of the University of California
+          - list [ref=e386]:
+            - listitem [ref=e387]:
+              - link "Emergency" [ref=e388] [cursor=pointer]:
+                - /url: https://bso.ucla.edu/
+            - listitem [ref=e389]:
+              - link "Accessibility" [ref=e390] [cursor=pointer]:
+                - /url: https://www.ucla.edu/accessibility
+            - listitem [ref=e391]:
+              - link "Privacy & Terms of Use" [ref=e392] [cursor=pointer]:
+                - /url: https://www.ucla.edu/terms-of-use
+  - region "Chat Widget":
+    - button "Offline" [ref=e393] [cursor=pointer]

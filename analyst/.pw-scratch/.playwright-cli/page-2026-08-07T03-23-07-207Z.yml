@@ -1,0 +1,460 @@
+- generic [active] [ref=f1e1]:
+  - generic [ref=f1e2]:
+    - region "Skip links":
+      - link "Skip to content" [ref=f1e3] [cursor=pointer]:
+        - /url: "#content"
+      - button "Skip to AI Search" [ref=f1e4] [cursor=pointer]
+      - link "Skip to main nav" [ref=f1e5] [cursor=pointer]:
+        - /url: "#main-nav-skipper"
+    - banner [ref=f1e6]:
+      - generic [ref=f1e10]:
+        - search "Search" [ref=f1e12]:
+          - generic [ref=f1e13]:
+            - searchbox "Search Keywords" [ref=f1e14]
+            - generic:
+              - generic: Search Keywords
+              - img: 
+        - navigation "User account menu" [ref=f1e17]:
+          - list [ref=f1e18]:
+            - listitem [ref=f1e19]:
+              - link "Log in" [ref=f1e20] [cursor=pointer]:
+                - /url: https://waltoncareers.uark.edu/account/login/
+            - listitem [ref=f1e21]:
+              - link "Sign up" [ref=f1e22] [cursor=pointer]:
+                - /url: https://waltoncareers.uark.edu/account/signup/start/
+            - listitem [ref=f1e23]:
+              - link "Guests" [ref=f1e24] [cursor=pointer]:
+                - /url: https://waltoncareers.uark.edu/account/guests/
+      - generic [ref=f1e26]:
+        - link [ref=f1e29] [cursor=pointer]:
+          - /url: http://Walton.uark.edu.
+        - generic [ref=f1e30]:
+          - link "Schedule an Appointment" [ref=f1e32] [cursor=pointer]:
+            - /url: https://uark.joinhandshake.com/stu/appointments/new
+          - link "Access Handshake" [ref=f1e34] [cursor=pointer]:
+            - /url: https://uark.joinhandshake.com/login
+      - navigation "Primary Navigation" [ref=f1e36]:
+        - list [ref=f1e38]:
+          - listitem [ref=f1e39]:
+            - link "Home" [ref=f1e40] [cursor=pointer]:
+              - /url: https://waltoncareers.uark.edu/
+              - generic [ref=f1e41]: 
+              - text: Home
+          - listitem [ref=f1e42]:
+            - link "People We Serve" [ref=f1e43]:
+              - /url: "#!"
+              - text: People We Serve
+              - generic [ref=f1e44]: 
+          - listitem [ref=f1e45]:
+            - link "Explore Career Paths" [ref=f1e46]:
+              - /url: "#!"
+              - text: Explore Career Paths
+              - generic [ref=f1e47]: 
+          - listitem [ref=f1e48]:
+            - link "Build Career Skills" [ref=f1e49]:
+              - /url: "#!"
+              - text: Build Career Skills
+              - generic [ref=f1e50]: 
+          - listitem [ref=f1e51]:
+            - link "Jobs & Internships" [ref=f1e52] [cursor=pointer]:
+              - /url: /
+            - button "Jobs & Internships navigation items" [ref=f1e53] [cursor=pointer]:
+              - generic [ref=f1e54]: 
+          - listitem [ref=f1e55]:
+            - link "Events" [ref=f1e56] [cursor=pointer]:
+              - /url: /
+            - button "Events navigation items" [ref=f1e57] [cursor=pointer]:
+              - generic [ref=f1e58]: 
+          - listitem [ref=f1e59]:
+            - link "Outcomes" [ref=f1e60] [cursor=pointer]:
+              - /url: https://waltoncollege.uconnectlabs.com/employment-outcomes/
+          - listitem [ref=f1e61]:
+            - link "Meet the Team" [ref=f1e62] [cursor=pointer]:
+              - /url: https://waltoncareers.uark.edu/staff/
+          - text: 
+    - region "Page Header" [ref=f1e63]:
+      - heading "Search for a Job / Internship" [level=1] [ref=f1e65]
+    - complementary "Middle Widget Area" [ref=f1e66]:
+      - generic [ref=f1e68]:
+        - heading "Sponsoring Companies" [level=2] [ref=f1e69]
+        - generic [ref=f1e70]:
+          - button "Toggle animation" [ref=f1e71] [cursor=pointer]
+          - generic [ref=f1e76]:
+            - link [ref=f1e77] [cursor=pointer]:
+              - /url: https://www.theeverettdifference.com/
+              - img "Everett Automotive Group" [ref=f1e78]
+            - link [ref=f1e79] [cursor=pointer]:
+              - /url: https://uniti.com/
+              - img "Uniti" [ref=f1e80]
+            - link [ref=f1e81] [cursor=pointer]:
+              - /url: https://7brew.com/
+              - img "7 Brew" [ref=f1e82]
+            - link [ref=f1e83] [cursor=pointer]:
+              - /url: https://www.wachter.com/
+              - img "Wachter" [ref=f1e84]
+            - link [ref=f1e85] [cursor=pointer]:
+              - /url: https://www.its4logistics.com/
+              - img "ITS Logistics" [ref=f1e86]
+            - link [ref=f1e87] [cursor=pointer]:
+              - /url: https://www.swank.com/
+              - img "Swank Motion Pictures" [ref=f1e88]
+            - link [ref=f1e89] [cursor=pointer]:
+              - /url: https://www.huhtamaki.com/
+              - img "Huhtamaki, Inc." [ref=f1e90]
+            - link [ref=f1e91] [cursor=pointer]:
+              - /url: https://www.alcon.com/
+              - img "Alcon" [ref=f1e92]
+            - link [ref=f1e93] [cursor=pointer]:
+              - /url: https://www.edwardjones.com/us-en/investment-services/accounts-overview?utm_source=google&utm_medium=paidsearch&utm_campaign=20032604074&utm_agid=154582349723&utm_term=edward%20jones&creative=749706138652&device=c&mjp=eva&mbu=per&mau=na&mob=led&mbt=na&&&&
+              - img "Edward Jones Investments" [ref=f1e94]
+            - link [ref=f1e95] [cursor=pointer]:
+              - /url: https://www.dunnhumby.com/
+              - img "dunnhumby" [ref=f1e96]
+            - link [ref=f1e97] [cursor=pointer]:
+              - /url: https://www.sewell.com/
+              - img "Sewell Automotive Companies" [ref=f1e98]
+            - link [ref=f1e99] [cursor=pointer]:
+              - /url: https://happyegg.com/
+              - img "Happy Egg" [ref=f1e100]
+            - link [ref=f1e101] [cursor=pointer]:
+              - /url: https://www.enterprise.com/en/home.html
+              - img "Enterprise Mobility" [ref=f1e102]
+            - link [ref=f1e103] [cursor=pointer]:
+              - /url: https://cedcareers.com/
+              - img "CED" [ref=f1e104]
+            - link [ref=f1e105] [cursor=pointer]:
+              - /url: https://www.arkansasbluecross.com/
+              - img "Arkansas BlueCross BlueShield" [ref=f1e106]
+            - link [ref=f1e107] [cursor=pointer]:
+              - /url: https://insightglobal.com/
+              - img "Insight Global" [ref=f1e108]
+            - link [ref=f1e109] [cursor=pointer]:
+              - /url: https://www.cintas.com/
+              - img "Cintas" [ref=f1e110]
+            - link [ref=f1e111] [cursor=pointer]:
+              - /url: https://arcb.com/
+              - img "ArcBest" [ref=f1e112]
+            - link [ref=f1e113] [cursor=pointer]:
+              - /url: https://www.pepsico.com/
+              - img "PepsiCo" [ref=f1e114]
+            - link [ref=f1e115] [cursor=pointer]:
+              - /url: https://www.nestle.com/
+              - img "Nestlé" [ref=f1e116]
+            - link [ref=f1e117] [cursor=pointer]:
+              - /url: https://corporate.walmart.com/
+              - img "Walmart" [ref=f1e118]
+            - link [ref=f1e119] [cursor=pointer]:
+              - /url: https://www.generalmills.com/
+              - img "General Mills" [ref=f1e120]
+            - link [ref=f1e121] [cursor=pointer]:
+              - /url: https://www.tysonfoods.com/
+              - img "Tyson Foods, Inc" [ref=f1e122]
+            - link [ref=f1e123] [cursor=pointer]:
+              - /url: https://www.phillips66.com/
+              - img "Phillips 66" [ref=f1e124]
+            - link [ref=f1e125] [cursor=pointer]:
+              - /url: https://corporate.aldi.us/
+              - img "Aldi" [ref=f1e126]
+            - generic [ref=f1e127]:
+              - link [ref=f1e128] [cursor=pointer]:
+                - /url: https://www.theeverettdifference.com/
+              - link [ref=f1e130] [cursor=pointer]:
+                - /url: https://uniti.com/
+              - link [ref=f1e132] [cursor=pointer]:
+                - /url: https://7brew.com/
+              - link [ref=f1e134] [cursor=pointer]:
+                - /url: https://www.wachter.com/
+              - link [ref=f1e136] [cursor=pointer]:
+                - /url: https://www.its4logistics.com/
+              - link [ref=f1e138] [cursor=pointer]:
+                - /url: https://www.swank.com/
+              - link [ref=f1e140] [cursor=pointer]:
+                - /url: https://www.huhtamaki.com/
+              - link [ref=f1e142] [cursor=pointer]:
+                - /url: https://www.alcon.com/
+              - link [ref=f1e144] [cursor=pointer]:
+                - /url: https://www.edwardjones.com/us-en/investment-services/accounts-overview?utm_source=google&utm_medium=paidsearch&utm_campaign=20032604074&utm_agid=154582349723&utm_term=edward%20jones&creative=749706138652&device=c&mjp=eva&mbu=per&mau=na&mob=led&mbt=na&&&&
+              - link [ref=f1e146] [cursor=pointer]:
+                - /url: https://www.dunnhumby.com/
+              - link [ref=f1e148] [cursor=pointer]:
+                - /url: https://www.sewell.com/
+              - link [ref=f1e150] [cursor=pointer]:
+                - /url: https://happyegg.com/
+              - link [ref=f1e152] [cursor=pointer]:
+                - /url: https://www.enterprise.com/en/home.html
+              - link [ref=f1e154] [cursor=pointer]:
+                - /url: https://cedcareers.com/
+              - link [ref=f1e156] [cursor=pointer]:
+                - /url: https://www.arkansasbluecross.com/
+              - link [ref=f1e158] [cursor=pointer]:
+                - /url: https://insightglobal.com/
+              - link [ref=f1e160] [cursor=pointer]:
+                - /url: https://www.cintas.com/
+              - link [ref=f1e162] [cursor=pointer]:
+                - /url: https://arcb.com/
+              - link [ref=f1e164] [cursor=pointer]:
+                - /url: https://www.pepsico.com/
+              - link [ref=f1e166] [cursor=pointer]:
+                - /url: https://www.nestle.com/
+              - link [ref=f1e168] [cursor=pointer]:
+                - /url: https://corporate.walmart.com/
+              - link [ref=f1e170] [cursor=pointer]:
+                - /url: https://www.generalmills.com/
+              - link [ref=f1e172] [cursor=pointer]:
+                - /url: https://www.tysonfoods.com/
+              - link [ref=f1e174] [cursor=pointer]:
+                - /url: https://www.phillips66.com/
+              - link [ref=f1e176] [cursor=pointer]:
+                - /url: https://corporate.aldi.us/
+          - link "View All Sponsors" [ref=f1e178] [cursor=pointer]:
+            - /url: https://waltoncareers.uark.edu/sponsors/
+    - main [ref=f1e179]:
+      - generic [ref=f1e183]:
+        - heading [level=1] [ref=f1e184]:
+          - strong [ref=f1e185]: Beginning Your Job / Internship Search
+        - generic [ref=f1e186]:
+          - heading [level=3] [ref=f1e188]:
+            - button "Job Searching Timelines " [ref=f1e189] [cursor=pointer]
+          - heading [level=3] [ref=f1e191]:
+            - button "Internship Searching Timelines " [ref=f1e192] [cursor=pointer]
+        - heading [level=2] [ref=f1e194]:
+          - strong [ref=f1e195]: Research a Company
+        - generic [ref=f1e196]:
+          - heading [level=3] [ref=f1e198]:
+            - button "Job Criteria to Consider " [ref=f1e199] [cursor=pointer]
+          - heading [level=3] [ref=f1e201]:
+            - button "Resources for Company Research " [ref=f1e202] [cursor=pointer]
+          - heading [level=3] [ref=f1e204]:
+            - button "Job Searching Platforms " [ref=f1e205] [cursor=pointer]
+        - link "NETWORK WITH EMPLOYERS AT UPCOMING WALTON CAREER CONNECTION EVENTS" [ref=f1e209] [cursor=pointer]:
+          - /url: https://waltoncareers.uark.edu/events/?ctag%5B0%5D=career-fairs&ctag%5B1%5D=info-sessions&ctag%5B2%5D=mock-interviews&ctag%5B3%5D=networking-events&ctag%5B4%5D=speaker-panel&ctag%5B5%5D=virtual-session&ctag%5B%5D=workshops
+      - region "Sidebar Widget Area" [ref=f1e211]:
+        - heading "Sidebar" [level=2] [ref=f1e212]
+        - link "Follow Here For More Career Content!" [ref=f1e215] [cursor=pointer]:
+          - /url: /account/content-preferences
+        - generic [ref=f1e219]:
+          - heading "Upcoming Events" [level=3] [ref=f1e220]:  Upcoming Events
+          - list [ref=f1e222]:
+            - listitem [ref=f1e223]:
+              - 'link "Event: Stephens - Virtual Info Session - 2027 Analyst Recruiting Cycle Wednesday, August 12th from 4:30pm - 5:15pm" [ref=f1e224] [cursor=pointer]':
+                - /url: https://waltoncareers.uark.edu/events/2026/08/12/stephens-virtual-info-session-2027-analyst-recruiting-cycle/
+                - generic [ref=f1e225]:
+                  - generic [ref=f1e226]:
+                    - generic [ref=f1e227]: Aug
+                    - text: "12"
+                  - generic [ref=f1e228]:
+                    - generic [ref=f1e229]: "Event:"
+                    - generic [ref=f1e230]: Stephens - Virtual Info Session - 2027 Analyst Recruiting Cycle
+                  - generic [ref=f1e231]:
+                    - text: Wed, Aug 12 from 4:30pm - 5:15pm
+                    - generic [ref=f1e232]: Wednesday, August 12th from 4:30pm - 5:15pm
+            - listitem [ref=f1e233]:
+              - 'link "Event: Stephens Stock Pitch Competition Information Session Friday, August 28th from 1pm - 1:30pm" [ref=f1e234] [cursor=pointer]':
+                - /url: https://waltoncareers.uark.edu/events/2026/08/28/stephens-stock-pitch-competition-information-session/
+                - generic [ref=f1e235]:
+                  - generic [ref=f1e236]:
+                    - generic [ref=f1e237]: Aug
+                    - text: "28"
+                  - generic [ref=f1e238]:
+                    - generic [ref=f1e239]: "Event:"
+                    - generic [ref=f1e240]: Stephens Stock Pitch Competition Information Session
+                  - generic [ref=f1e241]:
+                    - text: Fri, Aug 28 from 1pm - 1:30pm
+                    - generic [ref=f1e242]: Friday, August 28th from 1pm - 1:30pm
+            - listitem [ref=f1e243]:
+              - 'link "Event: Walton Career Fair Pre-Party Tuesday, September 1st from 10am - 2pm" [ref=f1e244] [cursor=pointer]':
+                - /url: https://waltoncareers.uark.edu/events/2026/09/01/walton-career-fair-pre-party/
+                - generic [ref=f1e245]:
+                  - generic [ref=f1e246]:
+                    - generic [ref=f1e247]: Sep
+                    - text: "01"
+                  - generic [ref=f1e248]:
+                    - generic [ref=f1e249]: "Event:"
+                    - generic [ref=f1e250]: Walton Career Fair Pre-Party
+                  - generic [ref=f1e251]:
+                    - text: Tue, Sep 1 from 10am - 2pm
+                    - generic [ref=f1e252]: Tuesday, September 1st from 10am - 2pm
+            - listitem [ref=f1e253]:
+              - 'link "Event: Resume Rescue Wednesday, September 9th from 10am - 3pm" [ref=f1e254] [cursor=pointer]':
+                - /url: https://waltoncareers.uark.edu/events/2026/09/09/resume-rescue-2/
+                - generic [ref=f1e255]:
+                  - generic [ref=f1e256]:
+                    - generic [ref=f1e257]: Sep
+                    - text: "09"
+                  - generic [ref=f1e258]:
+                    - generic [ref=f1e259]: "Event:"
+                    - generic [ref=f1e260]: Resume Rescue
+                  - generic [ref=f1e261]:
+                    - text: Wed, Sep 9 from 10am - 3pm
+                    - generic [ref=f1e262]: Wednesday, September 9th from 10am - 3pm
+            - listitem [ref=f1e263]:
+              - 'link "Event: Virtual Resume Rescue Wednesday, September 9th from 3pm - 6pm" [ref=f1e264] [cursor=pointer]':
+                - /url: https://waltoncareers.uark.edu/events/2026/09/09/virtual-resume-rescue-2/
+                - generic [ref=f1e265]:
+                  - generic [ref=f1e266]:
+                    - generic [ref=f1e267]: Sep
+                    - text: "09"
+                  - generic [ref=f1e268]:
+                    - generic [ref=f1e269]: "Event:"
+                    - generic [ref=f1e270]: Virtual Resume Rescue
+                  - generic [ref=f1e271]:
+                    - text: Wed, Sep 9 from 3pm - 6pm
+                    - generic [ref=f1e272]: Wednesday, September 9th from 3pm - 6pm
+          - link "View More" [ref=f1e274] [cursor=pointer]:
+            - /url: https://waltoncareers.uark.edu/events/
+      - region "Bottom Widget Area" [ref=f1e275]:
+        - generic [ref=f1e277]:
+          - generic [ref=f1e279]:
+            - heading "Contact & Location" [level=2] [ref=f1e280]:  Contact & Location
+            - generic [ref=f1e281]:
+              - generic [ref=f1e282]:
+                - term [ref=f1e283]:
+                  - generic [ref=f1e284]: Phone
+                  - generic [ref=f1e285]: 
+                - definition [ref=f1e286]: 479-575-6100
+              - generic [ref=f1e287]:
+                - term [ref=f1e288]:
+                  - generic [ref=f1e289]: Email
+                  - generic [ref=f1e290]: 
+                - definition [ref=f1e291]:
+                  - 'link "Email Address: wcobcdc@uark.edu" [ref=f1e292] [cursor=pointer]':
+                    - /url: mailto:wcobcdc@uark.edu
+                    - text: wcobcdc@uark.edu
+              - generic [ref=f1e293]:
+                - term [ref=f1e294]:
+                  - generic [ref=f1e295]: Address
+                  - generic [ref=f1e296]: 
+                - definition [ref=f1e297]:
+                  - paragraph [ref=f1e298]: WJWH Suite 226 191 N Harmon Ave Fayetteville, AR 72701
+          - generic [ref=f1e300]:
+            - heading "Office Hours" [level=2] [ref=f1e301]:  Office Hours
+            - table [ref=f1e302]:
+              - rowgroup [ref=f1e303]:
+                - row [ref=f1e304]:
+                  - rowheader "Monday" [ref=f1e305]: M
+                  - cell "8:00 am - 5:00 pm" [ref=f1e307]
+                - row [ref=f1e308]:
+                  - rowheader "Tuesday" [ref=f1e309]: T
+                  - cell "8:00 am - 5:00 pm" [ref=f1e311]
+                - row [ref=f1e312]:
+                  - rowheader "Wednesday" [ref=f1e313]: W
+                  - cell "8:00 am - 5:00 pm" [ref=f1e315]
+                - row [ref=f1e316]:
+                  - rowheader "Thursday" [ref=f1e317]: TH
+                  - cell "8:00 am - 5:00 pm" [ref=f1e319]
+                - row [ref=f1e320]:
+                  - rowheader "Friday" [ref=f1e321]: F
+                  - cell "8:00 am - 5:00 pm" [ref=f1e323]
+          - generic [ref=f1e325]:
+            - heading "Meet the Team" [level=2] [ref=f1e326]:  Meet the Team
+            - region "Meet the Team Carousel" [ref=f1e327]:
+              - region "Meet the Team Carousel Content" [ref=f1e329]:
+                - tabpanel "Lindsey Steiger-Muck Meet Lindsey Heather Wilson Meet Heather Jordan Eaves Meet Jordan" [ref=f1e330]:
+                  - generic [ref=f1e331]:
+                    - generic [ref=f1e332]:
+                      - generic [ref=f1e333]: Lindsey Steiger-Muck
+                      - link "Meet Lindsey" [ref=f1e334] [cursor=pointer]:
+                        - /url: https://waltoncareers.uark.edu/staff/#lindsey-steiger-muck
+                    - generic [ref=f1e335]:
+                      - generic [ref=f1e336]: Heather Wilson
+                      - link "Meet Heather" [ref=f1e337] [cursor=pointer]:
+                        - /url: https://waltoncareers.uark.edu/staff/#heather-wilson
+                    - generic [ref=f1e338]:
+                      - generic [ref=f1e339]: Jordan Eaves
+                      - link "Meet Jordan" [ref=f1e340] [cursor=pointer]:
+                        - /url: https://waltoncareers.uark.edu/staff/#jordan-eaves
+              - navigation "Meet the Team Carousel Navigation":
+                - button "Previous" [disabled] [ref=f1e341]: 
+                - button "Next" [ref=f1e342] [cursor=pointer]: 
+              - tablist "Meet the Team Carousel Pagination":
+                - tab "Slide 1" [selected] [ref=f1e343] [cursor=pointer]
+                - tab "Slide 2" [ref=f1e345] [cursor=pointer]
+  - contentinfo [ref=f1e347]:
+    - link "UNIVERSITY OF ARKANSAS" [ref=f1e352] [cursor=pointer]:
+      - /url: https://waltoncareers.uark.edu/
+    - generic [ref=f1e356]:
+      - generic [ref=f1e357]:
+        - generic [ref=f1e360]:
+          - generic [ref=f1e361]:
+            - term:
+              - generic [ref=f1e362]: Phone
+              - text: 
+            - definition [ref=f1e363]: 479-575-6100
+          - generic [ref=f1e364]:
+            - term:
+              - generic [ref=f1e365]: Email
+              - text: 
+            - definition [ref=f1e366]:
+              - 'link "Email Address: wcobcdc@uark.edu" [ref=f1e367] [cursor=pointer]':
+                - /url: mailto:wcobcdc@uark.edu
+                - text: wcobcdc@uark.edu
+          - generic [ref=f1e368]:
+            - term:
+              - generic [ref=f1e369]: Address
+              - text: 
+            - definition [ref=f1e370]:
+              - paragraph [ref=f1e371]: WJWH Suite 226 191 N Harmon Ave Fayetteville, AR 72701
+        - generic [ref=f1e374]:
+          - link "Facebook" [ref=f1e375] [cursor=pointer]:
+            - /url: https://www.facebook.com/UofArkansas
+            - generic [ref=f1e377]: 
+          - link "Instagram" [ref=f1e378] [cursor=pointer]:
+            - /url: https://www.instagram.com/uarkansas/
+            - generic [ref=f1e380]: 
+          - link "LinkedIn" [ref=f1e381] [cursor=pointer]:
+            - /url: https://www.linkedin.com/school/university-of-arkansas/
+            - generic [ref=f1e383]: 
+          - link "Pinterest" [ref=f1e384] [cursor=pointer]:
+            - /url: https://www.pinterest.com/uofaadmissions/
+            - generic [ref=f1e386]: 
+          - link "X (formerly Twitter)" [ref=f1e387] [cursor=pointer]:
+            - /url: https://twitter.com/uarkansas
+            - generic [ref=f1e389]: 
+          - link "YouTube" [ref=f1e390] [cursor=pointer]:
+            - /url: https://www.youtube.com/user/UniversityArkansas
+            - generic [ref=f1e392]: 
+      - generic [ref=f1e393]:
+        - generic [ref=f1e395]:
+          - heading "Footer Column 1" [level=2] [ref=f1e396]
+          - navigation "Footer Column 1" [ref=f1e397]:
+            - list [ref=f1e398]:
+              - listitem [ref=f1e399]:
+                - link "Alumni Connections" [ref=f1e400] [cursor=pointer]:
+                  - /url: https://waltoncollege.uconnectlabs.com/channels/alumni/
+              - listitem [ref=f1e401]:
+                - link "Blog" [ref=f1e402] [cursor=pointer]:
+                  - /url: https://waltoncareers.uark.edu/blog/
+              - listitem [ref=f1e403]:
+                - link "Events" [ref=f1e404] [cursor=pointer]:
+                  - /url: https://waltoncollege.uconnectlabs.com/events/
+              - listitem [ref=f1e405]:
+                - link "Experiences" [ref=f1e406] [cursor=pointer]:
+                  - /url: https://waltoncollege.uconnectlabs.com/experiences/
+        - generic [ref=f1e408]:
+          - heading "Footer Column 2" [level=2] [ref=f1e409]
+          - navigation "Footer Column 2" [ref=f1e410]:
+            - list [ref=f1e411]:
+              - listitem [ref=f1e412]:
+                - link "Jobs & Internships" [ref=f1e413] [cursor=pointer]:
+                  - /url: https://waltoncollege.uconnectlabs.com/jobs/
+              - listitem [ref=f1e414]:
+                - link "Organizations" [ref=f1e415] [cursor=pointer]:
+                  - /url: https://waltoncollege.uconnectlabs.com/organizations/
+              - listitem [ref=f1e416]:
+                - link "Resources" [ref=f1e417] [cursor=pointer]:
+                  - /url: https://waltoncollege.uconnectlabs.com/resources/
+              - listitem [ref=f1e418]:
+                - link "Meet the Team" [ref=f1e419] [cursor=pointer]:
+                  - /url: https://waltoncollege.uconnectlabs.com/staff/
+    - generic [ref=f1e421]:
+      - generic [ref=f1e422]:
+        - link "Privacy Policy" [ref=f1e423] [cursor=pointer]:
+          - /url: https://waltoncareers.uark.edu/privacy-policy/
+        - text: "|"
+        - link "Terms of Service" [ref=f1e424] [cursor=pointer]:
+          - /url: https://waltoncareers.uark.edu/terms-of-service/
+      - generic [ref=f1e425]: Copyright © 2026 Sam M. Walton College of Business
+      - link [ref=f1e427] [cursor=pointer]:
+        - /url: https://www.gouconnect.com/?utm_source=waltoncareers.uark.edu&utm_medium=client-footer
+        - img "Powered by uConnect" [ref=f1e428]
+  - button "Open AI Search" [ref=f1e429] [cursor=pointer]

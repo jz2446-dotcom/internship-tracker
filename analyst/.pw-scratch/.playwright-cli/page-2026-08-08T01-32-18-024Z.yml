@@ -1,0 +1,277 @@
+- generic [active] [ref=f22e1]:
+  - navigation [ref=f22e2]:
+    - navigation "Sticky navigation bar" [ref=f22e4]:
+      - menubar [ref=f22e6]:
+        - menuitem [ref=f22e7]:
+          - link [ref=f22e9] [cursor=pointer]:
+            - /url: /
+            - img "Fastweb Logo" [ref=f22e10]
+        - menuitem "scholarships down arrow" [ref=f22e11]:
+          - generic [ref=f22e12]:
+            - generic [ref=f22e13]: scholarships
+            - img "down arrow" [ref=f22e14]
+        - menuitem "fafsa & financial aid down arrow" [ref=f22e15]:
+          - generic [ref=f22e16]:
+            - generic [ref=f22e17]: fafsa & financial aid
+            - img "down arrow" [ref=f22e18]
+        - menuitem [ref=f22e19]:
+          - link "student loans" [ref=f22e20] [cursor=pointer]:
+            - /url: /student-loans
+        - menuitem [ref=f22e22]:
+          - link "student discounts" [ref=f22e23] [cursor=pointer]:
+            - /url: /student-discounts
+        - menuitem "internships down arrow" [ref=f22e25]:
+          - generic [ref=f22e26]:
+            - generic [ref=f22e27]: internships
+            - img "down arrow" [ref=f22e28]
+        - menuitem "educators down arrow" [ref=f22e29]:
+          - generic [ref=f22e30]:
+            - generic [ref=f22e31]: educators
+            - img "down arrow" [ref=f22e32]
+        - menuitem "parents down arrow" [ref=f22e33]:
+          - generic [ref=f22e34]:
+            - generic [ref=f22e35]: parents
+            - img "down arrow" [ref=f22e36]
+      - list [ref=f22e38]:
+        - listitem [ref=f22e39]:
+          - link "log in" [ref=f22e40] [cursor=pointer]:
+            - /url: /login
+        - listitem [ref=f22e41]:
+          - button "sign up" [ref=f22e42] [cursor=pointer]
+        - listitem [ref=f22e43]:
+          - button "Toggle navigation" [expanded] [ref=f22e44]
+  - button [expanded] [ref=f22e46]:
+    - main [ref=f22e51]:
+      - alert [ref=f22e52]:
+        - generic [ref=f22e53]:
+          - text: This internship is not currently active.
+          - link "Sign up" [ref=f22e54] [cursor=pointer]:
+            - /url: /registration/step_1
+          - text: for Fastweb today to get alerts when our team determines it's reactivated.
+      - generic [ref=f22e58]:
+        - generic [ref=f22e60]:
+          - heading "Dallas Museum of Art Summer Art Camp Internship" [level=1] [ref=f22e61]
+          - paragraph [ref=f22e62]: Dallas Museum of Art
+        - generic [ref=f22e65]:
+          - generic [ref=f22e66]:
+            - paragraph [ref=f22e67]: amount
+            - paragraph [ref=f22e68]: Varies
+          - generic [ref=f22e69]:
+            - paragraph [ref=f22e70]: awards available
+            - paragraph [ref=f22e71]: Unspecified
+          - generic [ref=f22e72]:
+            - paragraph [ref=f22e73]: deadline
+            - paragraph [ref=f22e74]: Expired
+        - link "Deadline Passed" [ref=f22e78]:
+          - /url: "#deadline_passed"
+      - generic [ref=f22e83]:
+        - generic [ref=f22e85]:
+          - heading "What's Trending" [level=3] [ref=f22e86]
+          - list [ref=f22e87]:
+            - listitem [ref=f22e88]:
+              - 'link "Pizza Hut Scholarship 2026: Deadlines, Requirements & How to Apply" [ref=f22e89] [cursor=pointer]':
+                - /url: /student-news/articles/pizza-hut-scholarships
+            - listitem [ref=f22e90]:
+              - 'link "Top Scholarships for High School Juniors: Class of 2028" [ref=f22e91] [cursor=pointer]':
+                - /url: /college-scholarships/articles/scholarships-for-high-school-juniors
+            - listitem [ref=f22e92]:
+              - 'link "Top Scholarships for High School Seniors: Class of 2027" [ref=f22e93] [cursor=pointer]':
+                - /url: /college-scholarships/articles/scholarships-for-high-school-seniors
+            - listitem [ref=f22e94]:
+              - 'link "2026 Full-Tuition Scholarships: Get College Paid For In Full" [ref=f22e95] [cursor=pointer]':
+                - /url: /college-scholarships/articles/full-tuition-scholarships
+            - listitem [ref=f22e96]:
+              - 'link "2026 Scholarships for College Students: The Ultimate List" [ref=f22e97] [cursor=pointer]':
+                - /url: /college-scholarships/articles/scholarships-for-college-students
+        - generic [ref=f22e98]:
+          - generic [ref=f22e99]:
+            - heading "Description" [level=2] [ref=f22e100]
+            - paragraph [ref=f22e101]: The Dallas Museum of Art Summer Art Camp Internship is open to students who are working on a degree and can receive course credit. As an intern, you will work closely with art instructors to facilitate Summer Art Camp programs designed for children ages 4–12. You will build hands-on teaching skills by helping guide students in art-making projects, games, and sensory explorations. This internship is offered in Dallas, TX.
+          - generic [ref=f22e104]:
+            - link [ref=f22e108] [cursor=pointer]:
+              - /url: https://secure.adnxs.com/clktrb?id=703130
+              - img "Sign up for Fastweb" [ref=f22e109]
+            - generic [ref=f22e111]:
+              - tablist [ref=f22e112]:
+                - listitem [ref=f22e113]:
+                  - tab "Sign Up" [selected] [ref=f22e114] [cursor=pointer]
+                - listitem [ref=f22e115]:
+                  - tab "Login" [ref=f22e116] [cursor=pointer]
+              - tabpanel "Sign Up" [ref=f22e118]:
+                - generic [ref=f22e119]:
+                  - group "I am a:" [ref=f22e121]:
+                    - generic [ref=f22e123]:
+                      - radio "Student" [checked] [ref=f22e124]
+                      - generic [ref=f22e125] [cursor=pointer]: Student
+                    - generic [ref=f22e126]:
+                      - radio "Parent/Guardian of a student" [ref=f22e127]
+                      - generic [ref=f22e128] [cursor=pointer]: Parent/Guardian of a student
+                  - generic [ref=f22e129]:
+                    - listbox "grade level list" [ref=f22e131]:
+                      - option "High School Freshman"
+                      - option "High School Sophomore"
+                      - option "High School Junior"
+                      - option "High School Senior" [selected]
+                      - option "College Freshman"
+                      - option "College Sophomore"
+                      - option "College Junior"
+                      - option "College Senior"
+                      - option "Graduate School - Year 1"
+                      - option "Graduate Student - Year 2"
+                      - option "Graduate Student - Year 3"
+                      - option "Graduate Student - Year 4"
+                      - option "Graduate Student - Year 5"
+                    - textbox "Zip Code" [ref=f22e133]
+                  - generic [ref=f22e134]:
+                    - button "Join for free" [ref=f22e135] [cursor=pointer]
+                    - paragraph [ref=f22e136]:
+                      - text: By clicking the button above, I agree to the
+                      - link "Terms & Conditions" [ref=f22e137] [cursor=pointer]:
+                        - /url: /terms
+                      - text: and
+                      - link "Privacy Policy" [ref=f22e138] [cursor=pointer]:
+                        - /url: /privacy
+                      - text: .
+          - heading "You Might Also Like" [level=3] [ref=f22e140]
+    - generic [ref=f22e145]:
+      - generic [ref=f22e146]:
+        - generic [ref=f22e147]:
+          - img "Fastweb Logo" [ref=f22e149]
+          - list [ref=f22e150]:
+            - listitem [ref=f22e151]:
+              - link [ref=f22e152] [cursor=pointer]:
+                - /url: https://www.facebook.com/PayingForSchool
+                - img "Facebook" [ref=f22e154]
+            - listitem [ref=f22e155]:
+              - link [ref=f22e156] [cursor=pointer]:
+                - /url: https://x.com/payingforschool
+                - img "Twitter" [ref=f22e158]
+            - listitem [ref=f22e159]:
+              - link [ref=f22e160] [cursor=pointer]:
+                - /url: https://www.pinterest.com/PayingForSchool
+                - img "Pinterest" [ref=f22e162]
+            - listitem [ref=f22e163]:
+              - link [ref=f22e164] [cursor=pointer]:
+                - /url: https://www.instagram.com/payingforschool
+                - img "Instagram" [ref=f22e166]
+            - listitem [ref=f22e167]:
+              - link [ref=f22e168] [cursor=pointer]:
+                - /url: https://www.tiktok.com/@payingforschool
+                - img "TikTok" [ref=f22e170]
+        - list [ref=f22e171]:
+          - listitem [ref=f22e172]: QUICK LINKS
+          - listitem [ref=f22e173]:
+            - link "Educators" [ref=f22e174] [cursor=pointer]:
+              - /url: /content/educators
+          - listitem [ref=f22e175]:
+            - link "Scholarship Winners" [ref=f22e176] [cursor=pointer]:
+              - /url: /content/scholarship-winners
+          - listitem [ref=f22e177]:
+            - link "FAFSA & Financial Aid" [ref=f22e178] [cursor=pointer]:
+              - /url: /content/fafsa
+          - listitem [ref=f22e179]:
+            - link "Scholarship Directory" [ref=f22e180] [cursor=pointer]:
+              - /url: /scholarship-directory
+          - listitem [ref=f22e181]:
+            - link "Scholarships by State" [ref=f22e182] [cursor=pointer]:
+              - /url: /directory/scholarships-by-state
+          - listitem [ref=f22e183]:
+            - link "Scholarships by Major" [ref=f22e184] [cursor=pointer]:
+              - /url: /directory/scholarships-by-major
+          - listitem [ref=f22e185]:
+            - link "Scholarships for High School Juniors" [ref=f22e186] [cursor=pointer]:
+              - /url: /directory/scholarships-for-high-school-juniors
+          - listitem [ref=f22e187]:
+            - link "Scholarships for High School Seniors" [ref=f22e188] [cursor=pointer]:
+              - /url: /directory/scholarships-for-high-school-seniors
+          - listitem [ref=f22e189]:
+            - link "Scholarships for College Freshmen" [ref=f22e190] [cursor=pointer]:
+              - /url: /directory/scholarships-for-college-freshmen
+          - listitem [ref=f22e191]:
+            - link "Scholarships for Veterans" [ref=f22e192] [cursor=pointer]:
+              - /url: /directory/scholarships-for-veterans
+          - listitem [ref=f22e193]:
+            - link "Scholarships for Bilingual Students" [ref=f22e194] [cursor=pointer]:
+              - /url: /directory/scholarships-for-bilingual-students
+          - listitem [ref=f22e195]:
+            - link "Scholarships for Hispanic Students" [ref=f22e196] [cursor=pointer]:
+              - /url: /directory/scholarships-for-hispanic-students
+          - listitem [ref=f22e197]:
+            - link "Scholarships for African-American Students" [ref=f22e198] [cursor=pointer]:
+              - /url: /directory/scholarships-for-african-american-students
+        - list [ref=f22e199]:
+          - listitem [ref=f22e200]: COMPANY
+          - listitem [ref=f22e201]:
+            - link "About Fastweb" [ref=f22e202] [cursor=pointer]:
+              - /url: /about
+          - listitem [ref=f22e203]:
+            - link "Press Room" [ref=f22e204] [cursor=pointer]:
+              - /url: /content/press
+          - listitem [ref=f22e205]:
+            - link "Advertise With Us" [ref=f22e206] [cursor=pointer]:
+              - /url: https://www.fastweb.com/nfs/fastweb/static/media_kit/Fastweb_Media_Kit.pdf
+        - list [ref=f22e207]:
+          - listitem [ref=f22e208]: HELP
+          - listitem [ref=f22e209]:
+            - link "FAQ" [ref=f22e210] [cursor=pointer]:
+              - /url: /content/faq
+          - listitem [ref=f22e211]:
+            - link "Provider Guidelines" [ref=f22e212] [cursor=pointer]:
+              - /url: /content/scholarship-provider-guidelines
+          - listitem [ref=f22e213]:
+            - link "Site Map" [ref=f22e214] [cursor=pointer]:
+              - /url: /content/sitemap
+          - listitem [ref=f22e215]:
+            - link "Contact Us" [ref=f22e216] [cursor=pointer]:
+              - /url: /contact_us
+          - listitem [ref=f22e217]:
+            - link "Educator Login" [ref=f22e218] [cursor=pointer]:
+              - /url: /login
+          - listitem [ref=f22e219]:
+            - link "Volunteer" [ref=f22e220] [cursor=pointer]:
+              - /url: /content/fastweb-volunteers
+        - generic [ref=f22e221]:
+          - paragraph [ref=f22e222]: DOWNLOAD OUR APP
+          - generic [ref=f22e223]:
+            - img "mobile device" [ref=f22e225]
+            - list [ref=f22e226]:
+              - listitem [ref=f22e227]:
+                - link [ref=f22e228] [cursor=pointer]:
+                  - /url: https://itunes.apple.com/us/app/fastweb-college-scholarships/id1105307315?mt=8
+                  - img "Apple Store" [ref=f22e230]
+      - generic [ref=f22e232]:
+        - list [ref=f22e233]:
+          - listitem [ref=f22e234]:
+            - link "Terms of Use" [ref=f22e235] [cursor=pointer]:
+              - /url: /terms
+          - listitem [ref=f22e236]: "|"
+          - listitem [ref=f22e237]:
+            - link "Privacy Center" [ref=f22e238] [cursor=pointer]:
+              - /url: /privacy
+          - listitem [ref=f22e239]: "|"
+          - listitem [ref=f22e240]:
+            - link "Ad Choices" [ref=f22e241] [cursor=pointer]:
+              - /url: http://preferences-mgr.truste.com/?pid=monster01&aid=fastweb01&size=default&type=fastweb
+          - listitem [ref=f22e242]: "|"
+          - listitem [ref=f22e243]:
+            - link [ref=f22e244] [cursor=pointer]:
+              - /url: /your-privacy-choices
+              - text: Your Privacy Choices
+              - img "Privacy Options" [ref=f22e246]
+        - paragraph [ref=f22e247]: © Fastweb
+      - link "TRUSTe Certified Privacy" [ref=f22e249] [cursor=pointer]:
+        - /url: //privacy.truste.com/privacy-seal/validation?rid=321ddc3e-c7e9-47b5-a608-04bd2b9a4e61
+        - img "TRUSTe logo" [ref=f22e250]
+  - iframe [ref=f22e253]:
+    - generic [ref=f24e6]:
+      - text: protected by
+      - strong [ref=f24e7]: reCAPTCHA
+  - region "Cookie banner" [ref=f22e254]:
+    - dialog "Privacy" [ref=f22e255]:
+      - generic [ref=f22e257]:
+        - generic [ref=f22e258]: This website uses cookies to enhance user experience and to analyze performance and traffic on our website. We may also share information about your use of our site with our social media, advertising and analytics partners.
+        - generic [ref=f22e262]:
+          - button "Cookie Settings, Opens the preference center dialog" [ref=f22e263] [cursor=pointer]: Cookie Settings
+          - button "Reject All" [ref=f22e264] [cursor=pointer]
+          - button "Accept Cookies" [ref=f22e265] [cursor=pointer]
+      - button "Close" [ref=f22e267] [cursor=pointer]

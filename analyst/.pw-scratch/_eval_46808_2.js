@@ -1,0 +1,1 @@
+async (page) => { return await page.evaluate(() => [...document.querySelectorAll('a[href]')].map(a=>a.href).filter(h=>/^https?:/i.test(h)).filter((v,i,s)=>s.indexOf(v)===i).slice(0,150)); }

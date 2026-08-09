@@ -1,0 +1,48 @@
+- alertdialog "Cookie Consent Banner" [ref=f173e2]:
+  - generic [ref=f173e5]:
+    - generic [ref=f173e6]:
+      - generic [ref=f173e7]:
+        - generic [ref=f173e8]: Your Privacy & Cookies
+        - generic [ref=f173e10]:
+          - generic [ref=f173e11]: "Language:"
+          - combobox "Language Select" [ref=f173e12]:
+            - option "English" [selected]
+            - option "Spanish / Español"
+            - option "English / United Kingdom"
+            - option "Korean / 한국어"
+            - option "Vietnamese / Tiếng Việt Nam"
+            - option "Tagalog / Filipino"
+            - option "Chinese / 中文"
+            - option "German / Deutsch"
+            - option "French / Français"
+      - paragraph [ref=f173e14]:
+        - text: This site deploys cookies and similar tracking technologies, including
+        - strong [ref=f173e15]: essential cookies
+        - text: for necessary website features, accessibility, and cookie preferences (which may interact directly with, or be shared with, third-party service providers),
+        - strong [ref=f173e16]: functional cookies
+        - text: for error reporting and to remember settings and deliver optional functionality (including live-chat and other tools, enabling data collection and sharing with third parties),
+        - strong [ref=f173e17]: analytics cookies
+        - text: for measuring website statistics and user interactions, and
+        - strong [ref=f173e18]: targeting cookies
+        - text: for cross-site retargeted advertising. You can reject
+        - strong [ref=f173e19]: targeting cookies
+        - text: by pressing ‘Deny targeting cookies’, but we still use essential, functional, and analytics cookies. By pressing ‘Allow All Cookies’, you consent to the use of all cookies and the sharing of information they collect with third parties. By continuing to use this site, you agree to our
+        - link [ref=f173e20] [cursor=pointer]:
+          - /url: https://pagjobs.com/privacy-policy
+          - strong [ref=f173e21]: Privacy Policy
+        - text: ", the categories of personal information we collect, the purposes for which the information is used, and how to manage your privacy rights."
+    - generic [ref=f173e22]:
+      - link "Your Privacy Choices" [ref=f173e25] [cursor=pointer]:
+        - /url: https://pagjobs.com/ccpa-requests
+        - generic [ref=f173e26]:
+          - img "Opt-Out Icon" [ref=f173e28]
+          - generic [ref=f173e29]: Your Privacy Choices
+      - generic [ref=f173e30]:
+        - button "Allow all cookies" [ref=f173e31] [cursor=pointer]
+        - button "Deny targeting cookies" [ref=f173e32] [cursor=pointer]
+        - generic [ref=f173e33] [cursor=pointer]: Customize cookie settings
+    - generic [ref=f173e35]:
+      - text: Powered by
+      - strong [ref=f173e36]:
+        - link "ComplyAuto" [ref=f173e37] [cursor=pointer]:
+          - /url: https://complyauto.com

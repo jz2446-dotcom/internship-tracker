@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="Content-Security-Policy"
+        content="default-src 'none'; script-src 'self'; style-src 'self';" />
+  <title>Tracker Control Panel</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>Tracker Control Panel</h1>
+    <p class="sub">Deterministic (zero-AI) pipeline steps. No API key, no AI calls &mdash; shells out to node / python / wrangler / curl on your PATH.</p>
+    <div id="paths" class="paths"></div>
+  </header>
+
+  <main>
+    <!-- Data pipeline -->
+    <section class="group">
+      <h2>Data pipeline <span class="cwd" id="cwd-worker"></span></h2>
+      <div class="buttons">
+        <button class="btn" data-cwd="worker" data-cmd="node add-estimates.js">
+          Add estimates<small>node add-estimates.js</small>
+        </button>
+        <button class="btn" data-cwd="worker" data-cmd="node build-data.js">
+          Build data bundle<small>node build-data.js</small>
+        </button>
+        <button class="btn" data-cwd="worker" data-cmd="node gen-notes.js">
+          Generate Dataview notes<small>node gen-notes.js</small>
+        </button>
+      </div>
+    </section>
+
+    <!-- Deploy -->
+    <section class="group deploy">
+      <h2>Deploy &amp; verify <span class="cwd" id="cwd-worker2"></span></h2>
+      <div class="buttons">
+        <button class="btn verify" data-cwd="worker"
+          data-cmd='curl -s "https://internship-tracker.jz-tracker.workers.dev/api/data?cb=1"'>
+          Verify live<small>curl /api/data</small>
+        </button>
+        <button class="btn danger" id="deploy-btn" data-cwd="worker" data-cmd="wrangler deploy">
+          Deploy to Cloudflare<small>wrangler deploy &mdash; LIVE</small>
+        </button>
+      </div>
+      <label class="confirm">
+        <input type="checkbox" id="deploy-confirm" />
+        I understand this publishes to the live site. Enable the Deploy button.
+      </label>
+    </section>
+
+    <!-- Resumes -->
+    <section class="group">
+      <h2>R&eacute;sum&eacute;s <span class="cwd" id="cwd-resume"></span></h2>
+      <div class="resume-row">
+        <label for="map-select">Map file:</label>
+        <select id="map-select"></select>
+        <button class="btn inline" id="render-btn" data-cwd="resume">
+          Render + one-line check<small>python build.py map_&lt;role&gt;.json out_&lt;role&gt;.docx</small>
+        </button>
+      </div>
+      <div class="buttons">
+        <button class="btn" data-cwd="root" data-cmd="node control-panel/rebundle-resumes.js">
+          Re-bundle r&eacute;sum&eacute;s<small>node control-panel/rebundle-resumes.js</small>
+        </button>
+      </div>
+      <p class="note">Re-bundle rebuilds <code>cloudflare-worker/src/resumes.json</code> from the <code>min_*.pdf</code> files, then deploy separately.</p>
+    </section>
+
+    <!-- Analyst engine, via the tracker-analyst MCP connector -->
+    <section class="group">
+      <h2>Research &mdash; Analyst engine <span class="cwd" id="cwd-analyst"></span></h2>
+      <div class="resume-row">
+        <label for="tab-select">Tab:</label>
+        <select id="tab-select"></select>
+        <label for="limit-input">Limit:</label>
+        <input type="number" id="limit-input" min="0" placeholder="all" style="width:64px" />
+        <button class="btn inline" id="analyst-btn" data-cwd="analystMcp">
+          Run sweep<small>via tracker-analyst connector</small>
+        </button>
+      </div>
+      <div class="resume-row">
+        <label class="confirm inline"><input type="checkbox" id="nim-check" checked /> NIM backup verdict</label>
+        <label class="confirm inline"><input type="checkbox" id="browse-check" checked /> Browser fallback pass</label>
+        <label class="confirm inline"><input type="checkbox" id="headed-check" /> Watch it work (headed browser)</label>
+      </div>
+      <p class="note">Delegates to the <b>tracker-analyst</b> MCP server (<code>analyst/mcp/cli-bridge.js run_full_sweep</code>) &mdash; the app resolves each firm's ATS board / browser fallback for FREE and runs NIM as an always-on backup verdict on the ambiguous shortlist. Nothing is final: writes <code>data/&lt;agent&gt;_results.partial.json</code> + <code>_shortlist.json</code> for the brain to judge afterward (<code>get_shortlist</code> / <code>submit_verdicts</code> / <code>apply_verdicts</code> via the connector, not from this panel). Check &ldquo;Watch it work&rdquo; to pop a real, visible browser window during the fallback pass instead of running headless.</p>
+    </section>
+  </main>
+
+  <section class="console-wrap">
+    <div class="console-head">
+      <span>Console</span>
+      <div class="console-controls">
+        <span id="status" class="status idle">idle</span>
+        <button id="kill-btn" class="mini" disabled>Stop</button>
+        <button id="clear-btn" class="mini">Clear</button>
+      </div>
+    </div>
+    <pre id="console" class="console"></pre>
+  </section>
+
+  <script src="renderer.js"></script>
+</body>
+</html>

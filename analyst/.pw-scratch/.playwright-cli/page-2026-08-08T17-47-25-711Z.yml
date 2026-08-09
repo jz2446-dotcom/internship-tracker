@@ -1,0 +1,196 @@
+- generic [active] [ref=f31e1]:
+  - generic:
+    - link "link to navigation" [ref=f31e2] [cursor=pointer]:
+      - /url: "#accordion"
+      - text: Skip to navigation
+    - link "link to main content" [ref=f31e3] [cursor=pointer]:
+      - /url: "#main-content"
+      - text: Skip to main content
+    - link "link to footer" [ref=f31e4] [cursor=pointer]:
+      - /url: "#footer"
+      - text: Skip to Footer
+  - generic [ref=f31e5]:
+    - banner [ref=f31e6]:
+      - navigation "primary" [ref=f31e7]:
+        - generic [ref=f31e9]:
+          - link "Page d'accueil" [ref=f31e11] [cursor=pointer]:
+            - /url: /en
+          - generic [ref=f31e37]:
+            - generic [ref=f31e38]:
+              - generic [ref=f31e39]: "Rechercher un job:"
+              - generic [ref=f31e40]:
+                - generic [ref=f31e41]: Une liste de suggestion de recherche apparaitra au ciblage du champ de recherche
+                - textbox "Rechercher un job:" [ref=f31e42]:
+                  - /placeholder: Find your dream job...
+            - button "Search" [ref=f31e43] [cursor=pointer]
+          - generic [ref=f31e45]:
+            - link "0" [ref=f31e46] [cursor=pointer]:
+              - /url: /en/jobs-wishlist
+            - alert [ref=f31e48]
+            - generic [ref=f31e49]:
+              - button "Une fenêtre de connexion apparaitra au ciblage" [ref=f31e50] [cursor=pointer]
+              - generic [ref=f31e52]:
+                - button "Fermer la fenêtre de connexion" [ref=f31e53] [cursor=pointer]
+                - generic [ref=f31e57]:
+                  - generic [ref=f31e58]: Follow-up on my applications, save my CV, set up alerts...
+                  - link "Create my profile" [ref=f31e59] [cursor=pointer]:
+                    - /url: https://socgen.taleo.net/careersection/sgcareers/profile.ftl?lang=&src=CWS-1
+                  - separator [ref=f31e60]
+                  - generic [ref=f31e61]: Coming back?
+                  - link "Log in" [ref=f31e62] [cursor=pointer]:
+                    - /url: https://socgen.taleo.net/careersection/sgcareers/profile.ftl?lang=en&src=CWS-1
+      - navigation "secondary" [ref=f31e63]:
+        - generic [ref=f31e65]:
+          - list [ref=f31e66]:
+            - listitem [ref=f31e67]:
+              - link "Your future with us" [ref=f31e69] [cursor=pointer]:
+                - /url: /en/about-us
+              - list:
+                - listitem [ref=f31e70]:
+                  - link "Get to know us better" [ref=f31e71] [cursor=pointer]:
+                    - /url: /en/about-us/know-us
+                - listitem [ref=f31e72]:
+                  - link "Committed to working together" [ref=f31e73] [cursor=pointer]:
+                    - /url: /en/committed-together
+            - listitem [ref=f31e74]:
+              - link "Profiles wanted" [ref=f31e76] [cursor=pointer]:
+                - /url: /en/jobs
+              - list:
+                - listitem [ref=f31e77]:
+                  - link "IT & Digital" [ref=f31e78] [cursor=pointer]:
+                    - /url: /en/jobs/it
+                - listitem [ref=f31e79]:
+                  - link "Data" [ref=f31e80] [cursor=pointer]:
+                    - /url: /en/jobs/data
+                - listitem [ref=f31e81]:
+                  - link "Global Banking & Investor Solutions" [ref=f31e82] [cursor=pointer]:
+                    - /url: /en/jobs/global-banking-investor-solutions
+                - listitem [ref=f31e83]:
+                  - link "Risk" [ref=f31e84] [cursor=pointer]:
+                    - /url: /en/jobs/risk
+                - listitem [ref=f31e85]:
+                  - link "Compliance" [ref=f31e86] [cursor=pointer]:
+                    - /url: /en/jobs/compliance
+                - listitem [ref=f31e87]:
+                  - link "Legal" [ref=f31e88] [cursor=pointer]:
+                    - /url: /en/jobs/legal
+                - listitem [ref=f31e89]:
+                  - link "Financial Department" [ref=f31e90] [cursor=pointer]:
+                    - /url: /en/jobs/financial-department
+                - listitem [ref=f31e91]:
+                  - link "General Inspection, Audit & Consulting" [ref=f31e92] [cursor=pointer]:
+                    - /url: /en/jobs/general-inspection-audit-consulting
+                - listitem [ref=f31e93]:
+                  - link "More jobs" [ref=f31e94] [cursor=pointer]:
+                    - /url: /en/jobs/more-jobs
+            - listitem [ref=f31e95]:
+              - link "Students & Graduates" [ref=f31e97] [cursor=pointer]:
+                - /url: /en/students-graduates
+              - list:
+                - listitem [ref=f31e98]:
+                  - link "Internships" [ref=f31e99] [cursor=pointer]:
+                    - /url: /en/internships-trainee-programs
+                - listitem [ref=f31e100]:
+                  - link "International internship program (V.I.E)" [ref=f31e101] [cursor=pointer]:
+                    - /url: /en/vie
+                - listitem [ref=f31e102]:
+                  - link "Graduate programmes" [ref=f31e103] [cursor=pointer]:
+                    - /url: /en/students-graduates/graduate-programmes
+                - listitem [ref=f31e104]:
+                  - link "Tips for job seekers" [ref=f31e105] [cursor=pointer]:
+                    - /url: /en/tips-candidates
+            - listitem [ref=f31e106]:
+              - link "Search" [ref=f31e107] [cursor=pointer]:
+                - /url: /en/search
+                - text: ALL JOBS
+          - generic [ref=f31e108]:
+            - generic [ref=f31e112]:
+              - switch "Dark mode"
+            - generic [ref=f31e116]:
+              - link "Consulter le site en français" [ref=f31e117] [cursor=pointer]:
+                - /url: /offres-sauvegardees
+                - text: FR
+              - separator [ref=f31e118]
+              - generic [ref=f31e119]: Website in English (current version)
+              - generic [ref=f31e120]: EN
+    - main [ref=f31e121]:
+      - generic [ref=f31e122]:
+        - generic [ref=f31e123]:
+          - heading "Saved jobs" [level=1] [ref=f31e130]
+          - generic [ref=f31e132]: Loading saved offers
+          - generic [ref=f31e133]:
+            - paragraph [ref=f31e135]:
+              - strong [ref=f31e136]: Aucune offre sauvegardée
+            - generic [ref=f31e139]:
+              - generic [ref=f31e140]: Your cart is empty! Why don't you try another search?
+              - generic [ref=f31e144]:
+                - textbox "Find your dream job..." [ref=f31e145]
+                - button "Search" [ref=f31e146] [cursor=pointer]
+        - navigation "Fil d'Ariane" [ref=f31e152]:
+          - list [ref=f31e153]:
+            - listitem [ref=f31e154]:
+              - link "Home" [ref=f31e155] [cursor=pointer]:
+                - /url: /en
+              - text: ">"
+            - listitem [ref=f31e156]: Offres sauvegardées
+    - contentinfo [ref=f31e157]:
+      - contentinfo [ref=f31e158]:
+        - generic [ref=f31e159]:
+          - generic [ref=f31e160]:
+            - generic [ref=f31e161]: Discover
+            - list [ref=f31e162]:
+              - listitem [ref=f31e163]:
+                - link "Jobs in banking" [ref=f31e164] [cursor=pointer]:
+                  - /url: /en/search
+              - listitem [ref=f31e165]:
+                - link "Societe Generale Group website" [ref=f31e166] [cursor=pointer]:
+                  - /url: https://www.societegenerale.com/en
+          - generic [ref=f31e167]:
+            - generic [ref=f31e168]: Useful links
+            - list [ref=f31e169]:
+              - listitem [ref=f31e170]:
+                - link "Help Center" [ref=f31e171] [cursor=pointer]:
+                  - /url: /en/help
+              - listitem [ref=f31e172]:
+                - link "Profiles wanted" [ref=f31e173] [cursor=pointer]:
+                  - /url: /en/jobs
+              - listitem [ref=f31e174]:
+                - link "Sitemap" [ref=f31e175] [cursor=pointer]:
+                  - /url: /en/sitemap
+              - listitem [ref=f31e176]:
+                - 'link "Accessibility: non-compliant" [ref=f31e177] [cursor=pointer]':
+                  - /url: /en/accessibility-policies
+          - generic [ref=f31e178]:
+            - generic [ref=f31e179]: Legal information
+            - list [ref=f31e180]:
+              - listitem [ref=f31e181]:
+                - link "Legal information" [ref=f31e182] [cursor=pointer]:
+                  - /url: /en/legal-information
+              - listitem [ref=f31e183]:
+                - link "Privacy policy" [ref=f31e184] [cursor=pointer]:
+                  - /url: /en/privacy-policy
+              - listitem [ref=f31e185]:
+                - link "Cookies Policy" [ref=f31e186] [cursor=pointer]:
+                  - /url: /en/cookies
+              - listitem [ref=f31e187]:
+                - link "Consent choices" [ref=f31e188] [cursor=pointer]:
+                  - /url: ""
+          - generic [ref=f31e189]:
+            - generic [ref=f31e190]: "Follow Us:"
+            - list [ref=f31e191]:
+              - listitem [ref=f31e192]:
+                - link "Facebook - Nouvel onglet" [ref=f31e193] [cursor=pointer]:
+                  - /url: https://www.facebook.com/societegenerale
+              - listitem [ref=f31e197]:
+                - link "Youtube - Nouvel onglet" [ref=f31e198] [cursor=pointer]:
+                  - /url: https://www.youtube.com/playlist?list=PLO28QHeP4SE6s6hcc5_PcYVbZ2EiBZOQq
+              - listitem [ref=f31e202]:
+                - link "Twitter - Nouvel onglet" [ref=f31e203] [cursor=pointer]:
+                  - /url: https://twitter.com/SocieteGenerale
+              - listitem [ref=f31e207]:
+                - link "LinkedIn - Nouvel onglet" [ref=f31e208] [cursor=pointer]:
+                  - /url: https://www.linkedin.com/company/societe-generale/
+              - listitem [ref=f31e212]:
+                - link "Instagram - Nouvel onglet" [ref=f31e213] [cursor=pointer]:
+                  - /url: https://www.instagram.com/societegenerale/
+    - button "Return to the top of the page" [ref=f31e217] [cursor=pointer]

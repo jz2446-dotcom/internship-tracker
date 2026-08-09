@@ -1,0 +1,20 @@
+- generic [ref=f961e3]:
+  - generic [ref=f961e6]:
+    - heading "This site can’t be reached" [level=1] [ref=f961e7]
+    - paragraph [ref=f961e8]:
+      - strong [ref=f961e9]: carnegielibraryofpittsburgh.com
+      - text: took too long to respond.
+    - generic [ref=f961e10]:
+      - paragraph [ref=f961e11]: "Try:"
+      - list [ref=f961e12]:
+        - listitem [ref=f961e13]: Checking the connection
+        - listitem [ref=f961e14]:
+          - link "Checking the proxy and the firewall" [ref=f961e15] [cursor=pointer]:
+            - /url: "#buttons"
+        - listitem [ref=f961e16]:
+          - link "Running Windows Network Diagnostics" [ref=f961e17] [cursor=pointer]:
+            - /url: javascript:diagnoseErrors()
+    - generic [ref=f961e18]: ERR_CONNECTION_TIMED_OUT
+  - generic [ref=f961e19]:
+    - button "Reload" [ref=f961e21] [cursor=pointer]
+    - button "Details" [ref=f961e22] [cursor=pointer]

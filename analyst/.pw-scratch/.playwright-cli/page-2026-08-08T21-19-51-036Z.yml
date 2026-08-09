@@ -1,0 +1,756 @@
+- generic [active] [ref=f28e1]:
+  - banner [ref=f28e2]:
+    - generic [ref=f28e3]:
+      - generic [ref=f28e4]:
+        - button "Main menu" [ref=f28e5] [cursor=pointer]
+        - link "Careers" [ref=f28e10] [cursor=pointer]:
+          - /url: /about/careers/applications/
+      - generic [ref=f28e13]:
+        - link "Skip navigation links" [ref=f28e14]
+        - generic [ref=f28e17]:
+          - navigation "Candidate Portal Left Navigation" [ref=f28e21]:
+            - menubar [ref=f28e23]:
+              - generic [ref=f28e24]:
+                - menuitem "Home navigation link" [ref=f28e25] [cursor=pointer]:
+                  - menuitem [ref=f28e27]:
+                    - generic [ref=f28e28]:
+                      - generic [ref=f28e29]:
+                        - generic [ref=f28e31]: home
+                        - generic [ref=f28e35]: Home
+                      - generic [ref=f28e37]: Home
+                - menuitem "Jobs navigation item" [ref=f28e39] [cursor=pointer]:
+                  - menuitem [ref=f28e41]:
+                    - generic [ref=f28e42]:
+                      - generic [ref=f28e43]:
+                        - generic [ref=f28e45]: work_outline
+                        - generic [ref=f28e49]: Jobs
+                      - generic [ref=f28e51]: Jobs
+                - menuitem "Students navigation item" [ref=f28e53] [cursor=pointer]:
+                  - menuitem [ref=f28e55]:
+                    - generic [ref=f28e56]:
+                      - generic [ref=f28e57]:
+                        - generic [ref=f28e59]: noogler_hat
+                        - generic [ref=f28e63]: Students
+                      - generic [ref=f28e65]: Students
+                - menuitem "How we work navigation item" [ref=f28e67] [cursor=pointer]:
+                  - menuitem [ref=f28e69]:
+                    - generic [ref=f28e70]:
+                      - generic [ref=f28e71]:
+                        - generic [ref=f28e73]: google
+                        - generic [ref=f28e77]: How we work
+                      - generic [ref=f28e79]: How we work
+                - menuitem "How we hire navigation item" [ref=f28e81] [cursor=pointer]:
+                  - menuitem [ref=f28e83]:
+                    - generic [ref=f28e84]:
+                      - generic [ref=f28e85]:
+                        - generic [ref=f28e87]: handyman
+                        - generic [ref=f28e91]: How we hire
+                      - generic [ref=f28e93]: How we hire
+                - menuitem "Your career navigation item" [ref=f28e95] [cursor=pointer]:
+                  - menuitem [ref=f28e97]:
+                    - generic [ref=f28e98]:
+                      - generic [ref=f28e99]:
+                        - generic [ref=f28e101]: person_outline
+                        - generic [ref=f28e105]: Your career
+                      - generic [ref=f28e107]: Your career
+          - generic [ref=f28e114]:
+            - generic [ref=f28e115]:
+              - generic [ref=f28e116] [cursor=pointer]:
+                - generic [ref=f28e117]: help_outline
+                - link "Help link" [ref=f28e118]:
+                  - /url: https://support.google.com/googlecareers
+              - tooltip [ref=f28e119]: Help link
+            - generic [ref=f28e120]:
+              - button "Send feedback" [ref=f28e121] [cursor=pointer]:
+                - generic [ref=f28e122]: feedback
+              - tooltip [ref=f28e123]: Send feedback
+      - generic [ref=f28e125]:
+        - button "Google apps" [ref=f28e129] [cursor=pointer]
+        - link "Sign in" [ref=f28e133] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?passive=1209600&continue=https%3A%2F%2Fwww.google.com%2Fabout%2Fcareers%2Fapplications%2Fjobs%2Fresults&followup=https%3A%2F%2Fwww.google.com%2Fabout%2Fcareers%2Fapplications%2Fjobs%2Fresults&ec=GAZA6QE
+  - generic [ref=f28e141]:
+    - heading "Search Jobs" [level=1]
+    - generic [ref=f28e143]:
+      - generic [ref=f28e145]:
+        - heading "Search sidebar" [level=2]
+        - generic [ref=f28e146]:
+          - generic [ref=f28e147]:
+            - generic [ref=f28e148]: 3,667 jobs matched
+            - button "Clear filters" [ref=f28e150]
+          - generic:
+            - grid "tags chipset"
+          - generic [ref=f28e158]:
+            - generic: What do you want to do?
+            - combobox "What do you want to do?" [ref=f28e159]
+          - generic "Job filters" [ref=f28e160]:
+            - generic [ref=f28e162]:
+              - heading "Locations" [level=3] [ref=f28e164]
+              - button "Locations filter options" [ref=f28e166] [cursor=pointer]:
+                - generic [ref=f28e167]: expand_more
+            - generic [ref=f28e169]:
+              - heading "Experience" [level=3] [ref=f28e171]
+              - button "Experience filter options" [ref=f28e173] [cursor=pointer]:
+                - generic [ref=f28e174]: expand_more
+            - generic [ref=f28e176]:
+              - heading "Skills & qualifications" [level=3] [ref=f28e178]
+              - button "Skills & qualifications filter options" [ref=f28e180] [cursor=pointer]:
+                - generic [ref=f28e181]: expand_more
+            - generic [ref=f28e183]:
+              - heading "Degree" [level=3] [ref=f28e185]
+              - button "Degree filter options" [ref=f28e187] [cursor=pointer]:
+                - generic [ref=f28e188]: expand_more
+            - generic [ref=f28e190]:
+              - heading "Job types" [level=3] [ref=f28e192]
+              - button "Job types filter options" [ref=f28e194] [cursor=pointer]:
+                - generic [ref=f28e195]: expand_more
+            - generic [ref=f28e197]:
+              - heading "Organizations" [level=3] [ref=f28e199]
+              - button "Organizations filter options" [ref=f28e201] [cursor=pointer]:
+                - generic [ref=f28e202]: expand_more
+            - generic [ref=f28e204]:
+              - heading "Sort by" [level=3] [ref=f28e206]
+              - button "Sort jobs by date or relevance" [ref=f28e208] [cursor=pointer]:
+                - generic [ref=f28e209]: expand_more
+      - generic [ref=f28e210]:
+        - main [ref=f28e211]:
+          - generic [ref=f28e212]:
+            - heading "Jobs search results" [level=2]
+            - generic [ref=f28e214]:
+              - list [ref=f28e216]:
+                - listitem [ref=f28e217]:
+                  - generic [ref=f28e219]:
+                    - generic [ref=f28e221]:
+                      - heading "Manufacturing Structural Test Development Engineer" [level=3] [ref=f28e224]
+                      - generic [ref=f28e226]:
+                        - generic [ref=f28e227]:
+                          - generic [ref=f28e228]: corporate_fare
+                          - generic [ref=f28e229]: Google
+                        - generic [ref=f28e230]:
+                          - generic [ref=f28e231]: place
+                          - generic [ref=f28e232]: Sunnyvale, CA, USA
+                        - img "Mid, Learn more about experience filters." [ref=f28e236]:
+                          - generic [ref=f28e239]: bar_chart
+                          - generic [ref=f28e241]: Mid
+                      - generic [ref=f28e242]:
+                        - heading "Minimum qualifications" [level=4] [ref=f28e243]
+                        - list [ref=f28e244]:
+                          - listitem [ref=f28e245]: Bachelor’s degree in Engineering or equivalent practical experience.
+                          - listitem [ref=f28e246]: 8 years of experience in manufacturing structural test or In-Circuit test development.
+                      - generic [ref=f28e248]:
+                        - generic [ref=f28e250]: Learn more
+                        - link "Learn more about Manufacturing Structural Test Development Engineer" [ref=f28e251] [cursor=pointer]:
+                          - /url: jobs/results/82087125486314182-manufacturing-structural-test-development-engineer
+                    - button "Share Manufacturing Structural Test Development Engineer" [ref=f28e256] [cursor=pointer]:
+                      - generic [ref=f28e257]: share
+                - listitem [ref=f28e258]:
+                  - generic [ref=f28e260]:
+                    - generic [ref=f28e262]:
+                      - heading "Strategy Associate, YouTube" [level=3] [ref=f28e265]
+                      - generic [ref=f28e267]:
+                        - generic [ref=f28e268]:
+                          - generic [ref=f28e269]: corporate_fare
+                          - generic [ref=f28e270]: YouTube
+                        - generic [ref=f28e271]:
+                          - generic [ref=f28e272]: place
+                          - generic [ref=f28e273]: San Bruno, CA, USA
+                          - generic [ref=f28e274]: ; New York, NY, USA
+                        - img "Mid, Learn more about experience filters." [ref=f28e278]:
+                          - generic [ref=f28e281]: bar_chart
+                          - generic [ref=f28e283]: Mid
+                      - generic [ref=f28e284]:
+                        - heading "Minimum qualifications" [level=4] [ref=f28e285]
+                        - list [ref=f28e286]:
+                          - listitem [ref=f28e287]: Bachelor's degree in a business or quantitative discipline (e.g., Business Administration, Statistics, Economics, Mathematics, Physics) or equivalent practical experience.
+                          - listitem [ref=f28e288]: 3 years of experience in management consulting or other equivalent business strategy experience.
+                          - listitem [ref=f28e289]: Experience in analytics.
+                      - generic [ref=f28e291]:
+                        - generic [ref=f28e293]: Learn more
+                        - link "Learn more about Strategy Associate, YouTube" [ref=f28e294] [cursor=pointer]:
+                          - /url: jobs/results/121081200138691270-strategy-associate-youtube
+                    - button "Share Strategy Associate, YouTube" [ref=f28e299] [cursor=pointer]:
+                      - generic [ref=f28e300]: share
+                - listitem [ref=f28e301]:
+                  - generic [ref=f28e303]:
+                    - generic [ref=f28e305]:
+                      - heading "Digital Growth Specialist, Scaled, Google Customers Solutions" [level=3] [ref=f28e308]
+                      - generic [ref=f28e310]:
+                        - generic [ref=f28e311]:
+                          - generic [ref=f28e312]: corporate_fare
+                          - generic [ref=f28e313]: Google
+                        - generic [ref=f28e314]:
+                          - generic [ref=f28e315]: place
+                          - generic [ref=f28e316]: Sydney NSW, Australia
+                        - img "Early, Learn more about experience filters." [ref=f28e320]:
+                          - generic [ref=f28e323]: bar_chart
+                          - generic [ref=f28e325]: Early
+                      - generic [ref=f28e326]:
+                        - heading "Minimum qualifications" [level=4] [ref=f28e327]
+                        - list [ref=f28e328]:
+                          - listitem [ref=f28e329]: Bachelor's degree or equivalent practical experience.
+                          - listitem [ref=f28e330]: Experience in sales, business development, advertising, account management, marketing, or consulting.
+                      - generic [ref=f28e332]:
+                        - generic [ref=f28e334]: Learn more
+                        - link "Learn more about Digital Growth Specialist, Scaled, Google Customers Solutions" [ref=f28e335] [cursor=pointer]:
+                          - /url: jobs/results/136265618927035078-digital-growth-specialist-scaled-google-customers-solutions
+                    - button "Share Digital Growth Specialist, Scaled, Google Customers Solutions" [ref=f28e340] [cursor=pointer]:
+                      - generic [ref=f28e341]: share
+                - listitem [ref=f28e342]:
+                  - generic [ref=f28e344]:
+                    - generic [ref=f28e346]:
+                      - heading "Research Data Scientist, Ads Metrics, Ads Experiences" [level=3] [ref=f28e349]
+                      - generic [ref=f28e351]:
+                        - generic [ref=f28e352]:
+                          - generic [ref=f28e353]: corporate_fare
+                          - generic [ref=f28e354]: Google
+                        - generic [ref=f28e355]:
+                          - generic [ref=f28e356]: place
+                          - generic [ref=f28e357]: Mountain View, CA, USA
+                        - img "Mid, Learn more about experience filters." [ref=f28e361]:
+                          - generic [ref=f28e364]: bar_chart
+                          - generic [ref=f28e366]: Mid
+                      - generic [ref=f28e367]:
+                        - heading "Minimum qualifications" [level=4] [ref=f28e368]
+                        - list [ref=f28e369]:
+                          - listitem [ref=f28e370]: Master's degree in Statistics, Data Science, Mathematics, Physics, Economics, Operations Research, Engineering, or a related quantitative field.
+                          - listitem [ref=f28e371]: 3 years of work experience using analytics to solve product or business problems, coding (e.g., Python, R, SQL), querying databases or statistical analysis, or a PhD degree.
+                      - generic [ref=f28e373]:
+                        - generic [ref=f28e375]: Learn more
+                        - link "Learn more about Research Data Scientist, Ads Metrics, Ads Experiences" [ref=f28e376] [cursor=pointer]:
+                          - /url: jobs/results/124625707799061190-research-data-scientist-ads-metrics-ads-experiences
+                    - button "Share Research Data Scientist, Ads Metrics, Ads Experiences" [ref=f28e381] [cursor=pointer]:
+                      - generic [ref=f28e382]: share
+                - listitem [ref=f28e383]:
+                  - generic [ref=f28e385]:
+                    - generic [ref=f28e387]:
+                      - heading "Controls Technician II (Meet-en Regeltechnicus/Technicus Meet &amp; Regel) (Dutch)" [level=3] [ref=f28e390]
+                      - generic [ref=f28e392]:
+                        - generic [ref=f28e393]:
+                          - generic [ref=f28e394]: corporate_fare
+                          - generic [ref=f28e395]: Google
+                        - generic [ref=f28e396]:
+                          - generic [ref=f28e397]: place
+                          - generic [ref=f28e398]: Eemshaven, Netherlands
+                        - img "Early, Learn more about experience filters." [ref=f28e402]:
+                          - generic [ref=f28e405]: bar_chart
+                          - generic [ref=f28e407]: Early
+                      - generic [ref=f28e408]:
+                        - heading "Minimum qualifications" [level=4] [ref=f28e409]
+                        - list [ref=f28e410]:
+                          - listitem [ref=f28e411]: Associate's degree, trade school certification, or other certified training in a related technical field, or equivalent practical experience.
+                          - listitem [ref=f28e412]: 2 years of experience in developing, operating, maintaining, or troubleshooting control systems of industrial facilities (including automation PLC).
+                          - listitem [ref=f28e413]: Experience working in critical operations environment.
+                          - listitem [ref=f28e414]: Ability to work non-standard hours and work rotations/shifts.
+                          - listitem [ref=f28e415]: Ability to communicate in Dutch to engage in day-to-day operations and collaborate with colleagues in the region.
+                      - generic [ref=f28e417]:
+                        - generic [ref=f28e419]: Learn more
+                        - link "Learn more about Controls Technician II (Meet-en Regeltechnicus/Technicus Meet &amp; Regel) (Dutch)" [ref=f28e420] [cursor=pointer]:
+                          - /url: jobs/results/115864180673651398-controls-technician-ii-meeten-regeltechnicustechnicus-meet-amp-regel-dutch
+                    - button "Share Controls Technician II (Meet-en Regeltechnicus/Technicus Meet &amp; Regel) (Dutch)" [ref=f28e425] [cursor=pointer]:
+                      - generic [ref=f28e426]: share
+                - listitem [ref=f28e427]:
+                  - generic [ref=f28e429]:
+                    - generic [ref=f28e431]:
+                      - heading "Senior Software Engineer, Site Reliability Engineering, Google Cloud" [level=3] [ref=f28e434]
+                      - generic [ref=f28e436]:
+                        - generic [ref=f28e437]:
+                          - generic [ref=f28e438]: corporate_fare
+                          - generic [ref=f28e439]: Google
+                        - generic [ref=f28e440]:
+                          - generic [ref=f28e441]: place
+                          - generic [ref=f28e442]: Warsaw, Poland
+                        - img "Mid, Learn more about experience filters." [ref=f28e446]:
+                          - generic [ref=f28e449]: bar_chart
+                          - generic [ref=f28e451]: Mid
+                      - generic [ref=f28e452]:
+                        - heading "Minimum qualifications" [level=4] [ref=f28e453]
+                        - list [ref=f28e454]:
+                          - listitem [ref=f28e455]: Bachelor’s degree in Computer Science, a related field, or equivalent practical experience.
+                          - listitem [ref=f28e456]: 5 years of experience with software development in one or more programming languages.
+                          - listitem [ref=f28e457]: 3 years of experience in designing, analyzing, and troubleshooting large-scale distributed systems.
+                          - listitem [ref=f28e458]: 2 years of experience leading projects and providing technical leadership.
+                      - generic [ref=f28e460]:
+                        - generic [ref=f28e462]: Learn more
+                        - link "Learn more about Senior Software Engineer, Site Reliability Engineering, Google Cloud" [ref=f28e463] [cursor=pointer]:
+                          - /url: jobs/results/86298503591928518-senior-software-engineer-site-reliability-engineering-google-cloud
+                    - button "Share Senior Software Engineer, Site Reliability Engineering, Google Cloud" [ref=f28e468] [cursor=pointer]:
+                      - generic [ref=f28e469]: share
+                - listitem [ref=f28e470]:
+                  - generic [ref=f28e472]:
+                    - generic [ref=f28e474]:
+                      - heading "Senior Account Executive, Large Customer Sales" [level=3] [ref=f28e477]
+                      - generic [ref=f28e479]:
+                        - generic [ref=f28e480]:
+                          - generic [ref=f28e481]: corporate_fare
+                          - generic [ref=f28e482]: Google
+                        - generic [ref=f28e483]:
+                          - generic [ref=f28e484]: place
+                          - generic [ref=f28e485]: San Francisco, CA, USA
+                        - img "Mid, Learn more about experience filters." [ref=f28e489]:
+                          - generic [ref=f28e492]: bar_chart
+                          - generic [ref=f28e494]: Mid
+                      - generic [ref=f28e495]:
+                        - heading "Minimum qualifications" [level=4] [ref=f28e496]
+                        - list [ref=f28e497]:
+                          - listitem [ref=f28e498]: Bachelor's degree or equivalent practical experience.
+                          - listitem [ref=f28e499]: 8 years of industry experience in digital advertising, consultative sales, business development, or digital marketing, or 6 years of experience with an advanced degree.
+                          - listitem [ref=f28e500]:
+                            - generic [ref=f28e501]: Experience working with advertisers, agencies, or clients.
+                          - listitem [ref=f28e504]: Ability to travel for client meetings and training, as needed.
+                      - generic [ref=f28e506]:
+                        - generic [ref=f28e508]: Learn more
+                        - link "Learn more about Senior Account Executive, Large Customer Sales" [ref=f28e509] [cursor=pointer]:
+                          - /url: jobs/results/139532680290017990-senior-account-executive-large-customer-sales
+                    - button "Share Senior Account Executive, Large Customer Sales" [ref=f28e514] [cursor=pointer]:
+                      - generic [ref=f28e515]: share
+                - listitem [ref=f28e516]:
+                  - generic [ref=f28e518]:
+                    - generic [ref=f28e520]:
+                      - heading "Senior Product Manager, Search" [level=3] [ref=f28e523]
+                      - generic [ref=f28e525]:
+                        - generic [ref=f28e526]:
+                          - generic [ref=f28e527]: corporate_fare
+                          - generic [ref=f28e528]: Google
+                        - generic [ref=f28e529]:
+                          - generic [ref=f28e530]: place
+                          - generic [ref=f28e531]: Mountain View, CA, USA
+                        - img "Advanced, Learn more about experience filters." [ref=f28e535]:
+                          - generic [ref=f28e538]: bar_chart
+                          - generic [ref=f28e540]: Advanced
+                      - generic [ref=f28e541]:
+                        - heading "Minimum qualifications" [level=4] [ref=f28e542]
+                        - list [ref=f28e543]:
+                          - listitem [ref=f28e544]: Bachelor's degree or equivalent practical experience.
+                          - listitem [ref=f28e545]: 8 years of experience in product management or related technical role.
+                          - listitem [ref=f28e546]: 3 years of experience taking technical products from conception to launch (e.g., ideation to execution, end-to-end, 0 to 1, etc.).
+                      - generic [ref=f28e548]:
+                        - generic [ref=f28e550]: Learn more
+                        - link "Learn more about Senior Product Manager, Search" [ref=f28e551] [cursor=pointer]:
+                          - /url: jobs/results/100227769727623878-senior-product-manager-search
+                    - button "Share Senior Product Manager, Search" [ref=f28e556] [cursor=pointer]:
+                      - generic [ref=f28e557]: share
+                - listitem [ref=f28e558]:
+                  - generic [ref=f28e560]:
+                    - generic [ref=f28e562]:
+                      - heading "Engagement Manager, gTech Ads (English, Urdu)" [level=3] [ref=f28e565]
+                      - generic [ref=f28e567]:
+                        - generic [ref=f28e568]:
+                          - generic [ref=f28e569]: corporate_fare
+                          - generic [ref=f28e570]: Google
+                        - generic [ref=f28e571]:
+                          - generic [ref=f28e572]: place
+                          - generic [ref=f28e573]: Singapore
+                        - img "Mid, Learn more about experience filters." [ref=f28e577]:
+                          - generic [ref=f28e580]: bar_chart
+                          - generic [ref=f28e582]: Mid
+                      - generic [ref=f28e583]:
+                        - heading "Minimum qualifications" [level=4] [ref=f28e584]
+                        - list [ref=f28e585]:
+                          - listitem [ref=f28e586]: Bachelor’s degree or equivalent practical experience.
+                          - listitem [ref=f28e587]: 8 years of experience in a technical project management or a customer-facing role.
+                          - listitem [ref=f28e588]: Ability to communicate in English and Urdu fluently to interact with and serve Urdu speaking customers.
+                      - generic [ref=f28e590]:
+                        - generic [ref=f28e592]: Learn more
+                        - link "Learn more about Engagement Manager, gTech Ads (English, Urdu)" [ref=f28e593] [cursor=pointer]:
+                          - /url: jobs/results/94266795891794630-engagement-manager-gtech-ads-english-urdu
+                    - button "Share Engagement Manager, gTech Ads (English, Urdu)" [ref=f28e598] [cursor=pointer]:
+                      - generic [ref=f28e599]: share
+                - listitem [ref=f28e600]:
+                  - generic [ref=f28e602]:
+                    - generic [ref=f28e604]:
+                      - heading "Area Environment Health Safety Program Manager, Data Center Construction" [level=3] [ref=f28e607]
+                      - generic [ref=f28e609]:
+                        - generic [ref=f28e610]:
+                          - generic [ref=f28e611]: corporate_fare
+                          - generic [ref=f28e612]: Google
+                        - generic [ref=f28e613]:
+                          - generic [ref=f28e614]: place
+                          - generic [ref=f28e615]: Hyderabad, Telangana, India
+                        - img "Mid, Learn more about experience filters." [ref=f28e619]:
+                          - generic [ref=f28e622]: bar_chart
+                          - generic [ref=f28e624]: Mid
+                      - generic [ref=f28e625]:
+                        - heading "Minimum qualifications" [level=4] [ref=f28e626]
+                        - list [ref=f28e627]:
+                          - listitem [ref=f28e628]: Bachelor's degree or equivalent practical experience.
+                          - listitem [ref=f28e629]: 5 years of experience in program or project management.
+                          - listitem [ref=f28e630]: 5 years of experience with managing environmental health and safety programs.
+                          - listitem [ref=f28e631]: Experience with environmental and safety compliance.
+                      - generic [ref=f28e633]:
+                        - generic [ref=f28e635]: Learn more
+                        - link "Learn more about Area Environment Health Safety Program Manager, Data Center Construction" [ref=f28e636] [cursor=pointer]:
+                          - /url: jobs/results/126531728385680070-area-environment-health-safety-program-manager-data-center-construction
+                    - button "Share Area Environment Health Safety Program Manager, Data Center Construction" [ref=f28e641] [cursor=pointer]:
+                      - generic [ref=f28e642]: share
+                - listitem [ref=f28e643]:
+                  - generic [ref=f28e645]:
+                    - generic [ref=f28e647]:
+                      - heading "Account Strategist, Mid-Market Sales, Google Customer Solutions (Urdu, English)" [level=3] [ref=f28e650]
+                      - generic [ref=f28e652]:
+                        - generic [ref=f28e653]:
+                          - generic [ref=f28e654]: corporate_fare
+                          - generic [ref=f28e655]: Google
+                        - generic [ref=f28e656]:
+                          - generic [ref=f28e657]: place
+                          - generic [ref=f28e658]: Singapore
+                        - img "Early, Learn more about experience filters." [ref=f28e662]:
+                          - generic [ref=f28e665]: bar_chart
+                          - generic [ref=f28e667]: Early
+                      - generic [ref=f28e668]:
+                        - heading "Minimum qualifications" [level=4] [ref=f28e669]
+                        - list [ref=f28e670]:
+                          - listitem [ref=f28e671]: Bachelor's degree or equivalent practical experience.
+                          - listitem [ref=f28e672]: 2 years of experience in sales, business development, advertising, account management, marketing, or consulting.
+                          - listitem [ref=f28e673]: Ability to communicate in English and Urdu fluently to engage with clients in the region.
+                      - generic [ref=f28e675]:
+                        - generic [ref=f28e677]: Learn more
+                        - link "Learn more about Account Strategist, Mid-Market Sales, Google Customer Solutions (Urdu, English)" [ref=f28e678] [cursor=pointer]:
+                          - /url: jobs/results/132956685927883462-account-strategist-midmarket-sales-google-customer-solutions-urdu-english
+                    - button "Share Account Strategist, Mid-Market Sales, Google Customer Solutions (Urdu, English)" [ref=f28e683] [cursor=pointer]:
+                      - generic [ref=f28e684]: share
+                - listitem [ref=f28e685]:
+                  - generic [ref=f28e687]:
+                    - generic [ref=f28e689]:
+                      - heading "Staff Industrial Designer, Audio Wearables, Devices and Services" [level=3] [ref=f28e692]
+                      - generic [ref=f28e694]:
+                        - generic [ref=f28e695]:
+                          - generic [ref=f28e696]: corporate_fare
+                          - generic [ref=f28e697]: Google
+                        - generic [ref=f28e698]:
+                          - generic [ref=f28e699]: place
+                          - generic [ref=f28e700]: Mountain View, CA, USA
+                        - img "Advanced, Learn more about experience filters." [ref=f28e704]:
+                          - generic [ref=f28e707]: bar_chart
+                          - generic [ref=f28e709]: Advanced
+                      - generic [ref=f28e710]:
+                        - heading "Minimum qualifications" [level=4] [ref=f28e711]
+                        - list [ref=f28e712]:
+                          - listitem [ref=f28e713]: Bachelor's degree in Industrial Design or equivalent practical experience.
+                          - listitem [ref=f28e714]: 8 years of experience in industrial design.
+                          - listitem [ref=f28e715]: Experience in design (e.g., proportions, color form, typography presentation).
+                          - listitem [ref=f28e716]: Include a portfolio, website, or any other relevant link to your work in your resume (providing a viewable link or access instructions).
+                      - generic [ref=f28e718]:
+                        - generic [ref=f28e720]: Learn more
+                        - link "Learn more about Staff Industrial Designer, Audio Wearables, Devices and Services" [ref=f28e721] [cursor=pointer]:
+                          - /url: jobs/results/121078902331187910-staff-industrial-designer-audio-wearables-devices-and-services
+                    - button "Share Staff Industrial Designer, Audio Wearables, Devices and Services" [ref=f28e726] [cursor=pointer]:
+                      - generic [ref=f28e727]: share
+                - listitem [ref=f28e728]:
+                  - generic [ref=f28e730]:
+                    - generic [ref=f28e732]:
+                      - heading "Delivery Executive, Google Cloud Consulting, Telco" [level=3] [ref=f28e735]
+                      - generic [ref=f28e737]:
+                        - generic [ref=f28e738]:
+                          - generic [ref=f28e739]: corporate_fare
+                          - generic [ref=f28e740]: Google
+                        - generic [ref=f28e741]:
+                          - generic [ref=f28e742]: place
+                          - generic [ref=f28e743]: Toronto, ON, Canada
+                        - img "Advanced, Learn more about experience filters." [ref=f28e747]:
+                          - generic [ref=f28e750]: bar_chart
+                          - generic [ref=f28e752]: Advanced
+                      - generic [ref=f28e753]:
+                        - heading "Minimum qualifications" [level=4] [ref=f28e754]
+                        - list [ref=f28e755]:
+                          - listitem [ref=f28e756]: Bachelor's degree or equivalent practical experience.
+                          - listitem [ref=f28e757]: 7 years of experience in program or project management.
+                          - listitem [ref=f28e758]: 7 years of experience managing cross-functional or cross-team projects.
+                          - listitem [ref=f28e759]:
+                            - generic [ref=f28e760]: Ability to travel up to 30% of the time.
+                      - generic [ref=f28e763]:
+                        - generic [ref=f28e765]: Learn more
+                        - link "Learn more about Delivery Executive, Google Cloud Consulting, Telco" [ref=f28e766] [cursor=pointer]:
+                          - /url: jobs/results/113831338292716230-delivery-executive-google-cloud-consulting-telco
+                    - button "Share Delivery Executive, Google Cloud Consulting, Telco" [ref=f28e771] [cursor=pointer]:
+                      - generic [ref=f28e772]: share
+                - listitem [ref=f28e773]:
+                  - generic [ref=f28e775]:
+                    - generic [ref=f28e777]:
+                      - heading "Senior Consultant, Red Team, Google Cloud, Mandiant Consulting" [level=3] [ref=f28e780]
+                      - generic [ref=f28e782]:
+                        - generic [ref=f28e783]:
+                          - generic [ref=f28e784]: corporate_fare
+                          - generic [ref=f28e785]: Google
+                        - generic [ref=f28e786]:
+                          - generic [ref=f28e787]: place
+                          - generic [ref=f28e788]: Dubai - United Arab Emirates
+                          - generic [ref=f28e789]: ; Riyadh Saudi Arabia
+                          - generic [ref=f28e790]: ; +1 more
+                        - img "Mid, Learn more about experience filters." [ref=f28e794]:
+                          - generic [ref=f28e797]: bar_chart
+                          - generic [ref=f28e799]: Mid
+                      - generic [ref=f28e800]:
+                        - heading "Minimum qualifications" [level=4] [ref=f28e801]
+                        - list [ref=f28e802]:
+                          - listitem [ref=f28e803]: Bachelor's degree in cybersecurity, with a focus on offensive security or equivalent practical experience.
+                          - listitem [ref=f28e804]: "5 years of experience in three of the following security areas: application security, red team assessments, endpoint detection and response (EDR) evasion, exploit development, cloud, social engineering, scripting, tool development."
+                          - listitem [ref=f28e805]: Experience delivering reporting and presentations to both technical and executive audiences.
+                          - listitem [ref=f28e806]: Experience with operating system security across operating systems or Linux.
+                      - generic [ref=f28e808]:
+                        - generic [ref=f28e810]: Learn more
+                        - link "Learn more about Senior Consultant, Red Team, Google Cloud, Mandiant Consulting" [ref=f28e811] [cursor=pointer]:
+                          - /url: jobs/results/123186568947999430-senior-consultant-red-team-google-cloud-mandiant-consulting
+                    - button "Share Senior Consultant, Red Team, Google Cloud, Mandiant Consulting" [ref=f28e816] [cursor=pointer]:
+                      - generic [ref=f28e817]: share
+                - listitem [ref=f28e818]:
+                  - generic [ref=f28e820]:
+                    - generic [ref=f28e822]:
+                      - heading "Billing Specialist, gTech Ads Customer Experience" [level=3] [ref=f28e825]
+                      - generic [ref=f28e827]:
+                        - generic [ref=f28e828]:
+                          - generic [ref=f28e829]: corporate_fare
+                          - generic [ref=f28e830]: Google
+                        - generic [ref=f28e831]:
+                          - generic [ref=f28e832]: place
+                          - generic [ref=f28e833]: São Paulo, State of São Paulo, Brazil
+                          - generic [ref=f28e834]: ; Buenos Aires, Argentina
+                        - img "Early, Learn more about experience filters." [ref=f28e838]:
+                          - generic [ref=f28e841]: bar_chart
+                          - generic [ref=f28e843]: Early
+                      - generic [ref=f28e844]:
+                        - heading "Minimum qualifications" [level=4] [ref=f28e845]
+                        - list [ref=f28e846]:
+                          - listitem [ref=f28e847]: Bachelor’s degree or equivalent practical experience.
+                          - listitem [ref=f28e848]: 2 years of experience in a technical project management or a customer-facing role.
+                          - listitem [ref=f28e849]: Experience in technical troubleshooting or customer support.
+                      - generic [ref=f28e851]:
+                        - generic [ref=f28e853]: Learn more
+                        - link "Learn more about Billing Specialist, gTech Ads Customer Experience" [ref=f28e854] [cursor=pointer]:
+                          - /url: jobs/results/120369448358945478-billing-specialist-gtech-ads-customer-experience
+                    - button "Share Billing Specialist, gTech Ads Customer Experience" [ref=f28e859] [cursor=pointer]:
+                      - generic [ref=f28e860]: share
+                - listitem [ref=f28e861]:
+                  - generic [ref=f28e863]:
+                    - generic [ref=f28e865]:
+                      - heading "Field Sales Representative, Google Cloud" [level=3] [ref=f28e868]
+                      - generic [ref=f28e870]:
+                        - generic [ref=f28e871]:
+                          - generic [ref=f28e872]: corporate_fare
+                          - generic [ref=f28e873]: Google
+                        - generic [ref=f28e874]:
+                          - generic [ref=f28e875]: place
+                          - generic [ref=f28e876]: Melbourne VIC, Australia
+                          - generic [ref=f28e877]: ; Sydney NSW, Australia
+                        - img "Mid, Learn more about experience filters." [ref=f28e881]:
+                          - generic [ref=f28e884]: bar_chart
+                          - generic [ref=f28e886]: Mid
+                      - generic [ref=f28e887]:
+                        - heading "Minimum qualifications" [level=4] [ref=f28e888]
+                        - list [ref=f28e889]:
+                          - listitem [ref=f28e890]: Bachelor's degree or equivalent practical experience.
+                          - listitem [ref=f28e891]: 4 years of experience in quota-carrying cloud or software sales, or consultative account management at a B2B software company.
+                          - listitem [ref=f28e892]: Experience in prospecting, or building customer relationships from scratch.
+                          - listitem [ref=f28e893]: Experience engaging and building relationships with a wide range of internal teams and customer stakeholders.
+                          - listitem [ref=f28e894]: Experience in, or supporting the startup ecosystem.
+                      - generic [ref=f28e896]:
+                        - generic [ref=f28e898]: Learn more
+                        - link "Learn more about Field Sales Representative, Google Cloud" [ref=f28e899] [cursor=pointer]:
+                          - /url: jobs/results/104418556686279366-field-sales-representative-google-cloud
+                    - button "Share Field Sales Representative, Google Cloud" [ref=f28e904] [cursor=pointer]:
+                      - generic [ref=f28e905]: share
+                - listitem [ref=f28e906]:
+                  - generic [ref=f28e908]:
+                    - generic [ref=f28e910]:
+                      - heading "Program Manager, Data Center Construction" [level=3] [ref=f28e913]
+                      - generic [ref=f28e915]:
+                        - generic [ref=f28e916]:
+                          - generic [ref=f28e917]: corporate_fare
+                          - generic [ref=f28e918]: Google
+                        - generic [ref=f28e919]:
+                          - generic [ref=f28e920]: place
+                          - generic [ref=f28e921]: Amarillo, TX, USA
+                        - img "Mid, Learn more about experience filters." [ref=f28e925]:
+                          - generic [ref=f28e928]: bar_chart
+                          - generic [ref=f28e930]: Mid
+                      - generic [ref=f28e931]:
+                        - heading "Minimum qualifications" [level=4] [ref=f28e932]
+                        - list [ref=f28e933]:
+                          - listitem [ref=f28e934]: Bachelor's degree or equivalent practical experience.
+                          - listitem [ref=f28e935]: 5 years of experience in program or project management.
+                          - listitem [ref=f28e936]: 5 years of experience with technical teams responsible for project management, engineering, and construction of data centers or mission critical facilities.
+                          - listitem [ref=f28e937]: 5 years of experience with electrical, mechanical, controls, security monitoring, fire safety, networking/fiber, server equipment, systems, or infrastructure.
+                      - generic [ref=f28e939]:
+                        - generic [ref=f28e941]: Learn more
+                        - link "Learn more about Program Manager, Data Center Construction" [ref=f28e942] [cursor=pointer]:
+                          - /url: jobs/results/134249415249404614-program-manager-data-center-construction
+                    - button "Share Program Manager, Data Center Construction" [ref=f28e947] [cursor=pointer]:
+                      - generic [ref=f28e948]: share
+                - listitem [ref=f28e949]:
+                  - generic [ref=f28e951]:
+                    - generic [ref=f28e953]:
+                      - heading "Product Manager, AI Platform Operations and Tooling" [level=3] [ref=f28e956]
+                      - generic [ref=f28e958]:
+                        - generic [ref=f28e959]:
+                          - generic [ref=f28e960]: corporate_fare
+                          - generic [ref=f28e961]: Google
+                        - generic [ref=f28e962]:
+                          - generic [ref=f28e963]: place
+                          - generic [ref=f28e964]: Hyderabad, Telangana, India
+                          - generic [ref=f28e965]: ; Bengaluru, Karnataka, India
+                        - img "Mid, Learn more about experience filters." [ref=f28e969]:
+                          - generic [ref=f28e972]: bar_chart
+                          - generic [ref=f28e974]: Mid
+                      - generic [ref=f28e975]:
+                        - heading "Minimum qualifications" [level=4] [ref=f28e976]
+                        - list [ref=f28e977]:
+                          - listitem [ref=f28e978]: Bachelor's degree or equivalent practical experience.
+                          - listitem [ref=f28e979]: 5 years of experience in product management or related technical role.
+                          - listitem [ref=f28e980]: 2 years of experience taking technical products from conception to launch (e.g., ideation to execution, end-to-end, 0 to 1, etc.).
+                      - generic [ref=f28e982]:
+                        - generic [ref=f28e984]: Learn more
+                        - link "Learn more about Product Manager, AI Platform Operations and Tooling" [ref=f28e985] [cursor=pointer]:
+                          - /url: jobs/results/85183114006930118-product-manager-ai-platform-operations-and-tooling
+                    - button "Share Product Manager, AI Platform Operations and Tooling" [ref=f28e990] [cursor=pointer]:
+                      - generic [ref=f28e991]: share
+                - listitem [ref=f28e992]:
+                  - generic [ref=f28e994]:
+                    - generic [ref=f28e996]:
+                      - heading "Senior Software Engineer, Vertex AI, Workbench" [level=3] [ref=f28e999]
+                      - generic [ref=f28e1001]:
+                        - generic [ref=f28e1002]:
+                          - generic [ref=f28e1003]: corporate_fare
+                          - generic [ref=f28e1004]: Google
+                        - generic [ref=f28e1005]:
+                          - generic [ref=f28e1006]: place
+                          - generic [ref=f28e1007]: Warsaw, Poland
+                        - img "Mid, Learn more about experience filters." [ref=f28e1011]:
+                          - generic [ref=f28e1014]: bar_chart
+                          - generic [ref=f28e1016]: Mid
+                      - generic [ref=f28e1017]:
+                        - heading "Minimum qualifications" [level=4] [ref=f28e1018]
+                        - list [ref=f28e1019]:
+                          - listitem [ref=f28e1020]: Bachelor's degree or equivalent practical experience.
+                          - listitem [ref=f28e1021]: 5 years of experience with full stack development, across back-end (Java, Python, GO, or C++) and front-end (JavaScript or TypeScript, HTML, CSS or equivalent).
+                          - listitem [ref=f28e1022]: 3 years of experience testing, maintaining, or launching software products, and 1 year of experience with software design and architecture.
+                      - generic [ref=f28e1024]:
+                        - generic [ref=f28e1026]: Learn more
+                        - link "Learn more about Senior Software Engineer, Vertex AI, Workbench" [ref=f28e1027] [cursor=pointer]:
+                          - /url: jobs/results/114905638462464710-senior-software-engineer-vertex-ai-workbench
+                    - button "Share Senior Software Engineer, Vertex AI, Workbench" [ref=f28e1032] [cursor=pointer]:
+                      - generic [ref=f28e1033]: share
+                - listitem [ref=f28e1034]:
+                  - generic [ref=f28e1036]:
+                    - generic [ref=f28e1038]:
+                      - heading "Technical Program Manager III, Industrial Operations, Technical Infrastructure" [level=3] [ref=f28e1041]
+                      - generic [ref=f28e1043]:
+                        - generic [ref=f28e1044]:
+                          - generic [ref=f28e1045]: corporate_fare
+                          - generic [ref=f28e1046]: Google
+                        - generic [ref=f28e1047]:
+                          - generic [ref=f28e1048]: place
+                          - generic [ref=f28e1049]: Phoenix, AZ, USA
+                          - generic [ref=f28e1050]: ; Council Bluffs, IA, USA
+                          - generic [ref=f28e1051]: ; +5 more
+                        - img "Mid, Learn more about experience filters." [ref=f28e1055]:
+                          - generic [ref=f28e1058]: bar_chart
+                          - generic [ref=f28e1060]: Mid
+                      - generic [ref=f28e1061]:
+                        - heading "Minimum qualifications" [level=4] [ref=f28e1062]
+                        - list [ref=f28e1063]:
+                          - listitem [ref=f28e1064]: Bachelor's degree in a technical field, or equivalent practical experience.
+                          - listitem [ref=f28e1065]: 5 years of experience in program management.
+                          - listitem [ref=f28e1066]: Experience working on day to day site operations within industrial facilities (e.g., power plants, oil refineries, utilities, automotive or manufacturing).
+                          - listitem [ref=f28e1067]: Experience leading cyber security or technical programs.
+                      - generic [ref=f28e1069]:
+                        - generic [ref=f28e1071]: Learn more
+                        - link "Learn more about Technical Program Manager III, Industrial Operations, Technical Infrastructure" [ref=f28e1072] [cursor=pointer]:
+                          - /url: jobs/results/89775544295400134-technical-program-manager-iii-industrial-operations-technical-infrastructure
+                    - button "Share Technical Program Manager III, Industrial Operations, Technical Infrastructure" [ref=f28e1077] [cursor=pointer]:
+                      - generic [ref=f28e1078]: share
+              - generic [ref=f28e1083]:
+                - status [ref=f28e1084]:
+                  - generic [ref=f28e1085]: Showing 1 to 20 of 3667 rows
+                  - generic [ref=f28e1086]: 1‑20 of 3667
+                - generic [ref=f28e1087] [cursor=pointer]:
+                  - generic [ref=f28e1088]: navigate_next
+                  - link "Go to next page" [ref=f28e1089]:
+                    - /url: https://www.google.com/about/careers/applications/jobs/results?page=2
+        - contentinfo [ref=f28e1091]:
+          - generic [ref=f28e1093]:
+            - generic [ref=f28e1094]:
+              - heading "Follow Life at Google on" [level=2] [ref=f28e1095]
+              - list [ref=f28e1096]:
+                - listitem [ref=f28e1097]:
+                  - link "View our Instagram feed (Opens in a new tab)" [ref=f28e1098] [cursor=pointer]:
+                    - /url: https://www.instagram.com/lifeatgoogle/
+                - listitem [ref=f28e1103]:
+                  - link "View our Twitter feed (Opens in a new tab)" [ref=f28e1104] [cursor=pointer]:
+                    - /url: https://twitter.com/lifeatgoogle
+                - listitem [ref=f28e1107]:
+                  - link "View our YouTube channel (Opens in a new tab)" [ref=f28e1108] [cursor=pointer]:
+                    - /url: https://www.youtube.com/lifeatgoogle
+                - listitem [ref=f28e1111]:
+                  - link "View LinkedIn (Opens in a new tab)" [ref=f28e1112] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/company/google/jobs/
+                - listitem [ref=f28e1115]:
+                  - link "View our Facebook (Opens in a new tab)" [ref=f28e1116] [cursor=pointer]:
+                    - /url: https://www.facebook.com/lifeatgoogle/
+            - generic [ref=f28e1121]:
+              - generic [ref=f28e1122]:
+                - heading "More about us" [level=2] [ref=f28e1123]
+                - generic [ref=f28e1124]:
+                  - link "About us (opens in a new tab)" [ref=f28e1125] [cursor=pointer]:
+                    - /url: https://about.google/
+                    - text: About us
+                    - generic [ref=f28e1126]: open_in_new
+                  - link "Contact us (opens in a new tab)" [ref=f28e1128] [cursor=pointer]:
+                    - /url: https://about.google/contact-google/
+                    - text: Contact us
+                    - generic [ref=f28e1129]: open_in_new
+                  - link "Press (opens in a new tab)" [ref=f28e1131] [cursor=pointer]:
+                    - /url: https://blog.google/press/
+                    - text: Press
+                    - generic [ref=f28e1132]: open_in_new
+              - generic [ref=f28e1134]:
+                - heading "Related Information" [level=2] [ref=f28e1135]
+                - generic [ref=f28e1136]:
+                  - link "Investor relations (opens in a new tab)" [ref=f28e1137] [cursor=pointer]:
+                    - /url: https://abc.xyz/investor/
+                    - text: Investor relations
+                    - generic [ref=f28e1138]: open_in_new
+                  - link "Blog (opens in a new tab)" [ref=f28e1140] [cursor=pointer]:
+                    - /url: https://blog.google/
+                    - text: Blog
+                    - generic [ref=f28e1141]: open_in_new
+              - generic [ref=f28e1143]:
+                - heading "Equal Opportunity" [level=2] [ref=f28e1144]
+                - paragraph [ref=f28e1145]:
+                  - text: Google is proud to be an equal opportunity and affirmative action employer. We are committed to building a workforce that is representative of the users we serve, creating a culture of belonging, and providing an equal employment opportunity regardless of race, creed, color, religion, gender, sexual orientation, gender identity/expression, national origin, disability, age, genetic information, veteran status, marital status, pregnancy or related condition (including breastfeeding), expecting or parents-to-be, criminal histories consistent with legal requirements, or any other basis protected by law. See also
+                  - link "Google's EEO Policy" [ref=f28e1146] [cursor=pointer]:
+                    - /url: https://www.google.com/about/careers/applications/eeo/
+                  - text: ","
+                  - 'link "Know your rights: workplace discrimination is illegal" [ref=f28e1147] [cursor=pointer]':
+                    - /url: https://careers.google.com/jobs/dist/legal/EEOC_KnowYourRights_10_20.pdf
+                  - text: ","
+                  - link "Belonging at Google" [ref=f28e1148] [cursor=pointer]:
+                    - /url: https://about.google/belonging/
+                  - text: ", and"
+                  - link "How we hire" [ref=f28e1149] [cursor=pointer]:
+                    - /url: https://careers.google.com/how-we-hire/
+                  - text: .
+            - generic [ref=f28e1150]:
+              - link "google.com (Opens in a new tab)" [ref=f28e1152] [cursor=pointer]:
+                - /url: https://www.google.com/
+                - img "Google" [ref=f28e1153]
+              - generic [ref=f28e1154]:
+                - generic [ref=f28e1155]:
+                  - link "Privacy (opens in a new tab)" [ref=f28e1157] [cursor=pointer]:
+                    - /url: https://policies.google.com/privacy
+                    - text: Privacy
+                    - generic [ref=f28e1158]: open_in_new
+                  - link "Applicant & Candidate Privacy (opens in a new tab)" [ref=f28e1161] [cursor=pointer]:
+                    - /url: ./privacy-policy
+                    - text: Applicant & Candidate Privacy
+                    - generic [ref=f28e1162]: open_in_new
+                  - link "Terms (opens in a new tab)" [ref=f28e1165] [cursor=pointer]:
+                    - /url: https://policies.google.com/terms
+                    - text: Terms
+                    - generic [ref=f28e1166]: open_in_new
+                - generic [ref=f28e1168]:
+                  - link "Help (opens in a new tab)" [ref=f28e1169] [cursor=pointer]:
+                    - /url: https://support.google.com/googlecareers/#topic=6095159
+                    - generic [ref=f28e1170]: help
+                    - text: Help
+                    - generic [ref=f28e1172]: open_in_new
+                  - combobox "Select language" [ref=f28e1177] [cursor=pointer]:
+                    - generic: language
+                    - generic: English

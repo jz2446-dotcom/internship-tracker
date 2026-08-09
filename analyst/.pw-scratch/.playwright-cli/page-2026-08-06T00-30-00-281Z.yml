@@ -1,0 +1,48 @@
+- generic [active] [ref=f156e1]:
+  - generic [ref=f156e2]:
+    - region "Cookie Consent Manager" [ref=f156e3]:
+      - generic [ref=f156e4]:
+        - paragraph [ref=f156e5]: We use cookies to offer you the best possible website experience. Your cookie preferences will be stored in your browser’s local storage. This includes cookies necessary for the website's operation. Additionally, you can freely decide and change any time whether you accept cookies or choose to opt out of cookies to improve website's performance, as well as cookies used to display content tailored to your interests. Your experience of the site and the services we are able to offer may be impacted if you do not accept all cookies.
+        - button "Modify Cookie Preferences" [ref=f156e6] [cursor=pointer]
+        - button "Accept All Cookies" [ref=f156e8] [cursor=pointer]
+    - banner [ref=f156e9]:
+      - heading [level=1]
+      - generic:
+        - link "Skip to main content":
+          - /url: "#content"
+      - navigation "Header" [ref=f156e10]:
+        - generic [ref=f156e12]:
+          - list [ref=f156e17]:
+            - listitem
+            - listitem [ref=f156e18]:
+              - link "View Profile" [ref=f156e20] [cursor=pointer]:
+                - /url: "#"
+          - paragraph [ref=f156e26]:
+            - link "Register" [ref=f156e27] [cursor=pointer]:
+              - /url: /talentcommunity/subscribe/?locale=en_US
+        - link [ref=f156e34] [cursor=pointer]:
+          - /url: https://www.pwc.com/m1/en
+          - img "Logo" [ref=f156e35]
+    - main [ref=f156e40]:
+      - generic:  
+    - contentinfo [ref=f156e41]:
+      - generic [ref=f156e44]:
+        - list [ref=f156e45]:
+          - listitem [ref=f156e46]:
+            - link "View All Jobs" [ref=f156e47] [cursor=pointer]:
+              - /url: https://www.pwc.com/m1/en/careers.html
+        - list [ref=f156e49]:
+          - listitem [ref=f156e50]:
+            - link "Follow us on X" [ref=f156e51] [cursor=pointer]:
+              - /url: https://twitter.com/pwc_middle_east?lang=en
+              - generic [ref=f156e52]: Opens in a new tab.
+          - listitem [ref=f156e55]:
+            - link "Follow us on LinkedIn" [ref=f156e56] [cursor=pointer]:
+              - /url: https://www.linkedin.com/company/pwc-middle-east/
+              - generic [ref=f156e57]: Opens in a new tab.
+          - listitem [ref=f156e60]:
+            - link "Visit our YouTube channel" [ref=f156e61] [cursor=pointer]:
+              - /url: https://www.youtube.com/user/pwcmiddleeast
+              - generic [ref=f156e62]: Opens in a new tab.
+      - paragraph [ref=f156e67]: © 2017 - 2026 PwC. All rights reserved. PwC refers to the PwC network and/or one or more of its member firms, each of which is a separate legal entity. Please see www.pwc.com/structure for further details.
+  - generic: Yes No   Yes No

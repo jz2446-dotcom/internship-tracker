@@ -1,0 +1,788 @@
+{
+  "agent": "ithaca",
+  "name": "Ithaca, NY Local Finance Jobs",
+  "focus": "Part-time finance-related jobs, including bank tellers, at recognizable banks, credit unions, and financial-services firms with a physical presence in the Ithaca/Tompkins County area. Ongoing local openings, not tied to the summer-internship recruiting cycle.",
+  "competitiveness_note": "Rolling local postings, not a recruiting-cycle process. Most banks/credit unions use JS-rendered ATS pages (Workday, iSolved, Paylocity, UltiPro) that resist direct fetch, so many statuses remain 'unknown' pending a human checking the ATS directly; aggregator caches (Indeed/ZipRecruiter/LinkedIn) confirm recurring req templates exist even when the live page can't be scraped.",
+  "last_updated": "2026-08-02",
+  "internships": [
+    {
+      "company": "Tompkins Trust Company (Tompkins Financial Corporation)",
+      "program": "Teller - Main Office (Near Ithaca Commons)",
+      "category": "teller",
+      "class_years": [
+        "2028",
+        "2029"
+      ],
+      "location": "Ithaca, NY",
+      "status": "closed",
+      "apply_url": "https://careers.tompkinsfinancial.com/join-us/jobs/2010?lang=en-us",
+      "notes": "Re-checked: Indeed listing for this exact role now shows Full-time, $18.25-$20.00/hr; direct careers.tompkinsfinancial.com job page (2010 and 1746 variants) both 404. Fails part-time hard filter.",
+      "pay": "$18.25-$20.00/hr",
+      "hours_per_week": "full-time (not part-time)"
+    },
+    {
+      "company": "Community Bank, N.A.",
+      "program": "Relationship Banking Representative (rotating teller/customer service)",
+      "category": "personal banker",
+      "class_years": [
+        "2028",
+        "2029"
+      ],
+      "location": "Ithaca, NY 14850",
+      "status": "program-page",
+      "apply_url": "https://careers.cbna.com/communitybankna/jobs?location=Ithaca%2C%20NY",
+      "notes": "Indeed listing 'Relationship Banking Representative Rotating' in Ithaca 14850 explicitly states 25 hours/week, $18.25-$24.71/hr. Hours qualify as part-time despite Indeed's 'full-time' benefits tag. Direct CBNA careers portal did not render via fetch (JS-gated) so re-verify before applying.",
+      "pay": "$18.25-$24.71/hr",
+      "hours_per_week": "25"
+    },
+    {
+      "company": "CFCU Community Credit Union (rebranded Beginnings Credit Union)",
+      "program": "Teller",
+      "category": "teller",
+      "class_years": [
+        "2028",
+        "2029"
+      ],
+      "location": "Ithaca, NY",
+      "status": "closed",
+      "apply_url": "https://recruiting.paylocity.com/recruiting/jobs/List/2352/CFCU-Community-Credit-Union",
+      "notes": "Indeed listing for Beginnings CU Teller now shows Full-Time, $20-$25/hr. Fails part-time hard filter.",
+      "pay": "$20.00-$25.00/hr",
+      "hours_per_week": "full-time (not part-time)"
+    },
+    {
+      "company": "M&T Bank",
+      "program": "Teller - Part Time (25 hours)",
+      "category": "teller",
+      "class_years": [
+        "2028",
+        "2029"
+      ],
+      "location": "Ithaca, NY",
+      "status": "unknown",
+      "apply_url": "https://mtb.wd5.myworkdayjobs.com/en-US/MTB/job/Teller---Part-Time-25-hours_R76637",
+      "notes": "Carried forward, not re-confirmed this run - Workday job page returned no content via fetch and ZipRecruiter mirror returned 403. ZipRecruiter listing confirms an active Ithaca NY Teller req exists ($18.00-$26.21/hr) but part-time status on the current req could not be re-verified.",
+      "pay": "$18.00-$26.21/hr",
+      "hours_per_week": "unknown"
+    },
+    {
+      "company": "JPMorgan Chase",
+      "program": "Part-Time (20 hours) Associate Banker - Ithaca Branch",
+      "category": "Local Bank/Credit Union Part-Time",
+      "class_years": [
+        "2028",
+        "2029"
+      ],
+      "location": "Ithaca, NY",
+      "status": "program-page",
+      "apply_url": "https://careers.chase.com",
+      "notes": "Associate Banker role, posted as part-time (30 hours/week).",
+      "pay": "unknown",
+      "hours_per_week": "30 hours/week"
+    },
+    {
+      "company": "Alternatives Federal Credit Union",
+      "program": "Teller",
+      "category": "teller",
+      "class_years": [
+        "2028",
+        "2029"
+      ],
+      "location": "Ithaca, NY",
+      "status": "program-page",
+      "apply_url": "https://alternatives.isolvedhire.com/jobs/",
+      "notes": "iSolvedHire jobs list did not render via fetch (JS-gated). Indeed's Ithaca location page for Alternatives FCU currently shows only a part-time Facilities Assistant ($25/hr) - not finance-related - no Teller/Member Services listing found this run. Monitor program page.",
+      "pay": "unknown",
+      "hours_per_week": "unknown"
+    },
+    {
+      "company": "Wells Fargo Advisors",
+      "program": "Client Associate",
+      "category": "financial-advisor client-service associate",
+      "class_years": [
+        "2028",
+        "2029"
+      ],
+      "location": "2430 Triphammer Rd, Ithaca, NY 14850",
+      "status": "unknown",
+      "apply_url": "https://www.wellsfargojobs.com/en/jobs/r-447932/client-associate/",
+      "notes": "Confirmed a real Client Associate req exists at the Ithaca Triphammer Rd Wells Fargo Advisors office (Labourdette Financial Group); search results also reference a part-time Client Associate variant within Wealth & Investment Management. Direct job page returned 404 via fetch this run so live/open status and hours could not be confirmed - re-verify.",
+      "pay": "unknown",
+      "hours_per_week": "unknown"
+    },
+    {
+      "company": "H&R Block",
+      "program": "Tax Associate (seasonal)",
+      "category": "tax-prep associate",
+      "class_years": [
+        "2028",
+        "2029"
+      ],
+      "location": "Ithaca, NY",
+      "status": "program-page",
+      "apply_url": "https://seasonalworks.labor.ny.gov/ithaca-ny/tax-associate/D4DCF18CC12B4037BBF16D05927A2EC7/job/",
+      "notes": "Seasonal role (roughly Dec-Apr tax season) at H&R Block's Ithaca office.",
+      "pay": "unknown",
+      "hours_per_week": "unknown"
+    },
+    {
+      "company": "H&R Block",
+      "program": "Experienced Tax Professional (seasonal)",
+      "category": "Tax Prep",
+      "class_years": [
+        "2028",
+        "2029"
+      ],
+      "location": "Ithaca, NY",
+      "status": "closed",
+      "apply_url": "https://careers.hrblock.com/careers-home",
+      "notes": "Carried forward, not re-confirmed this run; seasonal postings not yet open.",
+      "pay": "not specified",
+      "hours_per_week": "unknown"
+    },
+    {
+      "company": "Visions Federal Credit Union",
+      "program": "Service and Sales Representative - Ithaca, NY",
+      "category": "Credit Union",
+      "class_years": [
+        "2028",
+        "2029"
+      ],
+      "location": "Ithaca, NY (410 Elmira Rd)",
+      "status": "closed",
+      "apply_url": "https://careers.thisiscny.com/companies/visions-federal-credit-union/jobs/46926307-service-and-sales-representative-ithaca-ny",
+      "notes": "Carried forward, not re-confirmed this run. Visions offers PT/PT-plus roles generally but no specific live Ithaca req confirmed via job board fetch.",
+      "pay": "not specified",
+      "hours_per_week": "unknown"
+    },
+    {
+      "company": "Chemung Canal Trust Company",
+      "program": "Teller / Relationship Banker",
+      "category": "teller",
+      "class_years": [
+        "2028",
+        "2029"
+      ],
+      "location": "Ithaca, NY area",
+      "status": "unknown",
+      "apply_url": "https://www.chemungcanal.com/career/",
+      "notes": "Carried forward, not re-confirmed this run - careers page job board is behind an ADP portal that did not render via fetch. No listing specifically located in Ithaca/Tompkins County found (the confirmed active Part-Time Teller req found this run is in Waverly, NY, outside Tompkins County).",
+      "pay": "unknown",
+      "hours_per_week": "unknown"
+    },
+    {
+      "company": "Elmira Savings Bank",
+      "program": "Teller",
+      "category": "teller",
+      "class_years": [
+        "2028",
+        "2029"
+      ],
+      "location": "Ithaca, NY",
+      "status": "closed",
+      "apply_url": "https://www.indeed.com/cmp/Elmira-Savings-Bank/locations/NY/Ithaca",
+      "notes": "Reconfirmed: Glassdoor and Indeed both show no current job openings at the Elmira Savings Bank Ithaca location.",
+      "pay": "unknown",
+      "hours_per_week": "unknown"
+    },
+    {
+      "company": "Cornell University (Division of Financial Affairs / Bursar / Student Employment)",
+      "program": "Bursar Account Services Representative / Financial Affairs student jobs",
+      "category": "Cornell Student Employment",
+      "class_years": [
+        "2028",
+        "2029"
+      ],
+      "location": "Ithaca, NY (Cornell campus)",
+      "status": "program-page",
+      "apply_url": "https://studentemployment.cornell.edu/",
+      "notes": "Live postings require Workday/NetID login; program page confirms ongoing student-hourly openings but individual listings unconfirmable without Cornell login.",
+      "pay": "Cornell student hourly wage grades (min ~$15-17/hr range as of 2026)",
+      "hours_per_week": "unknown"
+    },
+    {
+      "company": "Citizens Bank",
+      "program": "Bank Branch / Teller",
+      "category": "Bank Teller",
+      "class_years": [
+        "2028",
+        "2029"
+      ],
+      "location": "Ithaca, NY (2300 N Triphammer Rd)",
+      "status": "closed",
+      "apply_url": "https://jobs.citizensbank.com/employment/ithaca-bank-branch-jobs/288/8240448/6252001-5128638-5141153-5122432/4",
+      "notes": "Re-confirmed this run: job board explicitly shows 0 open positions for Ithaca ('not hiring in this area right now').",
+      "pay": "not specified",
+      "hours_per_week": "unknown"
+    },
+    {
+      "company": "KeyBank",
+      "program": "Teller / Lead Teller",
+      "category": "teller",
+      "class_years": [
+        "2028",
+        "2029"
+      ],
+      "location": "300 N Tioga St, Ithaca, NY 14850",
+      "status": "closed",
+      "apply_url": "https://keybank.wd5.myworkdayjobs.com/External_Career_Site",
+      "notes": "Reconfirmed: SmartRecruiters Lead Teller - Ithaca posting explicitly states 'Sorry, this job has expired.'",
+      "pay": "unknown",
+      "hours_per_week": "unknown"
+    },
+    {
+      "company": "NBT Bank",
+      "program": "Teller / Branch positions",
+      "category": "teller",
+      "class_years": [
+        "2028",
+        "2029"
+      ],
+      "location": "Ithaca, NY",
+      "status": "program-page",
+      "apply_url": "https://nbtbancorp.wd12.myworkdayjobs.com/NBT-B",
+      "notes": "No Teller or branch-staff listing found in Ithaca NY this run via Indeed (only unrelated Compliance Lead role in Vestal NY, full-time). Workday portal did not render via fetch. Monitor program page.",
+      "pay": "unknown",
+      "hours_per_week": "unknown"
+    },
+    {
+      "company": "Tompkins Trust Company (Tompkins Financial Corporation)",
+      "program": "On-Call Teller (Central New York)",
+      "category": "teller",
+      "class_years": [
+        "2028",
+        "2029"
+      ],
+      "location": "Ithaca, NY area",
+      "status": "closed",
+      "apply_url": "https://careers.tompkinsfinancial.com/jobs/1338?lang=en-us",
+      "notes": "Carried forward - direct job page 404s again this run (consistent with closed/removed).",
+      "pay": "unknown",
+      "hours_per_week": "unknown"
+    },
+    {
+      "company": "M&T Bank",
+      "program": "General careers monitoring - Ithaca branch",
+      "category": "teller",
+      "class_years": [
+        "2028",
+        "2029"
+      ],
+      "location": "Ithaca, NY",
+      "status": "program-page",
+      "apply_url": "https://mtb.wd5.myworkdayjobs.com/MTB",
+      "notes": "Carried forward, not re-confirmed this run.",
+      "pay": "unknown",
+      "hours_per_week": "unknown"
+    },
+    {
+      "company": "JPMorgan Chase",
+      "program": "General careers monitoring - Ithaca State St branch",
+      "category": "personal banker",
+      "class_years": [
+        "2028",
+        "2029"
+      ],
+      "location": "Ithaca, NY",
+      "status": "program-page",
+      "apply_url": "https://www.jpmorganchase.com/careers",
+      "notes": "Carried forward. Note: LinkedIn currently shows an active 'Relationship Banker - Ithaca (State Street)' posting; hours/part-time status not confirmed this run.",
+      "pay": "unknown",
+      "hours_per_week": "unknown"
+    },
+    {
+      "company": "KeyBank",
+      "program": "General careers monitoring - Ithaca branch",
+      "category": "teller",
+      "class_years": [
+        "2028",
+        "2029"
+      ],
+      "location": "Ithaca, NY",
+      "status": "program-page",
+      "apply_url": "https://www.key.com/about/careers.html",
+      "notes": "Carried forward, not re-confirmed this run.",
+      "pay": "unknown",
+      "hours_per_week": "unknown"
+    },
+    {
+      "company": "Community Bank, N.A.",
+      "program": "Teller Rotating",
+      "category": "teller",
+      "class_years": [
+        "2028",
+        "2029"
+      ],
+      "location": "Ithaca, NY",
+      "status": "closed",
+      "apply_url": "https://www.linkedin.com/jobs/view/teller-rotating-at-community-bank-n-a-4398096160",
+      "notes": "Indeed's current Ithaca listing for Community Bank NA / Tompkins Community Bank Teller role shows Full-time, $18.25-$20.00/hr. Fails part-time hard filter.",
+      "pay": "$18.25-$20.00/hr",
+      "hours_per_week": "full-time (not part-time)"
+    },
+    {
+      "company": "NBT Bank",
+      "program": "General careers monitoring - Ithaca area",
+      "category": "teller",
+      "class_years": [
+        "2028",
+        "2029"
+      ],
+      "location": "Ithaca, NY",
+      "status": "program-page",
+      "apply_url": "https://nbtbancorp.wd12.myworkdayjobs.com/NBT-B",
+      "notes": "Carried forward, not re-confirmed this run.",
+      "pay": "unknown",
+      "hours_per_week": "unknown"
+    },
+    {
+      "company": "Elmira Savings Bank",
+      "program": "General careers monitoring - Ithaca branch",
+      "category": "teller",
+      "class_years": [
+        "2028",
+        "2029"
+      ],
+      "location": "Ithaca, NY",
+      "status": "closed",
+      "apply_url": "https://www.indeed.com/cmp/Elmira-Savings-Bank/locations/NY/Ithaca",
+      "notes": "Reconfirmed no openings this run.",
+      "pay": "unknown",
+      "hours_per_week": "unknown"
+    },
+    {
+      "company": "Chemung Canal Trust Company",
+      "program": "Part Time Teller",
+      "category": "Local Bank/Credit Union Part-Time",
+      "class_years": [
+        "2028",
+        "2029"
+      ],
+      "location": "Waverly, NY (Tioga County, nearest confirmed to Ithaca)",
+      "status": "program-page",
+      "apply_url": "https://www.chemungcanal.com/career/",
+      "notes": "Confirmed active Part Time Teller listing at Waverly branch.",
+      "pay": "$15.00 - $23.00 per hour",
+      "hours_per_week": "20+ hours/week"
+    },
+    {
+      "company": "CFCU Community Credit Union (rebranded Beginnings Credit Union)",
+      "program": "General careers monitoring - Ithaca branch",
+      "category": "teller",
+      "class_years": [
+        "2028",
+        "2029"
+      ],
+      "location": "Ithaca, NY",
+      "status": "program-page",
+      "apply_url": "https://recruiting.paylocity.com/recruiting/jobs/List/2352/CFCU-Community-Credit-Union",
+      "notes": "Carried forward, not re-confirmed this run.",
+      "pay": "unknown",
+      "hours_per_week": "unknown"
+    },
+    {
+      "company": "Alternatives Federal Credit Union",
+      "program": "Teller, Member Services Team",
+      "category": "Credit Union",
+      "class_years": [
+        "2028",
+        "2029"
+      ],
+      "location": "Ithaca, NY (125 N Fulton St)",
+      "status": "unknown",
+      "apply_url": "https://alternatives.isolvedhire.com/jobs/",
+      "notes": "NEW firm this run. Alternatives FCU (CDFI credit union, Tompkins County) advertises 58 full- and part-time staff and is actively seeking a Teller for its Member Services Team per employment page; individual job board (isolved) did not render specific listing details on fetch, so exact hours/status unconfirmed. Worth a follow-up direct visit.",
+      "pay": "not specified",
+      "hours_per_week": "unknown"
+    },
+    {
+      "company": "Visions Federal Credit Union",
+      "program": "General careers monitoring - Ithaca branch",
+      "category": "Credit Union",
+      "class_years": [
+        "2028",
+        "2029"
+      ],
+      "location": "Ithaca, NY",
+      "status": "program-page",
+      "apply_url": "https://www.visionsfcu.org/careers",
+      "notes": "Re-confirmed: careers page states they offer full-time (40hr), part-time-plus (30hr), part-time, seasonal, internship roles; specific Ithaca openings must be checked live on job board (no individual req found this run).",
+      "pay": "not specified",
+      "hours_per_week": "unknown"
+    },
+    {
+      "company": "Citizens Bank",
+      "program": "Citizens Banker",
+      "category": "Bank Teller",
+      "class_years": [
+        "2028",
+        "2029"
+      ],
+      "location": "Ithaca, NY",
+      "status": "closed",
+      "apply_url": "https://jobs.citizensbank.com/employment/ithaca-bank-branch-jobs/288/8240448/6252001-5128638-5141153-5122432/4",
+      "notes": "Re-confirmed closed: 0 open positions at Ithaca branch page.",
+      "pay": "not specified",
+      "hours_per_week": "unknown"
+    },
+    {
+      "company": "Cornell University (Division of Financial Affairs / Bursar / Student Employment)",
+      "program": "Student hourly jobs in Financial Affairs, Bursar's Office, Treasury (accounting, transaction processing, budget/forecast support)",
+      "category": "Cornell Student Employment",
+      "class_years": [
+        "2028",
+        "2029"
+      ],
+      "location": "Ithaca, NY (Cornell campus)",
+      "status": "program-page",
+      "apply_url": "https://studentemployment.cornell.edu/jobs-overview",
+      "notes": "Carried forward, not re-confirmed this run (Workday login required for individual listings).",
+      "pay": "Cornell student hourly wage grades",
+      "hours_per_week": "unknown"
+    },
+    {
+      "company": "Edward Jones",
+      "program": "Branch Office Administrator",
+      "category": "Financial Advisor Support",
+      "class_years": [
+        "2028",
+        "2029"
+      ],
+      "location": "Ithaca, NY (Triphammer Marketplace, 2255 N Triphammer Rd Suite 7)",
+      "status": "closed",
+      "apply_url": "https://careers.edwardjones.com/job/23508606/branch-office-administrator-ithaca-ny/",
+      "notes": "Re-checked: posting found is full-time ($19-20/hr base per ZipRecruiter mirror); does not meet part-time filter. Keeping closed.",
+      "pay": "$19-20/hr (full-time posting)",
+      "hours_per_week": "full-time (does not meet filter)"
+    },
+    {
+      "company": "Ameriprise Financial",
+      "program": "No confirmed local Ithaca office/openings",
+      "category": "Wealth Management",
+      "class_years": [
+        "2028",
+        "2029"
+      ],
+      "location": "Ithaca, NY area",
+      "status": "closed",
+      "apply_url": "https://careers.ameriprise.com/search-jobs/",
+      "notes": "Carried forward, not re-confirmed this run; no Ithaca-specific office or listing surfaced.",
+      "pay": "not specified",
+      "hours_per_week": "unknown"
+    },
+    {
+      "company": "Northwestern Mutual",
+      "program": "College Financial Representative / Financial Representative Internship",
+      "category": "Financial Advisor Internship",
+      "class_years": [
+        "2028",
+        "2029"
+      ],
+      "location": "Ithaca, NY area",
+      "status": "closed",
+      "apply_url": "https://opportunities.northwesternmutual.com/students",
+      "notes": "Carried forward, not re-confirmed this run; program is independent-contractor/commission-based, no confirmed local Ithaca office posting this cycle.",
+      "pay": "commission-based (independent contractor)",
+      "hours_per_week": "unknown"
+    },
+    {
+      "company": "Merrill Lynch (Bank of America)",
+      "program": "No confirmed Ithaca advisory office",
+      "category": "Wealth Management",
+      "class_years": [
+        "2028",
+        "2029"
+      ],
+      "location": "Ithaca, NY area",
+      "status": "closed",
+      "apply_url": "https://advisor.ml.com/sites/ny/ithaca/cornfieldgroup",
+      "notes": "Carried forward, not re-confirmed this run.",
+      "pay": "not specified",
+      "hours_per_week": "unknown"
+    },
+    {
+      "company": "Morgan Stanley",
+      "program": "Ithaca Branch (Wealth Management) — no confirmed open part-time role",
+      "category": "financial-advisor client-service associate",
+      "class_years": [
+        "2028",
+        "2029"
+      ],
+      "location": "Ithaca, NY (130 East Seneca Street, Ithaca Branch; Ainslie Reilly Group, Lenroc Team)",
+      "status": "program-page",
+      "apply_url": "https://advisor.morganstanley.com/ithaca-branch",
+      "notes": "Active local branch confirmed, but no job-posting page for the branch found.",
+      "pay": "unknown",
+      "hours_per_week": "unknown"
+    },
+    {
+      "company": "Jackson Hewitt (Ithaca, NY)",
+      "program": "Tax Preparer / Tax Pro (local office, franchise)",
+      "category": "tax-prep associate",
+      "class_years": [
+        "2028",
+        "2029"
+      ],
+      "location": "Ithaca, NY (401 Elmira Rd and 135 Fairgrounds Memorial Pkwy locations)",
+      "status": "closed",
+      "apply_url": "https://jackson-hewitt-3542.careerplug.com/jobs",
+      "notes": "Seasonal (mid-Dec to mid-Apr) tax preparer roles explicitly offered full-time AND part-time with flexible scheduling.",
+      "pay": "hourly rate + bonus programs",
+      "hours_per_week": "unknown (flexible scheduling)"
+    },
+    {
+      "company": "CFCU Community Credit Union",
+      "program": "Part-Time Teller (Benefits-Eligible)",
+      "category": "Local Bank/Credit Union",
+      "class_years": [
+        "2028",
+        "2029"
+      ],
+      "location": "Ithaca, NY",
+      "status": "program-page",
+      "apply_url": "https://lensa.com/part-time-teller-benefits-eligible-jobs/ithaca/jd/3ad23ae7f3304e2945cd71d3e77eacae",
+      "notes": "Explicitly titled Part-Time Teller (Benefits-Eligible) for Ithaca, NY. Full posting page was paywalled so exact hours/pay could not be extracted; apply via CFCU's own careers site.",
+      "pay": "unknown",
+      "hours_per_week": "unknown (part-time, benefits-eligible per title)"
+    },
+    {
+      "company": "Cayuga Lake National Bank",
+      "program": "Universal Banker",
+      "category": "Bank Teller",
+      "class_years": [
+        "2028",
+        "2029"
+      ],
+      "location": "Union Springs / Aurora / Lansing, NY",
+      "status": "closed",
+      "apply_url": "https://www.cayugalakenationalbank.com/clnb-careers",
+      "notes": "Carried forward, not re-confirmed this run. Bank's confirmed branch locations remain Union Springs, Aurora, and Lansing NY — no Ithaca (Tompkins County city) branch confirmed, though Lansing is Tompkins County-adjacent.",
+      "pay": "not specified",
+      "hours_per_week": "unknown"
+    },
+    {
+      "company": "Morgan Stanley (local advisory office)",
+      "program": "Client Service Associate (part-time) — not confirmed for Ithaca branch",
+      "category": "Wealth Management",
+      "class_years": [
+        "2028",
+        "2029"
+      ],
+      "location": "Ithaca, NY",
+      "status": "closed",
+      "apply_url": "https://advisor.morganstanley.com/ithaca-branch",
+      "notes": "Re-checked: Ithaca branch confirmed to exist (advisors: William Currie, Jim Thomforde, Timothy Jennings, Steven Headrick; CSA Crista Gee) but no open part-time CSA req found this run.",
+      "pay": "not specified",
+      "hours_per_week": "unknown"
+    },
+    {
+      "company": "Cornell University (Division of Financial Affairs / Office of the Bursar)",
+      "program": "Student Assistant / Office Assistant (Bursar's Office / DFA units)",
+      "category": "",
+      "class_years": [
+        "current Cornell students only"
+      ],
+      "location": "203 Day Hall, Ithaca, NY",
+      "status": "unknown",
+      "apply_url": "https://studentjobs.seo.cornell.edu/",
+      "notes": "Behind Cornell NetID login, cannot verify publicly. Restricted to enrolled Cornell students.",
+      "pay": "unknown",
+      "hours_per_week": "unknown"
+    },
+    {
+      "company": "Tompkins Trust Company",
+      "program": "Teller - Plaza Branch",
+      "category": "",
+      "class_years": [
+        "2028",
+        "2029"
+      ],
+      "location": "Ithaca, NY",
+      "status": "closed",
+      "apply_url": "https://careers.thisiscny.com/companies/tompkins-trust-co/jobs/53907141-teller-plaza-branch",
+      "notes": "Verified closed - no longer accepting applications.",
+      "pay": "$17.50-$18.50/hr",
+      "hours_per_week": "unknown"
+    },
+    {
+      "company": "CFCU Community Credit Union (rebranded Beginnings Credit Union)",
+      "program": "Teller / Universal Banker",
+      "category": "teller",
+      "class_years": [
+        "2028",
+        "2029"
+      ],
+      "location": "Ithaca, NY",
+      "status": "closed",
+      "apply_url": "https://recruiting.paylocity.com/recruiting/jobs/List/2352/CFCU-Community-Credit-Union",
+      "notes": "Direct Paylocity Universal Banker req (jobs/Details/4052544) returned 'that job does not exist or is not currently active.' Filled/removed.",
+      "pay": "unknown",
+      "hours_per_week": "unknown"
+    },
+    {
+      "company": "Community Bank N.A. (Community Financial System, Inc.)",
+      "program": "Relationship Banking Representative - Rotating",
+      "category": "",
+      "class_years": [
+        "2028",
+        "2029"
+      ],
+      "location": "Ithaca, NY 14850",
+      "status": "unknown",
+      "apply_url": "https://careers.cbna.com/communitybankna/jobs?lang=en-us",
+      "notes": "Rotating branch role. Job IDs 404'd on refetch - needs re-verification. Elmira Savings Bank acquired by Community Bank NA in 2022, its former Ithaca branches now under CBNA.",
+      "pay": "$18.25 - $24.71/hour",
+      "hours_per_week": "25"
+    },
+    {
+      "company": "Visions Federal Credit Union",
+      "program": "Branch/Member Service roles (Part-Time or Part-Time Plus)",
+      "category": "Local Bank/Credit Union Part-Time",
+      "class_years": [
+        "2028",
+        "2029"
+      ],
+      "location": "Ithaca, NY (Elmira Rd branch)",
+      "status": "unknown",
+      "apply_url": "https://recruiting.ultipro.com/VIS1010VFCU/JobBoard/8aa6443c-bdeb-4ca6-a33d-6c538463a2c4/",
+      "notes": "Confirmed live part-time MSR posting was in Sayre, PA, not Ithaca specifically.",
+      "pay": "unknown (comparable roles $18-22/hour)",
+      "hours_per_week": "part-time or part-time plus (30 hours)"
+    },
+    {
+      "company": "Tompkins Community Bank (Tompkins Financial Corporation)",
+      "program": "On-Call Teller",
+      "category": "Bank Teller",
+      "class_years": [
+        "2028",
+        "2029"
+      ],
+      "location": "Ithaca, NY",
+      "status": "program-page",
+      "apply_url": "https://careers.tompkinsfinancial.com/jobs",
+      "notes": "On-call/as-needed teller role (variable hours, effectively part-time). Verify hours on the posting. [Sonnet 5 verify 2026-07-31: program-page - Direct page 404, mirror 403]",
+      "pay": "unknown",
+      "hours_per_week": "unknown"
+    },
+    {
+      "company": "M&T Bank",
+      "program": "Teller (Float)",
+      "category": "teller",
+      "class_years": [
+        "2028",
+        "2029"
+      ],
+      "location": "Ithaca, NY",
+      "status": "program-page",
+      "apply_url": "https://mtb.wd5.myworkdayjobs.com/MTB",
+      "notes": "Carried forward, not re-confirmed this run.",
+      "pay": "unknown",
+      "hours_per_week": "unknown"
+    },
+    {
+      "company": "Cornell University (Division of Financial Affairs / Bursar / Student Employment)",
+      "program": "Student Financial/Office Assistant roles (e.g., Financial Aid Student Services Assistant)",
+      "category": "Cornell Student Employment",
+      "class_years": [
+        "2028",
+        "2029"
+      ],
+      "location": "Ithaca, NY (Cornell campus)",
+      "status": "unknown",
+      "apply_url": "https://studentemployment.cornell.edu/find-a-job",
+      "notes": "Carried forward, not re-confirmed this run (Workday login required).",
+      "pay": "Cornell student hourly wage grades",
+      "hours_per_week": "unknown"
+    },
+    {
+      "company": "Visions Federal Credit Union",
+      "program": "General careers monitoring - Ithaca branch (408 Elmira Rd)",
+      "category": "teller",
+      "class_years": [
+        "2028",
+        "2029"
+      ],
+      "location": "408 Elmira Rd, Ithaca, NY 14850",
+      "status": "program-page",
+      "apply_url": "https://www.visionsfcu.org/careers",
+      "notes": "NEWLY DISCOVERED this run: Visions FCU has an operating full-service branch (with teller line) at 408 Elmira Rd, Ithaca, opened 2021. No specific open part-time teller req confirmed yet - added for future sweeps.",
+      "pay": "unknown",
+      "hours_per_week": "unknown"
+    },
+    {
+      "company": "Tompkins Community Bank (Tompkins Financial)",
+      "program": "Teller / On-Call Teller (Ithaca area, incl. Main Office near Ithaca Commons)",
+      "category": "Bank Teller",
+      "class_years": [
+        "2028",
+        "2029"
+      ],
+      "location": "Ithaca, NY (Main Office near Ithaca Commons; other branches)",
+      "status": "unknown",
+      "apply_url": "https://careers.tompkinsfinancial.com/jobs",
+      "notes": "NEW firm this run. Multiple teller listings found (Teller - Main Office near Ithaca Commons; On-Call Teller - Central NY; general Teller - Ithaca), incl. an 'On-Call Teller' role that is plausibly part-time by nature, but hours-per-week not explicitly stated in any listing reachable this run (careers site is JS-rendered; individual job pages 404'd or returned template-only content on fetch). Recommend re-check with a rendering-capable browse next cycle.",
+      "pay": "Teller roles in Ithaca area posted around $16.73-$21.24/hr (Senior Teller, Plaza Branch, per third-party aggregator)",
+      "hours_per_week": "unknown"
+    },
+    {
+      "company": "CFCU Community Credit Union",
+      "program": "Teller (Ithaca area branches)",
+      "category": "Credit Union",
+      "class_years": [
+        "2028",
+        "2029"
+      ],
+      "location": "Ithaca, NY",
+      "status": "unknown",
+      "apply_url": "https://www.cfcu.com/about/careers",
+      "notes": "NEW firm this run. Teller openings referenced across job aggregators (Indeed/ZipRecruiter) for Ithaca, NY; could not reach CFCU's own careers portal directly (jobs.cfcu.com did not resolve) to confirm hours or live status. Kept unknown pending direct portal check.",
+      "pay": "not specified (aggregator range ~$33k-$48k annualized for various CFCU roles)",
+      "hours_per_week": "unknown"
+    },
+    {
+      "company": "Alternatives Federal Credit Union",
+      "program": "Facilities Assistant (Part-Time)",
+      "category": "Local Bank/Credit Union Part-Time",
+      "class_years": [
+        "2028",
+        "2029"
+      ],
+      "location": "Ithaca, NY",
+      "status": "program-page",
+      "apply_url": "https://www.indeed.com/cmp/Alternatives-Federal-Credit-Union/jobs",
+      "notes": "Not a teller/banking-desk role; only confirmed live part-time opening at time of search.",
+      "pay": "From $25.00 per hour",
+      "hours_per_week": "unknown"
+    },
+    {
+      "company": "CFCU Community Credit Union",
+      "program": "Part-Time Universal Banker",
+      "category": "treasury/cash-management support (branch banking)",
+      "class_years": [
+        "2028",
+        "2029"
+      ],
+      "location": "Ithaca, NY",
+      "status": "program-page",
+      "apply_url": "https://www.ziprecruiter.com/c/CFCU-Community-Credit-Union/Job/Universal-Banker/-in-Ithaca,NY?jid=ca1ab5cf8fa6dc25",
+      "notes": "Local Tompkins County credit union; explicitly titled part-time branch banking/teller-adjacent role.",
+      "pay": "unknown",
+      "hours_per_week": "unknown (explicitly part-time)"
+    },
+    {
+      "company": "Cornell University (Division of Financial Affairs / Bursar / Student Employment)",
+      "program": "Student Hourly Employment (Financial Aid & Student Employment / Bursar's Office / Treasurer's Office postings)",
+      "category": "Cornell bursar's-office/financial-affairs student jobs",
+      "class_years": [
+        "2028",
+        "2029"
+      ],
+      "location": "203 Day Hall / 260 Day Hall, Cornell University, Ithaca, NY",
+      "status": "program-page",
+      "apply_url": "https://studentemployment.cornell.edu/find-a-job",
+      "notes": "All hourly student jobs posted on rolling basis inside Workday; restricted to enrolled Cornell students.",
+      "pay": "unknown",
+      "hours_per_week": "unknown (inherently part-time, term-time)"
+    }
+  ]
+}

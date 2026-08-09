@@ -1,0 +1,62 @@
+- generic [active] [ref=f1019e1]:
+  - generic [ref=f1019e5]:
+    - banner [ref=f1019e6]:
+      - link "Skip to Content" [ref=f1019e8] [cursor=pointer]:
+        - /url: "#main-content"
+      - generic [ref=f1019e10]:
+        - menu [ref=f1019e12]:
+          - listitem [ref=f1019e13] [cursor=pointer]:
+            - menuitem [ref=f1019e15]:
+              - img "Carnegie Hall logo." [ref=f1019e17]
+          - listitem [ref=f1019e18] [cursor=pointer]:
+            - menuitem "Search Jobs" [ref=f1019e20]
+        - generic [ref=f1019e22]:
+          - generic "Language" [ref=f1019e24] [cursor=pointer]:
+            - generic [ref=f1019e25]:
+              - combobox "Language" [ref=f1019e27]
+              - generic [ref=f1019e28]: English (United States)
+          - link "Sign In" [ref=f1019e34] [cursor=pointer]:
+            - /url: "#"
+    - main [ref=f1019e35]:
+      - generic [ref=f1019e39]:
+        - heading "Search Jobs" [level=1] [ref=f1019e43]
+        - generic [ref=f1019e44]:
+          - generic [ref=f1019e46]:
+            - generic [ref=f1019e47]:
+              - generic [ref=f1019e50]:
+                - generic "Search by job title, keywords, req ID" [ref=f1019e52]
+                - textbox "Search by job title, keywords, req ID" [ref=f1019e61]
+              - generic [ref=f1019e69]:
+                - generic [ref=f1019e72]:
+                  - generic "Location" [ref=f1019e74]
+                  - combobox "Location" [ref=f1019e86]
+                - generic [ref=f1019e93]:
+                  - generic "Distance" [ref=f1019e95]
+                  - combobox "Distance" [ref=f1019e102]
+            - button "Advanced search" [ref=f1019e104] [cursor=pointer]
+            - generic:
+              - generic:
+                - button [disabled]
+            - generic [ref=f1019e110]:
+              - button "Clear All" [disabled] [ref=f1019e112]
+              - button "Search Jobs" [ref=f1019e114] [cursor=pointer]
+          - separator [ref=f1019e116]
+          - generic [ref=f1019e117]: Loading
+    - contentinfo [ref=f1019e126]:
+      - generic [ref=f1019e129]:
+        - generic [ref=f1019e130]: ©2009-2026 Dayforce HCM, Inc. All Rights Reserved.
+        - link "Privacy Policy" [ref=f1019e132] [cursor=pointer]:
+          - /url: https://help.dayforce.com/r/documents/all_legal_and_faq+en-US+lightMode+Web
+        - button "Cookie Preferences" [ref=f1019e134] [cursor=pointer]
+  - alert [ref=f1019e135]
+  - generic [ref=f1019e136]:
+    - heading "Cookie Preferences" [level=2] [ref=f1019e140]
+    - generic [ref=f1019e142]:
+      - generic [ref=f1019e145]:
+        - text: We use technology, such as cookies, to improve site functionality, personalize content, and analyze web traffic. By clicking "Accept" you also allow us to share information with third party advertising and analytics partners and use your information for advertising and analytics purposes. You can learn more about online tracking in our
+        - link "Cookie Statement" [ref=f1019e146] [cursor=pointer]:
+          - /url: https://www.dayforce.com/privacy/cookie-notice
+      - generic [ref=f1019e149]:
+        - button "Accept" [ref=f1019e151] [cursor=pointer]
+        - button "Reject" [ref=f1019e154] [cursor=pointer]
+        - button "Cookie Settings" [ref=f1019e158] [cursor=pointer]

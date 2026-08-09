@@ -1,0 +1,287 @@
+- generic [active] [ref=f448e1]:
+  - generic:
+    - link "Skip to content" [ref=f448e2] [cursor=pointer]:
+      - /url: "#main-content"
+    - link "Skip to results list" [ref=f448e3] [cursor=pointer]:
+      - /url: "#results_list"
+  - generic [ref=f448e5]:
+    - banner [ref=f448e6]:
+      - generic [ref=f448e7]:
+        - link [ref=f448e12] [cursor=pointer]:
+          - /url: http://www.nomuraholdings.com
+        - generic [ref=f448e16]:
+          - navigation [ref=f448e20]:
+            - generic [ref=f448e22]:
+              - list [ref=f448e23]:
+                - listitem [ref=f448e24]:
+                  - link "Home" [ref=f448e25] [cursor=pointer]:
+                    - /url: https://nomuracampus.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-b9eac9c1d376/candidate
+                - listitem [ref=f448e26]:
+                  - link "Student Opportunities" [ref=f448e27] [cursor=pointer]:
+                    - /url: https://nomuracampus.tal.net/vx/lang-en-GB/mobile-0/appcentre-ext/brand-4/xf-b9eac9c1d376/candidate/jobboard/vacancy/1/adv/
+                - listitem [ref=f448e28]:
+                  - link "Events" [ref=f448e29] [cursor=pointer]:
+                    - /url: https://nomuracampus.tal.net/vx/lang-en-GB/mobile-0/appcentre-ext/brand-4/xf-b9eac9c1d376/candidate/jobboard/vacancy/2/adv/
+                - listitem [ref=f448e30]:
+                  - link "Help Center" [ref=f448e31] [cursor=pointer]:
+                    - /url: https://nomuracampus.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-b9eac9c1d376/candidate/faq/home
+              - generic [ref=f448e32]:
+                - link "Login" [ref=f448e33] [cursor=pointer]:
+                  - /url: https://nomuracampus.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-b9eac9c1d376/candidate/login
+                - text: "|"
+                - link "Register" [ref=f448e34] [cursor=pointer]:
+                  - /url: https://nomuracampus.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-b9eac9c1d376/candidate/register
+          - main
+    - generic [ref=f448e35]:
+      - region "Job search filter" [ref=f448e38]:
+        - text: Filter your results
+        - link "Filter your results" [ref=f448e39] [cursor=pointer]:
+          - /url: "#"
+        - generic [ref=f448e40]: Selecting filters in this area will automatically update the results below.
+        - generic [ref=f448e41]:
+          - link "Clear" [ref=f448e42] [cursor=pointer]:
+            - /url: "?clear=1"
+          - generic [ref=f448e43]:
+            - group [ref=f448e44]:
+              - list "Region" [ref=f448e46]:
+                - listitem [ref=f448e47]:
+                  - checkbox "AEJ (Asia excluding Japan) (9 Results )" [ref=f448e48] [cursor=pointer]
+                  - generic [ref=f448e49] [cursor=pointer]:
+                    - text: AEJ (Asia excluding Japan)
+                    - generic [ref=f448e50]:
+                      - text: (9
+                      - generic [ref=f448e51]: Results
+                      - text: )
+                - listitem [ref=f448e52]:
+                  - checkbox "Americas (2 Results )" [ref=f448e53] [cursor=pointer]
+                  - generic [ref=f448e54] [cursor=pointer]:
+                    - text: Americas
+                    - generic [ref=f448e55]:
+                      - text: (2
+                      - generic [ref=f448e56]: Results
+                      - text: )
+                - listitem [ref=f448e57]:
+                  - checkbox "EMEA (Europe, Middle East and Africa) (2 Results )" [ref=f448e58] [cursor=pointer]
+                  - generic [ref=f448e59] [cursor=pointer]:
+                    - text: EMEA (Europe, Middle East and Africa)
+                    - generic [ref=f448e60]:
+                      - text: (2
+                      - generic [ref=f448e61]: Results
+                      - text: )
+            - group [ref=f448e62]:
+              - list "Program type" [ref=f448e64]:
+                - listitem [ref=f448e65]:
+                  - checkbox "Internship (7 Results )" [ref=f448e66] [cursor=pointer]
+                  - generic [ref=f448e67] [cursor=pointer]:
+                    - text: Internship
+                    - generic [ref=f448e68]:
+                      - text: (7
+                      - generic [ref=f448e69]: Results
+                      - text: )
+                - listitem [ref=f448e70]:
+                  - checkbox "Full time (4 Results )" [ref=f448e71] [cursor=pointer]
+                  - generic [ref=f448e72] [cursor=pointer]:
+                    - text: Full time
+                    - generic [ref=f448e73]:
+                      - text: (4
+                      - generic [ref=f448e74]: Results
+                      - text: )
+                - listitem [ref=f448e75]:
+                  - checkbox "Off-cycle internship (2 Results )" [ref=f448e76] [cursor=pointer]
+                  - generic [ref=f448e77] [cursor=pointer]:
+                    - text: Off-cycle internship
+                    - generic [ref=f448e78]:
+                      - text: (2
+                      - generic [ref=f448e79]: Results
+                      - text: )
+            - group [ref=f448e80]:
+              - list "Function" [ref=f448e82]:
+                - listitem [ref=f448e83]:
+                  - checkbox "Investment Banking (7 Results )" [ref=f448e84] [cursor=pointer]
+                  - generic [ref=f448e85] [cursor=pointer]:
+                    - text: Investment Banking
+                    - generic [ref=f448e86]:
+                      - text: (7
+                      - generic [ref=f448e87]: Results
+                      - text: )
+                - listitem [ref=f448e88]:
+                  - checkbox "Sales (2 Results )" [ref=f448e89] [cursor=pointer]
+                  - generic [ref=f448e90] [cursor=pointer]:
+                    - text: Sales
+                    - generic [ref=f448e91]:
+                      - text: (2
+                      - generic [ref=f448e92]: Results
+                      - text: )
+                - listitem [ref=f448e93]:
+                  - checkbox "Trading (2 Results )" [ref=f448e94] [cursor=pointer]
+                  - generic [ref=f448e95] [cursor=pointer]:
+                    - text: Trading
+                    - generic [ref=f448e96]:
+                      - text: (2
+                      - generic [ref=f448e97]: Results
+                      - text: )
+                - listitem [ref=f448e98]:
+                  - checkbox "Structuring (2 Results )" [ref=f448e99] [cursor=pointer]
+                  - generic [ref=f448e100] [cursor=pointer]:
+                    - text: Structuring
+                    - generic [ref=f448e101]:
+                      - text: (2
+                      - generic [ref=f448e102]: Results
+                      - text: )
+                - listitem [ref=f448e103]:
+                  - checkbox "Wealth Management (2 Results )" [ref=f448e104] [cursor=pointer]
+                  - generic [ref=f448e105] [cursor=pointer]:
+                    - text: Wealth Management
+                    - generic [ref=f448e106]:
+                      - text: (2
+                      - generic [ref=f448e107]: Results
+                      - text: )
+                - listitem [ref=f448e108]:
+                  - checkbox "Risk Management (2 Results )" [ref=f448e109] [cursor=pointer]
+                  - generic [ref=f448e110] [cursor=pointer]:
+                    - text: Risk Management
+                    - generic [ref=f448e111]:
+                      - text: (2
+                      - generic [ref=f448e112]: Results
+                      - text: )
+                - listitem [ref=f448e113]:
+                  - checkbox "Research (2 Results )" [ref=f448e114] [cursor=pointer]
+                  - generic [ref=f448e115] [cursor=pointer]:
+                    - text: Research
+                    - generic [ref=f448e116]:
+                      - text: (2
+                      - generic [ref=f448e117]: Results
+                      - text: )
+                - listitem [ref=f448e118]:
+                  - checkbox "Nomura Greentech (2 Results)" [ref=f448e119] [cursor=pointer]
+                  - generic [ref=f448e120] [cursor=pointer]: Nomura Greentech (2 Results)
+                  - alert [ref=f448e121]: New filter options available
+              - generic [ref=f448e122]:
+                - combobox [ref=f448e123]
+                - generic [ref=f448e125]:
+                  - button "Show more for category Function" [ref=f448e126] [cursor=pointer]:
+                    - generic "Show more" [ref=f448e127]
+                  - generic [ref=f448e128]: This button opens a select. When results are available,use up and down arrows to navigate and enter to select
+      - generic [ref=f448e130]:
+        - heading "Student Opportunities" [level=1] [ref=f448e131]
+        - generic [ref=f448e132]:
+          - generic [ref=f448e133]:
+            - generic [ref=f448e134]: Filter on keywords
+            - textbox "Filter on keywords" [ref=f448e135]:
+              - /placeholder: Title
+            - button "Go" [ref=f448e136] [cursor=pointer]
+          - alert [ref=f448e138]: 13 results match!
+          - region "Job results list" [ref=f448e139]:
+            - table "results match!" [ref=f448e141]:
+              - rowgroup [ref=f448e142]:
+                - row [ref=f448e143]:
+                  - columnheader "Title" [ref=f448e144]
+                  - columnheader "Location" [ref=f448e145]
+                  - columnheader "Application Deadline" [ref=f448e146]
+              - rowgroup [ref=f448e147]:
+                - row [ref=f448e148]:
+                  - cell [ref=f448e149]:
+                    - link "2027 International Wealth Management Summer Internship Program – Hong Kong" [ref=f448e150] [cursor=pointer]:
+                      - /url: https://nomuracampus.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-b9eac9c1d376/candidate/so/pm/1/pl/1/opp/1474-2027-International-Wealth-Management-Summer-Internship-Program-Hong-Kong/en-GB
+                  - cell "Hong Kong" [ref=f448e151]
+                  - cell "30 Sept 2026" [ref=f448e152]
+                - row [ref=f448e153]:
+                  - cell [ref=f448e154]:
+                    - link "2027 International Wealth Management Summer Internship Program – Singapore" [ref=f448e155] [cursor=pointer]:
+                      - /url: https://nomuracampus.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-b9eac9c1d376/candidate/so/pm/1/pl/1/opp/1473-2027-International-Wealth-Management-Summer-Internship-Program-Singapore/en-GB
+                  - cell "Singapore" [ref=f448e156]
+                  - cell "30 Sept 2026" [ref=f448e157]
+                - row [ref=f448e158]:
+                  - cell [ref=f448e159]:
+                    - link "2027 Risk Management Graduate Program – Hong Kong" [ref=f448e160] [cursor=pointer]:
+                      - /url: https://nomuracampus.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-b9eac9c1d376/candidate/so/pm/1/pl/1/opp/1483-2027-Risk-Management-Graduate-Program-Hong-Kong/en-GB
+                  - cell "Hong Kong" [ref=f448e161]
+                  - cell "30 Sept 2026" [ref=f448e162]
+                - row [ref=f448e163]:
+                  - cell [ref=f448e164]:
+                    - link "2027 Risk Management Graduate Program – Singapore" [ref=f448e165] [cursor=pointer]:
+                      - /url: https://nomuracampus.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-b9eac9c1d376/candidate/so/pm/1/pl/1/opp/1482-2027-Risk-Management-Graduate-Program-Singapore/en-GB
+                  - cell "Singapore" [ref=f448e166]
+                  - cell "30 Sept 2026" [ref=f448e167]
+                - row [ref=f448e168]:
+                  - cell [ref=f448e169]:
+                    - link "2027 Global Markets Summer Internship Program- Singapore" [ref=f448e170] [cursor=pointer]:
+                      - /url: https://nomuracampus.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-b9eac9c1d376/candidate/so/pm/1/pl/1/opp/1486-2027-Global-Markets-Summer-Internship-Program-Singapore/en-GB
+                  - cell "Singapore" [ref=f448e171]
+                  - cell "30 Sept 2026" [ref=f448e172]
+                - row [ref=f448e173]:
+                  - cell [ref=f448e174]:
+                    - link "2027 Global Markets Summer Internship Program- Hong Kong" [ref=f448e175] [cursor=pointer]:
+                      - /url: https://nomuracampus.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-b9eac9c1d376/candidate/so/pm/1/pl/1/opp/1485-2027-Global-Markets-Summer-Internship-Program-Hong-Kong/en-GB
+                  - cell "Hong Kong" [ref=f448e176]
+                  - cell "30 Sept 2026" [ref=f448e177]
+                - row [ref=f448e178]:
+                  - cell [ref=f448e179]:
+                    - link "2027 Investment Banking Summer Internship Program - Hong Kong" [ref=f448e180] [cursor=pointer]:
+                      - /url: https://nomuracampus.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-b9eac9c1d376/candidate/so/pm/1/pl/1/opp/1492-2027-Investment-Banking-Summer-Internship-Program-Hong-Kong/en-GB
+                  - cell "Hong Kong" [ref=f448e181]
+                  - cell "30 Sept 2026" [ref=f448e182]
+                - row [ref=f448e183]:
+                  - cell [ref=f448e184]:
+                    - link "2027 Investment Banking Summer Internship Program - Singapore" [ref=f448e185] [cursor=pointer]:
+                      - /url: https://nomuracampus.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-b9eac9c1d376/candidate/so/pm/1/pl/1/opp/1493-2027-Investment-Banking-Summer-Internship-Program-Singapore/en-GB
+                  - cell "Singapore" [ref=f448e186]
+                  - cell "30 Sept 2026" [ref=f448e187]
+                - row [ref=f448e188]:
+                  - cell [ref=f448e189]:
+                    - link "2027 Investment Banking Summer Internship Program - Taiwan" [ref=f448e190] [cursor=pointer]:
+                      - /url: https://nomuracampus.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-b9eac9c1d376/candidate/so/pm/1/pl/1/opp/1494-2027-Investment-Banking-Summer-Internship-Program-Taiwan/en-GB
+                  - cell "Taipei" [ref=f448e191]
+                  - cell "30 Sept 2026" [ref=f448e192]
+                - row [ref=f448e193]:
+                  - cell [ref=f448e194]:
+                    - link "2027 Investment Banking Full-Time Analyst Program - San Francisco" [ref=f448e195] [cursor=pointer]:
+                      - /url: https://nomuracampus.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-b9eac9c1d376/candidate/so/pm/1/pl/1/opp/1497-2027-Investment-Banking-Full-Time-Analyst-Program-San-Francisco/en-GB
+                  - cell "San Francisco" [ref=f448e196]
+                  - cell "4 Oct 2026" [ref=f448e197]
+                - row [ref=f448e198]:
+                  - cell [ref=f448e199]:
+                    - link "2027 Investment Banking Full-Time Analyst Program - New York" [ref=f448e200] [cursor=pointer]:
+                      - /url: https://nomuracampus.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-b9eac9c1d376/candidate/so/pm/1/pl/1/opp/1495-2027-Investment-Banking-Full-Time-Analyst-Program-New-York/en-GB
+                  - cell "New York" [ref=f448e201]
+                  - cell "4 Oct 2026" [ref=f448e202]
+                - row [ref=f448e203]:
+                  - cell [ref=f448e204]:
+                    - link "2027 - Investment Banking Off Cycle Internship – Frankfurt (January Q1 or April Q2 start)" [ref=f448e205] [cursor=pointer]:
+                      - /url: https://nomuracampus.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-b9eac9c1d376/candidate/so/pm/1/pl/1/opp/1432-2027-Investment-Banking-Off-Cycle-Internship-Frankfurt-January-Q1-or-April-Q2-start/en-GB
+                  - cell "Frankfurt" [ref=f448e206]
+                  - cell "1 Dec 2026" [ref=f448e207]
+                - row [ref=f448e208]:
+                  - cell [ref=f448e209]:
+                    - link "2027 - Investment Banking Off Cycle Internship – Paris (January start)" [ref=f448e210] [cursor=pointer]:
+                      - /url: https://nomuracampus.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-b9eac9c1d376/candidate/so/pm/1/pl/1/opp/1429-2027-Investment-Banking-Off-Cycle-Internship-Paris-January-start/en-GB
+                  - cell "Paris" [ref=f448e211]
+                  - cell "1 Dec 2026" [ref=f448e212]
+        - button "Job Alerts" [ref=f448e215] [cursor=pointer]
+        - paragraph [ref=f448e216]: Register your job preferences and receive relevant job alerts
+    - contentinfo [ref=f448e218]:
+      - link "View cookie / data protection and privacy policy" [ref=f448e220] [cursor=pointer]:
+        - /url: https://nomuracampus.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-b9eac9c1d376/candidate/cookie_policy
+      - contentinfo [ref=f448e224]:
+        - generic [ref=f448e225]:
+          - navigation [ref=f448e226]:
+            - list [ref=f448e227]:
+              - listitem [ref=f448e228]:
+                - link "Terms of Use" [ref=f448e229] [cursor=pointer]:
+                  - /url: https://www.nomuraholdings.com/policy/terms.html
+              - listitem [ref=f448e230]:
+                - link "Privacy Policy" [ref=f448e231] [cursor=pointer]:
+                  - /url: https://www.nomuraholdings.com/policy/privacy.html
+              - listitem [ref=f448e232]:
+                - link "Cookies" [ref=f448e233] [cursor=pointer]:
+                  - /url: https://www.nomuraholdings.com/policy/cookies.html
+              - listitem [ref=f448e234]:
+                - link "Accessibility Policy" [ref=f448e235] [cursor=pointer]:
+                  - /url: https://www.nomuraholdings.com/policy/acpolicy.html
+          - generic [ref=f448e236]:
+            - paragraph [ref=f448e237]: COPYRIGHT© NOMURA HOLDINGS, INC. ALL RIGHTS RESERVED.
+            - navigation:
+              - list
+          - paragraph [ref=f448e239]:
+            - link [ref=f448e240] [cursor=pointer]:
+              - /url: http://www.nomuraholdings.com

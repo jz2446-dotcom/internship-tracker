@@ -1,0 +1,19 @@
+name = "internship-tracker"
+main = "src/index.js"
+compatibility_date = "2024-01-01"
+
+# KV namespace — run `wrangler kv:namespace create INTERNSHIP_KV` to create,
+# then paste the returned id below.
+[[kv_namespaces]]
+binding = "INTERNSHIP_KV"
+id = "29fa2e9e783a464698d3cf37f268333a"
+
+# Daily heartbeat at 9am UTC (data itself is refreshed by re-running the pipeline + deploy)
+[triggers]
+crons = ["0 9 * * *"]
+
+# Secrets (set via `wrangler secret put UPDATE_SECRET`)
+# UPDATE_SECRET — shared secret for the /api/update endpoint
+
+[vars]
+ENVIRONMENT = "production"

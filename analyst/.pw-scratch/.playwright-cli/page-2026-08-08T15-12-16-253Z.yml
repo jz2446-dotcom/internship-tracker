@@ -1,0 +1,445 @@
+- generic [active] [ref=f11e1]:
+  - navigation "Page Region Navigation":
+    - list:
+      - listitem:
+        - link "Skip to main navigation" [ref=f11e2] [cursor=pointer]:
+          - /url: "#site-nav-logo"
+      - listitem:
+        - link "Skip to content" [ref=f11e3] [cursor=pointer]:
+          - /url: "#site-content"
+      - listitem:
+        - link "Skip to footer" [ref=f11e4] [cursor=pointer]:
+          - /url: "#site-footer"
+      - listitem:
+        - link "Skip to chat" [ref=f11e5] [cursor=pointer]:
+          - /url: "#targetChatButton"
+  - banner [ref=f11e6]:
+    - generic [ref=f11e7]:
+      - link "Target Corporate Home" [ref=f11e8] [cursor=pointer]:
+        - /url: /
+      - navigation "Site Navigation" [ref=f11e12]:
+        - list [ref=f11e14]:
+          - listitem [ref=f11e15]:
+            - link "About" [ref=f11e16] [cursor=pointer]:
+              - /url: https://corporate.target.com/about
+          - listitem [ref=f11e19]:
+            - link "News & Features" [ref=f11e20] [cursor=pointer]:
+              - /url: https://corporate.target.com/news-features
+          - listitem [ref=f11e23]:
+            - link "Careers" [ref=f11e24] [cursor=pointer]:
+              - /url: https://corporate.target.com/careers
+          - listitem [ref=f11e27]:
+            - link "Sustainability & Governance" [ref=f11e28] [cursor=pointer]:
+              - /url: https://corporate.target.com/sustainability-governance
+          - listitem [ref=f11e31]:
+            - link "Investors" [ref=f11e32] [cursor=pointer]:
+              - /url: https://corporate.target.com/investors
+          - listitem [ref=f11e35]:
+            - link "Press" [ref=f11e36] [cursor=pointer]:
+              - /url: https://corporate.target.com/press
+      - button "Open search" [ref=f11e40] [cursor=pointer]
+      - link "Shop" [ref=f11e41] [cursor=pointer]:
+        - /url: https://www.target.com/
+  - main [ref=f11e42]:
+    - generic [ref=f11e47]:
+      - heading "Join the most beloved team in retail." [level=1] [ref=f11e51]
+      - generic [ref=f11e52]:
+        - generic [ref=f11e54]:
+          - heading "Explore career areas and jobs for you" [level=2] [ref=f11e55]
+          - generic [ref=f11e56]:
+            - generic [ref=f11e57]:
+              - generic [ref=f11e58]:
+                - generic [ref=f11e59]: Job title, skill, or keyword
+                - combobox "Job title, skill, or keyword. Recommended searches appear below." [ref=f11e60]
+                - button "Search jobs" [ref=f11e61] [cursor=pointer]
+              - generic [ref=f11e62]:
+                - generic [ref=f11e63]: City or Zip Code
+                - combobox "City or Zip Code" [ref=f11e64]: Plano, TX 75025
+                - button "Clear location" [ref=f11e65] [cursor=pointer]
+              - button "Search jobs" [ref=f11e66] [cursor=pointer]
+            - button "Saved jobs (0)" [ref=f11e67] [cursor=pointer]
+            - link "Create a job alert" [ref=f11e68] [cursor=pointer]:
+              - /url: /careers/job-alerts
+        - generic [ref=f11e70]:
+          - generic [ref=f11e71]:
+            - paragraph [ref=f11e72]: Prospective team member
+            - paragraph [ref=f11e73]: Pick up where you left off or check your application status.
+            - paragraph [ref=f11e74]:
+              - link "Go to Workday applicant portal" [ref=f11e75] [cursor=pointer]:
+                - /url: https://target.wd5.myworkdayjobs.com/targetcareers/login?redirect=%2Ftargetcareers%2FuserHome
+          - generic [ref=f11e76]:
+            - paragraph [ref=f11e77]: Current team member
+            - paragraph [ref=f11e78]: Internal applicants can find new opportunities and apply.
+            - paragraph [ref=f11e79]:
+              - link "Go to Workday team member portal" [ref=f11e80] [cursor=pointer]:
+                - /url: https://wd5.myworkday.com/target/d/task/1c7a175445dc1000388e0927a6bdda42.htmld
+    - generic [ref=f11e86]:
+      - heading "Jobs you may be interested in" [level=2] [ref=f11e88]
+      - region "Carousel" [ref=f11e92]:
+        - button "Previous slide" [disabled]:
+          - generic: "@ResHelper.GetString(\"CarouselPrevious\")"
+        - list [ref=f11e93]:
+          - group "Slide 1 of 15" [ref=f11e94]:
+            - generic [ref=f11e95]:
+              - generic [ref=f11e96]: Stores
+              - heading [level=3] [ref=f11e97]:
+                - link "GM and Food (General Merchandise, Closing, Fulfillment, Inbound, Food and Beverage ) (T1231)" [ref=f11e98] [cursor=pointer]:
+                  - /url: /jobs/w08/01/gm-and-food-general-merchandise,-closing,-fulfillment,-inbound,-food-and-beverage-t1231
+              - generic [ref=f11e99]: 907 W McDermott Dr, Allen, TX
+              - link "Learn more" [ref=f11e102] [cursor=pointer]:
+                - /url: /jobs/w08/01/gm-and-food-general-merchandise,-closing,-fulfillment,-inbound,-food-and-beverage-t1231
+          - group "Slide 2 of 15" [ref=f11e105]:
+            - generic [ref=f11e106]:
+              - generic [ref=f11e107]: Stores
+              - heading [level=3] [ref=f11e108]:
+                - 'link "On-Demand: Guest Advocate (Cashier), General Merchandise, Fulfillment, Food and Beverage, Style (T1231)" [ref=f11e109] [cursor=pointer]':
+                  - /url: /jobs/w08/03/on-demand-guest-advocate-cashier-,-general-merchandise,-fulfillment,-food-and-beverage,-style-t12
+              - generic [ref=f11e110]: 907 W McDermott Dr, Allen, TX
+              - link "Learn more" [ref=f11e113] [cursor=pointer]:
+                - /url: /jobs/w08/03/on-demand-guest-advocate-cashier-,-general-merchandise,-fulfillment,-food-and-beverage,-style-t12
+          - group "Slide 3 of 15" [ref=f11e116]:
+            - generic [ref=f11e117]:
+              - generic [ref=f11e118]: Stores
+              - heading [level=3] [ref=f11e119]:
+                - link "Specialty Sales (Style, Tech, Beauty) (T1231)" [ref=f11e120] [cursor=pointer]:
+                  - /url: /jobs/w08/04/specialty-sales-style,-tech,-beauty-t1231
+              - generic [ref=f11e121]: 907 W McDermott Dr, Allen, TX
+              - link "Learn more" [ref=f11e124] [cursor=pointer]:
+                - /url: /jobs/w08/04/specialty-sales-style,-tech,-beauty-t1231
+          - group "Slide 4 of 15" [ref=f11e127]:
+            - generic [ref=f11e128]:
+              - generic [ref=f11e129]: Stores
+              - heading [level=3] [ref=f11e130]:
+                - link "Guest Advocate (Cashier or Front of Store Attendant/Cart Attendant) (T1231)" [ref=f11e131] [cursor=pointer]:
+                  - /url: /jobs/w08/02/guest-advocate-cashier-or-front-of-store-attendant-cart-attendant-t1231
+              - generic [ref=f11e132]: 907 W McDermott Dr, Allen, TX
+              - link "Learn more" [ref=f11e135] [cursor=pointer]:
+                - /url: /jobs/w08/02/guest-advocate-cashier-or-front-of-store-attendant-cart-attendant-t1231
+          - group "Slide 5 of 15" [ref=f11e138]:
+            - generic [ref=f11e139]:
+              - generic [ref=f11e140]: Stores
+              - heading [level=3] [ref=f11e141]:
+                - link "Specialty Sales (Style, Tech, Beauty) (T0067)" [ref=f11e142] [cursor=pointer]:
+                  - /url: /jobs/w66/30/specialty-sales-style,-tech,-beauty-t0067
+              - generic [ref=f11e143]: 120 W Parker Rd, Plano, TX
+              - link "Learn more" [ref=f11e146] [cursor=pointer]:
+                - /url: /jobs/w66/30/specialty-sales-style,-tech,-beauty-t0067
+          - group "Slide 6 of 15" [ref=f11e149]:
+            - generic [ref=f11e150]:
+              - generic [ref=f11e151]: Stores
+              - heading [level=3] [ref=f11e152]:
+                - 'link "On-Demand: Guest Advocate (Cashier), General Merchandise, Fulfillment, Food and Beverage, Style (T0067)" [ref=f11e153] [cursor=pointer]':
+                  - /url: /jobs/w66/28/on-demand-guest-advocate-cashier-,-general-merchandise,-fulfillment,-food-and-beverage,-style-t00
+              - generic [ref=f11e154]: 120 W Parker Rd, Plano, TX
+              - link "Learn more" [ref=f11e157] [cursor=pointer]:
+                - /url: /jobs/w66/28/on-demand-guest-advocate-cashier-,-general-merchandise,-fulfillment,-food-and-beverage,-style-t00
+          - group "Slide 7 of 15" [ref=f11e160]:
+            - generic [ref=f11e161]:
+              - generic [ref=f11e162]: Stores
+              - heading [level=3] [ref=f11e163]:
+                - link "GM and Food (General Merchandise, Closing, Fulfillment, Inbound, Food and Beverage , Starbucks) (T0067)" [ref=f11e164] [cursor=pointer]:
+                  - /url: /jobs/w66/24/gm-and-food-general-merchandise,-closing,-fulfillment,-inbound,-food-and-beverage-,-starbucks-t00
+              - generic [ref=f11e165]: 120 W Parker Rd, Plano, TX
+              - link "Learn more" [ref=f11e168] [cursor=pointer]:
+                - /url: /jobs/w66/24/gm-and-food-general-merchandise,-closing,-fulfillment,-inbound,-food-and-beverage-,-starbucks-t00
+          - group "Slide 8 of 15" [ref=f11e171]:
+            - generic [ref=f11e172]:
+              - generic [ref=f11e173]: Stores
+              - heading [level=3] [ref=f11e174]:
+                - link "Guest Advocate (Cashier or Front of Store Attendant/Cart Attendant) (T0067)" [ref=f11e175] [cursor=pointer]:
+                  - /url: /jobs/w66/26/guest-advocate-cashier-or-front-of-store-attendant-cart-attendant-t0067
+              - generic [ref=f11e176]: 120 W Parker Rd, Plano, TX
+              - link "Learn more" [ref=f11e179] [cursor=pointer]:
+                - /url: /jobs/w66/26/guest-advocate-cashier-or-front-of-store-attendant-cart-attendant-t0067
+          - group "Slide 9 of 15" [ref=f11e182]:
+            - generic [ref=f11e183]:
+              - generic [ref=f11e184]: Stores
+              - heading [level=3] [ref=f11e185]:
+                - link "General Merchandise, Closing, Fulfillment (T2142)" [ref=f11e186] [cursor=pointer]:
+                  - /url: /jobs/w36/39/general-merchandise,-closing,-fulfillment-t2142
+              - generic [ref=f11e187]: 8900 State Highway 121, McKinney, TX
+              - link "Learn more" [ref=f11e190] [cursor=pointer]:
+                - /url: /jobs/w36/39/general-merchandise,-closing,-fulfillment-t2142
+          - group "Slide 10 of 15" [ref=f11e193]:
+            - generic [ref=f11e194]:
+              - generic [ref=f11e195]: Stores
+              - heading [level=3] [ref=f11e196]:
+                - link "Guest Advocate (Cashier or Front of Store Attendant/Cart Attendant) (T2142)" [ref=f11e197] [cursor=pointer]:
+                  - /url: /jobs/w36/40/guest-advocate-cashier-or-front-of-store-attendant-cart-attendant-t2142
+              - generic [ref=f11e198]: 8900 State Highway 121, McKinney, TX
+              - link "Learn more" [ref=f11e201] [cursor=pointer]:
+                - /url: /jobs/w36/40/guest-advocate-cashier-or-front-of-store-attendant-cart-attendant-t2142
+          - group "Slide 11 of 15" [ref=f11e204]:
+            - generic [ref=f11e205]:
+              - generic [ref=f11e206]: Stores
+              - heading [level=3] [ref=f11e207]:
+                - 'link "On-Demand: Guest Advocate (Cashier), General Merchandise, Fulfillment, Food and Beverage, Style (T2142)" [ref=f11e208] [cursor=pointer]':
+                  - /url: /jobs/w36/41/on-demand-guest-advocate-cashier-,-general-merchandise,-fulfillment,-food-and-beverage,-style-t21
+              - generic [ref=f11e209]: 8900 State Highway 121, McKinney, TX
+              - link "Learn more" [ref=f11e212] [cursor=pointer]:
+                - /url: /jobs/w36/41/on-demand-guest-advocate-cashier-,-general-merchandise,-fulfillment,-food-and-beverage,-style-t21
+          - group "Slide 12 of 15" [ref=f11e215]:
+            - generic [ref=f11e216]:
+              - generic [ref=f11e217]: Stores
+              - heading [level=3] [ref=f11e218]:
+                - link "Specialty Sales (Style, Beauty/Beauty Studio or Tech) (T2142)" [ref=f11e219] [cursor=pointer]:
+                  - /url: /jobs/w36/42/specialty-sales-style,-tech,-beauty,-ulta-beauty-t2142
+              - generic [ref=f11e220]: 8900 State Highway 121, McKinney, TX
+              - link "Learn more" [ref=f11e223] [cursor=pointer]:
+                - /url: /jobs/w36/42/specialty-sales-style,-tech,-beauty,-ulta-beauty-t2142
+          - group "Slide 13 of 15" [ref=f11e226]:
+            - generic [ref=f11e227]:
+              - generic [ref=f11e228]: Stores
+              - heading [level=3] [ref=f11e229]:
+                - link "Food and Beverage , Starbucks, Deli, Bakery (T2142)" [ref=f11e230] [cursor=pointer]:
+                  - /url: /jobs/w36/38/food-and-beverage-,-starbucks,-deli,-bakery-t2142
+              - generic [ref=f11e231]: 8900 State Highway 121, McKinney, TX
+              - link "Learn more" [ref=f11e234] [cursor=pointer]:
+                - /url: /jobs/w36/38/food-and-beverage-,-starbucks,-deli,-bakery-t2142
+          - group "Slide 14 of 15" [ref=f11e237]:
+            - generic [ref=f11e238]:
+              - generic [ref=f11e239]: Stores
+              - heading [level=3] [ref=f11e240]:
+                - link "Food and Beverage , Food Service, Starbucks, Deli, Bakery (T2516)" [ref=f11e241] [cursor=pointer]:
+                  - /url: /jobs/w50/10/food-and-beverage-,-food-service,-starbucks,-deli,-bakery-t2516
+              - generic [ref=f11e242]: 150 E Stacy Rd, Allen, TX
+              - link "Learn more" [ref=f11e245] [cursor=pointer]:
+                - /url: /jobs/w50/10/food-and-beverage-,-food-service,-starbucks,-deli,-bakery-t2516
+          - group "Slide 15 of 15" [ref=f11e248]:
+            - generic [ref=f11e249]:
+              - generic [ref=f11e250]: Stores
+              - heading [level=3] [ref=f11e251]:
+                - link "General Merchandise, Closing, Fulfillment (T2516)" [ref=f11e252] [cursor=pointer]:
+                  - /url: /jobs/w50/11/general-merchandise,-closing,-fulfillment-t2516
+              - generic [ref=f11e253]: 150 E Stacy Rd, Allen, TX
+              - link "Learn more" [ref=f11e256] [cursor=pointer]:
+                - /url: /jobs/w50/11/general-merchandise,-closing,-fulfillment-t2516
+        - button "Next slide" [ref=f11e259] [cursor=pointer]:
+          - generic: "@ResHelper.GetString(\"CarouselNext\")"
+    - generic [ref=f11e280]:
+      - heading "Career areas" [level=2] [ref=f11e281]
+      - paragraph [ref=f11e282]: Start your Target journey by finding the path for you within our unique career areas.
+      - paragraph [ref=f11e283]:
+        - link "Explore all careers areas" [ref=f11e284] [cursor=pointer]:
+          - /url: /careers/career-areas
+    - generic [ref=f11e288]:
+      - generic [ref=f11e293]:
+        - heading "Stores" [level=2] [ref=f11e294]
+        - generic [ref=f11e295]:
+          - paragraph [ref=f11e296]:
+            - generic [ref=f11e297]: Deliver a best-in-class shopping experience, bringing together incredible products, people and operations at more than 2,000 Target stores that delight millions of guests every day.
+          - paragraph [ref=f11e298]:
+            - link "Learn more" [ref=f11e299] [cursor=pointer]:
+              - /url: /careers/career-areas/stores
+            - link "Search jobs" [ref=f11e300] [cursor=pointer]:
+              - /url: /careers/job-search/store/stores
+      - generic [ref=f11e305]:
+        - heading "Supply Chain" [level=2] [ref=f11e306]
+        - generic [ref=f11e307]:
+          - paragraph [ref=f11e308]:
+            - generic [ref=f11e309]: Fuel the movement of products to 60+ facilities, reaching shelves and homes across the country.
+          - paragraph [ref=f11e310]:
+            - link "Learn more" [ref=f11e311] [cursor=pointer]:
+              - /url: /careers/career-areas/supply-chain
+            - link "Search jobs" [ref=f11e312] [cursor=pointer]:
+              - /url: /careers/job-search/supply-chain/supply-chain
+    - generic [ref=f11e315]:
+      - generic [ref=f11e320]:
+        - heading "Corporate" [level=2] [ref=f11e321]
+        - generic [ref=f11e322]:
+          - paragraph [ref=f11e323]:
+            - generic [ref=f11e324]: Join our corporate team, headquartered in Minneapolis, Minnesota, where you'll support our stores, supply chain and operations teams as well as play a key role in product development and curation.
+          - paragraph [ref=f11e325]:
+            - link "Learn more" [ref=f11e326] [cursor=pointer]:
+              - /url: /careers/career-areas/corporate
+            - link "Search jobs" [ref=f11e327] [cursor=pointer]:
+              - /url: /careers/job-search/corporate/corporate
+      - generic [ref=f11e329]:
+        - img "A group of Target interns pose for a picture with a small dog stuffed toy." [ref=f11e332]
+        - generic [ref=f11e333]:
+          - heading "Intern & Entry Level" [level=2] [ref=f11e334]
+          - generic [ref=f11e335]:
+            - paragraph [ref=f11e336]:
+              - generic [ref=f11e337]: Launch your career or seek a new direction amongst our various internships, graduate programs & entry-level opportunities.
+            - paragraph [ref=f11e338]:
+              - link "Learn more" [ref=f11e339] [cursor=pointer]:
+                - /url: /careers/career-areas/intern-entry-level
+              - link "Search jobs" [ref=f11e340] [cursor=pointer]:
+                - /url: /careers/job-search/internships/internships-entry-level-programs
+    - generic [ref=f11e351]:
+      - generic [ref=f11e353]:
+        - generic:
+          - generic:
+            - img "a group of people in safety vests looking at a computer"
+      - article [ref=f11e355]:
+        - blockquote [ref=f11e360]:
+          - paragraph [ref=f11e362]: Target has supported my growth every step of the way between mentorships, tuition assistance, and hands on learning opportunities. There's always something new to explore. I've been with Target for 5 years and in 3 different roles, which is something I'm very proud of. With every step I take, I feel more ready and confident for the next challenge and that's the kind of culture that truly sets us up for success. What I love the most is that it's not just about the job; it's about discovering who we are and where we want to grow next. Target gives us that chance to explore, try new things, and keep learning until we land where we truly belong.
+          - generic [ref=f11e363]:
+            - generic [ref=f11e364]: Doris
+            - generic [ref=f11e365]: HR Business Partner, Supply Chain
+          - link "More about growth" [ref=f11e366] [cursor=pointer]:
+            - /url: /careers/growth-and-development
+    - article [ref=f11e371]:
+      - blockquote [ref=f11e376]:
+        - paragraph [ref=f11e378]: The Target Team has been nothing but supportive and encouraging to me since the day I first joined. I feel energized every day by the culture here and the opportunity to work with such smart, creative, and talented folks. At Target, I get to channel my passions into work that is exciting and rewarding.
+        - generic [ref=f11e379]:
+          - generic [ref=f11e380]: Sabina
+          - generic [ref=f11e381]: Sr. Marketing Manager, Corporate
+        - link "More about culture" [ref=f11e382] [cursor=pointer]:
+          - /url: /careers/culture
+    - generic [ref=f11e386]:
+      - generic [ref=f11e387]:
+        - heading "Featured pay & benefits" [level=2] [ref=f11e388]
+        - paragraph [ref=f11e391]:
+          - generic [ref=f11e392]: Learn about the programs available to all Target team members upon starting, at no cost.
+      - generic [ref=f11e393]:
+        - generic [ref=f11e398]:
+          - heading "Market-leading pay" [level=3] [ref=f11e399]
+          - generic [ref=f11e400]: Target puts people first. That’s why Target is a proud pay leader in retail and highly competitive with other large companies, providing equitable and competitive pay for all.
+        - generic [ref=f11e405]:
+          - heading "Quick pay access" [level=3] [ref=f11e406]
+          - generic [ref=f11e407]: Enjoy more control over your pay schedule with DailyPay, a pay advance app that allows eligible team members to choose when to receive earned but unpaid wages and help build savings.
+    - generic [ref=f11e410]:
+      - generic [ref=f11e415]:
+        - heading "Virtual care" [level=3] [ref=f11e416]
+        - generic [ref=f11e417]: Virtual care, no cost. CirrusMD is a text-based virtual care platform that gives team members 24/7 access to a real doctor, at their fingertips.
+      - generic [ref=f11e422]:
+        - heading "Mental health resources" [level=3] [ref=f11e423]
+        - generic [ref=f11e424]: Peace of mind starts with mental health. All team members and their families get free and confidential access 24/7 to mental health experts through Spring Health.
+    - generic [ref=f11e426]:
+      - generic [ref=f11e427]:
+        - generic [ref=f11e432]:
+          - heading "Team target discount" [level=3] [ref=f11e433]
+          - generic [ref=f11e434]: Team members get a 10% discount at all Target stores and Target.com, along with 20% off wellness products and 20% off adult owned-brand apparel and accessories. Plus, get an additional 5% savings with a Target Circle Card.
+        - generic [ref=f11e439]:
+          - heading "Education assistance" [level=3] [ref=f11e440]
+          - generic [ref=f11e441]: Pursue your dreams. Target provides industry-leading education support to eligible team members with Dream to Be, which includes access to approximately 500 certificate, bootcamp and degree programs, many tuition-free, from more than 40-plus schools.
+      - generic [ref=f11e442]:
+        - link "More benefits" [ref=f11e444] [cursor=pointer]:
+          - /url: /careers/pay-and-benefits
+        - paragraph [ref=f11e446]:
+          - generic [ref=f11e447]: Eligibility requirements may vary based on position, average hours worked, length of service and program requirements. Benefits are subject to change.
+    - generic [ref=f11e453]:
+      - generic [ref=f11e454]:
+        - heading "Set job alerts" [level=2] [ref=f11e455]
+        - paragraph [ref=f11e458]: Stay up-to-date with relevant Target opportunities sent right to your inbox.
+      - generic [ref=f11e462]:
+        - paragraph [ref=f11e463]: "*All fields required."
+        - generic [ref=f11e464]:
+          - generic [ref=f11e465]:
+            - generic [ref=f11e466]: First Name*
+            - textbox "First Name*" [ref=f11e467]
+          - generic [ref=f11e468]:
+            - generic [ref=f11e469]: Last Name*
+            - textbox "Last Name*" [ref=f11e470]
+          - generic [ref=f11e471]:
+            - generic [ref=f11e472]: Email address*
+            - textbox "Email address*" [ref=f11e473]
+          - generic [ref=f11e474]:
+            - generic [ref=f11e475]: City or Zip Code*
+            - combobox "City or Zip Code" [ref=f11e476]: Plano, TX 75025
+          - generic [ref=f11e478]:
+            - generic [ref=f11e479]: Select Job Area
+            - combobox "Drop down menu." [ref=f11e481] [cursor=pointer]:
+              - generic: Select Job Area
+              - generic: "*"
+          - paragraph [ref=f11e484]:
+            - text: By submitting your information, you acknowledge that you have read our
+            - link "Career Privacy Notice" [ref=f11e485] [cursor=pointer]:
+              - /url: /careers/career-privacy-notice
+            - text: and consent to receive email job alerts and other career-related communications from Target.
+          - iframe [ref=f11e490]:
+            - generic [ref=f12e2]:
+              - generic [ref=f12e3]:
+                - checkbox "I'm not a robot" [ref=f12e7]
+                - generic [ref=f12e9]: I'm not a robot
+              - generic [ref=f12e12]: reCAPTCHA
+          - button "Set job alert" [ref=f11e491] [cursor=pointer]
+  - contentinfo [ref=f11e492]:
+    - generic [ref=f11e494]:
+      - generic [ref=f11e495]:
+        - navigation "Secondary Site Navigation" [ref=f11e497]:
+          - list [ref=f11e498]:
+            - listitem [ref=f11e499]:
+              - link "About" [ref=f11e500] [cursor=pointer]:
+                - /url: /about
+            - listitem [ref=f11e501]:
+              - link "News & Features" [ref=f11e502] [cursor=pointer]:
+                - /url: /news-features
+            - listitem [ref=f11e503]:
+              - link "Careers" [ref=f11e504] [cursor=pointer]:
+                - /url: /careers
+            - listitem [ref=f11e505]:
+              - link "Sustainability & Governance" [ref=f11e506] [cursor=pointer]:
+                - /url: /sustainability-governance
+            - listitem [ref=f11e507]:
+              - link "Investors" [ref=f11e508] [cursor=pointer]:
+                - /url: /investors
+            - listitem [ref=f11e509]:
+              - link "Press" [ref=f11e510] [cursor=pointer]:
+                - /url: /press
+        - list [ref=f11e512]:
+          - listitem [ref=f11e513]:
+            - link "Target.com" [ref=f11e514] [cursor=pointer]:
+              - /url: https://www.target.com/
+          - listitem [ref=f11e517]:
+            - link "Find a Store" [ref=f11e518] [cursor=pointer]:
+              - /url: https://www.target.com/store-locator/find-stores
+          - listitem [ref=f11e521]:
+            - link "Contact Us" [ref=f11e522] [cursor=pointer]:
+              - /url: /about/contact-help
+        - generic [ref=f11e526]:
+          - paragraph [ref=f11e527]: Sign up to receive news alerts
+          - link "Sign up" [ref=f11e528] [cursor=pointer]:
+            - /url: /about/contact-help/subscription
+      - link [ref=f11e530] [cursor=pointer]:
+        - /url: /
+        - img "Visit the Target corporate site homepage." [ref=f11e531]
+    - generic [ref=f11e534]:
+      - generic [ref=f11e535]:
+        - list [ref=f11e536]:
+          - listitem [ref=f11e537]:
+            - link "Target news (opens Twitter in a new window)" [ref=f11e538] [cursor=pointer]:
+              - /url: https://twitter.com/TargetNews
+              - generic [ref=f11e541]:
+                - text: Target news
+                - generic [ref=f11e542]: (opens Twitter in a new window)
+          - listitem [ref=f11e543]:
+            - link "Target careers (opens Facebook in a new window)" [ref=f11e544] [cursor=pointer]:
+              - /url: https://facebook.com/Target.Careers
+              - generic [ref=f11e547]:
+                - text: Target careers
+                - generic [ref=f11e548]: (opens Facebook in a new window)
+          - listitem [ref=f11e549]:
+            - link "Team Target (opens Instagram in a new window)" [ref=f11e550] [cursor=pointer]:
+              - /url: https://instagram.com/TeamTarget
+              - generic [ref=f11e553]:
+                - text: Team Target
+                - generic [ref=f11e554]: (opens Instagram in a new window)
+          - listitem [ref=f11e555]:
+            - link "Target company (opens LinkedIn in a new window)" [ref=f11e556] [cursor=pointer]:
+              - /url: https://www.linkedin.com/company/target
+              - generic [ref=f11e559]:
+                - text: Target company
+                - generic [ref=f11e560]: (opens LinkedIn in a new window)
+          - listitem [ref=f11e561]:
+            - link "Target RSS feeds" [ref=f11e562] [cursor=pointer]:
+              - /url: /about/contact-help/rss-feeds
+        - paragraph [ref=f11e566]:
+          - link "Social media directory" [ref=f11e567] [cursor=pointer]:
+            - /url: /about/contact-help
+      - generic [ref=f11e568]:
+        - list [ref=f11e569]:
+          - listitem [ref=f11e570]:
+            - link "Careers Privacy" [ref=f11e571] [cursor=pointer]:
+              - /url: /careers/career-privacy-notice
+          - listitem [ref=f11e572]:
+            - link "Careers Terms & Conditions" [ref=f11e573] [cursor=pointer]:
+              - /url: /careers/career-privacy-notice/workday-mobile-terms-and-conditions
+          - listitem [ref=f11e574]:
+            - link "CA Employment Privacy Notice" [ref=f11e575] [cursor=pointer]:
+              - /url: /careers/career-privacy-notice/california-privacy-notice
+        - paragraph [ref=f11e576]:
+          - link "Your Privacy Choices" [ref=f11e577] [cursor=pointer]:
+            - /url: https://corporate.target.com/hr-privacy
+        - paragraph [ref=f11e578]: ©2026 Target Brands, Inc. Target, the Bullseye Design and Bullseye Dog are trademarks of Target Brands, Inc.

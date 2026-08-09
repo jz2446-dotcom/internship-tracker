@@ -1,0 +1,280 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - link "Skip To Content" [ref=e3] [cursor=pointer]:
+      - /url: "#content"
+    - generic [ref=e6]:
+      - link "University of Washington Bothell" [ref=e7] [cursor=pointer]:
+        - /url: https://www.uwb.edu
+      - generic [ref=e12]:
+        - button "Expand search form" [ref=e13] [cursor=pointer]
+        - button "Quick Links" [ref=e18] [cursor=pointer]
+    - navigation "Main" [ref=e21]:
+      - list [ref=e23]:
+        - listitem [ref=e24]:
+          - link "About" [ref=e25] [cursor=pointer]:
+            - /url: https://www.uwb.edu/about
+          - button "More About pages" [ref=e26] [cursor=pointer]
+        - listitem [ref=e29]:
+          - link "Admissions & Aid" [ref=e30] [cursor=pointer]:
+            - /url: https://www.uwb.edu/admissions-aid
+          - button "More Admissions & Aid pages" [ref=e31] [cursor=pointer]
+        - listitem [ref=e34]:
+          - link "Schools & Academics" [ref=e35] [cursor=pointer]:
+            - /url: https://www.uwb.edu/schools-academics
+          - button "More Schools & Academics pages" [ref=e36] [cursor=pointer]
+        - listitem [ref=e39]:
+          - link "Campus Life" [ref=e40] [cursor=pointer]:
+            - /url: https://www.uwb.edu/campus-life
+          - button "More Campus Life pages" [ref=e41] [cursor=pointer]
+        - listitem [ref=e44]:
+          - link "News" [ref=e45] [cursor=pointer]:
+            - /url: /news
+          - button "More News pages" [ref=e46] [cursor=pointer]
+        - listitem [ref=e49]:
+          - link "Events" [ref=e50] [cursor=pointer]:
+            - /url: /calendar
+        - listitem [ref=e51]:
+          - link "Give" [ref=e52] [cursor=pointer]:
+            - /url: /give
+  - region "site title and banner" [ref=e54]:
+    - link "Career Services" [ref=e61] [cursor=pointer]:
+      - /url: https://www.uwb.edu/career-services
+  - navigation "Breadcrumb" [ref=e63]:
+    - list [ref=e64]:
+      - listitem [ref=e65]:
+        - link "Career Services" [ref=e66] [cursor=pointer]:
+          - /url: https://www.uwb.edu/career-services
+        - generic [ref=e70]: "|"
+      - listitem [ref=e71]:
+        - link "Jobs & internships" [ref=e72] [cursor=pointer]:
+          - /url: https://www.uwb.edu/career-services/jobs-and-internships
+        - generic [ref=e73]: "|"
+      - listitem [ref=e74]:
+        - link "Specialized hiring opportunities" [ref=e75] [cursor=pointer]:
+          - /url: https://www.uwb.edu/career-services/jobs-and-internships/specialized-hiring-opportunities
+        - generic [ref=e76]: "|"
+      - listitem [ref=e77]: Opportunities with Google
+  - generic [ref=e78]:
+    - main [ref=e79]:
+      - article [ref=e81]:
+        - generic [ref=e82]:
+          - heading "Opportunities with Google" [level=1] [ref=e83]
+          - paragraph [ref=e84]: There’s no one kind of Googler, so Google is always looking for people who can bring new perspectives and life experiences to their teams. If you’re looking for a place that values your curiosity, passion, and desire to learn, if you’re seeking colleagues who are big thinkers eager to take on fresh challenges as a team, then you’re a future Googler.
+          - list [ref=e85]:
+            - listitem [ref=e86]:
+              - link "Explore internship opportunities." [ref=e87] [cursor=pointer]:
+                - /url: "#Internships"
+            - listitem [ref=e88]:
+              - link "What role might you fill at Google? Find your team." [ref=e89] [cursor=pointer]:
+                - /url: "#Teams"
+            - listitem [ref=e90]:
+              - link "Explore their FAQs page on how they hire." [ref=e91] [cursor=pointer]:
+                - /url: "#FAQs"
+            - listitem [ref=e92]:
+              - link "Learn how to apply for a job with Google." [ref=e93] [cursor=pointer]:
+                - /url: "#How to apply"
+          - heading "Internships" [level=3] [ref=e94]
+          - heading "Internships in Engineering & Technology" [level=4] [ref=e95]
+          - paragraph [ref=e96]: Interns at Google are involved and solving problems from the start. As a technical intern, you are excited about tackling the hard problems in technology. With internships across the globe, ranging from Software Engineering to User Experience, Google offers many opportunities to grow with them.
+          - paragraph [ref=e97]:
+            - text: See what internships are available by going to Google’s
+            - link "Engineering & Technical Internships page" [ref=e98] [cursor=pointer]:
+              - /url: https://careers.google.com/students/engineering-and-technical-internships/
+            - text: .
+          - heading "Internships in Business" [level=4] [ref=e99]
+          - paragraph [ref=e100]: Business interns come from all backgrounds, bring their diverse talents to drive the business, grow the people of Google, and put the user before all else.
+          - paragraph [ref=e101]:
+            - text: See what internships are available by going to Google’s
+            - link "Business Internships page" [ref=e102] [cursor=pointer]:
+              - /url: https://careers.google.com/students/business-internships/
+            - text: .
+          - heading "Teams" [level=3] [ref=e103]
+          - paragraph [ref=e104]: Google is filled with many different roles. Which one is for you?
+          - list [ref=e105]:
+            - listitem [ref=e106]:
+              - link "Engineering & Technology" [ref=e107] [cursor=pointer]:
+                - /url: https://careers.google.com/teams/engineering-technology/
+            - listitem [ref=e108]:
+              - link "Sales, Service & Support" [ref=e109] [cursor=pointer]:
+                - /url: https://careers.google.com/teams/sales-service-support/
+            - listitem [ref=e110]:
+              - link "Marketing & Communication" [ref=e111] [cursor=pointer]:
+                - /url: https://careers.google.com/teams/marketing-communications/
+            - listitem [ref=e112]:
+              - link "Design" [ref=e113] [cursor=pointer]:
+                - /url: https://careers.google.com/teams/design/
+            - listitem [ref=e114]:
+              - link "Business Strategy" [ref=e115] [cursor=pointer]:
+                - /url: https://careers.google.com/teams/business-strategy/
+            - listitem [ref=e116]:
+              - link "Finance" [ref=e117] [cursor=pointer]:
+                - /url: https://careers.google.com/teams/finance/
+            - listitem [ref=e118]:
+              - link "Legal" [ref=e119] [cursor=pointer]:
+                - /url: https://careers.google.com/teams/legal/
+            - listitem [ref=e120]:
+              - link "People" [ref=e121] [cursor=pointer]:
+                - /url: https://careers.google.com/teams/people/
+            - listitem [ref=e122]:
+              - link "Facilities" [ref=e123] [cursor=pointer]:
+                - /url: https://careers.google.com/teams/facilities/
+          - heading "How does Google hire?" [level=3] [ref=e124]
+          - paragraph [ref=e125]:
+            - text: Explore their
+            - link "“How we hire” page" [ref=e126] [cursor=pointer]:
+              - /url: https://careers.google.com/how-we-hire/
+            - text: ", where they answer questions about interviewing, applications deadlines, and more!"
+          - heading "How to apply" [level=3] [ref=e127]
+          - paragraph [ref=e128]:
+            - link "Locate a job that you’re interested in" [ref=e129] [cursor=pointer]:
+              - /url: https://careers.google.com/jobs#t=sq&q=j&li=20&l=false&jlo=en-US&jcoid=7c8c6665-81cf-4e11-8fc9-ec1d6a69120c&jcoid=e43afd0d-d215-45db-a154-5386c9036525&
+            - text: ", and apply online."
+          - heading "Explore further" [level=3] [ref=e130]
+          - paragraph [ref=e131]:
+            - text: Go back to the
+            - link "Specialized Hiring Opportunities homepage" [ref=e132] [cursor=pointer]:
+              - /url: /careers/jobs-and-internships/specialized-hiring-opportunities
+            - text: to explore a different employer.
+          - heading "Handshake" [level=2] [ref=e133]
+          - paragraph [ref=e134]: Use Handshake to search for jobs and internships. New opportunities are posted daily.
+          - paragraph [ref=e135]:
+            - link "Handshake" [ref=e136] [cursor=pointer]:
+              - /url: https://uw.joinhandshake.com/login
+          - heading "Before you apply:" [level=2] [ref=e137]
+          - paragraph [ref=e138]:
+            - link "Make an appointment" [ref=e139] [cursor=pointer]:
+              - /url: /careers/appointments
+            - text: with Career Services to have your resume and cover letter tailored to the opportunity you’re interested in, and practice interviewing.
+          - paragraph [ref=e140]:
+            - link "Make an appointment" [ref=e141] [cursor=pointer]:
+              - /url: https://uwb.campus.eab.com/
+    - complementary "sidebar" [ref=e142]:
+      - navigation "In this section" [ref=e146]:
+        - list [ref=e147]:
+          - listitem [ref=e148]:
+            - link "Career Services" [ref=e149] [cursor=pointer]:
+              - /url: https://www.uwb.edu/career-services/
+          - listitem [ref=e150]:
+            - link "Appointments & Drop-Ins" [ref=e151] [cursor=pointer]:
+              - /url: https://www.uwb.edu/career-services/appointments
+          - listitem [ref=e152]:
+            - link "People We Serve" [ref=e153] [cursor=pointer]:
+              - /url: https://www.uwb.edu/career-services/people-we-serve
+            - button "Expand Navigation" [ref=e154] [cursor=pointer]
+          - listitem [ref=e158]:
+            - link "Career resources" [ref=e159] [cursor=pointer]:
+              - /url: https://www.uwb.edu/career-services/resources
+            - button "Expand Navigation" [ref=e160] [cursor=pointer]
+          - listitem [ref=e164]:
+            - link "Handshake" [ref=e165] [cursor=pointer]:
+              - /url: https://www.uwb.edu/career-services/handshake
+          - listitem [ref=e166]:
+            - link "Jobs & internships" [ref=e167] [cursor=pointer]:
+              - /url: https://www.uwb.edu/career-services/jobs-and-internships
+            - button "Collapse Navigation" [expanded] [ref=e168] [cursor=pointer]
+            - list [ref=e172]:
+              - listitem [ref=e173]:
+                - link "Internships" [ref=e174] [cursor=pointer]:
+                  - /url: https://www.uwb.edu/career-services/jobs-and-internships/internships
+              - listitem [ref=e175]:
+                - link "Specialized hiring opportunities" [ref=e176] [cursor=pointer]:
+                  - /url: https://www.uwb.edu/career-services/jobs-and-internships/specialized-hiring-opportunities
+                - button "Collapse Navigation" [expanded] [ref=e177] [cursor=pointer]
+                - list [ref=e181]:
+                  - listitem [ref=e182]:
+                    - link "Opportunities with Boeing" [ref=e183] [cursor=pointer]:
+                      - /url: https://www.uwb.edu/career-services/jobs-and-internships/specialized-hiring-opportunities/boeing-opportunities
+                  - listitem [ref=e184]:
+                    - link "Washington State Legislative Internship Program" [ref=e185] [cursor=pointer]:
+                      - /url: https://www.uwb.edu/career-services/jobs-and-internships/specialized-hiring-opportunities/wa-state-legislature
+              - listitem [ref=e186]:
+                - link "Recruitment policy for students" [ref=e187] [cursor=pointer]:
+                  - /url: https://www.uwb.edu/career-services/recruitment-policy-for-students
+          - listitem [ref=e188]:
+            - link "Employers" [ref=e189] [cursor=pointer]:
+              - /url: https://www.uwb.edu/career-services/employers
+            - button "Expand Navigation" [ref=e190] [cursor=pointer]
+          - listitem [ref=e194]:
+            - link "Events" [ref=e195] [cursor=pointer]:
+              - /url: https://www.uwb.edu/career-services/events
+          - listitem [ref=e196]:
+            - link "Pre-Health Advising" [ref=e197] [cursor=pointer]:
+              - /url: https://www.uwb.edu/career-services/pre-health
+            - button "Expand Navigation" [ref=e198] [cursor=pointer]
+          - listitem [ref=e202]:
+            - link "About us" [ref=e203] [cursor=pointer]:
+              - /url: https://www.uwb.edu/career-services/about
+      - region [ref=e204]:
+        - heading "Contact Us" [level=2] [ref=e205]
+        - heading "Career Services" [level=3] [ref=e206]
+        - generic [ref=e207]:
+          - link "career@uw.edu" [ref=e208] [cursor=pointer]:
+            - /url: mailto:career@uw.edu
+          - text: 425.352.3706Career Services Box 35855517927 113th Ave NEBothell, WA 98011-8246
+  - contentinfo [ref=e209]:
+    - generic [ref=e213]:
+      - link "University of Washington Bothell Homepage" [ref=e214] [cursor=pointer]:
+        - /url: https://www.uwb.edu
+      - generic [ref=e218]:
+        - link "Bothell, Washington View our location on Google maps." [ref=e223] [cursor=pointer]:
+          - /url: https://goo.gl/maps/oT3FD1isuyKiRnjg8
+          - text: Bothell, Washington
+          - generic [ref=e224]: View our location on Google maps.
+        - 'link "Contact us by phone at: 425.352.5000" [ref=e229] [cursor=pointer]':
+          - /url: tel:425.352.5000
+          - generic [ref=e230]: "Contact us by phone at:"
+          - text: 425.352.5000
+      - generic [ref=e231]:
+        - navigation "Information" [ref=e232]:
+          - list [ref=e234]:
+            - listitem [ref=e235]:
+              - link "Contact" [ref=e236] [cursor=pointer]:
+                - /url: https://www.uwb.edu/contact
+            - listitem [ref=e240]:
+              - link "Visitors" [ref=e241] [cursor=pointer]:
+                - /url: https://www.uwb.edu/about/visitors
+            - listitem [ref=e245]:
+              - link "Maps & directions" [ref=e246] [cursor=pointer]:
+                - /url: https://www.uwb.edu/about/directions
+            - listitem [ref=e250]:
+              - link "Jobs" [ref=e251] [cursor=pointer]:
+                - /url: https://www.uwb.edu/hr/prospective-candidate
+            - listitem [ref=e255]:
+              - link "Accessibility" [ref=e256] [cursor=pointer]:
+                - /url: https://www.uwb.edu/accessibility/
+        - separator [ref=e260]
+        - navigation "Legal and Other Campus Information" [ref=e261]:
+          - list [ref=e263]:
+            - listitem [ref=e264]:
+              - link "Privacy" [ref=e265] [cursor=pointer]:
+                - /url: https://www.uwb.edu/marketing-communications/website/privacy
+            - listitem [ref=e269]:
+              - link "Rules Docket" [ref=e270] [cursor=pointer]:
+                - /url: https://www.washington.edu/rules/wac/
+            - listitem [ref=e274]:
+              - link "Terms" [ref=e275] [cursor=pointer]:
+                - /url: https://www.washington.edu/online/terms/
+            - listitem [ref=e279]:
+              - link "Seattle Campus" [ref=e280] [cursor=pointer]:
+                - /url: https://www.washington.edu/
+            - listitem [ref=e284]:
+              - link "Tacoma Campus" [ref=e285] [cursor=pointer]:
+                - /url: https://www.tacoma.uw.edu/
+    - generic [ref=e291]:
+      - paragraph [ref=e293]: © 2026 University of Washington Bothell
+      - list [ref=e295]:
+        - listitem [ref=e296]:
+          - link "UW Bothell Instagram" [ref=e297] [cursor=pointer]:
+            - /url: https://www.instagram.com/uw_bothell/
+        - listitem [ref=e301]:
+          - link "UW Bothell Linkedin" [ref=e302] [cursor=pointer]:
+            - /url: https://www.linkedin.com/school/university-of-washington-bothell/
+        - listitem [ref=e308]:
+          - link "UW Bothell Facebook" [ref=e309] [cursor=pointer]:
+            - /url: https://www.facebook.com/uwbothell
+        - listitem [ref=e313]:
+          - link "UW Bothell Twitter" [ref=e314] [cursor=pointer]:
+            - /url: https://twitter.com/UWBothell
+        - listitem [ref=e318]:
+          - link "UW Bothell Youtube" [ref=e319] [cursor=pointer]:
+            - /url: https://www.youtube.com/user/uwbothell

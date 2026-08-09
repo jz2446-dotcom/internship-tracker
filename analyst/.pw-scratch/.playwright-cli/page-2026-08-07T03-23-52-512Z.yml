@@ -1,0 +1,279 @@
+- generic [ref=e1]:
+  - generic:
+    - alert [active] [ref=e2]: "Please note: This website includes an accessibility system. Press Control-F11 to adjust the website to people with visual disabilities who are using a screen reader; Press Control-F10 to open an accessibility menu."
+    - button "Accessibility" [ref=e3]
+    - generic:
+      - list:
+        - listitem:
+          - button "Press enter for Accessibility for blind people who use screen readers" [ref=e7] [cursor=pointer]:
+            - text: Press enter for Accessibility for blind people
+            - generic [ref=e8]: who use screen readers
+        - listitem:
+          - button "Press enter for Keyboard Navigation" [ref=e9] [cursor=pointer]
+        - listitem:
+          - button "Press enter for Accessibility menu" [ref=e10] [cursor=pointer]
+  - banner [ref=e11]:
+    - navigation [ref=e13]:
+      - generic [ref=e14]:
+        - link [ref=e15] [cursor=pointer]:
+          - /url: https://www.kpmguscareers.com/
+          - img "KPMG Header Logo" [ref=e16]
+        - list [ref=e20]:
+          - listitem [ref=e21]:
+            - link "Why KPMG" [ref=e22] [cursor=pointer]:
+              - /url: https://www.kpmguscareers.com/why-kpmg/
+          - listitem [ref=e23]:
+            - link "Practice Areas" [ref=e24] [cursor=pointer]:
+              - /url: https://www.kpmguscareers.com/practice-areas/
+          - listitem [ref=e25]:
+            - link "Early Career" [ref=e26] [cursor=pointer]:
+              - /url: https://www.kpmguscareers.com/early-career/
+          - listitem [ref=e27]:
+            - link "Experienced" [ref=e28] [cursor=pointer]:
+              - /url: https://www.kpmguscareers.com/experienced/
+          - listitem [ref=e29]:
+            - link "Contractor" [ref=e30] [cursor=pointer]:
+              - /url: https://www.kpmguscareers.com/contractor/
+          - listitem [ref=e31]:
+            - link "Executive" [ref=e32] [cursor=pointer]:
+              - /url: https://www.kpmguscareers.com/executive/
+          - listitem [ref=e33]:
+            - link "Job Search" [ref=e34] [cursor=pointer]:
+              - /url: /job-search
+            - img "search" [ref=e35]
+            - img "arrow - right" [ref=e39]
+  - main [ref=e44]:
+    - tablist [ref=e45]:
+      - tab [selected] [ref=e46] [cursor=pointer]:
+        - heading "Pre-internship" [level=6] [ref=e47]
+      - tab [ref=e48] [cursor=pointer]:
+        - heading "Internship" [level=6] [ref=e49]
+      - tab [ref=e50] [cursor=pointer]:
+        - heading "Full-time Careers" [level=6] [ref=e51]
+      - tab [ref=e52] [cursor=pointer]:
+        - heading "Guide to Success" [level=6] [ref=e53]
+    - tabpanel "Early Career Pre-Internship Programs Get a Big Head Start on Your Future This is where your journey begins. Our innovative national and local programs offer you exciting opportunities to network with KPMG professionals to get a head start on your career explorations. Down Icon Pre-internship programs for you Are you eager to jump start your career? As early as your freshman year, we offer opportunities to help build your resume, network with KPMG professionals, and develop your leadership skills. Global Advantage Program Arrow Icon HBCU Talent+ Arrow Icon Ace the Case Arrow Icon Branding U Arrow Icon KPMG Advisory Talent Program Arrow Icon Learn Guide to Success Early Career Search Jobs Search Early Career Jobs Search Icon Right Arrow Icon" [ref=e55]:
+      - generic [ref=e66]:
+        - heading "Early Career" [level=1] [ref=e67]
+        - heading "Pre-Internship Programs" [level=5] [ref=e68]
+      - generic [ref=e70]:
+        - generic [ref=e72]:
+          - heading "Get a Big Head Start on Your Future" [level=3] [ref=e73]
+          - paragraph [ref=e74]: This is where your journey begins. Our innovative national and local programs offer you exciting opportunities to network with KPMG professionals to get a head start on your career explorations.
+        - img "Down Icon" [ref=e77]
+      - generic [ref=e80]:
+        - generic [ref=e82]:
+          - heading "Pre-internship programs for you" [level=2] [ref=e83]
+          - paragraph [ref=e85]: Are you eager to jump start your career? As early as your freshman year, we offer opportunities to help build your resume, network with KPMG professionals, and develop your leadership skills.
+        - generic [ref=e86]:
+          - generic [ref=e90] [cursor=pointer]:
+            - generic [ref=e91]: Global Advantage Program
+            - img "Arrow Icon" [ref=e92]
+          - generic [ref=e96] [cursor=pointer]:
+            - generic [ref=e97]: HBCU Talent+
+            - img "Arrow Icon" [ref=e98]
+          - generic [ref=e102] [cursor=pointer]:
+            - generic [ref=e103]: Ace the Case
+            - img "Arrow Icon" [ref=e104]
+          - generic [ref=e108] [cursor=pointer]:
+            - generic [ref=e109]: Branding U
+            - img "Arrow Icon" [ref=e110]
+          - generic [ref=e114] [cursor=pointer]:
+            - generic [ref=e115]: KPMG Advisory Talent Program
+            - img "Arrow Icon" [ref=e116]
+      - generic [ref=e120] [cursor=pointer]:
+        - heading "Learn" [level=5] [ref=e121]
+        - generic [ref=e122]: Guide to Success
+      - generic [ref=e127]:
+        - generic [ref=e128]:
+          - generic [ref=e129]: Early Career
+          - generic [ref=e130]: Search Jobs
+        - link [ref=e134] [cursor=pointer]:
+          - /url: /job-search/?career-level=Early%20Career%7C&career-level-parents=&spage=1
+          - text: Search Early Career Jobs
+          - img "Search Icon" [ref=e135]
+          - img "Right Arrow Icon" [ref=e136]
+    - generic [ref=e138]:
+      - generic [ref=e141]:
+        - img "KPMG Footer Logo" [ref=e143]
+        - generic [ref=e144]:
+          - generic [ref=e145]:
+            - list [ref=e148]:
+              - listitem [ref=e149]:
+                - link "Careers Home" [ref=e150] [cursor=pointer]:
+                  - /url: /
+              - listitem [ref=e151]:
+                - link "Early Career" [ref=e152] [cursor=pointer]:
+                  - /url: /early-career
+              - listitem [ref=e153]:
+                - link "Experienced" [ref=e154] [cursor=pointer]:
+                  - /url: /experienced
+              - listitem [ref=e155]:
+                - link "Contractor" [ref=e156] [cursor=pointer]:
+                  - /url: /contractor
+              - listitem [ref=e157]:
+                - link "Executive" [ref=e158] [cursor=pointer]:
+                  - /url: /executive
+            - list [ref=e161]:
+              - listitem [ref=e162]:
+                - link "Practice Areas" [ref=e163] [cursor=pointer]:
+                  - /url: /practice-areas
+              - listitem [ref=e164]:
+                - link "Advisory" [ref=e165] [cursor=pointer]:
+                  - /url: /practice-areas/advisory
+              - listitem [ref=e166]:
+                - link "Audit and Assurance" [ref=e167] [cursor=pointer]:
+                  - /url: /practice-areas/audit-and-assurance
+              - listitem [ref=e168]:
+                - link "Tax" [ref=e169] [cursor=pointer]:
+                  - /url: /practice-areas/tax
+              - listitem [ref=e170]:
+                - link "Business Support Services" [ref=e171] [cursor=pointer]:
+                  - /url: /practice-areas/business
+              - listitem [ref=e172]:
+                - link "Innovation & Technology" [ref=e173] [cursor=pointer]:
+                  - /url: /practice-areas/it
+            - list [ref=e176]:
+              - listitem [ref=e177]:
+                - link "Why KPMG" [ref=e178] [cursor=pointer]:
+                  - /url: /why-kpmg
+              - listitem [ref=e179]:
+                - link "Who We Are" [ref=e180] [cursor=pointer]:
+                  - /url: /why-kpmg/#who-we-are
+              - listitem [ref=e181]:
+                - link "Benefits & How We Work" [ref=e182] [cursor=pointer]:
+                  - /url: /why-kpmg/#benefits
+              - listitem [ref=e183]:
+                - link "Professional Development" [ref=e184] [cursor=pointer]:
+                  - /url: /why-kpmg/#professional
+              - listitem [ref=e185]:
+                - link "Community Impact" [ref=e186] [cursor=pointer]:
+                  - /url: /why-kpmg/#community
+            - list [ref=e189]:
+              - listitem [ref=e190]:
+                - link "Job Search" [ref=e191] [cursor=pointer]:
+                  - /url: /job-search
+              - listitem [ref=e192]:
+                - link "US-KPMG.com" [ref=e193] [cursor=pointer]:
+                  - /url: https://www.kpmg.us/
+          - list [ref=e196]:
+            - listitem [ref=e197]:
+              - link [ref=e198] [cursor=pointer]:
+                - /url: https://twitter.com/KPMGThrive
+                - img "twitter" [ref=e199]
+            - listitem [ref=e200]:
+              - link [ref=e201] [cursor=pointer]:
+                - /url: https://www.facebook.com/KPMGThrive
+                - img "facebook" [ref=e202]
+            - listitem [ref=e203]:
+              - link [ref=e204] [cursor=pointer]:
+                - /url: https://www.instagram.com/KPMGThrive/
+                - img "instagram" [ref=e205]
+            - listitem [ref=e206]:
+              - link [ref=e207] [cursor=pointer]:
+                - /url: https://www.linkedin.com/company/kpmg-us/
+                - img "linkedin" [ref=e208]
+            - listitem [ref=e209]:
+              - link [ref=e210] [cursor=pointer]:
+                - /url: https://www.youtube.com/user/KPMGGo/
+                - img "youtube" [ref=e211]
+            - listitem [ref=e212]:
+              - link [ref=e213] [cursor=pointer]:
+                - /url: https://www.glassdoor.com/Overview/Working-at-KPMG-EI_IE2867.11,15.htm
+                - img "glassdoor" [ref=e214]
+      - generic [ref=e216]:
+        - list [ref=e218]:
+          - listitem [ref=e219]:
+            - link "KPMG" [ref=e220] [cursor=pointer]:
+              - /url: http://kpmg.com/US
+            - text: "|"
+          - listitem [ref=e221]:
+            - link "LEGAL" [ref=e222] [cursor=pointer]:
+              - /url: http://www.kpmg.com/US/en/Pages/onlinedisclaimer.aspx
+            - text: "|"
+          - listitem [ref=e223]:
+            - link "PRIVACY" [ref=e224] [cursor=pointer]:
+              - /url: http://www.kpmg.com/us/en/Pages/privacy.aspx
+            - text: "|"
+          - listitem [ref=e225]:
+            - link "FEDERAL EMPLOYMENT-RELATED POSTERS" [ref=e226] [cursor=pointer]:
+              - /url: https://resources.kpmguscareers.com/Federal%20Employment%20Related%20Posters.pdf
+            - text: "|"
+          - listitem [ref=e227]:
+            - link "ACCESSIBILITY" [ref=e228] [cursor=pointer]:
+              - /url: http://www.kpmg.com/us/en/Pages/accessibility.aspx
+            - text: "|"
+          - listitem [ref=e229]:
+            - link "JOB SCAM ALERT" [ref=e230] [cursor=pointer]:
+              - /url: https://resources.kpmguscareers.com/Job%20Scam%20Warning_2022.pdf
+            - text: "|"
+          - listitem [ref=e231]:
+            - link "TECHNICAL SUPPORT" [ref=e232] [cursor=pointer]:
+              - /url: mailto:us-hrscatsadmin@kpmg.com?subject=KPMG Career Site Technical Support
+            - text: "|"
+          - listitem [ref=e233]: COOKIE PREFERENCES|
+          - listitem [ref=e234]:
+            - link "DO NOT SELL OR SHARE MY PERSONAL INFORMATION" [ref=e235] [cursor=pointer]:
+              - /url: https://www.kpmg.us/forms/data-privacy-request.html
+            - text: "|"
+        - generic [ref=e237]:
+          - paragraph [ref=e238]: © 2026 KPMG LLP, a Delaware Limited Liability Partnership, and its subsidiaries are part of the KPMG global organization of independent member firms affiliated with KPMG International Limited, a private English company limited by guarantee. All rights reserved.
+          - paragraph [ref=e239]: The KPMG name and logo are trademarks used under license by the independent member firms of the KPMG global organization.
+          - paragraph [ref=e240]:
+            - text: For more details about the structure of the KPMG global organization, please visit
+            - link "https://home.kpmg/governance" [ref=e241] [cursor=pointer]:
+              - /url: https://home.kpmg/governance
+          - paragraph [ref=e242]:
+            - text: KPMG LLP and its affiliates and subsidiaries ("KPMG") offer a comprehensive compensation and benefits package. KPMG is an equal opportunity employer. KPMG complies with all applicable federal, state, and local laws regarding recruitment and hiring. All qualified applicants are considered for employment without regard to race, color, religion, age, sex, sexual orientation, gender identity, national origin, disability, protected veteran status, or any other category protected by applicable federal, state, or local laws. The
+            - link "attached link" [ref=e243] [cursor=pointer]:
+              - /url: https://resources.kpmguscareers.com/EEO.pdf
+            - text: contains further information regarding the firm's compliance with federal, state, and local recruitment and hiring laws. KPMG maintains a drug-free workplace.
+          - paragraph [ref=e244]: Employment with KPMG is "At Will," which means that employment may be terminated with or without cause and with or without notice at any time at the discretion of either KPMG or the employee.
+  - region "Cookie banner" [ref=e245]:
+    - dialog "We Care About Your Privacy" [ref=e246]:
+      - generic [ref=e248]:
+        - generic [ref=e250]:
+          - heading "We Care About Your Privacy" [level=2] [ref=e251]
+          - generic [ref=e252]:
+            - text: KPMG LLP (“KPMG”) uses cookies and related technologies to help enhance and personalize your experience on this site. By selecting "Accept All Cookies," you authorize KPMG to collect, use, and share information about your site interactions with third-party advertising and analytics providers, to tailor our services, digital experiences, and advertising content to your preferences. You have the right to change your consent at any time by clicking "Cookie Preferences" at the bottom footer of this site and then selecting "Reject All Optional Cookies.” This allows you to reject non-essential cookies. By clicking "Reject All Optional Cookies," you can opt-out of performance, functional, and targeting/advertising cookies while still permitting necessary cookies required for the site's core functionality. For more information, please review KPMG's
+            - link "Legal Information, opens in a new tab" [ref=e253] [cursor=pointer]:
+              - /url: https://kpmg.com/us/en/how-we-work/privacy.html
+              - text: Privacy Statement.
+        - generic [ref=e255]:
+          - button "Do Not Sell or Share My Personal Information, Opens the preference center dialog" [ref=e256] [cursor=pointer]: Do Not Sell or Share My Personal Information
+          - button "Reject All Optional Cookies" [ref=e257] [cursor=pointer]
+          - button "Accept All Cookies" [ref=e258] [cursor=pointer]
+      - button "Close" [ref=e260] [cursor=pointer]
+  - generic:
+    - generic "A preview of videos recorded by current employees. Click to access the full set of videos":
+      - generic [ref=e261]:
+        - generic [ref=e262] [cursor=pointer]:
+          - generic [ref=e265]:
+            - button "Pause carousel" [ref=e266]
+            - button "Collapse widget" [ref=e270]
+            - button "Hide widget" [ref=e273]
+          - generic [ref=e276]:
+            - generic [ref=e277]: Why do you believe future interns should apply to the global internship program?
+            - 'button "Open video: Why do you believe future interns should apply to the global internship program? by David" [ref=e278]':
+              - generic [ref=e279]: Sorry, your browser doesn't support embedded videos.
+              - generic [ref=e284]:
+                - img "Employee avatar" [ref=e286]
+                - 'generic "Answered by: David Global Audit Intern" [ref=e287]':
+                  - generic [ref=e288]: David
+                  - generic [ref=e289]: Global Audit Intern
+            - button "Hear from our team!" [ref=e290]
+        - generic [ref=e292] [cursor=pointer]:
+          - generic [ref=e295]:
+            - button [ref=e296]
+            - button [ref=e300]
+            - button [ref=e303]
+          - generic [ref=e306]:
+            - generic [ref=e307]: Why do you believe future interns should apply to the global internship program?
+            - button [ref=e308]:
+              - generic [ref=e309]: Sorry, your browser doesn't support embedded videos.
+              - generic [ref=e317]:
+                - generic [ref=e318]: David
+                - generic [ref=e319]: Global Audit Intern
+            - button [ref=e320]:
+              - generic [ref=e321]: Hear from our team!
+        - generic [ref=e323]: Why do you believe future interns should apply to the global internship program? by David

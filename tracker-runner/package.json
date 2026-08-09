@@ -1,0 +1,37 @@
+{
+  "name": "tracker-runner",
+  "version": "1.0.0",
+  "description": "One-click refresh runner for the finance internship tracker. Runs the full 13-tab analyst-engine sweep (deterministic ATS/browse research + NIM brain, zero Claude tokens), rebuilds the data bundle, and deploys the Cloudflare Worker. Long/short mode toggle + live console.",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "dist": "electron-builder --win portable"
+  },
+  "author": "",
+  "license": "UNLICENSED",
+  "private": true,
+  "devDependencies": {
+    "electron": "^31.0.0",
+    "electron-builder": "^26.15.3"
+  },
+  "build": {
+    "appId": "com.newcrest.tracker-runner",
+    "productName": "Tracker Runner",
+    "directories": {
+      "output": "release"
+    },
+    "files": [
+      "main.js",
+      "preload.js",
+      "renderer.js",
+      "index.html",
+      "styles.css",
+      "package.json"
+    ],
+    "win": {
+      "target": [
+        { "target": "portable", "arch": ["x64"] }
+      ]
+    }
+  }
+}

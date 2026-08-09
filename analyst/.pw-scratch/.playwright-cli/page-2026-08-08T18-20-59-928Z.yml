@@ -1,0 +1,33 @@
+- main [ref=f20e16]:
+  - generic [ref=f20e18]:
+    - heading [level=1] [ref=f20e19]:
+      - img "Microsoft Logo Image" [ref=f20e20] [cursor=pointer]
+    - navigation [ref=f20e28]:
+      - menubar [ref=f20e29]:
+        - menuitem [ref=f20e30] [cursor=pointer]:
+          - link "Copilot" [ref=f20e31]:
+            - /url: /chat?FORM=hpcodx&intent=bing
+        - menuitem [ref=f20e34] [cursor=pointer]:
+          - link "Images" [ref=f20e35]:
+            - /url: /images?FORM=Z9LH
+        - menuitem [ref=f20e36] [cursor=pointer]:
+          - link "Videos" [ref=f20e37]:
+            - /url: /videos?FORM=Z9LH1
+        - menuitem [ref=f20e38] [cursor=pointer]:
+          - link "Shopping" [ref=f20e39]:
+            - /url: /shop?FORM=Z9LHS4
+        - menuitem [ref=f20e40] [cursor=pointer]:
+          - link "Maps" [ref=f20e41]:
+            - /url: /maps?FORM=Z9LH2
+        - menuitem [ref=f20e42] [cursor=pointer]:
+          - link "News" [ref=f20e43]:
+            - /url: /news/search?q=Top+stories&nvaug=%5bNewsVertical+Category%3d%22rt_MaxClass%22%5d&FORM=Z9LH3
+        - menuitem [ref=f20e44] [cursor=pointer]:
+          - text: . . .
+          - button "More" [ref=f20e45]
+  - search [ref=f20e47]:
+    - combobox "Enter your search here - Search suggestions will show as you type" [active] [ref=f20e53]
+    - button "Search using voice" [ref=f20e56]
+    - button "Search using an image" [ref=f20e61] [cursor=pointer]
+    - link "Open Copilot" [ref=f20e62] [cursor=pointer]:
+      - /url: /chat?FORM=hpcodx&intent=bing

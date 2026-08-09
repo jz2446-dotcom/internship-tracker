@@ -1,0 +1,39 @@
+- generic [active] [ref=e1]:
+  - main [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e4]:
+        - img "Icon for www.bairdcareers.com" [ref=e5]
+        - heading "www.bairdcareers.com" [level=1] [ref=e6]
+      - heading "Performing security verification" [level=2] [ref=e7]
+      - paragraph [ref=e8]: This website uses a security service to protect against malicious bots. This page is displayed while the website verifies you are not a bot.
+      - alert [ref=e9]:
+        - generic [ref=e10]:
+          - heading "Why is this verification taking longer?" [level=2] [ref=e11]
+          - paragraph [ref=e12]: This verification can take longer due to an older computer or a slow internet connection.
+          - paragraph [ref=e13]: "What to do next:"
+          - list [ref=e14]:
+            - listitem [ref=e15]: Wait briefly. Refreshing the page will restart the security verification and may take longer.
+            - listitem [ref=e16]:
+              - text: If the verification still does not complete,
+              - link "refresh this page" [ref=e17] [cursor=pointer]:
+                - /url: "#"
+              - text: .
+            - listitem [ref=e18]:
+              - text: If you are still stuck on this page after a page refresh, refer to Cloudflare’s
+              - link "troubleshooting documentation" [ref=e19] [cursor=pointer]:
+                - /url: /cdn-cgi/challenge-platform/help
+              - text: for more help.
+  - contentinfo [ref=e20]:
+    - generic [ref=e22]:
+      - generic [ref=e24]:
+        - text: "Ray ID:"
+        - code [ref=e25]: a269d53d4dc469c6
+      - generic [ref=e26]:
+        - generic [ref=e27]:
+          - text: Performance and Security by
+          - link "Cloudflare, opens in a new tab" [ref=e28] [cursor=pointer]:
+            - /url: https://www.cloudflare.com?utm_source=challenge&utm_campaign=m
+            - text: Cloudflare
+        - link "Privacy, opens in a new tab" [ref=e30] [cursor=pointer]:
+          - /url: https://www.cloudflare.com/privacypolicy/
+          - text: Privacy

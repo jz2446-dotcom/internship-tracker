@@ -1,0 +1,409 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - region "Skip links":
+      - link "Skip to content" [ref=e3] [cursor=pointer]:
+        - /url: "#content"
+      - button "Skip to AI Search" [ref=e4] [cursor=pointer]
+      - link "Skip to main nav" [ref=e5] [cursor=pointer]:
+        - /url: "#main-nav-skipper"
+    - banner [ref=e6]:
+      - generic [ref=e10]:
+        - search "Search" [ref=e12]:
+          - generic [ref=e13]:
+            - searchbox "Search Keywords" [ref=e14]
+            - generic:
+              - generic: Search Keywords
+              - img: 
+        - navigation "User account menu" [ref=e17]:
+          - list [ref=e18]:
+            - listitem [ref=e19]:
+              - link "Log in" [ref=e20] [cursor=pointer]:
+                - /url: https://waltoncareers.uark.edu/account/login/
+            - listitem [ref=e21]:
+              - link "Sign up" [ref=e22] [cursor=pointer]:
+                - /url: https://waltoncareers.uark.edu/account/signup/start/
+            - listitem [ref=e23]:
+              - link "Guests" [ref=e24] [cursor=pointer]:
+                - /url: https://waltoncareers.uark.edu/account/guests/
+      - generic [ref=e26]:
+        - link [ref=e29] [cursor=pointer]:
+          - /url: http://Walton.uark.edu.
+        - generic [ref=e30]:
+          - link "Schedule an Appointment" [ref=e32] [cursor=pointer]:
+            - /url: https://uark.joinhandshake.com/stu/appointments/new
+          - link "Access Handshake" [ref=e34] [cursor=pointer]:
+            - /url: https://uark.joinhandshake.com/login
+      - navigation "Primary Navigation" [ref=e36]:
+        - list [ref=e38]:
+          - listitem [ref=e39]:
+            - link "Home" [ref=e40] [cursor=pointer]:
+              - /url: https://waltoncareers.uark.edu/
+              - generic [ref=e41]: 
+              - text: Home
+          - listitem [ref=e42]:
+            - link "People We Serve" [ref=e43]:
+              - /url: "#!"
+              - text: People We Serve
+              - generic [ref=e44]: 
+          - listitem [ref=e45]:
+            - link "Explore Career Paths" [ref=e46]:
+              - /url: "#!"
+              - text: Explore Career Paths
+              - generic [ref=e47]: 
+          - listitem [ref=e48]:
+            - link "Build Career Skills" [ref=e49]:
+              - /url: "#!"
+              - text: Build Career Skills
+              - generic [ref=e50]: 
+          - listitem [ref=e51]:
+            - link "Jobs & Internships" [ref=e52] [cursor=pointer]:
+              - /url: /
+            - button "Jobs & Internships navigation items" [ref=e53] [cursor=pointer]:
+              - generic [ref=e54]: 
+          - listitem [ref=e55]:
+            - link "Events" [ref=e56] [cursor=pointer]:
+              - /url: /
+            - button "Events navigation items" [ref=e57] [cursor=pointer]:
+              - generic [ref=e58]: 
+          - listitem [ref=e59]:
+            - link "Outcomes" [ref=e60] [cursor=pointer]:
+              - /url: https://waltoncollege.uconnectlabs.com/employment-outcomes/
+          - listitem [ref=e61]:
+            - link "Meet the Team" [ref=e62] [cursor=pointer]:
+              - /url: https://waltoncareers.uark.edu/staff/
+          - text: 
+    - complementary "Middle Widget Area" [ref=e63]:
+      - generic [ref=e65]:
+        - heading "Sponsoring Companies" [level=2] [ref=e66]
+        - generic [ref=e67]:
+          - button "Toggle animation" [ref=e68] [cursor=pointer]
+          - generic [ref=e73]:
+            - link [ref=e74] [cursor=pointer]:
+              - /url: https://www.theeverettdifference.com/
+              - img "Everett Automotive Group" [ref=e75]
+            - link [ref=e76] [cursor=pointer]:
+              - /url: https://uniti.com/
+              - img "Uniti" [ref=e77]
+            - link [ref=e78] [cursor=pointer]:
+              - /url: https://7brew.com/
+              - img "7 Brew" [ref=e79]
+            - link [ref=e80] [cursor=pointer]:
+              - /url: https://www.wachter.com/
+              - img "Wachter" [ref=e81]
+            - link [ref=e82] [cursor=pointer]:
+              - /url: https://www.its4logistics.com/
+              - img "ITS Logistics" [ref=e83]
+            - link [ref=e84] [cursor=pointer]:
+              - /url: https://www.swank.com/
+              - img "Swank Motion Pictures" [ref=e85]
+            - link [ref=e86] [cursor=pointer]:
+              - /url: https://www.huhtamaki.com/
+              - img "Huhtamaki, Inc." [ref=e87]
+            - link [ref=e88] [cursor=pointer]:
+              - /url: https://www.alcon.com/
+              - img "Alcon" [ref=e89]
+            - link [ref=e90] [cursor=pointer]:
+              - /url: https://www.edwardjones.com/us-en/investment-services/accounts-overview?utm_source=google&utm_medium=paidsearch&utm_campaign=20032604074&utm_agid=154582349723&utm_term=edward%20jones&creative=749706138652&device=c&mjp=eva&mbu=per&mau=na&mob=led&mbt=na&&&&
+              - img "Edward Jones Investments" [ref=e91]
+            - link [ref=e92] [cursor=pointer]:
+              - /url: https://www.dunnhumby.com/
+              - img "dunnhumby" [ref=e93]
+            - link [ref=e94] [cursor=pointer]:
+              - /url: https://www.sewell.com/
+              - img "Sewell Automotive Companies" [ref=e95]
+            - link [ref=e96] [cursor=pointer]:
+              - /url: https://happyegg.com/
+              - img "Happy Egg" [ref=e97]
+            - link [ref=e98] [cursor=pointer]:
+              - /url: https://www.enterprise.com/en/home.html
+              - img "Enterprise Mobility" [ref=e99]
+            - link [ref=e100] [cursor=pointer]:
+              - /url: https://cedcareers.com/
+              - img "CED" [ref=e101]
+            - link [ref=e102] [cursor=pointer]:
+              - /url: https://www.arkansasbluecross.com/
+              - img "Arkansas BlueCross BlueShield" [ref=e103]
+            - link [ref=e104] [cursor=pointer]:
+              - /url: https://insightglobal.com/
+              - img "Insight Global" [ref=e105]
+            - link [ref=e106] [cursor=pointer]:
+              - /url: https://www.cintas.com/
+              - img "Cintas" [ref=e107]
+            - link [ref=e108] [cursor=pointer]:
+              - /url: https://arcb.com/
+              - img "ArcBest" [ref=e109]
+            - link [ref=e110] [cursor=pointer]:
+              - /url: https://www.pepsico.com/
+              - img "PepsiCo" [ref=e111]
+            - link [ref=e112] [cursor=pointer]:
+              - /url: https://www.nestle.com/
+              - img "Nestlé" [ref=e113]
+            - link [ref=e114] [cursor=pointer]:
+              - /url: https://corporate.walmart.com/
+              - img "Walmart" [ref=e115]
+            - link [ref=e116] [cursor=pointer]:
+              - /url: https://www.generalmills.com/
+              - img "General Mills" [ref=e117]
+            - link [ref=e118] [cursor=pointer]:
+              - /url: https://www.tysonfoods.com/
+              - img "Tyson Foods, Inc" [ref=e119]
+            - link [ref=e120] [cursor=pointer]:
+              - /url: https://www.phillips66.com/
+              - img "Phillips 66" [ref=e121]
+            - link [ref=e122] [cursor=pointer]:
+              - /url: https://corporate.aldi.us/
+              - img "Aldi" [ref=e123]
+            - generic [ref=e124]:
+              - link [ref=e125] [cursor=pointer]:
+                - /url: https://www.theeverettdifference.com/
+              - link [ref=e127] [cursor=pointer]:
+                - /url: https://uniti.com/
+              - link [ref=e129] [cursor=pointer]:
+                - /url: https://7brew.com/
+              - link [ref=e131] [cursor=pointer]:
+                - /url: https://www.wachter.com/
+              - link [ref=e133] [cursor=pointer]:
+                - /url: https://www.its4logistics.com/
+              - link [ref=e135] [cursor=pointer]:
+                - /url: https://www.swank.com/
+              - link [ref=e137] [cursor=pointer]:
+                - /url: https://www.huhtamaki.com/
+              - link [ref=e139] [cursor=pointer]:
+                - /url: https://www.alcon.com/
+              - link [ref=e141] [cursor=pointer]:
+                - /url: https://www.edwardjones.com/us-en/investment-services/accounts-overview?utm_source=google&utm_medium=paidsearch&utm_campaign=20032604074&utm_agid=154582349723&utm_term=edward%20jones&creative=749706138652&device=c&mjp=eva&mbu=per&mau=na&mob=led&mbt=na&&&&
+              - link [ref=e143] [cursor=pointer]:
+                - /url: https://www.dunnhumby.com/
+              - link [ref=e145] [cursor=pointer]:
+                - /url: https://www.sewell.com/
+              - link [ref=e147] [cursor=pointer]:
+                - /url: https://happyegg.com/
+              - link [ref=e149] [cursor=pointer]:
+                - /url: https://www.enterprise.com/en/home.html
+              - link [ref=e151] [cursor=pointer]:
+                - /url: https://cedcareers.com/
+              - link [ref=e153] [cursor=pointer]:
+                - /url: https://www.arkansasbluecross.com/
+              - link [ref=e155] [cursor=pointer]:
+                - /url: https://insightglobal.com/
+              - link [ref=e157] [cursor=pointer]:
+                - /url: https://www.cintas.com/
+              - link [ref=e159] [cursor=pointer]:
+                - /url: https://arcb.com/
+              - link [ref=e161] [cursor=pointer]:
+                - /url: https://www.pepsico.com/
+              - link [ref=e163] [cursor=pointer]:
+                - /url: https://www.nestle.com/
+              - link [ref=e165] [cursor=pointer]:
+                - /url: https://corporate.walmart.com/
+              - link [ref=e167] [cursor=pointer]:
+                - /url: https://www.generalmills.com/
+              - link [ref=e169] [cursor=pointer]:
+                - /url: https://www.tysonfoods.com/
+              - link [ref=e171] [cursor=pointer]:
+                - /url: https://www.phillips66.com/
+              - link [ref=e173] [cursor=pointer]:
+                - /url: https://corporate.aldi.us/
+          - link "View All Sponsors" [ref=e175] [cursor=pointer]:
+            - /url: https://waltoncareers.uark.edu/sponsors/
+    - main [ref=e178]:
+      - generic [ref=e183]:
+        - generic [ref=e185] [cursor=pointer]:
+          - 'button "Share Options for Spotlight: Walmart Internships and Careers" [ref=e186]':
+            - generic [ref=e187]: 
+          - text:   
+        - generic [ref=e188]:
+          - figure [ref=e189]
+          - generic [ref=e190]: "Spotlight: Walmart Internships and Careers"
+          - paragraph [ref=e191]: “Always low prices” and “Save money. Live better.” These past and present Walmart taglines sum up the customer-focused business practices that have for decades kept them at the top of the Fortune 500 list. In fact, “Everyday low prices” has been the guiding pricing ethos around which they created their consistent, cost-effective retail tactics and marketing strategies. It is an approach that created unprecedented success and makes them a top prospect for students seeking internships, and graduating seniors looking for full-time employment.
+          - paragraph [ref=e192]:
+            - link "Tyler Platt" [ref=e193] [cursor=pointer]:
+              - /url: https://www.linkedin.com/in/tyler-platt-52266a106/
+            - text: was one such job seeker in the fall of 2016 when she was preparing to graduate with a marketing degree from the Sam M. Walton College of Business. She now serves as a Pricing Analyst II, after working as a Walmart intern while still a student. “I chose Walmart because I interned there the summer before my senior year and loved the people and the culture,” Platt said. “I met the recruiters at an event hosted by Leadership Walton the day before the fall career fair. The recruiter invited me to come by the Walmart table at the career fair, and there I met a couple of Walmart associates who worked in merchandising. My internship was an absolutely amazing experience!”
+          - paragraph [ref=e194]: Platt applied for a full-time position. She began in Walmart’s Merchant Talent Program after graduating from Walton College in May 2017. She spent six months in the training program learning merchandising functions and networking with other Walmart employees before beginning her pricing career in apparel. She now supports the hardlines business and enjoys sharpening her decision-making skills there.
+          - paragraph [ref=e195]: “Honestly, whatever your skillset and what interests you, Walmart probably has a role you would enjoy,” Platt said. She is thankful her leadership places a big emphasis on personal development. The company’s networking events and shadowing opportunities help her improve her own teamwork skills, and she finds the collaborative environment welcoming and encouraging.
+          - paragraph [ref=e196]:
+            - link "Katie Womble" [ref=e197] [cursor=pointer]:
+              - /url: https://www.linkedin.com/in/katherine-womble12345/
+            - text: feels the same way. She is a merchandising operations intern who plans to graduate from the Walton College. “Working at Walmart opens doors and doors of opportunities within the company,” Womble said. “I chose them because I knew I would be able to grow my skills exponentially and be sharpened and encouraged to grow.”
+          - paragraph [ref=e198]: Womble was only there for a short summer internship, but she says she learned so much. “I have sharpened my business communication skills, analytical skills, and soft skills as well,” Womble said. She appreciates that Walmart entrusts their interns with responsibility, and believes it helps them feel they have an important role at the company. “This will help me tremendously in my ongoing business career to know that I can always make a difference, no matter the role.”
+          - paragraph [ref=e199]: Walmart first came to life in the 1950’s when Sam Walton opened his five-and-dime on the square in Bentonville, AR. Back then it was known as Walton’s 5&10 and became Walmart in 1962 when they opened the first Walmart store in Rogers. The company went public in 1970. Since that time, Walmart has expanded to 49 states and Puerto Rico, and includes multiple international retail stores. It has made the Fortune 500 list 25 years and has been in the top spot multiple times, seven straight years of which were in the number one spot. It is an enterprise that requires diligence, focused strategies, and a lot of talent.
+          - figure [ref=e200]:
+            - img "walmart booth" [ref=e201]
+          - paragraph [ref=e202]:
+            - text: Walmart campus recruiter,
+            - link "Zoe Barton" [ref=e203] [cursor=pointer]:
+              - /url: https://www.linkedin.com/in/zoerosebarton/
+            - text: ", knows well the impact that talented interns and young graduates can have on the company. She began supporting the University of Arkansas’ relationship with Walmart in 2017, and has held many roles on her current team. Barton came to Walmart in 2014 and transitioned to her current department, Campus Recruiting, about a year later. This department has a big presence on the University of Arkansas campus, where they hosted 32 events in 2018 and hired about 90 students campus-wide. Barton already has 40 events on the calendar for the fall 2019 semester alone, one of which is the Walton College Fall Career Fair. “During this career fair, we speak with around 200 students and end up hiring close to 40! That combined with our hires from other events means we are hiring close to 70 Walton College students every single year,” Barton said. These students are hired into both internship and full-time roles. Those within the internship program are part of the approximately 300 interns hired nationwide to spend 10 weeks in a robust training program, after which approximately 85% are offered full-time employment."
+          - paragraph [ref=e204]: New graduates like Tyler Platt in 2017 participate in rotational training programs for their focus areas, such as merchandising, audit, finance, and IT. Once they complete their department’s training program they are placed in permanent roles. From there they are encouraged to shadow other roles in other departments, to network and collaborate, to ask a lot of questions, to learn as much possible, and to enjoy the work-life balance Walmart offers. It should not be hard, as the corporate headquarters is a place that values collaboration.
+          - paragraph [ref=e205]: They also place a high value on sustainability. Walmart first embraced sustainability as a practice after Hurricane Katrina in 2005. Laura Phillips has been with the company more than 20 years and earned an M.B.A. from the Walton College. She has worked in many positions from buying toys to leading their sustainability strategy as senior vice president of sustainability. She said Walmart challenged itself after Hurricane Katrina to use its assets for maximum environmental impact at scale and to strengthen its business through those efforts.
+          - paragraph [ref=e206]: “Now, almost 15 years later, we have broadened and deepened the work across our entire company on sustainability,” Phillips said. “We have a sustainability team in each market where we operate globally, and embedded sustainability into all of our roles. For example – if you are a store manager – we want you thinking about the energy you are using and how to minimize food waste. If you are a buyer at Walmart, we want you to work with your suppliers to reduce emissions through our Project Gigaton initiative, and to make sure that all of your packaging is recyclable.”
+          - paragraph [ref=e207]: Walmart has built sustainability into its values. It is a filter they apply to all of their decisions because they want all associates at Walmart to be part of sustainability, rather than it simply being a program managed by a small team in the corporate office.
+    - complementary "Related Resources" [ref=e208]:
+      - generic [ref=e210]:
+        - heading "Related Resources" [level=2] [ref=e211]
+        - generic [ref=e214]:
+          - heading " Employer Spotlights" [level=2] [ref=e215]
+          - list [ref=e216]:
+            - listitem [ref=e217]:
+              - 'link "Employer Spotlight: Getting to Know Reckitt Benckiser Brands" [ref=e218] [cursor=pointer]':
+                - /url: https://waltoncareers.uark.edu/resources/employer-spotlight-getting-to-know-reckitt-benckiser-brands/
+            - listitem [ref=e219]:
+              - 'link "Spotlight: Aldi Attracts Talent at Walton College" [ref=e220] [cursor=pointer]':
+                - /url: https://waltoncareers.uark.edu/resources/spotlight-aldi-attracts-talent-at-walton-college/
+    - complementary "Bottom Widget Area" [ref=e221]:
+      - generic [ref=e223]:
+        - generic [ref=e225]:
+          - heading "Contact & Location" [level=2] [ref=e226]:  Contact & Location
+          - generic [ref=e227]:
+            - generic [ref=e228]:
+              - term [ref=e229]:
+                - generic [ref=e230]: Phone
+                - generic [ref=e231]: 
+              - definition [ref=e232]: 479-575-6100
+            - generic [ref=e233]:
+              - term [ref=e234]:
+                - generic [ref=e235]: Email
+                - generic [ref=e236]: 
+              - definition [ref=e237]:
+                - 'link "Email Address: wcobcdc@uark.edu" [ref=e238] [cursor=pointer]':
+                  - /url: mailto:wcobcdc@uark.edu
+                  - text: wcobcdc@uark.edu
+            - generic [ref=e239]:
+              - term [ref=e240]:
+                - generic [ref=e241]: Address
+                - generic [ref=e242]: 
+              - definition [ref=e243]:
+                - paragraph [ref=e244]: WJWH Suite 226 191 N Harmon Ave Fayetteville, AR 72701
+        - generic [ref=e246]:
+          - heading "Office Hours" [level=2] [ref=e247]:  Office Hours
+          - table [ref=e248]:
+            - rowgroup [ref=e249]:
+              - row [ref=e250]:
+                - rowheader "Monday" [ref=e251]: M
+                - cell "8:00 am - 5:00 pm" [ref=e253]
+              - row [ref=e254]:
+                - rowheader "Tuesday" [ref=e255]: T
+                - cell "8:00 am - 5:00 pm" [ref=e257]
+              - row [ref=e258]:
+                - rowheader "Wednesday" [ref=e259]: W
+                - cell "8:00 am - 5:00 pm" [ref=e261]
+              - row [ref=e262]:
+                - rowheader "Thursday" [ref=e263]: TH
+                - cell "8:00 am - 5:00 pm" [ref=e265]
+              - row [ref=e266]:
+                - rowheader "Friday" [ref=e267]: F
+                - cell "8:00 am - 5:00 pm" [ref=e269]
+        - generic [ref=e271]:
+          - heading "Meet the Team" [level=2] [ref=e272]:  Meet the Team
+          - region "Meet the Team Carousel" [ref=e273]:
+            - region "Meet the Team Carousel Content" [ref=e275]:
+              - tabpanel "Lindsey Steiger-Muck Meet Lindsey Heather Wilson Meet Heather Jordan Eaves Meet Jordan" [ref=e276]:
+                - generic [ref=e277]:
+                  - generic [ref=e278]:
+                    - generic [ref=e279]: Lindsey Steiger-Muck
+                    - link "Meet Lindsey" [ref=e280] [cursor=pointer]:
+                      - /url: https://waltoncareers.uark.edu/staff/#lindsey-steiger-muck
+                  - generic [ref=e281]:
+                    - generic [ref=e282]: Heather Wilson
+                    - link "Meet Heather" [ref=e283] [cursor=pointer]:
+                      - /url: https://waltoncareers.uark.edu/staff/#heather-wilson
+                  - generic [ref=e284]:
+                    - generic [ref=e285]: Jordan Eaves
+                    - link "Meet Jordan" [ref=e286] [cursor=pointer]:
+                      - /url: https://waltoncareers.uark.edu/staff/#jordan-eaves
+            - navigation "Meet the Team Carousel Navigation":
+              - button "Previous" [disabled] [ref=e287]: 
+              - button "Next" [ref=e288] [cursor=pointer]: 
+            - tablist "Meet the Team Carousel Pagination":
+              - tab "Slide 1" [selected] [ref=e289] [cursor=pointer]
+              - tab "Slide 2" [ref=e291] [cursor=pointer]
+  - contentinfo [ref=e293]:
+    - link "UNIVERSITY OF ARKANSAS" [ref=e298] [cursor=pointer]:
+      - /url: https://waltoncareers.uark.edu/
+    - generic [ref=e302]:
+      - generic [ref=e303]:
+        - generic [ref=e306]:
+          - generic [ref=e307]:
+            - term:
+              - generic [ref=e308]: Phone
+              - text: 
+            - definition [ref=e309]: 479-575-6100
+          - generic [ref=e310]:
+            - term:
+              - generic [ref=e311]: Email
+              - text: 
+            - definition [ref=e312]:
+              - 'link "Email Address: wcobcdc@uark.edu" [ref=e313] [cursor=pointer]':
+                - /url: mailto:wcobcdc@uark.edu
+                - text: wcobcdc@uark.edu
+          - generic [ref=e314]:
+            - term:
+              - generic [ref=e315]: Address
+              - text: 
+            - definition [ref=e316]:
+              - paragraph [ref=e317]: WJWH Suite 226 191 N Harmon Ave Fayetteville, AR 72701
+        - generic [ref=e320]:
+          - link "Facebook" [ref=e321] [cursor=pointer]:
+            - /url: https://www.facebook.com/UofArkansas
+            - generic [ref=e323]: 
+          - link "Instagram" [ref=e324] [cursor=pointer]:
+            - /url: https://www.instagram.com/uarkansas/
+            - generic [ref=e326]: 
+          - link "LinkedIn" [ref=e327] [cursor=pointer]:
+            - /url: https://www.linkedin.com/school/university-of-arkansas/
+            - generic [ref=e329]: 
+          - link "Pinterest" [ref=e330] [cursor=pointer]:
+            - /url: https://www.pinterest.com/uofaadmissions/
+            - generic [ref=e332]: 
+          - link "X (formerly Twitter)" [ref=e333] [cursor=pointer]:
+            - /url: https://twitter.com/uarkansas
+            - generic [ref=e335]: 
+          - link "YouTube" [ref=e336] [cursor=pointer]:
+            - /url: https://www.youtube.com/user/UniversityArkansas
+            - generic [ref=e338]: 
+      - generic [ref=e339]:
+        - generic [ref=e341]:
+          - heading "Footer Column 1" [level=2] [ref=e342]
+          - navigation "Footer Column 1" [ref=e343]:
+            - list [ref=e344]:
+              - listitem [ref=e345]:
+                - link "Alumni Connections" [ref=e346] [cursor=pointer]:
+                  - /url: https://waltoncollege.uconnectlabs.com/channels/alumni/
+              - listitem [ref=e347]:
+                - link "Blog" [ref=e348] [cursor=pointer]:
+                  - /url: https://waltoncareers.uark.edu/blog/
+              - listitem [ref=e349]:
+                - link "Events" [ref=e350] [cursor=pointer]:
+                  - /url: https://waltoncollege.uconnectlabs.com/events/
+              - listitem [ref=e351]:
+                - link "Experiences" [ref=e352] [cursor=pointer]:
+                  - /url: https://waltoncollege.uconnectlabs.com/experiences/
+        - generic [ref=e354]:
+          - heading "Footer Column 2" [level=2] [ref=e355]
+          - navigation "Footer Column 2" [ref=e356]:
+            - list [ref=e357]:
+              - listitem [ref=e358]:
+                - link "Jobs & Internships" [ref=e359] [cursor=pointer]:
+                  - /url: https://waltoncollege.uconnectlabs.com/jobs/
+              - listitem [ref=e360]:
+                - link "Organizations" [ref=e361] [cursor=pointer]:
+                  - /url: https://waltoncollege.uconnectlabs.com/organizations/
+              - listitem [ref=e362]:
+                - link "Resources" [ref=e363] [cursor=pointer]:
+                  - /url: https://waltoncollege.uconnectlabs.com/resources/
+              - listitem [ref=e364]:
+                - link "Meet the Team" [ref=e365] [cursor=pointer]:
+                  - /url: https://waltoncollege.uconnectlabs.com/staff/
+    - generic [ref=e367]:
+      - generic [ref=e368]:
+        - link "Privacy Policy" [ref=e369] [cursor=pointer]:
+          - /url: https://waltoncareers.uark.edu/privacy-policy/
+        - text: "|"
+        - link "Terms of Service" [ref=e370] [cursor=pointer]:
+          - /url: https://waltoncareers.uark.edu/terms-of-service/
+      - generic [ref=e371]: Copyright © 2026 Sam M. Walton College of Business
+      - link [ref=e373] [cursor=pointer]:
+        - /url: https://www.gouconnect.com/?utm_source=waltoncareers.uark.edu&utm_medium=client-footer
+        - img "Powered by uConnect" [ref=e374]
+  - button "Open AI Search" [ref=e375] [cursor=pointer]

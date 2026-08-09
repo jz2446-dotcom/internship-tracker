@@ -1,0 +1,23 @@
+---
+key: "RBC Capital Markets::2027 Global Investment Banking Summer Analyst"
+company: "RBC Capital Markets"
+program: "2027 Global Investment Banking Summer Analyst"
+group: "Agent 1 — Elite Investing"
+category: "investment banking"
+class_years: []
+status: "program-page"
+deadline: ""
+posted: ""
+acceptance_rate: "~8–15%"
+competitiveness: "Moderate"
+location: ""
+apply_url: "https://jobs.rbc.com/ca/en/job/R-0000151947/2027-Capital-Markets-Global-Investment-Banking-Summer-Analyst-4-Months"
+# ---- your fields below are preserved on every refresh ----
+applied: false
+stage: "to-apply"
+priority: ""
+referral: ""
+---
+## My notes
+
+_Add referral contacts, recruiter names, interview dates, status, links — preserved across refreshes._

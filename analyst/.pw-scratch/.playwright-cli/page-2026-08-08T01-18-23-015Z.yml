@@ -1,0 +1,182 @@
+- generic [active] [ref=f59e1]:
+  - link "Skip to main content" [ref=f59e2] [cursor=pointer]:
+    - /url: "#main-content"
+  - generic [ref=f59e3]:
+    - banner [ref=f59e4]:
+      - generic [ref=f59e8]:
+        - link "Skip to main content" [ref=f59e9] [cursor=pointer]:
+          - /url: "#main-content"
+        - generic [ref=f59e12]:
+          - link "Español" [ref=f59e13] [cursor=pointer]:
+            - /url: /es
+          - link "Log In / My APL" [ref=f59e19] [cursor=pointer]:
+            - /url: "#"
+        - generic [ref=f59e22]:
+          - link [ref=f59e24] [cursor=pointer]:
+            - /url: /
+            - img "Austin Public Library" [ref=f59e25]
+          - generic [ref=f59e32]:
+            - generic [ref=f59e33]:
+              - generic [ref=f59e34]: Search type
+              - combobox "Search type" [ref=f59e35]:
+                - option "Keyword" [selected]
+                - option "Title"
+                - option "Author"
+                - option "Series"
+                - option "Subject"
+                - option "Tag"
+                - option "List"
+                - option "User"
+            - generic [ref=f59e36]:
+              - generic [ref=f59e37]: Enter search query
+              - searchbox "Enter search query" [ref=f59e39]
+            - generic [ref=f59e41]:
+              - button "Search Books & More" [ref=f59e42] [cursor=pointer]
+              - button "Search Website" [ref=f59e43] [cursor=pointer]
+              - link "Advanced Search" [ref=f59e45] [cursor=pointer]:
+                - /url: https://austin.bibliocommons.com/search
+        - navigation "Main" [ref=f59e46]:
+          - list [ref=f59e49]:
+            - listitem [ref=f59e50]:
+              - button "Books, Movies, More" [ref=f59e51] [cursor=pointer]
+            - listitem [ref=f59e52]:
+              - button "Services" [ref=f59e53] [cursor=pointer]
+            - listitem [ref=f59e54]:
+              - button "Research" [ref=f59e55] [cursor=pointer]
+            - listitem [ref=f59e56]:
+              - link "Events" [ref=f59e57] [cursor=pointer]:
+                - /url: /events
+            - listitem [ref=f59e60]:
+              - link "Locations" [ref=f59e61] [cursor=pointer]:
+                - /url: /locations
+            - listitem [ref=f59e64]:
+              - link "Get a Card" [ref=f59e65] [cursor=pointer]:
+                - /url: /mylibrarycard
+    - main [ref=f59e68]:
+      - article [ref=f59e73]:
+        - generic [ref=f59e80]:
+          - img "Job Help at Austin Public Library" [ref=f59e84]
+          - generic [ref=f59e86]:
+            - navigation "Breadcrumbs" [ref=f59e87]:
+              - list [ref=f59e88]:
+                - listitem [ref=f59e89]:
+                  - link "Home" [ref=f59e90] [cursor=pointer]:
+                    - /url: /
+                - listitem [ref=f59e91]: Job Help
+            - heading "Job Help" [level=1] [ref=f59e92]
+          - generic [ref=f59e94]:
+            - paragraph:
+              - link "español" [ref=f59e95] [cursor=pointer]:
+                - /url: /es/portaldeempleo
+            - paragraph [ref=f59e96]: "Get job help at the Austin Public Library. To help our community, we offer several job resources, including resources to help you:"
+            - list [ref=f59e97]:
+              - listitem [ref=f59e98]:
+                - paragraph [ref=f59e99]: Write a cover letter and a resume
+              - listitem [ref=f59e100]:
+                - paragraph [ref=f59e101]: Search for a job
+              - listitem [ref=f59e102]:
+                - paragraph [ref=f59e103]: Prepare for an interview
+          - generic [ref=f59e105]:
+            - article [ref=f59e106]:
+              - region [ref=f59e116]:
+                - button "Get an Email Address" [ref=f59e117] [cursor=pointer]
+            - article [ref=f59e118]:
+              - region [ref=f59e128]:
+                - button "Create Your Resumé" [ref=f59e129] [cursor=pointer]
+            - article [ref=f59e130]:
+              - region [ref=f59e140]:
+                - button "Write Your Cover Letter" [ref=f59e141] [cursor=pointer]
+            - article [ref=f59e142]:
+              - region [ref=f59e152]:
+                - button "Search for Jobs" [ref=f59e153] [cursor=pointer]
+            - article [ref=f59e154]:
+              - region [ref=f59e164]:
+                - button "Prepare for Interviews" [ref=f59e165] [cursor=pointer]
+            - article [ref=f59e166]:
+              - region [ref=f59e176]:
+                - button "Explore Careers" [ref=f59e177] [cursor=pointer]
+            - article [ref=f59e178]:
+              - region [ref=f59e188]:
+                - button "Explore Skills & Training" [ref=f59e189] [cursor=pointer]
+            - article [ref=f59e190]:
+              - region [ref=f59e200]:
+                - button "Explore Resources for Diverse Populations" [ref=f59e201] [cursor=pointer]
+            - article [ref=f59e202]:
+              - region [ref=f59e212]:
+                - button "Get Job Help" [ref=f59e213] [cursor=pointer]
+    - contentinfo [ref=f59e214]:
+      - link "Return to top" [ref=f59e216] [cursor=pointer]:
+        - /url: "#"
+      - generic [ref=f59e225]:
+        - generic [ref=f59e226]:
+          - link "AUSTIN PUBLIC LIBRARY" [ref=f59e228] [cursor=pointer]:
+            - /url: /
+          - list [ref=f59e229]:
+            - listitem [ref=f59e230]:
+              - link "About" [ref=f59e231] [cursor=pointer]:
+                - /url: /about
+            - listitem [ref=f59e232]:
+              - link "Contact Us" [ref=f59e233] [cursor=pointer]:
+                - /url: /contact-us
+            - listitem [ref=f59e234]:
+              - link "Help" [ref=f59e235] [cursor=pointer]:
+                - /url: https://library.austintexas.libanswers.com/
+            - listitem [ref=f59e236]:
+              - link "Policies" [ref=f59e237] [cursor=pointer]:
+                - /url: /policies
+            - listitem [ref=f59e238]:
+              - link "Privacy" [ref=f59e239] [cursor=pointer]:
+                - /url: /policies#privacy
+            - listitem [ref=f59e240]:
+              - link "Support the Library" [ref=f59e241] [cursor=pointer]:
+                - /url: /support
+            - listitem [ref=f59e242]:
+              - link "Volunteer at the Library" [ref=f59e243] [cursor=pointer]:
+                - /url: /volunteer
+            - listitem [ref=f59e244]:
+              - link "Work for the Library" [ref=f59e245] [cursor=pointer]:
+                - /url: https://www.austintexas.gov/services/apply-city-job
+        - list [ref=f59e247]:
+          - listitem [ref=f59e248]:
+            - link [ref=f59e249] [cursor=pointer]:
+              - /url: https://www.facebook.com/AustinLibrary
+              - img "Facebook logo" [ref=f59e250]
+          - listitem [ref=f59e251]:
+            - link [ref=f59e252] [cursor=pointer]:
+              - /url: https://x.com/AustinPublicLib
+              - img "X logo" [ref=f59e253]
+          - listitem [ref=f59e254]:
+            - link [ref=f59e255] [cursor=pointer]:
+              - /url: https://www.youtube.com/user/aplacmc
+              - img "YouTube logo" [ref=f59e256]
+          - listitem [ref=f59e257]:
+            - link [ref=f59e258] [cursor=pointer]:
+              - /url: http://instagram.com/austinpubliclibrary
+              - img "Instagram logo" [ref=f59e259]
+          - listitem [ref=f59e260]:
+            - link [ref=f59e261] [cursor=pointer]:
+              - /url: https://www.flickr.com/photos/austinpubliclibrary/
+              - img "Flickr icon" [ref=f59e262]
+          - listitem [ref=f59e263]:
+            - link [ref=f59e264] [cursor=pointer]:
+              - /url: /volumes
+              - img "Podcast icon" [ref=f59e265]
+        - generic [ref=f59e269]:
+          - generic [ref=f59e270]: Email address
+          - generic [ref=f59e271]:
+            - textbox "Email address" [ref=f59e272]:
+              - /placeholder: Sign up for our Newsletter
+            - button "Subscribe" [ref=f59e273]
+          - generic [ref=f59e274]:
+            - generic [ref=f59e275]: Leave this field empty
+            - textbox [ref=f59e276]
+        - paragraph [ref=f59e277]:
+          - link [ref=f59e278] [cursor=pointer]:
+            - /url: https://austintexas.gov
+            - img "City of Austin logo" [ref=f59e279]
+  - complementary "Chat with the Library":
+    - generic [ref=f59e280]:
+      - button "Live Chat" [ref=f59e281] [cursor=pointer]
+      - iframe [ref=f59e282]:
+        
+  - status [ref=f59e283]

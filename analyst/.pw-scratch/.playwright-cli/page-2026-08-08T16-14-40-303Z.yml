@@ -1,0 +1,260 @@
+- generic [ref=f743e2]:
+  - link "Skip to main content" [ref=f743e3] [cursor=pointer]:
+    - /url: "#main-content"
+  - generic [ref=f743e4]:
+    - banner [ref=f743e5]:
+      - generic [ref=f743e7]:
+        - button "X Toggle alerts" [ref=f743e11] [cursor=pointer]:
+          - text: X
+          - generic [ref=f743e12]: Toggle alerts
+        - navigation [ref=f743e13]:
+          - heading "Utility" [level=2] [ref=f743e14]
+          - list [ref=f743e15]:
+            - listitem [ref=f743e16]:
+              - link "Locations" [ref=f743e17] [cursor=pointer]:
+                - /url: /locations
+            - listitem [ref=f743e18]:
+              - link "Contact Us" [ref=f743e19] [cursor=pointer]:
+                - /url: /contact-us
+        - navigation [ref=f743e20]:
+          - heading "User account menu" [level=2] [ref=f743e21]
+          - generic:
+            - list:
+              - listitem [ref=f743e22]:
+                - link "Get A Card" [ref=f743e23] [cursor=pointer]:
+                  - /url: /get-card
+              - listitem [ref=f743e24]:
+                - link "My Account" [ref=f743e25] [cursor=pointer]:
+                  - /url: https://catalog.library.nashville.gov/MyAccount/Home
+      - alert [ref=f743e27]:
+        - generic [ref=f743e28]:
+          - paragraph [ref=f743e33]:
+            - link "Looby" [ref=f743e34] [cursor=pointer]:
+              - /url: /locations/looby
+            - text: branch will close August 16 for light upgrades.
+          - link "Read More about Looby branch will close August 16 for light upgrades." [ref=f743e36] [cursor=pointer]:
+            - /url: /notification/201
+            - text: Read More
+            - generic [ref=f743e37]: about Looby branch will close August 16 for light upgrades.
+        - generic [ref=f743e38]:
+          - paragraph [ref=f743e43]:
+            - link "Edmondson Pike" [ref=f743e44] [cursor=pointer]:
+              - /url: /locations/edmondson-pike
+            - text: branch will close August 10 for HVAC upgrades.
+          - link "Read More about Edmondson Pike branch will close August 10 for HVAC upgrades." [ref=f743e46] [cursor=pointer]:
+            - /url: /notification/200
+            - text: Read More
+            - generic [ref=f743e47]: about Edmondson Pike branch will close August 10 for HVAC upgrades.
+        - generic [ref=f743e48]:
+          - paragraph [ref=f743e53]:
+            - link "Green Hills" [ref=f743e54] [cursor=pointer]:
+              - /url: https://library.nashville.gov/locations/green-hills
+            - text: branch is closed for a full renovation.
+          - link "Read More about Green Hills branch is closed for a full renovation." [ref=f743e56] [cursor=pointer]:
+            - /url: /notification/190
+            - text: Read More
+            - generic [ref=f743e57]: about Green Hills branch is closed for a full renovation.
+      - generic [ref=f743e58]:
+        - heading [level=1] [ref=f743e60]:
+          - link [ref=f743e61] [cursor=pointer]:
+            - /url: /
+            - img "Home" [ref=f743e63]
+        - generic [ref=f743e68]:
+          - tablist [ref=f743e69]:
+            - tab [expanded] [selected] [ref=f743e70]:
+              - link "Search Catalog" [ref=f743e71]:
+                - /url: "#catalog"
+                - text: Catalog
+            - tab [ref=f743e72]:
+              - link "Search Site" [ref=f743e73] [cursor=pointer]:
+                - /url: "#site"
+                - text: Site
+            - tab [ref=f743e74]:
+              - link "Search Events" [ref=f743e75] [cursor=pointer]:
+                - /url: "#event"
+                - text: Events
+          - tabpanel "Search Catalog" [ref=f743e76]:
+            - generic [ref=f743e77]:
+              - generic [ref=f743e78]:
+                - generic [ref=f743e79]: Catalog search
+                - textbox "Catalog search" [ref=f743e80]:
+                  - /placeholder: Search ebook, movies, music and more
+              - button "Search" [ref=f743e81] [cursor=pointer]
+      - generic [ref=f743e82]:
+        - navigation [ref=f743e87]:
+          - list [ref=f743e89]:
+            - listitem [ref=f743e90]:
+              - link "Books & More" [ref=f743e91] [cursor=pointer]:
+                - /url: /books-more
+            - listitem [ref=f743e92]:
+              - link "Education & Research" [ref=f743e93] [cursor=pointer]:
+                - /url: /research
+            - listitem [ref=f743e94]:
+              - link "Events" [ref=f743e95] [cursor=pointer]:
+                - /url: /events
+            - listitem [ref=f743e96]:
+              - link "Blogs & Podcasts" [ref=f743e97] [cursor=pointer]:
+                - /url: /blogs-podcasts
+            - listitem [ref=f743e98]:
+              - link "Services" [ref=f743e99] [cursor=pointer]:
+                - /url: /services
+            - listitem [ref=f743e100]:
+              - link "Support the Library" [ref=f743e101] [cursor=pointer]:
+                - /url: /support
+        - generic [ref=f743e105]:
+          - navigation [ref=f743e106]:
+            - list [ref=f743e107]:
+              - listitem [ref=f743e108]:
+                - text: Audiences
+                - list [ref=f743e109]:
+                  - listitem [ref=f743e110]:
+                    - link [ref=f743e111] [cursor=pointer]:
+                      - /url: /books-more/children
+                      - text: Children
+                  - listitem [ref=f743e112]:
+                    - link [ref=f743e113] [cursor=pointer]:
+                      - /url: /books-more/teens
+                      - text: Teens
+                  - listitem [ref=f743e114]:
+                    - link [ref=f743e115] [cursor=pointer]:
+                      - /url: /books-more
+                      - text: Adults
+              - listitem [ref=f743e116]:
+                - text: Browse the Catalog
+                - list [ref=f743e117]:
+                  - listitem [ref=f743e118]:
+                    - link [ref=f743e119] [cursor=pointer]:
+                      - /url: https://catalog.library.nashville.gov/?browseCategory=fiction_everyone
+                      - text: Fiction
+                  - listitem [ref=f743e120]:
+                    - link [ref=f743e121] [cursor=pointer]:
+                      - /url: https://catalog.library.nashville.gov/?browseCategory=nonfiction_everyone
+                      - text: Nonfiction
+                  - listitem [ref=f743e122]:
+                    - link [ref=f743e123] [cursor=pointer]:
+                      - /url: https://catalog.library.nashville.gov/?browseCategory=movies___tv_everyone
+                      - text: Movies & TV
+                  - listitem [ref=f743e124]:
+                    - link [ref=f743e125] [cursor=pointer]:
+                      - /url: https://catalog.library.nashville.gov/?browseCategory=catalog_emagazinesod
+                      - text: Magazines
+                  - listitem [ref=f743e126]:
+                    - link [ref=f743e127] [cursor=pointer]:
+                      - /url: https://catalog.library.nashville.gov/?browseCategory=on_order_format_breakdown
+                      - text: On Order
+                  - listitem [ref=f743e128]:
+                    - link [ref=f743e129] [cursor=pointer]:
+                      - /url: https://catalog.library.nashville.gov/
+                      - text: View All
+              - listitem [ref=f743e130]:
+                - text: Downloads & Streaming
+                - list [ref=f743e131]:
+                  - listitem [ref=f743e132]:
+                    - link [ref=f743e133] [cursor=pointer]:
+                      - /url: https://nashvillepubliclibrarytnfulllibrary.librarypass.com/
+                      - text: Comics Plus
+                  - listitem [ref=f743e134]:
+                    - link [ref=f743e135] [cursor=pointer]:
+                      - /url: https://www.hoopladigital.com/
+                      - text: Hoopla
+                  - listitem [ref=f743e136]:
+                    - link [ref=f743e137] [cursor=pointer]:
+                      - /url: /research/databases/kanopy
+                      - text: Kanopy
+                  - listitem [ref=f743e138]:
+                    - link [ref=f743e139] [cursor=pointer]:
+                      - /url: /research/databases/new-york-times-online
+                      - text: NYTimes Online
+                  - listitem [ref=f743e140]:
+                    - link [ref=f743e141] [cursor=pointer]:
+                      - /url: https://nashville.overdrive.com/
+                      - text: Libby, by OverDrive
+                  - listitem [ref=f743e142]:
+                    - link [ref=f743e143] [cursor=pointer]:
+                      - /url: /research/databases/pressreader
+                      - text: PressReader
+                  - listitem [ref=f743e144]:
+                    - link [ref=f743e145] [cursor=pointer]:
+                      - /url: /research/databases/downloads-and-streaming
+                      - text: View All
+          - generic [ref=f743e147]:
+            - link [ref=f743e148] [cursor=pointer]:
+              - /url: ""
+              - article [ref=f743e150]
+            - link [ref=f743e153] [cursor=pointer]:
+              - /url: ""
+              - generic [ref=f743e154]: 20K Comics. No waiting.
+    - main [ref=f743e155]:
+      - article [ref=f743e159]:
+        - generic [ref=f743e160]:
+          - heading "Jobs" [level=1] [ref=f743e161]
+          - generic [ref=f743e166]:
+            - heading "Full-time and Part-time Positions" [level=2] [ref=f743e167]
+            - paragraph [ref=f743e168]:
+              - text: Full and part-time job opportunities at Nashville Public Library are listed on
+              - link "Metro Nashville Career Opportunities" [ref=f743e169] [cursor=pointer]:
+                - /url: https://www.governmentjobs.com/careers/nashville
+              - text: ", along with all Metropolitan Government of Nashville and Davidson County job openings. Select \"Library\" from the options list to view only Library job listings. Nashville Public Library only accepts applications for currently posted positions. Applications must be submitted by 11:59 PM CT of the announced closing date."
+            - paragraph [ref=f743e170]:
+              - emphasis [ref=f743e171]: Nashville Public Library is an Equal Opportunity Employer
+            - 'heading "Part-time employment: Less than 32 hours per week" [level=3] [ref=f743e172]'
+            - paragraph [ref=f743e173]: Most positions are budgeted for 19.5 hours per week with no benefits and may require evening and weekend work.
+            - 'heading "Full-time employment: 32–40 hours per week" [level=3] [ref=f743e174]'
+            - paragraph [ref=f743e175]: Some locations are open 7 days a week, with various shifts requiring evening and weekend work. Benefits include medical, dental, vision, life, and pension, 10 vacation days per year (increasing after 5 years), 12 sick days per year, and 10 paid holidays.
+            - paragraph [ref=f743e176]: Contact the Library's Human Resources department at (615) 862-5770 for questions regarding application procedures.
+            - paragraph [ref=f743e177]:
+              - link "View Metro Government Job Opportunities" [ref=f743e178] [cursor=pointer]:
+                - /url: https://www.governmentjobs.com/careers/nashville
+    - contentinfo [ref=f743e179]:
+      - generic [ref=f743e180]:
+        - img "Nashville Public Library Logo" [ref=f743e181]
+        - navigation [ref=f743e182]:
+          - heading "Footer menu" [level=2] [ref=f743e183]
+          - navigation [ref=f743e185]:
+            - list [ref=f743e186]:
+              - listitem [ref=f743e187]:
+                - link "About" [ref=f743e188] [cursor=pointer]:
+                  - /url: /about
+              - listitem [ref=f743e189]:
+                - link "Contact Us" [ref=f743e190] [cursor=pointer]:
+                  - /url: /contact-us
+              - listitem [ref=f743e191]:
+                - link "Press Room" [ref=f743e192] [cursor=pointer]:
+                  - /url: /press-room
+              - listitem [ref=f743e193]:
+                - link "Privacy Notice" [ref=f743e194] [cursor=pointer]:
+                  - /url: /about/privacy-notice
+              - listitem [ref=f743e195]:
+                - link "Print at a Library" [ref=f743e196] [cursor=pointer]:
+                  - /url: /print
+        - generic [ref=f743e197]:
+          - paragraph [ref=f743e200]:
+            - link "Newsletter Signup" [ref=f743e201] [cursor=pointer]:
+              - /url: /email-newsletter
+          - list [ref=f743e202]:
+            - listitem [ref=f743e203]:
+              - link " Nashville Public Library's Instagram Account" [ref=f743e204] [cursor=pointer]:
+                - /url: https://www.instagram.com/nowatnpl
+                - generic [ref=f743e205]: 
+                - generic [ref=f743e206]: Nashville Public Library's Instagram Account
+            - listitem [ref=f743e207]:
+              - link " Nashville Public Library's Flickr Account" [ref=f743e208] [cursor=pointer]:
+                - /url: https://www.flickr.com/photos/NashvillePublicLibrary
+                - generic [ref=f743e209]: 
+                - generic [ref=f743e210]: Nashville Public Library's Flickr Account
+            - listitem [ref=f743e211]:
+              - link " Nashville Public Library's X Account" [ref=f743e212] [cursor=pointer]:
+                - /url: https://x.com/nowatnpl
+                - generic [ref=f743e213]: 
+                - generic [ref=f743e214]: Nashville Public Library's X Account
+            - listitem [ref=f743e215]:
+              - link " Nashville Public Library's Youtube Account" [ref=f743e216] [cursor=pointer]:
+                - /url: https://www.youtube.com/user/NashvilleLibrary
+                - generic [ref=f743e217]: 
+                - generic [ref=f743e218]: Nashville Public Library's Youtube Account
+            - listitem [ref=f743e219]:
+              - link " Nashville Public Library's Facebook Account" [ref=f743e220] [cursor=pointer]:
+                - /url: https://library.nashville.gov/contact-us/find-our-facebook-pages
+                - generic [ref=f743e221]: 
+                - generic [ref=f743e222]: Nashville Public Library's Facebook Account
+        - generic: en

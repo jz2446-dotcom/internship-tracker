@@ -1,0 +1,442 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - link "link to navigation" [ref=e2] [cursor=pointer]:
+      - /url: "#accordion"
+      - text: Skip to navigation
+    - link "link to main content" [ref=e3] [cursor=pointer]:
+      - /url: "#main-content"
+      - text: Skip to main content
+    - link "link to footer" [ref=e4] [cursor=pointer]:
+      - /url: "#footer"
+      - text: Skip to Footer
+  - generic [ref=e5]:
+    - banner [ref=e6]:
+      - navigation "primary" [ref=e7]:
+        - generic [ref=e9]:
+          - link "Page d'accueil" [ref=e11] [cursor=pointer]:
+            - /url: /en
+          - generic [ref=e37]:
+            - generic [ref=e38]:
+              - generic [ref=e39]: "Rechercher un job:"
+              - generic [ref=e40]:
+                - generic [ref=e41]: Une liste de suggestion de recherche apparaitra au ciblage du champ de recherche
+                - textbox "Rechercher un job:" [ref=e42]:
+                  - /placeholder: Find your dream job...
+            - button "Search" [ref=e43] [cursor=pointer]
+          - generic [ref=e45]:
+            - link "0" [ref=e46] [cursor=pointer]:
+              - /url: /en/jobs-wishlist
+            - alert [ref=e48]
+            - generic [ref=e49]:
+              - button "Une fenêtre de connexion apparaitra au ciblage" [ref=e50] [cursor=pointer]
+              - generic [ref=e52]:
+                - button "Fermer la fenêtre de connexion" [ref=e53] [cursor=pointer]
+                - generic [ref=e57]:
+                  - generic [ref=e58]: Follow-up on my applications, save my CV, set up alerts...
+                  - link "Create my profile" [ref=e59] [cursor=pointer]:
+                    - /url: https://socgen.taleo.net/careersection/sgcareers/profile.ftl?lang=&src=CWS-1&pcid=msjuuocimaebm9s9
+                  - separator [ref=e60]
+                  - generic [ref=e61]: Coming back?
+                  - link "Log in" [ref=e62] [cursor=pointer]:
+                    - /url: https://socgen.taleo.net/careersection/sgcareers/profile.ftl?lang=en&src=CWS-1&pcid=msjuuocimaebm9s9
+      - navigation "secondary" [ref=e63]:
+        - generic [ref=e65]:
+          - list [ref=e66]:
+            - listitem [ref=e67]:
+              - link "Your future with us" [ref=e69] [cursor=pointer]:
+                - /url: /en/about-us
+              - list:
+                - listitem [ref=e70]:
+                  - link "Get to know us better" [ref=e71] [cursor=pointer]:
+                    - /url: /en/about-us/know-us
+                - listitem [ref=e72]:
+                  - link "Committed to working together" [ref=e73] [cursor=pointer]:
+                    - /url: /en/committed-together
+            - listitem [ref=e74]:
+              - link "Profiles wanted" [ref=e76] [cursor=pointer]:
+                - /url: /en/jobs
+              - list:
+                - listitem [ref=e77]:
+                  - link "IT & Digital" [ref=e78] [cursor=pointer]:
+                    - /url: /en/jobs/it
+                - listitem [ref=e79]:
+                  - link "Data" [ref=e80] [cursor=pointer]:
+                    - /url: /en/jobs/data
+                - listitem [ref=e81]:
+                  - link "Global Banking & Investor Solutions" [ref=e82] [cursor=pointer]:
+                    - /url: /en/jobs/global-banking-investor-solutions
+                - listitem [ref=e83]:
+                  - link "Risk" [ref=e84] [cursor=pointer]:
+                    - /url: /en/jobs/risk
+                - listitem [ref=e85]:
+                  - link "Compliance" [ref=e86] [cursor=pointer]:
+                    - /url: /en/jobs/compliance
+                - listitem [ref=e87]:
+                  - link "Legal" [ref=e88] [cursor=pointer]:
+                    - /url: /en/jobs/legal
+                - listitem [ref=e89]:
+                  - link "Financial Department" [ref=e90] [cursor=pointer]:
+                    - /url: /en/jobs/financial-department
+                - listitem [ref=e91]:
+                  - link "General Inspection, Audit & Consulting" [ref=e92] [cursor=pointer]:
+                    - /url: /en/jobs/general-inspection-audit-consulting
+                - listitem [ref=e93]:
+                  - link "More jobs" [ref=e94] [cursor=pointer]:
+                    - /url: /en/jobs/more-jobs
+            - listitem [ref=e95]:
+              - link "Students & Graduates" [ref=e97] [cursor=pointer]:
+                - /url: /en/students-graduates
+              - list:
+                - listitem [ref=e98]:
+                  - link "Internships" [ref=e99] [cursor=pointer]:
+                    - /url: /en/internships-trainee-programs
+                - listitem [ref=e100]:
+                  - link "International internship program (V.I.E)" [ref=e101] [cursor=pointer]:
+                    - /url: /en/vie
+                - listitem [ref=e102]:
+                  - link "Graduate programmes" [ref=e103] [cursor=pointer]:
+                    - /url: /en/students-graduates/graduate-programmes
+                - listitem [ref=e104]:
+                  - link "Tips for job seekers" [ref=e105] [cursor=pointer]:
+                    - /url: /en/tips-candidates
+            - listitem [ref=e106]:
+              - link "Search" [ref=e107] [cursor=pointer]:
+                - /url: /en/search
+                - text: ALL JOBS
+          - generic [ref=e108]:
+            - generic [ref=e112]:
+              - switch "Dark mode"
+            - generic [ref=e116]:
+              - link "Consulter le site en français" [ref=e117] [cursor=pointer]:
+                - /url: /stages
+                - text: FR
+              - separator [ref=e118]
+              - generic [ref=e119]: Website in English (current version)
+              - generic [ref=e120]: EN
+    - main [ref=e121]:
+      - generic [ref=e122]:
+        - generic [ref=e123]:
+          - generic [ref=e126]:
+            - generic [ref=e129]:
+              - paragraph [ref=e130]: Internships and Trainee programmes
+              - generic [ref=e131]: Join us
+            - link "See available opportunities" [ref=e133] [cursor=pointer]:
+              - /url: /en/search?refinementList%5BjobType%5D%5B0%5D=Internship
+          - generic [ref=e139]:
+            - heading "INTERNSHIPS AND TRAINEE PROGRAMMES" [level=1] [ref=e140]
+            - generic [ref=e142]: “ You show up full of apprehension and leave full of new knowledge ”
+          - generic [ref=e146]:
+            - heading "Discovering a profession" [level=2] [ref=e147]
+            - paragraph [ref=e149]: An essential rite of passage on the way towards professional life, an internship is the chance to get one foot in the door. Far from the stereotypes of boring, unfulfilling internships, interns at the Societe Generale Group enjoy a special place in their teams and a nurturing environment in which to prove themselves. Working with experts in their sector on a daily basis, you’ll take part in stimulating projects and build your experience while being accompanied every step of the way.
+          - generic [ref=e153]:
+            - heading "In France or overseas" [level=2] [ref=e154]
+            - paragraph [ref=e156]: The Group’s internship offers aren’t confined to France alone. Our branches in Germany, the United States, Hong Kong… are also looking for motivated, creative, and ambitious interns!
+          - generic [ref=e160]:
+            - heading "The internship, then… ?" [level=2] [ref=e161]
+            - paragraph [ref=e163]: Internships, work-study contracts, and the V.I.E are excellent pathways towards joining us permanently! Long-term contracts for recent graduates are often offered to those already familiar with the company thanks to the experience they acquired in parallel with their studies.
+          - generic [ref=e168]:
+            - heading "Our various types of interships:" [level=2] [ref=e169]
+            - list [ref=e171]:
+              - listitem [ref=e172]: Gap internships
+              - listitem [ref=e173]: Graduate internships
+              - listitem [ref=e174]: Trainee Programs/ Summer & Winter internships
+              - listitem [ref=e175]: "Middle School internships: in partnership with MyFuture, we welcome 4th year middle school students from priority education zones"
+              - listitem [ref=e176]:
+                - text: "In France: banking agency internship (you can submit your application online or deliver it to an agency directly:"
+                - link "trouvez une agence, New tab" [ref=e177] [cursor=pointer]:
+                  - /url: https://agences.societegenerale.fr/banque-assurance/
+                  - text: trouvez une agence
+                - text: )
+          - generic [ref=e181]:
+            - heading "Highlights of the internship programme" [level=2] [ref=e182]
+            - list [ref=e183]:
+              - listitem [ref=e184]:
+                - generic [ref=e185]: "One purpose : enhance, reveal, expand your skills"
+              - listitem [ref=e191]:
+                - generic [ref=e192]: One privileged access to the Group professionnal opportunities
+              - listitem [ref=e198]:
+                - generic [ref=e199]: An attractive financial reward
+              - listitem [ref=e205]:
+                - generic [ref=e206]: "Some daily benefits : teleworking, Works council, company restaurants"
+              - listitem [ref=e212]:
+                - generic [ref=e213]: A dynamic community of more than 2,000 young people
+          - generic [ref=e219]:
+            - heading "Recruitment process" [level=2] [ref=e223]
+            - paragraph [ref=e228]: The recruitment process may vary depending on the recruiting entity, the internship duration or the mission type.
+            - generic [ref=e230]:
+              - generic [ref=e234]:
+                - generic [ref=e235]: "01"
+                - generic [ref=e236]: Shortlist
+                - paragraph [ref=e237]: After your online application is submitted, it will be shortlisted by the recruitment teams if it fits the initial requirements.
+              - generic [ref=e241]:
+                - generic [ref=e242]: "02"
+                - generic [ref=e243]: Interview
+                - paragraph [ref=e244]: You will have an interview with one or several managers who are in charge of the mission.
+              - generic [ref=e248]:
+                - generic [ref=e249]: "03"
+                - generic [ref=e250]: Offer
+                - paragraph [ref=e251]: Your interview was convincing, and you receive an offer !
+          - generic [ref=e253]:
+            - heading "What sector interests you?" [level=2] [ref=e255]
+            - list [ref=e256]:
+              - listitem [ref=e257]:
+                - link "Corporate & Investment banking" [ref=e258] [cursor=pointer]:
+                  - /url: https://careers.societegenerale.com/en/search?refinementList[jobType][0]=INTERNSHIP&refinementList[jobFunction][0]=KJ697&refinementList[jobFunction][1]=ZX468&pcid=msjuuocimaebm9s9
+              - listitem [ref=e264]:
+                - link "Global Finance" [ref=e265] [cursor=pointer]:
+                  - /url: https://careers.societegenerale.com/en/search?refinementList%5BjobType%5D%5B0%5D=INTERNSHIP&refinementList%5BjobFunction%5D%5B0%5D=NP922&pcid=d51f5e08-727a-4ef2-b94f-55ea8116d90f&pcid=msjuuocimaebm9s9
+              - listitem [ref=e271]:
+                - link "Compliance" [ref=e272] [cursor=pointer]:
+                  - /url: https://careers.societegenerale.com/en/search?refinementList%5BjobType%5D%5B0%5D=Internship&refinementList%5BjobFunction%5D%5B0%5D=Compliance&pcid=msjuuocimaebm9s9
+              - listitem [ref=e278]:
+                - link "Communication & Marketing" [ref=e279] [cursor=pointer]:
+                  - /url: https://careers.societegenerale.com/en/search?refinementList%5BjobType%5D%5B0%5D=Internship&refinementList%5BjobFunction%5D%5B0%5D=Communication%20%2F%20Marketing&pcid=msjuuocimaebm9s9
+              - listitem [ref=e285]:
+                - link "Human Resources" [ref=e286] [cursor=pointer]:
+                  - /url: https://careers.societegenerale.com/en/search?refinementList%5BjobType%5D%5B0%5D=Internship&refinementList%5BjobFunction%5D%5B0%5D=Human%20Resources&pcid=msjuuocimaebm9s9
+              - listitem [ref=e292]:
+                - link "Legal, Tax & Insurance" [ref=e293] [cursor=pointer]:
+                  - /url: https://careers.societegenerale.com/en/search?refinementList[jobType][0]=INTERNSHIP&refinementList[jobFunction][0]=AN652&pcid=msjuuocimaebm9s9
+              - listitem [ref=e299]:
+                - link "IT & Digital" [ref=e300] [cursor=pointer]:
+                  - /url: https://careers.societegenerale.com/en/search?refinementList%5BjobType%5D%5B0%5D=Internship&refinementList%5BjobFunction%5D%5B0%5D=IT%20%28Information%20Technology%29&pcid=msjuuocimaebm9s9
+          - generic [ref=e308]:
+            - generic [ref=e311]:
+              - img [ref=e314]: 
+              - generic [ref=e316]:
+                - strong [ref=e317]: 1,700
+                - text: interns recruited in 2025
+            - generic [ref=e320]:
+              - img [ref=e323]: 
+              - generic [ref=e325]:
+                - strong [ref=e326]: 200+
+                - text: business opportunities
+            - generic [ref=e329]:
+              - img [ref=e332]: 
+              - generic [ref=e334]:
+                - strong [ref=e335]: 87,4%
+                - text: of our interns, work-study or V.I.E employees recommend us
+          - generic [ref=e340]:
+            - paragraph
+            - generic [ref=e341]:
+              - text: “I had a lot of nice surprises during my internship. I was with other interns and the atmosphere was really great! I discovered concrete subjects, experts to talk with, and most importantly, super welcoming teams who were always there to help and answer questions. Honestly, it was a great environment for learning a lot of things. At the end of the internship, I knew how to do a lot more than I did when it started. The entire staff helped me get settled in.”
+              - strong [ref=e342]: Lucile
+              - text: ", Former Data Science Intern"
+            - paragraph
+          - generic [ref=e344]:
+            - heading "Our latest internship opportunities" [level=2] [ref=e347]
+            - generic [ref=e348]:
+              - link "Internship- Project Finance Portfolio Management  New York, United States" [ref=e349] [cursor=pointer]:
+                - /url: /en/job-offers/internship-project-finance-portfolio-management-26000HJL-en
+                - generic [ref=e350]:
+                  - generic [ref=e351]: Internship- Project Finance Portfolio Management
+                  - generic [ref=e352]:
+                    - generic [ref=e353]: 
+                    - text: New York, United States
+              - link "Internship - Financial Engineer  New York, United States" [ref=e354] [cursor=pointer]:
+                - /url: /en/job-offers/internship-financial-engineer-26000808-en
+                - generic [ref=e355]:
+                  - generic [ref=e356]: Internship - Financial Engineer
+                  - generic [ref=e357]:
+                    - generic [ref=e358]: 
+                    - text: New York, United States
+              - link "Java Fullstack Developer Internship with French  Bucuresti, Romania" [ref=e359] [cursor=pointer]:
+                - /url: /en/job-offers/java-fullstack-developer-internship-with-french-26000GNB-en
+                - generic [ref=e360]:
+                  - generic [ref=e361]: Java Fullstack Developer Internship with French
+                  - generic [ref=e362]:
+                    - generic [ref=e363]: 
+                    - text: Bucuresti, Romania
+              - link "L1 Support Analyst with French Internship (6 months)  Bucuresti, Romania" [ref=e364] [cursor=pointer]:
+                - /url: /en/job-offers/l1-support-analyst-with-french-internship-6-months-26000FO5-en
+                - generic [ref=e365]:
+                  - generic [ref=e366]: L1 Support Analyst with French Internship (6 months)
+                  - generic [ref=e367]:
+                    - generic [ref=e368]: 
+                    - text: Bucuresti, Romania
+              - link "Internship - Client Service Intern  New York, United States" [ref=e369] [cursor=pointer]:
+                - /url: /en/job-offers/internship-client-service-intern-26000E27-en
+                - generic [ref=e370]:
+                  - generic [ref=e371]: Internship - Client Service Intern
+                  - generic [ref=e372]:
+                    - generic [ref=e373]: 
+                    - text: New York, United States
+              - link "INTERNSHIP - Cyber Security  Jersey City, United States" [ref=e374] [cursor=pointer]:
+                - /url: /en/job-offers/internship-cyber-security-260003GL-en
+                - generic [ref=e375]:
+                  - generic [ref=e376]: INTERNSHIP - Cyber Security
+                  - generic [ref=e377]:
+                    - generic [ref=e378]: 
+                    - text: Jersey City, United States
+              - link "Trainee in Back Office Exchange  Warsaw, Poland" [ref=e379] [cursor=pointer]:
+                - /url: /en/job-offers/trainee-in-back-office-exchange-26000HPJ-en
+                - generic [ref=e380]:
+                  - generic [ref=e381]: Trainee in Back Office Exchange
+                  - generic [ref=e382]:
+                    - generic [ref=e383]: 
+                    - text: Warsaw, Poland
+              - link "Trainee for Corporate Sales Department  Warsaw, Poland" [ref=e384] [cursor=pointer]:
+                - /url: /en/job-offers/trainee-for-corporate-sales-department-26000HB4-en
+                - generic [ref=e385]:
+                  - generic [ref=e386]: Trainee for Corporate Sales Department
+                  - generic [ref=e387]:
+                    - generic [ref=e388]: 
+                    - text: Warsaw, Poland
+              - link "IT Intern as DEVOPS programmer - M/W  Luxembourg, Luxembourg" [ref=e389] [cursor=pointer]:
+                - /url: /en/job-offers/it-intern-as-devops-programmer-m-w-26000DP8-en
+                - generic [ref=e390]:
+                  - generic [ref=e391]: IT Intern as DEVOPS programmer - M/W
+                  - generic [ref=e392]:
+                    - generic [ref=e393]: 
+                    - text: Luxembourg, Luxembourg
+              - link "Trainee in Operational Risk Management Team  Warsaw, Poland" [ref=e394] [cursor=pointer]:
+                - /url: /en/job-offers/trainee-in-operational-risk-management-team-26000GBW-en
+                - generic [ref=e395]:
+                  - generic [ref=e396]: Trainee in Operational Risk Management Team
+                  - generic [ref=e397]:
+                    - generic [ref=e398]: 
+                    - text: Warsaw, Poland
+              - link "Trainee in GTPS OPE Back Office  Warsaw, Poland" [ref=e399] [cursor=pointer]:
+                - /url: /en/job-offers/trainee-in-gtps-ope-back-office-26000FL3-en
+                - generic [ref=e400]:
+                  - generic [ref=e401]: Trainee in GTPS OPE Back Office
+                  - generic [ref=e402]:
+                    - generic [ref=e403]: 
+                    - text: Warsaw, Poland
+              - link "Intern in Retail Structured Products Public Distribution M/F/D  Frankfurt am Main, Germany" [ref=e404] [cursor=pointer]:
+                - /url: /en/job-offers/intern-in-retail-structured-products-public-distribution-m-f-d-2600088U-en
+                - generic [ref=e405]:
+                  - generic [ref=e406]: Intern in Retail Structured Products Public Distribution M/F/D
+                  - generic [ref=e407]:
+                    - generic [ref=e408]: 
+                    - text: Frankfurt am Main, Germany
+              - link "Summer Senior Research Associate (Campus)  New York, United States" [ref=e409] [cursor=pointer]:
+                - /url: /en/job-offers/summer-senior-research-associate-campus-26000GPF-en
+                - generic [ref=e410]:
+                  - generic [ref=e411]: Summer Senior Research Associate (Campus)
+                  - generic [ref=e412]:
+                    - generic [ref=e413]: 
+                    - text: New York, United States
+              - link "Legal Intern  Milano, Italy" [ref=e414] [cursor=pointer]:
+                - /url: /en/job-offers/legal-intern-26000F6X-en
+                - generic [ref=e415]:
+                  - generic [ref=e416]: Legal Intern
+                  - generic [ref=e417]:
+                    - generic [ref=e418]: 
+                    - text: Milano, Italy
+              - link "Intern M&A for Consumer Retail and Healthcare Sector Team Q3– M/F/D  Frankfurt am Main, Germany" [ref=e419] [cursor=pointer]:
+                - /url: /en/job-offers/intern-ma-for-consumer-retail-and-healthcare-sector-team-q3-m-f-d-25000HQI-en
+                - generic [ref=e420]:
+                  - generic [ref=e421]: Intern M&A for Consumer Retail and Healthcare Sector Team Q3– M/F/D
+                  - generic [ref=e422]:
+                    - generic [ref=e423]: 
+                    - text: Frankfurt am Main, Germany
+              - link "Intern M&A for Consumer Retail and Healthcare Sector Team Q4 – M/F/D  Frankfurt am Main, Germany" [ref=e424] [cursor=pointer]:
+                - /url: /en/job-offers/intern-ma-for-consumer-retail-and-healthcare-sector-team-q4-m-f-d-25000HQJ-en
+                - generic [ref=e425]:
+                  - generic [ref=e426]: Intern M&A for Consumer Retail and Healthcare Sector Team Q4 – M/F/D
+                  - generic [ref=e427]:
+                    - generic [ref=e428]: 
+                    - text: Frankfurt am Main, Germany
+              - link "Summer Research Associate (Campus)  New York, United States" [ref=e429] [cursor=pointer]:
+                - /url: /en/job-offers/summer-research-associate-campus-26000GP9-en
+                - generic [ref=e430]:
+                  - generic [ref=e431]: Summer Research Associate (Campus)
+                  - generic [ref=e432]:
+                    - generic [ref=e433]: 
+                    - text: New York, United States
+              - link "CTL CA Articleship  Chennai, India" [ref=e434] [cursor=pointer]:
+                - /url: /en/job-offers/ctl-ca-articleship-26000FJR-en
+                - generic [ref=e435]:
+                  - generic [ref=e436]: CTL CA Articleship
+                  - generic [ref=e437]:
+                    - generic [ref=e438]: 
+                    - text: Chennai, India
+              - link "Intern in Coverage / Relationship Management Q4 – M/F/D  Frankfurt am Main, Germany" [ref=e439] [cursor=pointer]:
+                - /url: /en/job-offers/intern-in-coverage-relationship-management-q4-m-f-d-25000LAB-en
+                - generic [ref=e440]:
+                  - generic [ref=e441]: Intern in Coverage / Relationship Management Q4 – M/F/D
+                  - generic [ref=e442]:
+                    - generic [ref=e443]: 
+                    - text: Frankfurt am Main, Germany
+              - link "Intern in Coverage / Relationship Management Q3 – M/F/D  Frankfurt am Main, Germany" [ref=e444] [cursor=pointer]:
+                - /url: /en/job-offers/intern-in-coverage-relationship-management-q3-m-f-d-25000LA7-en
+                - generic [ref=e445]:
+                  - generic [ref=e446]: Intern in Coverage / Relationship Management Q3 – M/F/D
+                  - generic [ref=e447]:
+                    - generic [ref=e448]: 
+                    - text: Frankfurt am Main, Germany
+          - link "See all available internship opportunities" [ref=e453] [cursor=pointer]:
+            - /url: /en/search?refinementList%5BjobType%5D%5B0%5D=Internship
+        - navigation "Fil d'Ariane" [ref=e459]:
+          - list [ref=e460]:
+            - listitem [ref=e461]:
+              - link "Home" [ref=e462] [cursor=pointer]:
+                - /url: /en
+              - text: ">"
+            - listitem [ref=e463]:
+              - link "Students & Graduates" [ref=e464] [cursor=pointer]:
+                - /url: /en/students-graduates
+              - text: ">"
+            - listitem [ref=e465]: Internships
+    - contentinfo [ref=e466]:
+      - contentinfo [ref=e467]:
+        - generic [ref=e468]:
+          - generic [ref=e469]:
+            - generic [ref=e470]: Discover
+            - list [ref=e471]:
+              - listitem [ref=e472]:
+                - link "Jobs in banking" [ref=e473] [cursor=pointer]:
+                  - /url: /en/search
+              - listitem [ref=e474]:
+                - link "Societe Generale Group website" [ref=e475] [cursor=pointer]:
+                  - /url: https://www.societegenerale.com/en
+          - generic [ref=e476]:
+            - generic [ref=e477]: Useful links
+            - list [ref=e478]:
+              - listitem [ref=e479]:
+                - link "Help Center" [ref=e480] [cursor=pointer]:
+                  - /url: /en/help
+              - listitem [ref=e481]:
+                - link "Profiles wanted" [ref=e482] [cursor=pointer]:
+                  - /url: /en/jobs
+              - listitem [ref=e483]:
+                - link "Sitemap" [ref=e484] [cursor=pointer]:
+                  - /url: /en/sitemap
+              - listitem [ref=e485]:
+                - 'link "Accessibility: non-compliant" [ref=e486] [cursor=pointer]':
+                  - /url: /en/accessibility-policies
+          - generic [ref=e487]:
+            - generic [ref=e488]: Legal information
+            - list [ref=e489]:
+              - listitem [ref=e490]:
+                - link "Legal information" [ref=e491] [cursor=pointer]:
+                  - /url: /en/legal-information
+              - listitem [ref=e492]:
+                - link "Privacy policy" [ref=e493] [cursor=pointer]:
+                  - /url: /en/privacy-policy
+              - listitem [ref=e494]:
+                - link "Cookies Policy" [ref=e495] [cursor=pointer]:
+                  - /url: /en/cookies
+              - listitem [ref=e496]:
+                - link "Consent choices" [ref=e497] [cursor=pointer]:
+                  - /url: ""
+          - generic [ref=e498]:
+            - generic [ref=e499]: "Follow Us:"
+            - list [ref=e500]:
+              - listitem [ref=e501]:
+                - link "Facebook - Nouvel onglet" [ref=e502] [cursor=pointer]:
+                  - /url: https://www.facebook.com/societegenerale
+              - listitem [ref=e506]:
+                - link "Youtube - Nouvel onglet" [ref=e507] [cursor=pointer]:
+                  - /url: https://www.youtube.com/playlist?list=PLO28QHeP4SE6s6hcc5_PcYVbZ2EiBZOQq
+              - listitem [ref=e511]:
+                - link "Twitter - Nouvel onglet" [ref=e512] [cursor=pointer]:
+                  - /url: https://twitter.com/SocieteGenerale
+              - listitem [ref=e516]:
+                - link "LinkedIn - Nouvel onglet" [ref=e517] [cursor=pointer]:
+                  - /url: https://www.linkedin.com/company/societe-generale/
+              - listitem [ref=e521]:
+                - link "Instagram - Nouvel onglet" [ref=e522] [cursor=pointer]:
+                  - /url: https://www.instagram.com/societegenerale/
+    - button "Return to the top of the page" [ref=e526] [cursor=pointer]

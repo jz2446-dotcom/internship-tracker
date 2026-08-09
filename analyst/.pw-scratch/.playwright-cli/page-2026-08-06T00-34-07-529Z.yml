@@ -1,0 +1,333 @@
+- generic [active] [ref=f220e1]:
+  - region "skip navigation":
+    - link "Skip to main content" [ref=f220e2] [cursor=pointer]:
+      - /url: "#main"
+    - link "Skip to footer" [ref=f220e3] [cursor=pointer]:
+      - /url: "#footer"
+  - generic [ref=f220e4]:
+    - banner [ref=f220e6]:
+      - navigation "global" [ref=f220e12]:
+        - text: 
+        - link "Accenture Home" [ref=f220e14] [cursor=pointer]:
+          - /url: /us-en
+          - img "Accenture" [ref=f220e16]
+        - toolbar [ref=f220e19]:
+          - text: 
+          - list [ref=f220e20]:
+            - listitem [ref=f220e21]:
+              - button "What we do" [ref=f220e22] [cursor=pointer]:
+                - generic [ref=f220e24]: 
+            - listitem [ref=f220e25]:
+              - link "What we think" [ref=f220e26] [cursor=pointer]:
+                - /url: /us-en/insights
+            - listitem [ref=f220e28]:
+              - button "Who we are" [ref=f220e29] [cursor=pointer]:
+                - generic [ref=f220e31]: 
+            - listitem [ref=f220e32]:
+              - button "Careers" [ref=f220e33] [cursor=pointer]:
+                - generic [ref=f220e35]: 
+          - text:   
+        - generic [ref=f220e36]:
+          - link "Search" [ref=f220e38] [cursor=pointer]:
+            - /url: /us-en/search
+            - generic [ref=f220e40]: 
+          - 'button "Country and language selector. Current Country: USA" [ref=f220e42]':
+            - text: 
+            - generic [ref=f220e43]: USA
+            - generic [ref=f220e44]: 
+    - main [ref=f220e45]:
+      - generic [ref=f220e46]:
+        - generic [ref=f220e52]:
+          - link "Careers" [ref=f220e54] [cursor=pointer]:
+            - /url: /us-en/careers
+          - generic [ref=f220e55]:
+            - navigation "Page" [ref=f220e56]:
+              - link "Job Search" [ref=f220e57] [cursor=pointer]:
+                - /url: /us-en/careers/jobsearch
+              - link "Saved Jobs" [ref=f220e59] [cursor=pointer]:
+                - /url: /us-en/careers/saved-jobs
+              - link "Access Application" [ref=f220e61] [cursor=pointer]:
+                - /url: https://accenture.wd103.myworkdayjobs.com/AccentureCareers/userHome
+            - text: 
+        - generic [ref=f220e65]:
+          - heading "Belong. Grow. Thrive. Reinvent with Accenture" [level=1] [ref=f220e66]
+          - paragraph [ref=f220e68]: Join a great place to work for reinventors who drive meaningful change for our clients, communities, and the world.
+          - link "Search open roles at Accenture" [ref=f220e70] [cursor=pointer]:
+            - /url: /us-en/careers/jobsearch
+            - generic [ref=f220e71]: Search open roles
+        - region [ref=f220e73]:
+          - heading "Whatever you want to do" [level=2] [ref=f220e75]
+          - generic [ref=f220e76]:
+            - generic:
+              - text: 
+              - button "pause automatic slide show" [ref=f220e77] [cursor=pointer]:
+                - generic [ref=f220e79]: 
+            - generic [ref=f220e80]:
+              - button "show previous slide" [ref=f220e81] [cursor=pointer]:
+                - generic [ref=f220e83]: 
+              - generic [ref=f220e84]:
+                - generic [ref=f220e85]: slideText
+                - generic [ref=f220e86]: "1"
+                - generic [ref=f220e87]: ofText
+                - generic [ref=f220e88]: /
+                - generic [ref=f220e89]: "8"
+              - button "show next slide" [ref=f220e90] [cursor=pointer]:
+                - generic [ref=f220e92]: 
+          - generic [ref=f220e95]:
+            - group "slide 1 of 8" [ref=f220e96]:
+              - img "A man looks down smiling" [ref=f220e98]
+              - generic [ref=f220e99]:
+                - heading "Grow your career" [level=3] [ref=f220e100]
+                - paragraph [ref=f220e101]: From developers and designers to strategists and SAP pros, there are endless opportunities for you to learn, grow and make a difference.
+                - link "Learn more about Career Areas" [ref=f220e102] [cursor=pointer]:
+                  - /url: /us-en/careers/explore-careers/career-areas
+                  - generic [ref=f220e103]: Learn more
+                  - generic [ref=f220e104]: 
+            - group [ref=f220e105]:
+              - generic [ref=f220e108]:
+                - heading [level=3] [ref=f220e109]: Artificial intelligence (AI) & data science
+                - paragraph [ref=f220e110]: Unlock the power of AI and data to reinvent all facets of business–responsibly.
+                - link [ref=f220e111] [cursor=pointer]:
+                  - /url: /us-en/careers/explore-careers/area-of-interest/ai-data-science-careers
+                  - generic [ref=f220e112]: Learn more
+                  - generic [ref=f220e113]: 
+            - group [ref=f220e114]:
+              - generic [ref=f220e117]:
+                - heading [level=3] [ref=f220e118]: Consulting
+                - paragraph [ref=f220e119]: Industry understanding. Deep insights. Big ideas. You’ll help clients understand what they need to reinvent for the future.
+                - link [ref=f220e120] [cursor=pointer]:
+                  - /url: /us-en/careers/explore-careers/area-of-interest/consulting-careers
+                  - generic [ref=f220e121]: Learn more
+                  - generic [ref=f220e122]: 
+            - group [ref=f220e123]:
+              - generic [ref=f220e126]:
+                - heading [level=3] [ref=f220e127]: Engineering & manufacturing
+                - paragraph [ref=f220e128]: Use data, insights, and emerging technology to help clients reimagine what they make—and how they can make it faster, better and more sustainably.
+                - link [ref=f220e129] [cursor=pointer]:
+                  - /url: /us-en/careers/explore-careers/area-of-interest/engineering-manufacturing-careers
+                  - generic [ref=f220e130]: Learn more
+                  - generic [ref=f220e131]: 
+            - group [ref=f220e132]:
+              - generic [ref=f220e135]:
+                - heading [level=3] [ref=f220e136]: Operations & delivery
+                - paragraph [ref=f220e137]: Use data, insights and tech to reimagine how people work, moving operations from transactional to transformational.
+                - link [ref=f220e138] [cursor=pointer]:
+                  - /url: /us-en/careers/explore-careers/area-of-interest/operations-delivery-careers
+                  - generic [ref=f220e139]: Learn more
+                  - generic [ref=f220e140]: 
+            - group [ref=f220e141]:
+              - generic [ref=f220e144]:
+                - heading [level=3] [ref=f220e145]: Software engineering
+                - paragraph [ref=f220e146]: Create software that will power change and empower people.
+                - link [ref=f220e147] [cursor=pointer]:
+                  - /url: /us-en/careers/explore-careers/area-of-interest/software-engineering-careers
+                  - generic [ref=f220e148]: Learn more
+                  - generic [ref=f220e149]: 
+            - group [ref=f220e150]:
+              - generic [ref=f220e153]:
+                - heading [level=3] [ref=f220e154]: Strategy
+                - paragraph [ref=f220e155]: Success is rooted in smart strategy. Use your insights and strategic thinking to understand how our clients can reinvent to stay ahead of change.
+                - link [ref=f220e156] [cursor=pointer]:
+                  - /url: /us-en/careers/explore-careers/area-of-interest/strategy-careers
+                  - generic [ref=f220e157]: Learn more
+                  - generic [ref=f220e158]: 
+            - group [ref=f220e159]:
+              - generic [ref=f220e162]:
+                - heading [level=3] [ref=f220e163]: Technology
+                - paragraph [ref=f220e164]: Get hands-on with the technologies that our clients need to reinvent, work in new ways and change the world for the better.
+                - link [ref=f220e165] [cursor=pointer]:
+                  - /url: /us-en/careers/explore-careers/area-of-interest/technology-careers
+                  - generic [ref=f220e166]: Learn more
+                  - generic [ref=f220e167]: 
+        - generic [ref=f220e169]:
+          - heading "Wherever you are in your career" [level=2] [ref=f220e171]
+          - tablist [ref=f220e173]:
+            - tab "Students" [selected] [ref=f220e174] [cursor=pointer]:
+              - heading "Students" [level=3] [ref=f220e175]
+            - tab [selected] [ref=f220e176]:
+              - generic [ref=f220e178]:
+                - paragraph [ref=f220e180]: You'll join a great place to build your skills and launch your career. From summer internships to innovation-led opportunities, we welcome your curiosity.
+                - img "The back view of a girl wearing a yellow backpack going to her class" [ref=f220e182]
+            - tab "Apprenticeships" [ref=f220e183] [cursor=pointer]:
+              - heading "Apprenticeships" [level=3] [ref=f220e184]
+            - tab [ref=f220e185]
+            - tab "Early career professionals" [ref=f220e186] [cursor=pointer]:
+              - heading "Early career professionals" [level=3] [ref=f220e187]
+            - tab [ref=f220e188]
+            - tab "Experienced professionals" [ref=f220e189] [cursor=pointer]:
+              - heading "Experienced professionals" [level=3] [ref=f220e190]
+            - tab [ref=f220e191]
+            - tab "Executive leaders" [ref=f220e192] [cursor=pointer]:
+              - heading "Executive leaders" [level=3] [ref=f220e193]
+            - tab [ref=f220e194]
+            - 'tab "Explore opportunities: Accenture Flex - Powering Industries with Agile, Expert Talent" [ref=f220e195] [cursor=pointer]':
+              - heading "Accenture Flex" [level=3] [ref=f220e196]
+            - tab [ref=f220e197]
+        - generic [ref=f220e199]:
+          - generic [ref=f220e200]:
+            - heading "You belong here" [level=2] [ref=f220e201]
+            - paragraph [ref=f220e202]: No two people are the same. By prioritizing six areas of well-being, we foster an inclusive environment where we all feel valued, seen and heard—we call this Net Better Off.
+          - generic [ref=f220e203]:
+            - generic [ref=f220e204]:
+              - link "Emotional & mental" [ref=f220e205] [cursor=pointer]:
+                - /url: /us-en/careers/local/benefits
+                - img "A young woman smiling and enjoying the breeze and sunset from a mountain viewpoint." [ref=f220e207]
+              - generic [ref=f220e208]:
+                - heading "Emotional & mental" [level=3] [ref=f220e209]
+                - paragraph [ref=f220e210]: Ongoing support for mental health and wellness
+                - 'link "See benefits: Emotional & mental" [ref=f220e211] [cursor=pointer]':
+                  - /url: /us-en/careers/local/benefits
+                  - generic [ref=f220e212]: See benefits
+                  - generic [ref=f220e213]: 
+            - generic [ref=f220e214]:
+              - link "Relational" [ref=f220e215] [cursor=pointer]:
+                - /url: /us-en/about/inclusion-diversity-index
+                - img "They are sitting on orange chairs and discussing together with laptop and notes" [ref=f220e217]
+              - generic [ref=f220e218]:
+                - heading "Relational" [level=3] [ref=f220e219]
+                - paragraph [ref=f220e220]: Ensuring a sense of belonging and connection for all
+                - 'link "Explore our approach: Relational" [ref=f220e221] [cursor=pointer]':
+                  - /url: /us-en/about/inclusion-diversity-index
+                  - generic [ref=f220e222]: Explore our approach
+                  - generic [ref=f220e223]: 
+            - generic [ref=f220e224]:
+              - link "Physical" [ref=f220e225] [cursor=pointer]:
+                - /url: /us-en/careers/local/benefits
+                - img "Sprinter seen from above with shadow and copy space" [ref=f220e227]
+              - generic [ref=f220e228]:
+                - heading "Physical" [level=3] [ref=f220e229]
+                - paragraph [ref=f220e230]: Supporting physical well-being
+                - 'link "See physical benefits : Benefits for the whole you" [ref=f220e231] [cursor=pointer]':
+                  - /url: /us-en/careers/local/benefits
+                  - generic [ref=f220e232]: See benefits
+                  - generic [ref=f220e233]: 
+        - generic [ref=f220e236]:
+          - generic [ref=f220e237]:
+            - link "Purposeful" [ref=f220e238] [cursor=pointer]:
+              - /url: /us-en/about/company-index
+              - img "The class tutor addresses the group while answering the question of a student." [ref=f220e240]
+            - generic [ref=f220e241]:
+              - heading "Purposeful" [level=3] [ref=f220e242]
+              - paragraph [ref=f220e243]: Evolving our purpose to meet an enlightened workforce, customers and community
+              - 'link "See what we believe: About our company Accenture" [ref=f220e244] [cursor=pointer]':
+                - /url: /us-en/about/company-index
+                - generic [ref=f220e245]: See what we believe
+                - generic [ref=f220e246]: 
+          - generic [ref=f220e247]:
+            - link "Employable" [ref=f220e248] [cursor=pointer]:
+              - /url: /us-en/careers/life-at-accenture/learning-development
+              - img "Group of people talking" [ref=f220e250]
+            - generic [ref=f220e251]:
+              - heading "Employable" [level=3] [ref=f220e252]
+              - paragraph [ref=f220e253]: Helping you get the right skills to advance to higher paying roles
+              - link "Explore learning and development" [ref=f220e254] [cursor=pointer]:
+                - /url: /us-en/careers/life-at-accenture/learning-development
+                - generic [ref=f220e256]: 
+          - generic [ref=f220e257]:
+            - link "Financial" [ref=f220e258] [cursor=pointer]:
+              - /url: /us-en/careers/local/benefits
+              - img "Holding and browsing laptop in one hand" [ref=f220e260]
+            - generic [ref=f220e261]:
+              - heading "Financial" [level=3] [ref=f220e262]
+              - paragraph [ref=f220e263]: Offering rewards and benefits packages to meet your needs
+              - 'link "See financial benefits: Benefits for the whole you" [ref=f220e264] [cursor=pointer]':
+                - /url: /us-en/careers/local/benefits
+                - generic [ref=f220e265]: See benefits
+                - generic [ref=f220e266]: 
+        - generic [ref=f220e269]:
+          - heading "We are everywhere" [level=2] [ref=f220e270]
+          - generic [ref=f220e271]:
+            - generic [ref=f220e273]:
+              - paragraph [ref=f220e274]: 799k
+              - paragraph [ref=f220e276]: Accenture people worldwide
+            - generic [ref=f220e278]:
+              - paragraph [ref=f220e279]: 200+
+              - paragraph [ref=f220e281]: Cities with Accenture offices in 52 countries
+            - generic [ref=f220e283]:
+              - paragraph [ref=f220e284]: 9,000+
+              - paragraph [ref=f220e286]: Clients served across more than 120 countries
+        - generic:
+          - generic:
+            - generic:
+              - generic:
+                - heading [level=2]
+        - generic [ref=f220e291]:
+          - heading "Stay connected" [level=2] [ref=f220e292]
+          - generic [ref=f220e293]:
+            - generic [ref=f220e295]:
+              - heading "Join us" [level=3] [ref=f220e299]
+              - paragraph [ref=f220e301]: Explore open roles that match your interests and skills.
+              - link "Search jobs at Accenture" [ref=f220e302] [cursor=pointer]:
+                - /url: /us-en/careers/jobsearch
+                - generic [ref=f220e303]: Search jobs
+                - generic [ref=f220e304]: 
+            - generic [ref=f220e306]:
+              - heading "Stay in touch" [level=3] [ref=f220e310]
+              - paragraph [ref=f220e312]: Get career tips and industry-leading insights.
+              - link "Learn more about careers blogs" [ref=f220e313] [cursor=pointer]:
+                - /url: /us-en/blogs/blogs-careers
+                - generic [ref=f220e314]: Learn more
+                - generic [ref=f220e315]: 
+    - contentinfo [ref=f220e316]:
+      - generic [ref=f220e322]:
+        - heading "Let there be change" [level=2] [ref=f220e323]
+        - generic [ref=f220e324]:
+          - generic [ref=f220e325]:
+            - list [ref=f220e326]:
+              - listitem [ref=f220e327]:
+                - link "About Us" [ref=f220e328] [cursor=pointer]:
+                  - /url: /us-en/about/company-index
+              - listitem [ref=f220e329]:
+                - link "Contact Us" [ref=f220e330] [cursor=pointer]:
+                  - /url: /us-en/about/contact-us
+              - listitem [ref=f220e331]:
+                - link "Alumni" [ref=f220e332] [cursor=pointer]:
+                  - /url: https://www.accenturealumni.com/
+              - listitem [ref=f220e333]:
+                - link "Privacy Statement" [ref=f220e334] [cursor=pointer]:
+                  - /url: /us-en/support/privacy-policy
+            - list [ref=f220e335]:
+              - listitem [ref=f220e336]:
+                - link "Recruiting and Hiring Privacy Statement" [ref=f220e337] [cursor=pointer]:
+                  - /url: /us-en/careers/support/privacy-statement
+              - listitem [ref=f220e338]:
+                - link "Applicant Notices – Federal, State & Local" [ref=f220e339] [cursor=pointer]:
+                  - /url: /us-en/careers/support/e-verify-legal-notices
+              - listitem [ref=f220e340]:
+                - link "Terms & Conditions" [ref=f220e341] [cursor=pointer]:
+                  - /url: /us-en/support/terms-of-use
+              - listitem [ref=f220e342]:
+                - link "Cookie Policy" [ref=f220e343] [cursor=pointer]:
+                  - /url: /us-en/support/company-cookies-similar-technology
+              - listitem [ref=f220e344]:
+                - link "Accessibility Statement" [ref=f220e345] [cursor=pointer]:
+                  - /url: /us-en/support/accessibility-statement
+              - listitem [ref=f220e346]:
+                - link "Sitemap" [ref=f220e347] [cursor=pointer]:
+                  - /url: /us-en/support/site-map
+              - listitem [ref=f220e348]:
+                - link "Global Meritocracy" [ref=f220e349] [cursor=pointer]:
+                  - /url: /us-en/support/global-meritocracy
+              - listitem [ref=f220e350]:
+                - link "Labor Condition Applications" [ref=f220e351] [cursor=pointer]:
+                  - /url: /us-en/careers/support/labor-condition-applications
+              - listitem [ref=f220e352]:
+                - link "Do Not Sell/Share My Personal Information" [ref=f220e353] [cursor=pointer]:
+                  - /url: /us-en/support/form-do-not-sell-my-personal-information
+          - paragraph [ref=f220e354]: © 2026 Accenture. All Rights Reserved.
+  - region "Cookie banner" [ref=f220e566]:
+    - dialog "Privacy" [ref=f220e567]:
+      - generic [ref=f220e569]:
+        - generic [ref=f220e572]:
+          - text: Our websites require some cookies to function properly (required). In addition, other cookies may be used with your consent to analyze site usage, improve the user experience and for advertising. If you prefer that we only use the required cookies, please select ‘Accept Only Required’, closing this banner without making other selections will accept all cookies. For more information, please review our
+          - link "Cookies Policy" [ref=f220e573] [cursor=pointer]:
+            - /url: https://www.accenture.com/us-en/support/company-cookies-similar-technology
+          - text: and
+          - link "Privacy Statement" [ref=f220e574] [cursor=pointer]:
+            - /url: https://www.accenture.com/us-en/support/privacy-policy
+          - text: .
+        - generic [ref=f220e576]:
+          - button "Manage Cookie Settings, Opens the preference center dialog" [ref=f220e577] [cursor=pointer]: Manage Cookie Settings
+          - button "Accept Only Required" [ref=f220e578] [cursor=pointer]
+          - button "Accept All" [ref=f220e579] [cursor=pointer]
+      - button "Close" [ref=f220e581] [cursor=pointer]

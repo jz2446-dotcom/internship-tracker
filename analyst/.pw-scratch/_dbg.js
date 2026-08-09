@@ -1,0 +1,1 @@
+async (page) => { return await page.evaluate(() => document.title); }

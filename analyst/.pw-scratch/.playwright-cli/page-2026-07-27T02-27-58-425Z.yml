@@ -1,0 +1,12 @@
+- dialog "Privacy" [ref=f200e3]:
+  - generic [ref=f200e4]:
+    - generic [ref=f200e6]:
+      - text: We use essential cookies to make our site work. We also would like to use other types of cookies for various reasons, including to improve your experience and personalize content on our site. For optional cookies, you can click “Accept All Cookies”, “Reject All Cookies”, or customize your cookie settings by clicking “Manage Cookie Preferences”. For more information about how we use cookies, view our
+      - link "More information about your privacy, opens in a new tab" [active] [ref=f200e7] [cursor=pointer]:
+        - /url: https://www.troweprice.com/content/dam/trowecorp/Pdfs/CookiePolicy_Nov2020.pdf
+        - text: Cookie Policy
+    - generic [ref=f200e9]:
+      - button "Manage Cookie Preferences, Opens the preference center dialog" [ref=f200e10] [cursor=pointer]: Manage Cookie Preferences
+      - generic [ref=f200e11]:
+        - button "Reject All Cookies" [ref=f200e12] [cursor=pointer]
+        - button "Accept All Cookies" [ref=f200e13] [cursor=pointer]

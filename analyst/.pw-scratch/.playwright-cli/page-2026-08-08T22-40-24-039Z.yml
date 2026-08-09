@@ -1,0 +1,314 @@
+- generic [ref=f295e1]:
+  - dialog "Cookie Consent Banner" [ref=f295e2]:
+    - generic [ref=f295e3]:
+      - generic [ref=f295e4]: This website utilizes technologies such as cookies to enable essential site functionality, as well as for analytics, personalization, and targeted advertising.
+      - link "Privacy Policy" [active] [ref=f295e5] [cursor=pointer]:
+        - /url: https://www.governmentjobs.com/home/privacypolicy
+    - generic [ref=f295e6]:
+      - button "Accept" [ref=f295e7] [cursor=pointer]
+      - button "Deny Non-Essential" [ref=f295e8] [cursor=pointer]
+      - button "Manage Preferences" [ref=f295e9] [cursor=pointer]
+  - form
+  - region:
+    - generic "Home Page page has loaded."
+  - link [ref=f295e15] [cursor=pointer]:
+    - paragraph [ref=f295e16]: Skip to main content
+  - generic [ref=f295e17]:
+    - generic [ref=f295e18]:
+      - banner [ref=f295e19]:
+        - navigation "header" [ref=f295e21]:
+          - button "Menu" [ref=f295e23] [cursor=pointer]:
+            - generic [ref=f295e24]: 
+            - text: Menu
+            - generic [ref=f295e25]: 
+            - text: 
+          - heading "Job Opportunities" [level=1] [ref=f295e27]
+          - generic [ref=f295e29] [cursor=pointer]:
+            - img "Translation tip" [ref=f295e31]
+            - button "Sign In" [ref=f295e32]:
+              - generic [ref=f295e33]: 
+              - text: Sign In
+            - generic: ⚠ ? or sign in with 
+          - text:            
+        - generic [ref=f295e34]:
+          - heading [level=2] [ref=f295e35]:
+            - link "Career Pages logo Career Pages" [ref=f295e36] [cursor=pointer]:
+              - /url: /careers/houston
+              - generic [ref=f295e39]:
+                - img "Career Pages logo" [ref=f295e41]
+                - generic "Career Pages" [ref=f295e43]
+          - generic [ref=f295e44]:
+            - text: powered by NEOGOV
+            - generic [ref=f295e45]: ®
+      - main [ref=f295e46]:
+        - generic [ref=f295e47]:
+          - generic [ref=f295e48]:
+            - generic [ref=f295e49]:
+              - paragraph [ref=f295e50]: The City of Houston can’t function without great employees. We’re always on the lookout for talented, caring people to join us. Employment with City of Houston represents more than just a job. A career in public service is an opportunity to serve fellow citizens across our city. Professions in city government help to support many aspects of life in Houston and considering a career in public service is an honorable choice.
+              - paragraph [ref=f295e51]:
+                - strong [ref=f295e52]: "Instructions:"
+              - list [ref=f295e53]:
+                - listitem [ref=f295e54]: Apply online by clicking on the job title you are interested in below and then clicking on the "Apply" link.
+                - listitem [ref=f295e55]: If this is the first time you are applying using our online job application process, you will need to create an account and select a User Name and Password.
+                - listitem [ref=f295e56]: After your account has been established, you can upload your resume and follow the steps to create and submit an application. This application can be saved and used to apply for more than one job opening.
+                - listitem [ref=f295e57]: It is important that your application show all the relevant education and experience you possess. Applications may be rejected if they are incomplete when submitted.
+                - listitem [ref=f295e58]: If you do not see a current opening below that you are interested in, please fill out a Job Interest Card from the Menu to receive future notifications of open positions within selected categories.
+              - paragraph [ref=f295e59]:
+                - emphasis [ref=f295e60]: Online applications are stored on a secure site. Only authorized City of Houston Human Resources employees have access to the information submitted.
+              - paragraph [ref=f295e61]
+            - button "Show more content" [ref=f295e64] [cursor=pointer]: MORE 
+          - generic [ref=f295e66]:
+            - generic [ref=f295e67]:
+              - combobox "Search by keyword. When autocomplete results are available use up and down arrows to select an item." [ref=f295e69]
+              - text: ␡
+              - button "Search" [ref=f295e70] [cursor=pointer]: 
+            - list [ref=f295e73]:
+              - listitem [ref=f295e74]:
+                - group "View toggle" [ref=f295e75]:
+                  - radio "Grid View" [checked] [ref=f295e78] [cursor=pointer]: 
+                  - radio "List View" [ref=f295e80] [cursor=pointer]: 
+              - listitem [ref=f295e81]:
+                - button " Sort " [ref=f295e82] [cursor=pointer]:
+                  - text:  Sort
+                  - generic [ref=f295e83]: 
+              - listitem [ref=f295e84]:
+                - button " Filter " [ref=f295e85] [cursor=pointer]:
+                  - text:  Filter
+                  - generic [ref=f295e86]: 
+            - generic [ref=f295e87]: 97 jobs found
+          - generic [ref=f295e92]:
+            - table [ref=f295e95]:
+              - caption [ref=f295e96]: Job Search Results
+              - rowgroup [ref=f295e97]:
+                - row [ref=f295e98]:
+                  - columnheader [ref=f295e99]:
+                    - button "Sort by Job Title. Sorted ascending" [ref=f295e100] [cursor=pointer]:
+                      - text: Job Title
+                      - generic [ref=f295e101]: 
+                  - columnheader "Department" [ref=f295e102]
+                  - columnheader "Job Type" [ref=f295e103]
+                  - columnheader [ref=f295e104]:
+                    - button "Sort by Salary" [ref=f295e105] [cursor=pointer]:
+                      - text: Salary
+                      - generic [ref=f295e106]: 
+                  - columnheader [ref=f295e107]:
+                    - button "Sort by Closing Date" [ref=f295e108] [cursor=pointer]:
+                      - text: Closing
+                      - generic [ref=f295e109]: 
+                  - columnheader [ref=f295e110]:
+                    - button "Sort by Posting Date" [ref=f295e111] [cursor=pointer]:
+                      - text: Posted
+                      - generic [ref=f295e112]: 
+                  - columnheader "Category" [ref=f295e113]
+                  - columnheader "Location" [ref=f295e114]
+                  - columnheader "Job Number" [ref=f295e115]
+              - rowgroup [ref=f295e116]:
+                - row [ref=f295e117]:
+                  - rowheader [ref=f295e118]:
+                    - link "9-1-1 Telecommunicator New Job Link will be opened in a flyout." [ref=f295e119] [cursor=pointer]:
+                      - /url: /careers/houston/jobs/5437244/9-1-1-telecommunicator
+                      - text: 9-1-1 Telecommunicator
+                    - text: New
+                  - cell "Houston Emergency Center" [ref=f295e120]
+                  - cell "Full Time" [ref=f295e121]
+                  - cell "$20.91 - $23.23 Hourly" [ref=f295e122]
+                  - cell "Continuous" [ref=f295e123]
+                  - cell "08/05/26" [ref=f295e124]
+                  - cell "911 Telecommunications" [ref=f295e125]
+                  - cell "5320 North Shepherd" [ref=f295e126]
+                  - cell "39304" [ref=f295e127]
+                - row [ref=f295e128]:
+                  - rowheader [ref=f295e129]:
+                    - link "911 Senior Police Telecommunicator (SPTC) Link will be opened in a flyout." [ref=f295e130] [cursor=pointer]:
+                      - /url: /careers/houston/jobs/3046497/911-senior-police-telecommunicator-sptc
+                      - text: 911 Senior Police Telecommunicator (SPTC)
+                  - cell "HOUSTON POLICE DEPARTMENT" [ref=f295e131]
+                  - cell "Full Time" [ref=f295e132]
+                  - cell "$25.25 - $27.37 Hourly" [ref=f295e133]
+                  - cell "Continuous" [ref=f295e134]
+                  - cell "01/24/24" [ref=f295e135]
+                  - cell "Law Enforcement / Customer Service / Dispatch" [ref=f295e136]
+                  - cell "5320 North Shepherd" [ref=f295e137]
+                  - cell "25407" [ref=f295e138]
+                - row [ref=f295e139]:
+                  - rowheader [ref=f295e140]:
+                    - link "ASSISTANT DIRECTOR (EXE LEV) Link will be opened in a flyout." [ref=f295e141] [cursor=pointer]:
+                      - /url: /careers/houston/jobs/5416069/assistant-director-exe-lev
+                      - text: ASSISTANT DIRECTOR (EXE LEV)
+                  - cell "Houston Airport System" [ref=f295e142]
+                  - cell "Executive Level" [ref=f295e143]
+                  - cell "$130,356.98 - $167,400.22 Annually" [ref=f295e144]
+                  - cell "Continuous" [ref=f295e145]
+                  - cell "07/21/26" [ref=f295e146]
+                  - cell "Accounting and Finance / Management / Airports" [ref=f295e147]
+                  - cell "16930 John F. Kennedy Blvd." [ref=f295e148]
+                  - cell "39171" [ref=f295e149]
+                - row [ref=f295e150]:
+                  - rowheader [ref=f295e151]:
+                    - link "Assistant Public Works Maintenance Manager New Job Link will be opened in a flyout." [ref=f295e152] [cursor=pointer]:
+                      - /url: /careers/houston/jobs/5426301/assistant-public-works-maintenance-manager
+                      - text: Assistant Public Works Maintenance Manager
+                    - text: New
+                  - cell "Houston Public Works" [ref=f295e153]
+                  - cell "Full Time" [ref=f295e154]
+                  - cell "$39.39 - $40.61 Hourly" [ref=f295e155]
+                  - cell "08/21/26" [ref=f295e156]
+                  - cell "08/07/26" [ref=f295e157]
+                  - cell "Public Works" [ref=f295e158]
+                  - cell "Various" [ref=f295e159]
+                  - cell "39208" [ref=f295e160]
+                - row [ref=f295e161]:
+                  - rowheader [ref=f295e162]:
+                    - link "CERTIFIED FIRE FIGHTER TRAINEE and/or EMERGENCY MEDICAL TECHNICIAN Link will be opened in a flyout." [ref=f295e163] [cursor=pointer]:
+                      - /url: /careers/houston/jobs/4676752/certified-fire-fighter-trainee-and-or-emergency-medical-technician
+                      - text: CERTIFIED FIRE FIGHTER TRAINEE and/or EMERGENCY MEDICAL TECHNICIAN
+                  - cell "Houston Fire Department" [ref=f295e164]
+                  - cell "Full Time" [ref=f295e165]
+                  - cell "$36,114.00 - $56,862.00 Annually" [ref=f295e166]
+                  - cell "Continuous" [ref=f295e167]
+                  - cell "09/30/24" [ref=f295e168]
+                  - cell "Fire & EMS" [ref=f295e169]
+                  - cell "8030 Braniff" [ref=f295e170]
+                  - cell "35180" [ref=f295e171]
+                - row [ref=f295e172]:
+                  - rowheader [ref=f295e173]:
+                    - link "CLAIMS & SUBROGATION ATTORNEY Link will be opened in a flyout." [ref=f295e174] [cursor=pointer]:
+                      - /url: /careers/houston/jobs/5368500/claims-subrogation-attorney
+                      - text: CLAIMS & SUBROGATION ATTORNEY
+                  - cell "Legal" [ref=f295e175]
+                  - cell "Full Time" [ref=f295e176]
+                  - cell "$94,458.00 - $128,357.06 Annually" [ref=f295e177]
+                  - cell "Continuous" [ref=f295e178]
+                  - cell "06/05/26" [ref=f295e179]
+                  - cell "Legal / Attorney" [ref=f295e180]
+                  - cell "Houston, TX" [ref=f295e181]
+                  - cell "39008" [ref=f295e182]
+                - row [ref=f295e183]:
+                  - rowheader [ref=f295e184]:
+                    - link "CONTRACT ADMINISTRATOR (Property Management) New Job Link will be opened in a flyout." [ref=f295e185] [cursor=pointer]:
+                      - /url: /careers/houston/jobs/5435318/contract-administrator-property-management
+                      - text: CONTRACT ADMINISTRATOR (Property Management)
+                    - text: New
+                  - cell "General Services" [ref=f295e186]
+                  - cell "Full Time" [ref=f295e187]
+                  - cell "$2,839.00 Biweekly" [ref=f295e188]
+                  - cell "08/11/26" [ref=f295e189]
+                  - cell "08/05/26" [ref=f295e190]
+                  - cell "Construction Maintenance / Project Management" [ref=f295e191]
+                  - cell "900 Bagby-City Hall Annex" [ref=f295e192]
+                  - cell "39308" [ref=f295e193]
+                - row [ref=f295e194]:
+                  - rowheader [ref=f295e195]:
+                    - link "CRISIS INFORMATION SYSTEM COORDINATOR (STAFF ANALYST) - GRANT FUNDED Link will be opened in a flyout." [ref=f295e196] [cursor=pointer]:
+                      - /url: /careers/houston/jobs/5433294/crisis-information-system-coordinator-staff-analyst-grant-funded
+                      - text: CRISIS INFORMATION SYSTEM COORDINATOR (STAFF ANALYST) - GRANT FUNDED
+                  - cell "Mayor's Office" [ref=f295e197]
+                  - cell "Full Time" [ref=f295e198]
+                  - cell "$2,916.00 - $3,485.66 Biweekly" [ref=f295e199]
+                  - cell "08/14/26" [ref=f295e200]
+                  - cell "07/31/26" [ref=f295e201]
+                  - cell "Professional / Emergency Management" [ref=f295e202]
+                  - cell "901 Bagby" [ref=f295e203]
+                  - cell "39252" [ref=f295e204]
+                - row [ref=f295e205]:
+                  - rowheader [ref=f295e206]:
+                    - link "Custodian - Bush Airport (IAH) New Job Link will be opened in a flyout." [ref=f295e207] [cursor=pointer]:
+                      - /url: /careers/houston/jobs/5435580/custodian-bush-airport-iah
+                      - text: Custodian - Bush Airport (IAH)
+                    - text: New
+                  - cell "Houston Airport System" [ref=f295e208]
+                  - cell "Full Time" [ref=f295e209]
+                  - cell "$17.25 - $18.77 Hourly" [ref=f295e210]
+                  - cell "08/12/26" [ref=f295e211]
+                  - cell "08/04/26" [ref=f295e212]
+                  - cell "Building Maintenance / Airports / Customer Service / Custodial" [ref=f295e213]
+                  - cell "Houston, Texas" [ref=f295e214]
+                  - cell "39300" [ref=f295e215]
+                - row [ref=f295e216]:
+                  - rowheader [ref=f295e217]:
+                    - link "Custodian - General Services Department New Job Link will be opened in a flyout." [ref=f295e218] [cursor=pointer]:
+                      - /url: /careers/houston/jobs/5434599/custodian-general-services-department
+                      - text: Custodian - General Services Department
+                    - text: New
+                  - cell "General Services" [ref=f295e219]
+                  - cell "Full Time" [ref=f295e220]
+                  - cell "$17.25 Hourly" [ref=f295e221]
+                  - cell "08/10/26" [ref=f295e222]
+                  - cell "08/04/26" [ref=f295e223]
+                  - cell "Custodial" [ref=f295e224]
+                  - cell "900 Bagby-City Hall Annex" [ref=f295e225]
+                  - cell "39295" [ref=f295e226]
+            - generic [ref=f295e227]:
+              - generic [ref=f295e228]:
+                - list [ref=f295e230]:
+                  - listitem:
+                    - generic "Go to Previous Page" [ref=f295e231]:
+                      - generic [ref=f295e232]: 
+                      - text: Prev
+                  - listitem:
+                    - link "Go to Page 1" [disabled]:
+                      - /url: ""
+                      - text: "1"
+                  - listitem:
+                    - link "Go to Page 2" [ref=f295e233] [cursor=pointer]:
+                      - /url: /careers/Home?page=2
+                      - text: "2"
+                  - listitem:
+                    - link "Go to Page 3" [ref=f295e234] [cursor=pointer]:
+                      - /url: /careers/Home?page=3
+                      - text: "3"
+                  - listitem:
+                    - link "Go to Page 4" [ref=f295e235] [cursor=pointer]:
+                      - /url: /careers/Home?page=4
+                      - text: "4"
+                  - listitem:
+                    - link "Go to Page 5" [ref=f295e236] [cursor=pointer]:
+                      - /url: /careers/Home?page=5
+                      - text: "5"
+                  - listitem:
+                    - link "Go to Page 6" [ref=f295e237] [cursor=pointer]:
+                      - /url: /careers/Home?page=6
+                      - text: "6"
+                  - listitem:
+                    - link "Go to Page 7" [ref=f295e238] [cursor=pointer]:
+                      - /url: /careers/Home?page=7
+                      - text: "7"
+                  - listitem:
+                    - link "Go to Page 8" [ref=f295e239] [cursor=pointer]:
+                      - /url: /careers/Home?page=8
+                      - text: "8"
+                  - listitem:
+                    - link "Go to Page 9" [ref=f295e240] [cursor=pointer]:
+                      - /url: /careers/Home?page=9
+                      - text: "9"
+                  - listitem:
+                    - link "Go to Page 10" [ref=f295e241] [cursor=pointer]:
+                      - /url: /careers/Home?page=10
+                      - text: "10"
+                  - listitem:
+                    - link "Go to Next Page" [ref=f295e242] [cursor=pointer]:
+                      - /url: /careers/Home?page=2
+                      - text: Next
+                      - generic [ref=f295e243]: 
+                - generic [ref=f295e244]: Showing items 1 - 10
+              - text:  
+      - generic: ␡
+      - contentinfo [ref=f295e245]:
+        - generic [ref=f295e246]:
+          - generic [ref=f295e247]:
+            - link "Job Opportunities" [ref=f295e249] [cursor=pointer]:
+              - /url: /careers/houston
+            - link "Account" [ref=f295e251] [cursor=pointer]:
+              - /url: /careers/houston/applications/submitted
+            - link "Privacy Policy" [ref=f295e254] [cursor=pointer]:
+              - /url: /careers/houston/privacypolicy
+            - link "Terms Of Use" [ref=f295e256] [cursor=pointer]:
+              - /url: /careers/houston/termsofuse
+            - link "Accessibility Statement (opens in new tab)" [ref=f295e258] [cursor=pointer]:
+              - /url: /careers/houston/accessibilitystatement
+              - text: Accessibility Statement
+            - button "Privacy Settings" [ref=f295e260] [cursor=pointer]
+          - generic [ref=f295e261]: Copyright © 2026
+    - text: ␡          
+  - status [ref=f295e263]
+  - text:       ␡   ␡  ␡ ␡ ⎙

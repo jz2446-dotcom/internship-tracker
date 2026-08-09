@@ -1,0 +1,23 @@
+---
+key: "Ping An::Finance/Internship Program"
+company: "Ping An"
+program: "Finance/Internship Program"
+group: "Fall 2026 Internships"
+category: "corporate-finance"
+class_years: ["2028", "2029"]
+status: "program-page"
+deadline: ""
+posted: ""
+acceptance_rate: "~4–8%"
+competitiveness: "Competitive"
+location: "Hong Kong / Greater China"
+apply_url: "https://careers.pingan.com"
+# ---- your fields below are preserved on every refresh ----
+applied: false
+stage: "to-apply"
+priority: ""
+referral: ""
+---
+## My notes
+
+_Add referral contacts, recruiter names, interview dates, status, links — preserved across refreshes._

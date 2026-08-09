@@ -1,0 +1,122 @@
+- generic [ref=f574e1]:
+  - dialog "Cookie Consent Banner" [ref=f574e2]:
+    - generic [ref=f574e3]:
+      - generic [ref=f574e4]: This website utilizes technologies such as cookies to enable essential site functionality, as well as for analytics, personalization, and targeted advertising.
+      - link "Privacy Policy" [active] [ref=f574e5] [cursor=pointer]:
+        - /url: https://www.governmentjobs.com/home/privacypolicy
+    - generic [ref=f574e6]:
+      - button "Accept" [ref=f574e7] [cursor=pointer]
+      - button "Deny Non-Essential" [ref=f574e8] [cursor=pointer]
+      - button "Manage Preferences" [ref=f574e9] [cursor=pointer]
+  - form
+  - region:
+    - generic: Error | Government Jobs page has loaded.
+  - link [ref=f574e15] [cursor=pointer]:
+    - paragraph [ref=f574e16]: Skip to main content
+  - generic [ref=f574e17]:
+    - generic [ref=f574e18]:
+      - navigation "header" [ref=f574e19]:
+        - link "Government Jobs" [ref=f574e21] [cursor=pointer]:
+          - /url: /
+        - text: 
+        - generic [ref=f574e22]:
+          - generic [ref=f574e23]:
+            - generic [ref=f574e24]:
+              - link "Resources" [ref=f574e25] [cursor=pointer]:
+                - /url: /resources
+              - button "log in" [ref=f574e26] [cursor=pointer]
+              - button "sign up" [ref=f574e27] [cursor=pointer]
+            - generic: ⚠ ? or sign in with  🏦
+          - navigation "User panel":
+            - generic: ✉
+      - banner [ref=f574e28]:
+        - paragraph [ref=f574e29]:
+          - text: Become an Access Member and let employers find you. It's free.
+          - link "Become an Access Member and let employers find you. It's free. Yes, let employers find me" [ref=f574e30] [cursor=pointer]:
+            - /url: "#"
+            - text: Yes, let employers find me.
+    - text: 
+    - main [ref=f574e31]:
+      - generic [ref=f574e33]:
+        - heading "Oh no!" [level=1] [ref=f574e34]
+        - heading "We're sorry, something went wrong." [level=2] [ref=f574e35]
+        - link "Go Back" [ref=f574e37] [cursor=pointer]:
+          - /url: /careers/Browse
+      - generic: ␡
+  - contentinfo [ref=f574e39]:
+    - generic [ref=f574e41]:
+      - generic [ref=f574e42]:
+        - generic [ref=f574e43]:
+          - generic [ref=f574e44]: Job Seekers
+          - list [ref=f574e45]:
+            - listitem [ref=f574e46]:
+              - link "Log In" [ref=f574e47] [cursor=pointer]:
+                - /url: /Applications/Submitted
+            - listitem [ref=f574e48]:
+              - link "Create an Account" [ref=f574e49] [cursor=pointer]:
+                - /url: /Applications/CreateAccount
+            - listitem [ref=f574e50]:
+              - link "Access Membership" [ref=f574e51] [cursor=pointer]:
+                - /url: /AccessMembership
+            - listitem [ref=f574e52]:
+              - link "Resources" [ref=f574e53] [cursor=pointer]:
+                - /url: /resources
+        - generic [ref=f574e54]:
+          - generic [ref=f574e55]: Employers
+          - list [ref=f574e56]:
+            - listitem [ref=f574e57]:
+              - link "Advertise" [ref=f574e58] [cursor=pointer]:
+                - /url: https://employer.governmentjobs.com
+            - listitem [ref=f574e59]:
+              - link "Log In" [ref=f574e60] [cursor=pointer]:
+                - /url: https://employer.governmentjobs.com/#/sign-in
+            - listitem [ref=f574e61]:
+              - link "Other NEOGOV Products" [ref=f574e62] [cursor=pointer]:
+                - /url: https://www.neogov.com/
+        - generic [ref=f574e63]:
+          - generic [ref=f574e64]: About
+          - list [ref=f574e65]:
+            - listitem [ref=f574e66]:
+              - 'link "About Section : Help & Support" [ref=f574e67] [cursor=pointer]':
+                - /url: /home/applicationguide
+                - text: Help & Support
+            - listitem [ref=f574e68]:
+              - 'link "About Section : Company Info" [ref=f574e69] [cursor=pointer]':
+                - /url: /home/companyinfo
+                - text: Company Info
+            - listitem [ref=f574e70]:
+              - 'link "About Section : Privacy Policy" [ref=f574e71] [cursor=pointer]':
+                - /url: /home/privacypolicy
+                - text: Privacy Policy
+            - listitem [ref=f574e72]:
+              - 'link "About Section : Terms Of Use" [ref=f574e73] [cursor=pointer]':
+                - /url: /home/termsofuse
+                - text: Terms Of Use
+            - listitem [ref=f574e74]:
+              - 'button "About Section : Your Privacy Choices" [ref=f574e75] [cursor=pointer]': Your Privacy Choices
+            - listitem [ref=f574e76]:
+              - 'link "About Section : Accessibility Statement (opens in new tab)" [ref=f574e77] [cursor=pointer]':
+                - /url: /home/accessibilitystatement
+                - text: Accessibility Statement
+        - generic [ref=f574e78]:
+          - generic [ref=f574e79]: Connect
+          - list [ref=f574e80]:
+            - listitem [ref=f574e81]:
+              - link "Our Facebook. Link will be opened in a new tab." [ref=f574e82] [cursor=pointer]:
+                - /url: https://www.facebook.com/neogov
+                - text: 
+            - listitem [ref=f574e83]:
+              - link "Our Twitter. Link will be opened in a new tab." [ref=f574e84] [cursor=pointer]:
+                - /url: https://twitter.com/neogov
+            - listitem [ref=f574e85]:
+              - link "Our LinkedIn. Link will be opened in a new tab." [ref=f574e86] [cursor=pointer]:
+                - /url: https://www.linkedin.com/company/neogov
+                - text: 
+      - generic [ref=f574e87]:
+        - link [ref=f574e88] [cursor=pointer]:
+          - /url: /
+          - img "Go to Government Jobs Homepage" [ref=f574e89]
+        - link [ref=f574e90] [cursor=pointer]:
+          - /url: https://info.neogov.com/governmentjobs-contact-us
+          - img "Go to NEOGOV" [ref=f574e91]
+  - text: ␡

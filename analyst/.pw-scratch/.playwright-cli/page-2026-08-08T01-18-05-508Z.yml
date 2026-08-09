@@ -1,0 +1,208 @@
+- generic [active] [ref=f40e1]:
+  - link "Skip to content" [ref=f40e2] [cursor=pointer]:
+    - /url: "#content"
+  - generic [ref=f40e4]:
+    - generic [ref=f40e5]:
+      - generic [ref=f40e7]:
+        - generic [ref=f40e12]:
+          - link "facebook" [ref=f40e13] [cursor=pointer]:
+            - /url: https://www.facebook.com/georgialibraries
+            - text: 
+          - link "instagram" [ref=f40e14] [cursor=pointer]:
+            - /url: https://www.instagram.com/georgialibraries
+            - text: 
+          - link "youtube" [ref=f40e15] [cursor=pointer]:
+            - /url: https://www.youtube.com/georgiapubliclibrary
+            - text: 
+          - link "linkedin" [ref=f40e16] [cursor=pointer]:
+            - /url: https://www.linkedin.com/company/3255989/admin/dashboard/
+            - text: 
+          - link "mail" [ref=f40e17] [cursor=pointer]:
+            - /url: https://georgialibraries.org/subscribe/
+            - text: 
+        - navigation "New top menu" [ref=f40e20]:
+          - list [ref=f40e21]:
+            - listitem [ref=f40e22]:
+              - link "Find a Library" [ref=f40e25] [cursor=pointer]:
+                - /url: https://georgialibraries.org/find-a-library/
+            - listitem [ref=f40e27]:
+              - link "Get a Library Card" [ref=f40e30] [cursor=pointer]:
+                - /url: https://georgialibraries.org/your-library-card/
+            - listitem [ref=f40e32]:
+              - link "Library Online" [ref=f40e35] [cursor=pointer]:
+                - /url: https://georgialibraries.org/online/
+            - listitem [ref=f40e37]:
+              - link "Support Libraries" [ref=f40e40] [cursor=pointer]:
+                - /url: https://georgialibraries.org/support/
+      - generic [ref=f40e43]:
+        - link "GPLS_LogoBall_Color_primary color" [ref=f40e48] [cursor=pointer]:
+          - /url: https://georgialibraries.org/
+          - img "Georgia Public Library Service logo." [ref=f40e49]
+        - navigation "Header Multipurpose" [ref=f40e52]:
+          - text:  
+          - list [ref=f40e53]:
+            - listitem [ref=f40e54]:
+              - generic "Open submenu of About GPLS." [ref=f40e57]: About
+              - button "Open submenu of About" [ref=f40e59] [cursor=pointer]: 
+            - listitem [ref=f40e60]:
+              - generic "Open submenu of Resources for Libraries." [ref=f40e63]: Resources for Libraries
+              - button "Open submenu of Resources for Libraries" [ref=f40e65] [cursor=pointer]: 
+            - listitem [ref=f40e66]:
+              - generic "Open submenu of Resources for Library Visitors." [ref=f40e69]: Library Visitors
+              - button "Open submenu of Library Visitors" [ref=f40e71] [cursor=pointer]: 
+            - listitem [ref=f40e72]:
+              - generic "Open submenu of Library News & Stories." [ref=f40e75]: News & Stories
+              - button "Open submenu of News & Stories" [ref=f40e77] [cursor=pointer]: 
+            - listitem [ref=f40e78]:
+              - link "Jobs" [ref=f40e81] [cursor=pointer]:
+                - /url: https://georgialibraries.org/jobslist/
+            - listitem [ref=f40e83]:
+              - link "Contact" [ref=f40e86] [cursor=pointer]:
+                - /url: https://georgialibraries.org/contact/
+            - listitem [ref=f40e88]:
+              - link "Search" [ref=f40e91] [cursor=pointer]:
+                - /url: "#"
+                - generic [ref=f40e92]: 
+              - button "Expand Search" [ref=f40e94] [cursor=pointer]: 
+    - heading "Jobs" [level=1] [ref=f40e101]
+    - main [ref=f40e102]:
+      - generic [ref=f40e108]:
+        - link "Instructions for Employers" [ref=f40e112] [cursor=pointer]:
+          - /url: https://georgialibraries.org/wp-content/uploads/2021/08/joblist_instructions_aug2021.pdf
+        - link "Employer Dashboard" [ref=f40e117] [cursor=pointer]:
+          - /url: https://georgialibraries.org/job-dashboard/
+        - link "Submit a Job" [ref=f40e122] [cursor=pointer]:
+          - /url: https://georgialibraries.org/post-a-job/
+        - generic [ref=f40e126]:
+          - heading [level=3] [ref=f40e127]:
+            - strong [ref=f40e128]:
+              - emphasis [ref=f40e129]: This is a list of job announcements for any type of library within Georgia and the Southeast.
+          - heading [level=3] [ref=f40e130]:
+            - strong [ref=f40e131]: We encourage employers to include a salary or salary range with all submitted jobs. Unpaid internships are not allowed.
+          - 'heading "Disclaimer: Georgia Public Library Service makes no guarantee about positions listed and is not responsible for wages, job duties, or other aspects of employment. It is the responsibility of each individual job seeker to research the organization(s) to which they are applying and to verify the specific information pertaining to the job posting. Job seekers should exercise due diligence when applying for or accepting any position." [level=3] [ref=f40e132]'
+          - paragraph [ref=f40e133]:
+            - text: Need help with the job board?
+            - link "Contact us" [ref=f40e134] [cursor=pointer]:
+              - /url: https://georgialibraries.org/contact/
+            - text: .
+          - generic [ref=f40e135]:
+            - generic [ref=f40e136]:
+              - generic [ref=f40e137]:
+                - textbox "Keywords" [ref=f40e139]
+                - textbox "Location" [ref=f40e141]
+                - generic [ref=f40e142]:
+                  - checkbox "Remote positions only" [ref=f40e143]
+                  - generic [ref=f40e144]: Remote positions only
+                - button "Search Jobs" [ref=f40e146]
+              - list [ref=f40e147]:
+                - listitem [ref=f40e148]:
+                  - generic [ref=f40e149]:
+                    - checkbox "Freelance" [checked] [ref=f40e150]
+                    - text: Freelance
+                - listitem [ref=f40e151]:
+                  - generic [ref=f40e152]:
+                    - checkbox "Full Time" [checked] [ref=f40e153]
+                    - text: Full Time
+                - listitem [ref=f40e154]:
+                  - generic [ref=f40e155]:
+                    - checkbox "Internship" [checked] [ref=f40e156]
+                    - text: Internship
+                - listitem [ref=f40e157]:
+                  - generic [ref=f40e158]:
+                    - checkbox "Part Time" [checked] [ref=f40e159]
+                    - text: Part Time
+                - listitem [ref=f40e160]:
+                  - generic [ref=f40e161]:
+                    - checkbox "Temporary" [checked] [ref=f40e162]
+                    - text: Temporary
+            - list [ref=f40e163]
+    - generic [ref=f40e167]:
+      - generic [ref=f40e169]:
+        - heading [level=3] [ref=f40e171]:
+          - strong [ref=f40e172]: QUICK LINKS
+        - navigation "Footer - Quick Links" [ref=f40e173]:
+          - list [ref=f40e174]:
+            - listitem [ref=f40e175]:
+              - link "Resources for Libraries" [ref=f40e178] [cursor=pointer]:
+                - /url: https://georgialibraries.org/resources-for-libraries/
+            - listitem [ref=f40e180]:
+              - link "Get a Library Card" [ref=f40e183] [cursor=pointer]:
+                - /url: https://georgialibraries.org/your-library-card/
+            - listitem [ref=f40e185]:
+              - link "Library Online" [ref=f40e188] [cursor=pointer]:
+                - /url: https://georgialibraries.org/online/
+            - listitem [ref=f40e190]:
+              - link "News & Stories" [ref=f40e193] [cursor=pointer]:
+                - /url: https://georgialibraries.org/news-stories/
+            - listitem [ref=f40e195]:
+              - link "Accessibility" [ref=f40e198] [cursor=pointer]:
+                - /url: https://about.galileo.usg.edu/about/accessibility
+            - listitem [ref=f40e200]:
+              - link "Privacy Policy" [ref=f40e203] [cursor=pointer]:
+                - /url: https://georgialibraries.org/privacy-policy/
+      - generic [ref=f40e206]:
+        - heading [level=3] [ref=f40e208]:
+          - strong [ref=f40e209]: SERVICE SITES
+        - navigation "Footer - Service Sites" [ref=f40e210]:
+          - list [ref=f40e211]:
+            - listitem [ref=f40e212]:
+              - link "GALILEO" [ref=f40e215] [cursor=pointer]:
+                - /url: https://www.galileo.usg.edu/
+            - listitem [ref=f40e217]:
+              - link "Georgia Archives" [ref=f40e220] [cursor=pointer]:
+                - /url: https://www.georgiaarchives.org/
+            - listitem [ref=f40e222]:
+              - link "GLS" [ref=f40e225] [cursor=pointer]:
+                - /url: https://gls.georgialibraries.org/
+            - listitem [ref=f40e227]:
+              - link "IT Services / LibTech" [ref=f40e230] [cursor=pointer]:
+                - /url: https://galibtech.georgialibraries.org/
+            - listitem [ref=f40e232]:
+              - link "PINES Catalog" [ref=f40e235] [cursor=pointer]:
+                - /url: https://gapines.org/eg/opac/home
+      - generic [ref=f40e238]:
+        - heading [level=3] [ref=f40e240]:
+          - strong [ref=f40e241]:
+            - link "CONTACT" [ref=f40e243] [cursor=pointer]:
+              - /url: https://georgialibraries.org/contact/
+        - generic [ref=f40e244]:
+          - generic [ref=f40e245]: 2872 Woodcock Boulevard Suite 250 Atlanta, GA 30341
+          - paragraph [ref=f40e247]:
+            - text: "Phone:"
+            - link "404-235-7200" [ref=f40e248] [cursor=pointer]:
+              - /url: tel:+14042357200
+          - paragraph [ref=f40e249]:
+            - link "Find a Library" [ref=f40e250] [cursor=pointer]:
+              - /url: https://georgialibraries.org/find-a-library/
+          - paragraph [ref=f40e251]:
+            - link "Directories" [ref=f40e252] [cursor=pointer]:
+              - /url: https://georgialibraries.org/directories/
+      - generic [ref=f40e254]:
+        - img "Institute of Museum and Library Service logo." [ref=f40e257]
+        - paragraph [ref=f40e259]:
+          - text: This website and other Georgia Public Library Service programs are partially assisted with funds from the Library Services and Technology Act through the
+          - link "Institute of Museum and Library Services" [ref=f40e260] [cursor=pointer]:
+            - /url: https://www.imls.gov/
+          - text: .
+      - generic [ref=f40e265]:
+        - link "facebook" [ref=f40e266] [cursor=pointer]:
+          - /url: https://www.facebook.com/georgialibraries
+          - text: 
+        - link "instagram" [ref=f40e267] [cursor=pointer]:
+          - /url: https://www.instagram.com/georgialibraries
+          - text: 
+        - link "youtube" [ref=f40e268] [cursor=pointer]:
+          - /url: https://www.youtube.com/georgiapubliclibrary
+          - text: 
+        - link "linkedin" [ref=f40e269] [cursor=pointer]:
+          - /url: https://www.linkedin.com/company/georgia-public-library-service
+          - text: 
+        - link "mail" [ref=f40e270] [cursor=pointer]:
+          - /url: https://georgialibraries.org/subscribe
+          - text: 
+      - paragraph [ref=f40e274]: Copyright – Georgia Public Library Service | All Rights Reserved
+  - region "Go to Top":
+    - link " Go to Top":
+      - /url: "#"
+      - text: 
+      - generic: Go to Top

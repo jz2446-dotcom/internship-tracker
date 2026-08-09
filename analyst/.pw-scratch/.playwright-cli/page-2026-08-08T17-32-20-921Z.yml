@@ -1,0 +1,262 @@
+- generic [active] [ref=f131e1]:
+  - img "FDIC Logo" [ref=f131e3]
+  - generic [ref=f131e8]:
+    - banner [ref=f131e9]:
+      - navigation [ref=f131e10]:
+        - generic [ref=f131e11]:
+          - generic [ref=f131e14]:
+            - generic [ref=f131e15]: "Call Customer Support: 888-326-2265"
+            - generic [ref=f131e17]:
+              - link "Skip to login" [ref=f131e18] [cursor=pointer]:
+                - /url: "#login-link"
+              - link "Skip to Main Content" [ref=f131e19] [cursor=pointer]:
+                - /url: "#main-content"
+              - link "top submenu Contact" [ref=f131e21] [cursor=pointer]:
+                - /url: /contact-us
+                - text: Contact
+              - link "top submenu ATMs & Branches" [ref=f131e24] [cursor=pointer]:
+                - /url: /branches-atms-locations
+                - text: ATMs & Branches
+              - button "submenu search" [expanded] [ref=f131e27] [cursor=pointer]: Search
+          - link "Beneficial State Bank Logo" [ref=f131e30] [cursor=pointer]:
+            - /url: /
+            - img "Beneficial State Bank Logo Original" [ref=f131e31]
+          - generic [ref=f131e32]:
+            - list "navigation menu items" [ref=f131e33]:
+              - listitem [ref=f131e34]:
+                - link "Personal, main menu dropdown toggle" [ref=f131e35] [cursor=pointer]:
+                  - generic [ref=f131e36]: Personal
+                  - generic [ref=f131e37]: Toggle Dropdown
+              - listitem [ref=f131e39]:
+                - link "Business & Nonprofit, main menu dropdown toggle" [ref=f131e40] [cursor=pointer]:
+                  - generic [ref=f131e41]: Business & Nonprofit
+                  - generic [ref=f131e42]: Toggle Dropdown
+              - listitem [ref=f131e44]:
+                - link "Impact, main menu dropdown toggle" [ref=f131e45] [cursor=pointer]:
+                  - generic [ref=f131e46]: Impact
+                  - generic [ref=f131e47]: Toggle Dropdown
+              - listitem [ref=f131e49]:
+                - link "About Us, main menu dropdown toggle" [ref=f131e50] [cursor=pointer]:
+                  - generic [ref=f131e51]: About Us
+                  - generic [ref=f131e52]: Toggle Dropdown
+            - link "Log In" [ref=f131e57] [cursor=pointer]:
+              - /url: /login
+          - text: xmark
+      - search [ref=f131e60]:
+        - generic [ref=f131e61]: Search
+        - searchbox "Search" [ref=f131e62]
+    - main [ref=f131e65]:
+      - navigation [ref=f131e66]:
+        - list [ref=f131e68]:
+          - listitem [ref=f131e69]:
+            - link "About Us" [ref=f131e70] [cursor=pointer]:
+              - /url: https://www.beneficialstatebank.com/about-us
+            - text: →
+          - listitem [ref=f131e71]:
+            - link "Join Our Email List":
+              - /url: ""
+      - heading "Join Our Email List" [level=1] [ref=f131e74]
+      - generic [ref=f131e75]:
+        - iframe [ref=f131e79]:
+          - generic [ref=f134e3]:
+            - generic [ref=f134e5]:
+              - heading "Stay informed on impact banking news and events by being part of Beneficial State Bank's virtual community." [level=2] [ref=f134e8]
+              - paragraph [ref=f134e10]: To make sure that you get the communications that are relevant to you, you'll receive a welcome email where we'll invite you to manage your preferences.
+              - separator [ref=f134e12]
+            - generic [ref=f134e13]:
+              - generic [ref=f134e14]:
+                - strong [ref=f134e16]: Your First Name
+                - text: "*"
+              - textbox "Your First Name*" [ref=f134e18]:
+                - /placeholder: ""
+            - generic [ref=f134e19]:
+              - strong [ref=f134e22]: Your Last Name
+              - textbox "Your Last Name" [ref=f134e24]:
+                - /placeholder: ""
+            - generic [ref=f134e25]:
+              - generic [ref=f134e26]:
+                - strong [ref=f134e28]: Your Email Address
+                - text: "*"
+              - textbox "Your Email Address*" [ref=f134e30]:
+                - /placeholder: ""
+            - generic [ref=f134e31]:
+              - generic [ref=f134e32]:
+                - strong [ref=f134e34]: Your Location
+                - text: "*"
+              - combobox "Your Location*" [ref=f134e36]:
+                - option "Please Select" [disabled] [selected]
+                - option "Northern California"
+                - option "Central California"
+                - option "Southern California"
+                - option "Oregon"
+                - option "Washington"
+                - option "Other State in the U.S."
+                - option "Outside of the U.S."
+            - generic [ref=f134e37]: By submitting this form, I’m acknowledging that I’m ready to receive marketing emails from Beneficial State Bank.
+            - button "Submit" [ref=f134e41] [cursor=pointer]
+        - generic [ref=f131e81]:
+          - heading "Spotlight on Ethical Banking" [level=3] [ref=f131e82]
+          - paragraph [ref=f131e83]: "We envision a more equitable economy and a banking industry that prioritizes a triple-bottom-line: people, planet, and prosperity for all."
+          - generic [ref=f131e84]:
+            - link [ref=f131e86] [cursor=pointer]:
+              - /url: https://www.beneficialstatebank.com/better-banking-blog/ethical-banking/what-does-climate-change-have-to-do-with-the-banking-industry
+              - img "Forest with Sunlight Coming Through" [ref=f131e88]
+              - heading "What Does Climate Change Have to Do with the Banking Industry?" [level=4] [ref=f131e89]
+            - link [ref=f131e91] [cursor=pointer]:
+              - /url: https://www.beneficialstatebank.com/better-banking-blog/ethical-banking/changing-the-state-of-affordable-housing
+              - img "Man and daughter sitting at a table drawing rainbows together" [ref=f131e93]
+              - heading "How the Banking Industry Can Change the State of Affordable Housing" [level=4] [ref=f131e94]
+            - link [ref=f131e96] [cursor=pointer]:
+              - /url: https://www.beneficialstatebank.com/better-banking-blog/ethical-banking/banking-on-renewable-energy
+              - img "Four stacks of coins on dirt with small plants appearing to grow from the piles of coins" [ref=f131e98]
+              - heading "Banking on Renewable Energy" [level=4] [ref=f131e99]
+          - link "Read More" [ref=f131e100] [cursor=pointer]:
+            - /url: https://www.beneficialstatebank.com/better-banking-blog/ethical-banking
+        - generic [ref=f131e104]:
+          - generic [ref=f131e105]:
+            - heading "Choose a Bank that Invests in Tomorrow" [level=4] [ref=f131e106]
+            - img "Bank Institution" [ref=f131e107]
+          - generic [ref=f131e109]:
+            - paragraph [ref=f131e110]: Beneficial State Bank serves the triple-bottom-line of people, planet, and prosperity for all. That means prioritizing social justice and environmental sustainability. Change your bank and help change the world.
+            - generic [ref=f131e111]:
+              - link "Personal Banking" [ref=f131e112] [cursor=pointer]:
+                - /url: /personal
+              - link "Business Banking" [ref=f131e116] [cursor=pointer]:
+                - /url: /business-banking
+              - link "Nonprofit Banking" [ref=f131e120] [cursor=pointer]:
+                - /url: /nonprofit-banking
+  - contentinfo [ref=f131e127]:
+    - generic [ref=f131e128]:
+      - list [ref=f131e130]:
+        - listitem [ref=f131e131]:
+          - button "Facebook" [ref=f131e132] [cursor=pointer]:
+            - img [ref=f131e133]: facebook-f
+        - listitem [ref=f131e135]:
+          - button "Instagram" [ref=f131e136] [cursor=pointer]:
+            - img [ref=f131e137]: instagram
+        - listitem [ref=f131e139]:
+          - button "Youtube" [ref=f131e140] [cursor=pointer]:
+            - img [ref=f131e141]: youtube
+        - listitem [ref=f131e143]:
+          - button "LinkedIn" [ref=f131e144] [cursor=pointer]:
+            - img [ref=f131e145]: linkedin-in
+      - generic [ref=f131e147]:
+        - link [ref=f131e148] [cursor=pointer]:
+          - /url: https://apps.apple.com/us/app/beneficial-state-bank-mobile/id1270305930
+          - img "apple store" [ref=f131e149]
+        - link [ref=f131e150] [cursor=pointer]:
+          - /url: https://play.google.com/store/apps/details?id=com.beneficialstatebank.mobile&utm_source=Personal-digital-banking&utm_campaign=Website%20landing%20pages&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1
+          - img "google play" [ref=f131e151]
+      - generic [ref=f131e152]:
+        - list [ref=f131e154]:
+          - listitem [ref=f131e155]:
+            - heading "Banking" [level=4] [ref=f131e156]
+          - listitem [ref=f131e157]:
+            - link "Online Banking Login" [ref=f131e158] [cursor=pointer]:
+              - /url: "\n                                                        https://www.beneficialstatebank.com/login\n                                                    "
+          - listitem [ref=f131e159]:
+            - link "ATMs & Branches" [ref=f131e160] [cursor=pointer]:
+              - /url: "\n                                                        https://www.beneficialstatebank.com/branches-atms-locations\n                                                    "
+          - listitem [ref=f131e161]:
+            - link "Holiday Schedule" [ref=f131e162] [cursor=pointer]:
+              - /url: "\n                                                        https://www.beneficialstatebank.com/branches-atms-locations/beneficial-state-bank-holiday-schedule\n                                                    "
+          - listitem [ref=f131e163]:
+            - link "Open an Account" [ref=f131e164] [cursor=pointer]:
+              - /url: "\n                                                        https://forms.fivision.com/beneficialstate/oa/default.aspx\n                                                    "
+        - list [ref=f131e166]:
+          - listitem [ref=f131e167]:
+            - heading "About Us" [level=4] [ref=f131e168]
+          - listitem [ref=f131e169]:
+            - link "Careers" [ref=f131e170] [cursor=pointer]:
+              - /url: "\n                                                        https://www.beneficialstatebank.com/about-us/careers-job-openings\n                                                    "
+          - listitem [ref=f131e171]:
+            - link "Join Our Email List" [ref=f131e172] [cursor=pointer]:
+              - /url: "\n                                                        https://www.beneficialstatebank.com/about-us/join-our-email-list\n                                                    "
+          - listitem [ref=f131e173]:
+            - link "Media Kit" [ref=f131e174] [cursor=pointer]:
+              - /url: "\n                                                        https://www.beneficialstatebank.com/about-us/media-kit\n                                                    "
+          - listitem [ref=f131e175]:
+            - link "CRA Public File" [ref=f131e176] [cursor=pointer]:
+              - /url: "\n                                                        https://www.beneficialstatebank.com/impact/community-reinvestment-act-cra-public-file\n                                                    "
+        - list [ref=f131e178]:
+          - listitem [ref=f131e179]:
+            - heading "Legal" [level=4] [ref=f131e180]
+          - listitem [ref=f131e181]:
+            - link "Web Accessibility" [ref=f131e182] [cursor=pointer]:
+              - /url: "\n                                                        https://www.beneficialstatebank.com/web-accessibility\n                                                    "
+          - listitem [ref=f131e183]:
+            - link "Your Privacy & Data" [ref=f131e184] [cursor=pointer]:
+              - /url: "\n                                                        https://www.beneficialstatebank.com/your-privacy-and-data\n                                                    "
+          - listitem [ref=f131e185]:
+            - link "Terms of Use" [ref=f131e186] [cursor=pointer]:
+              - /url: "\n                                                        https://www.beneficialstatebank.com/terms-of-use\n                                                    "
+          - listitem [ref=f131e187]:
+            - link "Cookie Preferences" [ref=f131e188] [cursor=pointer]:
+              - /url: "#"
+        - list [ref=f131e190]:
+          - listitem [ref=f131e191]:
+            - heading "Support" [level=4] [ref=f131e192]
+          - listitem [ref=f131e193]:
+            - link "Contact Us" [ref=f131e194] [cursor=pointer]:
+              - /url: "\n                                                        https://www.beneficialstatebank.com/contact-us\n                                                    "
+          - listitem [ref=f131e195]:
+            - link "Financial Wellness" [ref=f131e196] [cursor=pointer]:
+              - /url: "\n                                                        https://www.beneficialstatebank.com/personal-banking/financial-wellness\n                                                    "
+          - listitem [ref=f131e197]:
+            - link "Fraud Awareness" [ref=f131e198] [cursor=pointer]:
+              - /url: "\n                                                        https://www.beneficialstatebank.com/security-fraud-awareness\n                                                    "
+          - listitem [ref=f131e199]:
+            - link "Share Your Feedback" [ref=f131e200] [cursor=pointer]:
+              - /url: "\n                                                        https://beneficialstatebank.qualtrics.com/jfe/form/SV_3sKdRNI7qoUHaWa\n                                                    "
+      - generic [ref=f131e201]:
+        - link [ref=f131e203] [cursor=pointer]:
+          - /url: https://www.fdic.gov/
+          - img "Member FDIC logo in white" [ref=f131e204]
+        - link [ref=f131e206] [cursor=pointer]:
+          - /url: /impact/b-corp
+          - img "Certified B Corporation" [ref=f131e207]
+        - link [ref=f131e209] [cursor=pointer]:
+          - /url: /impact/community-development-financial-institution-cdfi
+          - img "CDFI Certified Bank SBA Preferred Lender" [ref=f131e210]
+        - link [ref=f131e212] [cursor=pointer]:
+          - /url: https://www.beneficialstatebank.com/impact/global-alliance-for-banking-on-values-gabv
+          - img "Global Alliance for Banking on Values logo" [ref=f131e213]
+        - link [ref=f131e215] [cursor=pointer]:
+          - /url: https://www.unepfi.org/banking/prbsignatories/
+          - img "UNEP Principles for Responsible Banking" [ref=f131e216]
+        - link [ref=f131e218] [cursor=pointer]:
+          - /url: /better-banking-blog/news-and-announcements/why-weve-pledged-to-stay-fossil-fuel-free
+          - img "Bank.Green Fossil Free Certification" [ref=f131e219]
+      - generic [ref=f131e220]:
+        - generic [ref=f131e222]:
+          - paragraph [ref=f131e223]:
+            - strong [ref=f131e224]: Welcome to Beneficial Banking™
+          - paragraph [ref=f131e225]:
+            - text: "Routing Number:"
+            - generic [ref=f131e227] [cursor=pointer]:
+              - text: "121182056"
+              - img "Clickboard copy Icon" [ref=f131e228]
+        - paragraph [ref=f131e231]:
+          - text: Member FDIC. Equal Housing Lender
+          - img "fdic member" [ref=f131e232]
+          - text: . SBA Preferred Lender.
+        - paragraph [ref=f131e233]: Copyright 2026. All rights reserved
+  - generic:
+    - dialog "Privacy" [ref=f131e235]:
+      - generic [ref=f131e237]:
+        - generic [ref=f131e240]:
+          - text: By continuing to use our website, you agree to our
+          - link "Terms of Service" [ref=f131e241] [cursor=pointer]:
+            - /url: /terms-of-use
+          - text: and
+          - link "Privacy Policy" [ref=f131e242] [cursor=pointer]:
+            - /url: /privacy-security
+          - text: . As detailed in our
+          - link "Privacy Policy" [ref=f131e243] [cursor=pointer]:
+            - /url: /privacy-security
+          - text: ", we never sell your personal information and we use cookies to improve your experience on our site. You can review the cookies used and turn off non-essential cookies by clicking “Do Not Sell or Share My Personal Information.”"
+        - generic [ref=f131e245]:
+          - button "Cookie Settings, Opens the preference center dialog" [ref=f131e246] [cursor=pointer]: Cookie Settings
+          - button "Accept All Cookies" [ref=f131e247] [cursor=pointer]
+      - button "Close" [ref=f131e249] [cursor=pointer]
+    - text: Cookie Preferences

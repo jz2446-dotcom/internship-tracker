@@ -1,0 +1,427 @@
+- generic [active] [ref=f119e1]:
+  - generic [ref=f119e2]:
+    - button "Skip to main content"
+    - generic [ref=f119e3]:
+      - banner [ref=f119e4]:
+        - generic [ref=f119e5]:
+          - generic [ref=f119e6]:
+            - generic [ref=f119e7]:
+              - link "Employers" [ref=f119e8] [cursor=pointer]:
+                - /url: /employers
+              - link "Schools" [ref=f119e9] [cursor=pointer]:
+                - /url: /schools
+            - link [ref=f119e11] [cursor=pointer]:
+              - /url: /cart
+              - img "Shopping Cart" [ref=f119e13]
+          - generic [ref=f119e20]:
+            - generic [ref=f119e22]:
+              - link "Vault — Return to home" [ref=f119e25] [cursor=pointer]:
+                - /url: /welcome
+                - img "Vault logo" [ref=f119e26]
+              - generic [ref=f119e29]:
+                - generic [ref=f119e30]:
+                  - generic [ref=f119e31]: Search
+                  - textbox "Search" [ref=f119e32]
+                  - button "Submit search" [ref=f119e33] [cursor=pointer]
+                - link "Login" [ref=f119e36] [cursor=pointer]:
+                  - /url: /login
+            - generic [ref=f119e40]:
+              - generic [ref=f119e42]:
+                - link "Rankings" [ref=f119e45] [cursor=pointer]:
+                  - /url: /careers/rankings
+                - link "Internships" [ref=f119e48] [cursor=pointer]:
+                  - /url: /intern-resource-center
+                - link "Vault Law" [ref=f119e51] [cursor=pointer]:
+                  - /url: /vault-law
+                - link "Guides" [ref=f119e54] [cursor=pointer]:
+                  - /url: /vault-guides
+                - link "Events" [ref=f119e57] [cursor=pointer]:
+                  - /url: /auth/idp/jwt/redirect?clientId=vault-events&confirm=false&passthrough=true
+                - link "Blog" [ref=f119e60] [cursor=pointer]:
+                  - /url: /library/blogs-employment-news
+                - button "Career Advice" [ref=f119e63] [cursor=pointer]
+              - separator [ref=f119e64]
+      - main [ref=f119e65]:
+        - banner [ref=f119e66]:
+          - generic [ref=f119e68]:
+            - heading "Access valuable content to drive your career forward" [level=1] [ref=f119e69]
+            - generic [ref=f119e70]: You want a career that’s rewarding, both personally and financially. Whether you’re just starting out or looking to make a change, we help break down the barriers to taking that next career step—with insider insights, sample cover letters and resumes, and answers to those tough interview questions that will prepare you for interactions with potential employers.
+        - generic [ref=f119e71]:
+          - generic [ref=f119e74]:
+            - generic [ref=f119e76]:
+              - link "Vault Rankings" [ref=f119e78] [cursor=pointer]:
+                - /url: /careers/rankings
+              - link "Companies" [ref=f119e80] [cursor=pointer]:
+                - /url: /careers/companies
+              - link "Professions" [ref=f119e82] [cursor=pointer]:
+                - /url: /careers/professions
+              - link "Industries" [ref=f119e84] [cursor=pointer]:
+                - /url: /careers/industries
+              - link "Internships" [ref=f119e86] [cursor=pointer]:
+                - /url: /careers/internships
+            - separator [ref=f119e87]
+          - generic [ref=f119e88]:
+            - button "Take Our Survey" [ref=f119e90] [cursor=pointer]
+            - generic [ref=f119e94]:
+              - generic [ref=f119e95]:
+                - heading "Featured Rankings" [level=2] [ref=f119e96]
+                - generic [ref=f119e97]:
+                  - button "Previous slide" [disabled]
+                  - button "Next slide" [ref=f119e98] [cursor=pointer]
+              - generic [ref=f119e101]:
+                - group [ref=f119e102]:
+                  - link [ref=f119e103] [cursor=pointer]:
+                    - /url: /best-companies-to-work-for/law/top-100-law-firms-rankings
+                    - button "Vault Law 100 - open card" [ref=f119e104]:
+                      - img "Vault Law 100" [ref=f119e106]
+                      - heading "Vault Law 100" [level=3] [ref=f119e107]
+                - group [ref=f119e109]:
+                  - link [ref=f119e110] [cursor=pointer]:
+                    - /url: /best-companies-to-work-for/consulting/vault-consulting-rankings-top-50
+                    - button "Vault Consulting 50 North America - open card" [ref=f119e111]:
+                      - img "Vault Consulting 50 North America" [ref=f119e113]
+                      - heading "Vault Consulting 50 North America" [level=3] [ref=f119e114]
+                - group [ref=f119e116]:
+                  - link [ref=f119e117] [cursor=pointer]:
+                    - /url: /best-companies-to-work-for/banking/best-banks-to-work-for-top-25
+                    - button "Vault Banking 25 - open card" [ref=f119e118]:
+                      - img "Vault Banking 25" [ref=f119e120]
+                      - heading "Vault Banking 25" [level=3] [ref=f119e121]
+                - group [ref=f119e123]:
+                  - link [ref=f119e124] [cursor=pointer]:
+                    - /url: /best-companies-to-work-for/accounting/vault-accounting-25
+                    - button "Vault Accounting 25 - open card" [ref=f119e125]:
+                      - img "Vault Accounting 25" [ref=f119e127]
+                      - heading "Vault Accounting 25" [level=3] [ref=f119e128]
+                - group [ref=f119e130]:
+                  - link [ref=f119e131] [cursor=pointer]:
+                    - /url: /best-companies-to-work-for/consulting/vault-top-consulting-asia-pacific
+                    - button "Vault Top Consulting Asia-Pacific - open card" [ref=f119e132]:
+                      - img "Vault Top Consulting Asia-Pacific" [ref=f119e134]
+                      - heading "Vault Top Consulting Asia-Pacific" [level=3] [ref=f119e135]
+                - group [ref=f119e137]:
+                  - link [ref=f119e138] [cursor=pointer]:
+                    - /url: /best-companies-to-work-for/consulting/vault-top-european-consulting-25
+                    - button "Vault Consulting 25 EMEA - open card" [ref=f119e139]:
+                      - img "Vault Consulting 25 EMEA" [ref=f119e141]
+                      - heading "Vault Consulting 25 EMEA" [level=3] [ref=f119e142]
+            - generic [ref=f119e145]:
+              - generic [ref=f119e146]:
+                - heading "Top Vault Law Rankings" [level=2] [ref=f119e147]
+                - generic [ref=f119e148]:
+                  - button "Previous slide" [disabled]
+                  - button "Next slide" [ref=f119e149] [cursor=pointer]
+              - generic [ref=f119e152]:
+                - group [ref=f119e153]:
+                  - link [ref=f119e154] [cursor=pointer]:
+                    - /url: /best-companies-to-work-for/law/top-100-law-firms-rankings
+                    - button "Vault Law 100 - open card" [ref=f119e155]:
+                      - img "Vault Law 100" [ref=f119e157]
+                      - heading "Vault Law 100" [level=3] [ref=f119e158]
+                - group [ref=f119e160]:
+                  - link [ref=f119e161] [cursor=pointer]:
+                    - /url: /best-companies-to-work-for/law/best-law-firms-to-work-for
+                    - button "Best Law Firms to Work For - open card" [ref=f119e162]:
+                      - img "Best Law Firms to Work For" [ref=f119e164]
+                      - heading "Best Law Firms to Work For" [level=3] [ref=f119e165]
+                - group [ref=f119e167]:
+                  - link [ref=f119e168] [cursor=pointer]:
+                    - /url: /best-companies-to-work-for/law/best-law-firms-for-inclusion
+                    - button "Best Law Firms for Inclusion - open card" [ref=f119e169]:
+                      - img "Best Law Firms for Inclusion" [ref=f119e171]
+                      - heading "Best Law Firms for Inclusion" [level=3] [ref=f119e172]
+                - group [ref=f119e174]:
+                  - link [ref=f119e175] [cursor=pointer]:
+                    - /url: /best-companies-to-work-for/law/best-law-firms-in-each-practice-area/antitrust
+                    - button "Best Law Firms by Practice Area - open card" [ref=f119e176]:
+                      - img "Best Law Firms by Practice Area" [ref=f119e178]
+                      - heading "Best Law Firms by Practice Area" [level=3] [ref=f119e179]
+                - group [ref=f119e181]:
+                  - link [ref=f119e182] [cursor=pointer]:
+                    - /url: /best-companies-to-work-for/law/best-law-firms-in-each-us-region/atlanta
+                    - button "Best Law Firms by Region - open card" [ref=f119e183]:
+                      - img "Best Law Firms by Region" [ref=f119e185]
+                      - heading "Best Law Firms by Region" [level=3] [ref=f119e186]
+                - group [ref=f119e188]:
+                  - link [ref=f119e189] [cursor=pointer]:
+                    - /url: /best-companies-to-work-for/law/best-summer-associate-programs
+                    - button "Best Summer Associate Programs - open card" [ref=f119e190]:
+                      - img "Best Summer Associate Programs" [ref=f119e192]
+                      - heading "Best Summer Associate Programs" [level=3] [ref=f119e193]
+                - group [ref=f119e195]:
+                  - link [ref=f119e196] [cursor=pointer]:
+                    - /url: /best-companies-to-work-for/law/best-midsize-law-firms-to-work-for
+                    - button "Best Midsize Law Firms to Work For - open card" [ref=f119e197]:
+                      - img "Best Midsize Law Firms to Work For" [ref=f119e199]
+                      - heading "Best Midsize Law Firms to Work For" [level=3] [ref=f119e200]
+                - group [ref=f119e202]:
+                  - link [ref=f119e203] [cursor=pointer]:
+                    - /url: /best-companies-to-work-for/law/best-midsize-law-firms-by-region/boston
+                    - button "Best Midsize Law Firms by Region - open card" [ref=f119e204]:
+                      - img "Best Midsize Law Firms by Region" [ref=f119e206]
+                      - heading "Best Midsize Law Firms by Region" [level=3] [ref=f119e207]
+                - group [ref=f119e209]:
+                  - link [ref=f119e210] [cursor=pointer]:
+                    - /url: /top-150-best-law-firms-to-work-for-under-150
+                    - button "Top 150 Under 150 - open card" [ref=f119e211]:
+                      - img "Top 150 Under 150" [ref=f119e213]
+                      - heading "Top 150 Under 150" [level=3] [ref=f119e214]
+              - link [ref=f119e217] [cursor=pointer]:
+                - /url: /best-companies-to-work-for/law
+            - generic [ref=f119e223]:
+              - generic [ref=f119e224]:
+                - heading "Top Consulting Rankings" [level=2] [ref=f119e225]
+                - generic [ref=f119e226]:
+                  - button "Previous slide" [disabled]
+                  - button "Next slide" [ref=f119e227] [cursor=pointer]
+              - generic [ref=f119e230]:
+                - group [ref=f119e231]:
+                  - link [ref=f119e232] [cursor=pointer]:
+                    - /url: /best-companies-to-work-for/consulting/vault-consulting-rankings-top-50
+                    - button "Vault Consulting 50 North America - open card" [ref=f119e233]:
+                      - img "Vault Consulting 50 North America" [ref=f119e235]
+                      - heading "Vault Consulting 50 North America" [level=3] [ref=f119e236]
+                - group [ref=f119e238]:
+                  - link [ref=f119e239] [cursor=pointer]:
+                    - /url: /best-companies-to-work-for/consulting/best-consulting-firms-prestige
+                    - button "Most Prestigious Consulting Firms in North America - open card" [ref=f119e240]:
+                      - img "Most Prestigious Consulting Firms in North America" [ref=f119e242]
+                      - heading "Most Prestigious Consulting Firms in North America" [level=3] [ref=f119e243]
+                - group [ref=f119e245]:
+                  - link [ref=f119e246] [cursor=pointer]:
+                    - /url: /best-companies-to-work-for/consulting/best-boutique-consulting-firms
+                    - button "Best Boutique Consulting Firms - open card" [ref=f119e247]:
+                      - img "Best Boutique Consulting Firms" [ref=f119e249]
+                      - heading "Best Boutique Consulting Firms" [level=3] [ref=f119e250]
+                - group [ref=f119e252]:
+                  - link [ref=f119e253] [cursor=pointer]:
+                    - /url: /best-companies-to-work-for/consulting/best-firms-in-each-practice-area/data-analytics-consulting
+                    - button "Best Consulting Firms in Each Practice Area in North America - open card" [ref=f119e254]:
+                      - img "Best Consulting Firms in Each Practice Area in North America" [ref=f119e256]
+                      - heading "Best Consulting Firms in Each Practice Area in North America" [level=3] [ref=f119e257]
+                - group [ref=f119e259]:
+                  - link [ref=f119e260] [cursor=pointer]:
+                    - /url: /best-companies-to-work-for/consulting/best-to-work-for/benefits
+                    - button "Best Consulting Firms to Work For in North America | Vault.com - open card" [ref=f119e261]:
+                      - img "Best Consulting Firms to Work For in North America | Vault.com" [ref=f119e263]
+                      - heading "Best Consulting Firms to Work For in North America | Vault.com" [level=3] [ref=f119e264]
+                - group [ref=f119e266]:
+                  - link [ref=f119e267] [cursor=pointer]:
+                    - /url: /best-companies-to-work-for/consulting/vault-top-european-consulting-25
+                    - button "Vault Consulting 25 EMEA - open card" [ref=f119e268]:
+                      - img "Vault Consulting 25 EMEA" [ref=f119e270]
+                      - heading "Vault Consulting 25 EMEA" [level=3] [ref=f119e271]
+                - group [ref=f119e273]:
+                  - link [ref=f119e274] [cursor=pointer]:
+                    - /url: /best-companies-to-work-for/consulting/europe-prestige
+                    - button "Most Prestigious Consulting Firms in EMEA - open card" [ref=f119e275]:
+                      - img "Most Prestigious Consulting Firms in EMEA" [ref=f119e277]
+                      - heading "Most Prestigious Consulting Firms in EMEA" [level=3] [ref=f119e278]
+                - group [ref=f119e280]:
+                  - link [ref=f119e281] [cursor=pointer]:
+                    - /url: /best-companies-to-work-for/consulting/europe-best-firms-in-each-practice-area/data-analytics-consulting
+                    - button "Best Consulting Firms in EMEA in Each Practice Area - open card" [ref=f119e282]:
+                      - img "Best Consulting Firms in EMEA in Each Practice Area" [ref=f119e284]
+                      - heading "Best Consulting Firms in EMEA in Each Practice Area" [level=3] [ref=f119e285]
+                - group [ref=f119e287]:
+                  - link [ref=f119e288] [cursor=pointer]:
+                    - /url: /best-companies-to-work-for/consulting/europe-best-to-work-for/benefits
+                    - button "Best Consulting Firms in EMEA to Work For - open card" [ref=f119e289]:
+                      - img "Best Consulting Firms in EMEA to Work For" [ref=f119e291]
+                      - heading "Best Consulting Firms in EMEA to Work For" [level=3] [ref=f119e292]
+                - group [ref=f119e294]:
+                  - link [ref=f119e295] [cursor=pointer]:
+                    - /url: /best-companies-to-work-for/consulting/vault-top-consulting-asia-pacific
+                    - button "Vault Top Consulting Asia-Pacific - open card" [ref=f119e296]:
+                      - img "Vault Top Consulting Asia-Pacific" [ref=f119e298]
+                      - heading "Vault Top Consulting Asia-Pacific" [level=3] [ref=f119e299]
+                - group [ref=f119e301]:
+                  - link [ref=f119e302] [cursor=pointer]:
+                    - /url: /best-companies-to-work-for/consulting/asia-pacific-prestige
+                    - button "Most Prestigious Consulting Firms in Asia-Pacific - open card" [ref=f119e303]:
+                      - img "Most Prestigious Consulting Firms in Asia-Pacific" [ref=f119e305]
+                      - heading "Most Prestigious Consulting Firms in Asia-Pacific" [level=3] [ref=f119e306]
+                - group [ref=f119e308]:
+                  - link [ref=f119e309] [cursor=pointer]:
+                    - /url: /best-companies-to-work-for/consulting/asia-pacific-best-firms-in-each-practice-area/data-analytics-consulting
+                    - button "Best Consulting Firms in Asia-Pacific in Each Practice Area - open card" [ref=f119e310]:
+                      - img "Best Consulting Firms in Asia-Pacific in Each Practice Area" [ref=f119e312]
+                      - heading "Best Consulting Firms in Asia-Pacific in Each Practice Area" [level=3] [ref=f119e313]
+              - link [ref=f119e316] [cursor=pointer]:
+                - /url: /best-companies-to-work-for/consulting
+            - generic [ref=f119e322]:
+              - generic [ref=f119e323]:
+                - heading "Top Banking Rankings" [level=2] [ref=f119e324]
+                - generic [ref=f119e325]:
+                  - button "Previous slide" [disabled]
+                  - button "Next slide" [disabled]
+              - generic [ref=f119e326]:
+                - group [ref=f119e327]:
+                  - link [ref=f119e328] [cursor=pointer]:
+                    - /url: /best-companies-to-work-for/banking/best-banks-to-work-for-top-25
+                    - button "Vault Banking 25 - open card" [ref=f119e329]:
+                      - img "Vault Banking 25" [ref=f119e331]
+                      - heading "Vault Banking 25" [level=3] [ref=f119e332]
+                - group [ref=f119e334]:
+                  - link [ref=f119e335] [cursor=pointer]:
+                    - /url: /best-companies-to-work-for/banking/most-prestigious-banking-companies
+                    - button "Most Prestigious Banking Firms - open card" [ref=f119e336]:
+                      - img "Most Prestigious Banking Firms" [ref=f119e338]
+                      - heading "Most Prestigious Banking Firms" [level=3] [ref=f119e339]
+                - group [ref=f119e341]:
+                  - link [ref=f119e342] [cursor=pointer]:
+                    - /url: /best-companies-to-work-for/banking/best-banking-companies-to-work-for/benefits
+                    - button "Best Banking Firms to Work For - open card" [ref=f119e343]:
+                      - img "Best Banking Firms to Work For" [ref=f119e345]
+                      - heading "Best Banking Firms to Work For" [level=3] [ref=f119e346]
+                - group [ref=f119e348]:
+                  - link [ref=f119e349] [cursor=pointer]:
+                    - /url: /best-companies-to-work-for/banking/best-banking-companies-for-inclusion/lgbtqplus-individuals
+                    - button "Best Banking Firms for Inclusion - open card" [ref=f119e350]:
+                      - img "Best Banking Firms for Inclusion" [ref=f119e352]
+                      - heading "Best Banking Firms for Inclusion" [level=3] [ref=f119e353]
+              - link [ref=f119e356] [cursor=pointer]:
+                - /url: /best-companies-to-work-for/banking
+            - generic [ref=f119e362]:
+              - generic [ref=f119e363]:
+                - heading "Top Accounting Rankings" [level=2] [ref=f119e364]
+                - generic [ref=f119e365]:
+                  - button "Previous slide" [disabled]
+                  - button "Next slide" [ref=f119e366] [cursor=pointer]
+              - generic [ref=f119e369]:
+                - group [ref=f119e370]:
+                  - link [ref=f119e371] [cursor=pointer]:
+                    - /url: /best-companies-to-work-for/accounting/vault-accounting-25
+                    - button "Vault Accounting 25 - open card" [ref=f119e372]:
+                      - img "Vault Accounting 25" [ref=f119e374]
+                      - heading "Vault Accounting 25" [level=3] [ref=f119e375]
+                - group [ref=f119e377]:
+                  - link [ref=f119e378] [cursor=pointer]:
+                    - /url: /best-companies-to-work-for/accounting/most-prestigious-accounting-firms
+                    - button "Most Prestigious Accounting Firms - open card" [ref=f119e379]:
+                      - img "Most Prestigious Accounting Firms" [ref=f119e381]
+                      - heading "Most Prestigious Accounting Firms" [level=3] [ref=f119e382]
+                - group [ref=f119e384]:
+                  - link [ref=f119e385] [cursor=pointer]:
+                    - /url: /best-companies-to-work-for/accounting/best-accounting-firms-to-work-for/benefits
+                    - button "Best Accounting Firms to Work For - open card" [ref=f119e386]:
+                      - img "Best Accounting Firms to Work For" [ref=f119e388]
+                      - heading "Best Accounting Firms to Work For" [level=3] [ref=f119e389]
+                - group [ref=f119e391]:
+                  - link [ref=f119e392] [cursor=pointer]:
+                    - /url: /best-companies-to-work-for/accounting/best-accounting-firms-for-inclusion/lgbtqplus-individuals
+                    - button "Best Accounting Firms for Inclusion - open card" [ref=f119e393]:
+                      - img "Best Accounting Firms for Inclusion" [ref=f119e395]
+                      - heading "Best Accounting Firms for Inclusion" [level=3] [ref=f119e396]
+                - group [ref=f119e398]:
+                  - link [ref=f119e399] [cursor=pointer]:
+                    - /url: /best-companies-to-work-for/accounting/best-firms-in-each-practice-area/audit-assurance
+                    - button "Best Accounting Firms in Each Practice Area - open card" [ref=f119e400]:
+                      - img "Best Accounting Firms in Each Practice Area" [ref=f119e402]
+                      - heading "Best Accounting Firms in Each Practice Area" [level=3] [ref=f119e403]
+              - link [ref=f119e406] [cursor=pointer]:
+                - /url: /best-companies-to-work-for/accounting
+            - generic [ref=f119e412]:
+              - generic [ref=f119e413]:
+                - heading "Top Internship Rankings" [level=2] [ref=f119e414]
+                - generic [ref=f119e415]:
+                  - button "Previous slide" [disabled]
+                  - button "Next slide" [ref=f119e416] [cursor=pointer]
+              - generic [ref=f119e419]:
+                - group [ref=f119e420]:
+                  - link [ref=f119e421] [cursor=pointer]:
+                    - /url: /best-internships-rankings-search/most-prestigious-internships
+                    - button "Most Prestigious Internships - open card" [ref=f119e422]:
+                      - img "Most Prestigious Internships" [ref=f119e424]
+                      - heading "Most Prestigious Internships" [level=3] [ref=f119e425]
+                - group [ref=f119e427]:
+                  - link [ref=f119e428] [cursor=pointer]:
+                    - /url: /best-internships-rankings-search/150-best-internships
+                    - button "150 Best Internships - open card" [ref=f119e429]:
+                      - img "150 Best Internships" [ref=f119e431]
+                      - heading "150 Best Internships" [level=3] [ref=f119e432]
+                - group [ref=f119e434]:
+                  - link [ref=f119e435] [cursor=pointer]:
+                    - /url: /best-internships-rankings-search/best-internships-by-employment-factor/compensation-benefits
+                    - button "Best Internships by Employment Factor - open card" [ref=f119e436]:
+                      - img "Best Internships by Employment Factor" [ref=f119e438]
+                      - heading "Best Internships by Employment Factor" [level=3] [ref=f119e439]
+                - group [ref=f119e441]:
+                  - link [ref=f119e442] [cursor=pointer]:
+                    - /url: /best-internships-rankings-search/best-internships-for-inclusion/best-internships-for-lgbtqplus-people
+                    - button "Best Internships for Inclusion - open card" [ref=f119e443]:
+                      - img "Best Internships for Inclusion" [ref=f119e445]
+                      - heading "Best Internships for Inclusion" [level=3] [ref=f119e446]
+                - group [ref=f119e448]:
+                  - link [ref=f119e449] [cursor=pointer]:
+                    - /url: /best-internships-rankings-search/best-internships-by-role/data-analytics
+                    - button "Best Internships by Role - open card" [ref=f119e450]:
+                      - img "Best Internships by Role" [ref=f119e452]
+                      - heading "Best Internships by Role" [level=3] [ref=f119e453]
+                - group [ref=f119e455]:
+                  - link [ref=f119e456] [cursor=pointer]:
+                    - /url: /best-internships-rankings-search/best-internships-by-industry/accounting
+                    - button "Best Internships by Industry - open card" [ref=f119e457]:
+                      - img "Best Internships by Industry" [ref=f119e459]
+                      - heading "Best Internships by Industry" [level=3] [ref=f119e460]
+              - link [ref=f119e463] [cursor=pointer]:
+                - /url: /most-prestigious-internship-rankings
+      - contentinfo [ref=f119e468]:
+        - generic [ref=f119e469]:
+          - link "Vault — Return to home" [ref=f119e470] [cursor=pointer]:
+            - /url: /welcome
+            - img "Vault logo" [ref=f119e471]
+          - link "Sign up for free" [ref=f119e475] [cursor=pointer]:
+            - /url: /signup
+        - generic [ref=f119e480]:
+          - generic [ref=f119e481]:
+            - generic [ref=f119e482]:
+              - generic [ref=f119e483]: We Serve
+              - generic [ref=f119e484]:
+                - link [ref=f119e485] [cursor=pointer]:
+                  - /url: /employers
+                  - heading "Employers" [level=3] [ref=f119e486]
+                - link [ref=f119e487] [cursor=pointer]:
+                  - /url: /schools
+                  - heading "Schools" [level=3] [ref=f119e488]
+                - link [ref=f119e489] [cursor=pointer]:
+                  - /url: /subscriptions/gold
+                  - heading "Vault Gold" [level=3] [ref=f119e490]
+            - generic [ref=f119e491]:
+              - generic [ref=f119e492]: Know How
+              - generic [ref=f119e493]:
+                - link [ref=f119e494] [cursor=pointer]:
+                  - /url: /careers/rankings
+                  - heading "Careers" [level=3] [ref=f119e495]
+                - link [ref=f119e496] [cursor=pointer]:
+                  - /url: /library/blogs-employment-news
+                  - heading "Blog" [level=3] [ref=f119e497]
+                - link [ref=f119e498] [cursor=pointer]:
+                  - /url: /vault-law
+                  - heading "Vault Law" [level=3] [ref=f119e499]
+            - generic [ref=f119e500]:
+              - generic [ref=f119e501]: Our Business
+              - generic [ref=f119e502]:
+                - button "Contact Us" [ref=f119e503] [cursor=pointer]
+                - link [ref=f119e504] [cursor=pointer]:
+                  - /url: https://vaultcampus.zendesk.com/hc/en-us
+                  - heading "Help Center" [level=3] [ref=f119e505]
+          - generic [ref=f119e512]:
+            - link "Vault Facebook" [ref=f119e513] [cursor=pointer]:
+              - /url: https://www.facebook.com/VaultFirsthand
+            - link "Vault Instagram" [ref=f119e517] [cursor=pointer]:
+              - /url: https://instagram.com/vault_careers
+            - link "Vault X" [ref=f119e521] [cursor=pointer]:
+              - /url: https://twitter.com/Vaultcareers
+            - link "Vault Linkedin" [ref=f119e525] [cursor=pointer]:
+              - /url: https://www.linkedin.com/company/vaultfirsthand/
+          - generic [ref=f119e529]:
+            - generic [ref=f119e530]:
+              - link "Terms of service" [ref=f119e531] [cursor=pointer]:
+                - /url: /terms-of-service
+              - link "Privacy policy" [ref=f119e532] [cursor=pointer]:
+                - /url: /privacy-policy
+              - link "Cookie Policy" [ref=f119e533] [cursor=pointer]:
+                - /url: /cookie-policy
+            - generic [ref=f119e534]: © Vault 2026
+  - alert [ref=f119e535]

@@ -1,0 +1,47 @@
+- generic [ref=f177e3]:
+  - banner [ref=f177e4]:
+    - heading "Error 1014" [level=1] [ref=f177e5]
+    - generic [ref=f177e6]: "Ray ID: a281cfe03a7e6c4c •"
+    - generic [ref=f177e7]: 2026-08-08 22:03:36 UTC
+    - heading "CNAME Cross-User Banned" [level=2] [ref=f177e8]
+  - generic [ref=f177e9]:
+    - generic [ref=f177e10]:
+      - heading "What happened?" [level=2] [ref=f177e11]
+      - paragraph [ref=f177e12]:
+        - text: You've requested a page on a website that is part of the
+        - link "Cloudflare" [ref=f177e13] [cursor=pointer]:
+          - /url: https://www.cloudflare.com/5xx-error-landing/
+        - text: network. The host is configured as a CNAME across accounts on Cloudflare, which is not allowed by Cloudflare's security policy.
+      - paragraph [ref=f177e14]:
+        - text: Please see
+        - link "https://developers.cloudflare.com/support/troubleshooting/http-status-codes/cloudflare-1xxx-errors/error-1014/" [ref=f177e15] [cursor=pointer]:
+          - /url: https://developers.cloudflare.com/support/troubleshooting/http-status-codes/cloudflare-1xxx-errors/error-1014/
+        - text: for more details.
+    - generic [ref=f177e16]:
+      - heading "What can I do?" [level=2] [ref=f177e17]
+      - paragraph [ref=f177e18]:
+        - text: If this is an R2 custom domain, it may still be initializing. If you have attempted to manually point a CNAME DNS record to your R2 bucket, you must do it using a custom domain. Refer to
+        - link "R2's documentation" [ref=f177e19] [cursor=pointer]:
+          - /url: https://developers.cloudflare.com/r2/data-access/public-buckets/#connect-your-bucket-to-a-custom-domain
+        - text: for details.
+      - paragraph [ref=f177e20]:
+        - link "Visit our website" [ref=f177e21] [cursor=pointer]:
+          - /url: https://www.cloudflare.com/5xx-error-landing/
+        - text: to learn more about Cloudflare.
+  - generic [ref=f177e23]:
+    - text: Was this page helpful?
+    - button "Yes" [ref=f177e24] [cursor=pointer]
+    - button "No" [ref=f177e25] [cursor=pointer]
+  - paragraph [ref=f177e27]:
+    - generic [ref=f177e28]:
+      - text: "Cloudflare Ray ID:"
+      - strong [ref=f177e29]: a281cfe03a7e6c4c
+    - text: •
+    - generic [ref=f177e30]:
+      - text: "Your IP:"
+      - button "Click to reveal" [ref=f177e31] [cursor=pointer]
+      - text: •
+    - generic [ref=f177e32]:
+      - text: Performance & security by
+      - link "Cloudflare" [ref=f177e33] [cursor=pointer]:
+        - /url: https://www.cloudflare.com/5xx-error-landing

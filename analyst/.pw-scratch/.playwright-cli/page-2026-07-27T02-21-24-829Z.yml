@@ -1,0 +1,363 @@
+- generic [active] [ref=f18e1]:
+  - generic [ref=f18e7]:
+    - banner [ref=f18e16]:
+      - generic [ref=f18e19]:
+        - button "Go to Goldman Sachs Home Page" [ref=f18e22] [cursor=pointer]:
+          - img "GoldmanSachs Logo" [ref=f18e24]
+        - navigation [ref=f18e27]:
+          - list "menu-list" [ref=f18e29]:
+            - listitem [ref=f18e30]:
+              - link "What We Do" [ref=f18e31] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=f18e33]:
+              - link "Insights" [ref=f18e34] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=f18e36]:
+              - link "Our Firm" [ref=f18e37] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=f18e39]:
+              - link "Careers" [ref=f18e40] [cursor=pointer]:
+                - /url: "#"
+          - list
+        - list [ref=f18e42]:
+          - listitem [ref=f18e43]:
+            - link "Investor Relations" [ref=f18e44] [cursor=pointer]:
+              - /url: https://www.goldmansachs.com/investor-relations
+          - listitem [ref=f18e46]:
+            - link "Pressroom" [ref=f18e47] [cursor=pointer]:
+              - /url: https://www.goldmansachs.com/pressroom
+          - listitem [ref=f18e49]:
+            - link "Worldwide" [ref=f18e50] [cursor=pointer]:
+              - /url: https://www.goldmansachs.com/worldwide
+          - listitem [ref=f18e52]:
+            - link "Alumni" [ref=f18e53] [cursor=pointer]:
+              - /url: https://www.goldmansachs.com/alumni
+          - listitem [ref=f18e55]:
+            - button [ref=f18e56] [cursor=pointer]:
+              - img "Search" [ref=f18e57]
+          - listitem [ref=f18e61]:
+            - link "Client Login" [ref=f18e62] [cursor=pointer]:
+              - /url: https://www.goldmansachs.com/login
+    - generic [ref=f18e69]:
+      - generic [ref=f18e71]:
+        - heading "AI in Focus" [level=2] [ref=f18e73]
+        - generic [ref=f18e74]: Timely analysis tracking the latest innovations and developments in artificial intelligence and their impact on global markets.
+        - link "Read AI Insights" [ref=f18e78] [cursor=pointer]:
+          - /url: /insights/artificial-intelligence
+      - button [ref=f18e83] [cursor=pointer]:
+        - img "Pause video" [ref=f18e84]
+    - generic [ref=f18e94]:
+      - generic [ref=f18e100]:
+        - heading "Stay Informed" [level=3] [ref=f18e101]
+        - heading "The Firm in Action" [level=2] [ref=f18e102]
+      - generic [ref=f18e108]:
+        - generic [ref=f18e114]:
+          - heading "News and Media" [level=3] [ref=f18e115]
+          - heading "Goldman Sachs Chairman and CEO David Solomon Joins CNBC" [level=4] [ref=f18e116]
+          - paragraph [ref=f18e120]: David Solomon discusses the firm's second-quarter earnings and how our teams are helping clients navigate the current macroeconomic environment.
+          - link "Watch the Conversation" [ref=f18e123] [cursor=pointer]:
+            - /url: /insights/videos/cnbc-david-solomon-2q-earnings-deal-making-and-ai-investment
+        - generic [ref=f18e133]:
+          - heading "Goldman Sachs Investment Banking" [level=3] [ref=f18e134]
+          - heading "The 2H 2026 Outlook for Global M&A" [level=4] [ref=f18e135]
+          - paragraph [ref=f18e139]: Global M&A volumes increased 48% YoY in the first half of 2026, despite inflationary and geopolitical pressures. A new report from Goldman Sachs Global Banking & Markets suggests that M&A activity will continue to rise through the end of the year.
+          - link "Read the Report" [ref=f18e142] [cursor=pointer]:
+            - /url: /what-we-do/investment-banking/insights/articles/global-ma-in-2h-2026
+        - generic [ref=f18e152]:
+          - heading "Deal Spotlight" [level=3] [ref=f18e153]
+          - heading "Serving as Global Coordinator to SK Hynix in Its US Debut Offering" [level=4] [ref=f18e154]
+          - paragraph [ref=f18e158]: Goldman Sachs served as global coordinator to the semiconductor company in its $26.5B US debut offering.
+          - link "See Our Expertise in Action" [ref=f18e161] [cursor=pointer]:
+            - /url: /what-we-do/serving-clients/delivering-for-our-clients
+      - generic [ref=f18e171]:
+        - heading "What We Do" [level=3] [ref=f18e172]
+        - heading "Delivering for Our Clients" [level=2] [ref=f18e173]
+      - region "Carousel" [ref=f18e175]:
+        - generic [ref=f18e177]:
+          - generic [ref=f18e178]:
+            - button "Previous Button" [disabled] [ref=f18e179]
+            - button "Next Button" [ref=f18e184] [cursor=pointer]
+          - generic [ref=f18e190]:
+            - generic [ref=f18e191]:
+              - group "1 / 4" [ref=f18e192]:
+                - link "Global Banking & Markets Financing, advisory services, risk distribution, and hedging for our institutional and corporate clients." [ref=f18e193] [cursor=pointer]:
+                  - /url: /what-we-do/our-businesses#global-banking-markets
+                  - generic [ref=f18e197]:
+                    - heading "Global Banking & Markets" [level=4] [ref=f18e198]
+                    - paragraph [ref=f18e202]: Financing, advisory services, risk distribution, and hedging for our institutional and corporate clients.
+              - group "2 / 4" [ref=f18e208]:
+                - link "Asset & Wealth Management Advice, investing, and execution for institutions and individuals across public and private markets." [ref=f18e209] [cursor=pointer]:
+                  - /url: /what-we-do/our-businesses#asset-wealth-management
+                  - generic [ref=f18e213]:
+                    - heading "Asset & Wealth Management" [level=4] [ref=f18e214]
+                    - paragraph [ref=f18e218]: Advice, investing, and execution for institutions and individuals across public and private markets.
+              - group "3 / 4" [ref=f18e224]:
+                - link "Platform Solutions Innovative and customer-centered financial products that power our clients’ businesses." [ref=f18e225] [cursor=pointer]:
+                  - /url: /what-we-do/our-businesses#platform-solutions
+                  - generic [ref=f18e229]:
+                    - heading "Platform Solutions" [level=4] [ref=f18e230]
+                    - paragraph [ref=f18e234]: Innovative and customer-centered financial products that power our clients’ businesses.
+              - group "4 / 4" [ref=f18e240]:
+                - link "Global Investment Research Original, fundamental insights and analysis of economic, market and company forecasts, and models." [ref=f18e241] [cursor=pointer]:
+                  - /url: /what-we-do/research
+                  - generic [ref=f18e245]:
+                    - heading "Global Investment Research" [level=4] [ref=f18e246]
+                    - paragraph [ref=f18e250]: Original, fundamental insights and analysis of economic, market and company forecasts, and models.
+            - generic: Slide 1 of 4
+      - generic [ref=f18e259]:
+        - generic [ref=f18e261]:
+          - heading "Our Thinking" [level=3] [ref=f18e262]
+          - heading "Insights on Financial Markets and the Global Economy" [level=2] [ref=f18e263]
+        - link "Explore All Insights" [ref=f18e271] [cursor=pointer]:
+          - /url: /insights
+      - generic [ref=f18e277]:
+        - 'link "Exchanges US Midyear Outlook: Geopolitical Shocks, the New Fed Era, and Growth Podcast | Jul 21, 2026" [ref=f18e279] [cursor=pointer]':
+          - /url: /insights/goldman-sachs-exchanges/us-midyear-outlook-geopolitical-shocks-the-new-fed-era-and-growth
+          - generic [ref=f18e283]:
+            - heading "Exchanges" [level=3] [ref=f18e284]
+            - 'heading "US Midyear Outlook: Geopolitical Shocks, the New Fed Era, and Growth" [level=4] [ref=f18e285]'
+            - generic [ref=f18e287]:
+              - generic [ref=f18e292]: Podcast
+              - generic [ref=f18e293]: "|"
+              - generic [ref=f18e294]: Jul 21, 2026
+        - generic [ref=f18e296]:
+          - generic [ref=f18e297]:
+            - link "The Markets Are Hedge Funds Still Bullish on AI Stocks? Podcast | Jul 24, 2026" [ref=f18e299] [cursor=pointer]:
+              - /url: /insights/the-markets/are-hedge-funds-still-bullish-on-ai-stocks
+              - generic [ref=f18e303]:
+                - heading "The Markets" [level=3] [ref=f18e304]
+                - heading "Are Hedge Funds Still Bullish on AI Stocks?" [level=4] [ref=f18e305]
+                - generic [ref=f18e307]:
+                  - generic [ref=f18e312]: Podcast
+                  - generic [ref=f18e313]: "|"
+                  - generic [ref=f18e314]: Jul 24, 2026
+            - link "Markets Three New Stock Themes Are in Focus as the AI Trade Gyrates Jul 23, 2026" [ref=f18e316] [cursor=pointer]:
+              - /url: /insights/articles/three-new-stock-themes-are-in-focus-as-the-ai-trade-gyrates
+              - generic [ref=f18e320]:
+                - heading "Markets" [level=3] [ref=f18e321]
+                - heading "Three New Stock Themes Are in Focus as the AI Trade Gyrates" [level=4] [ref=f18e322]
+                - generic [ref=f18e323]: Jul 23, 2026
+          - link "1:11 Markets Emerging-Market Stocks May Climb Higher amid Boost from AI Video | Jul 20, 2026" [ref=f18e328] [cursor=pointer]:
+            - /url: /insights/videos/emerging-market-stocks-may-climb-higher-amid-boost-from-ai
+            - generic [ref=f18e329]:
+              - generic [ref=f18e330]: 1:11
+              - generic [ref=f18e338]:
+                - heading "Markets" [level=3] [ref=f18e339]
+                - heading "Emerging-Market Stocks May Climb Higher amid Boost from AI" [level=4] [ref=f18e340]
+                - generic [ref=f18e342]:
+                  - generic [ref=f18e343]: Video
+                  - generic [ref=f18e344]: "|"
+                  - generic [ref=f18e345]: Jul 20, 2026
+      - generic [ref=f18e349]:
+        - generic [ref=f18e351]:
+          - heading "Careers" [level=3] [ref=f18e352]
+          - heading "Where the Best Get Better" [level=2] [ref=f18e353]
+        - generic [ref=f18e354]: Our apprenticeship culture accelerates careers through unbeatable exposure to the most capable leaders and consequential challenges in finance.
+      - generic [ref=f18e367]:
+        - generic [ref=f18e368]:
+          - generic [ref=f18e370]:
+            - term [ref=f18e371]:
+              - generic [ref=f18e372]: 46K+
+            - definition [ref=f18e373]:
+              - generic [ref=f18e374]: Goldman Sachs People Around the World
+          - generic [ref=f18e377]:
+            - term [ref=f18e378]:
+              - generic [ref=f18e379]: 1M+
+            - definition [ref=f18e380]:
+              - generic [ref=f18e381]: External Applications for Roles at the Firm
+          - generic [ref=f18e384]:
+            - term [ref=f18e385]:
+              - generic [ref=f18e386]: 95%+
+            - definition [ref=f18e387]:
+              - generic [ref=f18e388]: Clients Give the Firm Top Ratings of 'Best People' and 'Expertise'
+        - paragraph [ref=f18e394]: "Sources: Headcount and external applicants as of 2024; 2023 Biennial Client & Stakeholder Survey. Data from a representative cross-section of clients across the firm."
+        - list [ref=f18e395]:
+          - listitem [ref=f18e396]:
+            - link "Explore Life at Goldman Sachs" [ref=f18e400] [cursor=pointer]:
+              - /url: /careers/life-at-goldman-sachs
+          - listitem [ref=f18e401]:
+            - link "Our People" [ref=f18e405] [cursor=pointer]:
+              - /url: /our-firm/our-people-and-leadership
+          - listitem [ref=f18e406]:
+            - link "Careers" [ref=f18e410] [cursor=pointer]:
+              - /url: /careers
+      - generic [ref=f18e416]:
+        - heading "Our Firm" [level=3] [ref=f18e417]
+        - heading "We aspire to be the world’s most exceptional financial institution." [level=4] [ref=f18e418]
+      - generic [ref=f18e424]:
+        - link "157 Years of Excellence The culture of Goldman Sachs is defined by an unwavering commitment to client service and an unrelenting pursuit of exceptional performance. Discover Our Purpose and Values" [ref=f18e426] [cursor=pointer]:
+          - /url: /our-firm/purpose-and-values
+          - generic [ref=f18e430]:
+            - heading "157 Years of Excellence" [level=4] [ref=f18e431]
+            - paragraph [ref=f18e435]: The culture of Goldman Sachs is defined by an unwavering commitment to client service and an unrelenting pursuit of exceptional performance.
+            - link "Discover Our Purpose and Values" [ref=f18e438]:
+              - /url: /our-firm/purpose-and-values
+        - link "Executing on Our Strategy Our strategy is anchored in our world-class, interconnected Global Banking & Markets and Asset & Wealth Management franchises, which are uniquely positioned to drive growth and value for shareholders and clients. Why Invest in Goldman Sachs" [ref=f18e440] [cursor=pointer]:
+          - /url: /investor-relations
+          - generic [ref=f18e444]:
+            - heading "Executing on Our Strategy" [level=4] [ref=f18e445]
+            - paragraph [ref=f18e449]: Our strategy is anchored in our world-class, interconnected Global Banking & Markets and Asset & Wealth Management franchises, which are uniquely positioned to drive growth and value for shareholders and clients.
+            - link "Why Invest in Goldman Sachs" [ref=f18e452]:
+              - /url: /investor-relations
+        - link "The Business of Impact We put our people, ideas, and capital to work through impact-oriented programs including 10,000 Small Businesses, 10,000 Women, One Million Black Women, Goldman Sachs Gives, and Community TeamWorks. Review Our Initiatives" [ref=f18e454] [cursor=pointer]:
+          - /url: /test-content/OCE-Redesign/community-impact
+          - generic [ref=f18e458]:
+            - heading "The Business of Impact" [level=4] [ref=f18e459]
+            - paragraph [ref=f18e463]: We put our people, ideas, and capital to work through impact-oriented programs including 10,000 Small Businesses, 10,000 Women, One Million Black Women, Goldman Sachs Gives, and Community TeamWorks.
+            - link "Review Our Initiatives" [ref=f18e466]:
+              - /url: /test-content/OCE-Redesign/community-impact
+    - generic [ref=f18e479]:
+      - heading "Subscribe to Briefings" [level=2] [ref=f18e481]
+      - generic [ref=f18e482]:
+        - paragraph [ref=f18e485]: Our weekly newsletter delivers the latest insights on economic forces shaping markets—from Goldman Sachs leaders, economists, and investors around the world.
+        - paragraph [ref=f18e489]:
+          - text: You can unsubscribe at any time. For information about how your personal data will be used, visit
+          - link "Privacy Information and Resources" [ref=f18e490] [cursor=pointer]:
+            - /url: https://www.goldmansachs.com/privacy-and-cookies
+          - text: .
+        - generic [ref=f18e493]:
+          - generic [ref=f18e494]: Email
+          - generic [ref=f18e497]:
+            - textbox "Email" [ref=f18e500]:
+              - /placeholder: Enter your email
+            - button "Submit" [ref=f18e501] [cursor=pointer]
+            - generic:
+              - alert
+    - contentinfo [ref=f18e511]:
+      - generic [ref=f18e512]:
+        - generic [ref=f18e513]:
+          - button "Goldman Sachs Logo" [ref=f18e515] [cursor=pointer]:
+            - img "GoldmanSachs Logo" [ref=f18e517]
+          - generic [ref=f18e521]:
+            - generic [ref=f18e524]:
+              - heading "CAREERS" [level=2] [ref=f18e526]
+              - list "CAREERS" [ref=f18e527]:
+                - listitem [ref=f18e528]:
+                  - link "Overview" [ref=f18e529] [cursor=pointer]:
+                    - /url: /careers
+                - listitem [ref=f18e530]:
+                  - link "Students" [ref=f18e531] [cursor=pointer]:
+                    - /url: /careers/students
+                - listitem [ref=f18e532]:
+                  - link "Life at GS" [ref=f18e533] [cursor=pointer]:
+                    - /url: /careers/life-at-goldman-sachs
+                - listitem [ref=f18e534]:
+                  - link "Benefits" [ref=f18e535] [cursor=pointer]:
+                    - /url: /careers/benefits
+                - listitem [ref=f18e536]:
+                  - link "Featured Locations" [ref=f18e537] [cursor=pointer]:
+                    - /url: /careers/featured-offices
+                - listitem [ref=f18e538]:
+                  - link [ref=f18e539] [cursor=pointer]:
+                    - /url: https://higher.gs.com/
+                    - text: Open Roles
+                    - img "Opens in a new tab" [ref=f18e540]
+                - listitem [ref=f18e544]:
+                  - link "Disability Accommodation" [ref=f18e545] [cursor=pointer]:
+                    - /url: /careers/disability-statement
+                - listitem [ref=f18e546]:
+                  - link "Statement on Equal Employment Opportunities" [ref=f18e547] [cursor=pointer]:
+                    - /url: /careers/statements/diversity-global
+                - listitem [ref=f18e548]:
+                  - link "Recruiting Scams Alert" [ref=f18e549] [cursor=pointer]:
+                    - /url: /careers/recruiting-scams
+            - generic [ref=f18e552]:
+              - heading "RESOURCES" [level=2] [ref=f18e554]
+              - list "RESOURCES" [ref=f18e555]:
+                - listitem [ref=f18e556]:
+                  - link "Client Logins" [ref=f18e557] [cursor=pointer]:
+                    - /url: /login
+                - listitem [ref=f18e558]:
+                  - link "Employee Login" [ref=f18e559] [cursor=pointer]:
+                    - /url: /login/login-gs-message
+                - listitem [ref=f18e560]:
+                  - link "Pressroom" [ref=f18e561] [cursor=pointer]:
+                    - /url: /pressroom
+                - listitem [ref=f18e562]:
+                  - link "Investor Relations" [ref=f18e563] [cursor=pointer]:
+                    - /url: /investor-relations
+                - listitem [ref=f18e564]:
+                  - link "Alumni Network" [ref=f18e565] [cursor=pointer]:
+                    - /url: /alumni
+            - generic [ref=f18e568]:
+              - heading "OUR BUSINESSES" [level=2] [ref=f18e570]
+              - list "OUR BUSINESSES" [ref=f18e571]:
+                - listitem [ref=f18e572]:
+                  - link "Investment Banking" [ref=f18e573] [cursor=pointer]:
+                    - /url: /what-we-do/investment-banking
+                - listitem [ref=f18e574]:
+                  - link "FICC and Equities" [ref=f18e575] [cursor=pointer]:
+                    - /url: /what-we-do/ficc-and-equities
+                - listitem [ref=f18e576]:
+                  - link [ref=f18e577] [cursor=pointer]:
+                    - /url: https://www.gsam.com/
+                    - text: Asset Management
+                    - img "Opens in a new tab" [ref=f18e578]
+                - listitem [ref=f18e582]:
+                  - link [ref=f18e583] [cursor=pointer]:
+                    - /url: https://pwm.gs.com/nam/en-us?gsid=10200&chl=ref&plt=gs
+                    - text: Private Wealth Management
+                    - img "Opens in a new tab" [ref=f18e584]
+                - listitem [ref=f18e588]:
+                  - link "Ayco" [ref=f18e589] [cursor=pointer]:
+                    - /url: /what-we-do/ayco
+                - listitem [ref=f18e590]:
+                  - link [ref=f18e591] [cursor=pointer]:
+                    - /url: https://www.marcus.com/
+                    - text: Marcus
+                    - img "Opens in a new tab" [ref=f18e592]
+                - listitem [ref=f18e596]:
+                  - link [ref=f18e597] [cursor=pointer]:
+                    - /url: https://marquee.gs.com/
+                    - text: Marquee
+                    - img "Opens in a new tab" [ref=f18e598]
+                - listitem [ref=f18e602]:
+                  - link "Transaction Banking" [ref=f18e603] [cursor=pointer]:
+                    - /url: /what-we-do/transaction-banking
+            - generic [ref=f18e606]:
+              - heading "CONNECT" [level=2] [ref=f18e608]
+              - list "CONNECT" [ref=f18e609]:
+                - list [ref=f18e611]:
+                  - listitem [ref=f18e612]:
+                    - link "link for linkedin share" [ref=f18e613] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/company/goldman-sachs
+                  - listitem [ref=f18e618]:
+                    - link "link for instagram share" [ref=f18e619] [cursor=pointer]:
+                      - /url: https://www.instagram.com/goldmansachs
+                  - listitem [ref=f18e624]:
+                    - link "link for youtube share" [ref=f18e625] [cursor=pointer]:
+                      - /url: https://www.youtube.com/user/GoldmanSachs
+                  - listitem [ref=f18e630]:
+                    - link [ref=f18e631] [cursor=pointer]:
+                      - /url: https://twitter.com/goldmansachs
+        - generic [ref=f18e636]:
+          - separator [ref=f18e637]
+          - generic [ref=f18e638]:
+            - generic [ref=f18e639]: © 2026 Goldman Sachs. All rights reserved.
+            - navigation [ref=f18e643]:
+              - list "menu-list" [ref=f18e645]:
+                - listitem [ref=f18e646]:
+                  - link "Privacy and Cookies" [ref=f18e647] [cursor=pointer]:
+                    - /url: /privacy-and-cookies
+                - complementary "Open Cookie Preferences Modal" [ref=f18e648]:
+                  - link "Cookie Preferences, opens a dedicated popup modal window" [ref=f18e649] [cursor=pointer]: Cookie Preferences
+                - listitem [ref=f18e650]:
+                  - link "Terms & Conditions" [ref=f18e651] [cursor=pointer]:
+                    - /url: /terms-and-conditions
+                - listitem [ref=f18e652]:
+                  - link "Security & Fraud Awareness" [ref=f18e653] [cursor=pointer]:
+                    - /url: /security
+                - listitem [ref=f18e654]:
+                  - link "Regulatory Disclosures" [ref=f18e655] [cursor=pointer]:
+                    - /url: /disclosures
+              - list
+  - generic [ref=f18e656]:
+    - generic [ref=f18e657]:
+      - generic [ref=f18e658]: Cookie Consent
+      - text: We use essential cookies to make sure our website works properly, to comply with obligations that apply to us and for security purposes.We'd also like your consent to use optional cookies for advertising purposes.For more information about the cookies we use and to change your mind at any time, see our
+      - button "cookie preference tool" [ref=f18e659] [cursor=pointer]
+      - text: .
+    - generic [ref=f18e660]:
+      - button "Accept All Cookies" [ref=f18e661] [cursor=pointer]
+      - button "Reject non-essential cookies" [ref=f18e662] [cursor=pointer]
+  - alert [ref=f18e663]

@@ -1,0 +1,302 @@
+- generic [active] [ref=f423e1]:
+  - generic:
+    - link "link to navigation" [ref=f423e2] [cursor=pointer]:
+      - /url: "#accordion"
+      - text: Skip to navigation
+    - link "link to main content" [ref=f423e3] [cursor=pointer]:
+      - /url: "#main-content"
+      - text: Skip to main content
+    - link "link to footer" [ref=f423e4] [cursor=pointer]:
+      - /url: "#footer"
+      - text: Skip to Footer
+  - generic [ref=f423e5]:
+    - banner [ref=f423e6]:
+      - navigation "primary" [ref=f423e7]:
+        - generic [ref=f423e9]:
+          - link "Page d'accueil" [ref=f423e11] [cursor=pointer]:
+            - /url: /en
+          - generic [ref=f423e37]:
+            - generic [ref=f423e38]:
+              - generic [ref=f423e39]: "Rechercher un job:"
+              - generic [ref=f423e40]:
+                - generic [ref=f423e41]: Une liste de suggestion de recherche apparaitra au ciblage du champ de recherche
+                - textbox "Rechercher un job:" [ref=f423e42]:
+                  - /placeholder: Find your dream job...
+            - button "Search" [ref=f423e43] [cursor=pointer]
+          - generic [ref=f423e45]:
+            - link "0" [ref=f423e46] [cursor=pointer]:
+              - /url: /en/jobs-wishlist
+            - alert [ref=f423e48]
+            - generic [ref=f423e49]:
+              - button "Une fenêtre de connexion apparaitra au ciblage" [ref=f423e50] [cursor=pointer]
+              - generic [ref=f423e52]:
+                - button "Fermer la fenêtre de connexion" [ref=f423e53] [cursor=pointer]
+                - generic [ref=f423e57]:
+                  - generic [ref=f423e58]: Follow-up on my applications, save my CV, set up alerts...
+                  - link "Create my profile" [ref=f423e59] [cursor=pointer]:
+                    - /url: https://socgen.taleo.net/careersection/sgcareers/profile.ftl?lang=&src=CWS-1&pcid=msjsgqyun14l6hvl
+                  - separator [ref=f423e60]
+                  - generic [ref=f423e61]: Coming back?
+                  - link "Log in" [ref=f423e62] [cursor=pointer]:
+                    - /url: https://socgen.taleo.net/careersection/sgcareers/profile.ftl?lang=en&src=CWS-1&pcid=msjsgqyun14l6hvl
+      - navigation "secondary" [ref=f423e63]:
+        - generic [ref=f423e65]:
+          - list [ref=f423e66]:
+            - listitem [ref=f423e67]:
+              - link "Your future with us" [ref=f423e69] [cursor=pointer]:
+                - /url: /en/about-us
+              - list:
+                - listitem [ref=f423e70]:
+                  - link "Get to know us better" [ref=f423e71] [cursor=pointer]:
+                    - /url: /en/about-us/know-us
+                - listitem [ref=f423e72]:
+                  - link "Committed to working together" [ref=f423e73] [cursor=pointer]:
+                    - /url: /en/committed-together
+            - listitem [ref=f423e74]:
+              - link "Profiles wanted" [ref=f423e76] [cursor=pointer]:
+                - /url: /en/jobs
+              - list:
+                - listitem [ref=f423e77]:
+                  - link "IT & Digital" [ref=f423e78] [cursor=pointer]:
+                    - /url: /en/jobs/it
+                - listitem [ref=f423e79]:
+                  - link "Data" [ref=f423e80] [cursor=pointer]:
+                    - /url: /en/jobs/data
+                - listitem [ref=f423e81]:
+                  - link "Global Banking & Investor Solutions" [ref=f423e82] [cursor=pointer]:
+                    - /url: /en/jobs/global-banking-investor-solutions
+                - listitem [ref=f423e83]:
+                  - link "Risk" [ref=f423e84] [cursor=pointer]:
+                    - /url: /en/jobs/risk
+                - listitem [ref=f423e85]:
+                  - link "Compliance" [ref=f423e86] [cursor=pointer]:
+                    - /url: /en/jobs/compliance
+                - listitem [ref=f423e87]:
+                  - link "Legal" [ref=f423e88] [cursor=pointer]:
+                    - /url: /en/jobs/legal
+                - listitem [ref=f423e89]:
+                  - link "Financial Department" [ref=f423e90] [cursor=pointer]:
+                    - /url: /en/jobs/financial-department
+                - listitem [ref=f423e91]:
+                  - link "General Inspection, Audit & Consulting" [ref=f423e92] [cursor=pointer]:
+                    - /url: /en/jobs/general-inspection-audit-consulting
+                - listitem [ref=f423e93]:
+                  - link "More jobs" [ref=f423e94] [cursor=pointer]:
+                    - /url: /en/jobs/more-jobs
+            - listitem [ref=f423e95]:
+              - link "Students & Graduates" [ref=f423e97] [cursor=pointer]:
+                - /url: /en/students-graduates
+              - list:
+                - listitem [ref=f423e98]:
+                  - link "Internships" [ref=f423e99] [cursor=pointer]:
+                    - /url: /en/internships-trainee-programs
+                - listitem [ref=f423e100]:
+                  - link "International internship program (V.I.E)" [ref=f423e101] [cursor=pointer]:
+                    - /url: /en/vie
+                - listitem [ref=f423e102]:
+                  - link "Graduate programmes" [ref=f423e103] [cursor=pointer]:
+                    - /url: /en/students-graduates/graduate-programmes
+                - listitem [ref=f423e104]:
+                  - link "Tips for job seekers" [ref=f423e105] [cursor=pointer]:
+                    - /url: /en/tips-candidates
+            - listitem [ref=f423e106]:
+              - link "Search" [ref=f423e107] [cursor=pointer]:
+                - /url: /en/search
+                - text: ALL JOBS
+          - generic [ref=f423e108]:
+            - generic [ref=f423e112]:
+              - switch "Dark mode"
+            - generic [ref=f423e116]:
+              - link "Consulter le site en français" [ref=f423e117] [cursor=pointer]:
+                - /url: /stages
+                - text: FR
+              - separator [ref=f423e118]
+              - generic [ref=f423e119]: Website in English (current version)
+              - generic [ref=f423e120]: EN
+    - main [ref=f423e121]:
+      - generic [ref=f423e122]:
+        - generic [ref=f423e123]:
+          - generic [ref=f423e126]:
+            - generic [ref=f423e129]:
+              - paragraph [ref=f423e130]: Internships and Trainee programmes
+              - generic [ref=f423e131]: Join us
+            - link "See available opportunities" [ref=f423e133] [cursor=pointer]:
+              - /url: /en/search?refinementList%5BjobType%5D%5B0%5D=Internship
+          - generic [ref=f423e139]:
+            - heading "INTERNSHIPS AND TRAINEE PROGRAMMES" [level=1] [ref=f423e140]
+            - generic [ref=f423e142]: “ You show up full of apprehension and leave full of new knowledge ”
+          - generic [ref=f423e146]:
+            - heading "Discovering a profession" [level=2] [ref=f423e147]
+            - paragraph [ref=f423e149]: An essential rite of passage on the way towards professional life, an internship is the chance to get one foot in the door. Far from the stereotypes of boring, unfulfilling internships, interns at the Societe Generale Group enjoy a special place in their teams and a nurturing environment in which to prove themselves. Working with experts in their sector on a daily basis, you’ll take part in stimulating projects and build your experience while being accompanied every step of the way.
+          - generic [ref=f423e153]:
+            - heading "In France or overseas" [level=2] [ref=f423e154]
+            - paragraph [ref=f423e156]: The Group’s internship offers aren’t confined to France alone. Our branches in Germany, the United States, Hong Kong… are also looking for motivated, creative, and ambitious interns!
+          - generic [ref=f423e160]:
+            - heading "The internship, then… ?" [level=2] [ref=f423e161]
+            - paragraph [ref=f423e163]: Internships, work-study contracts, and the V.I.E are excellent pathways towards joining us permanently! Long-term contracts for recent graduates are often offered to those already familiar with the company thanks to the experience they acquired in parallel with their studies.
+          - generic [ref=f423e168]:
+            - heading "Our various types of interships:" [level=2] [ref=f423e169]
+            - list [ref=f423e171]:
+              - listitem [ref=f423e172]: Gap internships
+              - listitem [ref=f423e173]: Graduate internships
+              - listitem [ref=f423e174]: Trainee Programs/ Summer & Winter internships
+              - listitem [ref=f423e175]: "Middle School internships: in partnership with MyFuture, we welcome 4th year middle school students from priority education zones"
+              - listitem [ref=f423e176]:
+                - text: "In France: banking agency internship (you can submit your application online or deliver it to an agency directly:"
+                - link "trouvez une agence, New tab" [ref=f423e177] [cursor=pointer]:
+                  - /url: https://agences.societegenerale.fr/banque-assurance/
+                  - text: trouvez une agence
+                - text: )
+          - generic [ref=f423e181]:
+            - heading "Highlights of the internship programme" [level=2] [ref=f423e182]
+            - list [ref=f423e183]:
+              - listitem [ref=f423e184]:
+                - generic [ref=f423e185]: "One purpose : enhance, reveal, expand your skills"
+              - listitem [ref=f423e191]:
+                - generic [ref=f423e192]: One privileged access to the Group professionnal opportunities
+              - listitem [ref=f423e198]:
+                - generic [ref=f423e199]: An attractive financial reward
+              - listitem [ref=f423e205]:
+                - generic [ref=f423e206]: "Some daily benefits : teleworking, Works council, company restaurants"
+              - listitem [ref=f423e212]:
+                - generic [ref=f423e213]: A dynamic community of more than 2,000 young people
+          - generic [ref=f423e219]:
+            - heading "Recruitment process" [level=2] [ref=f423e223]
+            - paragraph [ref=f423e228]: The recruitment process may vary depending on the recruiting entity, the internship duration or the mission type.
+            - generic [ref=f423e230]:
+              - generic [ref=f423e234]:
+                - generic [ref=f423e235]: "01"
+                - generic [ref=f423e236]: Shortlist
+                - paragraph [ref=f423e237]: After your online application is submitted, it will be shortlisted by the recruitment teams if it fits the initial requirements.
+              - generic [ref=f423e241]:
+                - generic [ref=f423e242]: "02"
+                - generic [ref=f423e243]: Interview
+                - paragraph [ref=f423e244]: You will have an interview with one or several managers who are in charge of the mission.
+              - generic [ref=f423e248]:
+                - generic [ref=f423e249]: "03"
+                - generic [ref=f423e250]: Offer
+                - paragraph [ref=f423e251]: Your interview was convincing, and you receive an offer !
+          - generic [ref=f423e253]:
+            - heading "What sector interests you?" [level=2] [ref=f423e255]
+            - list [ref=f423e256]:
+              - listitem [ref=f423e257]:
+                - link "Corporate & Investment banking" [ref=f423e258] [cursor=pointer]:
+                  - /url: https://careers.societegenerale.com/en/search?refinementList[jobType][0]=INTERNSHIP&refinementList[jobFunction][0]=KJ697&refinementList[jobFunction][1]=ZX468&pcid=msjsgqyun14l6hvl
+              - listitem [ref=f423e264]:
+                - link "Global Finance" [ref=f423e265] [cursor=pointer]:
+                  - /url: https://careers.societegenerale.com/en/search?refinementList%5BjobType%5D%5B0%5D=INTERNSHIP&refinementList%5BjobFunction%5D%5B0%5D=NP922&pcid=d51f5e08-727a-4ef2-b94f-55ea8116d90f&pcid=msjsgqyun14l6hvl
+              - listitem [ref=f423e271]:
+                - link "Compliance" [ref=f423e272] [cursor=pointer]:
+                  - /url: https://careers.societegenerale.com/en/search?refinementList%5BjobType%5D%5B0%5D=Internship&refinementList%5BjobFunction%5D%5B0%5D=Compliance&pcid=msjsgqyun14l6hvl
+              - listitem [ref=f423e278]:
+                - link "Communication & Marketing" [ref=f423e279] [cursor=pointer]:
+                  - /url: https://careers.societegenerale.com/en/search?refinementList%5BjobType%5D%5B0%5D=Internship&refinementList%5BjobFunction%5D%5B0%5D=Communication%20%2F%20Marketing&pcid=msjsgqyun14l6hvl
+              - listitem [ref=f423e285]:
+                - link "Human Resources" [ref=f423e286] [cursor=pointer]:
+                  - /url: https://careers.societegenerale.com/en/search?refinementList%5BjobType%5D%5B0%5D=Internship&refinementList%5BjobFunction%5D%5B0%5D=Human%20Resources&pcid=msjsgqyun14l6hvl
+              - listitem [ref=f423e292]:
+                - link "Legal, Tax & Insurance" [ref=f423e293] [cursor=pointer]:
+                  - /url: https://careers.societegenerale.com/en/search?refinementList[jobType][0]=INTERNSHIP&refinementList[jobFunction][0]=AN652&pcid=msjsgqyun14l6hvl
+              - listitem [ref=f423e299]:
+                - link "IT & Digital" [ref=f423e300] [cursor=pointer]:
+                  - /url: https://careers.societegenerale.com/en/search?refinementList%5BjobType%5D%5B0%5D=Internship&refinementList%5BjobFunction%5D%5B0%5D=IT%20%28Information%20Technology%29&pcid=msjsgqyun14l6hvl
+          - generic [ref=f423e308]:
+            - generic [ref=f423e311]:
+              - img [ref=f423e314]: 
+              - generic [ref=f423e316]:
+                - strong [ref=f423e317]: 1,700
+                - text: interns recruited in 2025
+            - generic [ref=f423e320]:
+              - img [ref=f423e323]: 
+              - generic [ref=f423e325]:
+                - strong [ref=f423e326]: 200+
+                - text: business opportunities
+            - generic [ref=f423e329]:
+              - img [ref=f423e332]: 
+              - generic [ref=f423e334]:
+                - strong [ref=f423e335]: 87,4%
+                - text: of our interns, work-study or V.I.E employees recommend us
+          - generic [ref=f423e340]:
+            - paragraph
+            - generic [ref=f423e341]:
+              - text: “I had a lot of nice surprises during my internship. I was with other interns and the atmosphere was really great! I discovered concrete subjects, experts to talk with, and most importantly, super welcoming teams who were always there to help and answer questions. Honestly, it was a great environment for learning a lot of things. At the end of the internship, I knew how to do a lot more than I did when it started. The entire staff helped me get settled in.”
+              - strong [ref=f423e342]: Lucile
+              - text: ", Former Data Science Intern"
+            - paragraph
+          - generic [ref=f423e344]:
+            - heading "Our latest internship opportunities" [level=2] [ref=f423e347]
+            - generic [ref=f423e348]: Loading...
+          - link "See all available internship opportunities" [ref=f423e353] [cursor=pointer]:
+            - /url: /en/search?refinementList%5BjobType%5D%5B0%5D=Internship
+        - navigation "Fil d'Ariane" [ref=f423e359]:
+          - list [ref=f423e360]:
+            - listitem [ref=f423e361]:
+              - link "Home" [ref=f423e362] [cursor=pointer]:
+                - /url: /en
+              - text: ">"
+            - listitem [ref=f423e363]:
+              - link "Students & Graduates" [ref=f423e364] [cursor=pointer]:
+                - /url: /en/students-graduates
+              - text: ">"
+            - listitem [ref=f423e365]: Internships
+    - contentinfo [ref=f423e366]:
+      - contentinfo [ref=f423e367]:
+        - generic [ref=f423e368]:
+          - generic [ref=f423e369]:
+            - generic [ref=f423e370]: Discover
+            - list [ref=f423e371]:
+              - listitem [ref=f423e372]:
+                - link "Jobs in banking" [ref=f423e373] [cursor=pointer]:
+                  - /url: /en/search
+              - listitem [ref=f423e374]:
+                - link "Societe Generale Group website" [ref=f423e375] [cursor=pointer]:
+                  - /url: https://www.societegenerale.com/en
+          - generic [ref=f423e376]:
+            - generic [ref=f423e377]: Useful links
+            - list [ref=f423e378]:
+              - listitem [ref=f423e379]:
+                - link "Help Center" [ref=f423e380] [cursor=pointer]:
+                  - /url: /en/help
+              - listitem [ref=f423e381]:
+                - link "Profiles wanted" [ref=f423e382] [cursor=pointer]:
+                  - /url: /en/jobs
+              - listitem [ref=f423e383]:
+                - link "Sitemap" [ref=f423e384] [cursor=pointer]:
+                  - /url: /en/sitemap
+              - listitem [ref=f423e385]:
+                - 'link "Accessibility: non-compliant" [ref=f423e386] [cursor=pointer]':
+                  - /url: /en/accessibility-policies
+          - generic [ref=f423e387]:
+            - generic [ref=f423e388]: Legal information
+            - list [ref=f423e389]:
+              - listitem [ref=f423e390]:
+                - link "Legal information" [ref=f423e391] [cursor=pointer]:
+                  - /url: /en/legal-information
+              - listitem [ref=f423e392]:
+                - link "Privacy policy" [ref=f423e393] [cursor=pointer]:
+                  - /url: /en/privacy-policy
+              - listitem [ref=f423e394]:
+                - link "Cookies Policy" [ref=f423e395] [cursor=pointer]:
+                  - /url: /en/cookies
+              - listitem [ref=f423e396]:
+                - link "Consent choices" [ref=f423e397] [cursor=pointer]:
+                  - /url: ""
+          - generic [ref=f423e398]:
+            - generic [ref=f423e399]: "Follow Us:"
+            - list [ref=f423e400]:
+              - listitem [ref=f423e401]:
+                - link "Facebook - Nouvel onglet" [ref=f423e402] [cursor=pointer]:
+                  - /url: https://www.facebook.com/societegenerale
+              - listitem [ref=f423e406]:
+                - link "Youtube - Nouvel onglet" [ref=f423e407] [cursor=pointer]:
+                  - /url: https://www.youtube.com/playlist?list=PLO28QHeP4SE6s6hcc5_PcYVbZ2EiBZOQq
+              - listitem [ref=f423e411]:
+                - link "Twitter - Nouvel onglet" [ref=f423e412] [cursor=pointer]:
+                  - /url: https://twitter.com/SocieteGenerale
+              - listitem [ref=f423e416]:
+                - link "LinkedIn - Nouvel onglet" [ref=f423e417] [cursor=pointer]:
+                  - /url: https://www.linkedin.com/company/societe-generale/
+              - listitem [ref=f423e421]:
+                - link "Instagram - Nouvel onglet" [ref=f423e422] [cursor=pointer]:
+                  - /url: https://www.instagram.com/societegenerale/
+    - button "Return to the top of the page" [ref=f423e426] [cursor=pointer]

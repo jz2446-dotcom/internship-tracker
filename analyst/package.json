@@ -1,0 +1,11 @@
+{
+  "name": "tracker-analyst-engine",
+  "version": "1.0.0",
+  "description": "Scripted analyst loop: drives playwright-cli + public ATS JSON for zero-token research, hands only the ambiguous shortlist to Claude (the brain).",
+  "private": true,
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "env": "node run-analyst.js --roster ../data/environmental_roster.json",
+    "re": "node run-analyst.js --roster ../data/realestate_roster.json"
+  }
+}

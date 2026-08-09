@@ -1,0 +1,304 @@
+- generic [ref=e1]:
+  - main [ref=e2]:
+    - link "Skip to main content" [ref=e3] [cursor=pointer]:
+      - /url: "#mainContent"
+    - banner "wealthgetheadernavigation" [ref=e4]:
+      - generic [ref=e5]:
+        - generic [ref=e7]:
+          - link "Contact us" [ref=e8] [cursor=pointer]:
+            - /url: /en-us/contact-us
+          - link "Subscribe to insights" [ref=e9] [cursor=pointer]:
+            - /url: /en-us/subscriptions
+          - button "Financial Professional | U.S." [ref=e11] [cursor=pointer]
+          - link "Log in" [ref=e23] [cursor=pointer]:
+            - /url: /en-us/login
+        - generic [ref=e24]:
+          - link [ref=e25] [cursor=pointer]:
+            - /url: /en-us
+            - img "Nuveen Logo" [ref=e26]
+          - generic [ref=e28]:
+            - navigation "Investments" [ref=e29] [cursor=pointer]
+            - navigation "Insights" [ref=e32] [cursor=pointer]
+            - navigation "About us" [ref=e35] [cursor=pointer]
+            - button "Search" [ref=e39]
+    - generic:
+      - generic [ref=e43] [cursor=pointer]:
+        - generic [ref=e44]: "0"
+        - button [ref=e45]:
+          - text: Add funds
+          - img "button" [ref=e46]
+      - generic:
+        - generic:
+          - button "Close drawer":
+            - img "close"
+          - generic:
+            - generic:
+              - list:
+                - listitem:
+                  - button "nuv-utility-drawer-button": Your Funds
+        - dialog "Utility Drawer":
+          - generic: 0 OF 4
+          - generic: Fund 1
+          - generic: Fund 2
+          - generic: Fund 3
+          - generic: Fund 4
+        - generic:
+          - generic:
+            - button "nuv-utility-drawer-button-icon Compare funds":
+              - generic:
+                - img "nuv-utility-drawer-button-icon"
+              - text: Compare funds
+          - generic:
+            - button "nuv-utility-drawer-button-icon Add to portfolio":
+              - generic:
+                - img "nuv-utility-drawer-button-icon"
+              - text: Add to portfolio
+    - generic [ref=e50]:
+      - button "close-button" [ref=e51] [cursor=pointer]:
+        - img "close-icon" [ref=e52]
+      - generic [ref=e55]:
+        - generic [ref=e56]: Welcome to Nuveen
+        - generic [ref=e57]: Select your preferred site so we can tailor your experience.
+      - generic [ref=e58]:
+        - generic [ref=e59]:
+          - generic [ref=e60]:
+            - generic [ref=e61]: Confirm Your Region
+            - generic [ref=e62]:
+              - generic [ref=e63] [cursor=pointer]: Americas
+              - img "location_title location" [ref=e64]
+          - generic [ref=e66]:
+            - generic [ref=e67]: Confirm Your Location
+            - generic [ref=e68]:
+              - generic [ref=e69] [cursor=pointer]: United States
+              - img "location_title location" [ref=e70]
+        - generic [ref=e72]:
+          - generic [ref=e73]:
+            - generic [ref=e74]: Select a Site
+            - generic [ref=e75]:
+              - generic [ref=e76] [cursor=pointer]: Select Site...
+              - img "location_title location" [ref=e77]
+          - generic [ref=e80]:
+            - generic [ref=e81]:
+              - generic [ref=e82]: Terms and Conditions
+              - textbox "legal-acceptance" [ref=e83]
+            - generic [ref=e84]:
+              - link "Privacy notice" [ref=e85] [cursor=pointer]:
+                - /url: /en-us/privacy?forceswitcher=false
+              - link "Cookie policy, terms of use" [ref=e86] [cursor=pointer]:
+                - /url: /en-us/terms?forceswitcher=false
+          - link "Accept to continue" [ref=e88] [cursor=pointer]:
+            - /url: javascript:void(0)
+    - generic: Hit enter to search
+    - generic [ref=e89]:
+      - generic [ref=e91]:
+        - img "Night view of buildings" [ref=e93]
+        - generic [ref=e95]:
+          - paragraph
+          - heading "Careers at Nuveen" [level=1] [ref=e96]
+          - link "Search jobs" [ref=e98] [cursor=pointer]:
+            - /url: https://careers.tiaa.org/nuveen
+        - button [ref=e99] [cursor=pointer]:
+          - img "Bill Culture" [ref=e101]
+          - img "play button" [ref=e104]
+          - paragraph [ref=e106]: The Nuveen Way
+      - navigation "Breadcrumb" [ref=e109]:
+        - list [ref=e110]:
+          - listitem [ref=e111]:
+            - link "Nuveen" [ref=e112] [cursor=pointer]:
+              - /url: https://www.nuveen.com/en-us
+            - text: /
+          - listitem [ref=e113]:
+            - link "About Us" [ref=e114] [cursor=pointer]:
+              - /url: https://www.nuveen.com/en-us/about-us
+            - generic [ref=e115]: /
+          - listitem: Careers and job search
+      - generic [ref=e116]:
+        - heading "A global firm with a dynamic culture" [level=3] [ref=e117]
+        - generic [ref=e118]:
+          - generic [ref=e119]:
+            - generic [ref=e120]: 3,918
+            - generic [ref=e121]: world-class professionals*
+          - generic [ref=e122]:
+            - generic [ref=e123]: 39%
+            - generic [ref=e124]: of employees based outside of the United States*
+          - generic [ref=e125]:
+            - generic [ref=e126]: "27"
+            - generic [ref=e127]: countries*
+      - generic [ref=e130]:
+        - heading "Investing in our people" [level=1] [ref=e132]
+        - generic [ref=e133]:
+          - generic [ref=e135]:
+            - generic:
+              - heading [level=3]
+          - generic [ref=e137]:
+            - generic:
+              - heading [level=3]
+      - generic [ref=e140]:
+        - list [ref=e144]:
+          - listitem [ref=e145] [cursor=pointer]: Early careers
+          - listitem [ref=e146] [cursor=pointer]: Learning and development
+        - generic [ref=e151]:
+          - img "Early" [ref=e154]
+          - generic [ref=e155]:
+            - heading "Early careers at Nuveen" [level=2] [ref=e156]
+            - paragraph [ref=e157]: Along with our parent company, TIAA, Nuveen offers unique, global opportunities to gain early experience in the asset management industry through its summer internship and rotational associate programs.
+            - list [ref=e158]:
+              - listitem [ref=e159]:
+                - strong [ref=e160]: Summer Internships (undergraduate students)
+                - text: Nuveen’s summer internship program offers a world-class, 10-week experience for current undergraduates, with possibilities to springboard into our rotational program after graduation. The internship provides opportunities to connect with senior leaders from across Nuveen, participate in speaker series, and work with fellow interns cross-functionally during the iNUVation challenge.
+              - listitem [ref=e161]:
+                - strong [ref=e162]: Post-graduation Rotational Program
+                - text: Our two-year post-graduation rotational program delivers challenging assignments, rigorous training, targeted professional development, and mentorship to catapult your early career and expose you to areas across the business.
+            - paragraph [ref=e163]:
+              - link "Check out our early career opportunities" [ref=e164] [cursor=pointer]:
+                - /url: https://careers.tiaa.org/earlytalent
+      - generic [ref=e166]:
+        - heading "Industry-leading benefits" [level=3] [ref=e167]
+        - generic [ref=e168]:
+          - generic [ref=e169]:
+            - img "Financial well being" [ref=e172]
+            - generic [ref=e173]: Financial well-being and retirement
+            - generic [ref=e174]: We offer robust plans that help our associates build personal wealth and prepare for the future.
+          - generic [ref=e175]:
+            - img "Health and well being" [ref=e178]
+            - generic [ref=e179]: Health and well-being
+            - generic [ref=e180]: Our health plan options and wellness programs support choice, flexibility and well-being.
+          - generic [ref=e181]:
+            - img "Support for families" [ref=e184]
+            - generic [ref=e185]: Support for families
+            - generic [ref=e186]: We offer a robust family support program and industry-leading time away programs.
+          - generic [ref=e187]:
+            - img "Facilities and amenities" [ref=e190]
+            - generic [ref=e191]: Facilities and amenities
+            - generic [ref=e192]: Contemporary office spaces foster and inspire community.
+          - link "Learn more about our benefits external-icon" [ref=e195] [cursor=pointer]:
+            - /url: https://careers.tiaa.org/benefits
+            - generic [ref=e196]: Learn more about our benefits
+            - img "external-icon" [ref=e200]
+      - generic [ref=e204]:
+        - generic [ref=e205]:
+          - heading "Our people" [level=2] [ref=e207]
+          - paragraph
+          - paragraph [ref=e208]: Our associates share why Nuveen is an exceptional place to build a career.
+          - paragraph
+        - generic [ref=e211]:
+          - generic [ref=e217]:
+            - paragraph [ref=e218]:
+              - text: I started my career here in the
+              - strong [ref=e219]: rotational analyst
+              - text: program, where I learned industry fundamentals and worked with teams across the firm. Five years on, I am
+              - strong [ref=e220]: building my career
+              - text: as a fixed income municipal analyst within our credit research team,
+              - strong [ref=e221]: driving investments that make a difference
+              - text: in communities across the U.S.
+            - paragraph [ref=e222]: Julian Municipal Credit Research Analyst Chicago
+          - img "Julian" [ref=e223]
+        - generic [ref=e224]:
+          - generic [ref=e225]:
+            - button "Slide 1" [ref=e226]
+            - button "Slide 2" [ref=e229]
+            - button "Slide 3" [ref=e232]
+            - button "Slide 4" [ref=e235]
+            - button "Slide 5" [ref=e238]
+          - generic [ref=e241]:
+            - button "Previous" [ref=e242] [cursor=pointer]
+            - button "Next" [ref=e245] [cursor=pointer]
+      - generic [ref=e249]:
+        - img "/en-us/global/-/media/nuveen/2025-nuveen-brand-campaign/ide-hero-desktop2x_full-bleed-desktop-retina_1440x450.ashx" [ref=e252]
+        - generic [ref=e254]:
+          - heading "Business Resource Groups" [level=4] [ref=e255]
+          - paragraph [ref=e256]:
+            - paragraph [ref=e257]: Nuveen and its parent company TIAA support a rich community of Business Resource Groups (BRGs) that unite associates and foster a culture of inclusion.
+          - link "Learn more about the BRG program" [ref=e259] [cursor=pointer]:
+            - /url: https://www.tiaa.org/public/about-tiaa/our-values
+      - generic [ref=e260]:
+        - generic [ref=e262]:
+          - heading "Join our Talent Network" [level=4] [ref=e263]
+          - link [ref=e265] [cursor=pointer]:
+            - /url: https://tiaa.wd1.myworkdayjobs.com/en-US/Search/introduceYourself
+            - text: Get started
+            - img "external-icon" [ref=e266]
+        - generic [ref=e273]:
+          - paragraph [ref=e274]: Receive updates on career opportunities at Nuveen, a TIAA company, and stay connected by subscribing to the Talent Network.
+          - paragraph [ref=e275]
+      - generic [ref=e278]:
+        - heading "Resources" [level=2] [ref=e280]
+        - generic [ref=e281]:
+          - generic [ref=e282]:
+            - link [ref=e284] [cursor=pointer]:
+              - /url: /en-us/about-us/about-nuveen
+            - link "Why choose Nuveen" [ref=e287] [cursor=pointer]:
+              - /url: /en-us/about-us/about-nuveen
+            - generic [ref=e288]: 125+ years of experience navigating markets and evolving our client solutions.
+          - generic [ref=e289]:
+            - link [ref=e291] [cursor=pointer]:
+              - /url: /en-us/about-us/our-culture
+            - link "Our culture" [ref=e294] [cursor=pointer]:
+              - /url: /en-us/about-us/our-culture
+            - generic [ref=e295]: Discover Nuveen’s culture and people, united by a commitment to serving clients and communities worldwide.
+          - generic [ref=e296]:
+            - link [ref=e298] [cursor=pointer]:
+              - /url: /en-us/about-us/nuveen-leadership
+            - link "Nuveen leadership" [ref=e301] [cursor=pointer]:
+              - /url: /en-us/about-us/nuveen-leadership
+            - generic [ref=e302]: Meet the visionary leaders shaping Nuveen's future and driving our legacy of investment excellence.
+      - generic [ref=e305]:
+        - generic [ref=e306]:
+          - generic [ref=e307]:
+            - heading "Contact us" [level=3] [ref=e308]
+            - link "More contact info" [ref=e312] [cursor=pointer]:
+              - /url: /en-us/contact-us
+          - generic [ref=e313]:
+            - img "New" [ref=e315]
+            - generic [ref=e316]:
+              - heading "Financial professionals" [level=6] [ref=e317]
+              - list [ref=e318]:
+                - listitem [ref=e319]:
+                  - link "800.752.8700" [ref=e322] [cursor=pointer]:
+                    - /url: tel:800.752.8700
+                - listitem [ref=e323]:
+                  - link "Email us" [ref=e326] [cursor=pointer]:
+                    - /url: mailto:email@email.com
+            - generic [ref=e328]:
+              - heading "Individual investors" [level=6] [ref=e329]
+              - list [ref=e330]:
+                - listitem [ref=e331]:
+                  - link "800.257.8787" [ref=e334] [cursor=pointer]:
+                    - /url: tel:800.257.8787
+                - listitem [ref=e335]:
+                  - link "Email us" [ref=e338] [cursor=pointer]:
+                    - /url: mailto:email@email.com
+        - paragraph [ref=e342]:
+          - text: "You are on the site for:"
+          - strong [ref=e343]: Financial Professionals
+          - text: and
+          - strong [ref=e344]: Individual Investors
+          - text: ". You can switch to the site for:"
+          - link "Institutional Investors" [ref=e345] [cursor=pointer]:
+            - /url: https://www.nuveen.com/global?forceswitcher=true&type=us
+          - text: or
+          - link "Global Investors" [ref=e346] [cursor=pointer]:
+            - /url: https://www.nuveen.com/global?forceswitcher=true&type=global
+      - generic [ref=e348]:
+        - paragraph [ref=e349]: "* As of June 2025."
+        - paragraph [ref=e350]: Nuveen traces its history to 1898 when the company began underwriting municipal bonds, Nuveen’s investment team (which is inclusive of TIAA’s investment team) began managing assets on behalf of TIAA in 1918. TIAA acquired Nuveen in 2014, and shortly thereafter TIAA’s asset management business was combined with Nuveen. Statements regarding Nuveen’s history include TIAA’s history.
+      - contentinfo [ref=e351]:
+        - img "Footer Navigation Arc Background" [ref=e354]
+        - paragraph [ref=e355]: © 2026 Nuveen, LLC. All rights reserved.
+  - region "Cookie banner" [ref=e356]:
+    - dialog "Privacy" [ref=e357]:
+      - generic [ref=e359]:
+        - generic [ref=e363]:
+          - heading "We value your privacy" [level=1] [ref=e364]
+          - paragraph [ref=e365]:
+            - text: We use cookies to enhance site navigation, analyze site usage, and assist in our marketing efforts. Unless you change your browser settings to block cookies, you are agreeing to their use as explained in our
+            - link "privacy notice" [active] [ref=e366] [cursor=pointer]:
+              - /url: https://www.nuveen.com/en-us/privacy
+            - text: (for CA residents, click
+            - link "here" [ref=e367] [cursor=pointer]:
+              - /url: https://www.nuveen.com/en-us/resources/privacy-ccpa
+            - text: ) and
+            - link "cookies policy" [ref=e368] [cursor=pointer]:
+              - /url: https://www.nuveen.com/en-us/terms
+            - text: .
+        - button "Close" [ref=e371] [cursor=pointer]

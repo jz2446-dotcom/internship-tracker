@@ -1,0 +1,87 @@
+- generic [active] [ref=f152e1]:
+  - generic [ref=f152e2]:
+    - banner [ref=f152e3]:
+      - link "Partner Login" [ref=f152e6] [cursor=pointer]:
+        - /url: https://partnerlogin.lonestarfunds.com/secureauth14/restart.aspx
+      - navigation [ref=f152e8]:
+        - link [ref=f152e10] [cursor=pointer]:
+          - /url: https://www.lonestarfunds.com
+          - img "lone-star-funds-logo" [ref=f152e11]
+        - list [ref=f152e13]:
+          - listitem [ref=f152e14]:
+            - link "About Lone Star" [ref=f152e15] [cursor=pointer]:
+              - /url: https://www.lonestarfunds.com/about-us/
+            - text:     
+          - listitem [ref=f152e16]:
+            - link "The Lone Star Funds" [ref=f152e17] [cursor=pointer]:
+              - /url: https://www.lonestarfunds.com/lonestar-funds/
+            - text: 
+          - listitem [ref=f152e18]:
+            - link "Strategies" [ref=f152e19] [cursor=pointer]:
+              - /url: https://www.lonestarfunds.com/investment-strategies/
+            - text:    
+          - listitem [ref=f152e20]:
+            - link "Asset Management" [ref=f152e21] [cursor=pointer]:
+              - /url: https://www.lonestarfunds.com/asset-management/
+            - text: 
+          - listitem [ref=f152e22]:
+            - link "News" [ref=f152e23] [cursor=pointer]:
+              - /url: https://www.lonestarfunds.com/news/
+            - text: 
+          - listitem [ref=f152e24]:
+            - link [ref=f152e25] [cursor=pointer]:
+              - /url: Javascript:void(0);
+              - generic [ref=f152e26]: 
+          - listitem [ref=f152e27]:
+            - link "Contact us" [ref=f152e28] [cursor=pointer]:
+              - /url: https://www.lonestarfunds.com/about-us/global-offices/
+            - text: 
+    - text: 
+    - main [ref=f152e29]:
+      - generic [ref=f152e33]:
+        - heading "404" [level=1] [ref=f152e34]
+        - heading "OOPS! PAGE NOT FOUND" [level=2] [ref=f152e35]
+        - paragraph [ref=f152e36]: Sorry, the page you're looking for doesn't exist.
+        - link "Return Home" [ref=f152e38] [cursor=pointer]:
+          - /url: https://www.lonestarfunds.com
+    - contentinfo [ref=f152e39]:
+      - generic [ref=f152e40]:
+        - generic [ref=f152e41]:
+          - img "lone-star-funds-logo" [ref=f152e43]
+          - link [ref=f152e45] [cursor=pointer]:
+            - /url: https://www.linkedin.com/company/lone-star-funds
+            - img "social-logo" [ref=f152e46]
+        - generic [ref=f152e48]:
+          - generic [ref=f152e49]: ©2025-2026, Lone Star Funds. All Rights Reserved
+          - navigation [ref=f152e52]:
+            - list [ref=f152e53]:
+              - listitem [ref=f152e54]:
+                - link "Privacy Notice" [ref=f152e55] [cursor=pointer]:
+                  - /url: https://www.lonestarfunds.com/privacy-policy/
+              - listitem [ref=f152e56]:
+                - link "Terms of Use" [ref=f152e57] [cursor=pointer]:
+                  - /url: https://www.lonestarfunds.com/terms-of-use/
+              - listitem [ref=f152e58]:
+                - link "Japan Notice" [ref=f152e59] [cursor=pointer]:
+                  - /url: https://www.lonestarfunds.com/japan-notice/
+              - listitem [ref=f152e60]:
+                - link "U.K. Notice" [ref=f152e61] [cursor=pointer]:
+                  - /url: https://www.lonestarfunds.com/uk-notice/
+              - listitem [ref=f152e62]:
+                - link "Cookie Policy" [ref=f152e63] [cursor=pointer]:
+                  - /url: https://www.lonestarfunds.com/cookie-policy/
+              - listitem [ref=f152e64]:
+                - link "Data Privacy Framework" [ref=f152e65] [cursor=pointer]:
+                  - /url: https://www.lonestarfunds.com/data-privacy-framework/
+  - dialog "Cookie Notice" [ref=f152e66]:
+    - generic [ref=f152e67]:
+      - generic [ref=f152e69]:
+        - text: We use cookies to collect and analyze information on site performance and usage. By clicking Accept you agree to allow the Google Analytics cookies detailed in our Cookie Policy to be placed. You can update your preferences at any time by clicking the “Cookie Preferences” link in the header. Visit the Cookie Policy page for more information
+        - link "Cookie Policy" [ref=f152e70] [cursor=pointer]:
+          - /url: /privacy-policy
+      - generic [ref=f152e71]:
+        - link "Accept" [ref=f152e72] [cursor=pointer]:
+          - /url: "#"
+        - link "Decline" [ref=f152e73] [cursor=pointer]:
+          - /url: "#"
+      - generic "Decline" [ref=f152e74] [cursor=pointer]

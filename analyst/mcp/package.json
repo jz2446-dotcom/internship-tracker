@@ -1,0 +1,12 @@
+{
+  "name": "tracker-analyst-mcp",
+  "version": "1.0.0",
+  "private": true,
+  "description": "MCP server wrapping the tracker's analyst engine (run-analyst.js) so Claude can drive the free ATS/browser research pipeline as tool calls instead of spawning research subagents.",
+  "type": "commonjs",
+  "main": "server.js",
+  "engines": { "node": ">=18" },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.29.0"
+  }
+}

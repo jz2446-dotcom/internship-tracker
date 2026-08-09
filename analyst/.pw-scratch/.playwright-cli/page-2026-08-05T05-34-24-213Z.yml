@@ -1,0 +1,291 @@
+- generic [ref=f1e1]:
+  - dialog "Important System Message" [ref=f1e3]:
+    - generic [ref=f1e5]:
+      - paragraph [ref=f1e6]: This site uses cookies.
+      - paragraph [ref=f1e7]:
+        - text: We use cookies to collect data while you use this website. The cookies we gather allow us to give you the very best experience. To learn more about how we use cookie data, visit our
+        - link "cookie notice" [ref=f1e8] [cursor=pointer]:
+          - /url: /cookie-notice
+        - text: .
+      - paragraph [ref=f1e9]:
+        - text: "Please Note: Essential cookies will continue to be used on our site, even if you select \"Reject Cookies\", as essential cookies are required for our site to perform its basic functions. Please select"
+        - link "Adjust Cookie Settings" [ref=f1e10] [cursor=pointer]:
+          - /url: /cookie-management
+        - text: for additional information on the types of cookies we use and/or to tailor your selections. You can edit your preferences at any time by selecting Cookie Preferences in the sites footer.
+    - generic [ref=f1e11]:
+      - button "Accept Cookies" [active] [ref=f1e12] [cursor=pointer]
+      - button "Reject Cookies" [ref=f1e13] [cursor=pointer]
+      - button "Manage Settings" [ref=f1e14] [cursor=pointer]
+  - generic [ref=f1e15]:
+    - link "Skip to main content" [ref=f1e16] [cursor=pointer]:
+      - /url: "#content"
+    - banner [ref=f1e17]:
+      - generic [ref=f1e20]:
+        - link [ref=f1e22] [cursor=pointer]:
+          - /url: /
+          - img "Citi Careers (Home)" [ref=f1e24]
+          - generic [ref=f1e25]: Careers
+        - navigation "main" [ref=f1e26]:
+          - link "Saved Jobs" [ref=f1e30] [cursor=pointer]:
+            - /url: /saved-jobs
+          - list [ref=f1e34]:
+            - listitem [ref=f1e35]:
+              - link "Search Jobs" [ref=f1e36] [cursor=pointer]:
+                - /url: /search-jobs
+            - listitem [ref=f1e37]:
+              - button "Why Citi" [ref=f1e38] [cursor=pointer]
+            - listitem [ref=f1e39]:
+              - button "Early Career" [ref=f1e40] [cursor=pointer]
+            - listitem [ref=f1e41]:
+              - button "Talent Networks" [ref=f1e42] [cursor=pointer]
+              - text:  
+    - main [ref=f1e43]:
+      - generic [ref=f1e44]:
+        - generic [ref=f1e45]:
+          - button "Pause Animation" [ref=f1e47] [cursor=pointer]
+          - generic "Background Animation" [ref=f1e48]
+          - heading "Citi Careers" [level=1] [ref=f1e49]
+        - generic [ref=f1e52]:
+          - search [ref=f1e53]:
+            - group "Search Jobs" [ref=f1e54]:
+              - generic [ref=f1e55]:
+                - generic [ref=f1e56]: Keyword
+                - searchbox "Keyword" [ref=f1e57]
+              - generic [ref=f1e58]:
+                - generic [ref=f1e59]: Location
+                - combobox "Location" [ref=f1e60]
+              - button "Search Jobs" [ref=f1e61] [cursor=pointer]
+          - generic [ref=f1e63]:
+            - generic [ref=f1e64]: Explore opportunities matched to your skills
+            - generic [ref=f1e65]: Upload your resume to unlock personalized career opportunities with Match Me, powered by Eightfold.
+            - link "Get Matched (opens in new window) " [ref=f1e66] [cursor=pointer]:
+              - /url: https://citi.eightfold.ai/careers
+              - text: Get Matched
+              - generic [ref=f1e67]: (opens in new window)
+              - text: 
+      - list [ref=f1e69]:
+        - listitem [ref=f1e70]:
+          - generic [ref=f1e71]:
+            - img "Coworkers having a casual conversation in a park" [ref=f1e74]
+            - generic [ref=f1e75]:
+              - heading "Who We Are" [level=2] [ref=f1e76]
+              - paragraph [ref=f1e77]: Explore our mission, vision and the steps we're taking to make a difference.
+              - paragraph [ref=f1e78]:
+                - link "Discover More About Citi" [ref=f1e79] [cursor=pointer]:
+                  - /url: /about-us
+        - listitem [ref=f1e80]:
+          - generic [ref=f1e81]:
+            - img "Two young professional enjoying the weekend" [ref=f1e84]
+            - generic [ref=f1e85]:
+              - heading "Early Career" [level=2] [ref=f1e86]
+              - paragraph [ref=f1e87]: Explore our Early Career programs, job simulations, events and application process.
+              - paragraph [ref=f1e88]:
+                - link "Learn About Early Career" [ref=f1e89] [cursor=pointer]:
+                  - /url: /early-careers
+      - generic [ref=f1e91]:
+        - img "Woman looking at her smartphone" [ref=f1e95]
+        - generic [ref=f1e99]:
+          - img "Woman looking at her smartphone" [ref=f1e100]
+          - generic [ref=f1e101]:
+            - heading "Recruitment Scam Awareness" [level=2] [ref=f1e102]
+            - paragraph [ref=f1e103]: Learn how to recognize common recruitment scams, protect your personal information and find out what to do if you suspect a scam.
+            - paragraph [ref=f1e104]:
+              - link "Learn How to Protect Yourself" [ref=f1e105] [cursor=pointer]:
+                - /url: /scam-awareness
+      - generic [ref=f1e107]:
+        - img "A man walks his dog, enjoying a well-earned break from work." [ref=f1e111]
+        - generic [ref=f1e112]:
+          - generic [ref=f1e113]:
+            - heading "Global Benefits" [level=2] [ref=f1e114]
+            - paragraph [ref=f1e115]: Discover the top benefits offered to our global workforce, designed to support your well-being, growth and work-life balance. Explore a few of the highlights that make working with us rewarding.
+            - paragraph [ref=f1e116]:
+              - link "Learn About Global Benefits" [ref=f1e117] [cursor=pointer]:
+                - /url: /about-us#benefits
+          - img "A woman enjoying work-life balance with her family" [ref=f1e119]
+      - generic [ref=f1e121]:
+        - blockquote [ref=f1e124]:
+          - paragraph [ref=f1e125]: With our global footprint, our role shaping the future of the industry and the impact we make with our clients, there simply isn’t a more interesting place to be right now than at Citi. Our people are energized by what they can do here, and we’re proud of Citi’s long track record of attracting, retaining and developing top talent.
+        - generic [ref=f1e126]:
+          - img "Headshot of Jane Fraser" [ref=f1e128]
+          - generic [ref=f1e129]:
+            - paragraph [ref=f1e130]: Jane Fraser
+            - paragraph [ref=f1e131]: Chief Executive Officer
+            - paragraph [ref=f1e132]: Citi
+      - list [ref=f1e134]:
+        - listitem [ref=f1e135]:
+          - generic [ref=f1e139]:
+            - heading "Early Career Talent Network" [level=2] [ref=f1e140]
+            - paragraph [ref=f1e141]: Sign up to receive personalized job matches based on your skills and interests. We'll help you discover opportunities that align with your goals.
+            - paragraph [ref=f1e142]:
+              - link "Join Early Career Network (opens in new window) " [ref=f1e143] [cursor=pointer]:
+                - /url: https://citi.eightfold.ai/careers/join?jtn_form_id=jtn-early-career
+                - text: Join Early Career Network
+                - generic [ref=f1e144]: (opens in new window)
+                - text: 
+        - listitem [ref=f1e145]:
+          - generic [ref=f1e146]:
+            - img "4 people standing on a staircase" [ref=f1e149]
+            - generic [ref=f1e150]:
+              - heading "Career Professionals Talent Network" [level=2] [ref=f1e151]
+              - paragraph [ref=f1e152]: Sign up to receive tailored job matches based on your skills and experience. Discover opportunities that align with your ambitions.
+              - paragraph [ref=f1e153]:
+                - link "Join Career Professionals Network" [ref=f1e154] [cursor=pointer]:
+                  - /url: https://citi.eightfold.ai/careers/join?jtn_form_id=jtn-general
+    - contentinfo [ref=f1e155]:
+      - generic [ref=f1e156]:
+        - list [ref=f1e158]:
+          - listitem [ref=f1e159]:
+            - heading "Home" [level=2] [ref=f1e160]
+            - list [ref=f1e162]:
+              - listitem [ref=f1e163]:
+                - link "Search Jobs" [ref=f1e164] [cursor=pointer]:
+                  - /url: /search-jobs
+              - listitem [ref=f1e165]:
+                - link "Upload Resume (opens in new window) " [ref=f1e166] [cursor=pointer]:
+                  - /url: https://citi.eightfold.ai/careers
+                  - text: Upload Resume
+                  - generic [ref=f1e167]: (opens in new window)
+                  - text: 
+              - listitem [ref=f1e168]:
+                - link "Manage Application (opens in new window) " [ref=f1e169] [cursor=pointer]:
+                  - /url: https://citi.wd5.myworkdayjobs.com/en-US/2/userHome
+                  - text: Manage Application
+                  - generic [ref=f1e170]: (opens in new window)
+                  - text: 
+              - listitem [ref=f1e171]:
+                - link "Recruitment Scam Awareness (opens in new window)" [ref=f1e172] [cursor=pointer]:
+                  - /url: /scam-awareness
+                  - text: Recruitment Scam Awareness
+                  - generic [ref=f1e173]: (opens in new window)
+          - listitem [ref=f1e174]:
+            - heading "Why Citi" [level=2] [ref=f1e175]
+            - list [ref=f1e177]:
+              - listitem [ref=f1e178]:
+                - link "About Us" [ref=f1e179] [cursor=pointer]:
+                  - /url: /about-us
+              - listitem [ref=f1e180]:
+                - link "People, Engagement and Inclusion" [ref=f1e181] [cursor=pointer]:
+                  - /url: /people-engagement-inclusion
+          - listitem [ref=f1e182]:
+            - heading "Early Career" [level=2] [ref=f1e183]
+            - list [ref=f1e185]:
+              - listitem [ref=f1e186]:
+                - link "Early Career Overview" [ref=f1e187] [cursor=pointer]:
+                  - /url: /early-career-programs
+              - listitem [ref=f1e188]:
+                - link "Job Simulations" [ref=f1e189] [cursor=pointer]:
+                  - /url: /job-simulations
+              - listitem [ref=f1e190]:
+                - link "Events" [ref=f1e191] [cursor=pointer]:
+                  - /url: /events-preinternships
+              - listitem [ref=f1e192]:
+                - link "Pre-Internships" [ref=f1e193] [cursor=pointer]:
+                  - /url: /early-career-programs-pre-internships
+              - listitem [ref=f1e194]:
+                - link "Internships" [ref=f1e195] [cursor=pointer]:
+                  - /url: /early-career-programs-internships
+              - listitem [ref=f1e196]:
+                - link "Full-Time Programs" [ref=f1e197] [cursor=pointer]:
+                  - /url: /early-career-programs-full-time
+              - listitem [ref=f1e198]:
+                - link "Apprenticeships" [ref=f1e199] [cursor=pointer]:
+                  - /url: /early-career-programs-apprenticeships
+          - listitem [ref=f1e200]:
+            - heading "Early Career" [level=2] [ref=f1e201]:
+              - generic: Networks
+            - list [ref=f1e203]:
+              - listitem [ref=f1e204]:
+                - link "Early Career Talent Network (opens in new window) " [ref=f1e205] [cursor=pointer]:
+                  - /url: https://citi.eightfold.ai/careers/join?jtn_form_id=jtn-early-career
+                  - text: Early Career Talent Network
+                  - generic [ref=f1e206]: (opens in new window)
+                  - text: 
+              - listitem [ref=f1e207]:
+                - link "Career Professionals Talent Network (opens in new window) " [ref=f1e208] [cursor=pointer]:
+                  - /url: https://citi.eightfold.ai/careers/join?jtn_form_id=jtn-general
+                  - text: Career Professionals Talent Network
+                  - generic [ref=f1e209]: (opens in new window)
+                  - text: 
+              - listitem [ref=f1e210]:
+                - link "Citi Alumni Network (opens in new window) " [ref=f1e211] [cursor=pointer]:
+                  - /url: https://www.citialumninetwork.com/
+                  - text: Citi Alumni Network
+                  - generic [ref=f1e212]: (opens in new window)
+                  - text: 
+        - list [ref=f1e214]:
+          - listitem [ref=f1e215]:
+            - link "X" [ref=f1e216] [cursor=pointer]:
+              - /url: //www.twitter.com/citicareers
+          - listitem [ref=f1e217]:
+            - link "Facebook" [ref=f1e218] [cursor=pointer]:
+              - /url: //www.facebook.com/CitiCareers/
+          - listitem [ref=f1e219]:
+            - link "YouTube" [ref=f1e220] [cursor=pointer]:
+              - /url: //www.youtube.com/playlist?list=PL7807xkyz4XRKIqtHnM67nx6rMm1ZUTnz
+          - listitem [ref=f1e221]:
+            - link "LinkedIn" [ref=f1e222] [cursor=pointer]:
+              - /url: //www.linkedin.com/company/citi/life
+          - listitem [ref=f1e223]:
+            - link "Instagram" [ref=f1e224] [cursor=pointer]:
+              - /url: //www.instagram.com/citicareers/
+          - listitem [ref=f1e225]:
+            - link "Glassdoor" [ref=f1e226] [cursor=pointer]:
+              - /url: //www.glassdoor.com/citi
+        - list [ref=f1e227]:
+          - listitem [ref=f1e228]:
+            - link "Privacy" [ref=f1e229] [cursor=pointer]:
+              - /url: /privacy
+          - listitem [ref=f1e230]:
+            - link "Notice at Collection" [ref=f1e231] [cursor=pointer]:
+              - /url: https://tbcdn.talentbrew.com/company/287/cms/v3/docs/policies/tagged-California_Career_Supplement_a11y.pdf
+          - listitem [ref=f1e232]:
+            - link "Terms" [ref=f1e233] [cursor=pointer]:
+              - /url: /terms-of-use
+          - listitem [ref=f1e234]:
+            - link "Additional Terms" [ref=f1e235] [cursor=pointer]:
+              - /url: /additional-terms
+          - listitem [ref=f1e236]:
+            - link "Cookie Notice" [ref=f1e237] [cursor=pointer]:
+              - /url: /cookie-notice
+          - listitem [ref=f1e238]:
+            - link "Cookie Preferences" [ref=f1e239] [cursor=pointer]:
+              - /url: /cookie-management
+          - listitem [ref=f1e240]:
+            - link "Sitemap" [ref=f1e241] [cursor=pointer]:
+              - /url: /sitemap
+        - generic [ref=f1e242]:
+          - generic [ref=f1e243]:
+            - paragraph [ref=f1e244]: Citi is an equal opportunity employer, and qualified candidates will receive consideration without regard to their race, color, religion, sex, sexual orientation, gender identity, national origin, disability, status as a protected veteran, or any other characteristic protected by law.
+            - paragraph [ref=f1e245]:
+              - text: If you are a person with a disability and need a reasonable accommodation to use our search tools and/or apply for a career opportunity review
+              - link "Accessibility at Citi (opens in new window) " [ref=f1e246] [cursor=pointer]:
+                - /url: https://www.citi.com/accessibility?section=employment-applicant-accessibility
+                - text: Accessibility at Citi
+                - generic [ref=f1e247]: (opens in new window)
+                - text: 
+              - text: .
+            - paragraph [ref=f1e248]:
+              - text: View Citi’s
+              - link "EEO Policy Statement (opens in new window) " [ref=f1e249] [cursor=pointer]:
+                - /url: https://www.citigroup.com/global/eeo-aa-policy
+                - text: EEO Policy Statement
+                - generic [ref=f1e250]: (opens in new window)
+                - text: 
+              - text: and the
+              - link "Know Your Rights (PDF) (opens in new window) " [ref=f1e251] [cursor=pointer]:
+                - /url: https://www.eeoc.gov/sites/default/files/2023-06/22-088_EEOC_KnowYourRights6.12ScreenRdr.pdf
+                - text: Know Your Rights (PDF)
+                - generic [ref=f1e252]: (opens in new window)
+                - text: 
+              - text: poster.
+          - paragraph [ref=f1e254]:
+            - link "Citigroup.com" [ref=f1e255] [cursor=pointer]:
+              - /url: https://citigroup.com
+            - text: is the global source of information about and access point to financial services provided by the Citi family of companies.
+          - generic [ref=f1e256]:
+            - link [ref=f1e257] [cursor=pointer]:
+              - /url: /
+              - img "Citi Careers (Home)" [ref=f1e258]
+            - paragraph [ref=f1e259]: © 2026 Citigroup, Inc. All rights reserved. Citi, Citi and Arc Design and other marks used herein are service marks of Citigroup Inc. or its affiliates, used and registered throughout the world.
+  - status
+  - status

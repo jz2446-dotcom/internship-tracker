@@ -1,0 +1,23 @@
+---
+key: "Fidelity Investments::None identified (as sophomore-specific multi-week program)"
+company: "Fidelity Investments"
+program: "None identified (as sophomore-specific multi-week program)"
+group: "Sophomore Internships"
+category: "N/A"
+class_years: []
+status: "none"
+deadline: ""
+posted: ""
+acceptance_rate: ""
+competitiveness: ""
+location: "N/A"
+apply_url: ""
+# ---- your fields below are preserved on every refresh ----
+applied: false
+stage: "to-apply"
+priority: ""
+referral: ""
+---
+## My notes
+
+_Add referral contacts, recruiter names, interview dates, status, links — preserved across refreshes._

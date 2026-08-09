@@ -1,0 +1,397 @@
+- generic [active] [ref=f61e1]:
+  - banner [ref=f61e2]:
+    - link "Skip to main content" [ref=f61e3] [cursor=pointer]:
+      - /url: "#skip-to-content"
+    - generic [ref=f61e4]:
+      - link "Nike Home Page" [ref=f61e5] [cursor=pointer]:
+        - /url: /
+      - navigation [ref=f61e7]:
+        - list [ref=f61e8]:
+          - listitem [ref=f61e9]:
+            - link "Home" [ref=f61e10] [cursor=pointer]:
+              - /url: /
+          - listitem [ref=f61e11]:
+            - link "Career Areas" [ref=f61e12] [cursor=pointer]:
+              - /url: /career-areas
+          - listitem [ref=f61e13]:
+            - link "Total Rewards" [ref=f61e14] [cursor=pointer]:
+              - /url: /total-rewards
+          - listitem [ref=f61e15]:
+            - link "Life@Nike" [ref=f61e16] [cursor=pointer]:
+              - /url: /life-at-nike
+          - listitem [ref=f61e17]:
+            - link "Purpose" [ref=f61e18] [cursor=pointer]:
+              - /url: /purpose
+      - generic [ref=f61e19]:
+        - button "Select Language" [ref=f61e21] [cursor=pointer]:
+          - generic [ref=f61e24]: Language
+        - link "Search Open Jobs" [ref=f61e28] [cursor=pointer]:
+          - /url: /jobs
+          - generic [ref=f61e29]: Careers
+  - main [ref=f61e30]:
+    - generic [ref=f61e31]:
+      - generic [ref=f61e33]:
+        - generic [ref=f61e34]:
+          - generic [ref=f61e37]:
+            - heading "Filters" [level=3] [ref=f61e38]
+            - list
+          - link "Clear Filters" [ref=f61e39] [cursor=pointer]:
+            - /url: javascript:void(0);
+        - list [ref=f61e42]:
+          - listitem [ref=f61e43]:
+            - button "Remove Filters" [ref=f61e44] [cursor=pointer]: All Careers
+          - listitem [ref=f61e45]:
+            - button "Filter Retail Jobs" [ref=f61e46] [cursor=pointer]: Retail
+          - listitem [ref=f61e47]
+          - listitem [ref=f61e48]:
+            - button "Filter Manufacturing Jobs" [ref=f61e49] [cursor=pointer]: Manufacturing
+          - listitem [ref=f61e50]:
+            - button "Filter Corporate Jobs" [ref=f61e51] [cursor=pointer]: Corporate
+          - listitem [ref=f61e52]
+        - generic [ref=f61e56]:
+          - generic [ref=f61e57]:
+            - generic [ref=f61e58]: Keyword Search
+            - combobox "Keyword Search" [ref=f61e61]
+          - generic [ref=f61e63]:
+            - generic [ref=f61e64]: Location Search
+            - generic [ref=f61e65]:
+              - text: 
+              - combobox "Location Search" [ref=f61e67]
+              - button "Use your location" [ref=f61e70] [cursor=pointer]:
+                - img [ref=f61e71]:
+                  - generic [ref=f61e72]: Use your location
+          - button "Search" [ref=f61e75] [cursor=pointer]
+          - alert [ref=f61e76]: 1072 related jobs displayed
+        - generic [ref=f61e81]:
+          - group [ref=f61e82]:
+            - button "Career Areas " [ref=f61e83] [cursor=pointer]:
+              - generic [ref=f61e84]: Career Areas
+              - text: 
+            - group "Career Areas " [ref=f61e86]:
+              - generic [ref=f61e87]:
+                - checkbox "Accounts Payable / Receivable 2" [ref=f61e88]
+                - generic [ref=f61e89]: Accounts Payable / Receivable
+                - generic [ref=f61e90]: "2"
+              - generic [ref=f61e91]:
+                - checkbox "Advanced Innovation 3" [ref=f61e92]
+                - generic [ref=f61e93]: Advanced Innovation
+                - generic [ref=f61e94]: "3"
+              - generic [ref=f61e95]:
+                - checkbox "Business Operations 7" [ref=f61e96]
+                - generic [ref=f61e97]: Business Operations
+                - generic [ref=f61e98]: "7"
+              - generic [ref=f61e99]:
+                - checkbox "Communications 1" [ref=f61e100]
+                - generic [ref=f61e101]: Communications
+                - generic [ref=f61e102]: "1"
+              - generic [ref=f61e103]:
+                - checkbox "Data 5" [ref=f61e104]
+                - generic [ref=f61e105]: Data
+                - generic [ref=f61e106]: "5"
+              - generic [ref=f61e107]:
+                - checkbox "Design 57" [ref=f61e108]
+                - generic [ref=f61e109]: Design
+                - generic [ref=f61e110]: "57"
+              - generic [ref=f61e111]:
+                - checkbox "Facilities & Real Estate 7" [ref=f61e112]
+                - generic [ref=f61e113]: Facilities & Real Estate
+                - generic [ref=f61e114]: "7"
+              - generic [ref=f61e115]:
+                - checkbox "Finance & Accounting 12" [ref=f61e116]
+                - generic [ref=f61e117]: Finance & Accounting
+                - generic [ref=f61e118]: "12"
+              - generic [ref=f61e119]:
+                - checkbox "General Counsel 4" [ref=f61e120]
+                - generic [ref=f61e121]: General Counsel
+                - generic [ref=f61e122]: "4"
+          - group [ref=f61e123]:
+            - button "Position Type " [ref=f61e124] [cursor=pointer]:
+              - generic [ref=f61e125]: Position Type
+              - text: 
+            - group "Position Type " [ref=f61e126]:
+              - generic [ref=f61e127]:
+                - checkbox "Full Time 797" [ref=f61e128]
+                - generic [ref=f61e129]: Full Time
+                - generic [ref=f61e130]: "797"
+              - generic [ref=f61e131]:
+                - checkbox "Part Time 213" [ref=f61e132]
+                - generic [ref=f61e133]: Part Time
+                - generic [ref=f61e134]: "213"
+          - group [ref=f61e135]:
+            - button "Is Remote " [ref=f61e136] [cursor=pointer]:
+              - generic [ref=f61e137]: Is Remote
+              - text: 
+            - group "Is Remote " [ref=f61e138]:
+              - generic [ref=f61e139]:
+                - checkbox "No 1070" [ref=f61e140]
+                - generic [ref=f61e141]: "No"
+                - generic [ref=f61e142]: "1070"
+              - generic [ref=f61e143]:
+                - checkbox "Yes 2" [ref=f61e144]
+                - generic [ref=f61e145]: "Yes"
+                - generic [ref=f61e146]: "2"
+          - group [ref=f61e147]:
+            - button "Brand " [ref=f61e148] [cursor=pointer]:
+              - generic [ref=f61e149]: Brand
+              - text: 
+            - group "Brand " [ref=f61e150]:
+              - generic [ref=f61e151]:
+                - checkbox "CONVERSE 65" [ref=f61e152]
+                - generic [ref=f61e153]: CONVERSE
+                - generic [ref=f61e154]: "65"
+              - generic [ref=f61e155]:
+                - checkbox "JORDAN 17" [ref=f61e156]
+                - generic [ref=f61e157]: JORDAN
+                - generic [ref=f61e158]: "17"
+              - generic [ref=f61e159]:
+                - checkbox "NIKE 990" [ref=f61e160]
+                - generic [ref=f61e161]: NIKE
+                - generic [ref=f61e162]: "990"
+          - text:  
+        - list [ref=f61e164]:
+          - listitem [ref=f61e165]:
+            - link "Join The Talent Community " [ref=f61e166] [cursor=pointer]:
+              - /url: https://nikeats.avature.net/niketalentcommunity
+              - generic [ref=f61e167]: Join The Talent Community
+              - generic [ref=f61e168]: 
+          - listitem [ref=f61e169]:
+            - link "Contract Jobs - USA Only* " [ref=f61e170] [cursor=pointer]:
+              - /url: https://www.livehire.com/careers/nikeinc/jobs
+              - generic [ref=f61e171]: Contract Jobs - USA Only*
+              - generic [ref=f61e172]: 
+      - generic [ref=f61e173]:
+        - generic [ref=f61e177]:
+          - generic [ref=f61e178]: Search Careers
+          - 'heading "OPEN POSITIONS: 115" [level=2] [ref=f61e179]'
+        - generic [ref=f61e183]:
+          - generic [ref=f61e187]:
+            - generic [ref=f61e188]: Sort By
+            - button "Sort By Posting Date" [ref=f61e190] [cursor=pointer]:
+              - generic [ref=f61e191]: Posting Date
+          - generic [ref=f61e195]:
+            - list [ref=f61e200]:
+              - listitem [ref=f61e201]:
+                - heading "Assistant Store Manager - Milipitas Job ID:R-89638" [level=3] [ref=f61e203]:
+                  - link "Assistant Store Manager - Milipitas" [ref=f61e204] [cursor=pointer]:
+                    - /url: /assistant-store-manager-milipitas/job/R-89638
+                  - generic [ref=f61e205]: Job ID:R-89638
+                - generic [ref=f61e206]:
+                  - generic [ref=f61e207]:
+                    - generic [ref=f61e208]: Milpitas, California, United States
+                    - generic [ref=f61e211]: Retail Stores
+                  - link "View Job, Assistant Store Manager - Milipitas" [ref=f61e213] [cursor=pointer]:
+                    - /url: /assistant-store-manager-milipitas/job/R-89638
+                    - generic [ref=f61e214]: View Job
+              - listitem [ref=f61e216]:
+                - heading "Principal, Basketball/Kobe Sales NA Job ID:R-88907" [level=3] [ref=f61e218]:
+                  - link "Principal, Basketball/Kobe Sales NA" [ref=f61e219] [cursor=pointer]:
+                    - /url: /principal-basketball-kobe-sales-na/job/R-88907
+                  - generic [ref=f61e220]: Job ID:R-88907
+                - generic [ref=f61e221]:
+                  - generic [ref=f61e222]:
+                    - generic [ref=f61e223]: Beaverton, Oregon, United States
+                    - generic [ref=f61e226]: Sales & Customer Service
+                  - link "View Job, Principal, Basketball/Kobe Sales NA" [ref=f61e228] [cursor=pointer]:
+                    - /url: /principal-basketball-kobe-sales-na/job/R-88907
+                    - generic [ref=f61e229]: View Job
+              - listitem [ref=f61e231]:
+                - heading "Athlete / Asesor.a de Venta PT 24H Medio Tiempo - Nike Gran Terraza Coapa Job ID:R-89505" [level=3] [ref=f61e233]:
+                  - link "Athlete / Asesor.a de Venta PT 24H Medio Tiempo - Nike Gran Terraza Coapa" [ref=f61e234] [cursor=pointer]:
+                    - /url: /athlete-asesor-a-de-venta-pt-24h-medio-tiempo-nike-gran-terraza-coapa/job/R-89505
+                  - generic [ref=f61e235]: Job ID:R-89505
+                - generic [ref=f61e236]:
+                  - generic [ref=f61e237]:
+                    - generic [ref=f61e238]: Ciudad de México, Ciudad de Mexico, Mexico
+                    - generic [ref=f61e241]: Retail Stores
+                  - link "View Job, Athlete / Asesor.a de Venta PT 24H Medio Tiempo - Nike Gran Terraza Coapa" [ref=f61e243] [cursor=pointer]:
+                    - /url: /athlete-asesor-a-de-venta-pt-24h-medio-tiempo-nike-gran-terraza-coapa/job/R-89505
+                    - generic [ref=f61e244]: View Job
+              - listitem [ref=f61e246]:
+                - heading "Principal, Partner Management Manager Job ID:R-89570" [level=3] [ref=f61e248]:
+                  - link "Principal, Partner Management Manager" [ref=f61e249] [cursor=pointer]:
+                    - /url: /principal-partner-management-manager/job/R-89570
+                  - generic [ref=f61e250]: Job ID:R-89570
+                - generic [ref=f61e251]:
+                  - generic [ref=f61e252]:
+                    - generic [ref=f61e253]: Beaverton, Oregon, United States
+                    - generic [ref=f61e256]: Manufacturing & Engineering
+                  - link "View Job, Principal, Partner Management Manager" [ref=f61e258] [cursor=pointer]:
+                    - /url: /principal-partner-management-manager/job/R-89570
+                    - generic [ref=f61e259]: View Job
+              - listitem [ref=f61e261]:
+                - heading "Lead, Global Brand Art Direction & Design Job ID:R-83934" [level=3] [ref=f61e263]:
+                  - link "Lead, Global Brand Art Direction & Design" [ref=f61e264] [cursor=pointer]:
+                    - /url: /lead-global-brand-art-direction-design/job/R-83934
+                  - generic [ref=f61e265]: Job ID:R-83934
+                - generic [ref=f61e266]:
+                  - generic [ref=f61e267]:
+                    - generic [ref=f61e268]: Beaverton, Oregon, United States
+                    - generic [ref=f61e271]: Design
+                  - link "View Job, Lead, Global Brand Art Direction & Design" [ref=f61e273] [cursor=pointer]:
+                    - /url: /lead-global-brand-art-direction-design/job/R-83934
+                    - generic [ref=f61e274]: View Job
+              - listitem [ref=f61e276]:
+                - heading "Assistant Head Coach / Sub-Gerente de tienda – NVS León Job ID:R-89623" [level=3] [ref=f61e278]:
+                  - link "Assistant Head Coach / Sub-Gerente de tienda – NVS León" [ref=f61e279] [cursor=pointer]:
+                    - /url: /assistant-head-coach-sub-gerente-de-tienda-nvs-león/job/R-89623
+                  - generic [ref=f61e280]: Job ID:R-89623
+                - generic [ref=f61e281]:
+                  - generic [ref=f61e282]:
+                    - generic [ref=f61e283]: Leon, Guanajuato, Mexico
+                    - generic [ref=f61e286]: Retail Stores
+                  - link "View Job, Assistant Head Coach / Sub-Gerente de tienda – NVS León" [ref=f61e288] [cursor=pointer]:
+                    - /url: /assistant-head-coach-sub-gerente-de-tienda-nvs-león/job/R-89623
+                    - generic [ref=f61e289]: View Job
+              - listitem [ref=f61e291]:
+                - heading "Senior Expert, Apparel & Accessories Design, Energy Job ID:R-89060" [level=3] [ref=f61e293]:
+                  - link "Senior Expert, Apparel & Accessories Design, Energy" [ref=f61e294] [cursor=pointer]:
+                    - /url: /senior-expert-apparel-accessories-design-energy/job/R-89060
+                  - generic [ref=f61e295]: Job ID:R-89060
+                - generic [ref=f61e296]:
+                  - generic [ref=f61e297]:
+                    - generic [ref=f61e298]: Los Angeles, California, United States
+                    - generic [ref=f61e301]: Design
+                  - link "View Job, Senior Expert, Apparel & Accessories Design, Energy" [ref=f61e303] [cursor=pointer]:
+                    - /url: /senior-expert-apparel-accessories-design-energy/job/R-89060
+                    - generic [ref=f61e304]: View Job
+              - listitem [ref=f61e306]:
+                - heading "Department Manager - Nike Woodbury Job ID:R-88957" [level=3] [ref=f61e308]:
+                  - link "Department Manager - Nike Woodbury" [ref=f61e309] [cursor=pointer]:
+                    - /url: /department-manager-nike-woodbury/job/R-88957
+                  - generic [ref=f61e310]: Job ID:R-88957
+                - generic [ref=f61e311]:
+                  - generic [ref=f61e312]:
+                    - generic [ref=f61e313]: Central Valley, New York, United States
+                    - generic [ref=f61e316]: Retail Stores
+                  - link "View Job, Department Manager - Nike Woodbury" [ref=f61e318] [cursor=pointer]:
+                    - /url: /department-manager-nike-woodbury/job/R-88957
+                    - generic [ref=f61e319]: View Job
+              - listitem [ref=f61e321]:
+                - heading "Specialist, Associate Producer, Experiences Team, NA Job ID:R-88980" [level=3] [ref=f61e323]:
+                  - link "Specialist, Associate Producer, Experiences Team, NA" [ref=f61e324] [cursor=pointer]:
+                    - /url: /specialist-associate-producer-experiences-team-na/job/R-88980
+                  - generic [ref=f61e325]: Job ID:R-88980
+                - generic [ref=f61e326]:
+                  - generic [ref=f61e327]:
+                    - generic [ref=f61e328]: New York, New York, United States
+                    - generic [ref=f61e331]: Marketing
+                  - link "View Job, Specialist, Associate Producer, Experiences Team, NA" [ref=f61e333] [cursor=pointer]:
+                    - /url: /specialist-associate-producer-experiences-team-na/job/R-88980
+                    - generic [ref=f61e334]: View Job
+              - listitem [ref=f61e336]:
+                - heading "Lead, Digital Marketing Always On Brand Manager APLA Job ID:R-88756" [level=3] [ref=f61e338]:
+                  - link "Lead, Digital Marketing Always On Brand Manager APLA" [ref=f61e339] [cursor=pointer]:
+                    - /url: /lead-digital-marketing-always-on-brand-manager-apla/job/R-88756
+                  - generic [ref=f61e340]: Job ID:R-88756
+                - generic [ref=f61e341]:
+                  - generic [ref=f61e342]:
+                    - generic [ref=f61e343]: Beaverton, Oregon, United States
+                    - generic [ref=f61e346]: Marketing
+                  - link "View Job, Lead, Digital Marketing Always On Brand Manager APLA" [ref=f61e348] [cursor=pointer]:
+                    - /url: /lead-digital-marketing-always-on-brand-manager-apla/job/R-88756
+                    - generic [ref=f61e349]: View Job
+            - region "Page Navigation Controls" [ref=f61e353]:
+              - navigation "Pagination" [ref=f61e354]:
+                - list [ref=f61e355]:
+                  - listitem
+                  - listitem
+                  - listitem [ref=f61e356]:
+                    - link "Page 1" [ref=f61e357] [cursor=pointer]:
+                      - /url: /jobs/page/1
+                      - text: "1"
+                  - listitem [ref=f61e358]:
+                    - link "Page 2" [ref=f61e359] [cursor=pointer]:
+                      - /url: /jobs/page/2
+                      - text: "2"
+                  - listitem [ref=f61e360]:
+                    - link "Page 3" [ref=f61e361] [cursor=pointer]:
+                      - /url: /jobs/page/3
+                      - text: "3"
+                  - listitem [ref=f61e362]:
+                    - link "Page 4" [ref=f61e363] [cursor=pointer]:
+                      - /url: /jobs/page/4
+                      - text: "4"
+                  - listitem [ref=f61e364]:
+                    - link "Page 5" [ref=f61e365] [cursor=pointer]:
+                      - /url: /jobs/page/5
+                      - text: "5"
+                  - listitem [ref=f61e366]:
+                    - link "Page 6" [ref=f61e367] [cursor=pointer]:
+                      - /url: /jobs/page/6
+                      - text: "6"
+                  - listitem [ref=f61e368]:
+                    - link "Page 7" [ref=f61e369] [cursor=pointer]:
+                      - /url: /jobs/page/7
+                      - text: "7"
+                  - listitem [ref=f61e370]:
+                    - link "Page 8" [ref=f61e371] [cursor=pointer]:
+                      - /url: /jobs/page/8
+                      - text: "8"
+                  - listitem [ref=f61e372]:
+                    - link "Page 9" [ref=f61e373] [cursor=pointer]:
+                      - /url: /jobs/page/9
+                      - text: "9"
+                  - listitem [ref=f61e374]:
+                    - link "Page 10" [ref=f61e375] [cursor=pointer]:
+                      - /url: /jobs/page/10
+                      - text: "10"
+                  - listitem [ref=f61e376]:
+                    - link "Next Page" [ref=f61e377] [cursor=pointer]:
+                      - /url: /jobs/page/2
+                      - img "Go to next page"
+                  - listitem [ref=f61e378]:
+                    - link "Last page" [ref=f61e379] [cursor=pointer]:
+                      - /url: /jobs/page/108
+                      - img "Go to last page"
+              - combobox "Page Size" [ref=f61e380]:
+                - option "10" [selected]
+                - option "20"
+  - contentinfo [ref=f61e381]:
+    - generic [ref=f61e382]:
+      - list [ref=f61e390]:
+        - listitem [ref=f61e391]:
+          - link "Home" [ref=f61e392] [cursor=pointer]:
+            - /url: /
+        - listitem [ref=f61e393]:
+          - link "About Us" [ref=f61e394] [cursor=pointer]:
+            - /url: https://about.nike.com/en/
+        - listitem [ref=f61e395]:
+          - link "Contact" [ref=f61e396] [cursor=pointer]:
+            - /url: https://www.nike.com/us/en/help#contact
+        - listitem [ref=f61e397]:
+          - link "Talent Community" [ref=f61e398] [cursor=pointer]:
+            - /url: https://nikeats.avature.net/niketalentcommunity
+        - listitem [ref=f61e399]:
+          - link "Terms" [ref=f61e400] [cursor=pointer]:
+            - /url: https://privacypolicy.nike.com/applicant
+      - list [ref=f61e403]:
+        - listitem [ref=f61e404]:
+          - link "x" [ref=f61e405] [cursor=pointer]:
+            - /url: https://twitter.com/Nike
+        - listitem [ref=f61e406]:
+          - link "linkedin" [ref=f61e407] [cursor=pointer]:
+            - /url: https://www.linkedin.com/company/nike
+        - listitem [ref=f61e408]:
+          - link "instagram" [ref=f61e409] [cursor=pointer]:
+            - /url: https://www.instagram.com/nike/
+        - listitem [ref=f61e410]:
+          - link "youtube" [ref=f61e411] [cursor=pointer]:
+            - /url: https://www.youtube.com/c/NikeCareersourStories
+      - list [ref=f61e413]:
+        - listitem [ref=f61e414]:
+          - link "Nike Applicant Privacy Policy" [ref=f61e415] [cursor=pointer]:
+            - /url: https://privacypolicy.nike.com/applicant
+        - listitem [ref=f61e416]:
+          - link "Do Not Sell or Share My Personal Information" [ref=f61e417] [cursor=pointer]:
+            - /url: "javascript: Cookiebot.renew()"
+      - generic [ref=f61e418]:
+        - paragraph [ref=f61e420]: We offer a number of accommodations to complete our interview process including screen readers, sign language interpreters, accessible and single location for in-person interviews, closed captioning, and other reasonable modifications as needed.
+        - generic [ref=f61e421]:
+          - paragraph [ref=f61e422]: If you discover, as you navigate our application process, that you need assistance or an accommodation due to a disability, please contact us at +1 503-671-4156 and include your full name, best way to reach you, and the accommodation you request to assist with the application process.
+          - paragraph [ref=f61e423]:
+            - text: For more information, please refer to
+            - link "Equal Employment Opportunity is The Law." [ref=f61e424] [cursor=pointer]:
+              - /url: https://www.eeoc.gov/sites/default/files/2023-06/22-088_EEOC_KnowYourRights6.12ScreenRdr.pdf
+      - paragraph [ref=f61e426]: © 2026 Nike, Inc. All Rights Reserved
+  - iframe [ref=f61e427]:
+    

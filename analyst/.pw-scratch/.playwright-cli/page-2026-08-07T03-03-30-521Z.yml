@@ -1,0 +1,604 @@
+- generic [ref=f121e3]:
+  - navigation [ref=f121e6]:
+    - generic [ref=f121e7]:
+      - generic [ref=f121e8]:
+        - img "App Store" [ref=f121e9]
+        - button "App Store" [ref=f121e12] [cursor=pointer]:
+          - generic [ref=f121e13]: for iPhone
+      - generic [ref=f121e18]:
+        - generic: Search
+        - searchbox "Search" [ref=f121e19]
+    - generic [ref=f121e21]:
+      - list [ref=f121e23]:
+        - listitem [ref=f121e24]:
+          - button "Today" [ref=f121e25] [cursor=pointer]
+        - listitem [ref=f121e29]:
+          - button "Games" [ref=f121e30] [cursor=pointer]
+        - listitem [ref=f121e34]:
+          - button "Apps" [ref=f121e35] [cursor=pointer]
+        - listitem [ref=f121e39]:
+          - button "Arcade" [ref=f121e40] [cursor=pointer]
+      - generic [ref=f121e44]:
+        - generic [ref=f121e45]: Categories
+        - list "Categories" [ref=f121e47]:
+          - listitem [ref=f121e48]:
+            - button "Categories" [ref=f121e49] [cursor=pointer]
+          - listitem [ref=f121e54]:
+            - button "Photo & Video" [ref=f121e55] [cursor=pointer]
+          - listitem [ref=f121e60]:
+            - button "Health & Fitness" [ref=f121e61] [cursor=pointer]
+          - listitem [ref=f121e66]:
+            - button "Productivity" [ref=f121e67] [cursor=pointer]
+          - listitem [ref=f121e72]:
+            - button "Entertainment" [ref=f121e73] [cursor=pointer]
+          - listitem [ref=f121e78]:
+            - button "Action" [ref=f121e79] [cursor=pointer]
+          - listitem [ref=f121e84]:
+            - button "Adventure" [ref=f121e85] [cursor=pointer]
+          - listitem [ref=f121e90]:
+            - button "Puzzle" [ref=f121e91] [cursor=pointer]
+          - listitem [ref=f121e96]:
+            - button "Indie" [ref=f121e97] [cursor=pointer]
+      - generic:
+        - list
+  - generic [ref=f121e102]:
+    - main [ref=f121e103]:
+      - generic [ref=f121e104]:
+        - generic [ref=f121e115]:
+          - heading "Netflix" [level=1] [ref=f121e116]
+          - paragraph [ref=f121e118]: Start Watching
+          - paragraph [ref=f121e119]: Free · In‑App Purchases
+          - button "Share" [ref=f121e121] [cursor=pointer]
+        - list [ref=f121e127]:
+          - listitem [ref=f121e128]:
+            - link "7M Ratings 4.7 Stars" [ref=f121e130] [cursor=pointer]:
+              - /url: "#productRatings"
+              - generic [ref=f121e132]:
+                - term [ref=f121e133]:
+                  - generic [ref=f121e134]: 7M Ratings
+                - definition [ref=f121e135]:
+                  - generic [ref=f121e136]: "4.7"
+                  - list "4.7 Stars" [ref=f121e137]:
+                    - listitem [ref=f121e138]
+                    - listitem [ref=f121e139]
+                    - listitem [ref=f121e140]
+                    - listitem [ref=f121e141]
+                    - listitem [ref=f121e142]
+          - listitem [ref=f121e144]:
+            - link "Age Rating 13+ In-App Controls" [ref=f121e146] [cursor=pointer]:
+              - /url: "#information"
+              - generic [ref=f121e148]:
+                - term [ref=f121e149]:
+                  - generic [ref=f121e150]: Age Rating
+                - definition [ref=f121e151]:
+                  - generic [ref=f121e152]: 13+
+                  - generic [ref=f121e153]: In-App Controls
+          - listitem [ref=f121e154]:
+            - 'link "Chart #10 Entertainment" [ref=f121e156] [cursor=pointer]':
+              - /url: https://apps.apple.com/us/iphone/charts/6016?chart=top-free
+              - generic [ref=f121e158]:
+                - term [ref=f121e159]:
+                  - generic [ref=f121e160]: Chart
+                - definition [ref=f121e161]:
+                  - generic [ref=f121e162]: "#10"
+                  - generic [ref=f121e163]: Entertainment
+          - listitem [ref=f121e164]:
+            - link "Developer Netflix, Inc." [ref=f121e166] [cursor=pointer]:
+              - /url: https://apps.apple.com/us/developer/netflix-inc/id363590054?platform=iphone
+              - generic [ref=f121e168]:
+                - term [ref=f121e169]:
+                  - generic [ref=f121e170]: Developer
+                - definition [ref=f121e171]:
+                  - generic [ref=f121e173]: Netflix, Inc.
+          - listitem [ref=f121e174]:
+            - link "Language EN + 31 More" [ref=f121e176] [cursor=pointer]:
+              - /url: "#information"
+              - generic [ref=f121e178]:
+                - term [ref=f121e179]:
+                  - generic [ref=f121e180]: Language
+                - definition [ref=f121e181]:
+                  - generic [ref=f121e182]: EN
+                  - generic [ref=f121e183]: + 31 More
+          - listitem [ref=f121e184]:
+            - link "Size 210 MB" [ref=f121e186] [cursor=pointer]:
+              - /url: "#information"
+              - generic [ref=f121e188]:
+                - term [ref=f121e189]:
+                  - generic [ref=f121e190]: Size
+                - definition [ref=f121e191]:
+                  - generic [ref=f121e192]: "210"
+                  - generic [ref=f121e193]: MB
+        - region "iPhone App Previews and Screenshots" [ref=f121e194]:
+          - generic [ref=f121e197]:
+            - button "Previous Page" [disabled] [ref=f121e198]
+            - list [ref=f121e199]:
+              - listitem [ref=f121e200]:
+                - generic "Screenshot" [ref=f121e202]
+              - listitem [ref=f121e206]:
+                - generic "Screenshot" [ref=f121e208]
+              - listitem [ref=f121e212]:
+                - generic "Screenshot" [ref=f121e214]
+              - listitem [ref=f121e218]:
+                - generic "Screenshot" [ref=f121e220]
+              - listitem [ref=f121e224]
+            - button "Next Page" [ref=f121e230] [cursor=pointer]
+        - button "iPhone, iPad, Apple TV" [ref=f121e232] [cursor=pointer]
+        - paragraph [ref=f121e242]:
+          - generic [ref=f121e243]: "Looking for the most talked about TV shows and movies from around the world? They're all on Netflix. Discover award-winning series, movies, live events, podcasts, and games on the go - all in the mobile app. Now, you'll never miss a moment from the world of Netflix while you travel, commute, or just take a break. What you'll love about Netflix: - Smooth navigation with bottom shortcuts to quickly browse or jump back into your favorites. - A new way to discover what's next, including an upcoming clips feed. - A full world of entertainment in one place - series, movies, live events, games, and podcasts. - Keep track of everything you love, from your favorite moments to 'My List', in the 'My Netflix' tab. - Personalized recommendations based on your ratings. Instant notifications for new releases, episodes, and live events. Netflix membership is a month-to-month subscription that begins at sign-up. You can easily cancel anytime, online, 24 hours a day. There are no long-term contracts or cancellation fees. We just want you to love what you watch. Please note that the App Privacy information applies to information collected through the Netflix iOS, iPadOS, and tvOS apps. See the Netflix Privacy Statement (link below) to learn more about information we collect in other contexts, including account registration. Privacy policy: www.netflix.com/privacy Terms of use: www.netflix.com/terms Phone Number: +18667160414 Email: iosappstore@netflix.com"
+          - button "more" [ref=f121e245] [cursor=pointer]
+        - region "Ratings & Reviews" [ref=f121e246]:
+          - link "Ratings & Reviews" [ref=f121e248] [cursor=pointer]:
+            - /url: https://apps.apple.com/us/app/363590051?see-all=reviews&platform=iphone
+            - heading "Ratings & Reviews" [level=2] [ref=f121e250]
+          - list [ref=f121e252]:
+            - listitem [ref=f121e253]:
+              - generic [ref=f121e255]:
+                - generic [ref=f121e256]:
+                  - generic [ref=f121e257]: "4.7"
+                  - generic [ref=f121e258]: out of 5
+                - generic [ref=f121e259]:
+                  - generic [ref=f121e260]: 7M Ratings
+                  - generic [ref=f121e261]:
+                    - generic "**ASE.Shared.Ratings.Review.StarsAria.one.other**" [ref=f121e262]
+                    - generic "**ASE.Shared.Ratings.Review.StarsAria.one.other**" [ref=f121e271]
+                    - generic "**ASE.Shared.Ratings.Review.StarsAria.one.other**" [ref=f121e279]
+                    - generic "**ASE.Shared.Ratings.Review.StarsAria.one.other**" [ref=f121e286]
+                    - generic "**ASE.Shared.Ratings.Review.StarsAria.other.one**" [ref=f121e292]
+        - generic [ref=f121e300]:
+          - button "Previous Page" [disabled] [ref=f121e301]
+          - list [ref=f121e302]:
+            - listitem [ref=f121e303]:
+              - generic [ref=f121e305]:
+                - generic [ref=f121e306]:
+                  - generic [ref=f121e307]:
+                    - heading "loved netflix but there’s a few things they need to change." [level=3] [ref=f121e310]
+                    - list "5 Stars" [ref=f121e312]:
+                      - listitem [ref=f121e313]
+                      - listitem [ref=f121e314]
+                      - listitem [ref=f121e315]
+                      - listitem [ref=f121e316]
+                      - listitem [ref=f121e317]
+                  - generic [ref=f121e318]:
+                    - time [ref=f121e319]: 12/25/2025
+                    - generic [ref=f121e320]: tamhenny15
+                - generic [ref=f121e323]:
+                  - paragraph [ref=f121e324]: when i left for vacation, signed into netflix there during my time logged out and came back home, i would open netflix and it say im not apart of the household.. idk what bots or operating system they use but if my settings on my ipad and phone say that i allow networks connections and they see where i log in and WHSTS HOMEBASE, THERE SHOULDNT BE AN ISSUE SIGNING IN AT MY HOME. it would also be lovely if they stopped taking things im interested in and didn’t get to watch off netflix. it should be more personalized where i can choose what i dont watch/not interested in watching and what i want to remove (“leaving soon”). there’s a BUNCH of shows and movies on there id never watch like horror and that demonic content that i wish were leaving and something NETFLIX chooses to remove is actually good. but besides those 2 issues, actually one more the only being able to watch on 2 screens in a house with a lot of people and having to pay more is greedy and again the whole sharing update is greedy as well. i feel like it be nice to have at least 1 exception outside of your home without having to upgrade your plan, and like since that 1 access to the account without having an account of their own, it can be like that for year and if others wanted to join the account that way, they can’t because it lasts for a year and only one person at a time outside of the subscribers home can use it. hope this makes sense, run me my checkkk for the ideasss, please. xoxo
+                  - button "MORE" [ref=f121e325] [cursor=pointer]
+            - listitem [ref=f121e326]:
+              - generic [ref=f121e328]:
+                - generic [ref=f121e329]:
+                  - generic [ref=f121e330]:
+                    - heading "Why did JJ from outer bank have to die?" [level=3] [ref=f121e333]
+                    - list "5 Stars" [ref=f121e335]:
+                      - listitem [ref=f121e336]
+                      - listitem [ref=f121e337]
+                      - listitem [ref=f121e338]
+                      - listitem [ref=f121e339]
+                      - listitem [ref=f121e340]
+                  - generic [ref=f121e341]:
+                    - time [ref=f121e342]: 11/08/2024
+                    - generic [ref=f121e343]: LEXIAISMYENIME
+                - generic [ref=f121e346]:
+                  - paragraph [ref=f121e347]: I don’t get why you had to make JJ die. I really really loved JJ and I can’t believe you guys would do that. My voice started to crack when I saw that he was dying and I’m crying while writing this review. I really don’t get how y’all did it. I really don’t. and I mean it I really really mean it doesn’t make sense to me. I don’t. I just don’t get it. Why why did you have to make him die? Why why why why why did you have to make him die now? He won’t be in season five because he’s dead. He’s deceased. He’s gone because of you Netflix and the directors. Why do you have to make him die? I hate Outer Banks now and I always will because JJ is gone and I loved JJ. JJ was my best friend, but he wasn’t really my best friend. because we didn’t really know each other but if we did, I bet you me and him would be the closest friends ever. I just might make this review to start, but I won’t do that because I love Netflix and the shows. I’ve only watched two shows on Netflix and movies only watched Outer Banks and Young Sheldon Young Sheldon can stay out of this because they actually do great things on that show. I think it should stay that way. It’s really don’t get it how y’all are not crying. it means so much these people including me I do not rely on Netflix all the time but if Outer Banks wasn’t just on Netflix just might’ve stayed with you but now I really don’t have any choice pay for it and I don’t want to cancel. I’m not watching Netflix anymore. Goodbye. Have peace.
+                  - button "MORE" [ref=f121e348] [cursor=pointer]
+            - listitem [ref=f121e349]:
+              - generic [ref=f121e351]:
+                - generic [ref=f121e352]:
+                  - generic [ref=f121e353]:
+                    - heading [level=3] [ref=f121e356]: Disgusting Corporate Greed
+                    - list [ref=f121e358]:
+                      - listitem [ref=f121e359]
+                      - listitem [ref=f121e360]
+                      - listitem [ref=f121e361]
+                      - listitem [ref=f121e362]
+                      - listitem [ref=f121e363]
+                  - generic [ref=f121e364]:
+                    - time [ref=f121e365]: 06/07/2023
+                    - generic [ref=f121e366]: Goofyrussell40
+                - generic [ref=f121e369]:
+                  - paragraph [ref=f121e370]: They’re greediness is disgusting and they’re “No password sharing” is nonsense. I’ve tried so many ways to contact Netflix to issue complaints. Upon doing so, I’ve noticed they’ve taken away all their means of communication and contact on their website, so I tried to contact them through Twitter which only lead to them somehow locking me out of my own Twitter account. Under the premium plan we’re supposed to be able to add 2 extra members that don’t live in the household under the same account. What a lie that is because now it’s $7.99 ON TOP of the premium plan payment. My family bit the bullet and tried to sign up for the extra members plan because we all live in separate cities and are unable to live within the same household. They had the “extra members” create new accounts first, and then said we could transfer our old profiles over to the new accounts so we could continue watching without skipping a beat. Now they’re saying we can’t transfer any profiles over because “new accounts have already been created” which is what they told us to do in the first place. We’ve tried to contact them by phone to help resolve the issue but everything just keeps going in circles and they are flat out refusing to help. My family and I have had enough. We’re cancelling our subscription until they can hopefully get back to their old business practices. Netflix is 100% not worth the money and stress they’ve caused under their new policies. If you’ve read this far, thank you, and please don’t put your own family through the same stress that mine has suffered.
+                  - button [disabled] [ref=f121e371]: MORE
+            - listitem [ref=f121e372]:
+              - generic [ref=f121e374]:
+                - generic [ref=f121e375]:
+                  - generic [ref=f121e376]:
+                    - heading [level=3] [ref=f121e379]: im scared
+                    - list [ref=f121e381]:
+                      - listitem [ref=f121e382]
+                      - listitem [ref=f121e383]
+                      - listitem [ref=f121e384]
+                      - listitem [ref=f121e385]
+                      - listitem [ref=f121e386]
+                  - generic [ref=f121e387]:
+                    - time [ref=f121e388]: Mar 17
+                    - generic [ref=f121e389]: John joe logan
+                - generic [ref=f121e392]:
+                  - paragraph [ref=f121e393]: i would put -100 stars but if i put less then five, my comment wont show up... anyways... I turned on my TV to Netflix but as soon as I press the search button to look for a show, it says on recent searches.... stuff that I would never watch, VULGER STUFF like anime, one that said my dress up darling... which I have trauma from my son watching (he lives in my garage) anyways me 43 female clicked on the most recent and some anime turned on and as soon as it switches on I go to turn it off cause I would never watch this horrible stuff but as soon as the soundtrack starts playing my 19 year-old son teleports behind me and start singing it in Japanese. I jumped out of my seat and press off on the TV... but it's too late. my son morphs into an uwu femboy fanboy and start singing louder and the TV turns back on and the volume is somehow at 100 I keep pressing the off button but it no longer works. my son's voice booms throughout the room singing some theme song or something he is in a pink mini skirt and blue crop top when Gojo from the show comes out of the screen and starts dancing with my fem boy son. I stand still still in shock of what is unravelling before me, I run out of the room and shut the garage door but the door locks behind me and I can't open it I've been knocking on the door for six hours and I finally gave up and I'm now forced to stay down here until my son's major disorder episode ends...
+                  - button [disabled] [ref=f121e394]: MORE
+            - listitem [ref=f121e395]
+            - listitem [ref=f121e396]
+            - listitem [ref=f121e397]
+            - listitem [ref=f121e398]
+          - button "Next Page" [ref=f121e399] [cursor=pointer]
+        - region "What’s New" [ref=f121e400]:
+          - button [ref=f121e402] [cursor=pointer]:
+            - heading "What’s New" [level=2] [ref=f121e405]
+          - generic "What’s New" [ref=f121e407]:
+            - generic [ref=f121e408]:
+              - paragraph [ref=f121e409]:
+                - generic [ref=f121e410]: Keep your app updated to get the latest Netflix experience on your iPhone and iPad. We know you have choices. In this release, we made gallery improvements so it’s easier to find the perfect thing to watch.
+              - generic [ref=f121e411]:
+                - generic [ref=f121e412]: Version 18.43.0
+                - time [ref=f121e413]: 3d ago
+        - region "App Privacy" [ref=f121e414]:
+          - button [ref=f121e416] [cursor=pointer]:
+            - link "App Privacy" [ref=f121e418]:
+              - /url: "#"
+              - heading "App Privacy" [level=2] [ref=f121e420]
+          - paragraph [ref=f121e425]:
+            - text: The developer, Netflix, Inc., indicated that the app’s privacy practices may include handling of data as described below. For more information, see the
+            - link "Developer’s Privacy Policy" [ref=f121e426] [cursor=pointer]:
+              - /url: https://netflix.com/privacy
+              - generic [ref=f121e427]: developer’s privacy policy
+            - text: .
+        - list [ref=f121e429]:
+          - listitem [ref=f121e430]:
+            - generic "Data Linked to You" [ref=f121e431]:
+              - heading "Data Linked to You" [level=3] [ref=f121e433]
+              - paragraph [ref=f121e434]: "The following data may be collected and linked to your identity:"
+              - list [ref=f121e435]:
+                - listitem [ref=f121e436]: Location
+                - listitem [ref=f121e438]: Contact Info
+                - listitem [ref=f121e440]: User Content
+                - listitem [ref=f121e442]: Search History
+                - listitem [ref=f121e444]: Identifiers
+                - listitem [ref=f121e446]: Usage Data
+                - listitem [ref=f121e448]: Diagnostics
+                - listitem [ref=f121e450]: Other Data
+          - listitem [ref=f121e452]:
+            - generic "Data Not Linked to You" [ref=f121e453]:
+              - heading "Data Not Linked to You" [level=3] [ref=f121e455]
+              - paragraph [ref=f121e456]: "The following data may be collected but it is not linked to your identity:"
+              - list [ref=f121e457]:
+                - listitem [ref=f121e458]: Identifiers
+        - paragraph [ref=f121e461]:
+          - text: Privacy practices may vary, for example, based on the features you use or your age.
+          - link "Learn More" [ref=f121e462] [cursor=pointer]:
+            - /url: https://apps.apple.com/us/iphone/story/id1538632801
+        - region "Accessibility" [ref=f121e463]:
+          - button [ref=f121e465] [cursor=pointer]:
+            - link "Accessibility" [ref=f121e467]:
+              - /url: "#"
+              - heading "Accessibility" [level=2] [ref=f121e469]
+          - paragraph [ref=f121e474]:
+            - text: The developer indicated that this app supports the following accessibility features.
+            - link "Learn More" [ref=f121e475] [cursor=pointer]:
+              - /url: https://apps.apple.com/story/id1814164299
+        - list [ref=f121e477]:
+          - listitem [ref=f121e478]:
+            - article [ref=f121e479]:
+              - heading "Supported Features" [level=2] [ref=f121e481]
+              - list [ref=f121e482]:
+                - listitem [ref=f121e483]:
+                  - heading "VoiceOver" [level=3] [ref=f121e486]
+                - listitem [ref=f121e487]:
+                  - heading "Voice Control" [level=3] [ref=f121e490]
+                - listitem [ref=f121e491]:
+                  - heading "Larger Text" [level=3] [ref=f121e494]
+                - listitem [ref=f121e495]:
+                  - heading "Dark Interface" [level=3] [ref=f121e498]
+                - listitem [ref=f121e499]:
+                  - heading "Differentiate Without Color Alone" [level=3] [ref=f121e502]
+                - listitem [ref=f121e503]:
+                  - heading "Sufficient Contrast" [level=3] [ref=f121e506]
+                - listitem [ref=f121e507]:
+                  - heading "Reduced Motion" [level=3] [ref=f121e510]
+                - listitem [ref=f121e511]:
+                  - heading "Captions" [level=3] [ref=f121e514]
+                - listitem [ref=f121e515]:
+                  - heading "Audio Descriptions" [level=3] [ref=f121e518]
+        - region "Information" [ref=f121e519]:
+          - heading "Information" [level=2] [ref=f121e522]
+          - generic [ref=f121e523]:
+            - generic [ref=f121e524]:
+              - term [ref=f121e525]: Seller
+              - definition [ref=f121e526]:
+                - list [ref=f121e527]:
+                  - listitem [ref=f121e528]: Netflix, Inc.
+            - generic [ref=f121e529]:
+              - term [ref=f121e530]: Size
+              - definition [ref=f121e531]:
+                - list [ref=f121e532]:
+                  - listitem [ref=f121e533]: 210 MB
+            - generic [ref=f121e534]:
+              - term [ref=f121e535]: Category
+              - definition [ref=f121e536]:
+                - list [ref=f121e537]:
+                  - listitem [ref=f121e538]: Entertainment
+            - generic [ref=f121e539]:
+              - term [ref=f121e540]: Compatibility
+              - definition [ref=f121e541]:
+                - group [ref=f121e542]:
+                  - generic "Requires iOS 18.0 or later." [ref=f121e543] [cursor=pointer]
+            - generic [ref=f121e544]:
+              - term [ref=f121e545]: Languages
+              - definition [ref=f121e546]:
+                - group [ref=f121e547]:
+                  - generic "English and 31 more" [ref=f121e548] [cursor=pointer]
+            - generic [ref=f121e549]:
+              - term [ref=f121e550]: Age Rating
+              - definition [ref=f121e551]:
+                - group [ref=f121e552]:
+                  - generic "13+" [ref=f121e553] [cursor=pointer]
+            - generic [ref=f121e554]:
+              - term [ref=f121e555]: In-App Purchases
+              - definition [ref=f121e556]:
+                - group [ref=f121e557]:
+                  - generic "Yes" [ref=f121e558] [cursor=pointer]
+            - generic [ref=f121e559]:
+              - term [ref=f121e560]: Copyright
+              - definition [ref=f121e561]:
+                - list [ref=f121e562]:
+                  - listitem [ref=f121e563]: © 2026 Netflix
+        - generic [ref=f121e565]:
+          - listitem [ref=f121e566]:
+            - link "Developer Website ↗" [ref=f121e568] [cursor=pointer]:
+              - /url: http://www.netflix.com
+              - generic [ref=f121e569]: Developer Website
+              - text: ↗
+          - listitem [ref=f121e570]:
+            - link "Privacy Policy ↗" [ref=f121e572] [cursor=pointer]:
+              - /url: https://netflix.com/privacy
+              - generic [ref=f121e573]: Privacy Policy
+              - text: ↗
+          - listitem [ref=f121e574]:
+            - link "License Agreement" [ref=f121e576] [cursor=pointer]:
+              - /url: "#"
+        - region "Featured In" [ref=f121e577]:
+          - heading "Featured In" [level=2] [ref=f121e580]
+          - list [ref=f121e584]:
+            - listitem [ref=f121e585]:
+              - link "Watch Major League Baseball All Season Long" [ref=f121e587] [cursor=pointer]:
+                - /url: https://apps.apple.com/us/iphone/story/id1881678740
+                - generic [ref=f121e592]:
+                  - generic [ref=f121e593]: NOW TRENDING
+                  - heading "Watch Major League Baseball All Season Long" [level=3] [ref=f121e596]
+        - region "More by Netflix, Inc." [ref=f121e597]:
+          - link "More by Netflix, Inc." [ref=f121e599] [cursor=pointer]:
+            - /url: https://apps.apple.com/us/developer/netflix-inc/id363590054
+            - heading "More by Netflix, Inc." [level=2] [ref=f121e601]
+          - generic [ref=f121e605]:
+            - button "Previous Page" [disabled] [ref=f121e606]
+            - list [ref=f121e607]:
+              - listitem [ref=f121e608]:
+                - link "View Netflix Game Controller Connect to Netflix to Play" [ref=f121e612] [cursor=pointer]:
+                  - /url: https://apps.apple.com/us/app/netflix-game-controller/id6447582581
+                  - generic [ref=f121e613]: View
+                  - generic [ref=f121e619]:
+                    - heading "Netflix Game Controller" [level=3] [ref=f121e622]
+                    - paragraph [ref=f121e625]: Connect to Netflix to Play
+              - listitem [ref=f121e626]:
+                - 'link "View Squid Game: Unleashed Multiplayer Battle Royale Fun" [ref=f121e630] [cursor=pointer]':
+                  - /url: https://apps.apple.com/us/app/squid-game-unleashed/id6498719476
+                  - generic [ref=f121e631]: View
+                  - generic [ref=f121e637]:
+                    - 'heading "Squid Game: Unleashed" [level=3] [ref=f121e640]'
+                    - paragraph [ref=f121e643]: Multiplayer Battle Royale Fun
+              - listitem [ref=f121e644]:
+                - link "View Red Dead Redemption NETFLIX Epic Western Adventures" [ref=f121e648] [cursor=pointer]:
+                  - /url: https://apps.apple.com/us/app/red-dead-redemption-netflix/id6743944297
+                  - generic [ref=f121e649]: View
+                  - generic [ref=f121e655]:
+                    - heading "Red Dead Redemption NETFLIX" [level=3] [ref=f121e658]
+                    - paragraph [ref=f121e661]: Epic Western Adventures
+              - listitem [ref=f121e662]:
+                - link "View Bloons TD 6 NETFLIX Tower Defense Battles" [ref=f121e666] [cursor=pointer]:
+                  - /url: https://apps.apple.com/us/app/bloons-td-6-netflix/id1671633204
+                  - generic [ref=f121e667]: View
+                  - generic [ref=f121e673]:
+                    - heading "Bloons TD 6 NETFLIX" [level=3] [ref=f121e676]
+                    - paragraph [ref=f121e679]: Tower Defense Battles
+              - listitem [ref=f121e680]:
+                - link "View Storyteller A storybook puzzle" [ref=f121e684] [cursor=pointer]:
+                  - /url: https://apps.apple.com/us/app/storyteller/id1608097488
+                  - generic [ref=f121e685]: View
+                  - generic [ref=f121e691]:
+                    - heading "Storyteller" [level=3] [ref=f121e694]
+                    - paragraph [ref=f121e697]: A storybook puzzle
+              - listitem [ref=f121e698]:
+                - 'link "View SpongeBob: Get Cooking Build a fast-food empire" [ref=f121e702] [cursor=pointer]':
+                  - /url: https://apps.apple.com/us/app/spongebob-get-cooking/id1633284064
+                  - generic [ref=f121e703]: View
+                  - generic [ref=f121e709]:
+                    - 'heading "SpongeBob: Get Cooking" [level=3] [ref=f121e712]'
+                    - paragraph [ref=f121e715]: Build a fast-food empire
+              - listitem [ref=f121e716]:
+                - link "View Farming Simulator 23 NETFLIX Run your own modern farm" [ref=f121e720] [cursor=pointer]:
+                  - /url: https://apps.apple.com/us/app/farming-simulator-23-netflix/id6450324896
+                  - generic [ref=f121e721]: View
+                  - generic [ref=f121e727]:
+                    - heading "Farming Simulator 23 NETFLIX" [level=3] [ref=f121e730]
+                    - paragraph [ref=f121e733]: Run your own modern farm
+              - listitem [ref=f121e734]:
+                - link "View Netflix Stories Interactive Romance & Choices" [ref=f121e738] [cursor=pointer]:
+                  - /url: https://apps.apple.com/us/app/netflix-stories/id6446507664
+                  - generic [ref=f121e739]: View
+                  - generic [ref=f121e745]:
+                    - heading "Netflix Stories" [level=3] [ref=f121e748]
+                    - paragraph [ref=f121e751]: Interactive Romance & Choices
+              - listitem [ref=f121e752]:
+                - link "View Sonic Mania Plus - NETFLIX Retro SEGA platformer" [ref=f121e756] [cursor=pointer]:
+                  - /url: https://apps.apple.com/us/app/sonic-mania-plus-netflix/id6445996359
+                  - generic [ref=f121e757]: View
+                  - generic [ref=f121e763]:
+                    - heading "Sonic Mania Plus - NETFLIX" [level=3] [ref=f121e766]
+                    - paragraph [ref=f121e769]: Retro SEGA platformer
+              - listitem [ref=f121e770]:
+                - link [ref=f121e774] [cursor=pointer]:
+                  - /url: https://apps.apple.com/us/app/toca-boca-hair-salon-4-netflix/id6746275731
+                  - generic [ref=f121e775]: View
+                  - generic [ref=f121e781]:
+                    - heading [level=3] [ref=f121e784]: Toca Boca Hair Salon 4 NETFLIX
+                    - paragraph [ref=f121e787]: Creative beauty & fashion
+              - listitem [ref=f121e788]:
+                - link [ref=f121e792] [cursor=pointer]:
+                  - /url: https://apps.apple.com/us/app/fast-speed-test/id1133348139
+                  - generic [ref=f121e793]: View
+                  - generic [ref=f121e799]:
+                    - heading [level=3] [ref=f121e802]: FAST Speed Test
+                    - paragraph [ref=f121e805]: Utilities
+              - listitem [ref=f121e806]:
+                - link [ref=f121e810] [cursor=pointer]:
+                  - /url: https://apps.apple.com/us/app/thth-love-is-a-game-netflix/id1633494204
+                  - generic [ref=f121e811]: View
+                  - generic [ref=f121e817]:
+                    - heading [level=3] [ref=f121e820]: "THTH: Love Is a Game NETFLIX"
+                    - paragraph [ref=f121e823]: Interactive Story & Dating Sim
+              - listitem [ref=f121e824]:
+                - link [ref=f121e828] [cursor=pointer]:
+                  - /url: https://apps.apple.com/us/app/netflix-playground/id6746772941
+                  - generic [ref=f121e829]: View
+                  - generic [ref=f121e835]:
+                    - heading [level=3] [ref=f121e838]: Netflix Playground
+                    - paragraph [ref=f121e841]: A world for kids to explore
+              - listitem [ref=f121e842]
+              - listitem [ref=f121e843]
+            - button "Next Page" [ref=f121e844] [cursor=pointer]
+        - region "You Might Also Like" [ref=f121e845]:
+          - link "You Might Also Like" [ref=f121e847] [cursor=pointer]:
+            - /url: https://apps.apple.com/us/app/363590051?see-all=customers-also-bought-apps&platform=iphone
+            - heading "You Might Also Like" [level=2] [ref=f121e849]
+          - generic [ref=f121e853]:
+            - button "Previous Page" [disabled] [ref=f121e854]
+            - list [ref=f121e855]:
+              - listitem [ref=f121e856]:
+                - 'link "View Google TV: Watch Movies & TV Search across streaming apps" [ref=f121e860] [cursor=pointer]':
+                  - /url: https://apps.apple.com/us/app/google-tv-watch-movies-tv/id746894884
+                  - generic [ref=f121e861]: View
+                  - generic [ref=f121e867]:
+                    - 'heading "Google TV: Watch Movies & TV" [level=3] [ref=f121e870]'
+                    - paragraph [ref=f121e873]: Search across streaming apps
+              - listitem [ref=f121e874]:
+                - link "View Amazon Prime Video Originals, movies, TV, sports" [ref=f121e878] [cursor=pointer]:
+                  - /url: https://apps.apple.com/us/app/amazon-prime-video/id545519333
+                  - generic [ref=f121e879]: View
+                  - generic [ref=f121e885]:
+                    - heading "Amazon Prime Video" [level=3] [ref=f121e888]
+                    - paragraph [ref=f121e891]: Originals, movies, TV, sports
+              - listitem [ref=f121e892]:
+                - link "View Disney+ Unlimited entertainment" [ref=f121e896] [cursor=pointer]:
+                  - /url: https://apps.apple.com/us/app/disney/id1446075923
+                  - generic [ref=f121e897]: View
+                  - generic [ref=f121e903]:
+                    - heading "Disney+" [level=3] [ref=f121e906]
+                    - paragraph [ref=f121e909]: Unlimited entertainment
+              - listitem [ref=f121e910]:
+                - 'link "View Hulu: Stream TV shows & movies Watch films & download series" [ref=f121e914] [cursor=pointer]':
+                  - /url: https://apps.apple.com/us/app/hulu-stream-tv-shows-movies/id376510438
+                  - generic [ref=f121e915]: View
+                  - generic [ref=f121e921]:
+                    - 'heading "Hulu: Stream TV shows & movies" [level=3] [ref=f121e924]'
+                    - paragraph [ref=f121e927]: Watch films & download series
+              - listitem [ref=f121e928]:
+                - 'link "View Viki: Asian Dramas, Movies, TV Watch KDramas, CDramas & More" [ref=f121e932] [cursor=pointer]':
+                  - /url: https://apps.apple.com/us/app/viki-asian-dramas-movies-tv/id445553058
+                  - generic [ref=f121e933]: View
+                  - generic [ref=f121e939]:
+                    - 'heading "Viki: Asian Dramas, Movies, TV" [level=3] [ref=f121e942]'
+                    - paragraph [ref=f121e945]: Watch KDramas, CDramas & More
+              - listitem [ref=f121e946]:
+                - link "View Upflix - Streaming Guide Movies and TV Shows tracker" [ref=f121e950] [cursor=pointer]:
+                  - /url: https://apps.apple.com/us/app/upflix-streaming-guide/id562782540
+                  - generic [ref=f121e951]: View
+                  - generic [ref=f121e957]:
+                    - heading "Upflix - Streaming Guide" [level=3] [ref=f121e960]
+                    - paragraph [ref=f121e963]: Movies and TV Shows tracker
+              - listitem [ref=f121e964]:
+                - link "View My Movies & TV Shows Watchlist Organize your favorite Movies" [ref=f121e968] [cursor=pointer]:
+                  - /url: https://apps.apple.com/us/app/my-movies-tv-shows-watchlist/id1269554291
+                  - generic [ref=f121e969]: View
+                  - generic [ref=f121e975]:
+                    - heading "My Movies & TV Shows Watchlist" [level=3] [ref=f121e978]
+                    - paragraph [ref=f121e981]: Organize your favorite Movies
+              - listitem [ref=f121e982]:
+                - link "View PLAY Games Entertainment" [ref=f121e986] [cursor=pointer]:
+                  - /url: https://apps.apple.com/us/app/play-games/id483342122
+                  - generic [ref=f121e987]: View
+                  - generic [ref=f121e993]:
+                    - heading "PLAY Games" [level=3] [ref=f121e996]
+                    - paragraph [ref=f121e999]: Entertainment
+              - listitem [ref=f121e1000]:
+                - link "View TikTok - Videos, Shop & LIVE Watch, discover and stream!" [ref=f121e1004] [cursor=pointer]:
+                  - /url: https://apps.apple.com/us/app/tiktok-videos-shop-live/id835599320
+                  - generic [ref=f121e1005]: View
+                  - generic [ref=f121e1011]:
+                    - heading "TikTok - Videos, Shop & LIVE" [level=3] [ref=f121e1014]
+                    - paragraph [ref=f121e1017]: Watch, discover and stream!
+              - listitem [ref=f121e1018]:
+                - link [ref=f121e1022] [cursor=pointer]:
+                  - /url: https://apps.apple.com/us/app/movie-app-movies-now-tv/id467164083
+                  - generic [ref=f121e1023]: View
+                  - generic [ref=f121e1029]:
+                    - heading [level=3] [ref=f121e1032]: Movie App - Movies Now! + TV
+                    - paragraph [ref=f121e1035]: Stream Movie Apps & Watch List
+            - button "Next Page" [ref=f121e1036] [cursor=pointer]
+    - generic [ref=f121e1038]:
+      - generic [ref=f121e1040]:
+        - button "United States" [ref=f121e1041] [cursor=pointer]
+        - list [ref=f121e1042]:
+          - listitem [ref=f121e1043]:
+            - link "This page is available in Español (México)" [ref=f121e1044] [cursor=pointer]:
+              - /url: "?l=es-MX"
+              - text: Español (México)
+          - listitem [ref=f121e1045]:
+            - link "This page is available in العربية" [ref=f121e1046] [cursor=pointer]:
+              - /url: "?l=ar"
+              - text: العربية
+          - listitem [ref=f121e1047]:
+            - link "This page is available in Русский" [ref=f121e1048] [cursor=pointer]:
+              - /url: "?l=ru"
+              - text: Русский
+          - listitem [ref=f121e1049]:
+            - link "This page is available in 简体中文" [ref=f121e1050] [cursor=pointer]:
+              - /url: "?l=zh-Hans-CN"
+              - text: 简体中文
+          - listitem [ref=f121e1051]:
+            - link "This page is available in Français (France)" [ref=f121e1052] [cursor=pointer]:
+              - /url: "?l=fr-FR"
+              - text: Français (France)
+          - listitem [ref=f121e1053]:
+            - link "This page is available in 한국어" [ref=f121e1054] [cursor=pointer]:
+              - /url: "?l=ko"
+              - text: 한국어
+          - listitem [ref=f121e1055]:
+            - link "This page is available in Português (Brazil)" [ref=f121e1056] [cursor=pointer]:
+              - /url: "?l=pt-BR"
+              - text: Português (Brazil)
+          - listitem [ref=f121e1057]:
+            - link "This page is available in Tiếng Việt" [ref=f121e1058] [cursor=pointer]:
+              - /url: "?l=vi"
+              - text: Tiếng Việt
+          - listitem [ref=f121e1059]:
+            - link "This page is available in 繁體中文 (台灣)" [ref=f121e1060] [cursor=pointer]:
+              - /url: "?l=zh-Hant-TW"
+              - text: 繁體中文 (台灣)
+      - generic [ref=f121e1061]:
+        - paragraph [ref=f121e1062]:
+          - generic [ref=f121e1063]:
+            - text: Copyright © 2026
+            - link "Apple Inc." [ref=f121e1064] [cursor=pointer]:
+              - /url: https://www.apple.com
+          - text: All rights reserved.
+        - list [ref=f121e1065]:
+          - listitem [ref=f121e1066]:
+            - link "Internet Service Terms" [ref=f121e1067] [cursor=pointer]:
+              - /url: https://www.apple.com/legal/internet-services/
+          - listitem [ref=f121e1068]:
+            - link "App Store & Privacy" [ref=f121e1069] [cursor=pointer]:
+              - /url: https://www.apple.com/legal/privacy/data/en/app-store/
+          - listitem [ref=f121e1070]:
+            - link "Cookie Warning" [ref=f121e1071] [cursor=pointer]:
+              - /url: https://www.apple.com/privacy/use-of-cookies/
+          - listitem [ref=f121e1072]:
+            - link "Support" [ref=f121e1073] [cursor=pointer]:
+              - /url: https://support.apple.com/billing

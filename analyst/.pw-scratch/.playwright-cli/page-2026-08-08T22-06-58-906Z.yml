@@ -1,0 +1,65 @@
+- generic [ref=f350e2]:
+  - banner [ref=f350e3]:
+    - generic [ref=f350e4]:
+      - navigation "Main site navigation" [ref=f350e7]:
+        - menubar [ref=f350e8]:
+          - link [ref=f350e10] [cursor=pointer]:
+            - /url: https://careers.bain.com/recruits/signin
+            - img "Bain & Company" [ref=f350e11]
+          - generic [ref=f350e12]:
+            - generic:
+              - navigation:
+                - list:
+                  - menuitem [ref=f350e13]:
+                    - link "Careers" [ref=f350e14] [cursor=pointer]:
+                      - /url: http://www.bain.com/careers/
+                  - menuitem [ref=f350e15]:
+                    - link "Offices" [ref=f350e16] [cursor=pointer]:
+                      - /url: http://www.bain.com/about/worldwide-offices/index.aspx
+      - generic [ref=f350e17]: Welcome
+  - main [ref=f350e19]:
+    - generic [ref=f350e23]:
+      - generic [ref=f350e25]:
+        - paragraph [ref=f350e26]: If you have an account, please login
+        - generic [ref=f350e28]:
+          - 'group "Login: user and password" [ref=f350e29]':
+            - generic [ref=f350e30]:
+              - generic [ref=f350e31]: Email address
+              - textbox "Email address" [active] [ref=f350e33]
+            - generic [ref=f350e34]:
+              - generic [ref=f350e35]: Password
+              - textbox "Password" [ref=f350e37]
+          - link "Forgot your password?" [ref=f350e39] [cursor=pointer]:
+            - /url: https://careers.bain.com/recruits/ResetPassword
+          - button "Login" [ref=f350e41] [cursor=pointer]
+      - generic [ref=f350e43]:
+        - paragraph [ref=f350e44]:
+          - text: If this is your first time here, we encourage you to check out our
+          - link "careers page." [ref=f350e45] [cursor=pointer]:
+            - /url: https://www.bain.com/careers/
+        - paragraph [ref=f350e47]:
+          - text: You can also
+          - link "find a role" [ref=f350e48] [cursor=pointer]:
+            - /url: https://www.bain.com/careers/find-a-role/
+          - text: or sign up for an
+          - link "event." [ref=f350e49] [cursor=pointer]:
+            - /url: https://www.bain.com/careers/work-with-us/recruiting-events/
+  - contentinfo "Footer" [ref=f350e50]:
+    - generic [ref=f350e52]:
+      - generic [ref=f350e54]:
+        - link [ref=f350e55] [cursor=pointer]:
+          - /url: http://www.linkedin.com/company/bain-and-company
+        - link [ref=f350e56] [cursor=pointer]:
+          - /url: http://twitter.com/BainAlerts
+        - link [ref=f350e57] [cursor=pointer]:
+          - /url: http://www.facebook.com/bainandcompany
+        - link [ref=f350e58] [cursor=pointer]:
+          - /url: http://www.youtube.com/user/bainandcompany
+        - link [ref=f350e59] [cursor=pointer]:
+          - /url: https://www.instagram.com/bainandcompany/
+      - generic [ref=f350e60]:
+        - link "Terms & conditions" [ref=f350e61] [cursor=pointer]:
+          - /url: https://www.bain.com/about/terms/
+        - link "Privacy policy" [ref=f350e62] [cursor=pointer]:
+          - /url: https://www.bain.com/about/privacy/
+      - generic [ref=f350e63]: © 1996-2026 Bain & Company, Inc.

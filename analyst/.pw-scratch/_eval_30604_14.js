@@ -1,0 +1,1 @@
+async (page) => { return await page.evaluate(() => { const o=[...document.querySelectorAll('script[type="application/ld+json"]')].map(x=>{try{return JSON.parse(x.textContent)}catch(e){return null}}).flatMap(v=>Array.isArray(v)?v:[v]).find(x=>x&&x['@type']==='JobPosting'); return o?true:false; }); }

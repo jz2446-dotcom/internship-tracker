@@ -1,0 +1,196 @@
+- generic [active] [ref=f425e1]:
+  - generic:
+    - link "link to navigation" [ref=f425e2] [cursor=pointer]:
+      - /url: "#accordion"
+      - text: Skip to navigation
+    - link "link to main content" [ref=f425e3] [cursor=pointer]:
+      - /url: "#main-content"
+      - text: Skip to main content
+    - link "link to footer" [ref=f425e4] [cursor=pointer]:
+      - /url: "#footer"
+      - text: Skip to Footer
+  - generic [ref=f425e5]:
+    - banner [ref=f425e6]:
+      - navigation "primary" [ref=f425e7]:
+        - generic [ref=f425e9]:
+          - link "Page d'accueil" [ref=f425e11] [cursor=pointer]:
+            - /url: /en
+          - generic [ref=f425e37]:
+            - generic [ref=f425e38]:
+              - generic [ref=f425e39]: "Rechercher un job:"
+              - generic [ref=f425e40]:
+                - generic [ref=f425e41]: Une liste de suggestion de recherche apparaitra au ciblage du champ de recherche
+                - textbox "Rechercher un job:" [ref=f425e42]:
+                  - /placeholder: Find your dream job...
+            - button "Search" [ref=f425e43] [cursor=pointer]
+          - generic [ref=f425e45]:
+            - link "0" [ref=f425e46] [cursor=pointer]:
+              - /url: /en/jobs-wishlist
+            - alert [ref=f425e48]
+            - generic [ref=f425e49]:
+              - button "Une fenêtre de connexion apparaitra au ciblage" [ref=f425e50] [cursor=pointer]
+              - generic [ref=f425e52]:
+                - button "Fermer la fenêtre de connexion" [ref=f425e53] [cursor=pointer]
+                - generic [ref=f425e57]:
+                  - generic [ref=f425e58]: Follow-up on my applications, save my CV, set up alerts...
+                  - link "Create my profile" [ref=f425e59] [cursor=pointer]:
+                    - /url: https://socgen.taleo.net/careersection/sgcareers/profile.ftl?lang=&src=CWS-1
+                  - separator [ref=f425e60]
+                  - generic [ref=f425e61]: Coming back?
+                  - link "Log in" [ref=f425e62] [cursor=pointer]:
+                    - /url: https://socgen.taleo.net/careersection/sgcareers/profile.ftl?lang=en&src=CWS-1
+      - navigation "secondary" [ref=f425e63]:
+        - generic [ref=f425e65]:
+          - list [ref=f425e66]:
+            - listitem [ref=f425e67]:
+              - link "Your future with us" [ref=f425e69] [cursor=pointer]:
+                - /url: /en/about-us
+              - list:
+                - listitem [ref=f425e70]:
+                  - link "Get to know us better" [ref=f425e71] [cursor=pointer]:
+                    - /url: /en/about-us/know-us
+                - listitem [ref=f425e72]:
+                  - link "Committed to working together" [ref=f425e73] [cursor=pointer]:
+                    - /url: /en/committed-together
+            - listitem [ref=f425e74]:
+              - link "Profiles wanted" [ref=f425e76] [cursor=pointer]:
+                - /url: /en/jobs
+              - list:
+                - listitem [ref=f425e77]:
+                  - link "IT & Digital" [ref=f425e78] [cursor=pointer]:
+                    - /url: /en/jobs/it
+                - listitem [ref=f425e79]:
+                  - link "Data" [ref=f425e80] [cursor=pointer]:
+                    - /url: /en/jobs/data
+                - listitem [ref=f425e81]:
+                  - link "Global Banking & Investor Solutions" [ref=f425e82] [cursor=pointer]:
+                    - /url: /en/jobs/global-banking-investor-solutions
+                - listitem [ref=f425e83]:
+                  - link "Risk" [ref=f425e84] [cursor=pointer]:
+                    - /url: /en/jobs/risk
+                - listitem [ref=f425e85]:
+                  - link "Compliance" [ref=f425e86] [cursor=pointer]:
+                    - /url: /en/jobs/compliance
+                - listitem [ref=f425e87]:
+                  - link "Legal" [ref=f425e88] [cursor=pointer]:
+                    - /url: /en/jobs/legal
+                - listitem [ref=f425e89]:
+                  - link "Financial Department" [ref=f425e90] [cursor=pointer]:
+                    - /url: /en/jobs/financial-department
+                - listitem [ref=f425e91]:
+                  - link "General Inspection, Audit & Consulting" [ref=f425e92] [cursor=pointer]:
+                    - /url: /en/jobs/general-inspection-audit-consulting
+                - listitem [ref=f425e93]:
+                  - link "More jobs" [ref=f425e94] [cursor=pointer]:
+                    - /url: /en/jobs/more-jobs
+            - listitem [ref=f425e95]:
+              - link "Students & Graduates" [ref=f425e97] [cursor=pointer]:
+                - /url: /en/students-graduates
+              - list:
+                - listitem [ref=f425e98]:
+                  - link "Internships" [ref=f425e99] [cursor=pointer]:
+                    - /url: /en/internships-trainee-programs
+                - listitem [ref=f425e100]:
+                  - link "International internship program (V.I.E)" [ref=f425e101] [cursor=pointer]:
+                    - /url: /en/vie
+                - listitem [ref=f425e102]:
+                  - link "Graduate programmes" [ref=f425e103] [cursor=pointer]:
+                    - /url: /en/students-graduates/graduate-programmes
+                - listitem [ref=f425e104]:
+                  - link "Tips for job seekers" [ref=f425e105] [cursor=pointer]:
+                    - /url: /en/tips-candidates
+            - listitem [ref=f425e106]:
+              - link "Search" [ref=f425e107] [cursor=pointer]:
+                - /url: /en/search
+                - text: ALL JOBS
+          - generic [ref=f425e108]:
+            - generic [ref=f425e112]:
+              - switch "Dark mode"
+            - generic [ref=f425e116]:
+              - link "Consulter le site en français" [ref=f425e117] [cursor=pointer]:
+                - /url: /offres-sauvegardees
+                - text: FR
+              - separator [ref=f425e118]
+              - generic [ref=f425e119]: Website in English (current version)
+              - generic [ref=f425e120]: EN
+    - main [ref=f425e121]:
+      - generic [ref=f425e122]:
+        - generic [ref=f425e123]:
+          - heading "Saved jobs" [level=1] [ref=f425e130]
+          - generic [ref=f425e132]: Loading saved offers
+          - generic [ref=f425e133]:
+            - paragraph [ref=f425e135]:
+              - strong [ref=f425e136]: Aucune offre sauvegardée
+            - generic [ref=f425e139]:
+              - generic [ref=f425e140]: Your cart is empty! Why don't you try another search?
+              - generic [ref=f425e144]:
+                - textbox "Find your dream job..." [ref=f425e145]
+                - button "Search" [ref=f425e146] [cursor=pointer]
+        - navigation "Fil d'Ariane" [ref=f425e152]:
+          - list [ref=f425e153]:
+            - listitem [ref=f425e154]:
+              - link "Home" [ref=f425e155] [cursor=pointer]:
+                - /url: /en
+              - text: ">"
+            - listitem [ref=f425e156]: Offres sauvegardées
+    - contentinfo [ref=f425e157]:
+      - contentinfo [ref=f425e158]:
+        - generic [ref=f425e159]:
+          - generic [ref=f425e160]:
+            - generic [ref=f425e161]: Discover
+            - list [ref=f425e162]:
+              - listitem [ref=f425e163]:
+                - link "Jobs in banking" [ref=f425e164] [cursor=pointer]:
+                  - /url: /en/search
+              - listitem [ref=f425e165]:
+                - link "Societe Generale Group website" [ref=f425e166] [cursor=pointer]:
+                  - /url: https://www.societegenerale.com/en
+          - generic [ref=f425e167]:
+            - generic [ref=f425e168]: Useful links
+            - list [ref=f425e169]:
+              - listitem [ref=f425e170]:
+                - link "Help Center" [ref=f425e171] [cursor=pointer]:
+                  - /url: /en/help
+              - listitem [ref=f425e172]:
+                - link "Profiles wanted" [ref=f425e173] [cursor=pointer]:
+                  - /url: /en/jobs
+              - listitem [ref=f425e174]:
+                - link "Sitemap" [ref=f425e175] [cursor=pointer]:
+                  - /url: /en/sitemap
+              - listitem [ref=f425e176]:
+                - 'link "Accessibility: non-compliant" [ref=f425e177] [cursor=pointer]':
+                  - /url: /en/accessibility-policies
+          - generic [ref=f425e178]:
+            - generic [ref=f425e179]: Legal information
+            - list [ref=f425e180]:
+              - listitem [ref=f425e181]:
+                - link "Legal information" [ref=f425e182] [cursor=pointer]:
+                  - /url: /en/legal-information
+              - listitem [ref=f425e183]:
+                - link "Privacy policy" [ref=f425e184] [cursor=pointer]:
+                  - /url: /en/privacy-policy
+              - listitem [ref=f425e185]:
+                - link "Cookies Policy" [ref=f425e186] [cursor=pointer]:
+                  - /url: /en/cookies
+              - listitem [ref=f425e187]:
+                - link "Consent choices" [ref=f425e188] [cursor=pointer]:
+                  - /url: ""
+          - generic [ref=f425e189]:
+            - generic [ref=f425e190]: "Follow Us:"
+            - list [ref=f425e191]:
+              - listitem [ref=f425e192]:
+                - link "Facebook - Nouvel onglet" [ref=f425e193] [cursor=pointer]:
+                  - /url: https://www.facebook.com/societegenerale
+              - listitem [ref=f425e197]:
+                - link "Youtube - Nouvel onglet" [ref=f425e198] [cursor=pointer]:
+                  - /url: https://www.youtube.com/playlist?list=PLO28QHeP4SE6s6hcc5_PcYVbZ2EiBZOQq
+              - listitem [ref=f425e202]:
+                - link "Twitter - Nouvel onglet" [ref=f425e203] [cursor=pointer]:
+                  - /url: https://twitter.com/SocieteGenerale
+              - listitem [ref=f425e207]:
+                - link "LinkedIn - Nouvel onglet" [ref=f425e208] [cursor=pointer]:
+                  - /url: https://www.linkedin.com/company/societe-generale/
+              - listitem [ref=f425e212]:
+                - link "Instagram - Nouvel onglet" [ref=f425e213] [cursor=pointer]:
+                  - /url: https://www.instagram.com/societegenerale/
+    - button "Return to the top of the page" [ref=f425e217] [cursor=pointer]

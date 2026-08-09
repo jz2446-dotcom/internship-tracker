@@ -1,0 +1,411 @@
+- generic [ref=f153e1]:
+  - banner [ref=f153e3]:
+    - generic:
+      - link "Skip to main content":
+        - /url: "#skipToMainContent"
+    - generic [ref=f153e7]:
+      - generic [ref=f153e8]:
+        - link "Company Logo" [ref=f153e10] [cursor=pointer]:
+          - /url: https://www.cisco.com/
+          - img "ciscologo_new" [ref=f153e11]
+        - navigation "primary" [ref=f153e74]:
+          - list [ref=f153e75]:
+            - listitem [ref=f153e76]:
+              - link "Careers Home" [ref=f153e78] [cursor=pointer]:
+                - /url: https://careers.cisco.com/global/en/home
+            - listitem [ref=f153e79]:
+              - button "Why Work Here" [ref=f153e80] [cursor=pointer]
+            - listitem [ref=f153e85]:
+              - button "Who We Hire" [ref=f153e86] [cursor=pointer]
+            - listitem [ref=f153e91]:
+              - link "Where We Work" [ref=f153e93] [cursor=pointer]:
+                - /url: https://careers.cisco.com/global/en/where-we-work
+            - listitem [ref=f153e94]:
+              - button "How We Hire" [ref=f153e95] [cursor=pointer]
+      - list [ref=f153e717]:
+        - listitem [ref=f153e101]:
+          - button "Search" [ref=f153e106] [cursor=pointer]
+        - listitem [ref=f153e110]:
+          - link "saved jobs (0)" [ref=f153e113] [cursor=pointer]:
+            - /url: https://careers.cisco.com/global/en/jobcart
+            - generic [ref=f153e117]: Saved jobs
+            - generic [ref=f153e118]: (0)
+        - listitem [ref=f153e119]:
+          - button "Language selected English Global" [ref=f153e123] [cursor=pointer]:
+            - generic [ref=f153e127]: Global
+        - listitem [ref=f153e128]:
+          - button "Login" [ref=f153e132] [cursor=pointer]
+  - main [ref=f153e12]:
+    - generic [active] [ref=f153e15]: "-"
+    - generic [ref=f153e18]:
+      - figure [ref=f153e19]:
+        - img "category_background" [ref=f153e20]
+      - generic [ref=f153e23]:
+        - heading "Internships" [level=1] [ref=f153e24]
+        - generic [ref=f153e25]: Discover exciting opportunities with Cisco’s Internship and Co-op positions designed to launch your journey in technology. Our Internship programs offer a dynamic experience giving you hands-on exposure to real projects, skill development, and the chance to connect with industry leaders, stakeholders and peers. Our Co-op opportunities provide structured work experiences integrated into a student’s academic program, allowing you to build meaningful expertise and immerse yourself in Cisco’s innovative culture.
+    - generic [ref=f153e29]:
+      - generic [ref=f153e30]:
+        - region "refine your search" [ref=f153e141]:
+          - link "Skip to Search results" [ref=f153e142] [cursor=pointer]:
+            - /url: "#skip-facet"
+          - heading "Filters" [level=2] [ref=f153e145]
+          - generic [ref=f153e147]:
+            - heading [level=3] [ref=f153e150]:
+              - button "Job Category" [ref=f153e151] [cursor=pointer]
+            - generic [ref=f153e156]:
+              - heading [level=3] [ref=f153e158]:
+                - button "Experience Level" [expanded] [ref=f153e159] [cursor=pointer]
+              - group "Experience Level" [ref=f153e168]:
+                - list [ref=f153e170]:
+                  - listitem [ref=f153e171]:
+                    - generic [ref=f153e172]:
+                      - checkbox "Intern(4jobs)" [checked] [ref=f153e173]
+                      - generic [ref=f153e174] [cursor=pointer]:
+                        - text: Intern
+                        - generic [ref=f153e175]:
+                          - text: (4)
+                          - generic [ref=f153e176]: jobs
+                  - listitem [ref=f153e177]:
+                    - generic [ref=f153e178]:
+                      - checkbox "Co-Op(1job)" [checked] [ref=f153e179]
+                      - generic [ref=f153e180] [cursor=pointer]:
+                        - text: Co-Op
+                        - generic [ref=f153e181]:
+                          - text: (1)
+                          - generic [ref=f153e182]: job
+            - generic [ref=f153e183]:
+              - heading [level=3] [ref=f153e185]:
+                - button "Country or Region" [expanded] [ref=f153e186] [cursor=pointer]
+              - group "Country or Region" [ref=f153e195]:
+                - list [ref=f153e197]:
+                  - listitem [ref=f153e198]:
+                    - generic [ref=f153e199]:
+                      - checkbox "United States of America(2jobs)" [ref=f153e200]
+                      - generic [ref=f153e201] [cursor=pointer]:
+                        - text: United States of America
+                        - generic [ref=f153e202]:
+                          - text: (2)
+                          - generic [ref=f153e203]: jobs
+                  - listitem [ref=f153e204]:
+                    - generic [ref=f153e205]:
+                      - checkbox "Philippines(1job)" [ref=f153e206]
+                      - generic [ref=f153e207] [cursor=pointer]:
+                        - text: Philippines
+                        - generic [ref=f153e208]:
+                          - text: (1)
+                          - generic [ref=f153e209]: job
+                  - listitem [ref=f153e210]:
+                    - generic [ref=f153e211]:
+                      - checkbox "Poland(1job)" [ref=f153e212]
+                      - generic [ref=f153e213] [cursor=pointer]:
+                        - text: Poland
+                        - generic [ref=f153e214]:
+                          - text: (1)
+                          - generic [ref=f153e215]: job
+                  - listitem [ref=f153e216]:
+                    - generic [ref=f153e217]:
+                      - checkbox "Vietnam(1job)" [ref=f153e218]
+                      - generic [ref=f153e219] [cursor=pointer]:
+                        - text: Vietnam
+                        - generic [ref=f153e220]:
+                          - text: (1)
+                          - generic [ref=f153e221]: job
+            - heading [level=3] [ref=f153e224]:
+              - button "State/Province" [ref=f153e225] [cursor=pointer]
+            - heading [level=3] [ref=f153e232]:
+              - button "City" [ref=f153e233] [cursor=pointer]
+            - heading [level=3] [ref=f153e240]:
+              - button "Job Type" [ref=f153e241] [cursor=pointer]
+            - heading [level=3] [ref=f153e248]:
+              - button "Work Environment" [ref=f153e249] [cursor=pointer]
+        - region "create job alert" [ref=f153e255]:
+          - generic [ref=f153e260]:
+            - heading "Create Job Alert" [level=2] [ref=f153e266]
+            - generic [ref=f153e267]:
+              - generic [ref=f153e268]: "NOTE: Use refine search filters above to get better job alerts"
+              - form [ref=f153e269]:
+                - generic [ref=f153e270]:
+                  - generic [ref=f153e271]: Email Address
+                  - textbox "email address" [ref=f153e272]:
+                    - /placeholder: Your email address
+                - generic [ref=f153e273]:
+                  - generic [ref=f153e274]: "You'll get emails:"
+                  - combobox "you'll get emails, select frequency" [ref=f153e276]:
+                    - option "Daily"
+                    - option "Weekly" [selected]
+                    - option "Monthly"
+                - generic:
+                  - alert
+                - button "Create Job Alert" [ref=f153e278] [cursor=pointer]
+            - button "Manage Alerts" [ref=f153e281] [cursor=pointer]
+      - generic [ref=f153e286]:
+        - region "Search results" [ref=f153e288]:
+          - heading "Available jobs" [level=2] [ref=f153e289]
+          - generic [ref=f153e290]:
+            - generic [ref=f153e291]:
+              - generic:
+                - generic [ref=f153e292]: 5 results found
+                - generic [ref=f153e294]: No result found
+              - generic [ref=f153e298]:
+                - generic [ref=f153e299]:
+                  - generic [ref=f153e300]: Showing
+                  - generic [ref=f153e301]: "1"
+                  - generic [ref=f153e302]: "-5"
+                  - generic [ref=f153e303]:
+                    - generic [ref=f153e304]: of
+                    - generic [ref=f153e305]: "5"
+                  - generic [ref=f153e306]: results
+                - generic [ref=f153e309]:
+                  - combobox "Sort by" [ref=f153e311]:
+                    - option "Most Relevant" [selected]
+                    - option "Most Recent"
+                  - generic [ref=f153e312]: jobs sorted by Most relevant
+            - list [ref=f153e314]:
+              - listitem [ref=f153e315]:
+                - button "Remove Co-Op filter" [ref=f153e316] [cursor=pointer]
+                - generic [ref=f153e320]: Co-Op
+              - listitem [ref=f153e321]:
+                - button "Remove Intern filter" [ref=f153e322] [cursor=pointer]
+                - generic [ref=f153e326]: Intern
+              - listitem [ref=f153e327]:
+                - button "Clear all filters" [ref=f153e328] [cursor=pointer]:
+                  - generic [ref=f153e329]: Clear all
+            - list [ref=f153e432]:
+              - listitem [ref=f153e433]:
+                - generic [ref=f153e435]:
+                  - generic [ref=f153e436]:
+                    - heading [level=3] [ref=f153e438]:
+                      - link "Hardware Engineer II (Co-op) - United States" [ref=f153e439] [cursor=pointer]:
+                        - /url: https://careers.cisco.com/global/en/job/2000128/Hardware-Engineer-II-Co-op-United-States
+                    - generic [ref=f153e440]:
+                      - generic [ref=f153e441]:
+                        - button "Available in 3 locations" [ref=f153e444] [cursor=pointer]
+                        - generic [ref=f153e455]:
+                          - generic [ref=f153e456]: "Category:"
+                          - text: Internships, Apprenticeships, and Co-Ops
+                        - generic [ref=f153e462]:
+                          - generic [ref=f153e463]: "Job ID:"
+                          - text: "2000128"
+                        - generic [ref=f153e469]:
+                          - generic [ref=f153e470]: "undefined:"
+                          - text: Hybrid
+                      - generic [ref=f153e471]: Exciting opportunity for a Hardware Engineer II (Co-op) and contribute to cutting-edge hardware design projects across cloud, wireless, and mobile platforms. Collaborate with experts, develop your skills in circuit design, automation, and testing, and help shape the future of technology at Cisco. Ideal for recent graduates or students passionate about hardware engineering.
+                  - link "Apply Now Hardware Engineer II (Co-op) - United States" [ref=f153e474] [cursor=pointer]:
+                    - /url: https://careers.cisco.com/global/en/hvhapply?jobSeqNo=CISCISGLOBAL2000128EXTERNALENGLOBAL
+                    - text: Apply Now
+              - listitem [ref=f153e475]:
+                - generic [ref=f153e477]:
+                  - generic [ref=f153e478]:
+                    - heading [level=3] [ref=f153e480]:
+                      - link "Financial Analyst I - LIFT Intern" [ref=f153e481] [cursor=pointer]:
+                        - /url: https://careers.cisco.com/global/en/job/2022092/Financial-Analyst-I-LIFT-Intern
+                    - generic [ref=f153e482]:
+                      - generic [ref=f153e483]:
+                        - generic [ref=f153e489]:
+                          - generic [ref=f153e490]: "Location:"
+                          - text: Research Triangle Park, North Carolina, United States of America
+                        - generic [ref=f153e496]:
+                          - generic [ref=f153e497]: "Category:"
+                          - text: Finance
+                        - generic [ref=f153e503]:
+                          - generic [ref=f153e504]: "Job ID:"
+                          - text: "2022092"
+                        - generic [ref=f153e510]:
+                          - generic [ref=f153e511]: "undefined:"
+                          - text: Onsite Only
+                      - generic [ref=f153e512]: We are looking for a motivated Financial Analyst Intern to join our dynamic finance team at Cisco. This internship offers a unique opportunity to gain hands-on experience in financial analysis, collaborate with cross-functional teams, and contribute to real business challenges while developing your skills in a supportive environment.
+                  - link "Apply Now Financial Analyst I - LIFT Intern" [ref=f153e515] [cursor=pointer]:
+                    - /url: https://careers.cisco.com/global/en/hvhapply?jobSeqNo=CISCISGLOBAL2022092EXTERNALENGLOBAL
+                    - text: Apply Now
+              - listitem [ref=f153e516]:
+                - generic [ref=f153e518]:
+                  - generic [ref=f153e519]:
+                    - heading [level=3] [ref=f153e521]:
+                      - link "Solutions Engineer Intern, Philippines" [ref=f153e522] [cursor=pointer]:
+                        - /url: https://careers.cisco.com/global/en/job/2011485/Solutions-Engineer-Intern-Philippines
+                    - generic [ref=f153e523]:
+                      - generic [ref=f153e524]:
+                        - generic [ref=f153e530]:
+                          - generic [ref=f153e531]: "Location:"
+                          - text: Taguig City, Philippines
+                        - generic [ref=f153e537]:
+                          - generic [ref=f153e538]: "Category:"
+                          - text: Internships, Apprenticeships, and Co-Ops
+                        - generic [ref=f153e544]:
+                          - generic [ref=f153e545]: "Job ID:"
+                          - text: "2011485"
+                        - generic [ref=f153e551]:
+                          - generic [ref=f153e552]: "undefined:"
+                          - text: Hybrid
+                      - generic [ref=f153e553]: Are you looking for an exciting opportunity to kickstart your career in networking? Join our team as a Solutions Engineer Intern at Cisco, where you'll gain hands-on experience with cutting-edge technologies in AI, Automation, and Enterprise Networking while working closely with industry experts.
+                  - link "Apply Now Solutions Engineer Intern, Philippines" [ref=f153e556] [cursor=pointer]:
+                    - /url: https://careers.cisco.com/global/en/hvhapply?jobSeqNo=CISCISGLOBAL2011485EXTERNALENGLOBAL
+                    - text: Apply Now
+              - listitem [ref=f153e557]:
+                - generic [ref=f153e559]:
+                  - generic [ref=f153e560]:
+                    - heading [level=3] [ref=f153e562]:
+                      - link "Test Engineer Intern, Vietnam" [ref=f153e563] [cursor=pointer]:
+                        - /url: https://careers.cisco.com/global/en/job/2011415/Test-Engineer-Intern-Vietnam
+                    - generic [ref=f153e564]:
+                      - generic [ref=f153e565]:
+                        - generic [ref=f153e571]:
+                          - generic [ref=f153e572]: "Location:"
+                          - text: Hanoi, Hà Nội, Vietnam
+                        - generic [ref=f153e578]:
+                          - generic [ref=f153e579]: "Category:"
+                          - text: Internships, Apprenticeships, and Co-Ops
+                        - generic [ref=f153e585]:
+                          - generic [ref=f153e586]: "Job ID:"
+                          - text: "2011415"
+                      - generic [ref=f153e587]: We are recruiting a test engineer intern to collaborate on real-world projects within Cisco's Supply Chain Operations. You will design, develop, and troubleshoot software test programmes, supporting manufacturing environments. Ideal for candidates pursuing a degree in Electronic Science or Telecommunication Engineering with strong programming and problem-solving skills.
+                  - link "Apply Now Test Engineer Intern, Vietnam" [ref=f153e590] [cursor=pointer]:
+                    - /url: https://careers.cisco.com/global/en/hvhapply?jobSeqNo=CISCISGLOBAL2011415EXTERNALENGLOBAL
+                    - text: Apply Now
+              - listitem [ref=f153e591]:
+                - generic [ref=f153e593]:
+                  - generic [ref=f153e594]:
+                    - heading [level=3] [ref=f153e596]:
+                      - link "Software Development Intern (Cracow, Poland)" [ref=f153e597] [cursor=pointer]:
+                        - /url: https://careers.cisco.com/global/en/job/2015133/Software-Development-Intern-Cracow-Poland
+                    - generic [ref=f153e598]:
+                      - generic [ref=f153e599]:
+                        - generic [ref=f153e605]:
+                          - generic [ref=f153e606]: "Location:"
+                          - text: Krakow, Poland
+                        - generic [ref=f153e612]:
+                          - generic [ref=f153e613]: "Category:"
+                          - text: Internships, Apprenticeships, and Co-Ops
+                        - generic [ref=f153e619]:
+                          - generic [ref=f153e620]: "Job ID:"
+                          - text: "2015133"
+                        - generic [ref=f153e626]:
+                          - generic [ref=f153e627]: "undefined:"
+                          - text: Hybrid
+                      - generic [ref=f153e628]: Take on the role of Software Development Intern and contribute to impactful software projects in a dynamic team environment. Support the design and development of technology platforms, working alongside experienced developers. Ideal for final-year university students passionate about software innovation and eager to gain hands-on experience.
+                  - link "Apply Now Software Development Intern (Cracow, Poland)" [ref=f153e631] [cursor=pointer]:
+                    - /url: https://careers.cisco.com/global/en/hvhapply?jobSeqNo=CISCISGLOBAL2015133EXTERNALENGLOBAL
+                    - text: Apply Now
+        - region "pagination"
+    - generic [ref=f153e632]:
+      - heading "Explore all careers" [level=2] [ref=f153e634]
+      - generic [ref=f153e636]:
+        - list [ref=f153e638]:
+          - listitem [ref=f153e639]:
+            - link "Product and Engineering" [ref=f153e640] [cursor=pointer]:
+              - /url: https://careers.cisco.com/global/en/c/product-and-engineering-jobs
+          - listitem [ref=f153e646]:
+            - link "Sales" [ref=f153e647] [cursor=pointer]:
+              - /url: https://careers.cisco.com/global/en/c/sales-jobs
+          - listitem [ref=f153e653]:
+            - link "Customer Experience" [ref=f153e654] [cursor=pointer]:
+              - /url: https://careers.cisco.com/global/en/c/customer-experience-jobs
+          - listitem [ref=f153e660]:
+            - link "Other" [ref=f153e661] [cursor=pointer]:
+              - /url: https://careers.cisco.com/global/en/c/other-jobs
+          - listitem [ref=f153e667]:
+            - link "Supply Chain and Manufacturing Ops" [ref=f153e668] [cursor=pointer]:
+              - /url: https://careers.cisco.com/global/en/c/supply-chain-and-manufacturing-ops-jobs
+          - listitem [ref=f153e674]:
+            - link "Project and Program Management" [ref=f153e675] [cursor=pointer]:
+              - /url: https://careers.cisco.com/global/en/c/project-and-program-management-jobs
+          - listitem [ref=f153e681]:
+            - link "Business Development and Strategy" [ref=f153e682] [cursor=pointer]:
+              - /url: https://careers.cisco.com/global/en/c/business-development-and-strategy-jobs
+          - listitem [ref=f153e688]:
+            - link "Business Operations" [ref=f153e689] [cursor=pointer]:
+              - /url: https://careers.cisco.com/global/en/c/business-operations-jobs
+          - listitem [ref=f153e695]:
+            - link "Finance" [ref=f153e696] [cursor=pointer]:
+              - /url: https://careers.cisco.com/global/en/c/finance-jobs
+        - button "View all Explore all careers" [ref=f153e703] [cursor=pointer]:
+          - generic [ref=f153e704]: View all
+  - contentinfo [ref=f153e32]:
+    - generic [ref=f153e34]:
+      - generic [ref=f153e36]:
+        - generic [ref=f153e37]: Cisco is an equal opportunity employer and all qualified applicants will receive consideration for employment without regard to race, color, religion, gender, sexual orientation, national origin, genetic information, age, disability, veteran status, or any other legally protected basis.
+        - generic [ref=f153e39]:
+          - list [ref=f153e42]:
+            - listitem [ref=f153e43]:
+              - link "facebook" [ref=f153e44] [cursor=pointer]:
+                - /url: https://www.facebook.com/cisco/
+            - listitem [ref=f153e47]:
+              - link "LinkedIn" [ref=f153e48] [cursor=pointer]:
+                - /url: https://www.linkedin.com/company/cisco
+            - listitem [ref=f153e51]:
+              - link "twitter" [ref=f153e52] [cursor=pointer]:
+                - /url: https://x.com/Cisco?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor
+            - listitem [ref=f153e55]:
+              - link "youtube" [ref=f153e56] [cursor=pointer]:
+                - /url: https://www.youtube.com/@Cisco
+            - listitem [ref=f153e59]:
+              - link "instagram" [ref=f153e60] [cursor=pointer]:
+                - /url: https://www.instagram.com/cisco/?hl=en
+          - navigation [ref=f153e344]:
+            - list [ref=f153e345]:
+              - listitem [ref=f153e346]:
+                - heading "Cookies Preferences" [level=2] [ref=f153e347]
+                - link "Cookie Consent Preferences" [ref=f153e350] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - text: Change Settings
+              - listitem [ref=f153e351]:
+                - heading "Accessibility" [level=2] [ref=f153e352]
+                - list [ref=f153e354]:
+                  - listitem [ref=f153e355]:
+                    - link "Cisco Accessibility Details" [ref=f153e357] [cursor=pointer]:
+                      - /url: https://www.cisco.com/c/en/us/about/accessibility.html
+                  - listitem [ref=f153e358]:
+                    - link "Accommodation Statement" [ref=f153e360] [cursor=pointer]:
+                      - /url: https://careers.cisco.com/global/en/accommodation-statement
+                      - text: Accommodations for Applicants with Disabilities
+              - listitem [ref=f153e361]:
+                - link "E-Verify Participation Poster" [ref=f153e363] [cursor=pointer]:
+                  - /url: https://www.cisco.com/c/dam/en_us/about/ac40/univ/E_Verify_Participation.pdf
+              - listitem [ref=f153e364]:
+                - link "Right to Work Poster" [ref=f153e366] [cursor=pointer]:
+                  - /url: https://www.cisco.com/c/dam/en_us/about/ac40/univ/E_Verify_Right_to_Work.pdf
+      - generic [ref=f153e66]:
+        - generic [ref=f153e67]: Copyright © 2026 Cisco Systems, Inc.
+        - list [ref=f153e370]:
+          - listitem [ref=f153e371]:
+            - link "Help" [ref=f153e373] [cursor=pointer]:
+              - /url: https://careers.cisco.com/global/en/help-page
+          - listitem [ref=f153e374]:
+            - link "Terms & Conditions" [ref=f153e376] [cursor=pointer]:
+              - /url: https://www.cisco.com/c/en/us/about/legal/terms-conditions.html
+          - listitem [ref=f153e377]:
+            - link "Candidate Privacy Statement" [ref=f153e379] [cursor=pointer]:
+              - /url: https://www.cisco.com/site/us/en/about/legal/candidate-privacy.html
+          - listitem [ref=f153e380]:
+            - link "Privacy Statement" [ref=f153e382] [cursor=pointer]:
+              - /url: https://www.cisco.com/c/en/us/about/legal/privacy-full.html
+          - listitem [ref=f153e383]:
+            - link "Cookie Policy" [ref=f153e385] [cursor=pointer]:
+              - /url: https://www.cisco.com/c/en/us/about/legal/privacy-full.html#cookies
+          - listitem [ref=f153e386]:
+            - link "Trademarks" [ref=f153e388] [cursor=pointer]:
+              - /url: https://www.cisco.com/c/en/us/about/legal/trademarks.html
+          - listitem [ref=f153e389]:
+            - link "Career Site Sitemap" [ref=f153e391] [cursor=pointer]:
+              - /url: https://careers.cisco.com/global/en/sitemap
+              - text: Sitemap
+  - complementary "Chatbot" [ref=f153e396]:
+    - generic [ref=f153e397]:
+      - region "Chatbot with notification" [ref=f153e398]:
+        - button "Open Chatbot" [ref=f153e399] [cursor=pointer]
+      - generic [ref=f153e402]:
+        - generic [ref=f153e403] [cursor=pointer]:
+          - generic [ref=f153e404]: Hi there, I'm here to help!Let's get started!
+          - button "Close chatbot notification" [ref=f153e407]
+        - generic [ref=f153e414]:
+          - button "Explore Jobs" [ref=f153e415] [cursor=pointer]
+          - button "Ask a question" [ref=f153e422] [cursor=pointer]
+  - region "Cookie banner" [ref=f153e705]:
+    - dialog "Privacy" [ref=f153e706]:
+      - generic [ref=f153e711]:
+        - generic [ref=f153e712]: By continuing to use our website, you acknowledge the use of cookies.
+        - generic [ref=f153e713]:
+          - link "Privacy Statement" [ref=f153e714] [cursor=pointer]:
+            - /url: https://www.cisco.com/c/en/us/about/legal/privacy-full.html
+          - text: Change Settings
+      - button "Close" [ref=f153e716] [cursor=pointer]

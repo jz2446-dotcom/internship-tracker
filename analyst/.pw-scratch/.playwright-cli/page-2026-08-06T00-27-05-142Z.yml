@@ -1,0 +1,39 @@
+- generic [ref=f100e1]:
+  - generic [ref=f100e3]:
+    - banner [ref=f100e4]:
+      - generic [ref=f100e6]:
+        - generic:
+          - generic:
+            - paragraph:
+              - link "Skip to content" [ref=f100e7] [cursor=pointer]:
+                - /url: "#maincontent"
+        - link [ref=f100e12] [cursor=pointer]:
+          - /url: /country-selector
+          - img "The Coca Cola Company logo" [ref=f100e14]
+    - main [ref=f100e15]:
+      - generic [ref=f100e24]:
+        - heading "Please Bear with us...." [level=1] [ref=f100e27]
+        - paragraph [ref=f100e30]: We can’t seem to find the page you’re looking for.
+        - paragraph [ref=f100e33]: "error code: 404"
+    - contentinfo [ref=f100e37]:
+      - generic [ref=f100e43]:
+        - img "The Coca Cola Company Logo" [ref=f100e47]
+        - separator [ref=f100e50]
+        - list [ref=f100e55]:
+          - listitem [ref=f100e56]:
+            - link "Terms of Use" [ref=f100e57] [cursor=pointer]:
+              - /url: /terms-of-service
+          - listitem [ref=f100e58]:
+            - link "Privacy Policy" [ref=f100e59] [cursor=pointer]:
+              - /url: /privacy-policy
+          - listitem [ref=f100e60]:
+            - link "Cookies Settings" [ref=f100e61] [cursor=pointer]:
+              - /url: "#js-open-onetrust-preference-center"
+        - separator [ref=f100e64]
+        - paragraph [ref=f100e67]: © 2026 The Coca‑Cola Company. All rights reserved.
+  - generic:
+    - region "Cookie banner" [ref=f100e68]:
+      - alertdialog "Privacy" [ref=f100e69]:
+        - paragraph [ref=f100e74]: Cookies on this site are used by Coca-Cola and third party partners for different purposes, including personalizing content, tailoring advertising to your interests, and measuring site usage.
+        - button "Close" [active] [ref=f100e75] [cursor=pointer]: 
+    - text:    Cookies Settings

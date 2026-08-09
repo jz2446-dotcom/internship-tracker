@@ -1,0 +1,355 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "Skip to main navigation" [ref=e3] [cursor=pointer]:
+        - /url: "#header_main_nav"
+      - link "Skip to search" [ref=e4] [cursor=pointer]:
+        - /url: "#desktop_search_form"
+    - link "Skip to content" [ref=e5] [cursor=pointer]:
+      - /url: "#content-start"
+  - banner [ref=e6]:
+    - generic [ref=e9]:
+      - generic [ref=e14]:
+        - text:  
+        - generic [ref=e16]:
+          - generic [ref=e17]:
+            - generic [ref=e18]:
+              - button "Hours & Locations" [ref=e19] [cursor=pointer]:
+                - generic [ref=e20]: 
+                - generic [ref=e23]: ꯍ
+              - text: 🔍 
+            - generic [ref=e24]:
+              - button "Help" [ref=e25] [cursor=pointer]:
+                - generic [ref=e26]: 
+                - generic [ref=e29]: ꯍ
+              - text: 🔍
+          - button "User Log In / My CPL." [ref=e32] [cursor=pointer]:
+            - generic [ref=e33]: Log In / My CPL
+            - generic [ref=e35]: ꯍ
+      - generic [ref=e36]:
+        - generic [ref=e38]:
+          - generic [ref=e39]:
+            - link [ref=e41] [cursor=pointer]:
+              - /url: https://www.chipublib.org
+              - img "Chicago Public Library" [ref=e43]
+            - text:  
+          - text: 🔍
+          - generic [ref=e44]:
+            - button "Search" [ref=e45] [cursor=pointer]:
+              - text: Search
+              - generic [ref=e46]: 🔍
+            - text: ꯍ ꯍ 🔍
+        - text: ꯍ ꯍ 🔍
+        - navigation [ref=e49]:
+          - list [ref=e50]:
+            - listitem [ref=e51]:
+              - button "Browse" [ref=e52] [cursor=pointer]:
+                - text: Browse
+                - generic [ref=e53]: ꯍ
+            - listitem [ref=e54]:
+              - link "Events" [ref=e55] [cursor=pointer]:
+                - /url: https://chipublib.bibliocommons.com/events
+                - generic [ref=e56]: 
+                - text: Events
+            - listitem [ref=e57]:
+              - link "Ask a Librarian" [ref=e58] [cursor=pointer]:
+                - /url: https://www.chipublib.org/ask-a-librarian/
+            - listitem [ref=e59]:
+              - link "Get a Library Card" [ref=e60] [cursor=pointer]:
+                - /url: https://www.chipublib.org/get-a-library-card/
+  - generic [ref=e61]:
+    - main [ref=e62]:
+      - generic: 0 messages from the library
+      - generic [ref=e67]:
+        - complementary [ref=e70]:
+          - navigation "About Us" [ref=e72]:
+            - list [ref=e73]:
+              - listitem [ref=e74]:
+                - link "About Us" [ref=e76] [cursor=pointer]:
+                  - /url: https://www.chipublib.org/about-us/
+              - listitem [ref=e77]:
+                - link "Administrative Staff" [ref=e79] [cursor=pointer]:
+                  - /url: https://www.chipublib.org/administrative-staff/
+              - listitem [ref=e80]:
+                - link "Board of Directors" [ref=e82] [cursor=pointer]:
+                  - /url: https://www.chipublib.org/board-of-directors/
+                - list [ref=e83]:
+                  - listitem [ref=e84]:
+                    - link "Board Meeting Schedule 2026" [ref=e86] [cursor=pointer]:
+                      - /url: https://www.chipublib.org/board-of-directors/board-meeting-schedule/
+                  - listitem [ref=e87]:
+                    - link "Board Agendas and Minutes" [ref=e89] [cursor=pointer]:
+                      - /url: https://www.chipublib.org/explore/?post-type=news&tag=board-of-directors
+              - listitem [ref=e90]:
+                - link "Strategic Plan" [ref=e92] [cursor=pointer]:
+                  - /url: https://www.chipublib.org/strategic-plan/
+              - listitem [ref=e93]:
+                - link "Annual Reports" [ref=e95] [cursor=pointer]:
+                  - /url: https://www.chipublib.org/annual-reports/
+              - listitem [ref=e96]:
+                - link "Facts and Figures" [ref=e98] [cursor=pointer]:
+                  - /url: https://www.chipublib.org/facts-and-figures/
+              - listitem [ref=e99]:
+                - link "CPL History" [ref=e101] [cursor=pointer]:
+                  - /url: https://www.chipublib.org/cpl-history/
+              - listitem [ref=e102]:
+                - link "Chicago Public Library Foundation" [ref=e104] [cursor=pointer]:
+                  - /url: https://www.chipublib.org/chicago-public-library-foundation/
+              - listitem [ref=e105]:
+                - link "Programs and Partnerships" [ref=e107] [cursor=pointer]:
+                  - /url: https://www.chipublib.org/programs-and-partnerships/
+                - list [ref=e108]:
+                  - listitem [ref=e109]:
+                    - link "Maker Lab" [ref=e111] [cursor=pointer]:
+                      - /url: https://www.chipublib.org/maker-lab/
+                  - listitem [ref=e112]:
+                    - link "One Book, One Chicago" [ref=e114] [cursor=pointer]:
+                      - /url: https://www.chipublib.org/one-book-one-chicago/
+                  - listitem [ref=e115]:
+                    - link "YOUmedia" [ref=e117] [cursor=pointer]:
+                      - /url: https://www.chipublib.org/programs-and-partnerships/youmedia/
+              - listitem [ref=e118]:
+                - link "Library News" [ref=e120] [cursor=pointer]:
+                  - /url: https://www.chipublib.org/explore/?topic=library-news
+                - list [ref=e121]:
+                  - listitem [ref=e122]:
+                    - link "Press Releases" [ref=e124] [cursor=pointer]:
+                      - /url: https://www.chipublib.org/press-releases/
+                  - listitem [ref=e125]:
+                    - link "Sign Up for Email Updates" [ref=e127] [cursor=pointer]:
+                      - /url: https://www.chipublib.org/preferences-for-customization/
+              - listitem [ref=e128]:
+                - link "FOIA Request" [ref=e130] [cursor=pointer]:
+                  - /url: https://www.chipublib.org/foia-request/
+              - listitem [ref=e131]:
+                - link "Jobs at CPL" [ref=e133] [cursor=pointer]:
+                  - /url: https://www.chipublib.org/jobs-at-cpl/
+              - listitem [ref=e134]:
+                - link "Volunteer at CPL" [ref=e136] [cursor=pointer]:
+                  - /url: https://www.chipublib.org/volunteer-at-cpl/
+              - listitem [ref=e137]:
+                - link "Library Policies" [ref=e139] [cursor=pointer]:
+                  - /url: https://www.chipublib.org/library-policies/
+              - listitem [ref=e140]:
+                - link "Holiday Closures" [ref=e142] [cursor=pointer]:
+                  - /url: https://chipublib.bibliocommons.com/events/search/fq=types:(52ec53226ea5ed0000000019)
+        - main [ref=e145]:
+          - article [ref=e146]:
+            - heading "Jobs at CPL" [level=1] [ref=e148]
+            - generic [ref=e149]:
+              - paragraph [ref=e150]: At the Chicago Public Library, we value our innovative services, transformative collections and renovated buildings, but our most valuable asset is our staff. We employ approximately 900 people at more than 80 locations in jobs ranging from pages, clerks and librarians to support and administrative positions.
+              - paragraph [ref=e151]: We welcome candidates who are committed to excellent customer service. We invite you to consider us as a place to begin or continue your career.
+              - heading "Current Openings" [level=2] [ref=e152]
+              - paragraph [ref=e153]:
+                - link "City of Chicago Job Opportunities" [ref=e154] [cursor=pointer]:
+                  - /url: http://www.cityofchicago.org/city/en/depts/dhr/provdrs/emp.html
+              - paragraph [ref=e155]: We are a department of the City of Chicago, and our hiring process is handled by the City’s Human Resources Department. Library employment opportunities are posted along with those for other departments. Please check weekly for any new openings.
+              - paragraph [ref=e156]: See individual postings for information on job qualifications and duties. Please note, Bid Opportunities are postings for Chicago Public Library employees who are members of the bargaining unit that represents the position.
+          - button "Print this page" [ref=e158] [cursor=pointer]
+        - generic [ref=e163]:
+          - heading "Related Information" [level=2] [ref=e164]
+          - complementary [ref=e165]:
+            - heading "Library News" [level=3] [ref=e166]
+            - generic [ref=e168]:
+              - list [ref=e170]:
+                - listitem [ref=e171]:
+                  - heading [level=3] [ref=e172]:
+                    - link [ref=e173] [cursor=pointer]:
+                      - /url: https://www.chipublib.org/news/ged-classes/
+                      - text: GED classes continue at Woodson, Back of
+                      - generic [ref=e174]: the…
+                  - generic [ref=e177]: July 30, 2026
+                  - generic [ref=e178]: GED classes will start at Woodson this fall with…
+                - listitem [ref=e179]:
+                  - heading [level=3] [ref=e180]:
+                    - link [ref=e181] [cursor=pointer]:
+                      - /url: https://www.chipublib.org/news/disability-pride-month/
+                      - text: Celebrate Disability Pride Month with
+                      - generic [ref=e182]: CPL
+                  - generic [ref=e185]: June 24, 2026
+                  - generic [ref=e186]: Celebrate individuals with disabilities during…
+                - listitem [ref=e187]:
+                  - heading [level=3] [ref=e188]:
+                    - link [ref=e189] [cursor=pointer]:
+                      - /url: https://www.chipublib.org/news/digital-museum-passes-reserve-online/
+                      - text: "Digital Museum Passes: Reserve"
+                      - generic [ref=e190]: Online
+                  - generic [ref=e193]: June 1, 2026
+                  - generic [ref=e194]: CPL's museum passes are now digital and expanded…
+              - link "View More Library News" [ref=e196] [cursor=pointer]:
+                - /url: https://www.chipublib.org/explore/?post-type=news&topic=library-news
+                - text: View
+                - generic [ref=e197]:
+                  - text: More
+                  - generic [ref=e198]: Library News
+    - contentinfo [ref=e201]:
+      - generic [ref=e202]:
+        - heading "Footer Menu" [level=2] [ref=e203]
+        - generic [ref=e206]:
+          - list [ref=e208]:
+            - listitem [ref=e209]:
+              - link "Chicago Public Library on Facebook" [ref=e210] [cursor=pointer]:
+                - /url: https://www.facebook.com/pages/Chicago-Public-Library/35447572453
+            - listitem [ref=e213]:
+              - link "Chicago Public Library on Twitter" [ref=e214] [cursor=pointer]:
+                - /url: https://twitter.com/chipublib
+            - listitem [ref=e217]:
+              - link "Chicago Public Library on Instagram" [ref=e218] [cursor=pointer]:
+                - /url: https://www.instagram.com/chicagopubliclibrary/
+            - listitem [ref=e223]:
+              - link "Chicago Public Library on Youtube" [ref=e224] [cursor=pointer]:
+                - /url: https://www.youtube.com/channel/UCE8pQ7ZYzs_Aq_fa0mweJGw
+            - listitem [ref=e227]:
+              - link "Chicago Public Library on Tiktok" [ref=e228] [cursor=pointer]:
+                - /url: https://www.tiktok.com/@chipublib
+            - listitem [ref=e231]:
+              - link "Chicago Public Library Newsletter" [ref=e232] [cursor=pointer]:
+                - /url: https://www.chipublib.org/preferences-for-customization/
+          - generic:
+            - generic [ref=e235]:
+              - heading "Services" [level=3] [ref=e236]
+              - list [ref=e238]:
+                - listitem [ref=e239]:
+                  - link "Ask a Librarian" [ref=e240] [cursor=pointer]:
+                    - /url: https://www.chipublib.org/ask-a-librarian/
+                - listitem [ref=e241]:
+                  - link "Get a Library Card" [ref=e242] [cursor=pointer]:
+                    - /url: https://www.chipublib.org/get-a-library-card/
+                - listitem [ref=e243]:
+                  - link "Use a Computer or Printer" [ref=e244] [cursor=pointer]:
+                    - /url: https://www.chipublib.org/use-a-computer-or-printer/
+                - listitem [ref=e245]:
+                  - link "Request an Interlibrary Loan" [ref=e246] [cursor=pointer]:
+                    - /url: https://www.chipublib.org/request-an-interlibrary-loan/
+                - listitem [ref=e247]:
+                  - link "Suggest a Purchase" [ref=e248] [cursor=pointer]:
+                    - /url: https://www.chipublib.org/suggest-a-purchase/
+                - listitem [ref=e249]:
+                  - link "eBooks Support" [ref=e250] [cursor=pointer]:
+                    - /url: https://www.chipublib.org/ebooks-and-eaudiobooks-support/
+                - listitem [ref=e251]:
+                  - link "Order a Photo Reproduction" [ref=e252] [cursor=pointer]:
+                    - /url: https://www.chipublib.org/order-a-photo-reproduction/
+                - listitem [ref=e253]:
+                  - link "Private Event Rentals" [ref=e254] [cursor=pointer]:
+                    - /url: https://www.chipublib.org/private-event-rentals/
+                - listitem [ref=e255]:
+                  - link "Book a Meeting Room or Study Room" [ref=e256] [cursor=pointer]:
+                    - /url: https://www.chipublib.org/book-a-meeting-room/
+            - generic [ref=e257]:
+              - heading "FAQs" [level=3] [ref=e258]
+              - list [ref=e260]:
+                - listitem [ref=e261]:
+                  - link "Your Account" [ref=e262] [cursor=pointer]:
+                    - /url: https://www.chipublib.org/faq/your-account/
+                - listitem [ref=e263]:
+                  - link "Library Cards" [ref=e264] [cursor=pointer]:
+                    - /url: https://www.chipublib.org/faq/library-cards/
+                - listitem [ref=e265]:
+                  - link "Technology" [ref=e266] [cursor=pointer]:
+                    - /url: https://www.chipublib.org/faq/technology/
+                - listitem [ref=e267]:
+                  - link "People with Disabilities" [ref=e268] [cursor=pointer]:
+                    - /url: https://www.chipublib.org/faq/services/#people-with-disabilities
+                - listitem [ref=e269]:
+                  - link "More FAQs" [ref=e270] [cursor=pointer]:
+                    - /url: https://www.chipublib.org/faqs/
+            - generic [ref=e271]:
+              - heading "About the Library" [level=3] [ref=e272]
+              - list [ref=e274]:
+                - listitem [ref=e275]:
+                  - link "Administrative Staff" [ref=e276] [cursor=pointer]:
+                    - /url: https://www.chipublib.org/administrative-staff/
+                - listitem [ref=e277]:
+                  - link "Board of Directors" [ref=e278] [cursor=pointer]:
+                    - /url: https://www.chipublib.org/board-of-directors/
+                - listitem [ref=e279]:
+                  - link "Chicago Public Library Foundation" [ref=e280] [cursor=pointer]:
+                    - /url: https://www.chipublib.org/chicago-public-library-foundation/
+                - listitem [ref=e281]:
+                  - link "Library News" [ref=e282] [cursor=pointer]:
+                    - /url: https://www.chipublib.org/explore/?topic=library-news
+                - listitem [ref=e283]:
+                  - link "Jobs at CPL" [ref=e284] [cursor=pointer]:
+                    - /url: https://www.chipublib.org/jobs-at-cpl/
+                - listitem [ref=e285]:
+                  - link "Website Accessibility Policy" [ref=e286] [cursor=pointer]:
+                    - /url: https://www.chipublib.org/library-policies/website-accessibility-policy/
+                - listitem [ref=e287]:
+                  - link "All Library Policies" [ref=e288] [cursor=pointer]:
+                    - /url: https://www.chipublib.org/library-policies/
+                - listitem [ref=e289]:
+                  - link "Sign Up for Email Updates" [ref=e290] [cursor=pointer]:
+                    - /url: https://www.chipublib.org/preferences-for-customization/
+                - listitem [ref=e291]:
+                  - link "CPL Online Store" [ref=e292] [cursor=pointer]:
+                    - /url: https://chicagopubliclibrary.threadless.com/
+                - listitem [ref=e293]:
+                  - link "More About the Library" [ref=e294] [cursor=pointer]:
+                    - /url: https://www.chipublib.org/about-us/
+            - generic [ref=e295]:
+              - generic [ref=e296]:
+                - heading "I Speak..." [level=3] [ref=e297]
+                - list [ref=e299]:
+                  - listitem [ref=e300]:
+                    - link "Español" [ref=e301] [cursor=pointer]:
+                      - /url: https://www.chipublib.org/spanish/
+                  - listitem [ref=e302]:
+                    - link "Polski" [ref=e303] [cursor=pointer]:
+                      - /url: https://www.chipublib.org/polish/
+                  - listitem [ref=e304]:
+                    - link "Chinese (中文)" [ref=e305] [cursor=pointer]:
+                      - /url: https://www.chipublib.org/chinese/
+              - generic [ref=e306]:
+                - heading "Resources for" [level=3] [ref=e307]
+                - list [ref=e309]:
+                  - listitem [ref=e310]:
+                    - link "Adult Learning" [ref=e311] [cursor=pointer]:
+                      - /url: https://www.chipublib.org/resources-for-adult-learning/
+                  - listitem [ref=e312]:
+                    - link "Jobs & Small Business" [ref=e313] [cursor=pointer]:
+                      - /url: https://www.chipublib.org/jobs-small-business/
+                  - listitem [ref=e314]:
+                    - link "Learning English" [ref=e315] [cursor=pointer]:
+                      - /url: https://www.chipublib.org/learning-english/
+                  - listitem [ref=e316]:
+                    - link "Becoming a Citizen" [ref=e317] [cursor=pointer]:
+                      - /url: https://www.chipublib.org/becoming-a-citizen/
+            - generic [ref=e318]:
+              - generic [ref=e319]:
+                - heading "Contact the Library" [level=3] [ref=e320]
+                - generic [ref=e321]:
+                  - generic [ref=e322]: Chicago Public Library
+                  - generic [ref=e323]: 400 S. State StreetChicago, IL 60605
+                  - link "(312) 747-4300" [ref=e325] [cursor=pointer]:
+                    - /url: tel:3127474300
+              - link "Contact Us" [ref=e326] [cursor=pointer]:
+                - /url: https://www.chipublib.org/contact-us/
+      - generic [ref=e327]:
+        - link "Chicago Public Library Foundation , opens a new window" [ref=e329] [cursor=pointer]:
+          - /url: https://secure3.convio.net/cplf/site/Donation2?idb=330762243&DONATION_LEVEL_ID_SELECTED=1&df_id=2140&mfc_pref=T&2140.donation=form1&idb=0
+          - img "Chicago Public Library Foundation" [ref=e330]
+          - generic [ref=e331]: ", opens a new window"
+        - generic [ref=e332]:
+          - generic [ref=e333]:
+            - link "City of Chicago" [ref=e334] [cursor=pointer]:
+              - /url: http://www.cityofchicago.org/
+            - link "Reciprocal Library Verification" [ref=e335] [cursor=pointer]:
+              - /url: https://chicago.polarislibrary.com/patronstatus/
+          - generic [ref=e336]:
+            - link "Terms of Use , opens a new window" [ref=e337] [cursor=pointer]:
+              - /url: https://chipublib.bibliocommons.com/info/terms
+              - text: Terms of Use
+              - generic [ref=e338]: ", opens a new window"
+            - link "Privacy Statement , opens a new window" [ref=e339] [cursor=pointer]:
+              - /url: https://chipublib.bibliocommons.com/info/privacy
+              - text: Privacy Statement
+              - generic [ref=e340]: ", opens a new window"
+            - link "Accessibility Statement , opens a new window" [ref=e341] [cursor=pointer]:
+              - /url: https://chipublib.bibliocommons.com/info/accessibility/
+              - text: Accessibility Statement
+              - generic [ref=e342]: ", opens a new window"
+            - text: © 2026 Chicago Public Library
+      - generic [ref=e343]:
+        - paragraph [ref=e344]: Powered by BiblioCommons.
+        - paragraph [ref=e345]: "BiblioWeb: app02 Version 4.36.3 Last updated 2026/07/21 09:15"

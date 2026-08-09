@@ -1,0 +1,44 @@
+- generic [ref=f24e5]:
+  - banner:
+    - generic [ref=f24e8]:
+      - generic [ref=f24e10]:
+        - generic:
+          - button [disabled]
+        - button "Facebook" [ref=f24e12] [cursor=pointer]:
+          - img "Facebook" [ref=f24e13]
+      - generic [ref=f24e16]:
+        - button "Log in with QR code" [ref=f24e19] [cursor=pointer]
+        - generic [ref=f24e23]:
+          - textbox "Email or phone" [ref=f24e26]
+          - textbox "Password" [ref=f24e29]
+          - button "Log In" [ref=f24e32] [cursor=pointer]
+          - link "Forgot Account?" [ref=f24e39] [cursor=pointer]:
+            - /url: https://www.facebook.com/recover/initiate?ars=royal_blue_bar
+  - main [ref=f24e47]:
+    - heading [level=1] [ref=f24e66]:
+      - generic [ref=f24e67]: "#jobs"
+    - generic [ref=f24e76]:
+      - article [ref=f24e77]:
+        - status [ref=f24e78]
+      - article [ref=f24e90]:
+        - status [ref=f24e91]
+  - dialog [ref=f24e111]:
+    - button "Close" [ref=f24e113] [cursor=pointer]
+    - generic [ref=f24e119]:
+      - generic [ref=f24e120]:
+        - generic [ref=f24e121]: See more on Facebook
+        - generic [ref=f24e128]:
+          - generic: Email or phone number
+          - textbox "Email or phone number" [active] [ref=f24e129]
+        - generic [ref=f24e134]:
+          - generic: Password
+          - textbox "Password" [ref=f24e135]
+        - button "Log in to Facebook" [ref=f24e137] [cursor=pointer]:
+          - generic [ref=f24e138]: Log In
+        - link "Forgot password?" [ref=f24e142] [cursor=pointer]:
+          - /url: https://www.facebook.com/recover/initiate?ars=royal_blue_bar
+        - generic [ref=f24e144]: or
+        - button "Create new account" [ref=f24e153] [cursor=pointer]
+      - generic [ref=f24e163]:
+        - generic [ref=f24e164]: Scan the QR code and confirm the codes match to log in.
+        - generic [ref=f24e165]: AWU-PFP-ORRE

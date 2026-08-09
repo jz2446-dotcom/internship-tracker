@@ -1,0 +1,37 @@
+- generic [active] [ref=f39e1]:
+  - main [ref=f39e2]:
+    - generic [ref=f39e3]:
+      - heading "www.nbtbank.com" [level=1] [ref=f39e5]
+      - heading "Performing security verification" [level=2] [ref=f39e6]
+      - paragraph [ref=f39e7]: This website uses a security service to protect against malicious bots. This page is displayed while the website verifies you are not a bot.
+      - alert [ref=f39e8]:
+        - generic [ref=f39e9]:
+          - heading "Why is this verification taking longer?" [level=2] [ref=f39e10]
+          - paragraph [ref=f39e11]: This verification can take longer due to an older computer or a slow internet connection.
+          - paragraph [ref=f39e12]: "What to do next:"
+          - list [ref=f39e13]:
+            - listitem [ref=f39e14]: Wait briefly. Refreshing the page will restart the security verification and may take longer.
+            - listitem [ref=f39e15]:
+              - text: If the verification still does not complete,
+              - link "refresh this page" [ref=f39e16] [cursor=pointer]:
+                - /url: "#"
+              - text: .
+            - listitem [ref=f39e17]:
+              - text: If you are still stuck on this page after a page refresh, refer to Cloudflare’s
+              - link "troubleshooting documentation" [ref=f39e18] [cursor=pointer]:
+                - /url: /cdn-cgi/challenge-platform/help
+              - text: for more help.
+  - contentinfo [ref=f39e19]:
+    - generic [ref=f39e21]:
+      - generic [ref=f39e23]:
+        - text: "Ray ID:"
+        - code [ref=f39e24]: a26368511ca1dc6a
+      - generic [ref=f39e25]:
+        - generic [ref=f39e26]:
+          - text: Performance and Security by
+          - link "Cloudflare, opens in a new tab" [ref=f39e27] [cursor=pointer]:
+            - /url: https://www.cloudflare.com?utm_source=challenge&utm_campaign=m
+            - text: Cloudflare
+        - link "Privacy, opens in a new tab" [ref=f39e29] [cursor=pointer]:
+          - /url: https://www.cloudflare.com/privacypolicy/
+          - text: Privacy

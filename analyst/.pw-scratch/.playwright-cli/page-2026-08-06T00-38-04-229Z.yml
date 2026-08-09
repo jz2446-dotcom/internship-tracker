@@ -1,0 +1,125 @@
+- generic [active] [ref=f192e1]:
+  - generic [ref=f192e3]:
+    - button "Skip to main content" [ref=f192e4] [cursor=pointer]
+    - banner [ref=f192e5]:
+      - navigation "Main Navigation" [ref=f192e6]:
+        - generic [ref=f192e7]:
+          - link [ref=f192e10] [cursor=pointer]:
+            - /url: /
+            - img "Brands.com - Update" [ref=f192e11]
+          - list [ref=f192e14]:
+            - listitem [ref=f192e15]:
+              - link "Home" [ref=f192e16] [cursor=pointer]:
+                - /url: /
+            - listitem [ref=f192e19]:
+              - button "Open Mega Menu Products" [ref=f192e20] [cursor=pointer]:
+                - generic [ref=f192e21]: Products
+            - listitem [ref=f192e26]:
+              - button "Open Mega Menu Brands" [ref=f192e27] [cursor=pointer]:
+                - generic [ref=f192e28]: Brands
+            - listitem [ref=f192e33]:
+              - button "Open Mega Menu Recipes" [ref=f192e34] [cursor=pointer]:
+                - generic [ref=f192e35]: Recipes
+          - generic [ref=f192e40]:
+            - search [ref=f192e45]:
+              - combobox "Search products." [ref=f192e46]
+              - button "Search" [ref=f192e47] [cursor=pointer]
+            - button [ref=f192e52] [cursor=pointer]:
+              - paragraph [ref=f192e55]: Log in
+    - main [ref=f192e56]:
+      - generic [ref=f192e58]:
+        - img "Hand repairing a broken plate with tape." [ref=f192e60]
+        - generic [ref=f192e62]:
+          - generic [ref=f192e64]:
+            - heading "Watch Out! This page is broken." [level=2] [ref=f192e65]
+            - generic [ref=f192e66]: Head back to the homepage
+          - link "Go Home" [ref=f192e70] [cursor=pointer]:
+            - /url: /
+    - contentinfo [ref=f192e77]:
+      - generic [ref=f192e78]:
+        - generic [ref=f192e79]:
+          - generic [ref=f192e80]:
+            - heading "Kraft Heinz" [level=2] [ref=f192e81]
+            - list [ref=f192e82]:
+              - listitem [ref=f192e83]:
+                - link "Home" [ref=f192e85] [cursor=pointer]:
+                  - /url: /
+              - listitem [ref=f192e87]:
+                - link "Our Products" [ref=f192e89] [cursor=pointer]:
+                  - /url: /products
+              - listitem [ref=f192e91]:
+                - link "Our Brands" [ref=f192e93] [cursor=pointer]:
+                  - /url: /brands
+              - listitem [ref=f192e95]:
+                - link "Our Recipes" [ref=f192e97] [cursor=pointer]:
+                  - /url: /recipes
+              - listitem [ref=f192e99]:
+                - link "Get the App" [ref=f192e101] [cursor=pointer]:
+                  - /url: /whats-cooking
+              - listitem [ref=f192e103]:
+                - link "Corporate (opens in a new window)" [ref=f192e105] [cursor=pointer]:
+                  - /url: /made-by-us
+                  - generic [ref=f192e106]: Corporate
+              - listitem [ref=f192e109]:
+                - link "Join TasteVIP" [ref=f192e111] [cursor=pointer]:
+                  - /url: /tastevip
+          - generic [ref=f192e113]:
+            - heading "Get in Touch" [level=2] [ref=f192e114]
+            - list [ref=f192e115]:
+              - listitem [ref=f192e116]:
+                - link "About Kraft Heinz (opens in a new window)" [ref=f192e118] [cursor=pointer]:
+                  - /url: https://www.kraftheinzcompany.com/
+                  - generic [ref=f192e119]: About Kraft Heinz
+              - listitem [ref=f192e122]:
+                - link "B2B (opens in a new window)" [ref=f192e124] [cursor=pointer]:
+                  - /url: https://www.kraftheinzawayfromhome.com
+                  - generic [ref=f192e125]: B2B
+              - listitem [ref=f192e128]:
+                - link "Investor Relations (opens in a new window)" [ref=f192e130] [cursor=pointer]:
+                  - /url: https://ir.kraftheinzcompany.com
+                  - generic [ref=f192e131]: Investor Relations
+              - listitem [ref=f192e134]:
+                - link "Careers (opens in a new window)" [ref=f192e136] [cursor=pointer]:
+                  - /url: https://careers.kraftheinz.com
+                  - generic [ref=f192e137]: Careers
+              - listitem [ref=f192e140]:
+                - link "Contact Us (opens in a new window)" [ref=f192e142] [cursor=pointer]:
+                  - /url: https://contactus.kraftheinz.com/en-us
+                  - generic [ref=f192e143]: Contact Us
+              - listitem [ref=f192e146]:
+                - link "Product Locator (opens in a new window)" [ref=f192e148] [cursor=pointer]:
+                  - /url: /en-US/product-locator
+                  - generic [ref=f192e149]: Product Locator
+        - generic [ref=f192e154]:
+          - heading "Country/Language" [level=2] [ref=f192e155]
+          - button "USA (English)" [ref=f192e158] [cursor=pointer]
+      - separator [ref=f192e163]
+      - generic [ref=f192e164]:
+        - paragraph [ref=f192e165]: ©2026 Kraft Heinz, Inc. All Rights Reserved.
+        - generic [ref=f192e166]:
+          - link "Terms and Conditions" [ref=f192e168] [cursor=pointer]:
+            - /url: /terms-of-use
+          - link "Privacy Notice" [ref=f192e172] [cursor=pointer]:
+            - /url: /privacy-policy
+          - link "Do Not Sell or Share my Personal Information" [ref=f192e176] [cursor=pointer]:
+            - /url: /privacy-policy#4IgUeOranNwIfErT1vWHSg
+          - link "Limit the Use of My Sensitive Personal Information" [ref=f192e180] [cursor=pointer]:
+            - /url: /privacy-policy#ziVM4o0K571U71956c1VE
+  - alert [ref=f192e182]
+  - generic:
+    - region "Cookie banner" [ref=f192e183]:
+      - dialog "COOKIES" [ref=f192e184]:
+        - generic [ref=f192e185]:
+          - generic [ref=f192e186]:
+            - generic:
+              - heading "COOKIES" [level=2] [ref=f192e187]
+              - generic [ref=f192e188]:
+                - text: We use cookies to provide you with the best online experience and show you personalized content. By proceeding, you consent to use of these cookies, including cookies that record your interactions with our site. For more information, please review our
+                - link "More information about your privacy, opens in a new tab" [ref=f192e189] [cursor=pointer]:
+                  - /url: https://www.kraftheinz.com/privacy-policy
+                  - text: Privacy Policy.
+          - generic [ref=f192e191]:
+            - button "OK" [ref=f192e193] [cursor=pointer]
+            - button "Cookies Settings, Opens the preference center dialog" [ref=f192e194] [cursor=pointer]: Cookies Settings
+          - button "Close" [ref=f192e196] [cursor=pointer]
+    - text: Cookies Settings

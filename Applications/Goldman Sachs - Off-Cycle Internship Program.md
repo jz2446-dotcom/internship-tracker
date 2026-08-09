@@ -1,0 +1,23 @@
+---
+key: "Goldman Sachs::Off-Cycle Internship Program"
+company: "Goldman Sachs"
+program: "Off-Cycle Internship Program"
+group: "Fall 2026 Internships"
+category: "Investment Banking / Markets / Asset Management"
+class_years: ["2028", "2029"]
+status: "open"
+deadline: ""
+posted: ""
+acceptance_rate: "~1–2%"
+competitiveness: "Extremely competitive"
+location: "Asia Pacific (Hong Kong, Singapore, Tokyo)"
+apply_url: "https://www.goldmansachs.com/careers/students/programs-and-internships/asia-pacific/off-cycle-internship-program"
+# ---- your fields below are preserved on every refresh ----
+applied: false
+stage: "to-apply"
+priority: ""
+referral: ""
+---
+## My notes
+
+_Add referral contacts, recruiter names, interview dates, status, links — preserved across refreshes._

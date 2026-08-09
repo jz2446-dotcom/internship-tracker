@@ -1,0 +1,16 @@
+{
+  "name": "tracker-control-panel",
+  "version": "1.0.0",
+  "description": "Local Electron control panel for the finance internship tracker + resume pipeline. Runs only deterministic (zero-AI) steps.",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "",
+  "license": "UNLICENSED",
+  "private": true,
+  "devDependencies": {
+    "@electron/packager": "^20.0.1",
+    "electron": "^31.0.0"
+  }
+}

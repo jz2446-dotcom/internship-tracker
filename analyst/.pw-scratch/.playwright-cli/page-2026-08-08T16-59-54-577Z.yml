@@ -1,0 +1,36 @@
+- generic [ref=f721e5]:
+  - banner:
+    - generic [ref=f721e8]:
+      - generic [ref=f721e10]:
+        - generic:
+          - button [disabled]
+        - button "Facebook" [ref=f721e12] [cursor=pointer]:
+          - img "Facebook" [ref=f721e13]
+      - generic [ref=f721e16]:
+        - button "Log in with QR code" [ref=f721e19] [cursor=pointer]
+        - generic [ref=f721e23]:
+          - textbox "Email or phone" [ref=f721e26]
+          - textbox "Password" [ref=f721e29]
+          - button "Log In" [ref=f721e32] [cursor=pointer]
+          - link "Forgot Account?" [ref=f721e39] [cursor=pointer]:
+            - /url: https://www.facebook.com/recover/initiate?ars=royal_blue_bar
+  - dialog [ref=f721e51]:
+    - button "Close" [ref=f721e53] [cursor=pointer]
+    - generic [ref=f721e59]:
+      - generic [ref=f721e60]:
+        - generic [ref=f721e61]: See more on Facebook
+        - generic [ref=f721e68]:
+          - generic: Email or phone number
+          - textbox "Email or phone number" [active] [ref=f721e69]
+        - generic [ref=f721e74]:
+          - generic: Password
+          - textbox "Password" [ref=f721e75]
+        - button "Log in to Facebook" [ref=f721e77] [cursor=pointer]:
+          - generic [ref=f721e78]: Log In
+        - link "Forgot password?" [ref=f721e82] [cursor=pointer]:
+          - /url: https://www.facebook.com/recover/initiate?ars=royal_blue_bar
+        - generic [ref=f721e84]: or
+        - button "Create new account" [ref=f721e93] [cursor=pointer]
+      - generic [ref=f721e103]:
+        - generic [ref=f721e104]: Scan the QR code and confirm the codes match to log in.
+        - generic [ref=f721e105]: ALE-ABI-YEIF

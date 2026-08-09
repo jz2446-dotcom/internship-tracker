@@ -1,0 +1,28 @@
+- generic [active] [ref=f32e1]:
+  - banner:
+    - link "Skip to main content" [ref=f32e2] [cursor=pointer]:
+      - /url: "#main"
+  - main [ref=f32e5]:
+    - group [ref=f32e6]:
+      - link "Excellent 4.5 out of 5 Trustpilot" [ref=f32e12] [cursor=pointer]:
+        - /url: https://www.trustpilot.com/review/godaddy.com
+        - generic [ref=f32e13]:
+          - generic [ref=f32e14]:
+            - generic [ref=f32e15]: Excellent
+            - generic [ref=f32e16]: 4.5 out of 5
+          - img "Trustpilot" [ref=f32e18]
+    - generic [ref=f32e27]:
+      - heading "smithsonianinstitution.com" [level=1] [ref=f32e28]
+      - paragraph [ref=f32e29]: This domain is registered, but may still be available.
+      - button "Get this domain" [ref=f32e30] [cursor=pointer]
+    - separator [ref=f32e31]
+    - generic [ref=f32e32]:
+      - generic [ref=f32e34]:
+        - paragraph [ref=f32e35]: Powered By
+        - img "A GoDaddy-Branded Afternic Logo" [ref=f32e36]
+      - generic [ref=f32e37]:
+        - button "Do not share my personal information" [ref=f32e38] [cursor=pointer]
+        - text: "|"
+        - button "Privacy Settings" [ref=f32e39] [cursor=pointer]
+  - contentinfo
+  - alert [ref=f32e40]

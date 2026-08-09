@@ -1,0 +1,269 @@
+- generic [active] [ref=e1]:
+  - link "Skip to main content" [ref=e2] [cursor=pointer]:
+    - /url: "#main-content"
+  - generic [ref=e4]:
+    - banner [ref=e5]:
+      - generic [ref=e6]:
+        - link "Multnomah County Library" [ref=e8] [cursor=pointer]:
+          - /url: /
+          - paragraph [ref=e9]:
+            - generic [ref=e10]: Multnomah County
+            - generic [ref=e11]: Library
+        - navigation [ref=e12]:
+          - list [ref=e13]:
+            - listitem [ref=e14]:
+              - link "English" [ref=e15] [cursor=pointer]:
+                - /url: /community/job-help-teens
+            - listitem [ref=e16]:
+              - link "Español" [ref=e17] [cursor=pointer]:
+                - /url: /es/community/ayuda-de-empleo-para-adolescentes
+            - listitem [ref=e18]:
+              - link "简体中文" [ref=e19] [cursor=pointer]:
+                - /url: /zh-hans/community/qingshaonianjiuyefuzhu
+            - listitem [ref=e20]:
+              - link "Русский" [ref=e21] [cursor=pointer]:
+                - /url: /ru/community/pomosch-v-trudoustroystve-dlya-podrostkov
+            - listitem [ref=e22]:
+              - link "Tiếng Việt" [ref=e23] [cursor=pointer]:
+                - /url: /vi/community/giup-do-viec-lam-cho-thieu-nien
+        - navigation [ref=e24]:
+          - heading "Login / My MCL" [level=2] [ref=e25]
+          - list [ref=e26]:
+            - listitem [ref=e27]:
+              - button "Login / My MCL " [ref=e28] [cursor=pointer]
+        - navigation [ref=e29]:
+          - heading "Main navigation" [level=2] [ref=e30]
+          - navigation [ref=e31]:
+            - list [ref=e34]:
+              - listitem [ref=e35]:
+                - button "Books & media " [ref=e36] [cursor=pointer]
+              - listitem [ref=e37]:
+                - button "Services & support " [ref=e38] [cursor=pointer]
+              - listitem [ref=e39]:
+                - button "Events & classes " [ref=e40] [cursor=pointer]
+              - listitem [ref=e41]:
+                - button "Visit " [ref=e42] [cursor=pointer]
+              - listitem [ref=e43]:
+                - link "Ask us" [ref=e44] [cursor=pointer]:
+                  - /url: /ask-us
+        - text:       
+        - generic [ref=e47]:
+          - group [ref=e49]:
+            - generic [ref=e50]:
+              - generic [ref=e51]: Search
+              - generic [ref=e52]:
+                - generic [ref=e53]: Search
+                - textbox "Search" [ref=e55]:
+                  - /placeholder: Search books, movies and more.
+            - group "Search Type" [ref=e59]:
+              - generic [ref=e61]:
+                - group [ref=e62]:
+                  - radio "Catalog" [checked] [ref=e63]
+                  - generic [ref=e64]: Catalog
+                - group [ref=e65]:
+                  - radio "Website" [ref=e66]
+                  - generic [ref=e67]: Website
+          - button "Search" [ref=e73] [cursor=pointer]: 
+    - main [ref=e74]:
+      - navigation [ref=e77]:
+        - heading "Breadcrumb" [level=2] [ref=e78]
+        - list [ref=e79]:
+          - listitem [ref=e80]:
+            - link "Home" [ref=e81] [cursor=pointer]:
+              - /url: /
+          - listitem [ref=e82]:
+            - text: /
+            - link "Community resource lists" [ref=e83] [cursor=pointer]:
+              - /url: https://multcolib.org/community-resources
+          - listitem [ref=e84]: / Job help for teens
+      - heading "Job help for teens" [level=1] [ref=e88]
+      - article [ref=e93]:
+        - generic [ref=e94]:
+          - generic [ref=e95]:
+            - heading "Land a paying job" [level=2] [ref=e98]
+            - list [ref=e101]:
+              - generic [ref=e102]:
+                - listitem [ref=e105]:
+                  - link [ref=e107] [cursor=pointer]:
+                    - /url: https://hbr.org/2022/05/how-to-write-a-cover-letter-that-sounds-like-you-and-gets-noticed
+                    - text: How to write a cover letter that sounds like
+                    - generic [ref=e108]: you
+                  - paragraph [ref=e113]: An eight-minute video by the Harvard Business Review. Cover letters aren’t always required but might be needed for internships and other opportunities.
+                - listitem [ref=e116]:
+                  - link [ref=e118] [cursor=pointer]:
+                    - /url: https://hire.poachedjobs.com/hire-aq-2023-test/
+                  - paragraph [ref=e124]: Find jobs in the food service and hospitality industries.
+                - listitem [ref=e127]:
+                  - link [ref=e129] [cursor=pointer]:
+                    - /url: https://www.snagajob.com/search?w=portland,+or&q=minimum+age+16+years+old&radius=20
+                    - text: "Snagajob: Teen"
+                    - generic [ref=e130]: Jobs
+                  - paragraph [ref=e135]: Find jobs for teens within 20 miles of Portland, Oregon.
+                - listitem [ref=e138]:
+                  - link [ref=e140] [cursor=pointer]:
+                    - /url: https://worksystemslaunch.org/summerworkspdx/Default.aspx
+                  - paragraph [ref=e146]: SummerWorks is a paid summer internship program for youth ages 16-24 in the Portland metro area.
+            - heading "Know your worker rights" [level=2] [ref=e149]
+            - list [ref=e152]:
+              - generic [ref=e153]:
+                - listitem [ref=e156]:
+                  - link [ref=e158] [cursor=pointer]:
+                    - /url: https://www.oregon.gov/boli/employers/pages/minor-workers.aspx
+                    - text: "Employment of Minors: Questions and"
+                    - generic [ref=e159]: Answers
+                  - paragraph [ref=e164]: Learn what kinds of work minors (people under 18) can legally do in Oregon and what employers must provide for young employees.
+                - listitem [ref=e167]:
+                  - link [ref=e169] [cursor=pointer]:
+                    - /url: https://www.eeoc.gov/youth
+                  - paragraph [ref=e175]: More on your rights and responsibilities at work, from the Equal Employment Opportunity Commission.
+            - heading "Learn skills & get experience" [level=2] [ref=e178]
+            - list [ref=e181]:
+              - generic [ref=e182]:
+                - listitem [ref=e185]:
+                  - link "LinkedIn Learning for Libraries" [ref=e187] [cursor=pointer]:
+                    - /url: /resource/linkedin-learning-libraries
+                  - paragraph [ref=e189]: A free, online resource you can use with your library card. It has tons of video courses to help you learn new skills. You can even earn badges to add to your resume or online profiles.
+                - listitem [ref=e192]:
+                  - link "Volunteer positions at Multnomah County Library" [ref=e194] [cursor=pointer]:
+                    - /url: /volunteer
+                  - paragraph [ref=e196]: Help the library and gain new skills that can help you in a future job.
+          - generic [ref=e198]:
+            - heading "Related pages" [level=2] [ref=e199]
+            - list [ref=e200]:
+              - list [ref=e201]:
+                - listitem [ref=e202]:
+                  - link "Job & career help" [ref=e203] [cursor=pointer]:
+                    - /url: /job-career-help
+                - listitem [ref=e204]:
+                  - link "Know your rights as a worker" [ref=e205] [cursor=pointer]:
+                    - /url: /community-resources/know-your-rights-worker
+                - listitem [ref=e206]:
+                  - link "Teens" [ref=e207] [cursor=pointer]:
+                    - /url: /teens
+                - listitem [ref=e208]:
+                  - link "Students" [ref=e209] [cursor=pointer]:
+                    - /url: /students
+                - listitem [ref=e210]:
+                  - link "Families" [ref=e211] [cursor=pointer]:
+                    - /url: /families
+    - contentinfo [ref=e212]:
+      - generic [ref=e213]:
+        - generic [ref=e214]:
+          - heading "About the library" [level=3] [ref=e215]
+          - list [ref=e218]:
+            - listitem [ref=e219]:
+              - link "Work with us" [ref=e220] [cursor=pointer]:
+                - /url: /work-us
+            - listitem [ref=e221]:
+              - link "Support the library" [ref=e222] [cursor=pointer]:
+                - /url: /support-library
+            - listitem [ref=e223]:
+              - link "Volunteer" [ref=e224] [cursor=pointer]:
+                - /url: /volunteer
+            - listitem [ref=e225]:
+              - link "Library history" [ref=e226] [cursor=pointer]:
+                - /url: /multnomah-county-library-history
+            - listitem [ref=e227]:
+              - link "News & facts" [ref=e228] [cursor=pointer]:
+                - /url: /news-facts
+            - listitem [ref=e229]:
+              - link "Library newsletters" [ref=e230] [cursor=pointer]:
+                - /url: /get-library-newsletter
+            - listitem [ref=e231]:
+              - link "Articles" [ref=e232] [cursor=pointer]:
+                - /url: /articles
+            - listitem [ref=e233]:
+              - link "Equity & inclusion" [ref=e234] [cursor=pointer]:
+                - /url: /equity-and-inclusion
+            - listitem [ref=e235]:
+              - link "Think MCL" [ref=e236] [cursor=pointer]:
+                - /url: /think-mcl
+            - listitem [ref=e237]:
+              - link "Governance" [ref=e238] [cursor=pointer]:
+                - /url: /governance
+            - listitem [ref=e239]:
+              - link "From the Director's desk" [ref=e240] [cursor=pointer]:
+                - /url: /directors-desk
+            - listitem [ref=e241]:
+              - link "Building libraries together" [ref=e242] [cursor=pointer]:
+                - /url: /building-libraries-together
+        - generic [ref=e243]:
+          - heading "Library Hours" [level=3] [ref=e244]
+          - list [ref=e245]:
+            - listitem [ref=e246]:
+              - generic [ref=e247]: "Monday:"
+              - generic [ref=e248]: 10am - 6pm
+            - listitem [ref=e249]:
+              - generic [ref=e250]: "Tuesday:"
+              - generic [ref=e251]: 12pm - 8pm
+            - listitem [ref=e252]:
+              - generic [ref=e253]: "Wednesday:"
+              - generic [ref=e254]: 12pm - 8pm
+            - listitem [ref=e255]:
+              - generic [ref=e256]: "Thursday:"
+              - generic [ref=e257]: 10am - 6pm
+            - listitem [ref=e258]:
+              - generic [ref=e259]: "Friday:"
+              - generic [ref=e260]: 10am - 6pm
+            - listitem [ref=e261]:
+              - generic [ref=e262]: "Saturday:"
+              - generic [ref=e263]: 10am - 6pm
+            - listitem [ref=e264]:
+              - generic [ref=e265]: "Sunday:"
+              - generic [ref=e266]: 12pm - 6pm
+          - list [ref=e267]:
+            - listitem [ref=e268]:
+              - link "Construction closures" [ref=e269] [cursor=pointer]:
+                - /url: /library-construction-closures
+            - listitem [ref=e270]:
+              - link "Holiday closures" [ref=e271] [cursor=pointer]:
+                - /url: /holiday-closures
+        - generic [ref=e272]:
+          - heading "Telephone number" [level=3] [ref=e273]
+          - paragraph [ref=e274]:
+            - link "503.988.5123" [ref=e275] [cursor=pointer]:
+              - /url: tel:5039885123
+          - heading "Mailing address" [level=3] [ref=e276]
+          - generic [ref=e278]:
+            - generic [ref=e279]: Library Operations Center
+            - generic [ref=e280]: 221 NE 122nd Avenue
+            - generic [ref=e281]: Portland, OR 97230
+      - generic [ref=e282]:
+        - heading "Connect with us on social media" [level=3] [ref=e284]
+        - generic [ref=e285]:
+          - link " Newsletter" [ref=e286] [cursor=pointer]:
+            - /url: /newsletter
+            - generic "Signup for newsletter" [ref=e287]: 
+            - generic [ref=e288]: Newsletter
+          - link " Facebook" [ref=e289] [cursor=pointer]:
+            - /url: https://www.facebook.com/multcolib/
+            - generic "Facebook" [ref=e290]: 
+            - generic [ref=e291]: Facebook
+          - link " Instagram" [ref=e292] [cursor=pointer]:
+            - /url: https://www.instagram.com/multnomahcountylibrary/
+            - generic "Instagram" [ref=e293]: 
+            - generic [ref=e294]: Instagram
+          - link " Bluesky" [ref=e295] [cursor=pointer]:
+            - /url: https://bsky.app/profile/multcolib.bsky.social
+            - generic [ref=e296]: 
+            - generic [ref=e297]: Bluesky
+          - link " Youtube" [ref=e298] [cursor=pointer]:
+            - /url: https://www.youtube.com/multcolib
+            - generic "Youtube" [ref=e299]: 
+            - generic [ref=e300]: Youtube
+          - link " Linkedin" [ref=e301] [cursor=pointer]:
+            - /url: https://www.linkedin.com/company/multnomah-county-library
+            - generic "Linkedin" [ref=e302]: 
+            - generic [ref=e303]: Linkedin
+        - paragraph [ref=e305]:
+          - link "Contact us" [ref=e306] [cursor=pointer]:
+            - /url: /contact-us
+          - text: "|"
+          - link "Privacy" [ref=e307] [cursor=pointer]:
+            - /url: /policies/privacy-confidentiality
+          - text: "|"
+          - link "Accessibility" [ref=e308] [cursor=pointer]:
+            - /url: /accessibility
+          - text: "|"
+          - link "Advanced catalog search" [ref=e309] [cursor=pointer]:
+            - /url: https://multcolib.bibliocommons.com/search

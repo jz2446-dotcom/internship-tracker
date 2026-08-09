@@ -1,0 +1,519 @@
+- generic [active] [ref=f623e1]:
+  - link "Skip to content" [ref=f623e2] [cursor=pointer]:
+    - /url: "#content"
+  - generic [ref=f623e4]:
+    - generic [ref=f623e5]:
+      - generic [ref=f623e7]:
+        - generic [ref=f623e12]:
+          - link "facebook" [ref=f623e13] [cursor=pointer]:
+            - /url: https://www.facebook.com/georgialibraries
+            - text: 
+          - link "instagram" [ref=f623e14] [cursor=pointer]:
+            - /url: https://www.instagram.com/georgialibraries
+            - text: 
+          - link "youtube" [ref=f623e15] [cursor=pointer]:
+            - /url: https://www.youtube.com/georgiapubliclibrary
+            - text: 
+          - link "linkedin" [ref=f623e16] [cursor=pointer]:
+            - /url: https://www.linkedin.com/company/3255989/admin/dashboard/
+            - text: 
+          - link "mail" [ref=f623e17] [cursor=pointer]:
+            - /url: https://georgialibraries.org/subscribe/
+            - text: 
+        - navigation "New top menu" [ref=f623e20]:
+          - list [ref=f623e21]:
+            - listitem [ref=f623e22]:
+              - link "Find a Library" [ref=f623e25] [cursor=pointer]:
+                - /url: https://georgialibraries.org/find-a-library/
+            - listitem [ref=f623e27]:
+              - link "Get a Library Card" [ref=f623e30] [cursor=pointer]:
+                - /url: https://georgialibraries.org/your-library-card/
+            - listitem [ref=f623e32]:
+              - link "Library Online" [ref=f623e35] [cursor=pointer]:
+                - /url: https://georgialibraries.org/online/
+            - listitem [ref=f623e37]:
+              - link "Support Libraries" [ref=f623e40] [cursor=pointer]:
+                - /url: https://georgialibraries.org/support/
+      - generic [ref=f623e43]:
+        - link "GPLS_LogoBall_Color_primary color" [ref=f623e48] [cursor=pointer]:
+          - /url: https://georgialibraries.org/
+          - img "Georgia Public Library Service logo." [ref=f623e49]
+        - navigation "Header Multipurpose" [ref=f623e52]:
+          - text:  
+          - list [ref=f623e53]:
+            - listitem [ref=f623e54]:
+              - generic "Open submenu of About GPLS." [ref=f623e57]: About
+              - button "Open submenu of About" [ref=f623e59] [cursor=pointer]: 
+            - listitem [ref=f623e60]:
+              - generic "Open submenu of Resources for Libraries." [ref=f623e63]: Resources for Libraries
+              - button "Open submenu of Resources for Libraries" [ref=f623e65] [cursor=pointer]: 
+            - listitem [ref=f623e66]:
+              - generic "Open submenu of Resources for Library Visitors." [ref=f623e69]: Library Visitors
+              - button "Open submenu of Library Visitors" [ref=f623e71] [cursor=pointer]: 
+            - listitem [ref=f623e72]:
+              - generic "Open submenu of Library News & Stories." [ref=f623e75]: News & Stories
+              - button "Open submenu of News & Stories" [ref=f623e77] [cursor=pointer]: 
+            - listitem [ref=f623e78]:
+              - link "Jobs" [ref=f623e81] [cursor=pointer]:
+                - /url: https://georgialibraries.org/jobslist/
+            - listitem [ref=f623e83]:
+              - link "Contact" [ref=f623e86] [cursor=pointer]:
+                - /url: https://georgialibraries.org/contact/
+            - listitem [ref=f623e88]:
+              - link "Search" [ref=f623e91] [cursor=pointer]:
+                - /url: "#"
+                - generic [ref=f623e92]: 
+              - button "Expand Search" [ref=f623e94] [cursor=pointer]: 
+    - heading "Jobs" [level=1] [ref=f623e101]
+    - main [ref=f623e102]:
+      - generic [ref=f623e108]:
+        - link "Instructions for Employers" [ref=f623e112] [cursor=pointer]:
+          - /url: https://georgialibraries.org/wp-content/uploads/2021/08/joblist_instructions_aug2021.pdf
+        - link "Employer Dashboard" [ref=f623e117] [cursor=pointer]:
+          - /url: https://georgialibraries.org/job-dashboard/
+        - link "Submit a Job" [ref=f623e122] [cursor=pointer]:
+          - /url: https://georgialibraries.org/post-a-job/
+        - generic [ref=f623e126]:
+          - heading [level=3] [ref=f623e127]:
+            - strong [ref=f623e128]:
+              - emphasis [ref=f623e129]: This is a list of job announcements for any type of library within Georgia and the Southeast.
+          - heading [level=3] [ref=f623e130]:
+            - strong [ref=f623e131]: We encourage employers to include a salary or salary range with all submitted jobs. Unpaid internships are not allowed.
+          - 'heading "Disclaimer: Georgia Public Library Service makes no guarantee about positions listed and is not responsible for wages, job duties, or other aspects of employment. It is the responsibility of each individual job seeker to research the organization(s) to which they are applying and to verify the specific information pertaining to the job posting. Job seekers should exercise due diligence when applying for or accepting any position." [level=3] [ref=f623e132]'
+          - paragraph [ref=f623e133]:
+            - text: Need help with the job board?
+            - link "Contact us" [ref=f623e134] [cursor=pointer]:
+              - /url: https://georgialibraries.org/contact/
+            - text: .
+          - generic [ref=f623e135]:
+            - generic [ref=f623e136]:
+              - generic [ref=f623e137]:
+                - textbox "Keywords" [ref=f623e139]
+                - textbox "Location" [ref=f623e141]
+                - generic [ref=f623e142]:
+                  - checkbox "Remote positions only" [ref=f623e143]
+                  - generic [ref=f623e144]: Remote positions only
+                - button "Search Jobs" [ref=f623e146]
+              - list [ref=f623e147]:
+                - listitem [ref=f623e148]:
+                  - generic [ref=f623e149]:
+                    - checkbox "Freelance" [checked] [ref=f623e150]
+                    - text: Freelance
+                - listitem [ref=f623e151]:
+                  - generic [ref=f623e152]:
+                    - checkbox "Full Time" [checked] [ref=f623e153]
+                    - text: Full Time
+                - listitem [ref=f623e154]:
+                  - generic [ref=f623e155]:
+                    - checkbox "Internship" [checked] [ref=f623e156]
+                    - text: Internship
+                - listitem [ref=f623e157]:
+                  - generic [ref=f623e158]:
+                    - checkbox "Part Time" [checked] [ref=f623e159]
+                    - text: Part Time
+                - listitem [ref=f623e160]:
+                  - generic [ref=f623e161]:
+                    - checkbox "Temporary" [checked] [ref=f623e162]
+                    - text: Temporary
+              - link "RSS" [ref=f623e164] [cursor=pointer]:
+                - /url: https://georgialibraries.org?feed=job_feed&job_types=freelance%2Cfull-time%2Cinternship%2Cpart-time%2Ctemporary&search_location&job_categories&search_keywords&author
+            - list [ref=f623e165]:
+              - listitem [ref=f623e166]:
+                - link "Screven-Jenkins Regional Library System Assistant Director/Public Services Librarian Screven-Jenkins Regional Library System Sylvania, GA Full Time Posted on August 7, 2026" [ref=f623e167] [cursor=pointer]:
+                  - /url: https://georgialibraries.org/job/screven-jenkins-regional-library-system-sylvania-ga-295-assistant-director-public-services-librarian/
+                  - img "Screven-Jenkins Regional Library System" [ref=f623e168]
+                  - generic [ref=f623e169]:
+                    - heading "Assistant Director/Public Services Librarian" [level=3] [ref=f623e170]
+                    - strong [ref=f623e172]: Screven-Jenkins Regional Library System
+                  - generic [ref=f623e173]: Sylvania, GA
+                  - list [ref=f623e174]:
+                    - listitem [ref=f623e175]: Full Time
+                    - listitem [ref=f623e176]:
+                      - time [ref=f623e177]: Posted on August 7, 2026
+              - listitem [ref=f623e178]:
+                - link "Fulton County Library System Librarian I – Youth Services Fulton County Library System Central Library - Atlanta and Ocee Library - Johns Creek Full Time Posted on August 5, 2026" [ref=f623e179] [cursor=pointer]:
+                  - /url: https://georgialibraries.org/job/fulton-county-library-system-central-library-atlanta-and-ocee-library-johns-creek-295-librarian-i-youth-services/
+                  - img "Fulton County Library System" [ref=f623e180]
+                  - generic [ref=f623e181]:
+                    - heading "Librarian I – Youth Services" [level=3] [ref=f623e182]
+                    - strong [ref=f623e184]: Fulton County Library System
+                  - generic [ref=f623e185]: Central Library - Atlanta and Ocee Library - Johns Creek
+                  - list [ref=f623e186]:
+                    - listitem [ref=f623e187]: Full Time
+                    - listitem [ref=f623e188]:
+                      - time [ref=f623e189]: Posted on August 5, 2026
+              - listitem [ref=f623e190]:
+                - link "Mercer University Research Services Librarian – Health Sciences Mercer University Atlanta, GA Full Time Posted on August 4, 2026" [ref=f623e191] [cursor=pointer]:
+                  - /url: https://georgialibraries.org/job/mercer-university-atlanta-ga-295-research-services-librarian-health-sciences/
+                  - img "Mercer University" [ref=f623e192]
+                  - generic [ref=f623e193]:
+                    - heading "Research Services Librarian – Health Sciences" [level=3] [ref=f623e194]
+                    - strong [ref=f623e196]: Mercer University
+                  - generic [ref=f623e197]: Atlanta, GA
+                  - list [ref=f623e198]:
+                    - listitem [ref=f623e199]: Full Time
+                    - listitem [ref=f623e200]:
+                      - time [ref=f623e201]: Posted on August 4, 2026
+              - listitem [ref=f623e202]:
+                - link "Richmont Graduate University Library Assistant Richmont Graduate University Atlanta, GA Part Time Posted on August 4, 2026" [ref=f623e203] [cursor=pointer]:
+                  - /url: https://georgialibraries.org/job/richmont-graduate-university-atlanta-ga-296-library-assistant/
+                  - img "Richmont Graduate University" [ref=f623e204]
+                  - generic [ref=f623e205]:
+                    - heading "Library Assistant" [level=3] [ref=f623e206]
+                    - strong [ref=f623e208]: Richmont Graduate University
+                  - generic [ref=f623e209]: Atlanta, GA
+                  - list [ref=f623e210]:
+                    - listitem [ref=f623e211]: Part Time
+                    - listitem [ref=f623e212]:
+                      - time [ref=f623e213]: Posted on August 4, 2026
+              - listitem [ref=f623e214]:
+                - link "Jackson County Library District Library Director – Jackson County Library District (OR) Jackson County Library District Medford, OR Full Time Posted on August 3, 2026" [ref=f623e215] [cursor=pointer]:
+                  - /url: https://georgialibraries.org/job/jackson-county-library-district-medford-or-295-library-director-jackson-county-library-district-or/
+                  - img "Jackson County Library District" [ref=f623e216]
+                  - generic [ref=f623e217]:
+                    - heading "Library Director – Jackson County Library District (OR)" [level=3] [ref=f623e218]
+                    - strong [ref=f623e220]: Jackson County Library District
+                  - generic [ref=f623e221]: Medford, OR
+                  - list [ref=f623e222]:
+                    - listitem [ref=f623e223]: Full Time
+                    - listitem [ref=f623e224]:
+                      - time [ref=f623e225]: Posted on August 3, 2026
+              - listitem [ref=f623e226]:
+                - link "Colorado State Library (CO) State Librarian – Colorado State Library (CO) Colorado State Library (CO) Colorado - Hybrid (Remote) Full Time Posted on July 29, 2026" [ref=f623e227] [cursor=pointer]:
+                  - /url: https://georgialibraries.org/job/colorado-state-library-co-colorado-hybrid-295-state-librarian-colorado-state-library-co/
+                  - img "Colorado State Library (CO)" [ref=f623e228]
+                  - generic [ref=f623e229]:
+                    - heading "State Librarian – Colorado State Library (CO)" [level=3] [ref=f623e230]
+                    - strong [ref=f623e232]: Colorado State Library (CO)
+                  - generic [ref=f623e233]: Colorado - Hybrid (Remote)
+                  - list [ref=f623e234]:
+                    - listitem [ref=f623e235]: Full Time
+                    - listitem [ref=f623e236]:
+                      - time [ref=f623e237]: Posted on July 29, 2026
+              - listitem [ref=f623e238]:
+                - link "University of Georgia Libraries Assistant Director of User Services University of Georgia Libraries Athens, GA Full Time Posted on July 28, 2026" [ref=f623e239] [cursor=pointer]:
+                  - /url: https://georgialibraries.org/job/university-of-georgia-libraries-athens-ga-295-assistant-director-of-user-services-2/
+                  - img "University of Georgia Libraries" [ref=f623e240]
+                  - generic [ref=f623e241]:
+                    - heading "Assistant Director of User Services" [level=3] [ref=f623e242]
+                    - strong [ref=f623e244]: University of Georgia Libraries
+                  - generic [ref=f623e245]: Athens, GA
+                  - list [ref=f623e246]:
+                    - listitem [ref=f623e247]: Full Time
+                    - listitem [ref=f623e248]:
+                      - time [ref=f623e249]: Posted on July 28, 2026
+              - listitem [ref=f623e250]:
+                - link "Kennesaw State University Scholarly Communications Librarian and Librarian Assistant Professor Kennesaw State University Kennesaw, GA Full Time Posted on July 27, 2026" [ref=f623e251] [cursor=pointer]:
+                  - /url: https://georgialibraries.org/job/kennesaw-state-university-kennesaw-ga-295-scholarly-communications-librarian-and-librarian-assistant-professor/
+                  - img "Kennesaw State University" [ref=f623e252]
+                  - generic [ref=f623e253]:
+                    - heading "Scholarly Communications Librarian and Librarian Assistant Professor" [level=3] [ref=f623e254]
+                    - strong [ref=f623e256]: Kennesaw State University
+                  - generic [ref=f623e257]: Kennesaw, GA
+                  - list [ref=f623e258]:
+                    - listitem [ref=f623e259]: Full Time
+                    - listitem [ref=f623e260]:
+                      - time [ref=f623e261]: Posted on July 27, 2026
+              - listitem [ref=f623e262]:
+                - link "Fulton County Library System Librarian Principal Fulton County Library System Atlanta, GA, USA Full Time Posted on July 25, 2026" [ref=f623e263] [cursor=pointer]:
+                  - /url: https://georgialibraries.org/job/fulton-county-library-system-atlanta-ga-usa-295-librarian-principal/
+                  - img "Fulton County Library System" [ref=f623e264]
+                  - generic [ref=f623e265]:
+                    - heading "Librarian Principal" [level=3] [ref=f623e266]
+                    - strong [ref=f623e268]: Fulton County Library System
+                  - generic [ref=f623e269]: Atlanta, GA, USA
+                  - list [ref=f623e270]:
+                    - listitem [ref=f623e271]: Full Time
+                    - listitem [ref=f623e272]:
+                      - time [ref=f623e273]: Posted on July 25, 2026
+              - listitem [ref=f623e274]:
+                - link "Central Arkansas Library System (AR) Executive Director – Central Arkansas Library System (AR) Central Arkansas Library System (AR) Little Rock, AR Full Time Posted on July 25, 2026" [ref=f623e275] [cursor=pointer]:
+                  - /url: https://georgialibraries.org/job/central-arkansas-library-system-ar-little-rock-ar-295-executive-director-central-arkansas-library-system-ar/
+                  - img "Central Arkansas Library System (AR)" [ref=f623e276]
+                  - generic [ref=f623e277]:
+                    - heading "Executive Director – Central Arkansas Library System (AR)" [level=3] [ref=f623e278]
+                    - strong [ref=f623e280]: Central Arkansas Library System (AR)
+                  - generic [ref=f623e281]: Little Rock, AR
+                  - list [ref=f623e282]:
+                    - listitem [ref=f623e283]: Full Time
+                    - listitem [ref=f623e284]:
+                      - time [ref=f623e285]: Posted on July 25, 2026
+              - listitem [ref=f623e286]:
+                - link "Fayette County Board Of Commissioners Library Assistant I Fayette County Board Of Commissioners Fayette County Full Time Posted on July 24, 2026" [ref=f623e287] [cursor=pointer]:
+                  - /url: https://georgialibraries.org/job/fayette-county-board-of-commissioners-fayette-county-295-library-assistant-i/
+                  - img "Fayette County Board Of Commissioners" [ref=f623e288]
+                  - generic [ref=f623e289]:
+                    - heading "Library Assistant I" [level=3] [ref=f623e290]
+                    - strong [ref=f623e292]: Fayette County Board Of Commissioners
+                  - generic [ref=f623e293]: Fayette County
+                  - list [ref=f623e294]:
+                    - listitem [ref=f623e295]: Full Time
+                    - listitem [ref=f623e296]:
+                      - time [ref=f623e297]: Posted on July 24, 2026
+              - listitem [ref=f623e298]:
+                - link "The University of North Georgia Collection Management Librarian – Print Resources The University of North Georgia Dahlonega GA. Full Time Posted on July 23, 2026" [ref=f623e299] [cursor=pointer]:
+                  - /url: https://georgialibraries.org/job/the-university-of-north-georgia-dahlonega-ga-295-collection-management-librarian-print-resources/
+                  - img "The University of North Georgia" [ref=f623e300]
+                  - generic [ref=f623e301]:
+                    - heading "Collection Management Librarian – Print Resources" [level=3] [ref=f623e302]
+                    - strong [ref=f623e304]: The University of North Georgia
+                  - generic [ref=f623e305]: Dahlonega GA.
+                  - list [ref=f623e306]:
+                    - listitem [ref=f623e307]: Full Time
+                    - listitem [ref=f623e308]:
+                      - time [ref=f623e309]: Posted on July 23, 2026
+              - listitem [ref=f623e310]:
+                - link "Chestatee Regional Library System Lumpkin County Library Circulation Assistant Chestatee Regional Library System Chestatee Regional Library System Dahlonega, GA Part Time Posted on July 22, 2026" [ref=f623e311] [cursor=pointer]:
+                  - /url: https://georgialibraries.org/job/chestatee-regional-library-system-dahlonega-ga-296-lumpkin-county-library-circulation-assistant-3/
+                  - img "Chestatee Regional Library System" [ref=f623e312]
+                  - generic [ref=f623e313]:
+                    - heading "Lumpkin County Library Circulation Assistant" [level=3] [ref=f623e314]
+                    - generic [ref=f623e315]:
+                      - strong [ref=f623e316]: Chestatee Regional Library System
+                      - text: Chestatee Regional Library System
+                  - generic [ref=f623e317]: Dahlonega, GA
+                  - list [ref=f623e318]:
+                    - listitem [ref=f623e319]: Part Time
+                    - listitem [ref=f623e320]:
+                      - time [ref=f623e321]: Posted on July 22, 2026
+              - listitem [ref=f623e322]:
+                - link "Kennesaw State University Libraries Scholarly Communications Librarian Kennesaw State University Libraries Kennesaw and Marietta Georgia Full Time Posted on July 21, 2026" [ref=f623e323] [cursor=pointer]:
+                  - /url: https://georgialibraries.org/job/kennesaw-state-university-libraries-kennesaw-and-marietta-georgia-295-scholarly-communications-librarian/
+                  - img "Kennesaw State University Libraries" [ref=f623e324]
+                  - generic [ref=f623e325]:
+                    - heading "Scholarly Communications Librarian" [level=3] [ref=f623e326]
+                    - strong [ref=f623e328]: Kennesaw State University Libraries
+                  - generic [ref=f623e329]: Kennesaw and Marietta Georgia
+                  - list [ref=f623e330]:
+                    - listitem [ref=f623e331]: Full Time
+                    - listitem [ref=f623e332]:
+                      - time [ref=f623e333]: Posted on July 21, 2026
+              - listitem [ref=f623e334]:
+                - link "University of North Georgia Libraries Reference Services Librarian – Assistant/Associate Professor University of North Georgia Libraries Dahlonega, GA Full Time Posted on July 20, 2026" [ref=f623e335] [cursor=pointer]:
+                  - /url: https://georgialibraries.org/job/university-of-north-georgia-libraries-dahlonega-ga-295-reference-services-librarian-assistant-associate-professor/
+                  - img "University of North Georgia Libraries" [ref=f623e336]
+                  - generic [ref=f623e337]:
+                    - heading "Reference Services Librarian – Assistant/Associate Professor" [level=3] [ref=f623e338]
+                    - strong [ref=f623e340]: University of North Georgia Libraries
+                  - generic [ref=f623e341]: Dahlonega, GA
+                  - list [ref=f623e342]:
+                    - listitem [ref=f623e343]: Full Time
+                    - listitem [ref=f623e344]:
+                      - time [ref=f623e345]: Posted on July 20, 2026
+              - listitem [ref=f623e346]:
+                - link "Lanier Technical College Library Assistant Lanier Technical College Gainesville, GA Full Time Posted on July 20, 2026" [ref=f623e347] [cursor=pointer]:
+                  - /url: https://georgialibraries.org/job/lanier-technical-college-gainesville-ga-295-library-assistant/
+                  - img "Lanier Technical College" [ref=f623e348]
+                  - generic [ref=f623e349]:
+                    - heading "Library Assistant" [level=3] [ref=f623e350]
+                    - strong [ref=f623e352]: Lanier Technical College
+                  - generic [ref=f623e353]: Gainesville, GA
+                  - list [ref=f623e354]:
+                    - listitem [ref=f623e355]: Full Time
+                    - listitem [ref=f623e356]:
+                      - time [ref=f623e357]: Posted on July 20, 2026
+              - listitem [ref=f623e358]:
+                - link "Chattahoochee Technical College Associate Director of Libraries Chattahoochee Technical College Anywhere Full Time Posted on July 20, 2026" [ref=f623e359] [cursor=pointer]:
+                  - /url: https://georgialibraries.org/job/chattahoochee-technical-college-295-associate-director-of-libraries/
+                  - img "Chattahoochee Technical College" [ref=f623e360]
+                  - generic [ref=f623e361]:
+                    - heading "Associate Director of Libraries" [level=3] [ref=f623e362]
+                    - strong [ref=f623e364]: Chattahoochee Technical College
+                  - generic [ref=f623e365]: Anywhere
+                  - list [ref=f623e366]:
+                    - listitem [ref=f623e367]: Full Time
+                    - listitem [ref=f623e368]:
+                      - time [ref=f623e369]: Posted on July 20, 2026
+              - listitem [ref=f623e370]:
+                - link "Lanier Technical College Part time evening library assistant Lanier Technical College Gainesville, GA Part Time Posted on July 20, 2026" [ref=f623e371] [cursor=pointer]:
+                  - /url: https://georgialibraries.org/job/lanier-technical-college-gainesville-ga-296-part-time-evening-library-assistant/
+                  - img "Lanier Technical College" [ref=f623e372]
+                  - generic [ref=f623e373]:
+                    - heading "Part time evening library assistant" [level=3] [ref=f623e374]
+                    - strong [ref=f623e376]: Lanier Technical College
+                  - generic [ref=f623e377]: Gainesville, GA
+                  - list [ref=f623e378]:
+                    - listitem [ref=f623e379]: Part Time
+                    - listitem [ref=f623e380]:
+                      - time [ref=f623e381]: Posted on July 20, 2026
+              - listitem [ref=f623e382]:
+                - link "Charles County Public Library (MD) Deputy Director – Charles County Public Library (MD) Charles County Public Library (MD) La Plata, MD Full Time Posted on July 18, 2026" [ref=f623e383] [cursor=pointer]:
+                  - /url: https://georgialibraries.org/job/charles-county-public-library-md-la-plata-md-295-deputy-director-charles-county-public-library-md/
+                  - img "Charles County Public Library (MD)" [ref=f623e384]
+                  - generic [ref=f623e385]:
+                    - heading "Deputy Director – Charles County Public Library (MD)" [level=3] [ref=f623e386]
+                    - strong [ref=f623e388]: Charles County Public Library (MD)
+                  - generic [ref=f623e389]: La Plata, MD
+                  - list [ref=f623e390]:
+                    - listitem [ref=f623e391]: Full Time
+                    - listitem [ref=f623e392]:
+                      - time [ref=f623e393]: Posted on July 18, 2026
+              - listitem [ref=f623e394]:
+                - link "Northwest Georgia Regional Library System Business Manager Northwest Georgia Regional Library System Northwest Georgia Regional Library System - Dalton, GA Full Time Posted on July 16, 2026" [ref=f623e395] [cursor=pointer]:
+                  - /url: https://georgialibraries.org/job/northwest-georgia-regional-library-system-northwest-georgia-regional-library-system-dalton-ga-295-business-manager/
+                  - img "Northwest Georgia Regional Library System" [ref=f623e396]
+                  - generic [ref=f623e397]:
+                    - heading "Business Manager" [level=3] [ref=f623e398]
+                    - strong [ref=f623e400]: Northwest Georgia Regional Library System
+                  - generic [ref=f623e401]: Northwest Georgia Regional Library System - Dalton, GA
+                  - list [ref=f623e402]:
+                    - listitem [ref=f623e403]: Full Time
+                    - listitem [ref=f623e404]:
+                      - time [ref=f623e405]: Posted on July 16, 2026
+              - listitem [ref=f623e406]:
+                - link "ATHENS REGIONAL LIBRARY SYSTEM Adult Services Librarian ATHENS REGIONAL LIBRARY SYSTEM \"Engaging Communities ~ Exceeding Expectations\" Athens, GA Part Time Posted on July 16, 2026" [ref=f623e407] [cursor=pointer]:
+                  - /url: https://georgialibraries.org/job/athens-regional-library-system-athens-ga-296-adult-services-librarian/
+                  - img "ATHENS REGIONAL LIBRARY SYSTEM" [ref=f623e408]
+                  - generic [ref=f623e409]:
+                    - heading "Adult Services Librarian" [level=3] [ref=f623e410]
+                    - generic [ref=f623e411]:
+                      - strong [ref=f623e412]: ATHENS REGIONAL LIBRARY SYSTEM
+                      - text: "\"Engaging Communities ~ Exceeding Expectations\""
+                  - generic [ref=f623e413]: Athens, GA
+                  - list [ref=f623e414]:
+                    - listitem [ref=f623e415]: Part Time
+                    - listitem [ref=f623e416]:
+                      - time [ref=f623e417]: Posted on July 16, 2026
+              - listitem [ref=f623e418]:
+                - link "Emory University Collection Development and Scholarly Communications Librarian Emory University Atlanta, GA Full Time Posted on July 15, 2026" [ref=f623e419] [cursor=pointer]:
+                  - /url: https://georgialibraries.org/job/emory-university-atlanta-ga-295-collection-development-and-scholarly-communications-librarian/
+                  - img "Emory University" [ref=f623e420]
+                  - generic [ref=f623e421]:
+                    - heading "Collection Development and Scholarly Communications Librarian" [level=3] [ref=f623e422]
+                    - strong [ref=f623e424]: Emory University
+                  - generic [ref=f623e425]: Atlanta, GA
+                  - list [ref=f623e426]:
+                    - listitem [ref=f623e427]: Full Time
+                    - listitem [ref=f623e428]:
+                      - time [ref=f623e429]: Posted on July 15, 2026
+              - listitem [ref=f623e430]:
+                - link "Forsyth County Public Library Collection Support Aide Forsyth County Public Library Cumming, GA Part Time Posted on July 15, 2026" [ref=f623e431] [cursor=pointer]:
+                  - /url: https://georgialibraries.org/job/forsyth-county-public-library-cumming-ga-296-collection-support-aide-16/
+                  - img "Forsyth County Public Library" [ref=f623e432]
+                  - generic [ref=f623e433]:
+                    - heading "Collection Support Aide" [level=3] [ref=f623e434]
+                    - strong [ref=f623e436]: Forsyth County Public Library
+                  - generic [ref=f623e437]: Cumming, GA
+                  - list [ref=f623e438]:
+                    - listitem [ref=f623e439]: Part Time
+                    - listitem [ref=f623e440]:
+                      - time [ref=f623e441]: Posted on July 15, 2026
+              - listitem [ref=f623e442]:
+                - link "Coastal Plain Regional Library System Youth Specialist Coastal Plain Regional Library System Tifton, GA Full Time Posted on July 14, 2026" [ref=f623e443] [cursor=pointer]:
+                  - /url: https://georgialibraries.org/job/coastal-plain-regional-library-system-tifton-ga-295-youth-specialist/
+                  - img "Coastal Plain Regional Library System" [ref=f623e444]
+                  - generic [ref=f623e445]:
+                    - heading "Youth Specialist" [level=3] [ref=f623e446]
+                    - strong [ref=f623e448]: Coastal Plain Regional Library System
+                  - generic [ref=f623e449]: Tifton, GA
+                  - list [ref=f623e450]:
+                    - listitem [ref=f623e451]: Full Time
+                    - listitem [ref=f623e452]:
+                      - time [ref=f623e453]: Posted on July 14, 2026
+              - listitem [ref=f623e454]:
+                - link "Ocmulgee Regional Library System IT Manager Ocmulgee Regional Library System Educate. Captivate. Connect. Eastman, GA Full Time Posted on July 13, 2026" [ref=f623e455] [cursor=pointer]:
+                  - /url: https://georgialibraries.org/job/ocmulgee-regional-library-system-eastman-ga-295-it-manager/
+                  - img "Ocmulgee Regional Library System" [ref=f623e456]
+                  - generic [ref=f623e457]:
+                    - heading "IT Manager" [level=3] [ref=f623e458]
+                    - generic [ref=f623e459]:
+                      - strong [ref=f623e460]: Ocmulgee Regional Library System
+                      - text: Educate. Captivate. Connect.
+                  - generic [ref=f623e461]: Eastman, GA
+                  - list [ref=f623e462]:
+                    - listitem [ref=f623e463]: Full Time
+                    - listitem [ref=f623e464]:
+                      - time [ref=f623e465]: Posted on July 13, 2026
+            - link [ref=f623e466] [cursor=pointer]:
+              - /url: "#"
+              - strong [ref=f623e467]: Load more listings
+    - generic [ref=f623e471]:
+      - generic [ref=f623e473]:
+        - heading [level=3] [ref=f623e475]:
+          - strong [ref=f623e476]: QUICK LINKS
+        - navigation "Footer - Quick Links" [ref=f623e477]:
+          - list [ref=f623e478]:
+            - listitem [ref=f623e479]:
+              - link "Resources for Libraries" [ref=f623e482] [cursor=pointer]:
+                - /url: https://georgialibraries.org/resources-for-libraries/
+            - listitem [ref=f623e484]:
+              - link "Get a Library Card" [ref=f623e487] [cursor=pointer]:
+                - /url: https://georgialibraries.org/your-library-card/
+            - listitem [ref=f623e489]:
+              - link "Library Online" [ref=f623e492] [cursor=pointer]:
+                - /url: https://georgialibraries.org/online/
+            - listitem [ref=f623e494]:
+              - link "News & Stories" [ref=f623e497] [cursor=pointer]:
+                - /url: https://georgialibraries.org/news-stories/
+            - listitem [ref=f623e499]:
+              - link "Accessibility" [ref=f623e502] [cursor=pointer]:
+                - /url: https://about.galileo.usg.edu/about/accessibility
+            - listitem [ref=f623e504]:
+              - link "Privacy Policy" [ref=f623e507] [cursor=pointer]:
+                - /url: https://georgialibraries.org/privacy-policy/
+      - generic [ref=f623e510]:
+        - heading [level=3] [ref=f623e512]:
+          - strong [ref=f623e513]: SERVICE SITES
+        - navigation "Footer - Service Sites" [ref=f623e514]:
+          - list [ref=f623e515]:
+            - listitem [ref=f623e516]:
+              - link "GALILEO" [ref=f623e519] [cursor=pointer]:
+                - /url: https://www.galileo.usg.edu/
+            - listitem [ref=f623e521]:
+              - link "Georgia Archives" [ref=f623e524] [cursor=pointer]:
+                - /url: https://www.georgiaarchives.org/
+            - listitem [ref=f623e526]:
+              - link "GLS" [ref=f623e529] [cursor=pointer]:
+                - /url: https://gls.georgialibraries.org/
+            - listitem [ref=f623e531]:
+              - link "IT Services / LibTech" [ref=f623e534] [cursor=pointer]:
+                - /url: https://galibtech.georgialibraries.org/
+            - listitem [ref=f623e536]:
+              - link "PINES Catalog" [ref=f623e539] [cursor=pointer]:
+                - /url: https://gapines.org/eg/opac/home
+      - generic [ref=f623e542]:
+        - heading [level=3] [ref=f623e544]:
+          - strong [ref=f623e545]:
+            - link "CONTACT" [ref=f623e547] [cursor=pointer]:
+              - /url: https://georgialibraries.org/contact/
+        - generic [ref=f623e548]:
+          - generic [ref=f623e549]: 2872 Woodcock Boulevard Suite 250 Atlanta, GA 30341
+          - paragraph [ref=f623e551]:
+            - text: "Phone:"
+            - link "404-235-7200" [ref=f623e552] [cursor=pointer]:
+              - /url: tel:+14042357200
+          - paragraph [ref=f623e553]:
+            - link "Find a Library" [ref=f623e554] [cursor=pointer]:
+              - /url: https://georgialibraries.org/find-a-library/
+          - paragraph [ref=f623e555]:
+            - link "Directories" [ref=f623e556] [cursor=pointer]:
+              - /url: https://georgialibraries.org/directories/
+      - generic [ref=f623e558]:
+        - img "Institute of Museum and Library Service logo." [ref=f623e561]
+        - paragraph [ref=f623e563]:
+          - text: This website and other Georgia Public Library Service programs are partially assisted with funds from the Library Services and Technology Act through the
+          - link "Institute of Museum and Library Services" [ref=f623e564] [cursor=pointer]:
+            - /url: https://www.imls.gov/
+          - text: .
+      - generic [ref=f623e569]:
+        - link "facebook" [ref=f623e570] [cursor=pointer]:
+          - /url: https://www.facebook.com/georgialibraries
+          - text: 
+        - link "instagram" [ref=f623e571] [cursor=pointer]:
+          - /url: https://www.instagram.com/georgialibraries
+          - text: 
+        - link "youtube" [ref=f623e572] [cursor=pointer]:
+          - /url: https://www.youtube.com/georgiapubliclibrary
+          - text: 
+        - link "linkedin" [ref=f623e573] [cursor=pointer]:
+          - /url: https://www.linkedin.com/company/georgia-public-library-service
+          - text: 
+        - link "mail" [ref=f623e574] [cursor=pointer]:
+          - /url: https://georgialibraries.org/subscribe
+          - text: 
+      - paragraph [ref=f623e578]: Copyright – Georgia Public Library Service | All Rights Reserved
+  - region "Go to Top":
+    - link " Go to Top":
+      - /url: "#"
+      - text: 
+      - generic: Go to Top

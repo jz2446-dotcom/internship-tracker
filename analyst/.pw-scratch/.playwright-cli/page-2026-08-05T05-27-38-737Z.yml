@@ -1,0 +1,641 @@
+- generic [active] [ref=e1]:
+  - alert [ref=e2]:
+    - generic [ref=e4]:
+      - generic [ref=e5]:
+        - heading "Important Message – Fraud Alert / Alerta de Fraude / Alerte à la Fraude" [level=2] [ref=e7]
+        - paragraph [ref=e9]: We have been made aware of bad actors holding themselves out as Jefferies representatives targeting individuals around the world.
+        - button "See more alert information" [ref=e11] [cursor=pointer]: More Info
+      - button "Dismiss alert" [ref=e13] [cursor=pointer]
+  - link "Skip Header Navigation" [ref=e15] [cursor=pointer]:
+    - /url: "#main"
+  - generic [ref=e16]:
+    - banner [ref=e17]:
+      - generic [ref=e18]:
+        - link [ref=e20] [cursor=pointer]:
+          - /url: https://www.jefferies.com
+          - img "Jefferies logo" [ref=e21]
+        - generic [ref=e22]:
+          - generic [ref=e23]:
+            - navigation [ref=e24]:
+              - list [ref=e26]:
+                - listitem [ref=e27]:
+                  - button "Client Login" [ref=e28]
+            - button "Jefferies Site Search" [ref=e34] [cursor=pointer]
+          - generic [ref=e35]:
+            - navigation "Main" [ref=e37]:
+              - list [ref=e39]:
+                - listitem [ref=e40]:
+                  - link "Our Services" [ref=e42] [cursor=pointer]:
+                    - /url: "#"
+                  - generic [ref=e46]:
+                    - generic [ref=e47]:
+                      - figure [ref=e48]
+                      - generic [ref=e49]:
+                        - heading [level=6] [ref=e50]: Our Services
+                        - separator [ref=e51]
+                        - paragraph [ref=e52]: We're driven to deliver for our clients. This has made Jefferies one of the world’s leading full-service investment banking and capital markets firms.
+                    - navigation [ref=e54]:
+                      - list [ref=e55]:
+                        - listitem [ref=e56]:
+                          - link [ref=e58] [cursor=pointer]:
+                            - /url: https://www.jefferies.com/our-services/
+                            - text: Overview
+                        - listitem [ref=e59]:
+                          - link [ref=e61] [cursor=pointer]:
+                            - /url: "#"
+                            - text: Investment Banking
+                          - list [ref=e63]:
+                            - listitem [ref=e64]:
+                              - link [ref=e66] [cursor=pointer]:
+                                - /url: https://www.jefferies.com/our-services/investment-banking/
+                                - text: Our Difference
+                            - listitem [ref=e67]:
+                              - link [ref=e69] [cursor=pointer]:
+                                - /url: https://www.jefferies.com/our-services/investment-banking/capabilities/
+                                - text: Capabilities
+                            - listitem [ref=e70]:
+                              - link [ref=e72] [cursor=pointer]:
+                                - /url: https://www.jefferies.com/our-services/investment-banking/sector-expertise/
+                                - text: Sector Expertise
+                            - listitem [ref=e73]:
+                              - link [ref=e75] [cursor=pointer]:
+                                - /url: https://www.jefferies.com/our-services/investment-banking/featured-transactions/
+                                - text: Featured Transactions
+                        - listitem [ref=e76]:
+                          - link [ref=e78] [cursor=pointer]:
+                            - /url: "#"
+                            - text: Global Research & Strategy
+                          - list [ref=e80]:
+                            - listitem [ref=e81]:
+                              - link [ref=e83] [cursor=pointer]:
+                                - /url: https://www.jefferies.com/our-services/global-research-strategy/
+                                - text: Our Difference
+                            - listitem [ref=e84]:
+                              - link [ref=e86] [cursor=pointer]:
+                                - /url: https://content.jefferies.com/?contentType=FEEDS
+                                - text: Client Portal Login
+                        - listitem [ref=e89]:
+                          - link [ref=e91] [cursor=pointer]:
+                            - /url: "#"
+                            - text: Equities
+                          - list [ref=e93]:
+                            - listitem [ref=e94]:
+                              - link [ref=e96] [cursor=pointer]:
+                                - /url: https://www.jefferies.com/our-services/equities/
+                                - text: Our Difference
+                            - listitem [ref=e97]:
+                              - link [ref=e99] [cursor=pointer]:
+                                - /url: https://www.jefferies.com/our-services/equities/capabilities/
+                                - text: Capabilities
+                            - listitem [ref=e100]:
+                              - link [ref=e102] [cursor=pointer]:
+                                - /url: https://www.jefferies.com/our-services/equities/capabilities/prime-brokerage/
+                                - text: Prime Brokerage
+                            - listitem [ref=e103]:
+                              - link [ref=e105] [cursor=pointer]:
+                                - /url: https://primeservices.jefferies.com/
+                                - text: Prime Services Strategic Content
+                            - listitem [ref=e108]:
+                              - link [ref=e110] [cursor=pointer]:
+                                - /url: https://www.jefferies.com/our-services/equities/outsourced-trading/
+                                - text: Outsourced Trading
+                            - listitem [ref=e111]:
+                              - link [ref=e113] [cursor=pointer]:
+                                - /url: https://www.jefferies.com/our-services/equities/capabilities/global-algorithmic-suite/
+                                - text: Global Algorithmic Suite
+                        - listitem [ref=e114]:
+                          - link [ref=e116] [cursor=pointer]:
+                            - /url: "#"
+                            - text: Fixed Income
+                          - list [ref=e118]:
+                            - listitem [ref=e119]:
+                              - link [ref=e121] [cursor=pointer]:
+                                - /url: https://www.jefferies.com/our-services/fixed-income/
+                                - text: Our Difference
+                            - listitem [ref=e122]:
+                              - link [ref=e124] [cursor=pointer]:
+                                - /url: https://www.jefferies.com/our-services/fixed-income/capabilities/
+                                - text: Capabilities
+                            - listitem [ref=e125]:
+                              - link [ref=e127] [cursor=pointer]:
+                                - /url: https://content.jefferies.com/?contentType=FEEDS
+                                - text: Client Portal Login
+                        - listitem [ref=e130]:
+                          - link [ref=e132] [cursor=pointer]:
+                            - /url: "#"
+                            - text: Alternative Asset Management
+                          - list [ref=e134]:
+                            - listitem [ref=e135]:
+                              - link [ref=e137] [cursor=pointer]:
+                                - /url: https://www.jefferies.com/our-services/alternative-asset-management/
+                                - text: Our Difference
+                            - listitem [ref=e138]:
+                              - link [ref=e140] [cursor=pointer]:
+                                - /url: https://leucadia-am.com/
+                                - text: Capabilities
+                            - listitem [ref=e143]:
+                              - link [ref=e145] [cursor=pointer]:
+                                - /url: https://leucadia-am.com/investment-offerings/
+                                - text: Investment Offerings
+                            - listitem [ref=e148]:
+                              - link [ref=e150] [cursor=pointer]:
+                                - /url: https://leucadia-am.com/management-team/
+                                - text: Our Team
+                            - listitem [ref=e151]:
+                              - link [ref=e153] [cursor=pointer]:
+                                - /url: https://leucadia-am.com/news/
+                                - text: Recent News
+                        - listitem [ref=e156]:
+                          - link [ref=e158] [cursor=pointer]:
+                            - /url: "#"
+                            - text: Wealth Management
+                          - list [ref=e160]:
+                            - listitem [ref=e161]:
+                              - link [ref=e163] [cursor=pointer]:
+                                - /url: https://www.jefferies.com/our-services/wealth-management/
+                                - text: Our Difference
+                            - listitem [ref=e164]:
+                              - link [ref=e166] [cursor=pointer]:
+                                - /url: https://www.jefferies.com/our-services/wealth-management/capabilities/
+                                - text: Capabilities
+                            - listitem [ref=e167]:
+                              - link [ref=e169] [cursor=pointer]:
+                                - /url: https://www.jefferies.com/our-services/wealth-management/our-team/
+                                - text: Our Team
+                            - listitem [ref=e170]:
+                              - link [ref=e172] [cursor=pointer]:
+                                - /url: https://jefferies.netxinvestor.com/nxi/welcome
+                                - text: Client Portal Login
+                - listitem [ref=e175]:
+                  - link "Our Insights" [ref=e177] [cursor=pointer]:
+                    - /url: "#"
+                  - generic [ref=e181]:
+                    - generic [ref=e182]:
+                      - figure [ref=e183]
+                      - generic [ref=e184]:
+                        - heading [level=6] [ref=e185]: Our Insights
+                        - separator [ref=e186]
+                        - paragraph [ref=e187]: Jefferies is globally recognized for the quality and applicability of our thinking, analyses and vision.
+                    - navigation [ref=e189]:
+                      - list [ref=e190]:
+                        - listitem [ref=e191]:
+                          - link [ref=e193] [cursor=pointer]:
+                            - /url: https://www.jefferies.com/insights/
+                            - text: Featured Insights
+                        - listitem [ref=e194]:
+                          - link [ref=e196] [cursor=pointer]:
+                            - /url: https://www.jefferies.com/insights/category/leadership-spotlight/
+                            - text: Leadership Spotlight
+                        - listitem [ref=e197]:
+                          - link [ref=e199] [cursor=pointer]:
+                            - /url: https://www.jefferies.com/insights/category/markets/
+                            - text: Markets
+                        - listitem [ref=e200]:
+                          - link [ref=e202] [cursor=pointer]:
+                            - /url: https://www.jefferies.com/insights/category/policy/
+                            - text: Policy
+                        - listitem [ref=e203]:
+                          - link [ref=e205] [cursor=pointer]:
+                            - /url: https://www.jefferies.com/insights/category/prime-services/
+                            - text: Prime Services
+                - listitem [ref=e206]:
+                  - link "About" [ref=e208] [cursor=pointer]:
+                    - /url: "#"
+                  - generic [ref=e212]:
+                    - generic [ref=e213]:
+                      - figure [ref=e214]
+                      - generic [ref=e215]:
+                        - heading [level=6] [ref=e216]: About
+                        - separator [ref=e217]
+                        - paragraph [ref=e218]: Jefferies is globally recognized for the quality and applicability of our thinking, analyses and vision.
+                    - navigation [ref=e220]:
+                      - list [ref=e221]:
+                        - listitem [ref=e222]:
+                          - link [ref=e224] [cursor=pointer]:
+                            - /url: https://www.jefferies.com/about/
+                            - text: Overview
+                        - listitem [ref=e225]:
+                          - link [ref=e227] [cursor=pointer]:
+                            - /url: https://www.jefferies.com/our-insights/leadership-letters/
+                            - text: Leadership Letters
+                        - listitem [ref=e228]:
+                          - link [ref=e230] [cursor=pointer]:
+                            - /url: https://www.jefferies.com/about/our-culture-growth-story/
+                            - text: Culture & Growth Story
+                        - listitem [ref=e231]:
+                          - link [ref=e233] [cursor=pointer]:
+                            - /url: "#"
+                            - text: Community and Engagement
+                          - list [ref=e235]:
+                            - listitem [ref=e236]:
+                              - link [ref=e238] [cursor=pointer]:
+                                - /url: https://www.jefferies.com/about/community-and-engagement-at-jefferies/
+                                - text: Focus & Commitment
+                            - listitem [ref=e239]:
+                              - link [ref=e241] [cursor=pointer]:
+                                - /url: https://www.jefferies.com/about/community-and-engagement-at-jefferies/development-and-growth/
+                                - text: Development and Growth
+                            - listitem [ref=e242]:
+                              - link [ref=e244] [cursor=pointer]:
+                                - /url: https://www.jefferies.com/about/community-and-engagement/community-resources/
+                                - text: Community Resources
+                        - listitem [ref=e245]:
+                          - link [ref=e247] [cursor=pointer]:
+                            - /url: "#"
+                            - text: Sustainability & Transition
+                          - list [ref=e249]:
+                            - listitem [ref=e250]:
+                              - link [ref=e252] [cursor=pointer]:
+                                - /url: https://www.jefferies.com/about/sustainability-esg/
+                                - text: Focus & Commitment
+                            - listitem [ref=e253]:
+                              - link [ref=e255] [cursor=pointer]:
+                                - /url: https://www.jefferies.com/2025-Culture-and-Community-Report
+                                - text: 2025 Culture & Community Report
+                            - listitem [ref=e258]:
+                              - link [ref=e260] [cursor=pointer]:
+                                - /url: https://www.jefferies.com/wp-content/uploads/sites/4/2025/06/CA-AB-1305-Compliance-Disclosure.pdf
+                                - text: California Voluntary Carbon Market Disclosure
+                        - listitem [ref=e263]:
+                          - link [ref=e265] [cursor=pointer]:
+                            - /url: "#"
+                            - text: Giving Back
+                          - list [ref=e267]:
+                            - listitem [ref=e268]:
+                              - link [ref=e270] [cursor=pointer]:
+                                - /url: https://www.jefferies.com/about/giving-back/
+                                - text: Focus & Commitment
+                            - listitem [ref=e271]:
+                              - link [ref=e273] [cursor=pointer]:
+                                - /url: https://www.jefferiesscholarship.org/
+                                - text: Jefferies Family Scholarship
+                            - listitem [ref=e276]:
+                              - link [ref=e278] [cursor=pointer]:
+                                - /url: https://www.jefferies.com/about/giving-back/global-trading-days/
+                                - text: Global Trading Days
+                            - listitem [ref=e279]:
+                              - link [ref=e281] [cursor=pointer]:
+                                - /url: https://www.goodtoday.org/
+                                - text: GoodToday
+                        - listitem [ref=e284]:
+                          - link [ref=e286] [cursor=pointer]:
+                            - /url: "#"
+                            - text: Conferences & Events
+                          - list [ref=e288]:
+                            - listitem [ref=e289]:
+                              - link [ref=e291] [cursor=pointer]:
+                                - /url: https://www.jefferies.com/about/conferences-events/
+                                - text: Upcoming Events
+                            - listitem [ref=e292]:
+                              - link [ref=e294] [cursor=pointer]:
+                                - /url: https://www.jefferies.com/about/past-conferences-events/
+                                - text: Past Events
+                - listitem [ref=e295]:
+                  - link "Careers" [ref=e297] [cursor=pointer]:
+                    - /url: "#"
+                  - generic [ref=e301]:
+                    - generic [ref=e302]:
+                      - figure [ref=e303]
+                      - generic [ref=e304]:
+                        - heading [level=6] [ref=e305]: Careers
+                        - separator [ref=e306]
+                        - paragraph [ref=e307]: Nothing is more important to Jefferies than our human capital. It’s why we prioritize recruiting, supporting, training and developing our employee-partners.
+                    - navigation [ref=e309]:
+                      - list [ref=e310]:
+                        - listitem [ref=e311]:
+                          - link [ref=e313] [cursor=pointer]:
+                            - /url: https://www.jefferies.com/careers/
+                            - text: Overview
+                        - listitem [ref=e314]:
+                          - link [ref=e316] [cursor=pointer]:
+                            - /url: "#"
+                            - text: Experienced Professionals
+                          - list [ref=e318]:
+                            - listitem [ref=e319]:
+                              - link [ref=e321] [cursor=pointer]:
+                                - /url: https://www.jefferies.com/careers/experienced-professionals/
+                                - text: Advance Your Career
+                            - listitem [ref=e322]:
+                              - link [ref=e324] [cursor=pointer]:
+                                - /url: https://careers.jefferies.com/#en/sites/CX_1
+                                - text: Explore Opportunities
+                            - listitem [ref=e327]:
+                              - link [ref=e329] [cursor=pointer]:
+                                - /url: https://site-66829690.bcvp0rtal.com/
+                                - text: Hear From Our Leaders
+                        - listitem [ref=e332]:
+                          - link [ref=e334] [cursor=pointer]:
+                            - /url: "#"
+                            - text: Students & Graduates
+                          - list [ref=e336]:
+                            - listitem [ref=e337]:
+                              - link [ref=e339] [cursor=pointer]:
+                                - /url: https://www.jefferies.com/careers/students-and-graduates/
+                                - text: Start Your Future
+                            - listitem [ref=e340]:
+                              - link [ref=e342] [cursor=pointer]:
+                                - /url: https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-4b6c6a03c1c7/candidate
+                                - text: Explore Opportunities
+                            - listitem [ref=e345]:
+                              - link [ref=e347] [cursor=pointer]:
+                                - /url: https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-ext/brand-4/xf-016c915b0a67/candidate/jobboard/vacancy/1/adv/
+                                - text: Campus Events
+                            - listitem [ref=e350]:
+                              - link [ref=e352] [cursor=pointer]:
+                                - /url: https://site-22474140.bcvp0rtal.com/
+                                - text: Explore Mentorships
+                        - listitem [ref=e355]:
+                          - link [ref=e357] [cursor=pointer]:
+                            - /url: https://www.jefferies.com/careers/benefits-programs/
+                            - text: Benefits & Programs
+                        - listitem [ref=e358]:
+                          - link [ref=e360] [cursor=pointer]:
+                            - /url: "#"
+                            - text: Apply Now
+                          - list [ref=e362]:
+                            - listitem [ref=e363]:
+                              - link [ref=e365] [cursor=pointer]:
+                                - /url: https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-ext/brand-4/xf-016c915b0a67/candidate/jobboard/vacancy/2/adv/
+                                - text: Intern and Entry-Level Programs
+                            - listitem [ref=e368]:
+                              - link [ref=e370] [cursor=pointer]:
+                                - /url: https://careers.jefferies.com/#en/sites/CX_1
+                                - text: All Other Opportunities
+                - listitem [ref=e373]:
+                  - link "Investor Relations" [ref=e375] [cursor=pointer]:
+                    - /url: "#"
+                  - generic [ref=e379]:
+                    - generic [ref=e380]:
+                      - figure [ref=e381]
+                      - generic [ref=e382]:
+                        - heading [level=6] [ref=e383]: Investor Relations
+                        - separator [ref=e384]
+                        - paragraph [ref=e385]: Access company financials, governance documents, shareholder resources, press releases and more. Sign up for investor email alerts to stay informed.
+                    - navigation [ref=e387]:
+                      - list [ref=e388]:
+                        - listitem [ref=e389]:
+                          - link [ref=e391] [cursor=pointer]:
+                            - /url: https://ir.jefferies.com/overview/
+                            - text: Overview
+                        - listitem [ref=e392]:
+                          - link [ref=e394] [cursor=pointer]:
+                            - /url: "#"
+                            - text: Leadership & Governance
+                          - list [ref=e396]:
+                            - listitem [ref=e397]:
+                              - link [ref=e399] [cursor=pointer]:
+                                - /url: https://ir.jefferies.com/governance/leadership/
+                                - text: Jefferies Leadership
+                            - listitem [ref=e400]:
+                              - link [ref=e402] [cursor=pointer]:
+                                - /url: https://ir.jefferies.com/governance/committee-composition/
+                                - text: Board Committees
+                            - listitem [ref=e403]:
+                              - link [ref=e405] [cursor=pointer]:
+                                - /url: https://ir.jefferies.com/governance/governance-documents/
+                                - text: Governance Documents
+                        - listitem [ref=e406]:
+                          - link [ref=e408] [cursor=pointer]:
+                            - /url: "#"
+                            - text: Financials
+                          - list [ref=e410]:
+                            - listitem [ref=e411]:
+                              - link [ref=e413] [cursor=pointer]:
+                                - /url: https://ir.jefferies.com/financials/annual-reports/
+                                - text: Annual Reports
+                            - listitem [ref=e414]:
+                              - link [ref=e416] [cursor=pointer]:
+                                - /url: https://ir.jefferies.com/financials/sec-filings/
+                                - text: SEC Filings
+                            - listitem [ref=e417]:
+                              - link [ref=e419] [cursor=pointer]:
+                                - /url: https://ir.jefferies.com/financials/credit-ratings/
+                                - text: Credit Ratings
+                        - listitem [ref=e420]:
+                          - link [ref=e422] [cursor=pointer]:
+                            - /url: "#"
+                            - text: Shareholder Resources
+                          - list [ref=e424]:
+                            - listitem [ref=e425]:
+                              - link [ref=e427] [cursor=pointer]:
+                                - /url: https://ir.jefferies.com/resources/regulatory-information
+                                - text: Regulatory Information
+                            - listitem [ref=e428]:
+                              - link [ref=e430] [cursor=pointer]:
+                                - /url: https://ir.jefferies.com/resources/presentations/
+                                - text: Presentations
+                            - listitem [ref=e431]:
+                              - link [ref=e433] [cursor=pointer]:
+                                - /url: https://ir.jefferies.com/resources/tax--other/
+                                - text: Tax and Other Information
+                            - listitem [ref=e434]:
+                              - link [ref=e436] [cursor=pointer]:
+                                - /url: https://ir.jefferies.com/resources/information-request-form/
+                                - text: Information Request
+                            - listitem [ref=e437]:
+                              - link [ref=e439] [cursor=pointer]:
+                                - /url: https://ir.jefferies.com/resources/investor-email-alerts/
+                                - text: Email Notification
+                        - listitem [ref=e440]:
+                          - link [ref=e442] [cursor=pointer]:
+                            - /url: https://ir.jefferies.com/news/default.aspx
+                            - text: Press Releases
+            - paragraph
+    - navigation "Breadcrumb" [ref=e443]:
+      - list [ref=e444]:
+        - listitem [ref=e445]:
+          - link "Home" [ref=e446] [cursor=pointer]:
+            - /url: https://www.jefferies.com/
+        - listitem [ref=e447]
+        - listitem [ref=e449]:
+          - link "Careers" [ref=e450] [cursor=pointer]:
+            - /url: https://www.jefferies.com/careers/
+        - listitem [ref=e451]
+        - listitem [ref=e453]: Students & Graduates
+    - main [ref=e454]:
+      - article [ref=e455]:
+        - generic [ref=e456]:
+          - img "Students & Graduates - Young successful business team working in a spacious beautiful office communicating and discussing work. Concept of business, finance, strategy, management, advertising, planning." [ref=e458]
+          - heading "Students & Graduates" [level=1] [ref=e461]
+        - generic [ref=e462]:
+          - separator [ref=e463]
+          - paragraph [ref=e464]:
+            - strong [ref=e465]: Find your future at Jefferies
+          - paragraph [ref=e466]: Our student and graduate employees are a foundation of our success and are heavily involved in the day-to-day workflow at Jefferies.
+        - heading "What you can expect" [level=2] [ref=e467]
+        - list [ref=e468]:
+          - listitem [ref=e469]: Each of our employee-partners can expect a hands-on approach to their development, with an opportunity to solve challenging and complex tasks alongside some of the best and brightest minds in the industry.
+          - listitem [ref=e470]: Jefferies offers a wide range of opportunities for undergraduate and graduate students to gain experience in our Investment Banking, Fixed Income, Equities, Research, Wealth Management and Corporate divisions.
+          - listitem [ref=e471]: If you enjoy working in an entrepreneurial environment where creativity and performance is rewarded, then we invite you to explore opportunities with Jefferies and learn more about our winning team.
+        - generic [ref=e472]:
+          - heading "Summer internships for Analysts & Associates" [level=2] [ref=e473]
+          - paragraph [ref=e474]:
+            - text: Our
+            - strong [ref=e475]: Analyst and Associate Summer Interns
+            - text: participate in a 10-week summer program designed for students interested in pursuing a career in finance. Through training, seminars, social events and mentoring programs, our interns gain valuable industry experience as well as a unique look into our core businesses.
+          - heading "Summer program highlights" [level=3] [ref=e476]
+          - paragraph [ref=e477]: Following an enriching orientation and training program, interns work on their day-to-day responsibilities with support from colleagues serving as both instructors and mentors. You’ll engage with senior leaders, meet industry experts and participate in educational and social events with colleagues. We strongly encourage all our interns to make connections and grow their professional network. To help maximize your experience, interns receive formal performance reviews.
+          - paragraph [ref=e478]: "While each experience differs by division, you can expect:"
+          - list [ref=e479]:
+            - listitem [ref=e480]: Experience and exposure across a variety of groups and individuals
+            - listitem [ref=e481]: Mentoring from senior professionals
+            - listitem [ref=e482]: Deep understanding of market data and technical skills across a range of products
+            - listitem [ref=e483]: Case study analysis and formal presentation training
+            - listitem [ref=e484]: Consideration for a full-time offer based on demonstrated performance and potential
+          - heading "What we look for in candidates" [level=3] [ref=e485]
+          - paragraph [ref=e486]: We look for energetic and enthusiastic individuals with a strong academic background, an interest in pursuing a career in finance and the ability to work independently and in teams. We hire summer interns who have studied a variety of disciplines including finance, accounting, economics, computer science, engineering, applied mathematics and liberal arts.
+          - list [ref=e487]:
+            - listitem [ref=e488]: Successful interns can multitask and manage a variety of projects in a dynamic, team-oriented environment.
+            - listitem [ref=e489]: Candidates must demonstrate the highest levels of professionalism, along with strong analytical skills and attention to detail.
+        - generic [ref=e490]:
+          - heading "Full-time Analyst & Associate program" [level=2] [ref=e491]
+          - paragraph [ref=e492]:
+            - text: Our
+            - strong [ref=e493]: Analyst and Associate Program
+            - text: provides a valuable, global platform for undergraduate, Masters and MBA students to develop skills and apply them in real-world situations. The program begins with comprehensive formal training, offering a unique opportunity to gain experience across an array of products and industries.
+          - heading "Full-time program highlights" [level=3] [ref=e494]
+          - list [ref=e495]:
+            - listitem [ref=e496]: You’ll learn corporate valuation methodologies, accounting and financial modeling, as well as the importance of relationship building through interaction with Jefferies’ clients and senior leaders.
+            - listitem [ref=e497]: Afterwards, you’ll apply your learnings through formal case study presentations and preparation for your regulatory exams (specific to Investment Banking, Equities and Fixed Income).
+            - listitem [ref=e498]: You’ll experience how businesses operate on a global scale and work on providing innovative solutions and thoughtful advice to our clients.
+          - heading "What we look for in candidates" [level=3] [ref=e499]
+          - paragraph [ref=e500]: "You should have a strong academic background: a four-year Bachelor’s degree (Analyst), or a two-year Master’s and or MBA degree (Associate), or equivalent. We hire graduates who have studied a variety of disciplines including finance, accounting, economics, computer science, engineering, applied mathematics, data science, and liberal arts. Additionally, you should be able to:"
+          - list [ref=e501]:
+            - listitem [ref=e502]: Demonstrate the highest level of professionalism, ethics and client management skills.
+            - listitem [ref=e503]: Manage multiple projects simultaneously, under pressure and with adherence to tight deadlines.
+            - listitem [ref=e504]: Possess strong technical, written and verbal communication skills.
+            - listitem [ref=e505]: Work independently and as a member of a team.
+          - paragraph [ref=e506]:
+            - emphasis [ref=e507]: We encourage you to apply to summer intern and entry-level opportunities roles for which you may be eligible.
+        - generic [ref=e508]:
+          - generic [ref=e509]:
+            - heading "Explore a career with Jefferies" [level=2] [ref=e511]
+            - link "Back to Careers home" [ref=e515] [cursor=pointer]:
+              - /url: https://www.jefferies.com/careers/
+          - list [ref=e517]:
+            - listitem [ref=e518] [cursor=pointer]:
+              - figure [ref=e519]:
+                - img "Diverse interns at a working table"
+              - paragraph [ref=e521]:
+                - link "Explore internship and co-op opportunities" [ref=e522]:
+                  - /url: https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-ext/brand-4/xf-016c915b0a67/candidate/jobboard/vacancy/2/adv/
+            - listitem [ref=e525] [cursor=pointer]:
+              - figure [ref=e526]
+              - paragraph [ref=e528]:
+                - link "Create an account with us" [ref=e529]:
+                  - /url: https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-8d298828c773/candidate/register
+            - listitem [ref=e532] [cursor=pointer]:
+              - figure [ref=e533]
+              - paragraph [ref=e535]:
+                - link "Sign up for campus events" [ref=e536]:
+                  - /url: https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-ext/brand-4/xf-016c915b0a67/candidate/jobboard/vacancy/1/adv/
+            - listitem [ref=e539] [cursor=pointer]:
+              - figure [ref=e540]:
+                - 'img "Diversity, Equity & Inclusion: Pride event group photo on rooftop with Jefferies logo banner"'
+              - paragraph [ref=e542]:
+                - link "Learn about our community and engagement practices" [ref=e543]:
+                  - /url: https://www.jefferies.com/about/community-and-engagement/
+    - region "Newsletter Sign Up" [ref=e544]:
+      - generic [ref=e545]:
+        - heading "Stay Current With Updates" [level=3] [ref=e546]
+        - paragraph [ref=e547]: Subscribe to our email for all our latest insights and timely content.
+        - button "Sign Up" [ref=e548] [cursor=pointer]
+    - contentinfo [ref=e549]:
+      - generic [ref=e552]:
+        - generic [ref=e553]:
+          - link [ref=e554] [cursor=pointer]:
+            - /url: https://www.jefferies.com
+            - img "Jefferies logo" [ref=e555]
+          - paragraph [ref=e556]: Jefferies is the leading pure-play investment banking and capital markets firm.
+        - generic [ref=e557]:
+          - generic [ref=e558]:
+            - strong [ref=e559]: Quick Links
+            - 'navigation "Menu: Quick Links" [ref=e560]':
+              - list [ref=e561]:
+                - listitem [ref=e562]:
+                  - link "Our Services" [ref=e563] [cursor=pointer]:
+                    - /url: https://www.jefferies.com/our-services/
+                - listitem [ref=e564]:
+                  - link "Our Insights" [ref=e565] [cursor=pointer]:
+                    - /url: https://www.jefferies.com/insights/
+                - listitem [ref=e566]:
+                  - link "About" [ref=e567] [cursor=pointer]:
+                    - /url: https://www.jefferies.com/about/
+                - listitem [ref=e568]:
+                  - link "Careers" [ref=e569] [cursor=pointer]:
+                    - /url: https://www.jefferies.com/careers/
+                - listitem [ref=e570]:
+                  - link "Investor Relations" [ref=e571] [cursor=pointer]:
+                    - /url: https://ir.jefferies.com/overview/
+          - generic [ref=e572]:
+            - strong [ref=e573]: Company
+            - navigation "Menu:Company" [ref=e574]:
+              - list [ref=e575]:
+                - listitem [ref=e576]:
+                  - link "Culture & Growth Story" [ref=e577] [cursor=pointer]:
+                    - /url: https://www.jefferies.com/about/our-culture-growth-story/
+                - listitem [ref=e578]:
+                  - link "Community and Engagement" [ref=e579] [cursor=pointer]:
+                    - /url: https://www.jefferies.com/about/community-and-engagement/
+                - listitem [ref=e580]:
+                  - link "Sustainability & Transition" [ref=e581] [cursor=pointer]:
+                    - /url: https://www.jefferies.com/about/sustainability-transition/
+                - listitem [ref=e582]:
+                  - link "Press Releases" [ref=e583] [cursor=pointer]:
+                    - /url: https://ir.jefferies.com/press-releases/default.aspx
+                - listitem [ref=e586]:
+                  - link "Conferences & Events" [ref=e587] [cursor=pointer]:
+                    - /url: https://www.jefferies.com/about/conferences-events/
+          - generic [ref=e588]:
+            - strong [ref=e589]: Client Login
+            - 'navigation "Menu: Client Login" [ref=e590]':
+              - list [ref=e591]:
+                - listitem [ref=e592]:
+                  - link "JEFContent Portal" [ref=e593] [cursor=pointer]:
+                    - /url: https://content.jefferies.com/
+                - listitem [ref=e596]:
+                  - link "Prime Brokerage" [ref=e597] [cursor=pointer]:
+                    - /url: https://www.jprime.com/
+                - listitem [ref=e600]:
+                  - link "Jefferies Access" [ref=e601] [cursor=pointer]:
+                    - /url: https://edoc.jefferies.com/
+                - listitem [ref=e604]:
+                  - link "Wealth Management" [ref=e605] [cursor=pointer]:
+                    - /url: https://jefferies.netxinvestor.com/web/jefferies/login
+          - generic [ref=e608]:
+            - strong [ref=e609]: Get in Touch
+            - 'navigation "Menu: Get in Touch" [ref=e610]':
+              - list [ref=e611]:
+                - listitem [ref=e612]:
+                  - link "Contact Us" [ref=e613] [cursor=pointer]:
+                    - /url: https://www.jefferies.com/contact-us/
+                - listitem [ref=e614]:
+                  - link "Global Locations" [ref=e615] [cursor=pointer]:
+                    - /url: https://www.jefferies.com/global-locations/
+                - listitem [ref=e616]:
+                  - link "Subscriptions" [ref=e617] [cursor=pointer]:
+                    - /url: https://www.jefferies.com/subscribe-to-our-newsletters/
+            - generic [ref=e618]:
+              - link "Find Jefferies on LinkedIn" [ref=e619] [cursor=pointer]:
+                - /url: https://linkedin.com/company/Jefferies
+              - link "Find Jefferies on X" [ref=e622] [cursor=pointer]:
+                - /url: https://twitter.com/Jefferies
+              - link "Find Jefferies on Instagram" [ref=e625] [cursor=pointer]:
+                - /url: https://www.instagram.com/Jefferies
+      - generic [ref=e632]:
+        - paragraph [ref=e633]: © 2026 Jefferies Financial Group Inc.
+        - 'navigation "Menu: Information" [ref=e634]':
+          - list [ref=e635]:
+            - listitem [ref=e636]:
+              - link "Terms & Conditions" [ref=e637] [cursor=pointer]:
+                - /url: https://www.jefferies.com/terms-conditions/
+            - listitem [ref=e638]:
+              - link "Privacy & Cookies" [ref=e639] [cursor=pointer]:
+                - /url: https://www.jefferies.com/privacy-and-cookies/
+            - listitem [ref=e640]:
+              - link "Regulatory Disclosures" [ref=e641] [cursor=pointer]:
+                - /url: https://www.jefferies.com/regulatory-disclosures/
+            - listitem [ref=e642]:
+              - link "Accessibility" [ref=e643] [cursor=pointer]:
+                - /url: https://www.jefferies.com/disclaimers/accessibility-statement/
+  - generic [ref=e644]: opens in new window

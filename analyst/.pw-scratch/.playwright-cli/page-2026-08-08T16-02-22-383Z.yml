@@ -1,0 +1,119 @@
+- generic [active] [ref=f1e1]:
+  - link "Skip to content" [ref=f1e2] [cursor=pointer]:
+    - /url: "#primary-content"
+  - banner [ref=f1e4]:
+    - generic [ref=f1e6]:
+      - link "Newberry Library" [ref=f1e7] [cursor=pointer]:
+        - /url: /
+      - generic [ref=f1e11]:
+        - navigation [ref=f1e12]:
+          - list [ref=f1e13]:
+            - listitem [ref=f1e14]:
+              - button "Visit" [ref=f1e15] [cursor=pointer]
+            - listitem [ref=f1e16]:
+              - button "Calendar" [ref=f1e17] [cursor=pointer]
+            - listitem [ref=f1e18]:
+              - button "Collection" [ref=f1e19] [cursor=pointer]
+            - listitem [ref=f1e20]:
+              - button "Research" [ref=f1e21] [cursor=pointer]
+            - listitem [ref=f1e22]:
+              - button "Learn" [ref=f1e23] [cursor=pointer]
+            - listitem [ref=f1e24]:
+              - button "Support" [ref=f1e25] [cursor=pointer]
+        - navigation [ref=f1e26]:
+          - list [ref=f1e27]:
+            - listitem [ref=f1e28]:
+              - link "About" [ref=f1e29] [cursor=pointer]:
+                - /url: https://www.newberry.org/about
+            - listitem [ref=f1e30]:
+              - link "Ask a Librarian" [ref=f1e31] [cursor=pointer]:
+                - /url: https://www.newberry.org/collection/ask-a-librarian
+            - listitem [ref=f1e32]:
+              - link "Catalog" [ref=f1e33] [cursor=pointer]:
+                - /url: https://i-share-nby.primo.exlibrisgroup.com/discovery/search?vid=01CARLI_NBY:CARLI_NBY&lang=en
+            - listitem [ref=f1e34]:
+              - link "Bookshop" [ref=f1e35] [cursor=pointer]:
+                - /url: https://bookshop.newberry.org/?_gl=1*2cmze7*_ga*MTI1Mjk3MzMzNC4xNzMwMTM5OTQx*_ga_2W9031YBFM*MTczMTcwNzQ5Ny43LjAuMTczMTcwNzQ5Ny42MC4wLjA.
+            - listitem [ref=f1e36]:
+              - link "Donate" [ref=f1e37] [cursor=pointer]:
+                - /url: https://www.newberry.org/support/make-a-gift
+            - listitem [ref=f1e38]:
+              - button [ref=f1e39] [cursor=pointer]
+  - main [ref=f1e42]:
+    - generic [ref=f1e48]:
+      - generic [ref=f1e49]:
+        - textbox "Search" [ref=f1e51]:
+          - /placeholder: Search...
+        - button "Submit button" [ref=f1e52] [cursor=pointer]: submit
+      - generic [ref=f1e53]:
+        - generic [ref=f1e54]:
+          - heading "Show Results for:" [level=5] [ref=f1e55]
+          - generic [ref=f1e56]: Website
+          - generic [ref=f1e59]: Library Catalog
+        - link "Go to Catalog" [ref=f1e62] [cursor=pointer]:
+          - /url: https://i-share-nby.primo.exlibrisgroup.com/discovery/search?vid=01CARLI_NBY:CARLI_NBY&lang=en
+  - contentinfo [ref=f1e65]:
+    - generic [ref=f1e66]:
+      - generic [ref=f1e67]:
+        - link "Newberry Library" [ref=f1e69] [cursor=pointer]:
+          - /url: /
+        - generic [ref=f1e74]:
+          - generic [ref=f1e76]:
+            - link "About" [ref=f1e77] [cursor=pointer]:
+              - /url: https://www.newberry.org/about
+            - link "Accessibility" [ref=f1e78] [cursor=pointer]:
+              - /url: https://www.newberry.org/visit/accessibility
+            - link "Blog" [ref=f1e79] [cursor=pointer]:
+              - /url: https://www.newberry.org/about/source-material
+            - link "Careers" [ref=f1e80] [cursor=pointer]:
+              - /url: https://www.newberry.org/careers
+            - link "Hours & Location" [ref=f1e81] [cursor=pointer]:
+              - /url: https://www.newberry.org/visit
+          - generic [ref=f1e83]:
+            - link "Land Acknowledgment" [ref=f1e84] [cursor=pointer]:
+              - /url: https://www.newberry.org/land-acknowledgment
+            - link "The Newberry Magazine" [ref=f1e85] [cursor=pointer]:
+              - /url: https://www.newberry.org/about/magazine
+            - link "News & Announcements" [ref=f1e86] [cursor=pointer]:
+              - /url: https://www.newberry.org/about/news-and-announcements
+            - link "Staff Directory" [ref=f1e87] [cursor=pointer]:
+              - /url: https://www.newberry.org/about/staff-directory
+            - link "Venue Rentals" [ref=f1e88] [cursor=pointer]:
+              - /url: https://www.newberry.org/venue-rentals
+      - generic [ref=f1e92]:
+        - heading "Sign Up for Our Mailing List" [level=3] [ref=f1e94]
+        - generic [ref=f1e98]:
+          - generic [ref=f1e99]:
+            - generic [ref=f1e100]: Email Address
+            - textbox "Email Address" [ref=f1e101]
+          - textbox [ref=f1e103]
+          - button [ref=f1e105] [cursor=pointer]
+      - generic [ref=f1e109]:
+        - generic [ref=f1e110]:
+          - heading "Follow us On Social" [level=3] [ref=f1e111]
+          - generic [ref=f1e112]:
+            - link [ref=f1e113] [cursor=pointer]:
+              - /url: http://www.facebook.com/NewberryLibrary
+            - link [ref=f1e114] [cursor=pointer]:
+              - /url: http://instagram.com/newberrylibrary
+            - link [ref=f1e115] [cursor=pointer]:
+              - /url: http://twitter.com/intent/follow?source=followbutton&variant=1.0&screen_name=newberrylibrary
+            - link [ref=f1e116] [cursor=pointer]:
+              - /url: http://www.youtube.com/user/thenewberrylibrary?sub_confirmation=1
+            - link [ref=f1e117] [cursor=pointer]:
+              - /url: https://www.linkedin.com/company/newberry-library
+        - generic [ref=f1e118]:
+          - heading "Visit the Library" [level=3] [ref=f1e119]
+          - paragraph [ref=f1e120]: 60 West Walton Street, Chicago, Illinois 60610
+        - generic [ref=f1e121]:
+          - heading "Contact by Phone" [level=3] [ref=f1e122]
+          - paragraph [ref=f1e123]:
+            - link "(312) 943-9090" [ref=f1e124] [cursor=pointer]:
+              - /url: tel:312-943-9090
+      - generic [ref=f1e127]:
+        - link "Policies" [ref=f1e128] [cursor=pointer]:
+          - /url: https://www.newberry.org/policies
+        - link "Ask a Librarian" [ref=f1e129] [cursor=pointer]:
+          - /url: https://www.newberry.org/collection/ask-a-librarian
+        - link "Plan Your Visit" [ref=f1e130] [cursor=pointer]:
+          - /url: https://www.newberry.org/visit

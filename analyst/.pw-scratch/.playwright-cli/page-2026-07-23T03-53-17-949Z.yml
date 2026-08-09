@@ -1,0 +1,20 @@
+- generic [ref=f1964e3]:
+  - generic [ref=f1964e6]:
+    - heading "This site can’t be reached" [level=1] [ref=f1964e7]
+    - paragraph [ref=f1964e8]:
+      - strong [ref=f1964e9]: www.bing.com
+      - text: unexpectedly closed the connection.
+    - generic [ref=f1964e10]:
+      - paragraph [ref=f1964e11]: "Try:"
+      - list [ref=f1964e12]:
+        - listitem [ref=f1964e13]: Checking the connection
+        - listitem [ref=f1964e14]:
+          - link "Checking the proxy and the firewall" [ref=f1964e15] [cursor=pointer]:
+            - /url: "#buttons"
+        - listitem [ref=f1964e16]:
+          - link "Running Windows Network Diagnostics" [ref=f1964e17] [cursor=pointer]:
+            - /url: javascript:diagnoseErrors()
+    - generic [ref=f1964e18]: ERR_CONNECTION_CLOSED
+  - generic [ref=f1964e19]:
+    - button "Reload" [ref=f1964e21] [cursor=pointer]
+    - button "Details" [ref=f1964e22] [cursor=pointer]

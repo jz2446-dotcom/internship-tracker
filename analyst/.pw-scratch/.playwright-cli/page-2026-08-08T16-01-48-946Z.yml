@@ -1,0 +1,231 @@
+- generic [active] [ref=f14e1]:
+  - link "Skip to main content" [ref=f14e2] [cursor=pointer]:
+    - /url: "#main-content"
+  - region "Sitewide alerts" [ref=f14e5]:
+    - generic [ref=f14e7]:
+      - button [ref=f14e8] [cursor=pointer]:
+        - paragraph [ref=f14e12]: "Independence Branch: no vehicle access during Aug 8 Home Days parade"
+      - button "View Alert" [ref=f14e13] [cursor=pointer]
+  - generic [ref=f14e14]:
+    - banner [ref=f14e15]:
+      - generic [ref=f14e16]:
+        - link "Cuyahoga County Public Library" [ref=f14e18] [cursor=pointer]:
+          - /url: /
+        - list [ref=f14e20]:
+          - listitem [ref=f14e21]:
+            - link "Hours & Locations" [ref=f14e22] [cursor=pointer]:
+              - /url: https://cuyahogalibrary.org/branches
+          - listitem [ref=f14e23]:
+            - link "Get A Card" [ref=f14e24] [cursor=pointer]:
+              - /url: https://cuyahogalibrary.org/get-a-ccpl-card
+          - listitem [ref=f14e25]:
+            - link "Ask Us" [ref=f14e26] [cursor=pointer]:
+              - /url: https://cuyahogalibrary.libanswers.com/
+          - listitem [ref=f14e27]:
+            - link "Donate to Your Library" [ref=f14e28] [cursor=pointer]:
+              - /url: https://ccplfoundation.org/
+          - listitem [ref=f14e29]:
+            - link "Shop" [ref=f14e30] [cursor=pointer]:
+              - /url: https://shopccpl.storebloxcs.com/
+          - listitem [ref=f14e31]:
+            - link "My CCPL" [ref=f14e32] [cursor=pointer]:
+              - /url: " https://discover.cuyahogalibrary.org/MyAccount/Home"
+        - generic [ref=f14e34]:
+          - combobox "Search type" [ref=f14e36]:
+            - option "Catalog" [selected]
+            - option "Events"
+            - option "Website"
+          - generic [ref=f14e37]:
+            - searchbox "Search query" [ref=f14e38]
+            - button "Search" [ref=f14e39]
+      - navigation "Main Navigation" [ref=f14e40]:
+        - list [ref=f14e42]:
+          - listitem [ref=f14e43]:
+            - button "Read, Watch & Listen" [ref=f14e44] [cursor=pointer]
+          - listitem [ref=f14e47]:
+            - button "Research & Discover" [ref=f14e48] [cursor=pointer]
+          - listitem [ref=f14e51]:
+            - button "Classes & Events" [ref=f14e52] [cursor=pointer]
+          - listitem [ref=f14e55]:
+            - button "Services" [ref=f14e56] [cursor=pointer]
+          - listitem [ref=f14e59]:
+            - button "Kids & Families" [ref=f14e60] [cursor=pointer]
+    - main [ref=f14e63]:
+      - generic [ref=f14e64]:
+        - heading "Cuyahoga County Public Library" [level=1] [ref=f14e65]
+        - region [ref=f14e67]:
+          - heading "Featured" [level=2] [ref=f14e68]
+          - generic [ref=f14e71]:
+            - group "1 / 1" [ref=f14e72]:
+              - generic [ref=f14e73]:
+                - link "Writers Center Stage":
+                  - /url: https://cuyahogalibrary.org/support/writers-center-stage
+                  - img "Writers Center Stage" [ref=f14e74] [cursor=pointer]
+            - group "1 / 1" [ref=f14e75]:
+              - generic [ref=f14e76]:
+                - link "Writers Center Stage":
+                  - /url: https://cuyahogalibrary.org/support/writers-center-stage
+                  - img "Writers Center Stage" [ref=f14e77] [cursor=pointer]
+            - group "1 / 1" [ref=f14e78]:
+              - generic [ref=f14e79]:
+                - link "Writers Center Stage":
+                  - /url: https://cuyahogalibrary.org/support/writers-center-stage
+                  - img "Writers Center Stage" [ref=f14e80] [cursor=pointer]
+        - generic [ref=f14e82]:
+          - generic [ref=f14e84]:
+            - heading "Staff Recommendations" [level=2] [ref=f14e85]
+            - tablist "Staff Recommendations" [ref=f14e86]:
+              - tab "Read" [selected] [ref=f14e87] [cursor=pointer]
+              - tab "Watch" [ref=f14e88] [cursor=pointer]
+              - tab "Listen" [ref=f14e89] [cursor=pointer]
+          - tabpanel "Read" [ref=f14e91]:
+            - iframe [ref=f14e94]:
+              - generic [ref=f15e3]:
+                - strong [ref=f15e4]: discover.cuyahogalibrary.org
+                - text: refused to connect.
+        - generic [ref=f14e96]:
+          - heading "Spotlight" [level=2] [ref=f14e97]
+          - generic [ref=f14e98]:
+            - generic [ref=f14e99]:
+              - link [ref=f14e101] [cursor=pointer]:
+                - /url: https://cuyahogalibrary.org/about/ccpl-and
+                - img "What's your \"&\"" [ref=f14e102]
+              - generic [ref=f14e103]:
+                - heading "What's your \"&\"" [level=3] [ref=f14e104]
+                - paragraph [ref=f14e106]: Our new “&” public awareness campaign pairs familiar library services with unexpected offerings. CCPL's value and impact comes in many forms – for example, as a classroom, a café, a toy store, a career center, a food bank and a coworking space.
+                - link "Learn more about CCPL's public awareness initiative" [ref=f14e107] [cursor=pointer]:
+                  - /url: https://cuyahogalibrary.org/about/ccpl-and
+            - generic [ref=f14e108]:
+              - link [ref=f14e110] [cursor=pointer]:
+                - /url: https://cuyahogalibrary.org/blog/a-decade-of-outdoor-learning
+                - img "Visit our Learning Garden" [ref=f14e111]
+              - generic [ref=f14e112]:
+                - heading "Visit our Learning Garden" [level=3] [ref=f14e113]
+                - paragraph [ref=f14e115]: Our Warrensville Heights Branch features an outdoor Learning Garden that hosts a range of lifelong learning experiences in the areas of science, art and technology.
+                - link "Learn more about the Learning Garden" [ref=f14e116] [cursor=pointer]:
+                  - /url: https://cuyahogalibrary.org/blog/a-decade-of-outdoor-learning
+            - generic [ref=f14e117]:
+              - link [ref=f14e119] [cursor=pointer]:
+                - /url: https://attend.cuyahogalibrary.org/event/16366817
+                - img "Author Marlon James" [ref=f14e120]
+              - generic [ref=f14e121]:
+                - heading "Author Marlon James" [level=3] [ref=f14e122]
+                - paragraph [ref=f14e124]:
+                  - text: Join us at our Parma-Snow Branch on Fri, Sep 11, when the author discusses his latest novel,
+                  - emphasis [ref=f14e125]:
+                    - link "The Disappearers" [ref=f14e126] [cursor=pointer]:
+                      - /url: https://discover.cuyahogalibrary.org/GroupedWork/17e23075-fe30-e68b-b395-95a7f7cff628-eng
+                  - text: . Registration for this event is
+                  - strong [ref=f14e127]: FREE
+                  - text: but VIP tickets are available that include a copy of
+                  - emphasis [ref=f14e128]: The Disappearers
+                  - text: ", VIP seating, signing line priority and a donation to the Cuyahoga County Public Library Foundation."
+                - link "RSVP for Marlon James" [ref=f14e129] [cursor=pointer]:
+                  - /url: https://attend.cuyahogalibrary.org/event/16366817
+            - generic [ref=f14e130]:
+              - link [ref=f14e132] [cursor=pointer]:
+                - /url: https://cuyahogalibrary.org/services/student-success/information-literacy
+                - img "Information Literacy" [ref=f14e133]
+              - generic [ref=f14e134]:
+                - heading "Information Literacy" [level=3] [ref=f14e135]
+                - paragraph [ref=f14e137]: Our information literacy lessons help prepare middle and high school students to make informed decisions when participating in civic activities.
+                - link "Learn more about information literacy" [ref=f14e138] [cursor=pointer]:
+                  - /url: https://cuyahogalibrary.org/services/student-success/information-literacy
+        - generic [ref=f14e140]:
+          - heading [level=2] [ref=f14e142]:
+            - paragraph [ref=f14e143]: Get the latest CCPL news & updates delivered to your inbox
+          - link "Sign up" [ref=f14e147] [cursor=pointer]:
+            - /url: https://cuyahogalibrary.org/email-preferences
+    - contentinfo [ref=f14e149]:
+      - generic [ref=f14e151]:
+        - link [ref=f14e152] [cursor=pointer]:
+          - /url: /
+          - img "Cuyahoga County Public Library" [ref=f14e153]
+        - generic [ref=f14e154]:
+          - paragraph [ref=f14e155]: © Cuyahoga County Public Library 2026.Cuyahoga County Public Library is a 501(c)(3)
+          - paragraph [ref=f14e156]:
+            - link "Privacy Statement" [ref=f14e157] [cursor=pointer]:
+              - /url: https://cuyahogalibrary.org/about/policies/privacy-policy
+      - generic [ref=f14e159]:
+        - heading "Navigation" [level=2] [ref=f14e160]
+        - list [ref=f14e161]:
+          - listitem [ref=f14e162]:
+            - link "About Us" [ref=f14e163] [cursor=pointer]:
+              - /url: https://cuyahogalibrary.org/about
+          - listitem [ref=f14e164]:
+            - link "Blog" [ref=f14e165] [cursor=pointer]:
+              - /url: https://cuyahogalibrary.org/blog
+          - listitem [ref=f14e166]:
+            - link "Contact Us" [ref=f14e167] [cursor=pointer]:
+              - /url: https://cuyahogalibrary.org/contact
+          - listitem [ref=f14e168]:
+            - link "Get a Library Card" [ref=f14e169] [cursor=pointer]:
+              - /url: https://cuyahogalibrary.org/get-a-ccpl-card
+          - listitem [ref=f14e170]:
+            - link "Hours & Locations" [ref=f14e171] [cursor=pointer]:
+              - /url: https://cuyahogalibrary.org/branches
+          - listitem [ref=f14e172]:
+            - link "Job Opportunities" [ref=f14e173] [cursor=pointer]:
+              - /url: https://secure6.saashr.com/ta/6192694.careers?CareersSearch
+          - listitem [ref=f14e174]:
+            - link "Policies" [ref=f14e175] [cursor=pointer]:
+              - /url: https://cuyahogalibrary.org/about/policies
+          - listitem [ref=f14e176]:
+            - link "Shop" [ref=f14e177] [cursor=pointer]:
+              - /url: https://shopccpl.storebloxcs.com/
+        - list [ref=f14e178]:
+          - listitem [ref=f14e179]:
+            - link [ref=f14e180] [cursor=pointer]:
+              - /url: https://www.facebook.com/CuyahogaLib
+              - img "Facebook" [ref=f14e181]
+          - listitem [ref=f14e182]:
+            - link [ref=f14e183] [cursor=pointer]:
+              - /url: https://www.instagram.com/cuyahogalib/
+              - img "Instagram" [ref=f14e184]
+          - listitem [ref=f14e185]:
+            - link [ref=f14e186] [cursor=pointer]:
+              - /url: https://www.youtube.com/user/cuyahogalibrary
+              - img "YouTube" [ref=f14e187]
+          - listitem [ref=f14e188]:
+            - link [ref=f14e189] [cursor=pointer]:
+              - /url: https://www.tiktok.com/@cuyahogalib
+              - img "Tik Tok" [ref=f14e190]
+          - listitem [ref=f14e191]:
+            - link [ref=f14e192] [cursor=pointer]:
+              - /url: https://www.threads.com/@cuyahogalib
+              - img "Threads" [ref=f14e193]
+      - generic [ref=f14e196]:
+        - generic [ref=f14e197]:
+          - link [ref=f14e198] [cursor=pointer]:
+            - /url: https://cuyahogalibrary.org/tell-us-your-story
+            - img "Tell Us Your Story" [ref=f14e199]
+          - link [ref=f14e201] [cursor=pointer]:
+            - /url: https://cuyahogalibrary.org/tell-us-your-story
+            - paragraph [ref=f14e202]: Tell Us Your Story
+            - paragraph [ref=f14e203]: Learn more
+        - generic [ref=f14e204]:
+          - link [ref=f14e205] [cursor=pointer]:
+            - /url: https://ccplfoundation.org/
+            - img "Support Your Library" [ref=f14e206]
+          - link [ref=f14e208] [cursor=pointer]:
+            - /url: https://ccplfoundation.org/
+            - paragraph [ref=f14e209]: Support Your Library
+            - paragraph [ref=f14e210]: Learn how
+        - generic [ref=f14e211]:
+          - link [ref=f14e212] [cursor=pointer]:
+            - /url: https://cuyahogalibrary.org/support/volunteer
+            - img "Volunteer" [ref=f14e213]
+          - link [ref=f14e215] [cursor=pointer]:
+            - /url: https://cuyahogalibrary.org/support/volunteer
+            - paragraph [ref=f14e216]: Volunteer
+            - paragraph [ref=f14e217]: Learn more
+        - generic [ref=f14e218]:
+          - link [ref=f14e219] [cursor=pointer]:
+            - /url: https://cuyahogalibrary.libanswers.com/
+            - img "Ask Us" [ref=f14e220]
+          - link [ref=f14e222] [cursor=pointer]:
+            - /url: https://cuyahogalibrary.libanswers.com/
+            - paragraph [ref=f14e223]: Ask Us
+            - paragraph [ref=f14e224]: Get answers to your questions
+  - region "Ask Us" [ref=f14e225]:
+    - button "Ask Us" [ref=f14e226] [cursor=pointer]

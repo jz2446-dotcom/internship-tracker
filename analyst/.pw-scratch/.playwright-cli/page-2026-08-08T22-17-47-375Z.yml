@@ -1,0 +1,469 @@
+- generic [active] [ref=f110e1]:
+  - banner [ref=f110e3]:
+    - generic:
+      - link "Skip to main content":
+        - /url: "#skipToMainContent"
+    - generic [ref=f110e7]:
+      - link "Company Logo" [ref=f110e9] [cursor=pointer]:
+        - /url: https://careers.united.com/us/en/
+        - img "Company Logo" [ref=f110e10]
+      - navigation "primary" [ref=f110e17]:
+        - list [ref=f110e18]:
+          - listitem [ref=f110e19]:
+            - link "Careers home" [ref=f110e21] [cursor=pointer]:
+              - /url: https://careers.united.com/us/en/home
+              - text: Careers Home
+          - listitem [ref=f110e22]:
+            - link "Locations" [ref=f110e24] [cursor=pointer]:
+              - /url: https://careers.united.com/us/en/search-results
+              - text: Open Jobs
+          - listitem [ref=f110e25]:
+            - link "Events" [ref=f110e27] [cursor=pointer]:
+              - /url: https://careers.united.com/us/en/events
+          - listitem [ref=f110e28]:
+            - button "Working At United" [ref=f110e29] [cursor=pointer]
+      - list [ref=f110e35]:
+        - listitem [ref=f110e36]:
+          - button "Login" [ref=f110e40] [cursor=pointer]
+        - listitem [ref=f110e47]:
+          - link "saved jobs (0)" [ref=f110e50] [cursor=pointer]:
+            - /url: https://careers.united.com/us/en/jobcart
+            - generic [ref=f110e54]: Saved jobs
+            - generic [ref=f110e55]: (0)
+  - main [ref=f110e56]:
+    - generic: "-"
+    - generic [ref=f110e57]: "-"
+    - generic [ref=f110e63]:
+      - generic [ref=f110e64]:
+        - region "Refine your search" [ref=f110e68]:
+          - text: $
+          - heading "Refine your search" [level=2] [ref=f110e71]
+          - generic [ref=f110e72]:
+            - generic [ref=f110e73]:
+              - heading [level=3] [ref=f110e76]:
+                - button "Category" [expanded] [ref=f110e77] [cursor=pointer]:
+                  - text: Category
+                  - generic [ref=f110e78]: "8"
+              - generic [ref=f110e80]:
+                - generic [ref=f110e82]:
+                  - searchbox "Category" [ref=f110e83]
+                  - text: ":"
+                - group "Category" [ref=f110e85]:
+                  - list [ref=f110e87]:
+                    - listitem [ref=f110e88]:
+                      - generic [ref=f110e89] [cursor=pointer]:
+                        - checkbox "Corporate 118 jobs" [ref=f110e90]
+                        - generic [ref=f110e92]:
+                          - text: Corporate
+                          - generic [ref=f110e93]:
+                            - text: (118)
+                            - generic [ref=f110e94]: jobs
+                    - listitem [ref=f110e95]:
+                      - generic [ref=f110e96] [cursor=pointer]:
+                        - checkbox "Digital Technology 61 jobs" [ref=f110e97]
+                        - generic [ref=f110e99]:
+                          - text: Digital Technology
+                          - generic [ref=f110e100]:
+                            - text: (61)
+                            - generic [ref=f110e101]: jobs
+                    - listitem [ref=f110e102]:
+                      - generic [ref=f110e103] [cursor=pointer]:
+                        - checkbox "Aircraft Maintenance and Support 44 jobs" [ref=f110e104]
+                        - generic [ref=f110e106]:
+                          - text: Aircraft Maintenance and Support
+                          - generic [ref=f110e107]:
+                            - text: (44)
+                            - generic [ref=f110e108]: jobs
+                    - listitem [ref=f110e109]:
+                      - generic [ref=f110e110] [cursor=pointer]:
+                        - checkbox "At the Airport 30 jobs" [ref=f110e111]
+                        - generic [ref=f110e113]:
+                          - text: At the Airport
+                          - generic [ref=f110e114]:
+                            - text: (30)
+                            - generic [ref=f110e115]: jobs
+                    - listitem [ref=f110e116]:
+                      - generic [ref=f110e117] [cursor=pointer]:
+                        - checkbox "Customer Solutions 6 jobs" [ref=f110e118]
+                        - generic [ref=f110e120]:
+                          - text: Customer Solutions
+                          - generic [ref=f110e121]:
+                            - text: (6)
+                            - generic [ref=f110e122]: jobs
+                    - listitem [ref=f110e123]:
+                      - generic [ref=f110e124] [cursor=pointer]:
+                        - checkbox "Flight Attendant 6 jobs" [ref=f110e125]
+                        - generic [ref=f110e127]:
+                          - text: Flight Attendant
+                          - generic [ref=f110e128]:
+                            - text: (6)
+                            - generic [ref=f110e129]: jobs
+            - generic [ref=f110e130]:
+              - heading [level=3] [ref=f110e133]:
+                - button "Country" [ref=f110e134] [cursor=pointer]:
+                  - text: Country
+                  - generic [ref=f110e135]: (
+              - generic: ":"
+            - generic [ref=f110e136]:
+              - heading [level=3] [ref=f110e139]:
+                - button "State / Province" [ref=f110e140] [cursor=pointer]:
+                  - text: State / Province
+                  - generic [ref=f110e141]: (
+              - generic: ":"
+            - generic [ref=f110e142]:
+              - heading [level=3] [ref=f110e145]:
+                - button "City" [ref=f110e146] [cursor=pointer]:
+                  - text: City
+                  - generic [ref=f110e147]: (
+              - generic: ":"
+            - generic [ref=f110e148]:
+              - heading [level=3] [ref=f110e151]:
+                - button "Hiring Type" [ref=f110e152] [cursor=pointer]:
+                  - text: Hiring Type
+                  - generic [ref=f110e153]: (
+              - generic: ":"
+            - generic [ref=f110e154]:
+              - heading [level=3] [ref=f110e157]:
+                - button "Job ID" [ref=f110e158] [cursor=pointer]:
+                  - text: Job ID
+                  - generic [ref=f110e159]: (
+              - generic: ":"
+        - generic [ref=f110e167]:
+          - link "United Benefits" [ref=f110e168] [cursor=pointer]:
+            - /url: benefits
+          - generic [ref=f110e176]:
+            - heading "United Benefits" [level=2] [ref=f110e178]
+            - generic [ref=f110e181]: Learn more about the competitive benefits package that will keep you happy, healthy and well-traveled.
+      - generic [ref=f110e187]:
+        - region "Search results" [ref=f110e188]:
+          - generic [ref=f110e190]:
+            - generic [ref=f110e192]:
+              - generic [ref=f110e195]:
+                - generic [ref=f110e196]: Search job title, location, or military code
+                - textbox "Search job title, location, or military code" [ref=f110e197]
+                - text: "$ :"
+              - generic [ref=f110e199]:
+                - generic [ref=f110e200]: 155 results
+                - generic [ref=f110e201]:
+                  - text: "|"
+                  - generic [ref=f110e202]: Sort by
+                  - generic [ref=f110e203]:
+                    - combobox "Sort by" [ref=f110e204]:
+                      - option "Most relevant" [selected]
+                      - option "Most recent"
+                    - generic: 
+                - text: F
+            - list [ref=f110e206]:
+              - listitem [ref=f110e207]:
+                - generic [ref=f110e208]:
+                  - generic [ref=f110e209]:
+                    - heading [level=3] [ref=f110e210]:
+                      - link "Senior Developer - Information Technology Job ID is WHQ00026663" [ref=f110e211] [cursor=pointer]:
+                        - /url: https://careers.united.com/us/en/job/WHQ00026663/Senior-Developer-Information-Technology
+                        - generic [ref=f110e212]: Senior Developer - Information Technology
+                    - paragraph [ref=f110e213]:
+                      - generic [ref=f110e215]:
+                        - generic [ref=f110e216]: Location
+                        - generic [ref=f110e217]: 
+                        - text: Chicago, Illinois, United States
+                      - button "Associated with 2 categories" [ref=f110e220] [cursor=pointer]:
+                        - generic [ref=f110e221]: 
+                        - text: Associated with 2 categories
+                      - generic [ref=f110e223]:
+                        - generic [ref=f110e224]: Job Id
+                        - text: WHQ00026663
+                      - generic [ref=f110e226]:
+                        - generic [ref=f110e227]: Posted Date
+                        - generic [ref=f110e228]: 
+                        - text: July 30 2026
+                    - text: 
+                    - paragraph [ref=f110e229]: We are looking for a Senior Developer to modernise the schedule development process within Network Planning, delivering end-to-end cloud-based solutions. You will lead technical design and application support, collaborating with internal and external partners. Ideal candidates bring significant experience in large-scale distributed applications and cloud technologies.
+                  - link "Apply Now for Senior Developer - Information Technology" [ref=f110e232] [cursor=pointer]:
+                    - /url: https://careers.united.com/us/en/hvhapply?jobSeqNo=UAIUADUSWHQ00026663EXTERNALENUSTALEO
+                    - text: Apply Now
+                    - generic [ref=f110e233]: Senior Developer - Information Technology
+              - listitem [ref=f110e234]:
+                - generic [ref=f110e235]:
+                  - generic [ref=f110e236]:
+                    - heading [level=3] [ref=f110e237]:
+                      - link "Aircraft Tooling Analyst (Supply Chain Forecasting) Job ID is IAH00005625" [ref=f110e238] [cursor=pointer]:
+                        - /url: https://careers.united.com/us/en/job/IAH00005625/Aircraft-Tooling-Analyst-Supply-Chain-Forecasting
+                        - generic [ref=f110e239]: Aircraft Tooling Analyst (Supply Chain Forecasting)
+                    - paragraph [ref=f110e240]:
+                      - generic [ref=f110e242]:
+                        - generic [ref=f110e243]: Location
+                        - generic [ref=f110e244]: 
+                        - text: Houston, Texas, United States
+                      - button "Associated with 2 categories" [ref=f110e247] [cursor=pointer]:
+                        - generic [ref=f110e248]: 
+                        - text: Associated with 2 categories
+                      - generic [ref=f110e250]:
+                        - generic [ref=f110e251]: Job Id
+                        - text: IAH00005625
+                      - generic [ref=f110e253]:
+                        - generic [ref=f110e254]: Posted Date
+                        - generic [ref=f110e255]: 
+                        - text: August 06 2026
+                    - text: 
+                    - paragraph [ref=f110e256]: Join us as an Aircraft Tooling Analyst, where you will leverage advanced data analytics to drive tooling planning and procurement for United Airlines’ aircraft fleet. You will manage inventory, coordinate tooling logistics, and support continuous improvement initiatives. Ideal candidates bring technical expertise in aviation maintenance and strong analytical skills.
+                  - link "Apply Now for Aircraft Tooling Analyst (Supply Chain Forecasting)" [ref=f110e259] [cursor=pointer]:
+                    - /url: https://careers.united.com/us/en/hvhapply?jobSeqNo=UAIUADUSIAH00005625EXTERNALENUSTALEO
+                    - text: Apply Now
+                    - generic [ref=f110e260]: Aircraft Tooling Analyst (Supply Chain Forecasting)
+              - listitem [ref=f110e261]:
+                - generic [ref=f110e262]:
+                  - generic [ref=f110e263]:
+                    - heading [level=3] [ref=f110e264]:
+                      - link "Product Manager - Information Technology Job ID is WHQ00026525" [ref=f110e265] [cursor=pointer]:
+                        - /url: https://careers.united.com/us/en/job/WHQ00026525/Product-Manager-Information-Technology
+                        - generic [ref=f110e266]: Product Manager - Information Technology
+                    - paragraph [ref=f110e267]:
+                      - generic [ref=f110e269]:
+                        - generic [ref=f110e270]: Location
+                        - generic [ref=f110e271]: 
+                        - text: Chicago, Illinois, United States
+                      - button "Associated with 2 categories" [ref=f110e274] [cursor=pointer]:
+                        - generic [ref=f110e275]: 
+                        - text: Associated with 2 categories
+                      - generic [ref=f110e277]:
+                        - generic [ref=f110e278]: Job Id
+                        - text: WHQ00026525
+                      - generic [ref=f110e280]:
+                        - generic [ref=f110e281]: Posted Date
+                        - generic [ref=f110e282]: 
+                        - text: July 28 2026
+                    - text: 
+                    - paragraph [ref=f110e283]: Become part of our team as a Product Manager - Information Technology, where you will define and communicate technical product vision and strategy, collaborating with stakeholders to develop and maintain the product roadmap. Ideal candidates bring experience in technology product management and strong cross-functional leadership skills.
+                  - link "Apply Now for Product Manager - Information Technology" [ref=f110e286] [cursor=pointer]:
+                    - /url: https://careers.united.com/us/en/hvhapply?jobSeqNo=UAIUADUSWHQ00026525EXTERNALENUSTALEO
+                    - text: Apply Now
+                    - generic [ref=f110e287]: Product Manager - Information Technology
+              - listitem [ref=f110e288]:
+                - generic [ref=f110e289]:
+                  - generic [ref=f110e290]:
+                    - heading [level=3] [ref=f110e291]:
+                      - link "Mechanic TWN Job ID is TPE00000125" [ref=f110e292] [cursor=pointer]:
+                        - /url: https://careers.united.com/us/en/job/TPE00000125/Mechanic-TWN
+                        - generic [ref=f110e293]: Mechanic TWN
+                    - paragraph [ref=f110e294]:
+                      - generic [ref=f110e296]:
+                        - generic [ref=f110e297]: Location
+                        - generic [ref=f110e298]: 
+                        - text: Taipei, Taipei, Taiwan
+                      - button "Associated with 2 categories" [ref=f110e301] [cursor=pointer]:
+                        - generic [ref=f110e302]: 
+                        - text: Associated with 2 categories
+                      - generic [ref=f110e304]:
+                        - generic [ref=f110e305]: Job Id
+                        - text: TPE00000125
+                      - generic [ref=f110e307]:
+                        - generic [ref=f110e308]: Posted Date
+                        - generic [ref=f110e309]: 
+                        - text: July 29 2026
+                    - text: 
+                    - paragraph [ref=f110e310]: We are seeking a Mechanic TWN to support aircraft maintenance operations, ensuring the upkeep and repair of company assets. Key responsibilities include servicing, repairing, and documenting aircraft work, as well as handling parts and equipment. Ideal candidates are proactive, team-oriented, and fluent in English and Mandarin.
+                  - link "Apply Now for Mechanic TWN" [ref=f110e313] [cursor=pointer]:
+                    - /url: https://careers.united.com/us/en/hvhapply?jobSeqNo=UAIUADUSTPE00000125EXTERNALENUSTALEO
+                    - text: Apply Now
+                    - generic [ref=f110e314]: Mechanic TWN
+              - listitem [ref=f110e315]:
+                - generic [ref=f110e316]:
+                  - generic [ref=f110e317]:
+                    - heading [level=3] [ref=f110e318]:
+                      - link "Manager - Crew Security Compliance (Hybrid) Job ID is WHQ00026701" [ref=f110e319] [cursor=pointer]:
+                        - /url: https://careers.united.com/us/en/job/WHQ00026701/Manager-Crew-Security-Compliance-Hybrid
+                        - generic [ref=f110e320]: Manager - Crew Security Compliance (Hybrid)
+                    - paragraph [ref=f110e321]:
+                      - generic [ref=f110e323]:
+                        - generic [ref=f110e324]: Location
+                        - generic [ref=f110e325]: 
+                        - text: Chicago, Illinois, United States
+                      - generic [ref=f110e327]:
+                        - generic [ref=f110e328]: Category
+                        - generic [ref=f110e329]: 
+                        - text: Corporate
+                      - generic [ref=f110e331]:
+                        - generic [ref=f110e332]: Job Id
+                        - text: WHQ00026701
+                      - generic [ref=f110e334]:
+                        - generic [ref=f110e335]: Posted Date
+                        - generic [ref=f110e336]: 
+                        - text: August 06 2026
+                    - text: 
+                    - paragraph [ref=f110e337]: Join our team as a Manager - Crew Security Compliance to oversee regulatory compliance and operational procedures for crew security mandates. Lead policy development, collaborate with internal and external partners, and ensure adherence to aviation security standards. Ideal for candidates with experience in security, risk management, and compliance within the aviation sector.
+                  - link "Apply Now for Manager - Crew Security Compliance (Hybrid)" [ref=f110e340] [cursor=pointer]:
+                    - /url: https://careers.united.com/us/en/hvhapply?jobSeqNo=UAIUADUSWHQ00026701EXTERNALENUSTALEO
+                    - text: Apply Now
+                    - generic [ref=f110e341]: Manager - Crew Security Compliance (Hybrid)
+              - listitem [ref=f110e342]:
+                - generic [ref=f110e343]:
+                  - generic [ref=f110e344]:
+                    - heading [level=3] [ref=f110e345]:
+                      - link "Principal Architect - Information Technology Job ID is HSC00001069" [ref=f110e346] [cursor=pointer]:
+                        - /url: https://careers.united.com/us/en/job/HSC00001069/Principal-Architect-Information-Technology
+                        - generic [ref=f110e347]: Principal Architect - Information Technology
+                    - paragraph [ref=f110e348]:
+                      - button "Available in 2 locations" [ref=f110e351] [cursor=pointer]:
+                        - generic [ref=f110e352]: 
+                        - text: Available in 2 locations
+                      - button "Associated with 2 categories" [ref=f110e355] [cursor=pointer]:
+                        - generic [ref=f110e356]: 
+                        - text: Associated with 2 categories
+                      - generic [ref=f110e358]:
+                        - generic [ref=f110e359]: Job Id
+                        - text: HSC00001069
+                      - generic [ref=f110e361]:
+                        - generic [ref=f110e362]: Posted Date
+                        - generic [ref=f110e363]: 
+                        - text: July 22 2026
+                    - text: 
+                    - paragraph [ref=f110e364]: We are seeking a Principal Architect to lead enterprise architecture standards across United Airlines’ DT Tech Ops. Drive compliance, oversee technical design, and ensure secure, scalable solutions. Ideal for experienced professionals with deep expertise in enterprise applications, cloud infrastructure, and DevOps practices.
+                  - link "Apply Now for Principal Architect - Information Technology" [ref=f110e367] [cursor=pointer]:
+                    - /url: https://careers.united.com/us/en/hvhapply?jobSeqNo=UAIUADUSHSC00001069EXTERNALENUSTALEO
+                    - text: Apply Now
+                    - generic [ref=f110e368]: Principal Architect - Information Technology
+              - listitem [ref=f110e369]:
+                - generic [ref=f110e370]:
+                  - generic [ref=f110e371]:
+                    - heading [level=3] [ref=f110e372]:
+                      - link "Sr Technical Lead (Java, AWS) Job ID is WHQ00026258" [ref=f110e373] [cursor=pointer]:
+                        - /url: https://careers.united.com/us/en/job/WHQ00026258/Sr-Technical-Lead-Java-AWS
+                        - generic [ref=f110e374]: Sr Technical Lead (Java, AWS)
+                    - paragraph [ref=f110e375]:
+                      - generic [ref=f110e377]:
+                        - generic [ref=f110e378]: Location
+                        - generic [ref=f110e379]: 
+                        - text: Chicago, Illinois, United States
+                      - button "Associated with 2 categories" [ref=f110e382] [cursor=pointer]:
+                        - generic [ref=f110e383]: 
+                        - text: Associated with 2 categories
+                      - generic [ref=f110e385]:
+                        - generic [ref=f110e386]: Job Id
+                        - text: WHQ00026258
+                      - generic [ref=f110e388]:
+                        - generic [ref=f110e389]: Posted Date
+                        - generic [ref=f110e390]: 
+                        - text: July 09 2026
+                    - text: 
+                    - paragraph [ref=f110e391]: Join our team as a Senior Technical Lead to drive the development of our AWS-based cloud platform, leading a team of developers and aligning platform roadmap with organisational goals. This role requires strong expertise in AWS, Java, and Spring Boot, with proven leadership in technical delivery.
+                  - link "Apply Now for Sr Technical Lead (Java, AWS)" [ref=f110e394] [cursor=pointer]:
+                    - /url: https://careers.united.com/us/en/hvhapply?jobSeqNo=UAIUADUSWHQ00026258EXTERNALENUSTALEO
+                    - text: Apply Now
+                    - generic [ref=f110e395]: Sr Technical Lead (Java, AWS)
+              - listitem [ref=f110e396]:
+                - generic [ref=f110e397]:
+                  - generic [ref=f110e398]:
+                    - heading [level=3] [ref=f110e399]:
+                      - link "Associate Strategic Sourcing Specialist - Global Procurement Job ID is GGN00002592" [ref=f110e400] [cursor=pointer]:
+                        - /url: https://careers.united.com/us/en/job/GGN00002592/Associate-Strategic-Sourcing-Specialist-Global-Procurement
+                        - generic [ref=f110e401]: Associate Strategic Sourcing Specialist - Global Procurement
+                    - paragraph [ref=f110e402]:
+                      - generic [ref=f110e404]:
+                        - generic [ref=f110e405]: Location
+                        - generic [ref=f110e406]: 
+                        - text: Gurugram, Haryana, India
+                      - generic [ref=f110e408]:
+                        - generic [ref=f110e409]: Category
+                        - generic [ref=f110e410]: 
+                        - text: Corporate
+                      - generic [ref=f110e412]:
+                        - generic [ref=f110e413]: Job Id
+                        - text: GGN00002592
+                      - generic [ref=f110e415]:
+                        - generic [ref=f110e416]: Posted Date
+                        - generic [ref=f110e417]: 
+                        - text: July 30 2026
+                    - text: 
+                    - paragraph [ref=f110e418]: Join us as an Associate Strategic Sourcing Specialist, supporting procurement initiatives for IT Hardware, Software, Telecom, and Corporate Services. Provide spend analytics and contract redlining, collaborating with category managers to drive cost savings. Ideal for candidates with procurement or finance experience and strong analytical skills.
+                  - link "Apply Now for Associate Strategic Sourcing Specialist - Global Procurement" [ref=f110e421] [cursor=pointer]:
+                    - /url: https://careers.united.com/us/en/hvhapply?jobSeqNo=UAIUADUSGGN00002592EXTERNALENUSTALEO
+                    - text: Apply Now
+                    - generic [ref=f110e422]: Associate Strategic Sourcing Specialist - Global Procurement
+              - listitem [ref=f110e423]:
+                - generic [ref=f110e424]:
+                  - generic [ref=f110e425]:
+                    - heading [level=3] [ref=f110e426]:
+                      - link "Senior Manager - Cyber Defense Job ID is WHQ00026232" [ref=f110e427] [cursor=pointer]:
+                        - /url: https://careers.united.com/us/en/job/WHQ00026232/Senior-Manager-Cyber-Defense
+                        - generic [ref=f110e428]: Senior Manager - Cyber Defense
+                    - paragraph [ref=f110e429]:
+                      - generic [ref=f110e431]:
+                        - generic [ref=f110e432]: Location
+                        - generic [ref=f110e433]: 
+                        - text: Arlington Heights, Illinois, United States
+                      - button "Associated with 2 categories" [ref=f110e436] [cursor=pointer]:
+                        - generic [ref=f110e437]: 
+                        - text: Associated with 2 categories
+                      - generic [ref=f110e439]:
+                        - generic [ref=f110e440]: Job Id
+                        - text: WHQ00026232
+                      - generic [ref=f110e442]:
+                        - generic [ref=f110e443]: Posted Date
+                        - generic [ref=f110e444]: 
+                        - text: May 29 2026
+                    - text: 
+                    - paragraph [ref=f110e445]: Seeking a Senior Manager - Cyber Defense to lead United Airlines' Cybersecurity Operations Centre, ensuring secure and resilient systems. Oversee incident response, threat intelligence, and AI-driven security processes. Ideal for experienced cybersecurity professionals with strong leadership and operational expertise.
+                  - link "Apply Now for Senior Manager - Cyber Defense" [ref=f110e448] [cursor=pointer]:
+                    - /url: https://careers.united.com/us/en/hvhapply?jobSeqNo=UAIUADUSWHQ00026232EXTERNALENUSTALEO
+                    - text: Apply Now
+                    - generic [ref=f110e449]: Senior Manager - Cyber Defense
+              - listitem [ref=f110e450]:
+                - generic [ref=f110e451]:
+                  - generic [ref=f110e452]:
+                    - heading [level=3] [ref=f110e453]:
+                      - link "Senior Knowledge Graph Developer Job ID is WHQ00026584" [ref=f110e454] [cursor=pointer]:
+                        - /url: https://careers.united.com/us/en/job/WHQ00026584/Senior-Knowledge-Graph-Developer
+                        - generic [ref=f110e455]: Senior Knowledge Graph Developer
+                    - paragraph [ref=f110e456]:
+                      - generic [ref=f110e458]:
+                        - generic [ref=f110e459]: Location
+                        - generic [ref=f110e460]: 
+                        - text: Chicago, Illinois, United States
+                      - button "Associated with 2 categories" [ref=f110e463] [cursor=pointer]:
+                        - generic [ref=f110e464]: 
+                        - text: Associated with 2 categories
+                      - generic [ref=f110e466]:
+                        - generic [ref=f110e467]: Job Id
+                        - text: WHQ00026584
+                      - generic [ref=f110e469]:
+                        - generic [ref=f110e470]: Posted Date
+                        - generic [ref=f110e471]: 
+                        - text: July 31 2026
+                    - text: 
+                    - paragraph [ref=f110e472]: Exciting opportunity for a Senior Knowledge Graph Developer to lead the design and implementation of scalable enterprise knowledge graphs. Drive the transformation of complex data into interconnected semantic layers, collaborating with data engineering and AI/ML teams. Ideal for experienced professionals with deep expertise in graph technologies and semantic web frameworks.
+                  - link "Apply Now for Senior Knowledge Graph Developer" [ref=f110e475] [cursor=pointer]:
+                    - /url: https://careers.united.com/us/en/hvhapply?jobSeqNo=UAIUADUSWHQ00026584EXTERNALENUSTALEO
+                    - text: Apply Now
+                    - generic [ref=f110e476]: Senior Knowledge Graph Developer
+        - region "pagination" [ref=f110e477]:
+          - text: Z
+          - button "Page 1": "1"
+          - button "Page 2" [ref=f110e478] [cursor=pointer]: "2"
+          - button "Page 3" [ref=f110e479] [cursor=pointer]: "3"
+          - button "Page 4" [ref=f110e480] [cursor=pointer]: "4"
+          - button "Page 5" [ref=f110e481] [cursor=pointer]: "5"
+          - button "Page 6" [ref=f110e482] [cursor=pointer]: "6"
+          - button "Page 7" [ref=f110e483] [cursor=pointer]: "7"
+          - button "Page 8" [ref=f110e484] [cursor=pointer]: "8"
+          - button "Page 9" [ref=f110e485] [cursor=pointer]: "9"
+          - button "Page 10" [ref=f110e486] [cursor=pointer]: "10"
+          - button "View next page" [ref=f110e487] [cursor=pointer]:
+            - generic [ref=f110e488]: 
+  - contentinfo [ref=f110e489]:
+    - generic [ref=f110e491]:
+      - generic [ref=f110e494]:
+        - list [ref=f110e498]:
+          - listitem [ref=f110e499]:
+            - link "Career Site Cookie Settings" [ref=f110e501] [cursor=pointer]:
+              - /url: javascript:showConsentPreferencesPopup()
+          - listitem [ref=f110e502]:
+            - link "Personal Information" [ref=f110e504] [cursor=pointer]:
+              - /url: https://careers.united.com/us/en/personal-information
+        - generic [ref=f110e505]:
+          - strong [ref=f110e506]: United Careers – Accessibility and Accommodations
+          - text: United complies with all state and federal laws and supports applicants and employees by providing reasonable accommodations for disabilities and sincerely held religious beliefs, observances, and practices. Applicants, employees, and individuals with conditional job offers may request an accommodation or support at any stage of the hiring process or employment to help perform essential job functions. For assistance, please contact
+          - link "JobAccommodations@united.com" [ref=f110e508] [cursor=pointer]:
+            - /url: mailto:JobAccommodations@united.com
+          - text: .
+      - generic [ref=f110e509]: Copyright © 2026 United Airlines, Inc. All rights reserved.
+  - iframe [ref=f110e513]

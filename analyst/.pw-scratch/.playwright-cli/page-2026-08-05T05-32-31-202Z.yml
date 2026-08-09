@@ -1,0 +1,20 @@
+- generic [ref=f4e3]:
+  - generic [ref=f4e6]:
+    - heading "This site can’t be reached" [level=1] [ref=f4e7]
+    - paragraph [ref=f4e8]:
+      - strong [ref=f4e9]: careers.vanguard.com
+      - text: ’s server IP address could not be found.
+    - generic [ref=f4e10]:
+      - paragraph [ref=f4e11]: "Try:"
+      - list [ref=f4e12]:
+        - listitem [ref=f4e13]: Checking the connection
+        - listitem [ref=f4e14]:
+          - link "Checking the proxy, firewall, and DNS configuration" [ref=f4e15] [cursor=pointer]:
+            - /url: "#buttons"
+        - listitem [ref=f4e16]:
+          - link "Running Windows Network Diagnostics" [ref=f4e17] [cursor=pointer]:
+            - /url: javascript:diagnoseErrors()
+    - generic [ref=f4e18]: ERR_NAME_NOT_RESOLVED
+  - generic [ref=f4e19]:
+    - button "Reload" [ref=f4e21] [cursor=pointer]
+    - button "Details" [ref=f4e22] [cursor=pointer]

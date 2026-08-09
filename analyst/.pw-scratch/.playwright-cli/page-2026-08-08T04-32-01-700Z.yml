@@ -1,0 +1,175 @@
+- generic [active] [ref=f19e1]:
+  - alert [ref=f19e3]:
+    - paragraph [ref=f19e8]:
+      - text: We use optional cookies to improve your experience on our websites, such as through social media connections, and to display personalized advertising based on your online activity. If you reject optional cookies, only cookies necessary to provide you the services will be used. You may change your selection by clicking “Manage Cookies” at the bottom of the page.
+      - link "Data Privacy Notice" [ref=f19e9] [cursor=pointer]:
+        - /url: https://go.microsoft.com/fwlink/?LinkId=518021
+      - link "Third-Party Cookies" [ref=f19e10] [cursor=pointer]:
+        - /url: https://aka.ms/3rdpartycookies
+    - generic [ref=f19e11]:
+      - button "Accept" [ref=f19e12] [cursor=pointer]
+      - button "Reject" [ref=f19e13] [cursor=pointer]
+      - button "Manage cookies" [ref=f19e14] [cursor=pointer]
+  - generic [ref=f19e19]:
+    - link "Skip to main content" [ref=f19e20] [cursor=pointer]:
+      - /url: javascript:void(0)
+    - banner [ref=f19e21]:
+      - generic [ref=f19e23]:
+        - text:  
+        - link "Microsoft" [ref=f19e24] [cursor=pointer]:
+          - /url: https://www.microsoft.com
+        - text:  
+        - link "Careers" [ref=f19e28] [cursor=pointer]:
+          - /url: https://careers.microsoft.com/v2/global/en/home.html
+        - navigation "Contextual menu" [ref=f19e30]:
+          - list [ref=f19e31]:
+            - listitem [ref=f19e32]:
+              - link "Locations" [ref=f19e33] [cursor=pointer]:
+                - /url: https://careers.microsoft.com/v2/global/en/locations.html
+            - listitem [ref=f19e34]:
+              - link "Professions" [ref=f19e35] [cursor=pointer]:
+                - /url: https://careers.microsoft.com/v2/global/en/professions.html
+            - listitem [ref=f19e36]:
+              - button "Programs " [ref=f19e38] [cursor=pointer]
+            - listitem [ref=f19e39]:
+              - button "Life at Microsoft " [ref=f19e41] [cursor=pointer]
+            - listitem [ref=f19e42]:
+              - link "Hiring tips" [ref=f19e43] [cursor=pointer]:
+                - /url: https://careers.microsoft.com/v2/global/en/hiring-tips.html
+            - text: 
+            - listitem
+        - generic [ref=f19e44]:
+          - button "Search jobs" [ref=f19e46] [cursor=pointer]: 
+          - generic:  
+          - generic [ref=f19e47]: Sign in
+  - generic [ref=f19e53]:
+    - banner [ref=f19e54]:
+      - heading "Join Our Talent Network" [level=1] [ref=f19e56]
+    - main [ref=f19e58]:
+      - generic [ref=f19e59]: Whether you're in the market or just keeping your options open, our Talent Network keeps you connected to the latest news at Microsoft.We'll keep you in the loop with job opportunities, employee stories, innovative projects, and tips to help you grow. No pressure, just possibilities.
+      - generic [ref=f19e62]: Required fields are indicated with *
+      - generic [ref=f19e67]:
+        - generic [ref=f19e68]: Resume *
+        - button "Please upload resume" [ref=f19e73] [cursor=pointer]
+      - generic [ref=f19e74]:
+        - alert [ref=f19e75]
+        - generic [ref=f19e76]:
+          - generic [ref=f19e80]:
+            - generic [ref=f19e81]:
+              - generic [ref=f19e82]: Preferred first name
+              - text: "*"
+            - textbox "Preferred first name" [ref=f19e85]
+          - generic [ref=f19e87]:
+            - generic [ref=f19e88]:
+              - generic [ref=f19e89]: Preferred last name
+              - text: "*"
+            - textbox "Preferred last name" [ref=f19e92]
+          - generic [ref=f19e94]:
+            - generic [ref=f19e95]:
+              - generic [ref=f19e96]: Email address
+              - text: "*"
+            - textbox "Email address" [ref=f19e99]:
+              - /placeholder: Email
+          - generic [ref=f19e100]:
+            - generic [ref=f19e101]:
+              - generic [ref=f19e102]: Country/region of residence
+              - text: "*"
+            - generic [ref=f19e104]:
+              - status [ref=f19e105]
+              - generic [ref=f19e110] [cursor=pointer]:
+                - combobox "Country/region of residence" [ref=f19e111]
+                - button [ref=f19e112]
+          - generic [ref=f19e116]:
+            - generic [ref=f19e117]: When are you willing to make a career move?
+            - generic [ref=f19e121]:
+              - status [ref=f19e122]
+              - generic [ref=f19e127] [cursor=pointer]:
+                - combobox "When are you willing to make a career move?" [ref=f19e128]
+                - button [ref=f19e129]
+          - generic [ref=f19e133]:
+            - generic [ref=f19e134]: "For US only: Do you have Active Security Clearance?"
+            - generic [ref=f19e138]:
+              - status [ref=f19e139]
+              - generic [ref=f19e144] [cursor=pointer]:
+                - 'combobox "For US only: Do you have Active Security Clearance?" [ref=f19e145]'
+                - button [ref=f19e146]
+      - generic [ref=f19e151]:
+        - generic [ref=f19e152]:
+          - generic [ref=f19e153]: Desired area of work
+          - text: "*"
+        - generic [ref=f19e157]:
+          - generic [ref=f19e158]: Select
+          - combobox "Desired area of work" [ref=f19e160]
+      - generic [ref=f19e166]:
+        - group:
+          - generic [ref=f19e168]:
+            - checkbox "I agree to receive electronic communication from Microsoft Recruiting, including updates about events, news, career opportunities, and direct outreach from recruiters. I also agree to receive email notifications when new jobs open that align with my profile. If I no longer wish to receive these communications, I can unsubscribe at any time using the “unsubscribe” link provided in the footer of each email. I understand that Microsoft Recruiting may view my profile as a potential match recommendation for roles I haven't applied for, based on AI insights." [ref=f19e170] [cursor=pointer]: 
+            - generic [ref=f19e171]: "* I agree to receive electronic communication from Microsoft Recruiting, including updates about events, news, career opportunities, and direct outreach from recruiters. I also agree to receive email notifications when new jobs open that align with my profile. If I no longer wish to receive these communications, I can unsubscribe at any time using the “unsubscribe” link provided in the footer of each email. I understand that Microsoft Recruiting may view my profile as a potential match recommendation for roles I haven't applied for, based on AI insights."
+      - button "Join Talent Network" [ref=f19e175] [cursor=pointer]
+  - contentinfo [ref=f19e177]:
+    - generic [ref=f19e180]:
+      - paragraph [ref=f19e182]:
+        - link [ref=f19e183] [cursor=pointer]:
+          - /url: https://eightfold.ai
+          - text: Powered by
+          - img "Eightfold AI Logo" [ref=f19e184]
+      - paragraph [ref=f19e187]:
+        - text: This site uses AI technology provided by Eightfold, the provider of the system. Microsoft, as the deployer, applies human oversight and judgment when using this technology. For details on Eightfold's AI functionality, please see
+        - link "Eightfold's transparency documentation" [ref=f19e188] [cursor=pointer]:
+          - /url: https://eightfold.ai/responsible-ai/
+        - text: . Learn more about Microsoft's data practices in the
+        - link "Microsoft Data Privacy Notice" [ref=f19e189] [cursor=pointer]:
+          - /url: http://go.microsoft.com/fwlink/?LinkId=518021
+        - text: and
+        - link "Career Site Transparency FAQs" [ref=f19e190] [cursor=pointer]:
+          - /url: https://careers.microsoft.com/v2/global/en/transparency.html
+        - text: .
+      - contentinfo [ref=f19e191]:
+        - contentinfo [ref=f19e192]:
+          - generic [ref=f19e193]:
+            - generic [ref=f19e194]:
+              - generic [ref=f19e195]:
+                - generic [ref=f19e196]: 
+                - generic [ref=f19e197]:
+                  - link "English" [disabled]
+                  - text: "|"
+                - link "FR - Canada" [ref=f19e199] [cursor=pointer]
+              - generic [ref=f19e201]:
+                - link "Support" [ref=f19e203] [cursor=pointer]:
+                  - /url: https://apply.careers.microsoft.com/careers/forms/create?templateId=yx2LlRBJ7wq&fullPageResponse=1&hl=en-US
+                - link "Accessibility" [ref=f19e205] [cursor=pointer]:
+                  - /url: https://careers.microsoft.com/v2/global/en/accessibility.html
+                - link "Microsoft Data Privacy Notice" [ref=f19e207] [cursor=pointer]:
+                  - /url: http://go.microsoft.com/fwlink/?LinkId=518021
+                - link "Transparency FAQ" [ref=f19e209] [cursor=pointer]:
+                  - /url: https://careers.microsoft.com/v2/global/en/transparency.html
+                - link "Legal policies" [ref=f19e211] [cursor=pointer]:
+                  - /url: https://careers.microsoft.com/v2/global/en/legal-policies.html
+                - link "Contractor roles" [ref=f19e213] [cursor=pointer]:
+                  - /url: https://careers.microsoft.com/v2/global/en/contractor-roles.html
+            - generic [ref=f19e214]:
+              - link "Facebook" [ref=f19e216] [cursor=pointer]:
+                - /url: https://www.facebook.com/MicrosoftLife
+              - link "Linkedin" [ref=f19e221] [cursor=pointer]:
+                - /url: https://www.linkedin.com/company/microsoft
+              - link "Instagram" [ref=f19e228] [cursor=pointer]:
+                - /url: https://www.instagram.com/microsoftlife
+              - link "x" [ref=f19e238] [cursor=pointer]:
+                - /url: https://x.com/microsoft
+          - generic [ref=f19e245]:
+            - link "Your Privacy Choices" [ref=f19e252] [cursor=pointer]:
+              - /url: https://aka.ms/yourcaliforniaprivacychoices
+            - link "Consumer Health Privacy" [ref=f19e253] [cursor=pointer]:
+              - /url: https://go.microsoft.com/fwlink/?linkid=2259814
+            - link "Privacy" [ref=f19e254] [cursor=pointer]:
+              - /url: https://go.microsoft.com/fwlink/?LinkId=521839
+            - button "Manage cookies" [ref=f19e255] [cursor=pointer]
+            - link "Trademarks" [ref=f19e256] [cursor=pointer]:
+              - /url: https://go.microsoft.com/fwlink/?linkid=2196228
+            - link "Terms of use" [ref=f19e257] [cursor=pointer]:
+              - /url: https://go.microsoft.com/fwlink/?LinkID=206977
+            - generic [ref=f19e258]: © Microsoft 2026
+  - iframe [ref=f19e261]:
+    - generic [ref=f20e6]:
+      - text: protected by
+      - strong [ref=f20e7]: reCAPTCHA

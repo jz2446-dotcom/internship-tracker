@@ -1,0 +1,97 @@
+- generic [ref=f289e1]:
+  - main [ref=f289e2]:
+    - link "Skip to main content" [ref=f289e3] [cursor=pointer]:
+      - /url: "#mainContent"
+    - banner "wealthgetheadernavigation" [ref=f289e4]:
+      - generic [ref=f289e5]:
+        - generic [ref=f289e7]:
+          - link "Contact us" [ref=f289e8] [cursor=pointer]:
+            - /url: /global/contact-us
+          - link "Subscribe to insights" [ref=f289e9] [cursor=pointer]:
+            - /url: /global/subscription
+          - button "Institutional | Global" [ref=f289e11] [cursor=pointer]
+          - link "Log in" [ref=f289e23] [cursor=pointer]:
+            - /url: /global/login
+        - generic [ref=f289e24]:
+          - link [ref=f289e25] [cursor=pointer]:
+            - /url: /global?type=global
+            - img "Nuveen Logo" [ref=f289e26]
+          - generic [ref=f289e28]:
+            - navigation "Insights" [ref=f289e29] [cursor=pointer]
+            - navigation "Investment capabilities" [ref=f289e32] [cursor=pointer]
+            - navigation "About us" [ref=f289e35] [cursor=pointer]
+            - button "Search" [ref=f289e39]
+    - generic:
+      - generic:
+        - generic:
+          - button "Close drawer":
+            - img "close"
+          - generic:
+            - generic:
+              - list:
+                - listitem:
+                  - button "nuv-utility-drawer-tab-button": Client portal
+    - generic [ref=f289e44]:
+      - button "close-button" [ref=f289e45] [cursor=pointer]:
+        - img "close-icon" [ref=f289e46]
+      - generic [ref=f289e49]:
+        - generic [ref=f289e50]: Willkommen bei Nuveen
+        - generic [ref=f289e51]: Wählen Sie Ihre bevorzugte Website aus, damit wir Ihr Erlebnis individuell anpassen können.
+      - generic [ref=f289e52]:
+        - generic [ref=f289e53]:
+          - generic [ref=f289e54]:
+            - generic [ref=f289e55]: Bestätigen Sie Ihre Region
+            - generic [ref=f289e56]:
+              - generic [ref=f289e57] [cursor=pointer]: Europe, Middle East, Africa
+              - img "location_title location" [ref=f289e58]
+          - generic [ref=f289e60]:
+            - generic [ref=f289e61]: Bestätigen Sie Ihr Land
+            - generic [ref=f289e62]:
+              - generic [ref=f289e63] [cursor=pointer]: Germany
+              - img "location_title location" [ref=f289e64]
+        - generic [ref=f289e66]:
+          - generic [ref=f289e67]:
+            - generic [ref=f289e68]: Wählen Sie eine Seite aus
+            - generic [ref=f289e70]:
+              - radio "Institutional Investor" [checked] [ref=f289e71]
+              - generic [ref=f289e72] [cursor=pointer]: Institutioneller Investor
+          - generic [ref=f289e74]:
+            - generic [ref=f289e75]:
+              - generic [ref=f289e76]: Geschäftsbedingungen
+              - textbox "legal-acceptance" [ref=f289e77]:
+                - strong [ref=f289e78]: Ich bestätige, dass ich in Deutschland wohnhaft bin und ein Professioneller Anleger im Sinne der MiFID II Richtlinie bin, entsprechend lokaler Umsetzung oder nach anwendbaren Gesetzen und Vorschriften.
+            - generic [ref=f289e79]:
+              - link "Datenschutz- und Cookie-Richtlinie" [ref=f289e80] [cursor=pointer]:
+                - /url: ""
+              - link "Nutzungsbedingungen" [ref=f289e81] [cursor=pointer]:
+                - /url: ""
+          - link "Zustimmen" [ref=f289e83] [cursor=pointer]:
+            - /url: javascript:void(0)
+    - generic: Hit enter to search
+    - generic [ref=f289e84]:
+      - heading "Page not found" [level=1] [ref=f289e86]
+      - paragraph [ref=f289e88]:
+        - text: Sorry. The page you’re looking for is unavailable. Please make sure you entered the correct page address. If that doesn’t work, you can also visit the Nuveen
+        - link "home page" [ref=f289e89] [cursor=pointer]:
+          - /url: /global/
+        - text: and try and find what you’re looking for there.
+      - contentinfo [ref=f289e90]:
+        - img "Footer Navigation Arc Background" [ref=f289e93]
+  - region "Cookie banner" [ref=f289e94]:
+    - dialog "Privacy" [ref=f289e95]:
+      - generic [ref=f289e97]:
+        - generic [ref=f289e101]:
+          - heading "We value your privacy" [level=1] [ref=f289e102]
+          - paragraph [ref=f289e103]:
+            - text: We use cookies to personalise content and ads, to provide social media features and to analyse our traffic. To find out more, read our
+            - link "privacy notice" [active] [ref=f289e104] [cursor=pointer]:
+              - /url: https://www.nuveen.com/global/privacy
+            - text: and
+            - link "cookies policy" [ref=f289e105] [cursor=pointer]:
+              - /url: https://www.nuveen.com/global/terms
+            - text: .
+        - generic [ref=f289e107]:
+          - button "Preferences" [ref=f289e108] [cursor=pointer]
+          - button "Reject All" [ref=f289e109] [cursor=pointer]
+          - button "Accept All" [ref=f289e110] [cursor=pointer]
+      - button "Close Cookie Banner" [ref=f289e112] [cursor=pointer]

@@ -1,0 +1,356 @@
+- generic [ref=f101e1]:
+  - generic [ref=f101e4]:
+    - generic [ref=f101e6]:
+      - generic [ref=f101e7]:
+        - link "Log In" [ref=f101e9] [cursor=pointer]:
+          - /url: "#"
+        - text: "|"
+        - link "My Account" [ref=f101e11] [cursor=pointer]:
+          - /url: "#"
+        - text: "|"
+        - link "My Lists" [ref=f101e13] [cursor=pointer]:
+          - /url: /client/en_US/default/search/mylists?
+        - text: "|"
+        - link "New Search" [ref=f101e15] [cursor=pointer]:
+          - /url: https://catalog.lacountylibrary.org/client/en_US/default
+        - text: "|"
+        - link "Get a Library Card" [ref=f101e17] [cursor=pointer]:
+          - /url: https://lacountylibrary.org/digital-library-card-application/
+        - text: "|"
+        - link "Library Locations" [ref=f101e19] [cursor=pointer]:
+          - /url: https://lacountylibrary.org/locations/
+      - generic [ref=f101e20]:
+        - text: "|"
+        - link "Select Language" [ref=f101e22] [cursor=pointer]:
+          - /url: "#"
+      - text: "|"
+      - link [ref=f101e24] [cursor=pointer]:
+        - /url: /client/en_US/default/search/advanced.template.header.mainmenu_0.accessibilitymode?&sdcsrf=835daa12-958a-466c-bb73-dbffcc9855c8
+        - img "Enable Accessibility Mode" [ref=f101e25]
+      - text: "|"
+      - link "Help" [ref=f101e26] [cursor=pointer]:
+        - /url: /help/user-help_en_US/index.htm
+        - generic [ref=f101e27]: 
+    - generic:
+      - generic:
+        - generic:
+          - paragraph:
+            - link "LA County Library Logo":
+              - /url: https://lacountylibrary.org/
+              - img "LA County Library Logo" [ref=f101e28] [cursor=pointer]
+  - generic [ref=f101e30]:
+    - generic:
+      - text: 
+      - link "Advanced Search" [ref=f101e32] [cursor=pointer]:
+        - /url: /client/en_US/default/search/advanced?
+  - generic [ref=f101e34]:
+    - link "New Fiction" [ref=f101e36] [cursor=pointer]:
+      - /url: /client/en_US/default/search/results?qf=COLA_598%09New+Fiction%09COLAFIC%09COLAFIC
+    - link "New Nonfiction" [ref=f101e38] [cursor=pointer]:
+      - /url: /client/en_US/default/search/results?qf=COLA_598%09New+Non+Fiction%09COLANFIC%09COLANFIC
+    - link "New DVDs" [ref=f101e40] [cursor=pointer]:
+      - /url: /client/en_US/default/search/results?qf=COLA_598%09New+DVDs%09COLADVDS%09COLADVDS
+    - link "New Music" [ref=f101e42] [cursor=pointer]:
+      - /url: /client/en_US/default/search/results?qf=COLA_598%09New+Music%09COLACDS%09COLACDS
+    - link "New Books on CD" [ref=f101e44] [cursor=pointer]:
+      - /url: /client/en_US/default/search/results?qf=COLA_598%09New+Books+On+CD%09COLABKCD%09COLABKCD
+  - generic [ref=f101e48]:
+    - heading "Find items that have:" [level=1] [ref=f101e49]
+    - generic [ref=f101e50]:
+      - generic [ref=f101e51]: "All these words:"
+      - textbox "All these words:" [active] [ref=f101e53]
+    - generic [ref=f101e54]:
+      - generic [ref=f101e55]: "This exact phrase:"
+      - textbox "This exact phrase:" [ref=f101e57]
+    - heading "Don't show items that have:" [level=1] [ref=f101e58]
+    - generic [ref=f101e59]:
+      - generic [ref=f101e60]: "These unwanted terms:"
+      - textbox "These unwanted terms:" [ref=f101e62]
+    - heading "Additional limits:" [level=1] [ref=f101e63]
+    - generic [ref=f101e64]:
+      - generic [ref=f101e65]: "Language:"
+      - combobox "Language:" [ref=f101e67]:
+        - option "Any Language" [selected]
+        - option "Afrikaans"
+        - option "Albanian"
+        - option "Arabic"
+        - option "Armenian"
+        - option "Bengali"
+        - option "Burmese"
+        - option "Catalan"
+        - option "Central American Indian (Other)"
+        - option "Chinese"
+        - option "Cree"
+        - option "Czech"
+        - option "Dakota"
+        - option "Danish"
+        - option "Dutch"
+        - option "English"
+        - option "Filipino"
+        - option "Finnish"
+        - option "French"
+        - option "German"
+        - option "Greek"
+        - option "Gujarati"
+        - option "Haitian"
+        - option "Hawaiian"
+        - option "Hebrew"
+        - option "Hindi"
+        - option "Hmong"
+        - option "Hungarian"
+        - option "Icelandic"
+        - option "Indonesian"
+        - option "Italian"
+        - option "Japanese"
+        - option "Kazakh"
+        - option "Khmer"
+        - option "Korean"
+        - option "Lao"
+        - option "Latin"
+        - option "Lithuanian"
+        - option "Marathi"
+        - option "Miscellaneous languages"
+        - option "Mongolian"
+        - option "Multiple languages"
+        - option "Navajo"
+        - option "Nepali"
+        - option "No linguistic content"
+        - option "North American Indian (Other)"
+        - option "Norwegian"
+        - option "Oriya"
+        - option "Panjabi"
+        - option "Persian"
+        - option "Polish"
+        - option "Portuguese"
+        - option "Romanian"
+        - option "Russian"
+        - option "Shona"
+        - option "Siksika"
+        - option "SIL"
+        - option "Slovak"
+        - option "Slovenian"
+        - option "Spanish"
+        - option "Swedish"
+        - option "Tagalog"
+        - option "Tamil"
+        - option "Telugu"
+        - option "Thai"
+        - option "Tibetan"
+        - option "Turkish"
+        - option "Uighur"
+        - option "Ukrainian"
+        - option "Urdu"
+        - option "Vietnamese"
+        - option "Welsh"
+        - option "Yiddish"
+        - option "Yoruba"
+        - option "Zulu"
+    - generic [ref=f101e68]:
+      - generic [ref=f101e69]: "Library:"
+      - combobox "Library:" [ref=f101e71]:
+        - option "Any Library" [selected]
+        - option "A C Bilbrew Library"
+        - option "Acton-Agua Dulce Library"
+        - option "Agoura Hills Library"
+        - option "Alondra Library"
+        - option "Angelo M. Iacoboni Library"
+        - option "Antelope Valley, East Bookmobile"
+        - option "Antelope Valley, West Bookmobile"
+        - option "Anthony Quinn Library"
+        - option "Artesia Library"
+        - option "Avalon Library"
+        - option "Baldwin Park Library"
+        - option "Bell Express Library"
+        - option "Bell Gardens Library"
+        - option "Carson Library"
+        - option "Castaic Library"
+        - option "Charter Oak Library"
+        - option "Chet Holifield Library"
+        - option "City Terrace Library"
+        - option "Claremont Helen Renwick Library"
+        - option "Clifton M Brakensiek Library"
+        - option "Compton Library"
+        - option "Cudahy Library"
+        - option "Culver City Julian Dixon Library"
+        - option "Diamond Bar Library"
+        - option "Dr. Martin Luther King, Jr. Library"
+        - option "Duarte Library"
+        - option "East Bookmobile"
+        - option "East Los Angeles Library"
+        - option "East Rancho Dominguez Library"
+        - option "El Camino Real Library"
+        - option "El Monte Library"
+        - option "Florence Library"
+        - option "Gardena Mayme Dear Library"
+        - option "Gateway Bookmobile"
+        - option "George Nye, Jr. Library"
+        - option "Graham Library"
+        - option "Hacienda Heights Library"
+        - option "Hawaiian Gardens Library"
+        - option "Hawthorne Library"
+        - option "Hermosa Beach Library"
+        - option "Hollydale Library"
+        - option "Huntington Park Library"
+        - option "Jackie Robinson Park Kiosk"
+        - option "La Canada Flintridge Library"
+        - option "La Crescenta Library"
+        - option "La Mirada Library"
+        - option "La Puente Library"
+        - option "La Verne Library"
+        - option "Lake Los Angeles Library"
+        - option "Lancaster Library"
+        - option "Lawndale Library"
+        - option "Leland R. Weaver Library"
+        - option "Lennox Library"
+        - option "Littlerock Library"
+        - option "Live Oak Library"
+        - option "Lloyd Taber-Marina del Rey Library"
+        - option "Lomita Library"
+        - option "Los Nietos Library"
+        - option "Lynwood Express Library"
+        - option "Malibu Library"
+        - option "Manhattan Beach Library"
+        - option "Masao W. Satow Library"
+        - option "Maywood Library"
+        - option "Montebello Library"
+        - option "Norwalk Library"
+        - option "Norwood Library"
+        - option "Paramount Library"
+        - option "Pico Rivera Library"
+        - option "Quartz Hill Library"
+        - option "Rivera Library"
+        - option "Rosemead Library"
+        - option "Rowland Heights Library"
+        - option "San Dimas Library"
+        - option "San Fernando Library"
+        - option "San Gabriel Library"
+        - option "Sorensen Library"
+        - option "South El Monte Library"
+        - option "South Whittier Library"
+        - option "Stevenson Ranch Library"
+        - option "Sunkist Library"
+        - option "Temple City Library"
+        - option "Topanga Library"
+        - option "View Park Bebe Moore Campbell Library"
+        - option "Walnut Library"
+        - option "West Covina Library"
+        - option "West Hollywood Library"
+        - option "Westlake Village Library"
+        - option "Willowbrook Library"
+        - option "Wiseburn Library"
+        - option "Woodcrest Library"
+    - generic [ref=f101e72]:
+      - generic [ref=f101e73]:
+        - generic [ref=f101e74]:
+          - radio "Find" [checked] [ref=f101e75]
+          - text: Find
+          - radio "Don't show" [ref=f101e76]
+          - text: Don't show
+        - generic [ref=f101e77]: "Title:"
+        - textbox "Title:" [ref=f101e79]
+      - generic [ref=f101e80]:
+        - generic [ref=f101e81]:
+          - radio "Find" [checked] [ref=f101e82]
+          - text: Find
+          - radio "Don't show" [ref=f101e83]
+          - text: Don't show
+        - generic [ref=f101e84]: "Author:"
+        - textbox "Author:" [ref=f101e86]
+      - generic [ref=f101e87]:
+        - generic [ref=f101e88]:
+          - radio "Find" [checked] [ref=f101e89]
+          - text: Find
+          - radio "Don't show" [ref=f101e90]
+          - text: Don't show
+        - generic [ref=f101e91]: "Subject:"
+        - textbox "Subject:" [ref=f101e93]
+    - generic [ref=f101e94]:
+      - checkbox "Only Show Available" [ref=f101e95]
+      - generic [ref=f101e96]: Only Show Available
+    - generic [ref=f101e97]:
+      - heading "Search targets:" [level=1] [ref=f101e98]
+      - generic [ref=f101e99]:
+        - generic [ref=f101e100]:
+          - checkbox "Physical Items" [ref=f101e101]
+          - text: Physical Items
+        - generic [ref=f101e102]:
+          - checkbox "Digital Catalog" [ref=f101e103]
+          - text: Digital Catalog
+    - generic [ref=f101e104]:
+      - heading "Limits:" [level=1] [ref=f101e105]
+      - generic [ref=f101e106]:
+        - generic [ref=f101e107]:
+          - 'checkbox "Audience: ADULTS" [ref=f101e108]'
+          - text: "Audience: ADULTS"
+        - generic [ref=f101e109]:
+          - 'checkbox "Audience: CHILDREN" [ref=f101e110]'
+          - text: "Audience: CHILDREN"
+        - generic [ref=f101e111]:
+          - 'checkbox "Audience: TEENS" [ref=f101e112]'
+          - text: "Audience: TEENS"
+        - generic [ref=f101e113]:
+          - 'checkbox "Format: AUDIO CDS" [ref=f101e114]'
+          - text: "Format: AUDIO CDS"
+        - generic [ref=f101e115]:
+          - 'checkbox "Format: AUDIOBOOK ON CD" [ref=f101e116]'
+          - text: "Format: AUDIOBOOK ON CD"
+        - generic [ref=f101e117]:
+          - 'checkbox "Format: BLU-RAY" [ref=f101e118]'
+          - text: "Format: BLU-RAY"
+        - generic [ref=f101e119]:
+          - 'checkbox "Format: BOOKS" [ref=f101e120]'
+          - text: "Format: BOOKS"
+        - generic [ref=f101e121]:
+          - 'checkbox "Format: DVDS" [ref=f101e122]'
+          - text: "Format: DVDS"
+        - generic [ref=f101e123]:
+          - 'checkbox "Format: LARGE PRINT" [ref=f101e124]'
+          - text: "Format: LARGE PRINT"
+        - generic [ref=f101e125]:
+          - 'checkbox "Format: MAGAZINES" [ref=f101e126]'
+          - text: "Format: MAGAZINES"
+        - generic [ref=f101e127]:
+          - 'checkbox "Format: PICTURE BOOK" [ref=f101e128]'
+          - text: "Format: PICTURE BOOK"
+        - generic [ref=f101e129]:
+          - checkbox "American Indian Resource Center Collection" [ref=f101e130]
+          - text: American Indian Resource Center Collection
+        - generic [ref=f101e131]:
+          - checkbox "Arkel Erb Memorial Mountaineering Collection" [ref=f101e132]
+          - text: Arkel Erb Memorial Mountaineering Collection
+        - generic [ref=f101e133]:
+          - checkbox "Asian Pacific Resource Center Collection" [ref=f101e134]
+          - text: Asian Pacific Resource Center Collection
+        - generic [ref=f101e135]:
+          - checkbox "Black Resource Center Collection" [ref=f101e136]
+          - text: Black Resource Center Collection
+        - generic [ref=f101e137]:
+          - checkbox "Bruce’s Beach Commemorative Collection" [ref=f101e138]
+          - text: Bruce’s Beach Commemorative Collection
+        - generic [ref=f101e139]:
+          - checkbox "Californiana Collection" [ref=f101e140]
+          - text: Californiana Collection
+        - generic [ref=f101e141]:
+          - checkbox "Chicano Resource Center Collection" [ref=f101e142]
+          - text: Chicano Resource Center Collection
+        - generic [ref=f101e143]:
+          - checkbox "Environmental Collection" [ref=f101e144]
+          - text: Environmental Collection
+        - generic [ref=f101e145]:
+          - checkbox "LGBTQ+ Collection" [ref=f101e146]
+          - text: LGBTQ+ Collection
+        - generic [ref=f101e147]:
+          - checkbox "Nautical Collection" [ref=f101e148]
+          - text: Nautical Collection
+        - generic [ref=f101e149]:
+          - checkbox "Ron Shipton HIV Information Center" [ref=f101e150]
+          - text: Ron Shipton HIV Information Center
+        - generic [ref=f101e151]:
+          - checkbox "Ruth Bader Ginsburg Women’s Empowerment Collection" [ref=f101e152]
+          - text: Ruth Bader Ginsburg Women’s Empowerment Collection
+    - button "Advanced Search" [ref=f101e154] [cursor=pointer]
+  - generic [ref=f101e157]:
+    - text: Copyright 2025
+    - link "Sirsi Corporation" [ref=f101e159] [cursor=pointer]:
+      - /url: http://www.sirsidynix.com
+    - text: "- Enterprise Version 5.2.1.6"

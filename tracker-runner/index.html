@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self'; script-src 'self'" />
+  <title>Tracker Runner</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <div class="title">
+      <h1>Tracker Runner</h1>
+      <span class="subtitle">Full refresh + deploy · analyst engine · NIM brain (free)</span>
+    </div>
+    <div class="controls">
+      <div class="mode-toggle" id="modeToggle">
+        <button class="mode-btn" data-mode="short" id="modeShort">Short</button>
+        <button class="mode-btn active" data-mode="long" id="modeLong">Long</button>
+      </div>
+      <div class="mode-toggle" id="brainToggle" title="Who judges the ambiguous candidates (heuristic rules the clear ones either way, in every mode). Heuristic = zero AI calls, rules only. NIM = free AI, no Claude tokens. Claude = your subscription quota (~0.3-1.2M haiku tokens per full run), best judgment.">
+        <button class="mode-btn" data-brain="heuristic">Heuristic only</button>
+        <button class="mode-btn active" data-brain="nim">NIM brain</button>
+        <button class="mode-btn" data-brain="claude-cli">Claude brain</button>
+      </div>
+      <div class="mode-toggle" id="concurrencyToggle" title="Parallel launches all research tabs at once — fastest wall-clock, but many Node/Chromium processes at once and heavy CPU/RAM load. Sequential runs one tab at a time — much lighter on the machine, slower overall.">
+        <button class="mode-btn active" data-conc="parallel">Parallel</button>
+        <button class="mode-btn" data-conc="sequential">One at a time</button>
+      </div>
+      <label class="smoke-label" title="Run only the Environmental tab with --limit 2, no deploy — a quick wiring check">
+        <input type="checkbox" id="smokeCheck" /> Smoke test
+      </label>
+      <button id="startBtn" class="start">▶ Start run + deploy</button>
+      <button id="stopBtn" class="stop" disabled>■ Stop</button>
+    </div>
+  </header>
+
+  <div class="mode-hint" id="modeHint">
+    <b>Long:</b> every firm in every roster, browser fallback ON (slow, full coverage).
+  </div>
+
+  <main>
+    <aside id="stepsPanel">
+      <h2>Pipeline</h2>
+      <ol id="stepsList"></ol>
+    </aside>
+    <section id="rightPanel">
+      <div class="panel-tabs">
+        <button class="panel-tab active" id="tabConsole" data-panel="console">Console</button>
+        <button class="panel-tab" id="tabBrowser" data-panel="browser">Browser</button>
+        <button id="clearBtn" class="clear">Clear</button>
+      </div>
+
+      <div id="consolePanel" class="panel-body">
+        <pre id="console"></pre>
+      </div>
+
+      <div id="browserPanel" class="panel-body hidden">
+        <div class="browser-toolbar">
+          <button id="navBack" class="nav-btn" title="Back">◀</button>
+          <button id="navFwd" class="nav-btn" title="Forward">▶</button>
+          <button id="navReload" class="nav-btn" title="Reload">⟳</button>
+          <input id="addressBar" type="text" placeholder="Enter a URL and press Enter…" />
+          <button id="navGo" class="nav-btn">Go</button>
+          <button id="navDevtools" class="nav-btn" title="Toggle DevTools for this page">DevTools</button>
+        </div>
+        <!-- Not a real embed — this is just a layout slot. The actual page is
+             rendered by an Electron BrowserView positioned exactly over this
+             element's rect (see renderer.js) — not a DOM element itself. -->
+        <div id="browserViewSlot"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="statusBar">Ready.</footer>
+
+  <script src="renderer.js"></script>
+</body>
+</html>

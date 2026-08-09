@@ -1,0 +1,321 @@
+- generic [ref=f110e1]:
+  - generic [ref=f110e2]:
+    - banner [ref=f110e5]:
+      - navigation [ref=f110e6]:
+        - navigation "mainMenu" [ref=f110e7]:
+          - button "Show navigation" [ref=f110e8] [cursor=pointer]
+        - img "Amazon Jobs" [ref=f110e13]
+        - list [ref=f110e15]:
+          - listitem [ref=f110e16]:
+            - button "Search Search" [ref=f110e17] [cursor=pointer]:
+              - img "Search" [ref=f110e18]
+              - generic [ref=f110e20]: Search
+          - listitem [ref=f110e21]:
+            - separator [ref=f110e22]
+          - listitem [ref=f110e23]:
+            - 'button "Locale Language: en-US" [ref=f110e25]':
+              - img "Locale" [ref=f110e26]
+              - text: "Language: en-US"
+          - listitem [ref=f110e30]
+    - generic [ref=f110e32]:
+      - main [ref=f110e33]:
+        - generic [ref=f110e37]:
+          - heading "Internships for students in North America" [level=1] [ref=f110e39]
+          - paragraph [ref=f110e42]: Our University Operations Internship Program combines leadership development and experiential learning in a summer project, to deliver real-world results for our customers. Over ten weeks, the internship is designed to turn college students into leaders, while giving them the chance to make a real impact.
+        - region [ref=f110e43]:
+          - heading "You’ll work with a range of teams to support your site and gain first-hand insight into the life of a fulfillment center. Learning is at the heart of these roles. Every day brings new challenges and chances for growth." [level=2] [ref=f110e47]
+        - region [ref=f110e49]:
+          - heading "What you'll gain" [level=2] [ref=f110e52]
+          - list [ref=f110e53]:
+            - listitem [ref=f110e54]:
+              - heading "Ownership" [level=3] [ref=f110e55]
+              - paragraph [ref=f110e56]: You’ll own your project from start to finish, and most projects wrap up toward the end of the internship. In addition, you’ll write an Amazon narrative paper and present to site leadership conveying your project results and learnings.
+            - listitem [ref=f110e57]:
+              - heading "Training" [level=3] [ref=f110e58]
+              - paragraph [ref=f110e59]: Classroom and self-service options cover data analysis, problem solving, writing, and customer service. You can also grow your network by taking part in workshops or joining an affinity group.
+            - listitem [ref=f110e60]:
+              - heading "Mentorship" [level=3] [ref=f110e61]
+              - paragraph [ref=f110e62]: Our interns play a valued role in Amazon’s workforce. You’ll be paired with a manager who will offer guidance on projects, give feedback, and support your career growth.
+        - region [ref=f110e63]:
+          - heading "Employee stories" [level=2] [ref=f110e66]
+          - generic [ref=f110e67]:
+            - paragraph [ref=f110e70]: Hear from Operations employees about their experiences in our internship program.
+            - generic [ref=f110e71]:
+              - tabpanel [ref=f110e72]:
+                - iframe [active] [ref=f110e74]:
+                  - generic [ref=f112e1]:
+                    - generic "YouTube Video Player" [ref=f112e3]
+                    - generic [ref=f112e5]:
+                      - generic:
+                        - generic:
+                          - button "Play video" [ref=f112e10] [cursor=pointer]
+                          - button "Hide player controls" [ref=f112e12] [cursor=pointer]
+                          - generic [ref=f112e14]:
+                            - generic [ref=f112e19]:
+                              - generic [ref=f112e20]:
+                                - link "Amazon Undergrad Interns 2021" [ref=f112e21] [cursor=pointer]:
+                                  - /url: https://www.youtube.com/watch?v=6v1SbtmqlII
+                                - link "Inside Amazon" [ref=f112e22] [cursor=pointer]:
+                                  - /url: /channel/UCfMZivQCMFckB1b9O0NuG7Q
+                              - generic [ref=f112e24]:
+                                - button [ref=f112e25] [cursor=pointer]
+                                - generic [ref=f112e27]:
+                                  - generic: Inside Amazon
+                                  - generic: 107K subscribers
+                            - generic [ref=f112e28]:
+                              - button "Share" [ref=f112e31] [cursor=pointer]
+                              - link "Watch on YouTube" [ref=f112e42] [cursor=pointer]:
+                                - /url: https://www.youtube.com/watch?v=6v1SbtmqlII
+                                - generic [ref=f112e43]: Watch on
+              - tablist [ref=f110e75]:
+                - tab [selected] [ref=f110e76]:
+                  - generic [ref=f110e78]:
+                    - heading "Amazon Operations Interns" [level=3] [ref=f110e79]
+                    - paragraph [ref=f110e80]: Operations interns share what they like most about Amazon.
+                    - paragraph [ref=f110e81]:
+                      - link "View video transcript" [ref=f110e82] [cursor=pointer]:
+                        - /url: https://aws-sp-transcripts.s3.us-west-2.amazonaws.com/transcripts/Transcript-+Amazon+Undergrad+Interns+2021_DGed.docx
+                - tab [ref=f110e83]:
+                  - generic [ref=f110e84]:
+                    - heading "Working with Robots" [level=3] [ref=f110e85]
+                    - paragraph [ref=f110e86]: Learn from Amazon associates what it’s like to work with robots every day.
+                    - paragraph [ref=f110e87]:
+                      - link "View video transcript" [ref=f110e88] [cursor=pointer]:
+                        - /url: https://aws-sp-transcripts.s3.us-west-2.amazonaws.com/transcripts/What
+        - generic [ref=f110e90]:
+          - region "Filters" [ref=f110e92]:
+            - generic [ref=f110e93]:
+              - generic [ref=f110e94]: Filters
+              - link "Clear filters" [ref=f110e95] [cursor=pointer]:
+                - /url: "#"
+            - group [ref=f110e96]:
+              - generic [ref=f110e97]:
+                - generic [ref=f110e98]:
+                  - button [ref=f110e101] [cursor=pointer]:
+                    - text: Country or region
+                    - img "Loading..." [ref=f110e103]
+                  - button "Country or region" [expanded] [ref=f110e108] [cursor=pointer]
+                - generic [ref=f110e116]:
+                  - combobox "Search for a country or region" [ref=f110e123]
+                  - list
+            - group [ref=f110e127]:
+              - generic [ref=f110e128]:
+                - generic [ref=f110e129]:
+                  - button [ref=f110e132] [cursor=pointer]:
+                    - text: State or province
+                    - img "Loading..." [ref=f110e134]
+                  - button "State or province" [expanded] [ref=f110e139] [cursor=pointer]
+                - generic [ref=f110e147]:
+                  - combobox "Search for a state or province" [ref=f110e154]
+                  - list
+            - group [ref=f110e158]:
+              - generic [ref=f110e159]:
+                - generic [ref=f110e160]:
+                  - button [ref=f110e163] [cursor=pointer]:
+                    - text: City
+                    - img "Loading..." [ref=f110e165]
+                  - button "City" [expanded] [ref=f110e170] [cursor=pointer]
+                - generic [ref=f110e178]:
+                  - combobox "Search for a city" [ref=f110e185]
+                  - list
+            - group [ref=f110e189]:
+              - generic [ref=f110e190]:
+                - generic [ref=f110e191]:
+                  - button [ref=f110e194] [cursor=pointer]:
+                    - text: Employment type
+                    - img "Loading..." [ref=f110e196]
+                  - button "Employment type" [expanded] [ref=f110e201] [cursor=pointer]
+                - generic [ref=f110e207]:
+                  - generic:
+                    - list
+            - group [ref=f110e209]:
+              - generic [ref=f110e210]:
+                - generic [ref=f110e211]:
+                  - button [ref=f110e214] [cursor=pointer]:
+                    - text: Category
+                    - img "Loading..." [ref=f110e216]
+                  - button "Category" [expanded] [ref=f110e221] [cursor=pointer]
+                - generic [ref=f110e227]:
+                  - generic:
+                    - list
+            - group [ref=f110e229]:
+              - generic [ref=f110e230]:
+                - generic [ref=f110e231]:
+                  - button "Career area" [ref=f110e234] [cursor=pointer]
+                  - button "Career area" [expanded] [ref=f110e235] [cursor=pointer]
+                - list [ref=f110e244]:
+                  - listitem [ref=f110e245]:
+                    - generic [ref=f110e246]:
+                      - checkbox "Corporate (0)" [ref=f110e248] [cursor=pointer]
+                      - generic [ref=f110e254] [cursor=pointer]:
+                        - text: Corporate
+                        - generic [ref=f110e255]: (0)
+                  - listitem [ref=f110e256]:
+                    - generic [ref=f110e257]:
+                      - checkbox "Customer service (0)" [ref=f110e259] [cursor=pointer]
+                      - generic [ref=f110e265] [cursor=pointer]:
+                        - text: Customer service
+                        - generic [ref=f110e266]: (0)
+                  - listitem [ref=f110e267]:
+                    - generic [ref=f110e268]:
+                      - checkbox "Distribution & fulfillment (0)" [ref=f110e270] [cursor=pointer]
+                      - generic [ref=f110e276] [cursor=pointer]:
+                        - text: Distribution & fulfillment
+                        - generic [ref=f110e277]: (0)
+            - group [ref=f110e278]:
+              - generic [ref=f110e279]:
+                - generic [ref=f110e280]:
+                  - button "Role type" [ref=f110e283] [cursor=pointer]
+                  - button "Role type" [expanded] [ref=f110e284] [cursor=pointer]
+                - list [ref=f110e293]:
+                  - listitem [ref=f110e294]:
+                    - generic [ref=f110e295]:
+                      - checkbox "Individual contributor (0)" [ref=f110e297] [cursor=pointer]
+                      - generic [ref=f110e303] [cursor=pointer]:
+                        - text: Individual contributor
+                        - generic [ref=f110e304]: (0)
+                  - listitem [ref=f110e305]:
+                    - generic [ref=f110e306]:
+                      - checkbox "People manager (0)" [ref=f110e308] [cursor=pointer]
+                      - generic [ref=f110e314] [cursor=pointer]:
+                        - text: People manager
+                        - generic [ref=f110e315]: (0)
+          - generic [ref=f110e316]:
+            - generic [ref=f110e317]:
+              - generic [ref=f110e320]:
+                - textbox "Search for jobs by title or keyword." [ref=f110e321]
+                - button [ref=f110e322] [cursor=pointer]
+              - heading "Job results" [level=2] [ref=f110e325]
+              - generic [ref=f110e326]:
+                - text: "Sort by:"
+                - combobox [ref=f110e327]:
+                  - option "most recent"
+                  - option "most relevant" [selected]
+            - list
+            - navigation "Page selection" [ref=f110e329]:
+              - button "Previous page" [disabled] [ref=f110e330]
+              - list [ref=f110e335]:
+                - listitem [ref=f110e336]:
+                  - button "Page 1. First page" [ref=f110e337] [cursor=pointer]:
+                    - generic [ref=f110e338]: "1"
+              - button "Next page" [disabled] [ref=f110e340]
+              - status [ref=f110e345]: Current page 1
+      - generic:
+        - status [ref=f110e346]
+        - log [ref=f110e347]
+        - status [ref=f110e348]
+        - log [ref=f110e349]
+    - contentinfo [ref=f110e352]:
+      - generic [ref=f110e353]:
+        - generic [ref=f110e354]:
+          - heading "Equal opportunity" [level=3] [ref=f110e355]
+          - paragraph [ref=f110e356]: Amazon is an equal opportunity employer and does not discriminate on the basis of protected veteran status, disability, or other legally protected status.
+          - separator [ref=f110e357]
+        - generic [ref=f110e358]:
+          - heading "Career areas" [level=3] [ref=f110e359]
+          - list [ref=f110e360]:
+            - listitem [ref=f110e361]:
+              - link "Teams" [ref=f110e362] [cursor=pointer]:
+                - /url: /en/business_categories
+            - listitem [ref=f110e363]:
+              - link "Locations" [ref=f110e364] [cursor=pointer]:
+                - /url: /en/locations
+            - listitem [ref=f110e365]:
+              - link "Job categories" [ref=f110e366] [cursor=pointer]:
+                - /url: /en/job_categories
+            - listitem [ref=f110e367]:
+              - link "Hourly jobs" [ref=f110e368] [cursor=pointer]:
+                - /url: /content/en/career-programs/hourly-jobs
+            - listitem [ref=f110e369]:
+              - link "Military hiring" [ref=f110e370] [cursor=pointer]:
+                - /url: /content/en/career-programs/military
+            - listitem [ref=f110e371]:
+              - link "University talent" [ref=f110e372] [cursor=pointer]:
+                - /url: /content/en/career-programs/university
+        - generic [ref=f110e373]:
+          - heading "Resources" [level=3] [ref=f110e374]
+          - list [ref=f110e375]:
+            - listitem [ref=f110e376]:
+              - link "Accommodations" [ref=f110e377] [cursor=pointer]:
+                - /url: /content/en/how-we-hire/accommodations
+            - listitem [ref=f110e378]:
+              - link "Benefits" [ref=f110e379] [cursor=pointer]:
+                - /url: /en/benefits/global
+            - listitem [ref=f110e380]:
+              - link "Inclusive experiences" [ref=f110e381] [cursor=pointer]:
+                - /url: /content/en/our-workplace/diversity-and-inclusion
+            - listitem [ref=f110e382]:
+              - link "Interviewing at Amazon" [ref=f110e383] [cursor=pointer]:
+                - /url: /content/en/how-we-hire/interviewing-at-amazon
+            - listitem [ref=f110e384]:
+              - link "Leadership Principles" [ref=f110e385] [cursor=pointer]:
+                - /url: /content/en/our-workplace/leadership-principles
+            - listitem [ref=f110e386]:
+              - link "Working at Amazon" [ref=f110e387] [cursor=pointer]:
+                - /url: /content/en/our-workplace/working-at-amazon
+            - listitem [ref=f110e388]:
+              - link "FAQ" [ref=f110e389] [cursor=pointer]:
+                - /url: /content/en/faq
+        - generic [ref=f110e390]:
+          - heading "Start your Amazon journey" [level=3] [ref=f110e391]
+          - paragraph [ref=f110e392]: Share your resume and basic info to get personalized job recommendations and more.
+          - link "Create an account" [ref=f110e394] [cursor=pointer]:
+            - /url: https://passport.amazon.jobs/createaccount
+        - generic [ref=f110e397]:
+          - heading "Amazon sites" [level=3] [ref=f110e398]
+          - list [ref=f110e399]:
+            - listitem [ref=f110e400]:
+              - link "Amazon.com" [ref=f110e401] [cursor=pointer]:
+                - /url: https://www.amazon.com/?utm_source=amazon_jobs&utm_medium=footer&utm_campaign=evergreen_homepage
+            - listitem [ref=f110e402]:
+              - link "About Amazon" [ref=f110e403] [cursor=pointer]:
+                - /url: https://www.aboutamazon.com/?utm_source=amazon_jobs&utm_medium=footer&utm_campaign=evergreen_homepage
+            - listitem [ref=f110e404]:
+              - link "Amazon Web Services" [ref=f110e405] [cursor=pointer]:
+                - /url: https://aws.amazon.com/careers/?utm_source=amazon_jobs&utm_medium=footer&utm_campaign=evergreen_homepage
+            - listitem [ref=f110e406]:
+              - link "Amazon Ads" [ref=f110e407] [cursor=pointer]:
+                - /url: https://advertising.amazon.com/careers?utm_source=amazon_jobs&utm_medium=footer&utm_campaign=evergreen_homepage
+            - listitem [ref=f110e408]:
+              - link "Amazon Design" [ref=f110e409] [cursor=pointer]:
+                - /url: https://www.amazon.design/?utm_source=amazon_jobs&utm_medium=footer&utm_campaign=evergreen_homepage
+            - listitem [ref=f110e410]:
+              - link "Amazon Science" [ref=f110e411] [cursor=pointer]:
+                - /url: https://www.amazon.science/?utm_source=amazon_jobs&utm_medium=footer&utm_campaign=evergreen_homepage
+        - generic [ref=f110e412]:
+          - heading "Social" [level=3] [ref=f110e413]
+          - list [ref=f110e414]:
+            - listitem [ref=f110e415]:
+              - link "LinkedIn" [ref=f110e416] [cursor=pointer]:
+                - /url: https://www.linkedin.com/showcase/amazon-careers
+            - listitem [ref=f110e417]:
+              - link "Instagram" [ref=f110e418] [cursor=pointer]:
+                - /url: https://www.instagram.com/insideamazon
+            - listitem [ref=f110e419]:
+              - link "Facebook" [ref=f110e420] [cursor=pointer]:
+                - /url: https://www.facebook.com/amazon
+            - listitem [ref=f110e421]:
+              - link "YouTube" [ref=f110e422] [cursor=pointer]:
+                - /url: https://www.youtube.com/insideamazonvideos
+            - listitem [ref=f110e423]:
+              - link "X" [ref=f110e424] [cursor=pointer]:
+                - /url: https://x.com/amazonnews
+        - generic [ref=f110e426]:
+          - list [ref=f110e427]:
+            - listitem [ref=f110e428]:
+              - link "Privacy" [ref=f110e429] [cursor=pointer]:
+                - /url: /en/privacy_page
+            - listitem [ref=f110e430]:
+              - link "Conditions of use" [ref=f110e431] [cursor=pointer]:
+                - /url: https://www.amazon.com/gp/help/customer/display.html?nodeId=508088
+            - listitem [ref=f110e432]:
+              - link "Cookie preferences" [ref=f110e433] [cursor=pointer]:
+                - /url: /en/cookies
+            - listitem [ref=f110e434]:
+              - link "Legal disclosures and notices" [ref=f110e435] [cursor=pointer]:
+                - /url: /content/en/legal-disclosures-and-notices
+            - listitem [ref=f110e436]:
+              - link "Translation disclaimer" [ref=f110e437] [cursor=pointer]:
+                - /url: /content/en/translation-disclaimer
+          - paragraph [ref=f110e438]: © 1996-2026, Amazon.com, Inc. or its affiliates
+  - alert [ref=f110e439]

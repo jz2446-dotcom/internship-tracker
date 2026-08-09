@@ -1,0 +1,98 @@
+- generic [ref=f2354e1]:
+  - main [ref=f2354e2]:
+    - link "Skip to main content" [ref=f2354e3] [cursor=pointer]:
+      - /url: "#mainContent"
+    - banner "wealthgetheadernavigation" [ref=f2354e4]:
+      - generic [ref=f2354e5]:
+        - generic [ref=f2354e7]:
+          - link "Contact us" [ref=f2354e8] [cursor=pointer]:
+            - /url: /global/contact-us
+          - link "Subscribe to insights" [ref=f2354e9] [cursor=pointer]:
+            - /url: /global/subscription
+          - button "Institutional | Global" [ref=f2354e11] [cursor=pointer]
+          - link "Log in" [ref=f2354e23] [cursor=pointer]:
+            - /url: /global/login
+        - generic [ref=f2354e24]:
+          - link [ref=f2354e25] [cursor=pointer]:
+            - /url: /global?type=global
+            - img "Nuveen Logo" [ref=f2354e26]
+          - generic [ref=f2354e28]:
+            - navigation "Insights" [ref=f2354e29] [cursor=pointer]
+            - navigation "Investment capabilities" [ref=f2354e32] [cursor=pointer]
+            - navigation "About us" [ref=f2354e35] [cursor=pointer]
+            - button "Search" [ref=f2354e39]
+    - generic:
+      - generic:
+        - generic:
+          - button "Close drawer":
+            - img "close"
+          - generic:
+            - generic:
+              - list:
+                - listitem:
+                  - button "nuv-utility-drawer-tab-button": Client portal
+    - generic [ref=f2354e44]:
+      - button "close-button" [ref=f2354e45] [cursor=pointer]:
+        - img "close-icon" [ref=f2354e46]
+      - generic [ref=f2354e49]:
+        - generic [ref=f2354e50]: Welcome to Nuveen
+        - generic [ref=f2354e51]: Select your preferred site so we can tailor your experience.
+      - generic [ref=f2354e52]:
+        - generic [ref=f2354e53]:
+          - generic [ref=f2354e54]:
+            - generic [ref=f2354e55]: Confirm Your Region
+            - generic [ref=f2354e56]:
+              - generic [ref=f2354e57] [cursor=pointer]: Americas
+              - img "location_title location" [ref=f2354e58]
+          - generic [ref=f2354e60]:
+            - generic [ref=f2354e61]: Confirm Your Location
+            - generic [ref=f2354e62]:
+              - generic [ref=f2354e63] [cursor=pointer]: United States
+              - img "location_title location" [ref=f2354e64]
+        - generic [ref=f2354e66]:
+          - generic [ref=f2354e67]:
+            - generic [ref=f2354e68]: Select a Site
+            - generic [ref=f2354e69]:
+              - generic [ref=f2354e70] [cursor=pointer]: Select Site...
+              - img "location_title location" [ref=f2354e71]
+          - generic [ref=f2354e74]:
+            - generic [ref=f2354e75]:
+              - generic [ref=f2354e76]: Terms and Conditions
+              - textbox "legal-acceptance" [ref=f2354e77]
+            - generic [ref=f2354e78]:
+              - link "Privacy notice" [ref=f2354e79] [cursor=pointer]:
+                - /url: /global/privacy?forceswitcher=false&type=us
+              - link "Cookie policy, terms of use" [ref=f2354e80] [cursor=pointer]:
+                - /url: /global/terms?forceswitcher=false&type=us
+          - link "Accept to continue" [ref=f2354e82] [cursor=pointer]:
+            - /url: javascript:void(0)
+    - generic: Hit enter to search
+    - generic [ref=f2354e83]:
+      - heading "Page not found" [level=1] [ref=f2354e85]
+      - paragraph [ref=f2354e87]:
+        - text: Sorry. The page you’re looking for is unavailable. Please make sure you entered the correct page address. If that doesn’t work, you can also visit the Nuveen
+        - link "home page" [ref=f2354e88] [cursor=pointer]:
+          - /url: /global/
+        - text: and try and find what you’re looking for there.
+      - contentinfo [ref=f2354e89]:
+        - img "Footer Navigation Arc Background" [ref=f2354e92]
+  - region "Cookie banner" [ref=f2354e93]:
+    - dialog "Privacy" [ref=f2354e94]:
+      - generic [ref=f2354e96]:
+        - generic [ref=f2354e100]:
+          - heading "We value your privacy" [level=1] [ref=f2354e101]
+          - paragraph [ref=f2354e102]:
+            - text: We use cookies to enhance site navigation, analyze site usage, and assist in our marketing efforts. Unless you change your browser settings to block cookies, you are agreeing to their use as explained in our
+            - link "privacy notice" [active] [ref=f2354e103] [cursor=pointer]:
+              - /url: https://www.nuveen.com/global/privacy
+            - text: (for CA residents, click
+            - link "here" [ref=f2354e104] [cursor=pointer]:
+              - /url: https://www.nuveen.com/global/privacy-ccpa
+            - text: ) and
+            - link "cookies policy" [ref=f2354e105] [cursor=pointer]:
+              - /url: https://www.nuveen.com/global/terms
+            - text: .
+        - generic [ref=f2354e107]:
+          - button "Preferences" [ref=f2354e108] [cursor=pointer]
+          - button "Close" [ref=f2354e109] [cursor=pointer]
+      - button "Close Cookie Banner" [ref=f2354e111] [cursor=pointer]

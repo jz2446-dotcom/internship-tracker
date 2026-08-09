@@ -1,0 +1,35 @@
+- generic [ref=f1164e1]:
+  - generic [ref=f1164e2]:
+    - img "Duke logo" [ref=f1164e3]
+    - text: Log In
+  - generic [ref=f1164e4]:
+    - generic [ref=f1164e5]:
+      - text: "You are on the correct Duke login page if the above begins with:"
+      - emphasis [ref=f1164e6]: https://shib.oit.duke.edu
+      - text: .
+    - generic [ref=f1164e7]:
+      - heading "NetID" [level=1] [ref=f1164e8]
+      - heading "Current students, faculty, staff, sponsored guests" [level=3] [ref=f1164e9]
+      - generic [ref=f1164e12]:
+        - generic [ref=f1164e13]: NetID
+        - textbox "NetID" [active] [ref=f1164e14]
+        - generic [ref=f1164e15]: Password
+        - textbox "Password" [ref=f1164e16]
+        - link "Forgot your password?" [ref=f1164e17] [cursor=pointer]:
+          - /url: https://idms.oit.duke.edu/pwreset/
+          - text: Forgot your password?
+          - generic [ref=f1164e18]: 
+        - text:     
+        - button "Log In" [ref=f1164e19]
+    - generic [ref=f1164e21]:
+      - text: For assistance, please visit
+      - link "oit.duke.edu/help" [ref=f1164e22] [cursor=pointer]:
+        - /url: https://oit.duke.edu/help
+        - text: oit.duke.edu/help
+        - generic [ref=f1164e23]: 
+      - text: or
+      - link "dhts.duke.edu" [ref=f1164e24] [cursor=pointer]:
+        - /url: https://dhts.duke.edu
+        - text: dhts.duke.edu
+        - generic [ref=f1164e25]: 
+      - text: .

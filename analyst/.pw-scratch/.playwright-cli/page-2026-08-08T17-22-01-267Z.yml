@@ -1,0 +1,116 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e3]:
+      - banner [ref=e4]:
+        - generic [ref=e5]:
+          - link "link to home" [ref=e6] [cursor=pointer]:
+            - /url: /
+          - navigation [ref=e8]:
+            - link "About" [ref=e9] [cursor=pointer]:
+              - /url: /about
+            - link "Leadership" [ref=e11] [cursor=pointer]:
+              - /url: /team
+            - link "Portfolio" [ref=e13] [cursor=pointer]:
+              - /url: /portfolio
+            - link "Partners" [ref=e15] [cursor=pointer]:
+              - /url: /partners
+    - main [ref=e18]:
+      - generic [ref=e23]:
+        - heading "Careers" [level=4] [ref=e24]
+        - heading "Opportunities at Fifth Wall and our Portfolio Companies" [level=1] [ref=e25]
+      - generic [ref=e32]:
+        - text:  
+        - generic [ref=e33]:
+          - heading "Fifth Wall Careers" [level=2] [ref=e35]
+          - link "View Openings" [ref=e37] [cursor=pointer]:
+            - /url: https://www.linkedin.com/company/fifth-wall-ventures/jobs/
+        - generic [ref=e42]:
+          - heading "Portfolio Companies Careers" [level=2] [ref=e44]
+          - link "View Openings" [ref=e46] [cursor=pointer]:
+            - /url: https://jobs.fifthwall.com
+      - generic [ref=e57]:
+        - generic [ref=e58]:
+          - heading "Keep up to date! Like and follow to get the latest from us on your favorite channels." [level=2] [ref=e59]
+          - generic [ref=e60]:
+            - link [ref=e61] [cursor=pointer]:
+              - /url: https://www.instagram.com/fifthwallvc/
+            - link [ref=e62] [cursor=pointer]:
+              - /url: https://www.youtube.com/c/FifthWall
+            - link [ref=e63] [cursor=pointer]:
+              - /url: https://www.linkedin.com/company/fifth-wall-ventures
+        - generic [ref=e64]:
+          - generic [ref=e65]: Subscribe to get insights and more interesting articles.
+          - form "Global Email Form" [ref=e67]:
+            - generic [ref=e68]:
+              - textbox "Email" [ref=e69]
+              - button "Subscribe" [ref=e70] [cursor=pointer]
+    - contentinfo [ref=e71]:
+      - generic [ref=e79]:
+        - link [ref=e81] [cursor=pointer]:
+          - /url: /
+        - generic [ref=e83]:
+          - link "Portfolio" [ref=e84] [cursor=pointer]:
+            - /url: /portfolio
+          - link "Partners" [ref=e86] [cursor=pointer]:
+            - /url: /partners
+          - link "Insights" [ref=e88] [cursor=pointer]:
+            - /url: /insights
+        - generic [ref=e91]:
+          - link "About" [ref=e92] [cursor=pointer]:
+            - /url: /about
+          - link "Leadership" [ref=e94] [cursor=pointer]:
+            - /url: /team
+          - link "Careers" [ref=e96] [cursor=pointer]:
+            - /url: /careers
+          - link "Contact Us" [ref=e98] [cursor=pointer]:
+            - /url: /contact
+        - generic [ref=e101]:
+          - generic [ref=e102]:
+            - generic [ref=e103]:
+              - generic "instagram link" [ref=e104]
+              - generic [ref=e106]: FOLLOW BRENDAN WALLACE
+            - generic [ref=e107]:
+              - link "instagram link" [ref=e108] [cursor=pointer]:
+                - /url: https://www.instagram.com/brendanfitzgeraldwallace
+              - link "youtube link" [ref=e110] [cursor=pointer]:
+                - /url: https://www.youtube.com/@brendanfwallace
+              - link "linkedin link" [ref=e112] [cursor=pointer]:
+                - /url: https://www.linkedin.com/in/brendanfitzgeraldwallace/
+              - link "linkedin link" [ref=e114] [cursor=pointer]:
+                - /url: https://x.com/BrendanFWallace
+          - generic [ref=e116]:
+            - generic [ref=e117]: FOLLOW FIFTH WALL
+            - generic [ref=e118]:
+              - link "instagram link" [ref=e119] [cursor=pointer]:
+                - /url: https://www.instagram.com/fifthwallvc/
+              - link "youtube link" [ref=e121] [cursor=pointer]:
+                - /url: https://www.youtube.com/c/FifthWall
+              - link "linkedin link" [ref=e123] [cursor=pointer]:
+                - /url: https://www.linkedin.com/company/fifth-wall-ventures
+              - link "linkedin link" [ref=e125] [cursor=pointer]:
+                - /url: https://x.com/fifthwallvc
+        - generic [ref=e127]:
+          - generic [ref=e128]: Subscribe to get insights and more interesting articles.
+          - form "Global Email Form" [ref=e130]:
+            - generic [ref=e131]:
+              - textbox "Email" [ref=e132]
+              - button "Subscribe" [ref=e133] [cursor=pointer]
+      - generic [ref=e138]:
+        - link "Privacy Policy" [ref=e139] [cursor=pointer]:
+          - /url: /privacy-policy
+        - link "Disclosures" [ref=e140] [cursor=pointer]:
+          - /url: /disclosures
+        - link "Terms of Use" [ref=e141] [cursor=pointer]:
+          - /url: /terms-of-use
+  - generic [ref=e144]:
+    - generic [ref=e145]:
+      - text: By clicking
+      - strong [ref=e146]: “Accept All Cookies”
+      - text: ", you agree to the storing of cookies on your device to enhance site navigation, analyze site usage, and assist in our marketing efforts. View our"
+      - link "Privacy Policy" [ref=e147] [cursor=pointer]:
+        - /url: /privacy-policy
+      - text: for more information.
+    - generic [ref=e148]:
+      - button "Deny" [ref=e149] [cursor=pointer]
+      - button "Accept" [ref=e150] [cursor=pointer]
+      - button [ref=e151] [cursor=pointer]
