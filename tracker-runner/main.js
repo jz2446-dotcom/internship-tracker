@@ -17,6 +17,7 @@ const path = require('path');
 const fs = require('fs');
 const timing = require('./lib/timing.js');
 const { parseResolvedLine } = require('./lib/resolvedParser.js');
+const { dedupCategories } = require('./lib/dedup.js');
 const TIMINGS_PATH = path.join(__dirname, 'history', 'step-timings.json');
 
 // Resolve the project root the same way the control panel does: dev (`npm start`)
@@ -79,6 +80,38 @@ const TAB_ORDER = [
   'libraries', 'environmental', 'realestate', 'ithaca',
   'sophomore', 'fall2026', 'spring2027', 'fellowships', 'china_hk',
 ];
+
+// Maps each dedupable category to the results file build-data.js reads. Mirrors
+// lib/dedup.js's CATEGORY_ORDER (minus spring2027, which merges into fall2026
+// before this ever runs).
+const CATEGORY_FILES = {
+  agent1: 'agent1_results.json', agent2: 'agent2_results.json', agent3: 'agent3_results.json',
+  agent4: 'agent4_results.json', agent5: 'agent5_results.json',
+  sophomore: 'sophomore_results.json', fall2026: 'fall2026_results.json',
+  libraries: 'libraries_results.json', environmental: 'environmental_results.json',
+  realestate: 'realestate_results.json', fellowships: 'fellowships_results.json',
+  china_hk: 'china_hk_results.json', ithaca: 'ithaca_results.json',
+};
+
+function loadCategoryFiles(dataDir) {
+  const out = {};
+  for (const [id, filename] of Object.entries(CATEGORY_FILES)) {
+    const p = path.join(dataDir, filename);
+    if (!fs.existsSync(p)) continue;
+    try { out[id] = JSON.parse(fs.readFileSync(p, 'utf8')); } catch (_) { /* skip unreadable */ }
+  }
+  return out;
+}
+
+function writeCategoryFiles(dataDir, cleaned, removals) {
+  const touched = new Set(removals.map((r) => r.from));
+  for (const id of touched) {
+    const filename = CATEGORY_FILES[id];
+    if (filename && cleaned[id]) {
+      fs.writeFileSync(path.join(dataDir, filename), JSON.stringify(cleaned[id], null, 2));
+    }
+  }
+}
 // Split the old per-tab budgets across simultaneously-running tabs.
 // ANALYST_BROWSE_CONC stays at 1 here (not 2+): 14 tabs already run simultaneously in
 // this mode, each a full Node process; stacking more concurrent Playwright/Chromium
@@ -93,7 +126,7 @@ const PARALLEL_ENV = { ANALYST_NIM_CONC: '1', ANALYST_SEARCH_CONC: '1', FIRECRAW
 function buildPlan(opts) {
   const mode = opts.mode === 'short' ? 'short' : 'long';
   const steps = [];
-  const tabs = opts.smokeTab ? [opts.smokeTab] : TAB_ORDER;
+  const tabs = opts.dedupOnly ? [] : (opts.smokeTab ? [opts.smokeTab] : TAB_ORDER);
 
   // Sequential ("one at a time") trades wall-clock speed for a much lighter
   // machine load: only one tab's Node process (+ its Playwright session) is ever
@@ -133,8 +166,11 @@ function buildPlan(opts) {
     });
   }
 
-  if (!opts.smokeTab) {
+  if (!opts.smokeTab && !opts.dedupOnly) {
     steps.push({ label: 'Merge — Fall 2026 + Spring 2027 → fall2026', kind: 'merge-fall2026', key: 'merge' });
+  }
+  if (opts.dedupOnly) {
+    steps.push({ label: 'Remove cross-category duplicates', kind: 'dedup', key: 'dedup' });
   }
 
   if (!opts.skipDeploy) {
@@ -350,6 +386,24 @@ async function runPipeline(opts, sender) {
       continue;
     }
 
+    if (step.kind === 'dedup') {
+      try {
+        const categories = loadCategoryFiles(DATA_DIR);
+        const { cleaned, removals } = dedupCategories(categories);
+        for (const r of removals) {
+          log(`  - removed ${r.company} / ${r.program} from ${r.from} (kept in ${r.keptIn})\n`);
+        }
+        log(`  → ${removals.length} duplicate(s) removed\n`);
+        writeCategoryFiles(DATA_DIR, cleaned, removals);
+        sendStepStatus(i, 'done');
+      } catch (e) {
+        log(`  dedup failed: ${e.message}\n`, 'stderr');
+        sendStepStatus(i, 'failed');
+        failures.push(step.label); ok = false;
+      }
+      continue;
+    }
+
     log(`$ ${step.shell ? step.cmd : [step.cmd, ...step.args].join(' ')}\n(cwd: ${step.cwd})\n`);
     const code = await runStep(step, sender);
     if (aborted) {
@@ -490,6 +544,18 @@ ipcMain.handle('start-run', (event, opts) => {
   if (running) return { started: false, reason: 'busy' };
   running = true;
   runPipeline(opts || { mode: 'long' }, event.sender)
+    .catch(e => {
+      running = false;
+      event.sender.send('run-output', { stream: 'stderr', chunk: `\n[pipeline error] ${e.stack || e.message}\n` });
+      event.sender.send('run-done', { ok: false, aborted: false, failures: ['pipeline error'] });
+    });
+  return { started: true };
+});
+
+ipcMain.handle('start-dedup', (event) => {
+  if (running) return { started: false, reason: 'busy' };
+  running = true;
+  runPipeline({ mode: 'long', dedupOnly: true }, event.sender)
     .catch(e => {
       running = false;
       event.sender.send('run-output', { stream: 'stderr', chunk: `\n[pipeline error] ${e.stack || e.message}\n` });

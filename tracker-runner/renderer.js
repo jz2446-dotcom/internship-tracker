@@ -4,6 +4,7 @@
 const consoleEl = document.getElementById('console');
 const stepsList = document.getElementById('stepsList');
 const startBtn = document.getElementById('startBtn');
+const dedupBtn = document.getElementById('dedupBtn');
 const stopBtn = document.getElementById('stopBtn');
 const clearBtn = document.getElementById('clearBtn');
 const statusBar = document.getElementById('statusBar');
@@ -125,6 +126,7 @@ window.api.onPlan(({ steps, mode: runMode, brain: runBrain }) => {
   renderSteps(steps);
   running = true;
   startBtn.disabled = true;
+  dedupBtn.disabled = true;
   stopBtn.disabled = false;
   modeBtns.forEach(b => { b.disabled = true; b.classList.toggle('active', b.dataset.mode === runMode); });
   brainBtns.forEach(b => { b.disabled = true; if (runBrain) b.classList.toggle('active', b.dataset.brain === runBrain); });
@@ -156,6 +158,7 @@ window.api.onStepStatus(({ index, status, percent }) => {
 window.api.onDone(({ ok, aborted, failures, resolved }) => {
   running = false;
   startBtn.disabled = false;
+  dedupBtn.disabled = false;
   stopBtn.disabled = true;
   modeBtns.forEach(b => b.disabled = false);
   brainBtns.forEach(b => b.disabled = false);
@@ -178,9 +181,22 @@ startBtn.addEventListener('click', async () => {
   if (!started) { statusBar.textContent = `Could not start (${reason}).`; return; }
   running = true;
   startBtn.disabled = true;
+  dedupBtn.disabled = true;
   stopBtn.disabled = false;
   modeBtns.forEach(b => b.disabled = true);
   smokeCheck.disabled = true;
+  statusBar.className = '';
+  statusBar.textContent = 'Running…';
+});
+
+dedupBtn.addEventListener('click', async () => {
+  if (running) return;
+  const { started, reason } = await window.api.startDedup();
+  if (!started) { statusBar.textContent = `Could not start (${reason}).`; return; }
+  running = true;
+  startBtn.disabled = true;
+  dedupBtn.disabled = true;
+  stopBtn.disabled = false;
   statusBar.className = '';
   statusBar.textContent = 'Running…';
 });
