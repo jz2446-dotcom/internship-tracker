@@ -294,6 +294,21 @@ function sendHistoryBounds() {
 new ResizeObserver(sendHistoryBounds).observe(historyViewSlot);
 window.addEventListener('resize', sendHistoryBounds);
 
+// Computes whether the History empty-state hint should show, and with what
+// message, given the current known state. Two distinct "empty" situations:
+// no snapshots exist at all, vs. snapshots exist but none is selected yet.
+function updateHistoryEmptyState() {
+  if (!historyDates.length) {
+    historyEmptyState.textContent = 'No past runs saved yet — run a refresh first.';
+    historyEmptyState.classList.remove('hidden');
+  } else if (!selectedHistoryDate) {
+    historyEmptyState.textContent = 'Pick a date from 📅 History to view a past run.';
+    historyEmptyState.classList.remove('hidden');
+  } else {
+    historyEmptyState.classList.add('hidden');
+  }
+}
+
 function switchPanel(name) {
   panelTabs.forEach(x => x.classList.toggle('active', x.dataset.panel === name));
   Object.entries(panels).forEach(([n, el]) => el.classList.toggle('hidden', n !== name));
@@ -302,8 +317,12 @@ function switchPanel(name) {
   if (browserVisible) requestAnimationFrame(sendBrowserBounds);
   historyVisible = name === 'history';
   window.api.historySetVisible(historyVisible);
-  historyEmptyState.classList.toggle('hidden', !(name === 'history' && !historyDates.length));
-  if (historyVisible) requestAnimationFrame(sendHistoryBounds);
+  if (historyVisible) {
+    updateHistoryEmptyState();
+    requestAnimationFrame(sendHistoryBounds);
+  } else {
+    historyEmptyState.classList.add('hidden');
+  }
 }
 panelTabs.forEach(t => t.addEventListener('click', () => switchPanel(t.dataset.panel)));
 
@@ -333,7 +352,7 @@ async function selectHistoryDate(date) {
   await window.api.viewHistory(date);
   renderCalendar();
   calendarPopup.classList.add('hidden');
-  switchPanel('history');
+  switchPanel('history'); // re-checks the empty-state condition now that a date is selected
 }
 calendarToggle.addEventListener('click', async () => {
   await refreshHistoryDates();
@@ -384,8 +403,11 @@ resolvedClose.addEventListener('click', () => resolvedPopup.classList.add('hidde
     statusBar.textContent = 'Missing project components — check the console.';
     statusBar.className = 'err';
     startBtn.disabled = true;
+    dedupBtn.disabled = true;
   }
   refreshPlan();
   await refreshHistoryDates();
+  // No date can be selected yet at boot, so the only relevant check here is
+  // whether any snapshots exist at all.
   historyEmptyState.classList.toggle('hidden', historyDates.length > 0);
 })();

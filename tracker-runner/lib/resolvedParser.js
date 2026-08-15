@@ -3,7 +3,7 @@
 // for the post-run "resolved companies" report.
 function parseResolvedLine(line) {
   const trimmed = (line || '').trim();
-  const m = /^\[(\w+)\]\s*✓\s*(REG|ATS|SRCH|WEB)\s+(.+)$/.exec(trimmed);
+  const m = /^\[([\w-]+)\]\s*✓\s*(REG|ATS|SRCH|WEB)\s+(.+)$/.exec(trimmed);
   if (!m) return null;
   const [, tab, method, rest] = m;
 
