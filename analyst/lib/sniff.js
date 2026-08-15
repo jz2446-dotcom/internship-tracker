@@ -38,12 +38,38 @@ function looksLikeJobId(v) {
   return /\d{2,}/.test(s) || s.length >= 8;
 }
 
+// A real job/posting URL almost always has a job/req/position/apply-shaped path
+// segment or an opaque/numeric token in it ("/jobs/26011595", "/apply/R231441"); a
+// marketing/nav page URL ("/careers/about-teamamex/", "/careers/locations/") generally
+// doesn't. Guards the url-key acceptance path the same way looksLikeJobId guards the
+// id-key path.
+function looksLikeJobUrl(v) {
+  const s = String(v || "");
+  return /\/(jobs?|reqs?|requisitions?|positions?|postings?|openings?|apply)(\/|[-_]|$)/i.test(s) || /\d{4,}/.test(s);
+}
+
+// Object-shape field names that strongly indicate NAV/SITE-CONFIG data, not job
+// postings — disqualifies a candidate regardless of title/url presence. Found via a
+// real false positive: American Express's siteSettings response has an
+// `app.links.header` array (5 header-nav items, shape {name, url, sublinks,
+// visibleOnMobile}) that otherwise satisfies the title+url shape check on its own —
+// "name" is a legitimate TITLE_KEYS alias and "url" a legitimate URL_KEYS alias, so a
+// generic header-nav array reads as a "job list" by shape alone. This blocklist keeps
+// that pairing from misfiring on nav/config data (verified live 2026-08-15).
+const NON_JOB_SHAPE_KEYS = ["sublinks", "visibleonmobile", "direction", "fusioncode"];
+
+function looksLikeNonJobShape(keys) {
+  const lower = keys.map((k) => k.toLowerCase());
+  return NON_JOB_SHAPE_KEYS.some((k) => lower.includes(k));
+}
+
 // Score one candidate array: does it look like a job/position list?
 function scoreArray(arr) {
   if (!Array.isArray(arr) || arr.length < 3) return null; // too small a sample to trust
   const sample = arr.slice(0, 10).filter((x) => x && typeof x === "object" && !Array.isArray(x));
   if (sample.length < 3) return null;
   const keys = Object.keys(sample[0]);
+  if (looksLikeNonJobShape(keys)) return null;
   const titleKey = keyMatch(keys, TITLE_KEYS);
   const locKey = keyMatch(keys, LOC_KEYS);
   const urlKey = keyMatch(keys, URL_KEYS);
@@ -51,7 +77,15 @@ function scoreArray(arr) {
   if (!titleKey) return null;
   const titleHitRate = sample.filter((o) => typeof o[Object.keys(o).find((k) => k.toLowerCase() === titleKey)] === "string").length / sample.length;
   if (titleHitRate < 0.8) return null;
-  if (locKey || urlKey) return { titleKey, locKey, urlKey, idKey, size: arr.length };
+  // Location is a strong, low-false-positive signal specific to job listings — nav/config
+  // data essentially never carries a location/city field — so it alone is still enough.
+  if (locKey) return { titleKey, locKey, urlKey, idKey, size: arr.length };
+  // URL alone is weaker (nav menus have URLs too) — also require the URLs themselves to
+  // look job-shaped, the same way the id-only path already requires job-shaped ids.
+  if (urlKey) {
+    const urlHitRate = sample.filter((o) => looksLikeJobUrl(o[Object.keys(o).find((k) => k.toLowerCase() === urlKey)])).length / sample.length;
+    if (urlHitRate >= 0.8) return { titleKey, locKey, urlKey, idKey, size: arr.length };
+  }
   if (idKey) {
     const idHitRate = sample.filter((o) => looksLikeJobId(o[Object.keys(o).find((k) => k.toLowerCase() === idKey)])).length / sample.length;
     if (idHitRate >= 0.8) return { titleKey, locKey, urlKey, idKey, size: arr.length };

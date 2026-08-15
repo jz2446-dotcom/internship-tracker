@@ -160,20 +160,154 @@ function pickJobsSearchLink(links, currentUrl) {
   return scored.length ? scored[0].u : null;
 }
 
-// Try one page: ATS-link, single-JobPosting, then a shape-based network sniff. Returns
-// the same {provider,slug} / {careersUrl} / {sniffed} shapes findFirm returns, or null.
+// Fills the page's job-search input (if one exists) with `keyword` and submits it —
+// Enter first, a same-form submit as a fallback. Large custom career portals (Workday,
+// Oracle HCM, SuccessFactors, bespoke React/Angular apps) commonly load showing EVERY
+// open role sorted by recency, with a small number of internships buried past the
+// default/first page — the posting only becomes visible once a real keyword search is
+// performed. Verified live against American Express's careers.americanexpress.com: the
+// default view shows 374 unfiltered jobs with no internship in the first page; searching
+// "intern" surfaces the internship immediately (2026-08-15).
+//
+// Sets the input's value via the native property setter + dispatches input/change events
+// rather than just setting .value directly — React (and similar frameworks) attach their
+// controlled-component listeners at the native-event level, so a plain .value assignment
+// is invisible to them; the native setter + dispatched Event is the standard technique
+// for driving a controlled input from outside React's own code path.
+//
+// Returns true if a plausible search input was found and a search was attempted (NOT a
+// guarantee the site's results actually updated — callers re-probe the page afterward to
+// check), false if no search-like input was found at all.
+function trySearchKeyword(session, keyword) {
+  const fn =
+    "() => {" +
+    "const isVisible=(el)=>{const r=el.getBoundingClientRect();return r.width>0&&r.height>0;};" +
+    "const inputs=[...document.querySelectorAll('input[type=\"text\"],input[type=\"search\"],input:not([type])')]" +
+    ".filter(isVisible)" +
+    ".filter(el=>{" +
+    "const hay=((el.placeholder||'')+' '+(el.getAttribute('aria-label')||'')+' '+(el.name||'')+' '+(el.id||'')).toLowerCase();" +
+    "return /search|keyword|job\\s*title|what|role/.test(hay);" +
+    "});" +
+    "if(!inputs.length) return false;" +
+    "const el=inputs[0];" +
+    "const setter=Object.getOwnPropertyDescriptor(window.HTMLInputElement.prototype,'value').set;" +
+    "setter.call(el," + JSON.stringify(keyword) + ");" +
+    "el.dispatchEvent(new Event('input',{bubbles:true}));" +
+    "el.dispatchEvent(new Event('change',{bubbles:true}));" +
+    "el.focus();" +
+    "el.dispatchEvent(new KeyboardEvent('keydown',{key:'Enter',code:'Enter',keyCode:13,which:13,bubbles:true}));" +
+    "el.dispatchEvent(new KeyboardEvent('keyup',{key:'Enter',code:'Enter',keyCode:13,which:13,bubbles:true}));" +
+    "const form=el.closest('form');" +
+    "if(form && typeof form.requestSubmit==='function'){try{form.requestSubmit();}catch(e){}}" +
+    "return true;" +
+    "}";
+  return pw.evalJson(session, fn) === true;
+}
+
+// Blocks the CLI round-trip for `ms` — gives a client-rendered results list time to
+// re-render after a search submit before the caller re-probes the page.
+function waitMs(session, ms) {
+  pw.evalJson(session, `() => new Promise(r => setTimeout(() => r(true), ${Number(ms) || 0}))`);
+}
+
+// Last-resort extraction: read job postings straight off the RENDERED page instead of
+// its network traffic. Needed because some career portals (verified live 2026-08-15:
+// Microsoft's apply.careers.microsoft.com) filter results entirely client-side once the
+// full job set is already loaded in memory — searching updates the DOM and the URL, but
+// fires no new distinguishing network request for sniffJobsApi to catch. Title comes
+// from a job link's accessible name ("View job: <title>", a common pattern on modern
+// React/Angular job boards) when present, falling back to the link's own text.
+function extractDomPostings(session) {
+  const fn =
+    "() => {" +
+    // Same-origin only (external tracking/legal-redirect links like Microsoft's
+    // safelinks.protection.outlook.com aren't job postings) and the digit-fallback
+    // only counts digits in the URL PATH, not the full href — a query string can carry
+    // large, job-unrelated numeric tokens (tracking ids, cache-busters) that would
+    // otherwise false-match.
+    "const isJobLink=(a)=>{" +
+    "let u; try{u=new URL(a.href);}catch(e){return false;}" +
+    "if(u.origin!==location.origin) return false;" +
+    "if(/privacy|terms|trademark|cookie|accessibility|sitemap/i.test(u.pathname)) return false;" +
+    "return /\\/(jobs?|reqs?|requisitions?|positions?|postings?|openings?)(\\/|[-_]|$)/i.test(u.pathname) || /\\d{4,}/.test(u.pathname);" +
+    "};" +
+    "const links=[...document.querySelectorAll('a[href]')].filter(isJobLink);" +
+    "const seen=new Set();" +
+    "const out=[];" +
+    "for(const a of links){" +
+    "const href=a.href;" +
+    "if(!href || seen.has(href)) continue;" +
+    "seen.add(href);" +
+    "let title=(a.getAttribute('aria-label')||'').replace(/^(view\\s+job:?|apply\\s+for:?)\\s*/i,'').trim();" +
+    "if(!title) title=(a.textContent||'').trim().replace(/\\s+/g,' ').slice(0,150);" +
+    "if(!title) continue;" +
+    "out.push({title, apply_url: href});" +
+    "if(out.length>=60) break;" +
+    "}" +
+    "return out;" +
+    "}";
+  const raw = pw.evalJson(session, fn) || [];
+  return raw.map((p) => ({ title: p.title, apply_url: p.apply_url, location: "", open: true, source: "sniff-dom" }));
+}
+
+// Try one page: ATS-link, single-JobPosting, then a shape-based network sniff, then (if
+// still nothing) an interactive keyword search before giving up. Returns the same
+// {provider,slug} / {careersUrl} / {sniffed} shapes findFirm returns, or null.
 function probePage(session, url) {
   const r = pw.goto(session, url);
   if (r.code !== 0) return null;
-  const { links, hasJobPosting, hasJibe } = pageProbe(session);
+  let { links, hasJobPosting, hasJibe } = pageProbe(session);
   if (!links.length && !hasJobPosting && !hasJibe) return null;
   const ats = detectAts(links);
   if (ats) return ats;
   if (hasJibe) { try { return { provider: "jibe", slug: new URL(url).hostname }; } catch (_) {} }
   if (hasJobPosting) return { careersUrl: url };
   const sniffed = sniff.sniffJobsApi(session);
-  if (sniffed) return { sniffed, sniffedUrl: url }; // sniffedUrl: where it worked, so the
-  // caller can remember this page for next time (lib/registry.js) instead of re-guessing.
+  if (sniffed) {
+    // Real job data, but was it the RIGHT subset? A default/unfiltered listing (sorted
+    // by recency/relevance) commonly surfaces none of a firm's internships in its first
+    // page — verified live 2026-08-15: Microsoft's apply.careers.microsoft.com returns
+    // 10 legitimate senior/full-time postings on load, zero internships, because that's
+    // just whatever the default sort happens to show first. If nothing here looks
+    // intern-shaped, try a keyword search and MERGE whatever it turns up rather than
+    // trusting the default page was the whole picture — downstream title/finance
+    // filtering handles weeding out anything irrelevant either way.
+    if (sniffed.some((p) => /intern/i.test(p.title || ""))) return { sniffed, sniffedUrl: url };
+    if (trySearchKeyword(session, "intern")) {
+      waitMs(session, 1500);
+      const sniffed2 = sniff.sniffJobsApi(session);
+      const seen = new Set(sniffed.map((p) => p.apply_url || p.title));
+      if (sniffed2) {
+        const merged = sniffed.concat(sniffed2.filter((p) => !seen.has(p.apply_url || p.title)));
+        if (merged.some((p) => /intern/i.test(p.title || ""))) return { sniffed: merged, sniffedUrl: url };
+      }
+      // Network sniffing still didn't turn up anything intern-shaped — the search may
+      // have filtered client-side only (no new distinguishing request to catch). Read
+      // the rendered results directly as a last resort before giving up on this page.
+      const domPostings = extractDomPostings(session).filter((p) => !seen.has(p.apply_url || p.title));
+      if (domPostings.length) {
+        const base = sniffed2 ? sniffed.concat(sniffed2.filter((p) => !seen.has(p.apply_url || p.title))) : sniffed;
+        return { sniffed: base.concat(domPostings), sniffedUrl: url };
+      }
+    }
+    return { sniffed, sniffedUrl: url }; // sniffedUrl: where it worked, so the caller can
+    // remember this page for next time (lib/registry.js) instead of re-guessing.
+  }
+
+  // Nothing usable in the page as it loaded — try searching "intern" before falling
+  // back to a passive hand-off of whatever links were on the (unsearched) page.
+  if (trySearchKeyword(session, "intern")) {
+    waitMs(session, 1500);
+    const reprobe = pageProbe(session);
+    const ats2 = detectAts(reprobe.links);
+    if (ats2) return ats2;
+    if (reprobe.hasJobPosting) return { careersUrl: url };
+    const sniffed2 = sniff.sniffJobsApi(session);
+    if (sniffed2) return { sniffed: sniffed2, sniffedUrl: url };
+    const domPostings = extractDomPostings(session);
+    if (domPostings.length) return { sniffed: domPostings, sniffedUrl: url };
+    if (reprobe.links.length) links = reprobe.links; // hand the post-search links onward
+  }
   return { links }; // nothing found directly, but hand back links for the one-hop follow
 }
 
