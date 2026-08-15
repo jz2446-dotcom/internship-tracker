@@ -20,6 +20,15 @@ const resolvedPopup = document.getElementById('resolvedPopup');
 const resolvedBody = document.getElementById('resolvedBody');
 const resolvedClose = document.getElementById('resolvedClose');
 let resolvedReport = null;
+const calendarToggle = document.getElementById('calendarToggle');
+const calendarPopup = document.getElementById('calendarPopup');
+const calendarBody = document.getElementById('calendarBody');
+const calendarClose = document.getElementById('calendarClose');
+const historyPanel = document.getElementById('historyPanel');
+const historyEmptyState = document.getElementById('historyEmptyState');
+const historyViewSlot = document.getElementById('historyViewSlot');
+let historyDates = [];
+let selectedHistoryDate = null;
 
 let mode = 'long';
 let brain = 'nim';
@@ -173,6 +182,7 @@ window.api.onDone(({ ok, aborted, failures, resolved }) => {
   stopProgressTimer();
   latestPercent = aborted ? latestPercent : (ok ? 1 : latestPercent);
   renderProgress();
+  refreshHistoryDates().catch(() => {});
 });
 
 startBtn.addEventListener('click', async () => {
@@ -205,18 +215,9 @@ stopBtn.addEventListener('click', () => window.api.stopRun());
 
 clearBtn.addEventListener('click', () => { consoleEl.textContent = ''; });
 
-// --- Console/Browser tabs ---
+// --- Console/Browser/History tabs ---
 const panelTabs = [...document.querySelectorAll('.panel-tab')];
-const panels = { console: document.getElementById('consolePanel'), browser: document.getElementById('browserPanel') };
 let browserVisible = false;
-
-panelTabs.forEach(t => t.addEventListener('click', () => {
-  panelTabs.forEach(x => x.classList.toggle('active', x === t));
-  Object.entries(panels).forEach(([name, el]) => el.classList.toggle('hidden', name !== t.dataset.panel));
-  browserVisible = t.dataset.panel === 'browser';
-  window.api.browserSetVisible(browserVisible);
-  if (browserVisible) requestAnimationFrame(sendBrowserBounds);
-}));
 
 // --- Built-in debug browser (BrowserView, main-process-owned) ---
 // Zero-token manual/visual escape hatch: inspect a career page the research
@@ -278,6 +279,69 @@ window.api.onBrowserNavState(({ url, canGoBack, canGoForward }) => {
   navFwd.disabled = !canGoForward;
 });
 
+// --- History panel (calendar-selected snapshot, embedded BrowserView) ---
+const panels = { console: document.getElementById('consolePanel'), browser: document.getElementById('browserPanel'), history: historyPanel };
+let historyVisible = false;
+
+function sendHistoryBounds() {
+  if (!historyVisible) return;
+  const r = historyViewSlot.getBoundingClientRect();
+  window.api.historySetBounds({
+    x: Math.round(r.left), y: Math.round(r.top),
+    width: Math.max(0, Math.round(r.width)), height: Math.max(0, Math.round(r.height)),
+  });
+}
+new ResizeObserver(sendHistoryBounds).observe(historyViewSlot);
+window.addEventListener('resize', sendHistoryBounds);
+
+function switchPanel(name) {
+  panelTabs.forEach(x => x.classList.toggle('active', x.dataset.panel === name));
+  Object.entries(panels).forEach(([n, el]) => el.classList.toggle('hidden', n !== name));
+  browserVisible = name === 'browser';
+  window.api.browserSetVisible(browserVisible);
+  if (browserVisible) requestAnimationFrame(sendBrowserBounds);
+  historyVisible = name === 'history';
+  window.api.historySetVisible(historyVisible);
+  historyEmptyState.classList.toggle('hidden', !(name === 'history' && !historyDates.length));
+  if (historyVisible) requestAnimationFrame(sendHistoryBounds);
+}
+panelTabs.forEach(t => t.addEventListener('click', () => switchPanel(t.dataset.panel)));
+
+function renderCalendar() {
+  calendarBody.innerHTML = '';
+  if (!historyDates.length) {
+    calendarBody.innerHTML = '<div class="popup-empty">No past runs saved yet.</div>';
+    return;
+  }
+  const grid = document.createElement('div');
+  grid.className = 'calendar-grid';
+  for (const date of historyDates) {
+    const cell = document.createElement('div');
+    cell.className = 'calendar-day has-snapshot' + (date === selectedHistoryDate ? ' selected' : '');
+    cell.textContent = date.slice(5); // MM-DD
+    cell.title = date;
+    cell.addEventListener('click', () => selectHistoryDate(date));
+    grid.appendChild(cell);
+  }
+  calendarBody.appendChild(grid);
+}
+async function refreshHistoryDates() {
+  historyDates = await window.api.listHistoryDates();
+}
+async function selectHistoryDate(date) {
+  selectedHistoryDate = date;
+  await window.api.viewHistory(date);
+  renderCalendar();
+  calendarPopup.classList.add('hidden');
+  switchPanel('history');
+}
+calendarToggle.addEventListener('click', async () => {
+  await refreshHistoryDates();
+  renderCalendar();
+  calendarPopup.classList.toggle('hidden');
+});
+calendarClose.addEventListener('click', () => calendarPopup.classList.add('hidden'));
+
 function renderResolvedPopup() {
   resolvedBody.innerHTML = '';
   const tabs = Object.keys(resolvedReport || {}).sort();
@@ -322,4 +386,6 @@ resolvedClose.addEventListener('click', () => resolvedPopup.classList.add('hidde
     startBtn.disabled = true;
   }
   refreshPlan();
+  await refreshHistoryDates();
+  historyEmptyState.classList.toggle('hidden', historyDates.length > 0);
 })();

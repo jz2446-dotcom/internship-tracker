@@ -42,4 +42,15 @@ contextBridge.exposeInMainWorld('api', {
     ipcRenderer.on('browser-nav-state', l);
     return () => ipcRenderer.removeListener('browser-nav-state', l);
   },
+
+  // --- History panel (calendar-selected snapshot, same BrowserView pattern) ---
+  listHistoryDates: () => ipcRenderer.invoke('list-history-dates'),
+  viewHistory: (date) => ipcRenderer.invoke('view-history', date),
+  historySetBounds: (bounds) => ipcRenderer.invoke('history-set-bounds', bounds),
+  historySetVisible: (visible) => ipcRenderer.invoke('history-set-visible', visible),
+  onHistoryNavState: (cb) => {
+    const l = (_e, d) => cb(d);
+    ipcRenderer.on('history-nav-state', l);
+    return () => ipcRenderer.removeListener('history-nav-state', l);
+  },
 });

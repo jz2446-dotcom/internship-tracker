@@ -278,3 +278,23 @@ footer.warn { color: #d29922; }
 }
 .popup-body .company-row .method { color: #58a6ff; font-size: 11px; }
 .popup-empty { color: #8b949e; font-size: 13px; padding: 20px 0; text-align: center; }
+
+.calendar-popup { width: 300px; }
+.calendar-month {
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 4px 0 10px; font-size: 13px; color: #e6edf3;
+}
+.calendar-month button { background: none; border: none; color: #8b949e; cursor: pointer; font-size: 14px; }
+.calendar-grid { display: grid; grid-template-columns: repeat(7, 1fr); gap: 4px; }
+.calendar-day {
+  aspect-ratio: 1; display: flex; align-items: center; justify-content: center;
+  font-size: 12px; border-radius: 4px; color: #484f58;
+}
+.calendar-day.has-snapshot { color: #c9d1d9; background: #161b22; cursor: pointer; }
+.calendar-day.has-snapshot:hover { background: #1f6feb; color: #fff; }
+.calendar-day.selected { background: #1f6feb; color: #fff; }
+#historyPanel { position: relative; }
+#historyViewSlot {
+  flex: 1; min-height: 0; margin: 0 16px 12px;
+  border: 1px solid #21262d; border-radius: 6px; background: #fff;
+}

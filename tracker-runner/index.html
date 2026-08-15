@@ -29,6 +29,7 @@
       <label class="smoke-label" title="Run only the Environmental tab with --limit 2, no deploy — a quick wiring check">
         <input type="checkbox" id="smokeCheck" /> Smoke test
       </label>
+      <button id="calendarToggle" class="nav-btn">📅 History</button>
       <button id="resolvedToggle" class="nav-btn" disabled>Resolved companies</button>
       <button id="startBtn" class="start">▶ Start run + deploy</button>
       <button id="dedupBtn" class="dedup" title="Remove postings duplicated across categories (keeping the most specific one), then rebuild and redeploy">🧹 Dedup + redeploy</button>
@@ -42,6 +43,14 @@
       <button id="resolvedClose" class="clear">Close</button>
     </div>
     <div id="resolvedBody" class="popup-body"></div>
+  </div>
+
+  <div id="calendarPopup" class="popup calendar-popup hidden">
+    <div class="popup-head">
+      <h2>Past runs</h2>
+      <button id="calendarClose" class="clear">Close</button>
+    </div>
+    <div id="calendarBody" class="popup-body"></div>
   </div>
 
   <div class="mode-hint" id="modeHint">
@@ -62,6 +71,7 @@
       <div class="panel-tabs">
         <button class="panel-tab active" id="tabConsole" data-panel="console">Console</button>
         <button class="panel-tab" id="tabBrowser" data-panel="browser">Browser</button>
+        <button class="panel-tab" id="tabHistory" data-panel="history">History</button>
         <button id="clearBtn" class="clear">Clear</button>
       </div>
 
@@ -82,6 +92,11 @@
              rendered by an Electron BrowserView positioned exactly over this
              element's rect (see renderer.js) — not a DOM element itself. -->
         <div id="browserViewSlot"></div>
+      </div>
+
+      <div id="historyPanel" class="panel-body hidden">
+        <div id="historyEmptyState" class="popup-empty hidden">No past runs saved yet — run a refresh first.</div>
+        <div id="historyViewSlot"></div>
       </div>
     </section>
   </main>

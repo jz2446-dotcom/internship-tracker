@@ -18,7 +18,11 @@ const fs = require('fs');
 const timing = require('./lib/timing.js');
 const { parseResolvedLine } = require('./lib/resolvedParser.js');
 const { dedupCategories } = require('./lib/dedup.js');
+const history = require('./lib/history.js');
+const historyServer = require('./lib/historyServer.js');
+const htmlLoader = require('./lib/htmlLoader.js');
 const TIMINGS_PATH = path.join(__dirname, 'history', 'step-timings.json');
+const HISTORY_DIR = path.join(__dirname, 'history');
 
 // Resolve the project root the same way the control panel does: dev (`npm start`)
 // puts this dir directly under the root; packaged walks up from the exe;
@@ -431,8 +435,20 @@ async function runPipeline(opts, sender) {
   if (failures.length) log(`Failed steps:\n${failures.map(f => `  ✗ ${f}`).join('\n')}\n`, 'stderr');
   const updatedTimings = timing.updateTimings(timingsSnapshot, observations);
   timing.saveTimings(TIMINGS_PATH, updatedTimings);
-  running = false;
   sender.send('run-done', { ok, aborted, failures, resolved: groupResolved(resolvedThisRun) });
+
+  if (ok && !aborted && !opts.smokeTab) {
+    try {
+      const builtDataPath = path.join(WORKER_DIR, 'src', 'data.json');
+      if (fs.existsSync(builtDataPath)) {
+        history.writeSnapshot(HISTORY_DIR, history.dateStr(new Date()), fs.readFileSync(builtDataPath, 'utf8'));
+        log(`  → snapshotted today's results for the History calendar\n`);
+      }
+    } catch (e) {
+      log(`  (history snapshot failed: ${e.message})\n`, 'stderr');
+    }
+  }
+  running = false;
 }
 
 // ---------------------------------------------------------------------------
@@ -452,6 +468,7 @@ function createWindow() {
   win.setMenuBarVisibility(false);
   win.loadFile(path.join(__dirname, 'index.html'));
   createDebugView(win);
+  createHistoryView(win);
   return win;
 }
 
@@ -467,6 +484,10 @@ function createWindow() {
 // change (window resize, tab switch, DPI change, anything) — so the view can
 // never silently drift out of sync with the layout ("always aware").
 let debugView = null;
+let historyView = null;
+let historyServerHandle = null;
+let historyServerPort = null;
+let currentHistoryDate = null;
 function createDebugView(win) {
   debugView = new BrowserView({
     webPreferences: {
@@ -503,6 +524,23 @@ function createDebugView(win) {
   return debugView;
 }
 
+// ---------------------------------------------------------------------------
+// History browser — an analogous embedded Chromium that serves the real
+// tracker dashboard HTML against whichever day's snapshot the user picked
+// from the calendar, via lib/historyServer.js.
+function createHistoryView(win) {
+  historyView = new BrowserView({
+    webPreferences: { contextIsolation: true, nodeIntegration: false, partition: 'persist:history-browser' },
+  });
+  win.addBrowserView(historyView);
+  historyView.setBounds({ x: 0, y: 0, width: 0, height: 0 });
+  historyView.setAutoResize({ width: false, height: false });
+  historyView.webContents.loadURL('about:blank');
+  historyView.webContents.setWindowOpenHandler(({ url }) => { shell.openExternal(url); return { action: 'deny' }; });
+  win.on('closed', () => { historyView = null; });
+  return historyView;
+}
+
 app.whenReady().then(() => {
   const win = createWindow();
   // RUNNER_AUTOSTART=short|long starts the run as soon as the UI loads — lets a CLI
@@ -523,6 +561,7 @@ app.whenReady().then(() => {
 
 app.on('window-all-closed', () => {
   for (const c of children) { try { c.kill(); } catch (_) {} }
+  if (historyServerHandle) { try { historyServerHandle.close(); } catch (_) {} }
   if (process.platform !== 'darwin') app.quit();
 });
 
@@ -586,4 +625,30 @@ ipcMain.handle('browser-devtools', () => {
 ipcMain.handle('browser-set-bounds', (_e, bounds) => { debugView?.setBounds(bounds); });
 ipcMain.handle('browser-set-visible', (_e, visible) => {
   if (!visible) debugView?.setBounds({ x: 0, y: 0, width: 0, height: 0 });
+});
+
+// --- History panel (calendar-selected snapshot, same BrowserView pattern) ---
+ipcMain.handle('list-history-dates', () => history.listSnapshotDates(HISTORY_DIR));
+
+ipcMain.handle('view-history', async (_e, date) => {
+  currentHistoryDate = date;
+  if (!historyServerHandle) {
+    const dashboardHtmlFn = htmlLoader.loadDashboardHtml(path.join(WORKER_DIR, 'src', 'index.js'));
+    const { server, port } = await historyServer.startHistoryServer(
+      () => dashboardHtmlFn(),
+      () => {
+        try { return history.readSnapshot(HISTORY_DIR, currentHistoryDate); } catch (_) { return null; }
+      },
+    );
+    historyServerHandle = server;
+    historyServerPort = port;
+  }
+  const url = `http://127.0.0.1:${historyServerPort}/`;
+  historyView?.webContents.loadURL(url);
+  return { url };
+});
+
+ipcMain.handle('history-set-bounds', (_e, bounds) => { historyView?.setBounds(bounds); });
+ipcMain.handle('history-set-visible', (_e, visible) => {
+  if (!visible) historyView?.setBounds({ x: 0, y: 0, width: 0, height: 0 });
 });
