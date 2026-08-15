@@ -1,0 +1,25 @@
+- generic [ref=f1788e5]:
+  - img "Organization background image" [ref=f1788e6]
+  - generic [ref=f1788e8]:
+    - generic [ref=f1788e13]:
+      - generic [ref=f1788e14]:
+        - img "Organization banner logo" [ref=f1788e17]
+        - main [ref=f1788e18]:
+          - generic [ref=f1788e21]:
+            - heading "Sign in" [level=1] [ref=f1788e25]
+            - generic [ref=f1788e26]:
+              - alert
+              - generic [ref=f1788e28]:
+                - textbox "someone@example.com" [active] [ref=f1788e29]
+                - textbox [ref=f1788e30]
+            - link "Can’t access your account?" [ref=f1788e36] [cursor=pointer]:
+              - /url: "#"
+            - button "Next" [ref=f1788e39] [cursor=pointer]
+      - button "Sign-in options" [ref=f1788e45] [cursor=pointer]
+    - contentinfo [ref=f1788e50]:
+      - generic [ref=f1788e51]:
+        - link "Terms of use" [ref=f1788e52] [cursor=pointer]:
+          - /url: https://www.microsoft.com/en-US/servicesagreement/
+        - link "Privacy & cookies" [ref=f1788e53] [cursor=pointer]:
+          - /url: https://privacy.microsoft.com/en-US/privacystatement
+        - button "Click here for troubleshooting information" [ref=f1788e54] [cursor=pointer]: ...

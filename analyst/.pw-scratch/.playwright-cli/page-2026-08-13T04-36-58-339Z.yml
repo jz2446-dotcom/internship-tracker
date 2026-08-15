@@ -1,0 +1,151 @@
+- generic [active] [ref=f679e1]:
+  - link "Skip to main content" [ref=f679e2] [cursor=pointer]:
+    - /url: "#main_content"
+  - banner [ref=f679e3]:
+    - generic [ref=f679e4]:
+      - region "Official website of the United States government" [ref=f679e5]:
+        - generic [ref=f679e8]:
+          - img "U.S. flag" [ref=f679e10]
+          - button "An official website of the United States government" [ref=f679e11] [cursor=pointer]
+      - navigation "primary navigation" [ref=f679e12]:
+        - generic [ref=f679e13]:
+          - link [ref=f679e14] [cursor=pointer]:
+            - /url: https://www.usajobs.gov/
+            - img "USAJOBS Logo" [ref=f679e15]
+          - list [ref=f679e17]:
+            - listitem [ref=f679e18]:
+              - link "Sign in" [ref=f679e19] [cursor=pointer]:
+                - /url: /applicant/profile/dashboard/
+            - listitem [ref=f679e22]:
+              - link "Events" [ref=f679e23] [cursor=pointer]:
+                - /url: https://www.usajobs.gov/Event
+            - listitem [ref=f679e26]:
+              - link "Help Center (opens in a new window)" [ref=f679e27] [cursor=pointer]:
+                - /url: https://help.usajobs.gov/how-to
+                - generic [ref=f679e29]: Help Center
+            - listitem [ref=f679e30]:
+              - link "Search" [ref=f679e31] [cursor=pointer]:
+                - /url: https://www.usajobs.gov/Search/Results
+    - group "Find your federal government job Search tips" [ref=f679e36]:
+      - generic [ref=f679e37]:
+        - generic [ref=f679e38]: Find your federal government job
+        - link "Search tips" [ref=f679e41] [cursor=pointer]:
+          - /url: https://help.usajobs.gov/how-to/search
+      - generic [ref=f679e42]:
+        - generic [ref=f679e44]:
+          - generic [ref=f679e45] [cursor=pointer]: Enter a job or keyword to start searching
+          - combobox "Enter a job or keyword to start searching" [ref=f679e47]
+        - generic [ref=f679e49]:
+          - generic [ref=f679e50] [cursor=pointer]: Where do you want to work?
+          - combobox "Where do you want to work?" [ref=f679e52]
+        - button "Search" [ref=f679e53] [cursor=pointer]
+  - main [ref=f679e54]:
+    - heading "Search results" [level=1] [ref=f679e55]
+    - generic [ref=f679e56]:
+      - generic [ref=f679e57]:
+        - button "Who can apply" [ref=f679e59] [cursor=pointer]
+        - button "Pay or Experience" [ref=f679e61] [cursor=pointer]
+        - button "Security clearance" [ref=f679e63] [cursor=pointer]
+        - button "Job type" [ref=f679e65] [cursor=pointer]
+        - button "Travel" [ref=f679e67] [cursor=pointer]
+        - button "Work schedule" [ref=f679e69] [cursor=pointer]
+        - button "Occupation" [ref=f679e71] [cursor=pointer]
+        - button "Agency" [ref=f679e73] [cursor=pointer]
+        - button "Work site" [ref=f679e75] [cursor=pointer]
+      - generic [ref=f679e76]:
+        - heading "Please refine your search" [level=2] [ref=f679e77]
+        - paragraph [ref=f679e78]: We couldn't find any results. Try refining your search.
+        - generic [ref=f679e80]:
+          - link "Jobs for current feds only" [ref=f679e81] [cursor=pointer]:
+            - /url: /Search/Results?hp=fed-internal-search&hp=fed-competitive&hp=fed-excepted&hp=fed-transition&hp=land
+          - link "Jobs open to the public" [ref=f679e83] [cursor=pointer]:
+            - /url: /Search/Results?hp=public
+          - link "Internships" [ref=f679e85] [cursor=pointer]:
+            - /url: /Search/Results?wt=15328
+          - link "Supervisory jobs" [ref=f679e87] [cursor=pointer]:
+            - /url: /Search/Results?ss=true
+        - generic [ref=f679e90]:
+          - link "Nurse" [ref=f679e91] [cursor=pointer]:
+            - /url: /Search/Results?k=Nurse
+          - link "Registered nurse" [ref=f679e94] [cursor=pointer]:
+            - /url: /Search/Results?k=Registered+nurse
+      - generic [ref=f679e97]:
+        - heading "Discover federal jobs with the Career Explorer" [level=2] [ref=f679e98]
+        - paragraph [ref=f679e99]: Tell us what you're interested in and we'll match you with federal jobs.
+        - link "Take quiz" [ref=f679e101] [cursor=pointer]:
+          - /url: /careerexplorer/
+      - generic [ref=f679e104]:
+        - heading "What you can do next" [level=2] [ref=f679e106]
+        - generic [ref=f679e107]:
+          - article [ref=f679e108]:
+            - heading [level=3] [ref=f679e111]:
+              - button "Add a resume to your profile" [ref=f679e112] [cursor=pointer]
+          - article [ref=f679e116]:
+            - heading [level=3] [ref=f679e119]:
+              - button "Get noticed by agency recruiters" [ref=f679e120] [cursor=pointer]
+          - article [ref=f679e124]:
+            - heading [level=3] [ref=f679e127]:
+              - button "Provide your military service information" [ref=f679e128] [cursor=pointer]
+  - contentinfo [ref=f679e132]:
+    - generic [ref=f679e135]:
+      - generic [ref=f679e136]:
+        - paragraph [ref=f679e139]:
+          - text: USAJOBS is a
+          - link "Opens in a new window United States Office of Personnel Management" [ref=f679e140] [cursor=pointer]:
+            - /url: https://www.opm.gov
+            - generic [ref=f679e141]: Opens in a new window
+            - text: United States Office of Personnel Management
+          - text: website.
+        - generic [ref=f679e142]:
+          - link "(Opens in a new window) OPM on LinkedIn" [ref=f679e143] [cursor=pointer]:
+            - /url: https://www.linkedin.com/company/usajobs
+          - link "(Opens in a new window) OPM YouTube channel" [ref=f679e147] [cursor=pointer]:
+            - /url: https://www.youtube.com/playlist?list=PLuzWeT0b0ErDyLedfJgutdV1_sf9q-2rZ
+          - link "(Opens in a new window) OPM on X" [ref=f679e151] [cursor=pointer]:
+            - /url: https://x.com/USAJOBS
+      - list [ref=f679e156]:
+        - listitem [ref=f679e157]:
+          - link "Opens in a new window About USAJOBS" [ref=f679e158] [cursor=pointer]:
+            - /url: https://help.usajobs.gov/About
+            - generic [ref=f679e159]: Opens in a new window
+            - text: About USAJOBS
+        - listitem [ref=f679e160]:
+          - link "Opens in a new window Accessibility" [ref=f679e161] [cursor=pointer]:
+            - /url: https://help.usajobs.gov/faq/policy/accessibility-policy
+            - generic [ref=f679e162]: Opens in a new window
+            - text: Accessibility
+        - listitem [ref=f679e163]:
+          - link "Opens in a new window FOIA" [ref=f679e164] [cursor=pointer]:
+            - /url: https://www.opm.gov/information-management/freedom-of-information-act/
+            - generic [ref=f679e165]: Opens in a new window
+            - text: FOIA
+        - listitem [ref=f679e166]:
+          - link "Opens in a new window Inspector general" [ref=f679e167] [cursor=pointer]:
+            - /url: https://www.opm.gov/our-inspector-general/
+            - generic [ref=f679e168]: Opens in a new window
+            - text: Inspector general
+        - listitem [ref=f679e169]:
+          - link "Opens in a new window No Fear Act Data" [ref=f679e170] [cursor=pointer]:
+            - /url: https://www.opm.gov/information-management/no-fear-act/
+            - generic [ref=f679e171]: Opens in a new window
+            - text: No Fear Act Data
+        - listitem [ref=f679e172]:
+          - link "Opens in a new window Privacy policy" [ref=f679e173] [cursor=pointer]:
+            - /url: https://help.usajobs.gov/privacy
+            - generic [ref=f679e174]: Opens in a new window
+            - text: Privacy policy
+        - listitem [ref=f679e175]:
+          - link "Opens in a new window Reports and publications" [ref=f679e176] [cursor=pointer]:
+            - /url: https://www.opm.gov/about-us/reports-publications/
+            - generic [ref=f679e177]: Opens in a new window
+            - text: Reports and publications
+        - listitem [ref=f679e178]:
+          - link "Opens in a new window Terms and conditions" [ref=f679e179] [cursor=pointer]:
+            - /url: https://help.usajobs.gov/terms-and-conditions
+            - generic [ref=f679e180]: Opens in a new window
+            - text: Terms and conditions
+        - listitem [ref=f679e181]:
+          - link "Opens in a new window USA.gov" [ref=f679e182] [cursor=pointer]:
+            - /url: http://www.usa.gov/
+            - generic [ref=f679e183]: Opens in a new window
+            - text: USA.gov

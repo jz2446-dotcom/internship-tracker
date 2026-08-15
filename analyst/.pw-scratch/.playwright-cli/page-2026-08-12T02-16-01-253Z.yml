@@ -1,0 +1,123 @@
+- generic [ref=f1011e2]:
+  - banner [ref=f1011e3]:
+    - link "Skip to content" [ref=f1011e4] [cursor=pointer]:
+      - /url: "#main"
+    - link [ref=f1011e8] [cursor=pointer]:
+      - /url: https://lockheedmartin.avature.net/talent
+      - img "Home" [ref=f1011e9]
+      - heading "Lockheed Martin" [level=1] [ref=f1011e10]
+  - main [ref=f1011e11]:
+    - article [ref=f1011e18]:
+      - generic [ref=f1011e19]:
+        - heading "Stay Connected and Join our Talent Network!" [level=2] [ref=f1011e22]
+        - generic [ref=f1011e25]:
+          - generic [ref=f1011e26]:
+            - generic [ref=f1011e30]:
+              - generic [ref=f1011e31]: First Name *
+              - textbox "First Name *" [ref=f1011e32]:
+                - /placeholder: ""
+            - generic [ref=f1011e36]:
+              - generic [ref=f1011e37]: Last Name *
+              - textbox "Last Name *" [ref=f1011e38]:
+                - /placeholder: ""
+            - generic [ref=f1011e42]:
+              - generic [ref=f1011e43]: Email *
+              - textbox "Email *" [ref=f1011e44]:
+                - /placeholder: ""
+            - generic [ref=f1011e48]:
+              - generic [ref=f1011e49]: Mobile Phone Number
+              - textbox "Mobile Phone Number" [ref=f1011e50]:
+                - /placeholder: ""
+            - generic [ref=f1011e54]:
+              - generic [ref=f1011e55]: State/Province *
+              - generic [ref=f1011e56]: What state do you currently reside?
+              - textbox "State/Province * What state do you currently reside?" [ref=f1011e57]:
+                - /placeholder: ""
+            - generic [ref=f1011e61]:
+              - generic [ref=f1011e62]: Willing to Relocate (Yes or No) *
+              - combobox "Willing to Relocate (Yes or No) *" [ref=f1011e63]:
+                - option "Select an option" [selected]
+                - option "No"
+                - option "Yes"
+            - generic [ref=f1011e67]:
+              - generic [ref=f1011e68]: Preferred State *
+              - generic [ref=f1011e69]: Select all states you are willing to work and live. Any US State is an option also.
+              - generic [ref=f1011e70]:
+                - listbox [ref=f1011e71]
+                - combobox [ref=f1011e74]:
+                  - group [ref=f1011e75]:
+                    - searchbox "Preferred State *" [ref=f1011e76]
+            - generic [ref=f1011e80]:
+              - generic [ref=f1011e81]: Do you have a minimum of two years work experience not counting internships? *
+              - combobox "Do you have a minimum of two years work experience not counting internships? *" [ref=f1011e82]:
+                - option "Select an option" [selected]
+                - option "No"
+                - option "Yes"
+            - generic [ref=f1011e86]:
+              - generic [ref=f1011e87]: Military Service *
+              - generic [ref=f1011e88]:
+                - listbox [ref=f1011e89]
+                - combobox [ref=f1011e92]:
+                  - group [ref=f1011e93]:
+                    - searchbox "Military Service *" [ref=f1011e94]
+            - generic [ref=f1011e98]:
+              - generic [ref=f1011e99]: Security Clearance Status
+              - combobox "Security Clearance Status" [ref=f1011e100]:
+                - option "Select an option" [selected]
+                - option "NA"
+                - option "No"
+                - option "Yes Active"
+                - option "Yes Inactive"
+            - generic [ref=f1011e104]:
+              - generic [ref=f1011e105]:
+                - text: Security Clearance Type / Level
+                - generic [ref=f1011e106]: Select an option
+              - generic [ref=f1011e107]:
+                - combobox [ref=f1011e108]
+                - combobox "Security Clearance Type / Level" [ref=f1011e111] [cursor=pointer]:
+                  - textbox [ref=f1011e112]
+            - generic [ref=f1011e116]:
+              - generic [ref=f1011e117]: Resume *
+              - button "Resume *" [ref=f1011e119]
+            - generic [ref=f1011e123]:
+              - generic [ref=f1011e124]: I hereby consent to Lockheed Martin using my information for legitimate business purposes and agree to the Lockheed Martin privacy policy. *
+              - radiogroup "I hereby consent to Lockheed Martin using my information for legitimate business purposes and agree to the Lockheed Martin privacy policy. *" [ref=f1011e125]:
+                - generic [ref=f1011e126]:
+                  - radio "Yes" [ref=f1011e127] [cursor=pointer]
+                  - generic [ref=f1011e128] [cursor=pointer]: "Yes"
+            - generic [ref=f1011e132]:
+              - generic [ref=f1011e133]: Do you consent to receiving Text Messages related to employment opportunities with Lockheed Martin? Text Data Rates may apply. *
+              - combobox "Do you consent to receiving Text Messages related to employment opportunities with Lockheed Martin? Text Data Rates may apply. *" [ref=f1011e134]:
+                - option "Select an option" [selected]
+                - option "No"
+                - option "Yes"
+            - generic [ref=f1011e135]: Captcha *
+          - button "Submit" [ref=f1011e141] [cursor=pointer]
+  - contentinfo "Footer" [ref=f1011e142]:
+    - generic [ref=f1011e144]:
+      - generic [ref=f1011e145]:
+        - generic [ref=f1011e146]: © 2026 Lockheed Martin Corporation. All Rights Reserved.
+        - generic [ref=f1011e147]:
+          - generic [ref=f1011e148]: /
+          - link "Privacy" [ref=f1011e149] [cursor=pointer]:
+            - /url: https://lockheedmartin.com/en-us/contact/disclaimer.html#privacy
+          - generic [ref=f1011e150]: /
+          - link "Terms of Use" [ref=f1011e151] [cursor=pointer]:
+            - /url: https://lockheedmartin.com/en-us/contact/disclaimer.html
+          - generic [ref=f1011e152]: /
+          - link "EU Data Protection Notice" [ref=f1011e153] [cursor=pointer]:
+            - /url: https://lockheedmartin.com/en-us/contact/lockheed-martin-corporation-privacy-notice-eu.html
+          - generic [ref=f1011e154]: /
+          - link "Cookies" [ref=f1011e155] [cursor=pointer]:
+            - /url: https://lockheedmartin.com/en-us/contact/cookies.html
+      - generic:
+        - link "Facebook":
+          - /url: http://www.facebook.com/lockheedmartin
+        - link "Twitter":
+          - /url: http://twitter.com/lockheedmartin
+        - link "Youtube":
+          - /url: http://www.youtube.com/user/LockheedMartinVideos
+        - link "Linkedin":
+          - /url: http://www.linkedin.com/company/lockheed-martin/careers
+        - link "Instagram":
+          - /url: http://instagram.com/lockheedmartin

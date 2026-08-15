@@ -1,0 +1,158 @@
+- generic [active] [ref=f440e1]:
+  - dialog "cookieconsent" [ref=f440e2]:
+    - generic [ref=f440e4]:
+      - text: By browsing this site, you consent to the use of cookies and our
+      - link "privacy policy visit this link to learn more about cookies. Opens in new window" [ref=f440e5] [cursor=pointer]:
+        - /url: https://www.tollbrothers.com/privacy
+        - text: privacy policy
+    - button "OK" [ref=f440e7] [cursor=pointer]
+  - generic [ref=f440e8]:
+    - navigation "Skip links" [ref=f440e9]:
+      - list [ref=f440e10]:
+        - listitem [ref=f440e11]:
+          - link "Skip to Page Content" [ref=f440e12] [cursor=pointer]:
+            - /url: "#page_content"
+            - text: Page Content
+        - listitem [ref=f440e13]:
+          - link "Skip to Site Navigation" [ref=f440e14] [cursor=pointer]:
+            - /url: "#main_nav"
+            - text: Site Navigation
+        - listitem [ref=f440e15]:
+          - link "Skip to Footer" [ref=f440e16] [cursor=pointer]:
+            - /url: "#footer_links"
+            - text: Footer
+    - generic [ref=f440e17]:
+      - banner [ref=f440e18]:
+        - link [ref=f440e20] [cursor=pointer]:
+          - /url: /
+          - img "Toll Brothers Logo" [ref=f440e21]
+        - navigation [ref=f440e22]:
+          - generic [ref=f440e23]:
+            - link "Toll Brothers Advantage" [ref=f440e24] [cursor=pointer]:
+              - /url: /advantage
+            - link "About Us" [ref=f440e25] [cursor=pointer]:
+              - /url: /about
+            - link "Contact Us" [ref=f440e26] [cursor=pointer]:
+              - /url: /contact
+            - link "My Favorites" [ref=f440e27] [cursor=pointer]:
+              - /url: https://home.tollbrothers.com/my-favorites
+          - button "Search icon Search Homes" [ref=f440e29] [cursor=pointer]:
+            - img "Search icon" [ref=f440e30]
+            - generic [ref=f440e31]: Search Homes
+      - main [ref=f440e32]:
+        - generic [ref=f440e33]:
+          - heading "Page Not Found" [level=1] [ref=f440e34]
+          - img "About Toll Brothers" [ref=f440e40]
+        - generic [ref=f440e41]:
+          - paragraph [ref=f440e42]: Our apologies…
+          - paragraph [ref=f440e43]:
+            - text: The document you requested does not exist on our site. Please check the URL for any errors, or go to our
+            - link "sitemap" [ref=f440e44] [cursor=pointer]:
+              - /url: /sitemap
+            - text: section to find the page you are looking for. Listed below are some links to help you in your home search, or you can search for your new home with the form below.
+          - generic [ref=f440e46]:
+            - button "When do you plan to move? Select a date" [ref=f440e49] [cursor=pointer]:
+              - generic [ref=f440e50]:
+                - generic [ref=f440e51]: When do you plan to move?
+                - generic [ref=f440e52]: Select a date
+            - textbox [ref=f440e54]:
+              - /placeholder: Enter a community, city, or state
+            - button "Search icon Search" [ref=f440e55] [cursor=pointer]:
+              - img "Search icon" [ref=f440e56]
+              - generic [ref=f440e57]: Search
+      - contentinfo [ref=f440e58]:
+        - contentinfo [ref=f440e60]:
+          - generic [ref=f440e61]:
+            - list [ref=f440e62]:
+              - listitem [ref=f440e63]: Get To Know Us
+              - listitem [ref=f440e64]:
+                - link "About Toll Brothers" [ref=f440e65] [cursor=pointer]:
+                  - /url: /about
+              - listitem [ref=f440e66]:
+                - link "Career Center" [ref=f440e67] [cursor=pointer]:
+                  - /url: https://www.tollcareercenter.com/
+              - listitem [ref=f440e68]:
+                - link "Investor Relations" [ref=f440e69] [cursor=pointer]:
+                  - /url: //investors.tollbrothers.com/
+              - listitem [ref=f440e70]:
+                - link "Contact Us" [ref=f440e71] [cursor=pointer]:
+                  - /url: /contact
+              - listitem [ref=f440e72]:
+                - link "FAQs" [ref=f440e73] [cursor=pointer]:
+                  - /url: /faq
+            - list [ref=f440e74]:
+              - listitem [ref=f440e75]: Explore Toll Brothers
+              - listitem [ref=f440e76]:
+                - link "Love Is in the Details" [ref=f440e77] [cursor=pointer]:
+                  - /url: /details
+              - listitem [ref=f440e78]:
+                - link "Build Beautiful Blog" [ref=f440e79] [cursor=pointer]:
+                  - /url: https://www.tollbrothers.com/blog/
+              - listitem [ref=f440e80]:
+                - link "Family of Home Brands" [ref=f440e81] [cursor=pointer]:
+                  - /url: /family-of-home-brands
+              - listitem [ref=f440e82]:
+                - link "Quick Move-In Homes" [ref=f440e83] [cursor=pointer]:
+                  - /url: /qmi
+              - listitem [ref=f440e84]:
+                - link "Regency Active Adult" [ref=f440e85] [cursor=pointer]:
+                  - /url: /regency
+            - list [ref=f440e86]:
+              - listitem [ref=f440e87]: Services
+              - listitem [ref=f440e88]:
+                - link "Toll Brothers Mortgage Company" [ref=f440e89] [cursor=pointer]:
+                  - /url: https://www.tollbrothersmortgage.com/
+              - listitem [ref=f440e90]:
+                - link "Toll Brothers Smart Home Technologies" [ref=f440e91] [cursor=pointer]:
+                  - /url: https://www.tollbrotherssmarthome.com/
+              - listitem [ref=f440e92]:
+                - link "Sell Land to Toll Brothers" [ref=f440e93] [cursor=pointer]:
+                  - /url: /contact/land-inquiries
+            - list [ref=f440e94]:
+              - listitem [ref=f440e95]: Your Account
+              - listitem [ref=f440e96]:
+                - link "My Favorites" [ref=f440e97] [cursor=pointer]:
+                  - /url: https://home.tollbrothers.com/my-favorites
+              - listitem [ref=f440e98]:
+                - link "Warranty Login" [ref=f440e99] [cursor=pointer]:
+                  - /url: https://homecare.tollbrothers.com
+              - listitem [ref=f440e100]:
+                - link "Agent Center" [ref=f440e101] [cursor=pointer]:
+                  - /url: /agent
+        - generic [ref=f440e102]:
+          - generic [ref=f440e103]:
+            - link [ref=f440e104] [cursor=pointer]:
+              - /url: https://www.tollbrothers.com/blog/
+              - img "Blog" [ref=f440e105]
+            - link [ref=f440e106] [cursor=pointer]:
+              - /url: https://www.facebook.com/tollbrothers/
+              - img "Facebook" [ref=f440e107]
+            - link [ref=f440e108] [cursor=pointer]:
+              - /url: https://www.instagram.com/tollbrothers/
+              - img "Instagram" [ref=f440e109]
+            - link [ref=f440e110] [cursor=pointer]:
+              - /url: https://www.youtube.com/user/TollBrothers
+              - img "Youtube" [ref=f440e111]
+            - link [ref=f440e112] [cursor=pointer]:
+              - /url: https://x.com/tollbrothers
+              - img "Twitter" [ref=f440e113]
+            - link [ref=f440e114] [cursor=pointer]:
+              - /url: https://www.linkedin.com/company/toll-brothers/
+              - img "Linkedin" [ref=f440e115]
+            - link [ref=f440e116] [cursor=pointer]:
+              - /url: https://www.pinterest.com/tollbrothers/
+              - img "Pinterest" [ref=f440e117]
+          - generic [ref=f440e118]:
+            - paragraph [ref=f440e119]: © 2026 Toll Brothers, Inc. All Rights Reserved.
+            - generic [ref=f440e120]:
+              - link "Privacy" [ref=f440e121] [cursor=pointer]:
+                - /url: /privacy
+              - link "Legal" [ref=f440e122] [cursor=pointer]:
+                - /url: /legal
+              - link "Site Map" [ref=f440e123] [cursor=pointer]:
+                - /url: /sitemap
+              - link "TiC" [ref=f440e124] [cursor=pointer]:
+                - /url: https://health1.aetna.com/app/public/#/one/insurerCode=AETNACVS_I&brandCode=ALICSI/machine-readable-transparency-in-coverage?searchTerm=271429&lock=true
+              - generic "Cookie Preferences" [ref=f440e125]
+              - generic [ref=f440e126]: Quality Homes by Design ®
+  - alert [ref=f440e127]

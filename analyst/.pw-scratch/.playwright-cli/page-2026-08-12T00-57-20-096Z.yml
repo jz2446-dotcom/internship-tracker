@@ -1,0 +1,171 @@
+- generic [active] [ref=f85e1]:
+  - img "Yes":
+    - generic:
+      - generic "Yes"
+      - generic "close"
+  - generic [ref=f85e2]:
+    - banner [ref=f85e3]:
+      - generic [ref=f85e4]:
+        - generic [ref=f85e5]:
+          - link "Skip to Main Content":
+            - /url: "#heading"
+          - generic [ref=f85e6]:
+            - link [ref=f85e7] [cursor=pointer]:
+              - /url: /
+              - img "Wells Fargo Logo" [ref=f85e8]
+            - list [ref=f85e9]:
+              - listitem [ref=f85e10]:
+                - button "Sign On has pop up" [ref=f85e11] [cursor=pointer]:
+                  - text: Sign On
+                  - generic: has pop up
+              - listitem [ref=f85e12]:
+                - link "Contact Us" [ref=f85e13] [cursor=pointer]:
+                  - /url: /contact.htm
+              - listitem [ref=f85e14]:
+                - button "Open an Account has pop up" [ref=f85e15] [cursor=pointer]:
+                  - text: Open an Account
+                  - generic: has pop up
+              - listitem [ref=f85e16]:
+                - button "Search has pop up" [ref=f85e17] [cursor=pointer]:
+                  - generic: Search
+                  - generic: has pop up
+        - generic [ref=f85e19]:
+          - link [ref=f85e20] [cursor=pointer]:
+            - /url: /
+            - img "Wells Fargo Advisors" [ref=f85e21]
+          - generic [ref=f85e22]:
+            - generic "Find an advisor by zip" [ref=f85e23]: Find an Advisor by ZIP
+            - textbox "Find an advisor by zip" [ref=f85e24]
+            - button "Go" [ref=f85e25] [cursor=pointer]
+        - navigation [ref=f85e26]:
+          - list [ref=f85e27]:
+            - listitem [ref=f85e28]:
+              - button "Products & Services" [ref=f85e29]
+            - listitem [ref=f85e30]:
+              - button "Ways to Work With Us" [ref=f85e31]
+            - listitem [ref=f85e32]:
+              - button "Planning For Life" [ref=f85e33]
+            - listitem [ref=f85e34]:
+              - button "Our Insights" [ref=f85e35]
+            - listitem [ref=f85e36]:
+              - button "Advisor Opportunities" [ref=f85e37]
+            - listitem [ref=f85e38]:
+              - button "Private Wealth" [ref=f85e39]
+    - generic [ref=f85e41]:
+      - main [ref=f85e42]:
+        - generic [ref=f85e43]:
+          - heading "Site Search" [level=1] [ref=f85e44]
+          - button "Print" [ref=f85e45] [cursor=pointer]
+          - generic [ref=f85e47]:
+            - textbox "Search" [ref=f85e48]
+            - button "Search" [ref=f85e49] [cursor=pointer]:
+              - generic: magnifying glass
+        - generic [ref=f85e51]:
+          - heading "Common Questions" [level=2] [ref=f85e52]
+          - list [ref=f85e54]:
+            - listitem [ref=f85e55]:
+              - link "Where do I access my tax forms?" [ref=f85e56] [cursor=pointer]:
+                - /url: /planning/goals/tax-center.htm
+            - listitem [ref=f85e57]:
+              - link "What is the difference between traditional and Roth IRA accounts?" [ref=f85e58] [cursor=pointer]:
+                - /url: /why-wells-fargo/products-services/iras.htm
+            - listitem [ref=f85e59]:
+              - link "How do I reset my password?" [ref=f85e60] [cursor=pointer]:
+                - /url: /wfa/username-password-help.htm
+            - listitem [ref=f85e61]:
+              - link "Where can I find an advisor near me?" [ref=f85e62] [cursor=pointer]:
+                - /url: https://www.wellsfargo.com/locator/wellsfargoadvisors/
+      - complementary [ref=f85e63]:
+        - generic [ref=f85e64]:
+          - heading "Connect With an Advisor" [level=4] [ref=f85e65]
+          - generic [ref=f85e66]:
+            - paragraph [ref=f85e67]: Need help finding an advisor or opening an account?
+            - paragraph [ref=f85e68]:
+              - text: Call us at
+              - link "1-866-224-5708" [ref=f85e69] [cursor=pointer]:
+                - /url: tel:+18662245708
+              - text: or
+              - link "search for a local branch" [ref=f85e70] [cursor=pointer]:
+                - /url: https://www.wellsfargo.com/locator/wellsfargoadvisors/
+              - text: .
+    - contentinfo [ref=f85e71]:
+      - paragraph [ref=f85e73]:
+        - link "Compare our services" [ref=f85e74] [cursor=pointer]:
+          - /url: /services/compare.htm
+        - text: to get started.
+      - generic [ref=f85e75]:
+        - generic [ref=f85e77]:
+          - paragraph [ref=f85e78]:
+            - strong [ref=f85e79]: "Investment and Insurance Products are:"
+          - list [ref=f85e80]:
+            - listitem [ref=f85e81]:
+              - strong [ref=f85e82]: Not Insured by the FDIC or Any Federal Government Agency
+            - listitem [ref=f85e83]:
+              - strong [ref=f85e84]: Not a Deposit or Other Obligation of, or Guaranteed by, the Bank or Any Bank Affiliate
+            - listitem [ref=f85e85]:
+              - strong [ref=f85e86]: Subject to Investment Risks, Including Possible Loss of the Principal Amount Invested
+        - generic [ref=f85e87]:
+          - paragraph [ref=f85e88]:
+            - strong [ref=f85e89]: © 2026 Wells Fargo Clearing Services, LLC. All rights reserved.
+          - paragraph [ref=f85e90]:
+            - text: Investment products and services are offered through Wells Fargo Advisors. Wells Fargo Advisors is a trade name used by Wells Fargo Clearing Services, LLC (WFCS) and Wells Fargo Advisors Financial Network, LLC, Members
+            - link "SIPC" [ref=f85e91] [cursor=pointer]:
+              - /url: /exit-page.htm
+            - text: ", separate registered broker-dealers and non-bank affiliates of Wells Fargo & Company. WellsTrade"
+            - superscript [ref=f85e92]: ®
+            - text: and Intuitive Investor
+            - superscript [ref=f85e93]: ®
+            - text: accounts are offered through WFCS.
+          - paragraph [ref=f85e94]: Links to third-party websites are provided for your convenience and informational purposes only. Wells Fargo Advisors is not responsible for the information contained on third-party websites.
+        - navigation "footer links" [ref=f85e95]:
+          - list [ref=f85e96]:
+            - listitem [ref=f85e97]:
+              - link "Wellsfargo.com" [ref=f85e98] [cursor=pointer]:
+                - /url: https://www.wellsfargo.com/
+            - listitem [ref=f85e99]:
+              - link "About Us" [ref=f85e100] [cursor=pointer]:
+                - /url: /about.htm
+            - listitem [ref=f85e101]:
+              - link "Find an Advisor" [ref=f85e102] [cursor=pointer]:
+                - /url: https://www.wellsfargo.com/locator/wellsfargoadvisors/
+            - listitem [ref=f85e103]:
+              - link "Contact Us" [ref=f85e104] [cursor=pointer]:
+                - /url: /contact.htm
+            - listitem [ref=f85e105]:
+              - link "Careers" [ref=f85e106] [cursor=pointer]:
+                - /url: /careers.htm
+            - listitem [ref=f85e107]:
+              - link "Site Map" [ref=f85e108] [cursor=pointer]:
+                - /url: /sitemap.htm
+            - listitem [ref=f85e109]:
+              - link "Inclusion and Accessibility" [ref=f85e110] [cursor=pointer]:
+                - /url: https://www.wellsfargo.com/about/diversity/
+            - listitem [ref=f85e111]:
+              - link "Security" [ref=f85e112] [cursor=pointer]:
+                - /url: https://www.wellsfargo.com/privacy-security/fraud/protecting-you
+            - listitem [ref=f85e113]:
+              - link "Legal Disclosures" [ref=f85e114] [cursor=pointer]:
+                - /url: /disclosures/legal-disclosures.htm
+            - listitem [ref=f85e115]:
+              - link "Privacy" [ref=f85e116] [cursor=pointer]:
+                - /url: /disclosures/privacy.htm
+            - listitem [ref=f85e117]:
+              - link "Notice of Data Collection" [ref=f85e118] [cursor=pointer]:
+                - /url: https://www.wellsfargo.com/privacy-security/notice-of-data-collection/
+            - listitem [ref=f85e119]:
+              - link "Do Not Sell or Share My Personal Information" [ref=f85e120] [cursor=pointer]:
+                - /url: https://www.wellsfargoadvisors.com/privacy-security/opt-out-notice/index.htm
+            - listitem [ref=f85e121]:
+              - link "General Terms of Use" [ref=f85e122] [cursor=pointer]:
+                - /url: https://www.wellsfargo.com/privacy-security/terms/
+            - listitem [ref=f85e123]:
+              - link "Global Data Access" [ref=f85e124] [cursor=pointer]:
+                - /url: /disclosures/global-data-access.htm
+      - generic [ref=f85e125]:
+        - link [ref=f85e126] [cursor=pointer]:
+          - /url: /exit-page.htm
+          - img "LinkedIn" [ref=f85e127]
+        - link [ref=f85e128] [cursor=pointer]:
+          - /url: /exit-page.htm
+          - img "Facebook" [ref=f85e129]
+      - navigation

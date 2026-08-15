@@ -1,0 +1,30 @@
+- generic [active] [ref=f545e1]:
+  - heading "404" [level=1] [ref=f545e2]
+  - heading "The site you were looking for couldn't be found." [level=2] [ref=f545e3]
+  - separator [ref=f545e4]
+  - paragraph [ref=f545e5]: This domain is successfully pointed at WP Engine, but is not configured for an account on our platform.
+  - list [ref=f545e6]:
+    - listitem [ref=f545e7]: If you just signed up, we're still likely creating your account.
+    - listitem [ref=f545e8]:
+      - text: Did you
+      - link "add this domain to your install" [ref=f545e9] [cursor=pointer]:
+        - /url: http://wpengine.com/support/add-domain-in-user-portal/
+      - text: "?"
+    - listitem [ref=f545e10]:
+      - text: Did you point DNS to the correct
+      - link "IP address" [ref=f545e11] [cursor=pointer]:
+        - /url: http://wpengine.com/support/find-ip/
+      - text: or
+      - link "CNAME" [ref=f545e12] [cursor=pointer]:
+        - /url: http://wpengine.com/support/cname/
+      - text: "?"
+  - text: If you've completed the steps above, or need more help, please
+  - link "contact us" [ref=f545e13] [cursor=pointer]:
+    - /url: https://my.wpengine.com/support
+  - text: and we can help get your site up and running in no time.
+  - paragraph
+  - separator [ref=f545e14]
+  - paragraph [ref=f545e15]:
+    - text: Hosted by
+    - link [ref=f545e16] [cursor=pointer]:
+      - /url: https://www.wpengine.com

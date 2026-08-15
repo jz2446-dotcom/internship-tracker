@@ -1,0 +1,130 @@
+- generic [ref=f301e1]:
+  - main [ref=f301e2]:
+    - link "Skip to main content" [ref=f301e3] [cursor=pointer]:
+      - /url: "#mainContent"
+    - banner "wealthgetheadernavigation" [ref=f301e4]:
+      - generic [ref=f301e5]:
+        - generic [ref=f301e7]:
+          - link "Contact us" [ref=f301e8] [cursor=pointer]:
+            - /url: /global/contact-us
+          - link "Subscribe to insights" [ref=f301e9] [cursor=pointer]:
+            - /url: /global/subscription
+          - button "Institutional | U.S." [ref=f301e11] [cursor=pointer]
+          - link "Log in" [ref=f301e23] [cursor=pointer]:
+            - /url: /global/login
+        - generic [ref=f301e24]:
+          - link [ref=f301e25] [cursor=pointer]:
+            - /url: /global?type=us
+            - img "Nuveen Logo" [ref=f301e26]
+          - generic [ref=f301e28]:
+            - navigation "Insights" [ref=f301e29] [cursor=pointer]
+            - navigation "Investment capabilities" [ref=f301e32] [cursor=pointer]
+            - navigation "About us" [ref=f301e35] [cursor=pointer]
+            - button "Search" [ref=f301e39]
+    - generic [ref=f301e42]:
+      - button "search button" [ref=f301e43] [cursor=pointer]:
+        - img "search button" [ref=f301e44]
+      - button "Clear search" [ref=f301e50] [cursor=pointer]
+    - generic [ref=f301e53]:
+      - button "close-button" [ref=f301e54] [cursor=pointer]:
+        - img "close-icon" [ref=f301e55]
+      - generic [ref=f301e58]:
+        - generic [ref=f301e59]: Welcome to Nuveen
+        - generic [ref=f301e60]: Select your preferred site so we can tailor your experience.
+      - generic [ref=f301e61]:
+        - generic [ref=f301e62]:
+          - generic [ref=f301e63]:
+            - generic [ref=f301e64]: Confirm Your Region
+            - generic [ref=f301e65]:
+              - generic [ref=f301e66] [cursor=pointer]: Americas
+              - img "location_title location" [ref=f301e67]
+          - generic [ref=f301e69]:
+            - generic [ref=f301e70]: Confirm Your Location
+            - generic [ref=f301e71]:
+              - generic [ref=f301e72] [cursor=pointer]: United States
+              - img "location_title location" [ref=f301e73]
+        - generic [ref=f301e75]:
+          - generic [ref=f301e76]:
+            - generic [ref=f301e77]: Select a Site
+            - generic [ref=f301e78]:
+              - generic [ref=f301e79] [cursor=pointer]: Select Site...
+              - img "location_title location" [ref=f301e80]
+          - generic [ref=f301e83]:
+            - generic [ref=f301e84]:
+              - generic [ref=f301e85]: Terms and Conditions
+              - textbox "legal-acceptance" [ref=f301e86]
+            - generic [ref=f301e87]:
+              - link "Privacy notice" [ref=f301e88] [cursor=pointer]:
+                - /url: /global/privacy?forceswitcher=false&type=us
+              - link "Cookie policy, terms of use" [ref=f301e89] [cursor=pointer]:
+                - /url: /global/terms?forceswitcher=false&type=us
+          - link "Accept to continue" [ref=f301e91] [cursor=pointer]:
+            - /url: javascript:void(0)
+    - generic [ref=f301e94]:
+      - generic [ref=f301e95]:
+        - generic: Hit enter to search
+        - searchbox "What are you looking for?" [ref=f301e98]
+      - button "close-button" [ref=f301e99] [cursor=pointer]
+      - generic [ref=f301e103]:
+        - heading "RECENT SEARCHES" [level=2] [ref=f301e104]
+        - list [ref=f301e105]:
+          - listitem [ref=f301e106]:
+            - link "search-result":
+              - /url: /global/search?q=
+    - generic [ref=f301e107]:
+      - generic [ref=f301e109]:
+        - heading "No results found" [level=1] [ref=f301e110]
+        - generic [ref=f301e111]: Sorry, we can't locate what you are looking for. Please try again.
+        - generic [ref=f301e112]:
+          - generic [ref=f301e113]: Trending searches
+          - generic [ref=f301e114]: Try popular searches
+          - list [ref=f301e115]:
+            - listitem [ref=f301e116]:
+              - link "CAREERS" [ref=f301e117] [cursor=pointer]:
+                - /url: /global/search?q=CAREERS
+            - listitem [ref=f301e118]:
+              - link "ANNUAL REPORT" [ref=f301e119] [cursor=pointer]:
+                - /url: /global/search?q=ANNUAL REPORT
+            - listitem [ref=f301e120]:
+              - link "ESG" [ref=f301e121] [cursor=pointer]:
+                - /url: /global/search?q=ESG
+            - listitem [ref=f301e122]:
+              - link "REAL ESTATE" [ref=f301e123] [cursor=pointer]:
+                - /url: /global/search?q=REAL ESTATE
+        - generic [ref=f301e124]:
+          - generic [ref=f301e125]: Pro tips
+          - generic [ref=f301e126]:
+            - generic [ref=f301e127]: Spelling
+            - generic [ref=f301e128]: Check if your search terms are spelt correctly
+          - generic [ref=f301e129]:
+            - generic [ref=f301e130]: Exclude words
+            - generic [ref=f301e131]: Use a hyphen to exclude words from your search. (e.g. Alternative -land)
+          - generic [ref=f301e132]:
+            - generic [ref=f301e133]: Quotes
+            - generic [ref=f301e134]: Put your search terms in quotes to look for an exact match (e.g. "Responsible Investing")
+          - generic [ref=f301e135]:
+            - generic [ref=f301e136]: New search
+            - generic [ref=f301e137]: Try searching for similar words or terms
+      - contentinfo [ref=f301e138]:
+        - img "Footer Navigation Arc Background" [ref=f301e141]
+        - paragraph [ref=f301e142]: © 2026 Nuveen, LLC. All rights reserved.
+  - region "Cookie banner" [ref=f301e143]:
+    - dialog "Privacy" [ref=f301e144]:
+      - generic [ref=f301e146]:
+        - generic [ref=f301e150]:
+          - heading "We value your privacy" [level=1] [ref=f301e151]
+          - paragraph [ref=f301e152]:
+            - text: We use cookies to enhance site navigation, analyze site usage, and assist in our marketing efforts. Unless you change your browser settings to block cookies, you are agreeing to their use as explained in our
+            - link "privacy notice" [active] [ref=f301e153] [cursor=pointer]:
+              - /url: https://www.nuveen.com/global/privacy
+            - text: (for CA residents, click
+            - link "here" [ref=f301e154] [cursor=pointer]:
+              - /url: https://www.nuveen.com/global/privacy-ccpa
+            - text: ) and
+            - link "cookies policy" [ref=f301e155] [cursor=pointer]:
+              - /url: https://www.nuveen.com/global/terms
+            - text: .
+        - generic [ref=f301e157]:
+          - button "Preferences" [ref=f301e158] [cursor=pointer]
+          - button "Close" [ref=f301e159] [cursor=pointer]
+      - button "Close Cookie Banner" [ref=f301e161] [cursor=pointer]

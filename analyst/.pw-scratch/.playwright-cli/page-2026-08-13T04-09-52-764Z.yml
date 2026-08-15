@@ -1,0 +1,291 @@
+- generic [active] [ref=f352e1]:
+  - generic [ref=f352e3]:
+    - banner [ref=f352e6]:
+      - link "Skip to content" [ref=f352e7] [cursor=pointer]:
+        - /url: "#headerskip"
+      - link "Go to Product Search" [ref=f352e8] [cursor=pointer]:
+        - /url: "#autocomplete-search-bar"
+      - link "Go to Footer" [ref=f352e9] [cursor=pointer]:
+        - /url: "#footer"
+      - generic [ref=f352e11]:
+        - link "best buy home" [ref=f352e13] [cursor=pointer]:
+          - /url: https://www.bestbuy.com
+          - img "best buy home" [ref=f352e14]
+        - generic [ref=f352e23]:
+          - textbox "What can we help you find? Suggestions appear below" [ref=f352e24]:
+            - /placeholder: Search Best Buy
+          - button "Submit search" [ref=f352e27] [cursor=pointer]
+        - link "cart, 0 items" [ref=f352e33] [cursor=pointer]:
+          - /url: /cart
+      - navigation "utility" [ref=f352e39]:
+        - generic [ref=f352e42]:
+          - button "Shop" [ref=f352e43] [cursor=pointer]
+          - button "Deals" [ref=f352e47] [cursor=pointer]
+          - button "Support & Services" [ref=f352e51] [cursor=pointer]
+          - button "Discover" [ref=f352e55] [cursor=pointer]
+        - generic [ref=f352e60]:
+          - link "Trade-In" [ref=f352e62] [cursor=pointer]:
+            - /url: /site/best-buy-trade-in/trade-in-offers/pcmcat1774297472214.c?id=pcmcat1774297472214
+          - link "Top Deals" [ref=f352e64] [cursor=pointer]:
+            - /url: /top-deals
+          - link "Deal of the Day" [ref=f352e66] [cursor=pointer]:
+            - /url: /site/misc/deal-of-the-day/pcmcat248000050016.c?id=pcmcat248000050016
+          - link "Gift Ideas" [ref=f352e68] [cursor=pointer]:
+            - /url: /site/electronics/gift-ideas/abcat0010000.c?id=abcat0010000
+          - link "My Best Buy Memberships" [ref=f352e70] [cursor=pointer]:
+            - /url: /site/electronics/best-buy-membership/pcmcat1679668833285.c?id=pcmcat1679668833285
+          - link "Credit Cards" [ref=f352e72] [cursor=pointer]:
+            - /url: /site/misc/financing-rewards/pcmcat102500050032.c?id=pcmcat102500050032
+          - link "Gift Cards" [ref=f352e74] [cursor=pointer]:
+            - /url: /site/electronics/gift-cards/cat09000.c?id=cat09000
+          - link "Best Buy Business" [ref=f352e76] [cursor=pointer]:
+            - /url: /site/electronics/bestbuy-business/pcmcat230900050001.c?id=pcmcat230900050001
+    - region "skip target":
+      - generic [ref=f352e77]: Main Content
+  - main [ref=f352e78]:
+    - generic [ref=f352e83]:
+      - generic [ref=f352e84]:
+        - generic [ref=f352e85]:
+          - generic: .
+          - generic [ref=f352e86]:
+            - generic: .
+            - link [ref=f352e97] [cursor=pointer]:
+              - /url: https://www.bestbuy.com/site/promo/google-pixel-11-series-offer
+              - img "Cell phones" [ref=f352e99]
+        - generic [ref=f352e100]:
+          - generic: .
+          - generic [ref=f352e101]: .
+      - generic [ref=f352e108]:
+        - generic: .
+        - generic [ref=f352e109]: .
+      - generic [ref=f352e121]:
+        - generic [ref=f352e122]:
+          - generic: .
+          - generic [ref=f352e123]: .
+        - generic [ref=f352e135]:
+          - generic: .
+          - generic [ref=f352e136]: .
+        - generic [ref=f352e148]: .
+      - generic [ref=f352e149]: .
+      - generic [ref=f352e151]: .
+      - generic [ref=f352e153]: .
+      - generic [ref=f352e155]:
+        - generic [ref=f352e156]: .
+        - generic [ref=f352e157]: .
+      - generic [ref=f352e158]: .
+      - generic [ref=f352e160]: .
+      - generic [ref=f352e162]:
+        - generic [ref=f352e163]: .
+        - generic [ref=f352e164]: .
+      - generic [ref=f352e165]:
+        - generic [ref=f352e166]: .
+        - generic [ref=f352e167]: .
+      - generic [ref=f352e168]: .
+  - contentinfo [ref=f352e172]:
+    - list [ref=f352e173]:
+      - listitem [ref=f352e174]:
+        - link [ref=f352e176] [cursor=pointer]:
+          - /url: /support
+          - strong [ref=f352e177]: Visit our Support Center
+      - listitem [ref=f352e178]:
+        - link [ref=f352e180] [cursor=pointer]:
+          - /url: /profile/ss/orderlookup
+          - strong [ref=f352e181]: Check your Order Status
+      - listitem [ref=f352e182]:
+        - link [ref=f352e184] [cursor=pointer]:
+          - /url: /site/help-topics/shipping-delivery-store-pickup/pcmcat316000050003.c?id=pcmcat316000050003
+          - strong [ref=f352e185]: Shipping, Delivery & Store Pickup
+      - listitem [ref=f352e186]:
+        - link [ref=f352e188] [cursor=pointer]:
+          - /url: /site/help-topics/return-exchange-policy/pcmcat260800050014.c?id=pcmcat260800050014
+          - strong [ref=f352e189]: Returns & Exchanges
+      - listitem [ref=f352e190]:
+        - link [ref=f352e192] [cursor=pointer]:
+          - /url: /site/help-topics/price-match-guarantee/pcmcat290300050002.c?id=pcmcat290300050002
+          - strong [ref=f352e193]: Price Match Guarantee
+    - generic [ref=f352e194]:
+      - generic [ref=f352e195]:
+        - generic [ref=f352e196]:
+          - heading "Order & Purchases" [level=2] [ref=f352e197]
+          - list [ref=f352e198]:
+            - listitem [ref=f352e199]:
+              - link "Check Order Status" [ref=f352e200] [cursor=pointer]:
+                - /url: /profile/ss/orderlookup
+            - listitem [ref=f352e201]:
+              - link "Shipping, Delivery & Pickup" [ref=f352e202] [cursor=pointer]:
+                - /url: /site/help-topics/shipping-delivery-store-pickup/pcmcat316000050003.c?id=pcmcat316000050003
+            - listitem [ref=f352e203]:
+              - link "Returns & Exchanges" [ref=f352e204] [cursor=pointer]:
+                - /url: /site/help-topics/return-exchange-policy/pcmcat260800050014.c?id=pcmcat260800050014
+            - listitem [ref=f352e205]:
+              - link "Price Match Guarantee" [ref=f352e206] [cursor=pointer]:
+                - /url: /site/help-topics/price-match-guarantee/pcmcat290300050002.c?id=pcmcat290300050002
+            - listitem [ref=f352e207]:
+              - link "Product Recalls" [ref=f352e208] [cursor=pointer]:
+                - /url: /site/help-topics/product-recalls/pcmcat114800050015.c?id=pcmcat114800050015
+            - listitem [ref=f352e209]:
+              - link "Trade-In Program" [ref=f352e210] [cursor=pointer]:
+                - /url: https://www.bestbuy.com/trade-in
+            - listitem [ref=f352e211]:
+              - link "Gift Cards" [ref=f352e212] [cursor=pointer]:
+                - /url: /site/electronics/gift-cards/cat09000.c?id=cat09000
+        - generic [ref=f352e213]:
+          - heading "Payment Options" [level=2] [ref=f352e214]
+          - list [ref=f352e215]:
+            - listitem [ref=f352e216]:
+              - link "My Best Buy® Credit Card" [ref=f352e217] [cursor=pointer]:
+                - /url: /site/misc/financing-rewards/pcmcat102500050032.c?id=pcmcat102500050032
+            - listitem [ref=f352e218]:
+              - link "Pay Your Bill at Citibank" [ref=f352e219] [cursor=pointer]:
+                - /url: /identity/sso/signin?contextId=sso-visa&processIndicator=dashboard&source=fT4TCYlhM%2FBHt4GYEIyTpUXh8eOIYXDjvQ8brdIq%2BgjFKp0ZC2Aq%2BH81O%2Futk9NoztIKhuI3FqmuRt1rZid1%2Bw%3D%3D
+            - listitem [ref=f352e220]:
+              - link "Lease to Own" [ref=f352e221] [cursor=pointer]:
+                - /url: /site/financing-rewards/progressive-leasing/pcmcat1535574988808.c?id=pcmcat1535574988808
+            - listitem [ref=f352e222]:
+              - link "Buy Now, Pay Later" [ref=f352e223] [cursor=pointer]:
+                - /url: /site/financing-rewards/zip/pcmcat1727878406362.c?id=pcmcat1727878406362
+            - listitem [ref=f352e224]:
+              - link "Best Buy Business Financing" [ref=f352e225] [cursor=pointer]:
+                - /url: /site/bestbuy-business/best-buy-business-financing/pcmcat1556029048796.c?id=pcmcat1556029048796
+        - generic [ref=f352e226]:
+          - heading "Support & Services" [level=2] [ref=f352e227]
+          - list [ref=f352e228]:
+            - listitem [ref=f352e229]:
+              - link "Visit our Support Center" [ref=f352e230] [cursor=pointer]:
+                - /url: /support
+            - listitem [ref=f352e231]:
+              - link "Shop with an Expert" [ref=f352e232] [cursor=pointer]:
+                - /url: /services/triage/shopping
+            - listitem [ref=f352e233]:
+              - link "Schedule a Service" [ref=f352e234] [cursor=pointer]:
+                - /url: /services/triage/home
+            - listitem [ref=f352e235]:
+              - link "Manage an Appointment" [ref=f352e236] [cursor=pointer]:
+                - /url: /dossier/service/appointmentfinder
+            - listitem [ref=f352e237]:
+              - link "Protection & Support Plans" [ref=f352e238] [cursor=pointer]:
+                - /url: /site/electronics/services/pcmcat1528819595254.c?id=pcmcat1528819595254
+            - listitem [ref=f352e239]:
+              - link "Haul Away & Recycling" [ref=f352e240] [cursor=pointer]:
+                - /url: /site/services/recycling/pcmcat149900050025.c?id=pcmcat149900050025
+            - listitem [ref=f352e241]:
+              - link "Contact Us" [ref=f352e242] [cursor=pointer]:
+                - /url: /contact-us
+        - generic [ref=f352e243]:
+          - heading "Rewards & Membership" [level=2] [ref=f352e244]
+          - list [ref=f352e245]:
+            - listitem [ref=f352e246]:
+              - link "My Best Buy Memberships" [ref=f352e247] [cursor=pointer]:
+                - /url: /site/electronics/best-buy-membership/pcmcat1679668833285.c?id=pcmcat1679668833285
+            - listitem [ref=f352e248]:
+              - link "View Points & Certificates" [ref=f352e249] [cursor=pointer]:
+                - /url: /profile/c/rwz/overview
+            - listitem [ref=f352e250]:
+              - link "Member Offers" [ref=f352e251] [cursor=pointer]:
+                - /url: /loyalty/catalog
+        - generic [ref=f352e252]:
+          - heading "Partnerships" [level=2] [ref=f352e253]
+          - list [ref=f352e254]:
+            - listitem [ref=f352e255]:
+              - link "Sell on Best Buy Marketplace" [ref=f352e256] [cursor=pointer]:
+                - /url: /site/electronics/marketplace/pcmcat248200050007.c?id=pcmcat248200050007
+            - listitem [ref=f352e257]:
+              - link "Advertise with Us" [ref=f352e258] [cursor=pointer]:
+                - /url: https://www.bestbuyads.com/
+            - listitem [ref=f352e259]:
+              - 'link "Affiliates: Creators & Publishers" [ref=f352e260] [cursor=pointer]':
+                - /url: /site/misc/best-buy-affiliate-program/pcmcat198500050002.c?id=pcmcat198500050002
+            - listitem [ref=f352e261]:
+              - link "Best Buy Health" [ref=f352e262] [cursor=pointer]:
+                - /url: https://healthcare.bestbuy.com/?ref=bestbuy-site&loc=footer
+            - listitem [ref=f352e263]:
+              - link "Best Buy Education" [ref=f352e264] [cursor=pointer]:
+                - /url: /site/bestbuy-business/bestbuy-education/pcmcat356600050000.c?id=pcmcat356600050000
+            - listitem [ref=f352e265]:
+              - link "Best Buy Business" [ref=f352e266] [cursor=pointer]:
+                - /url: /site/electronics/bestbuy-business/pcmcat230900050001.c?id=pcmcat230900050001
+            - listitem [ref=f352e267]:
+              - link "Partner+" [ref=f352e268] [cursor=pointer]:
+                - /url: /site/clp-bbfb/partner-plus/pcmcat1715699845027.c?id=pcmcat1715699845027
+        - generic [ref=f352e269]:
+          - heading "About Best Buy" [level=2] [ref=f352e270]
+          - list [ref=f352e271]:
+            - listitem [ref=f352e272]:
+              - link "Corporate Information" [ref=f352e273] [cursor=pointer]:
+                - /url: https://corporate.bestbuy.com/
+            - listitem [ref=f352e274]:
+              - link "Careers" [ref=f352e275] [cursor=pointer]:
+                - /url: https://jobs.bestbuy.com/bby
+            - listitem [ref=f352e276]:
+              - link "Corporate Responsibility" [ref=f352e277] [cursor=pointer]:
+                - /url: https://corporate.bestbuy.com/our-goals/
+            - listitem [ref=f352e278]:
+              - link "Sustainability" [ref=f352e279] [cursor=pointer]:
+                - /url: https://corporate.bestbuy.com/sustainability/
+      - generic [ref=f352e280]:
+        - link "Sign in or Create Account" [ref=f352e281] [cursor=pointer]:
+          - /url: /identity/global/signin
+        - separator [ref=f352e282]
+        - generic [ref=f352e283]:
+          - heading "Get the latest deals and more." [level=2] [ref=f352e284]
+          - generic [ref=f352e285]:
+            - generic [ref=f352e286]:
+              - generic [ref=f352e287] [cursor=pointer]: Email Address
+              - textbox "Email Address" [ref=f352e288]:
+                - /placeholder: Enter email address
+            - button "Sign Up" [ref=f352e289] [cursor=pointer]
+        - separator [ref=f352e290]
+        - generic [ref=f352e294]:
+          - generic [ref=f352e295]: Best Buy app
+          - link "Learn more about Best Buy App" [ref=f352e296] [cursor=pointer]:
+            - /url: /site/misc/mobile-app/pcmcat208500050016.c?id=pcmcat208500050016
+            - text: Learn more ›
+        - separator [ref=f352e297]
+        - generic [ref=f352e298]:
+          - link "Share on YouTube" [ref=f352e299] [cursor=pointer]:
+            - /url: https://www.youtube.com/user/bestbuy
+            - img "Share on YouTube" [ref=f352e300]
+          - link "Share on Instagram" [ref=f352e301] [cursor=pointer]:
+            - /url: https://instagram.com/bestbuy
+            - img "Share on Instagram" [ref=f352e302]
+          - link "Share on TikTok" [ref=f352e303] [cursor=pointer]:
+            - /url: https://www.tiktok.com/@bestbuy?lang=en
+            - img "Share on TikTok" [ref=f352e304]
+          - link "Share on Facebook" [ref=f352e305] [cursor=pointer]:
+            - /url: https://www.facebook.com/bestbuy
+            - img "Share on Facebook" [ref=f352e306]
+          - link "Share on Pinterest" [ref=f352e307] [cursor=pointer]:
+            - /url: https://www.pinterest.com/bestbuy/
+            - img "Share on Pinterest" [ref=f352e308]
+          - link "Share on X" [ref=f352e309] [cursor=pointer]:
+            - /url: https://www.x.com/BestBuy
+            - img "Share on X" [ref=f352e310]
+        - separator [ref=f352e311]
+    - generic [ref=f352e312]:
+      - generic [ref=f352e314]:
+        - button "Mobile Site" [ref=f352e315] [cursor=pointer]
+        - link "Best Buy Canada" [ref=f352e317] [cursor=pointer]:
+          - /url: https://www.bestbuy.ca/
+      - separator [ref=f352e318]
+      - generic [ref=f352e319]:
+        - link "Accessibility" [ref=f352e320] [cursor=pointer]:
+          - /url: /site/help-topics/accessibility/pcmcat1496336482680.c?id=pcmcat1496336482680
+        - link "Terms & Conditions" [ref=f352e321] [cursor=pointer]:
+          - /url: /site/help-topics/terms-and-conditions/pcmcat204400050067.c?id=pcmcat204400050067
+        - link "Privacy" [ref=f352e322] [cursor=pointer]:
+          - /url: /site/help-topics/privacy-policy/pcmcat204400050062.c?id=pcmcat204400050062
+        - link "Interest-Based Ads" [ref=f352e323] [cursor=pointer]:
+          - /url: /site/privacy-policy/interest-based-ads/pcmcat204400050066.c?id=pcmcat204400050066
+        - link "State Privacy Rights" [ref=f352e324] [cursor=pointer]:
+          - /url: /site/privacy-policy/state-privacy-rights/pcmcat204400050063.c?id=pcmcat204400050063
+        - link "Health Data Privacy" [ref=f352e325] [cursor=pointer]:
+          - /url: /site/privacy-policy/health-data-privacy/pcmcat1709131468002.c?id=pcmcat1709131468002
+        - link "Do Not Sell/Share My Personal Information" [ref=f352e326] [cursor=pointer]:
+          - /url: /sentry/landing?type=ca_donotsell
+        - link "Limit Use of My Sensitive Personal Information" [ref=f352e327] [cursor=pointer]:
+          - /url: /sentry/landing?type=optout
+        - link "Targeted Advertising Opt Out" [ref=f352e328] [cursor=pointer]:
+          - /url: /sentry/landing?type=donottarget
+        - link "CA Supply Chain Transparency Act" [ref=f352e329] [cursor=pointer]:
+          - /url: /site/help-topics/ca-transparency-act/pcmcat263000050003.c?id=pcmcat263000050003
+      - generic [ref=f352e330]: In-store pricing may vary. Prices and offers are subject to change. © 2026 Best Buy. All rights reserved. BEST BUY, the BEST BUY logo, the tag design, and MY BEST BUY are trademarks of Best Buy and its affiliated companies.

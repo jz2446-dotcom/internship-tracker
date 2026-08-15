@@ -1,0 +1,359 @@
+- generic [active] [ref=f799e1]:
+  - generic:
+    - link "Skip to main content":
+      - /url: "#main"
+  - generic [ref=f799e5]:
+    - banner [ref=f799e6]:
+      - navigation "Navbar" [ref=f799e10]:
+        - generic [ref=f799e12]:
+          - generic [ref=f799e13]:
+            - link "Click to go home" [ref=f799e14] [cursor=pointer]:
+              - /url: /en-us.html
+            - list [ref=f799e15]:
+              - listitem [ref=f799e16]:
+                - button "Our Solutions" [ref=f799e18] [cursor=pointer]:
+                  - text: Our Solutions
+                  - generic [ref=f799e19]: arrow_drop_down
+              - listitem [ref=f799e20]:
+                - link "Pricing" [ref=f799e22] [cursor=pointer]:
+                  - /url: /en-us/pricing.html
+              - listitem [ref=f799e23]:
+                - link "Partners" [ref=f799e25] [cursor=pointer]:
+                  - /url: /en-us/partners.html
+              - listitem [ref=f799e26]:
+                - button "Drive 2.0" [ref=f799e28] [cursor=pointer]:
+                  - text: Drive 2.0
+                  - generic [ref=f799e29]: arrow_drop_down
+              - listitem [ref=f799e30]:
+                - button "Resources" [ref=f799e32] [cursor=pointer]:
+                  - text: Resources
+                  - generic [ref=f799e33]: arrow_drop_down
+          - generic [ref=f799e34]:
+            - generic [ref=f799e35]:
+              - button "Click to open search" [ref=f799e36] [cursor=pointer]:
+                - generic [ref=f799e37]: search
+              - button "CountrySelectorButton" [ref=f799e38] [cursor=pointer]:
+                - text: EN
+                - generic [ref=f799e40]: arrow_drop_down
+            - link "Log In" [ref=f799e41] [cursor=pointer]:
+              - /url: https://climate.com/static/field-view/#/auth/login
+            - link "Create Account" [ref=f799e44] [cursor=pointer]:
+              - /url: https://climate.com/static/field-view/#/auth/register
+    - main [ref=f799e47]:
+      - generic [ref=f799e52]:
+        - generic [ref=f799e55]:
+          - tabpanel [ref=f799e56]:
+            - heading "Empowering Farmers The all-in-one digital farming solution" [level=1] [ref=f799e58]:
+              - generic [ref=f799e59]: Empowering Farmers
+              - generic [ref=f799e60]: The all-in-one digital farming solution
+            - generic [ref=f799e61]: Join the community of farmers who have harnessed the power of Climate FieldView™.
+            - generic [ref=f799e62]:
+              - link "Find a Plan" [ref=f799e64] [cursor=pointer]:
+                - /url: /en-us/pricing.html
+              - link "Explore Our Solutions" [ref=f799e67] [cursor=pointer]:
+                - /url: /en-us/solutions.html
+          - tablist [ref=f799e70]:
+            - tab "Empowering Farmers" [ref=f799e71] [cursor=pointer]
+            - tab "Data-Driven Insights" [ref=f799e73] [cursor=pointer]
+            - tab "Innovative Ag Tech" [ref=f799e74] [cursor=pointer]
+          - button "Toggle Play State" [ref=f799e75] [cursor=pointer]: pause
+        - generic [ref=f799e81]:
+          - generic [ref=f799e84]:
+            - img "FieldView product video" [ref=f799e85] [cursor=pointer]
+            - button "Open Video Modal" [ref=f799e87] [cursor=pointer]:
+              - generic [ref=f799e88]: play_arrow
+          - generic [ref=f799e96]:
+            - generic [ref=f799e99]:
+              - generic [ref=f799e100]: device_hub
+              - generic [ref=f799e102]:
+                - heading "Most Connected Platform" [level=2] [ref=f799e103]
+                - paragraph [ref=f799e105]: FieldView's connectivity with 60+ partners makes data sharing easier than ever before.
+            - generic [ref=f799e108]:
+              - generic [ref=f799e109]: account_tree
+              - generic [ref=f799e111]:
+                - heading "Maximum Compatibility" [level=2] [ref=f799e112]
+                - paragraph [ref=f799e114]: FieldView products are compatible with most equipment types.
+            - generic [ref=f799e117]:
+              - generic [ref=f799e118]: insights
+              - generic [ref=f799e120]:
+                - heading "+5 bu/ac" [level=2] [ref=f799e121]
+                - paragraph [ref=f799e123]: Farmers using FieldView seed scripts saw an average increase of +5 bu/ac compared to users who wrote their own scripts.
+        - generic [ref=f799e127]:
+          - generic [ref=f799e128]:
+            - generic [ref=f799e129]:
+              - heading "better together Empowering the farmers that fuel our world" [level=2] [ref=f799e130]:
+                - generic [ref=f799e131]: better together
+                - text: Empowering the farmers that fuel our world
+              - generic [ref=f799e132]: square
+            - link "Explore Solutions" [ref=f799e134] [cursor=pointer]:
+              - /url: /en-us/solutions.html
+          - generic [ref=f799e138]:
+            - generic [ref=f799e139] [cursor=pointer]:
+              - heading [level=3] [ref=f799e140]:
+                - button "Secure Data" [expanded] [ref=f799e141]:
+                  - generic [ref=f799e142]:
+                    - generic [ref=f799e143]: "01"
+                    - generic [ref=f799e144]: Secure Data
+                  - generic [ref=f799e145]: expand_less
+              - generic [ref=f799e148]:
+                - generic [ref=f799e152]: Secure Data
+                - paragraph [ref=f799e153]: Own your data and take control of who has access to your valuable information.
+            - generic [ref=f799e155] [cursor=pointer]:
+              - heading [level=3] [ref=f799e156]:
+                - button "Maximize Time" [ref=f799e157]:
+                  - generic [ref=f799e158]:
+                    - generic [ref=f799e159]: "02"
+                    - generic [ref=f799e160]: Maximize Time
+                  - generic [ref=f799e161]: expand_more
+              - generic:
+                - generic:
+                  - generic:
+                    - button [pressed] [ref=f799e165]:
+                      - generic [ref=f799e166]: play_arrow
+                    - generic [ref=f799e167]: Maximize Time
+                    - paragraph [ref=f799e168]: Get real-time alerts, faster scripting, instant field data and more.
+            - generic [ref=f799e169] [cursor=pointer]:
+              - heading [level=3] [ref=f799e170]:
+                - button "Stay Ahead" [ref=f799e171]:
+                  - generic [ref=f799e172]:
+                    - generic [ref=f799e173]: "03"
+                    - generic [ref=f799e174]: Stay Ahead
+                  - generic [ref=f799e175]: expand_more
+              - generic:
+                - generic:
+                  - generic:
+                    - button [pressed] [ref=f799e179]:
+                      - generic [ref=f799e180]: play_arrow
+                    - generic [ref=f799e181]: Stay Ahead
+                    - paragraph [ref=f799e182]: Get information for every decision in the field, cab or office.
+            - generic [ref=f799e183] [cursor=pointer]:
+              - heading [level=3] [ref=f799e184]:
+                - button "Boost Profits" [ref=f799e185]:
+                  - generic [ref=f799e186]:
+                    - generic [ref=f799e187]: "04"
+                    - generic [ref=f799e188]: Boost Profits
+                  - generic [ref=f799e189]: expand_more
+              - generic:
+                - generic:
+                  - generic:
+                    - button [pressed] [ref=f799e193]:
+                      - generic [ref=f799e194]: play_arrow
+                    - generic [ref=f799e195]: Boost Profits
+                    - paragraph [ref=f799e196]: Experience how you can lower costs and optimize input management to boost your profits, acre by acre with the help of Climate FieldView.
+        - generic [ref=f799e200]:
+          - generic [ref=f799e203]:
+            - heading "Real farmers, real results" [level=3] [ref=f799e206]
+            - paragraph [ref=f799e210]: Farmers from all over the globe continue to see tangible results. Watch how these farmers have harvested success with the help of FieldView.
+          - generic [ref=f799e212]:
+            - generic [ref=f799e213]:
+              - group "1 of 3" [ref=f799e214]:
+                - generic [ref=f799e216]:
+                  - generic [ref=f799e219]:
+                    - generic [ref=f799e220]:
+                      - heading "The Horton Brothers" [level=3] [ref=f799e222]
+                      - heading "Leoti, KS" [level=6] [ref=f799e224]
+                    - paragraph [ref=f799e227]: Brothers Alec & Rick Horton use FieldView to make sure their team stays informed and their decisions stay profitable.
+                    - button "Watch" [ref=f799e230]:
+                      - generic [ref=f799e231]:
+                        - generic [ref=f799e232]: Watch
+                        - generic [ref=f799e233]: play_arrow
+                  - button [ref=f799e239] [cursor=pointer]:
+                    - generic [ref=f799e240]: play_arrow
+              - group [ref=f799e241]:
+                - generic [ref=f799e243]:
+                  - generic [ref=f799e246]:
+                    - generic [ref=f799e247]:
+                      - heading [level=3] [ref=f799e249]:
+                        - generic [ref=f799e250]: Scott Friestad
+                      - heading [level=6] [ref=f799e251]: Morris, IL
+                    - paragraph [ref=f799e254]: Climate FieldView helps Farmer Scott Friestad to make the most from his fourth-generation corn and soybean farm.
+                    - button [ref=f799e257]:
+                      - generic [ref=f799e258]:
+                        - generic [ref=f799e259]: Watch
+                        - generic [ref=f799e260]: play_arrow
+                  - button [ref=f799e266] [cursor=pointer]:
+                    - generic [ref=f799e267]: play_arrow
+              - group [ref=f799e268]:
+                - generic [ref=f799e270]:
+                  - generic [ref=f799e273]:
+                    - generic [ref=f799e274]:
+                      - heading [level=3] [ref=f799e276]:
+                        - generic [ref=f799e277]: The Roberts Family
+                      - heading [level=6] [ref=f799e278]: Minooka, IL
+                    - paragraph [ref=f799e281]: FieldView simplifies field trials for farmers like The Roberts by leveraging its suite of digital tools to manage and analyze data.
+                    - button [ref=f799e284]:
+                      - generic [ref=f799e285]:
+                        - generic [ref=f799e286]: Watch
+                        - generic [ref=f799e287]: play_arrow
+                  - button [ref=f799e293] [cursor=pointer]:
+                    - generic [ref=f799e294]: play_arrow
+            - generic [ref=f799e295]:
+              - group "Carousel Button Controls" [ref=f799e296]:
+                - button "Previous Slide, selected" [disabled]:
+                  - generic: keyboard_arrow_left
+                - button "Next Slide, selected" [ref=f799e297] [cursor=pointer]:
+                  - generic [ref=f799e298]: keyboard_arrow_right
+              - tablist "Carousel Timer Controls" [ref=f799e299]:
+                - tab "Slide 1" [selected] [ref=f799e300] [cursor=pointer]
+                - tab "Slide 2" [ref=f799e301] [cursor=pointer]
+                - tab "Slide 3" [ref=f799e302] [cursor=pointer]
+        - generic [ref=f799e306]:
+          - generic [ref=f799e309]:
+            - heading "The FieldView blog" [level=3] [ref=f799e312]
+            - generic [ref=f799e314]:
+              - paragraph [ref=f799e316]: Discover more ways to boost your farm's productivity by exploring related articles.
+              - link "Read More" [ref=f799e317] [cursor=pointer]:
+                - /url: /en-us/resources/blog.html
+          - list [ref=f799e322]:
+            - listitem [ref=f799e323]:
+              - article [ref=f799e324] [cursor=pointer]:
+                - img "Aerial Photo of Farm in Winter" [ref=f799e326]
+                - generic [ref=f799e327]: Dec 09, 2025
+                - link [ref=f799e328]:
+                  - /url: /en-us/resources/blog/a-successful-spring-starts-in-the-winter-a-planning-season-checklist.html
+                  - 'heading "A Successful Spring Starts in the Winter: A Planning Season Checklist" [level=3] [ref=f799e329]'
+                - paragraph [ref=f799e330]: Every good plan starts with a checklist. Here are some to-dos we recommend checking off for a productive planning season.
+            - listitem [ref=f799e331]:
+              - article [ref=f799e332] [cursor=pointer]:
+                - generic [ref=f799e334]: Aug 17, 2024
+                - link [ref=f799e335]:
+                  - /url: /en-us/resources/blog/fieldview-drive-2-0.html
+                  - heading "Fast, Stable, Secure. Meet Drive 2.0" [level=3] [ref=f799e336]
+                - paragraph [ref=f799e337]: The FieldView Drive 2.0 can send seed scripts without a thumb drive, has built-in GPS, offers faster data syncing and compatibility with a wider range of equipment.
+            - listitem [ref=f799e338]
+        - generic [ref=f799e351]:
+          - heading "Increase your farm productivity today!" [level=6] [ref=f799e352]
+          - list [ref=f799e353]:
+            - listitem [ref=f799e354]:
+              - generic [ref=f799e355]: check_circle_outline
+              - paragraph [ref=f799e358]: Personalized Plans
+            - listitem [ref=f799e359]:
+              - generic [ref=f799e360]: check_circle_outline
+              - paragraph [ref=f799e363]: Full Support
+            - listitem [ref=f799e364]:
+              - generic [ref=f799e365]: check_circle_outline
+              - paragraph [ref=f799e368]: 60+ Partners
+          - generic [ref=f799e369]:
+            - link "Find a Plan" [ref=f799e370] [cursor=pointer]:
+              - /url: /en-us/pricing.html
+            - link "Contact Support" [ref=f799e373] [cursor=pointer]:
+              - /url: /en-us/resources/contact-us.html
+    - contentinfo [ref=f799e382]:
+      - generic [ref=f799e383]:
+        - generic [ref=f799e384]:
+          - img "Climate FieldView" [ref=f799e386]
+          - navigation "Footer" [ref=f799e387]:
+            - list [ref=f799e388]:
+              - listitem [ref=f799e389]:
+                - link "Our Solutions" [ref=f799e390] [cursor=pointer]:
+                  - /url: /en-us/solutions.html
+              - listitem [ref=f799e393]:
+                - link "Pricing" [ref=f799e394] [cursor=pointer]:
+                  - /url: /en-us/pricing.html
+              - listitem [ref=f799e397]:
+                - link "Partners" [ref=f799e398] [cursor=pointer]:
+                  - /url: /en-us/partners.html
+              - listitem [ref=f799e401]:
+                - link "Our Hardware" [ref=f799e402] [cursor=pointer]:
+                  - /url: /en-us/hardware.html
+              - listitem [ref=f799e405]:
+                - link "Support" [ref=f799e406] [cursor=pointer]:
+                  - /url: /en-us/resources/contact-us.html
+            - generic [ref=f799e410]:
+              - text: keyboard_arrow_down
+              - generic [ref=f799e411]: Solutions
+              - region "Solutions keyboard_arrow_down" [ref=f799e412]:
+                - list [ref=f799e413]:
+                  - listitem [ref=f799e414]:
+                    - link "Gather Information" [ref=f799e415] [cursor=pointer]:
+                      - /url: /en-us/solutions/gather-information.html
+                  - listitem [ref=f799e418]:
+                    - link "Build Prescriptions" [ref=f799e419] [cursor=pointer]:
+                      - /url: /en-us/solutions/build-prescriptions.html
+                  - listitem [ref=f799e422]:
+                    - link "Scout Fields" [ref=f799e423] [cursor=pointer]:
+                      - /url: /en-us/solutions/scout-fields.html
+                  - listitem [ref=f799e426]:
+                    - link "Analyze Data" [ref=f799e427] [cursor=pointer]:
+                      - /url: /en-us/solutions/analyze-data.html
+            - generic [ref=f799e431]:
+              - text: keyboard_arrow_down
+              - generic [ref=f799e432]: Hardware
+              - region "Hardware keyboard_arrow_down" [ref=f799e433]:
+                - list [ref=f799e434]:
+                  - listitem [ref=f799e435]:
+                    - link "FieldView Drive 2.0" [ref=f799e436] [cursor=pointer]:
+                      - /url: /en-us/hardware/fieldview-drive-2-0.html
+                  - listitem [ref=f799e439]:
+                    - link "FieldView Drive 2.0 Starter Kit" [ref=f799e440] [cursor=pointer]:
+                      - /url: /en-us/hardware/fieldview-drive-2-0-starter-package.html
+                  - listitem [ref=f799e443]:
+                    - link "iPad Mounting Kit" [ref=f799e444] [cursor=pointer]:
+                      - /url: /en-us/hardware/ipad-mounting-kit.html
+                  - listitem [ref=f799e447]:
+                    - link "Triple Vacuum Cup" [ref=f799e448] [cursor=pointer]:
+                      - /url: /en-us/hardware/triple-vacuum-cup.html
+                  - listitem [ref=f799e451]:
+                    - link "FieldView Drive 2.0 Adapter for Serial/USB" [ref=f799e452] [cursor=pointer]:
+                      - /url: /en-us/hardware/fieldview-drive-2-0-adapter-for-serial-usb.html
+                  - listitem [ref=f799e455]:
+                    - link "CNH Display Adapter Kit" [ref=f799e456] [cursor=pointer]:
+                      - /url: /en-us/hardware/cnh-display-adapter-kit.html
+                  - listitem [ref=f799e459]:
+                    - link "John Deere Greenstar Display Adapter Kit" [ref=f799e460] [cursor=pointer]:
+                      - /url: /en-us/hardware/john-deere-greenstar-display-adapter-kit.html
+            - generic [ref=f799e464]:
+              - text: keyboard_arrow_down
+              - generic [ref=f799e465]: Company
+              - region "Company keyboard_arrow_down" [ref=f799e466]:
+                - list [ref=f799e467]:
+                  - listitem [ref=f799e468]:
+                    - link "About Us" [ref=f799e469] [cursor=pointer]:
+                      - /url: /en-us/about-us.html
+                  - listitem [ref=f799e472]:
+                    - link "Contact Us" [ref=f799e473] [cursor=pointer]:
+                      - /url: /en-us/resources/contact-us.html
+                  - listitem [ref=f799e476]:
+                    - link "Careers" [ref=f799e477] [cursor=pointer]:
+                      - /url: https://www.bayer.com/en/career/agriculture-technology-jobs
+        - generic [ref=f799e480]:
+          - generic [ref=f799e481]:
+            - generic [ref=f799e482]: © 2026 Climate LLC. All Rights Reserved.
+            - link "Disclaimer" [ref=f799e483] [cursor=pointer]:
+              - /url: /en-us/legal/disclaimer.html
+            - link "Website Terms of Use" [ref=f799e486] [cursor=pointer]:
+              - /url: /en-us/legal/terms-of-use.html
+            - link "Terms of Service" [ref=f799e489] [cursor=pointer]:
+              - /url: /en-us/legal/terms-of-service.html
+            - link "Privacy Statement" [ref=f799e492] [cursor=pointer]:
+              - /url: /en-us/legal/privacy-statement.html
+            - link "Privacy Statement FAQs" [ref=f799e495] [cursor=pointer]:
+              - /url: /en-us/legal/privacy-statement-faq.html
+            - link "Health Data Privacy Statement" [ref=f799e498] [cursor=pointer]:
+              - /url: /en-us/legal/health-data-privacy-statement.html
+            - generic "Cookie Settings" [ref=f799e501] [cursor=pointer]
+          - list [ref=f799e505]:
+            - listitem [ref=f799e506]:
+              - link "Go to linkedin" [ref=f799e507] [cursor=pointer]:
+                - /url: https://www.linkedin.com/company/the-climate-corporation
+                - generic [ref=f799e508]: 
+            - listitem [ref=f799e509]:
+              - link "Go to X" [ref=f799e510] [cursor=pointer]:
+                - /url: https://x.com/FieldView
+                - generic [ref=f799e511]: 
+            - listitem [ref=f799e512]:
+              - link "Go to facebook" [ref=f799e513] [cursor=pointer]:
+                - /url: https://www.facebook.com/fieldview.us
+                - generic [ref=f799e514]: 
+            - listitem [ref=f799e515]:
+              - link "Go to instagram" [ref=f799e516] [cursor=pointer]:
+                - /url: https://www.instagram.com/fieldview_us/
+                - generic [ref=f799e517]: 
+            - listitem [ref=f799e518]:
+              - link "Go to youtube" [ref=f799e519] [cursor=pointer]:
+                - /url: https://www.youtube.com/user/ClimateCorp
+                - generic [ref=f799e520]: 
+            - listitem [ref=f799e521]:
+              - link "Go to tiktok" [ref=f799e522] [cursor=pointer]:
+                - /url: https://www.tiktok.com/@fieldview_us
+                - generic [ref=f799e523]: 

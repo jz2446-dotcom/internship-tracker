@@ -1,0 +1,37 @@
+- generic [active] [ref=f4e1]:
+  - main [ref=f4e2]:
+    - generic [ref=f4e3]:
+      - heading "www.brightnetwork.co.uk" [level=1] [ref=f4e5]
+      - heading "Performing security verification" [level=2] [ref=f4e6]
+      - paragraph [ref=f4e7]: This website uses a security service to protect against malicious bots. This page is displayed while the website verifies you are not a bot.
+      - alert [ref=f4e8]:
+        - generic [ref=f4e9]:
+          - heading "Why is this verification taking longer?" [level=2] [ref=f4e10]
+          - paragraph [ref=f4e11]: This verification can take longer due to an older computer or a slow internet connection.
+          - paragraph [ref=f4e12]: "What to do next:"
+          - list [ref=f4e13]:
+            - listitem [ref=f4e14]: Wait briefly. Refreshing the page will restart the security verification and may take longer.
+            - listitem [ref=f4e15]:
+              - text: If the verification still does not complete,
+              - link "refresh this page" [ref=f4e16] [cursor=pointer]:
+                - /url: "#"
+              - text: .
+            - listitem [ref=f4e17]:
+              - text: If you are still stuck on this page after a page refresh, refer to Cloudflare’s
+              - link "troubleshooting documentation" [ref=f4e18] [cursor=pointer]:
+                - /url: /cdn-cgi/challenge-platform/help
+              - text: for more help.
+  - contentinfo [ref=f4e19]:
+    - generic [ref=f4e21]:
+      - generic [ref=f4e23]:
+        - text: "Ray ID:"
+        - code [ref=f4e24]: a2a4bbae88b14854
+      - generic [ref=f4e25]:
+        - generic [ref=f4e26]:
+          - text: Performance and Security by
+          - link "Cloudflare, opens in a new tab" [ref=f4e27] [cursor=pointer]:
+            - /url: https://www.cloudflare.com?utm_source=challenge&utm_campaign=m
+            - text: Cloudflare
+        - link "Privacy, opens in a new tab" [ref=f4e29] [cursor=pointer]:
+          - /url: https://www.cloudflare.com/privacypolicy/
+          - text: Privacy

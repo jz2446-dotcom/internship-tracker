@@ -1,0 +1,202 @@
+- generic [ref=f611e1]:
+  - dialog "Manage Consent" [ref=f611e2]:
+    - generic [ref=f611e3]:
+      - generic [ref=f611e4]: Manage Consent
+      - button "Close dialog" [active] [ref=f611e5] [cursor=pointer]
+    - generic [ref=f611e8]: To provide the best experiences, we use technologies like cookies to store and/or access device information. Consenting to these technologies will allow us to process data such as browsing behavior or unique IDs on this site. Not consenting or withdrawing consent, may adversely affect certain features and functions.
+    - button "Accept" [ref=f611e11] [cursor=pointer]
+    - list [ref=f611e13]:
+      - listitem [ref=f611e14]:
+        - link "Opt-out preferences" [ref=f611e15] [cursor=pointer]:
+          - /url: https://www.westchesterlibraries.org/opt-out-preferences/
+      - listitem [ref=f611e16]:
+        - link "Privacy of Patron Data" [ref=f611e17] [cursor=pointer]:
+          - /url: https://www.westchesterlibraries.org/about-wls/patron-privacy/
+      - listitem
+  - generic [ref=f611e18] [cursor=pointer]: 
+  - generic [ref=f611e20]:
+    - banner [ref=f611e21]:
+      - generic:
+        - banner [ref=f611e22]:
+          - generic [ref=f611e23]:
+            - link [ref=f611e25] [cursor=pointer]:
+              - /url: https://www.westchesterlibraries.org/
+              - img "Westchester Library System" [ref=f611e26]
+            - generic [ref=f611e27]:
+              - link [ref=f611e28] [cursor=pointer]:
+                - /url: https://www.facebook.com/westchesterlibrarysystem
+                - img "Facebook" [ref=f611e29]
+              - link [ref=f611e30] [cursor=pointer]:
+                - /url: https://www.instagram.com/westchesterlibrarysystem/
+                - img "Instagram" [ref=f611e31]
+              - link [ref=f611e32] [cursor=pointer]:
+                - /url: https://www.youtube.com/user/WestchesterLibraries?feature=watch
+                - img "YouTube" [ref=f611e33]
+              - link [ref=f611e34] [cursor=pointer]:
+                - /url: https://blog.westchesterlibraries.org/
+                - img "AboutMe" [ref=f611e35]
+        - generic [ref=f611e36]: "[gtranslate]"
+        - generic [ref=f611e38]:
+          - heading "WLS Catalog Search:" [level=3] [ref=f611e39]
+          - textbox "Enter one or more terms to search for" [ref=f611e40]
+          - combobox "Search Index" [ref=f611e41]:
+            - option "by Keyword" [selected]
+            - option "by Title"
+            - option "by Start of Title"
+            - option "by Series"
+            - option "by Author"
+            - option "by Subject"
+          - button "Search" [ref=f611e42]
+        - navigation [ref=f611e43]:
+          - link "Skip to content" [ref=f611e45] [cursor=pointer]:
+            - /url: "#content"
+          - generic:
+            - list:
+              - listitem [ref=f611e46]:
+                - link "Home" [ref=f611e47] [cursor=pointer]:
+                  - /url: /
+              - listitem [ref=f611e48]:
+                - link "Account/Catalog" [ref=f611e49] [cursor=pointer]:
+                  - /url: https://opac.westchesterlibraries.org
+              - listitem [ref=f611e50]:
+                - link "Listen, Read & Watch" [ref=f611e51] [cursor=pointer]:
+                  - /url: /listen-read
+              - listitem [ref=f611e52]:
+                - link "Business & Research" [ref=f611e53] [cursor=pointer]:
+                  - /url: /research-tools
+              - listitem [ref=f611e54]:
+                - link "Learn" [ref=f611e55] [cursor=pointer]:
+                  - /url: /learn-online
+              - listitem [ref=f611e56]:
+                - link "Jobs & Careers" [ref=f611e57] [cursor=pointer]:
+                  - /url: /jobs-careers/
+              - listitem [ref=f611e58]:
+                - link "Services" [ref=f611e59] [cursor=pointer]:
+                  - /url: /services-programs/
+              - listitem [ref=f611e60]:
+                - link "Member Libraries" [ref=f611e61] [cursor=pointer]:
+                  - /url: "#"
+              - listitem [ref=f611e62]:
+                - link "About WLS" [ref=f611e63] [cursor=pointer]:
+                  - /url: /about-wls
+    - main [ref=f611e66]:
+      - generic [ref=f611e67]:
+        - link "Westchester Library System" [ref=f611e68] [cursor=pointer]:
+          - /url: https://www.westchesterlibraries.org
+        - text: » Job Postings
+      - generic [ref=f611e69]:
+        - heading "Job Postings" [level=1] [ref=f611e70]
+        - generic [ref=f611e71]:
+          - generic [ref=f611e72]:
+            - heading [level=2] [ref=f611e73]:
+              - link "Warner Library – Library Clerk" [ref=f611e74] [cursor=pointer]:
+                - /url: https://www.westchesterlibraries.org/job-postings/warner-library-library-clerk/
+            - paragraph [ref=f611e76]:
+              - text: The Warner Library is looking for friendly Library Clerk, who has excellent communication skills, can work bothindependently and in a team environment, and has excellent phone etiquette. Read the full
+              - link "job listing" [ref=f611e77] [cursor=pointer]:
+                - /url: /wp-content/files/jobs/Warner-Library_Clerk.pdf
+              - text: for details. Posted August 11, 2026.
+          - generic [ref=f611e78]:
+            - heading [level=2] [ref=f611e79]:
+              - link "Katonah Village Library – Weeknights & Sundays Circulation Clerk" [ref=f611e80] [cursor=pointer]:
+                - /url: https://www.westchesterlibraries.org/job-postings/katonah-village-library-weeknights-sundays-circulation-clerk/
+            - paragraph [ref=f611e82]:
+              - text: The Katonah Village Library is seeking a friendly, service-oriented, and collaborative Circulation Clerk to join their weeknight and Sunday teams. Read the full
+              - link "job listing" [ref=f611e83] [cursor=pointer]:
+                - /url: /wp-content/files/jobs/Katonah-Weeknights_Sunday_Clerk.pdf
+              - text: for details. Posted August 11, 2026.
+          - generic [ref=f611e84]:
+            - heading [level=2] [ref=f611e85]:
+              - link "Katonah Village Library – Weekend Circulation Clerk" [ref=f611e86] [cursor=pointer]:
+                - /url: https://www.westchesterlibraries.org/job-postings/katonah-village-library-weekend-circulation-clerk/
+            - paragraph [ref=f611e88]:
+              - text: The Katonah Village Library is seeking a friendly, service-oriented, and collaborative Circulation Clerk to join their weekend team. Read the full
+              - link "job listing" [ref=f611e89] [cursor=pointer]:
+                - /url: /wp-content/files/jobs/Katonah-Weekend_Circ_Clerk.pdf
+              - text: for details. Posted August 11, 2026.
+          - generic [ref=f611e90]:
+            - heading [level=2] [ref=f611e91]:
+              - link "Nyack Library – Janitor" [ref=f611e92] [cursor=pointer]:
+                - /url: https://www.westchesterlibraries.org/job-postings/nyack-library-janitor/
+            - paragraph [ref=f611e94]:
+              - text: The Nyack Library is seeking a reliable and hardworking Janitor to help maintain a clean, safe, and welcoming environment for the community. Read the full
+              - link "job listing" [ref=f611e95] [cursor=pointer]:
+                - /url: /wp-content/files/jobs/Nyack-FT_Janitor.pdf
+              - text: for details. Posted August 4, 2026.
+          - generic [ref=f611e96]:
+            - heading [level=2] [ref=f611e97]:
+              - link "John C. Hart Memorial Library – Children’s Librarian II" [ref=f611e98] [cursor=pointer]:
+                - /url: https://www.westchesterlibraries.org/job-postings/john-c-hart-memorial-library-childrens-librarian-ii/
+            - paragraph [ref=f611e100]:
+              - text: The John C. Hart Memorial Library seeks a dynamic, innovative, and service-driven professional to lead its Children’s Services Department. Read the full
+              - link "job listing" [ref=f611e101] [cursor=pointer]:
+                - /url: /wp-content/files/jobs/Yorktown-Childrens_Librarian_II.pdf
+              - text: for details. Posted July 24, 2026.
+          - generic [ref=f611e102]:
+            - heading [level=2] [ref=f611e103]:
+              - link "Rye Free Reading Room – Assistant Director" [ref=f611e104] [cursor=pointer]:
+                - /url: https://www.westchesterlibraries.org/job-postings/rye-free-reading-room-assistant-director/
+            - paragraph [ref=f611e106]:
+              - text: The Rye Free Reading Room is searching for an Assistant Director to assist in planning, organizing, supervising, developing, and administering all library services, personnel, operations, and programs. Read the full
+              - link "job listing" [ref=f611e107] [cursor=pointer]:
+                - /url: /wp-content/files/jobs/Rye-Assistant_Director.pdf
+              - text: for details. Posted July 16, 2026.
+          - generic [ref=f611e108]:
+            - heading [level=2] [ref=f611e109]:
+              - link "Westchester Library System – Junior Systems Administrator" [ref=f611e110] [cursor=pointer]:
+                - /url: https://www.westchesterlibraries.org/job-postings/westchester-library-system-junior-systems-administrator/
+            - paragraph [ref=f611e112]:
+              - text: Westchester Library System is looking for a Junior Systems Administrator to deliver support to end users, help with day-to-day operations, and more. Read the full
+              - link "job listing" [ref=f611e113] [cursor=pointer]:
+                - /url: /wp-content/files/jobs/WLS-Junior_Sys_Admin_2026.pdf
+              - text: for details. Posted April 9, 2026.
+    - contentinfo [ref=f611e114]:
+      - complementary [ref=f611e116]:
+        - list [ref=f611e118]:
+          - listitem [ref=f611e119]:
+            - heading [level=2] [ref=f611e120]:
+              - text: Westchester Library System | 570 Taxter Road | Suite 400Elmsford, NY 10523 | 914-674-3600
+              - link "WLS Patron Privacy Policy" [ref=f611e121] [cursor=pointer]:
+                - /url: /about-wls/patron-privacy/
+            - link:
+              - /url: /about-wls/patron-privacy/
+            - generic [ref=f611e122]:
+              - link:
+                - /url: /about-wls/patron-privacy/
+              - link [ref=f611e123] [cursor=pointer]:
+                - /url: /contact-wls/
+            - link [ref=f611e126] [cursor=pointer]:
+              - /url: https://www.guidestar.org/profile/13-1882114
+        - list [ref=f611e129]:
+          - listitem [ref=f611e130]:
+            - heading "WLS Sponsors:" [level=3] [ref=f611e131]
+            - generic [ref=f611e132]:
+              - link [ref=f611e133] [cursor=pointer]:
+                - /url: https://www.coned.com
+              - link [ref=f611e135] [cursor=pointer]:
+                - /url: https://www.imls.gov
+              - link [ref=f611e137] [cursor=pointer]:
+                - /url: https://www.westchestergov.com
+              - link [ref=f611e139] [cursor=pointer]:
+                - /url: https://www.applebank.com/
+              - link [ref=f611e141] [cursor=pointer]:
+                - /url: https://www.nysl.nysed.gov
+              - link [ref=f611e145] [cursor=pointer]:
+                - /url: https://www.mtb.com/
+              - link:
+                - /url: https://www.fieldhallfoundation.org/
+              - link:
+                - /url: https://www.uwwp.org
+              - link:
+                - /url: https://www.fulldeckdesign.com/
+              - link [ref=f611e150] [cursor=pointer]:
+                - /url: https://www.westchesterlibraries.org/about-wls/how-corporations-can-support-westchester-library-system/
+      - generic [ref=f611e153]:
+        - link "Westchester Library System" [ref=f611e154] [cursor=pointer]:
+          - /url: https://www.westchesterlibraries.org/
+        - text: "| Powered by"
+        - link "Mantra" [ref=f611e155] [cursor=pointer]:
+          - /url: //www.cryoutcreations.eu/mantra
+        - text: "&"
+        - link "WordPress." [ref=f611e156] [cursor=pointer]:
+          - /url: //wordpress.org/

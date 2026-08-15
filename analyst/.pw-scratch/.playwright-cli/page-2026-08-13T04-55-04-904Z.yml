@@ -1,0 +1,383 @@
+- generic [ref=f1090e5]:
+  - link "Skip to main content" [ref=f1090e6] [cursor=pointer]:
+    - /url: "#main"
+  - main [ref=f1090e7]:
+    - navigation [ref=f1090e13]:
+      - generic [ref=f1090e15]:
+        - link "Uber homepage" [ref=f1090e16] [cursor=pointer]:
+          - /url: https://www.uber.com/
+          - text: Uber
+        - list [ref=f1090e17]:
+          - listitem [ref=f1090e18]:
+            - link "Ride — Request a ride" [ref=f1090e19] [cursor=pointer]:
+              - /url: https://m.uber.com/looking
+              - text: Ride
+          - listitem [ref=f1090e20]:
+            - button "Earn" [ref=f1090e21] [cursor=pointer]
+          - listitem [ref=f1090e25]:
+            - link "Business accounts for your company" [ref=f1090e26] [cursor=pointer]:
+              - /url: https://www.uber.com/us/en/business/
+              - text: Business
+          - listitem [ref=f1090e27]:
+            - link "Uber Eats" [ref=f1090e28] [cursor=pointer]:
+              - /url: https://www.ubereats.com/
+          - listitem [ref=f1090e29]:
+            - button "About" [ref=f1090e30] [cursor=pointer]
+        - list [ref=f1090e34]:
+          - listitem [ref=f1090e35]:
+            - button "Change language" [ref=f1090e36] [cursor=pointer]: EN
+          - listitem [ref=f1090e40]:
+            - link "Help" [ref=f1090e41] [cursor=pointer]:
+              - /url: https://help.uber.com/
+          - listitem [ref=f1090e43]:
+            - link "Log in to your Uber account" [ref=f1090e44] [cursor=pointer]:
+              - /url: https://auth.uber.com/login-redirect?next_url=https://www.uber.com
+              - text: Log in
+          - listitem [ref=f1090e46]:
+            - button "Sign up to ride, drive, and get delivery" [ref=f1090e47] [cursor=pointer]: Sign up
+    - generic [ref=f1090e59]:
+      - generic [ref=f1090e60]:
+        - generic [ref=f1090e62]:
+          - generic [ref=f1090e65]: Dallas-Fort Worth, US
+          - button "Change city" [ref=f1090e66] [cursor=pointer]
+        - heading "Go anywhere with Uber" [level=1] [ref=f1090e71]
+        - generic [ref=f1090e75]:
+          - generic [ref=f1090e76]:
+            - button "Pickup now" [ref=f1090e80] [cursor=pointer]
+            - generic [ref=f1090e88]:
+              - generic [ref=f1090e90]:
+                - generic:
+                  - paragraph: Pickup location
+                - generic [ref=f1090e93]:
+                  - combobox "Pickup location needs to be filled in" [ref=f1090e99]
+                  - button "Auto-fill my location" [ref=f1090e102] [cursor=pointer]
+              - generic [ref=f1090e105]:
+                - generic:
+                  - paragraph: Dropoff location
+                - combobox "Dropoff location needs to be filled in" [ref=f1090e114]
+          - generic [ref=f1090e119]:
+            - link "See prices" [ref=f1090e121] [cursor=pointer]:
+              - /url: https://m.uber.com/looking
+            - link "Log in to see your recent activity" [ref=f1090e124] [cursor=pointer]:
+              - /url: https://auth.uber.com/login-redirect?next_url=https://www.uber.com
+      - generic [ref=f1090e131]:
+        - generic [ref=f1090e132]: Ready to travel?
+        - link "Schedule ahead" [ref=f1090e134] [cursor=pointer]:
+          - /url: https://m.uber.com/reserve
+    - generic [ref=f1090e144]:
+      - heading "Explore what you can do with Uber" [level=2] [ref=f1090e145]
+      - list [ref=f1090e147]:
+        - listitem [ref=f1090e148]:
+          - link "Ride" [ref=f1090e149] [cursor=pointer]:
+            - /url: https://m.uber.com/looking/
+            - generic [ref=f1090e150]:
+              - generic [ref=f1090e151]:
+                - generic [ref=f1090e152]: Ride
+                - paragraph [ref=f1090e153]: Go anywhere with Uber. Request a ride, hop in, and go.
+              - generic "Details" [ref=f1090e154]
+            - img "Ride" [ref=f1090e155]
+        - listitem [ref=f1090e156]:
+          - link "Reserve" [ref=f1090e157] [cursor=pointer]:
+            - /url: https://m.uber.com/reserve/
+            - generic [ref=f1090e158]:
+              - generic [ref=f1090e159]:
+                - generic [ref=f1090e160]: Reserve
+                - paragraph [ref=f1090e161]: Reserve your ride in advance so you can relax on the day of your trip.
+              - generic "Details" [ref=f1090e162]
+            - img "Reserve" [ref=f1090e163]
+        - listitem [ref=f1090e164]:
+          - link "Rental Cars" [ref=f1090e165] [cursor=pointer]:
+            - /url: "https://m.uber.com/go/rent "
+            - generic [ref=f1090e166]:
+              - generic [ref=f1090e167]:
+                - generic [ref=f1090e168]: Rental Cars
+                - paragraph [ref=f1090e169]: Your perfect rental car is a few clicks away. Learn more about Uber Rent.
+              - generic "Details" [ref=f1090e170]
+            - img "Rental Cars" [ref=f1090e171]
+        - listitem [ref=f1090e172]:
+          - link "Courier" [ref=f1090e173] [cursor=pointer]:
+            - /url: https://m.uber.com/go/connect/pickup
+            - generic [ref=f1090e174]:
+              - generic [ref=f1090e175]:
+                - generic [ref=f1090e176]: Courier
+                - paragraph [ref=f1090e177]: Uber makes same-day item delivery easier than ever.
+              - generic "Details" [ref=f1090e178]
+            - img "Courier" [ref=f1090e179]
+        - listitem [ref=f1090e180]:
+          - link "Hourly" [ref=f1090e181] [cursor=pointer]:
+            - /url: https://m.uber.com/go/hourly/home
+            - generic [ref=f1090e182]:
+              - generic [ref=f1090e183]:
+                - generic [ref=f1090e184]: Hourly
+                - paragraph [ref=f1090e185]: Request a trip for a block of time and make multiple stops.
+              - generic "Details" [ref=f1090e186]
+            - img "Hourly" [ref=f1090e187]
+        - listitem [ref=f1090e188]:
+          - link "Food" [ref=f1090e189] [cursor=pointer]:
+            - /url: https://www.ubereats.com/
+            - generic [ref=f1090e190]:
+              - generic [ref=f1090e191]:
+                - generic [ref=f1090e192]: Food
+                - paragraph [ref=f1090e193]: Order delivery from local restaurants with Uber Eats.
+              - generic "Details" [ref=f1090e194]
+            - img "Food" [ref=f1090e195]
+    - generic [ref=f1090e206]:
+      - heading "The future just pulled up" [level=2] [ref=f1090e210]
+      - paragraph [ref=f1090e214]: Introducing autonomous vehicles on Uber. We’re reimagining movement with autonomous vehicles as a key part of the future. Partnering with industry leaders, we’re using a safety-driven approach for a best-in-class experience that combines autonomous vehicles and drivers.
+      - generic [ref=f1090e216]:
+        - link "Learn how to ride" [ref=f1090e218] [cursor=pointer]:
+          - /url: https://www.uber.com/us/en/autonomous/mobility/
+        - link "Ride in Dallas" [ref=f1090e220] [cursor=pointer]:
+          - /url: https://www.uber.com/us/en/r/autonomous/dallas-tx-us/
+    - generic [ref=f1090e238]:
+      - heading "Log in to see your account details" [level=2] [ref=f1090e242]
+      - paragraph [ref=f1090e246]: View past trips, tailored suggestions, support resources, and more.
+      - generic [ref=f1090e248]:
+        - link "Log in to your account" [ref=f1090e250] [cursor=pointer]:
+          - /url: https://auth.uber.com/login-redirect?next_url=https://www.uber.com
+        - link "Create an account" [ref=f1090e253] [cursor=pointer]:
+          - /url: https://get.uber.com/sign-up
+    - generic [ref=f1090e271]:
+      - heading "Plan for later" [level=2] [ref=f1090e272]
+      - generic [ref=f1090e273]:
+        - generic [ref=f1090e274]:
+          - group "button group" [ref=f1090e275]:
+            - checkbox "Reserve" [checked] [ref=f1090e276] [cursor=pointer]
+            - checkbox "Rent" [ref=f1090e277] [cursor=pointer]
+          - generic [ref=f1090e278]:
+            - heading "Get your ride right with Uber Reserve" [level=3] [ref=f1090e279]
+            - generic [ref=f1090e281]:
+              - generic [ref=f1090e282]:
+                - heading "Choose date and time" [level=4] [ref=f1090e283]
+                - generic [ref=f1090e284]:
+                  - generic [ref=f1090e285]:
+                    - paragraph [ref=f1090e287]: Date
+                    - generic [ref=f1090e288]:
+                      - textbox "Select a date." [ref=f1090e292] [cursor=pointer]:
+                        - /placeholder: Date
+                      - paragraph
+                  - generic [ref=f1090e293]:
+                    - paragraph [ref=f1090e295]: Time
+                    - generic [ref=f1090e299] [cursor=pointer]:
+                      - generic:
+                        - combobox "Time"
+                      - generic [ref=f1090e300]: Time
+              - button "Next" [ref=f1090e305] [cursor=pointer]
+        - generic [ref=f1090e307]:
+          - heading "Benefits" [level=3] [ref=f1090e308]
+          - list [ref=f1090e309]:
+            - listitem "Choose your exact pickup time up to 90 days in advance." [ref=f1090e310]:
+              - paragraph [ref=f1090e314]: Choose your exact pickup time up to 90 days in advance.
+            - listitem "Extra wait time included to meet your ride." [ref=f1090e315]:
+              - paragraph [ref=f1090e319]: Extra wait time included to meet your ride.
+            - listitem "Cancel at no charge up to 60 minutes in advance." [ref=f1090e320]:
+              - paragraph [ref=f1090e324]: Cancel at no charge up to 60 minutes in advance.
+          - link "See terms" [ref=f1090e325] [cursor=pointer]:
+            - /url: https://www.uber.com/us/en/ride/how-it-works/reserve/#see-prices
+    - generic [ref=f1090e335]:
+      - generic [ref=f1090e336]:
+        - heading "Planning your next getaway?" [level=2] [ref=f1090e340]
+        - paragraph [ref=f1090e344]: From weekend road trip to international destination, we've got you covered. Explore transport options, points of interest, and more with our new City Hub.
+      - button [ref=f1090e346] [cursor=pointer]:
+        - img "Down" [ref=f1090e351]
+    - generic [ref=f1090e369]:
+      - heading "Drive when you want, make what you need" [level=2] [ref=f1090e373]
+      - paragraph [ref=f1090e377]: Make money on your schedule with deliveries or rides—or both. You can use your own car or choose a rental through Uber.
+      - generic [ref=f1090e379]:
+        - link "Get started — Drive with Uber" [ref=f1090e381] [cursor=pointer]:
+          - /url: https://drivers.uber.com/
+          - text: Get started
+        - link "Already have an account? Sign in" [ref=f1090e384] [cursor=pointer]:
+          - /url: https://drivers.uber.com/
+    - generic [ref=f1090e403]:
+      - heading "The Uber you know, reimagined for business" [level=2] [ref=f1090e407]
+      - paragraph [ref=f1090e411]: Uber for Business is a platform for managing global rides and meals, and local deliveries, for companies of any size.
+      - generic [ref=f1090e413]:
+        - link "Get started with Uber for Business" [ref=f1090e415] [cursor=pointer]:
+          - /url: https://www.uber.com/us/en/business/getting-started/
+          - text: Get started
+        - link "Check out our solutions" [ref=f1090e418] [cursor=pointer]:
+          - /url: https://www.uber.com/us/en/business/
+    - generic [ref=f1090e438]:
+      - heading "Safety, simplified" [level=2] [ref=f1090e442]
+      - paragraph [ref=f1090e446]: Turn on and schedule your safety preferences, all in the Uber app.
+      - link "Learn more" [ref=f1090e449] [cursor=pointer]:
+        - /url: https://rides.sng.link/Aw5zn/yt7ru?_dl=uber%3A%2F%2Fsafe_mode_onboarding%3Fsource_context%3DSETTINGS_PAGE&_smtype=3&pscn=crm_usca_r_em_UBRvq4dsvql6jqijfz80eo1&pcn=crm_us_enhanced_safety_campaign_w_a
+    - generic [ref=f1090e466]:
+      - heading "It’s easier in the apps" [level=2] [ref=f1090e472]
+      - link "Download the Uber app by QR code or select button" [ref=f1090e476] [cursor=pointer]:
+        - /url: https://rides.sng.link/Aw5zn/o42y?_dl=uber%3A%2F%2F&_smtype=3&pcn=uber-com-homepage-block&mvid=[marketing-visitor-id]
+        - generic [ref=f1090e482]:
+          - heading "Download the Uber app" [level=3] [ref=f1090e484]
+          - paragraph [ref=f1090e487]: Scan to download
+      - link "Download the Driver app by QR code or select button" [ref=f1090e493] [cursor=pointer]:
+        - /url: https://earn.sng.link/A3ir4p/mf0l?_dl=uberdriver%3A%2F%2F&_smtype=3&pcn=uber-com-homepage-block&mvid=[marketing-visitor-id]
+        - generic [ref=f1090e499]:
+          - heading "Download the Driver app" [level=3] [ref=f1090e501]
+          - paragraph [ref=f1090e504]: Scan to download
+    - generic [ref=f1090e516]:
+      - generic [ref=f1090e518]:
+        - generic [ref=f1090e519]:
+          - link "Uber" [ref=f1090e521] [cursor=pointer]:
+            - /url: https://www.uber.com/
+          - link [ref=f1090e523] [cursor=pointer]:
+            - /url: https://help.uber.com/
+            - paragraph [ref=f1090e524]: Visit Help Center
+        - generic [ref=f1090e525]:
+          - link "Do not sell or share my personal information" [ref=f1090e526] [cursor=pointer]:
+            - /url: https://privacy.uber.com/privacy/us
+            - paragraph [ref=f1090e527]: Do not sell or share my personal information
+          - link "Google Data Policy" [ref=f1090e528] [cursor=pointer]:
+            - /url: https://www.uber.com/google-disclosure/
+            - paragraph [ref=f1090e529]: Google Data Policy
+      - generic [ref=f1090e531]:
+        - generic [ref=f1090e532]:
+          - heading "Company" [level=2] [ref=f1090e534]
+          - list [ref=f1090e535]:
+            - listitem [ref=f1090e536]:
+              - link [ref=f1090e537] [cursor=pointer]:
+                - /url: https://www.uber.com/us/en/about/
+                - paragraph [ref=f1090e538]: About us
+            - listitem [ref=f1090e539]:
+              - link "Our offerings, apps, and products" [ref=f1090e540] [cursor=pointer]:
+                - /url: https://www.uber.com/us/en/about/uber-offerings/
+                - paragraph [ref=f1090e541]: Our offerings
+            - listitem [ref=f1090e542]:
+              - link [ref=f1090e543] [cursor=pointer]:
+                - /url: https://www.uber.com/us/en/newsroom/
+                - paragraph [ref=f1090e544]: Newsroom
+            - listitem [ref=f1090e545]:
+              - link [ref=f1090e546] [cursor=pointer]:
+                - /url: https://investor.uber.com/
+                - paragraph [ref=f1090e547]: Investors
+            - listitem [ref=f1090e548]:
+              - link [ref=f1090e549] [cursor=pointer]:
+                - /url: https://www.uber.com/us/en/blog/
+                - paragraph [ref=f1090e550]: Blog
+            - listitem [ref=f1090e551]:
+              - link [ref=f1090e552] [cursor=pointer]:
+                - /url: https://jobs.uber.com/en/
+                - paragraph [ref=f1090e553]: Careers
+            - listitem [ref=f1090e554]:
+              - link [ref=f1090e555] [cursor=pointer]:
+                - /url: https://www.uber.com/us/en/uber-one/
+                - paragraph [ref=f1090e556]: Uber One
+        - generic [ref=f1090e557]:
+          - heading "Products" [level=2] [ref=f1090e559]
+          - list [ref=f1090e560]:
+            - listitem [ref=f1090e561]:
+              - link "Ride with Uber" [ref=f1090e562] [cursor=pointer]:
+                - /url: https://www.uber.com/us/en/ride/
+                - paragraph [ref=f1090e563]: Ride
+            - listitem [ref=f1090e564]:
+              - link [ref=f1090e565] [cursor=pointer]:
+                - /url: https://www.uber.com/us/en/drive/
+                - paragraph [ref=f1090e566]: Drive
+            - listitem [ref=f1090e567]:
+              - link [ref=f1090e568] [cursor=pointer]:
+                - /url: https://www.uber.com/us/en/deliver/
+                - paragraph [ref=f1090e569]: Deliver
+            - listitem [ref=f1090e570]:
+              - link [ref=f1090e571] [cursor=pointer]:
+                - /url: https://www.ubereats.com/
+                - paragraph [ref=f1090e572]: Eat
+            - listitem [ref=f1090e573]:
+              - link [ref=f1090e574] [cursor=pointer]:
+                - /url: https://www.uber.com/us/en/business/
+                - paragraph [ref=f1090e575]: Uber for Business
+            - listitem [ref=f1090e576]:
+              - link [ref=f1090e577] [cursor=pointer]:
+                - /url: https://www.uberfreight.com/
+                - paragraph [ref=f1090e578]: Uber Freight
+            - listitem [ref=f1090e579]:
+              - link "Gift cards to redeem and buy" [ref=f1090e580] [cursor=pointer]:
+                - /url: https://www.uber.com/us/en/gift-cards/
+                - paragraph [ref=f1090e581]: Gift cards
+            - listitem [ref=f1090e582]:
+              - link [ref=f1090e583] [cursor=pointer]:
+                - /url: https://www.uberhealth.com/
+                - paragraph [ref=f1090e584]: Uber Health
+            - listitem [ref=f1090e585]:
+              - link [ref=f1090e586] [cursor=pointer]:
+                - /url: https://www.uber.com/us/en/advertising/
+                - paragraph [ref=f1090e587]: Uber Advertising
+            - listitem [ref=f1090e588]:
+              - link [ref=f1090e589] [cursor=pointer]:
+                - /url: https://merchants.ubereats.com/
+                - paragraph [ref=f1090e590]: Merchants
+        - generic [ref=f1090e591]:
+          - heading "Global citizenship" [level=2] [ref=f1090e593]
+          - list [ref=f1090e594]:
+            - listitem [ref=f1090e595]:
+              - link [ref=f1090e596] [cursor=pointer]:
+                - /url: https://www.uber.com/us/en/safety/
+                - paragraph [ref=f1090e597]: Safety
+            - listitem [ref=f1090e598]:
+              - link [ref=f1090e599] [cursor=pointer]:
+                - /url: https://www.uber.com/us/en/about/sustainability/
+                - paragraph [ref=f1090e600]: Sustainability
+        - generic [ref=f1090e601]:
+          - heading "Travel" [level=2] [ref=f1090e603]
+          - list [ref=f1090e604]:
+            - listitem [ref=f1090e605]:
+              - link [ref=f1090e606] [cursor=pointer]:
+                - /url: https://rides.sng.link/Aw5zn/o42y?_dl=uber%3A%2F%2Freserve&_smtype=3&_forward_params=1&_fallback_redirect=http%3A%2F%2Fm.uber.com%2Freserve&pcn=ubercom-footer&mvid=[marketing-visitor-id]
+                - paragraph [ref=f1090e607]: Reserve
+            - listitem [ref=f1090e608]:
+              - link [ref=f1090e609] [cursor=pointer]:
+                - /url: https://www.uber.com/us/en/airports/
+                - paragraph [ref=f1090e610]: Airports
+            - listitem [ref=f1090e611]:
+              - link [ref=f1090e612] [cursor=pointer]:
+                - /url: https://www.uber.com/us/en/hotels/
+                - paragraph [ref=f1090e613]: Hotels
+            - listitem [ref=f1090e614]:
+              - link [ref=f1090e615] [cursor=pointer]:
+                - /url: https://www.uber.com/us/en/r/cities/
+                - paragraph [ref=f1090e616]: Cities
+      - generic [ref=f1090e618]:
+        - list [ref=f1090e619]:
+          - listitem [ref=f1090e620]:
+            - link "linkedin" [ref=f1090e622] [cursor=pointer]:
+              - /url: https://www.linkedin.com/company/1815218
+              - img "linkedin" [ref=f1090e623]
+          - listitem [ref=f1090e625]:
+            - link "youtube" [ref=f1090e627] [cursor=pointer]:
+              - /url: https://www.youtube.com/channel/UCgnxoUwDmmyzeigmmcf0hZA
+              - img "youtube" [ref=f1090e628]
+          - listitem [ref=f1090e630]:
+            - link "instagram" [ref=f1090e632] [cursor=pointer]:
+              - /url: https://instagram.com/uber/
+              - img "instagram" [ref=f1090e633]
+          - listitem [ref=f1090e637]:
+            - link "twitter" [ref=f1090e639] [cursor=pointer]:
+              - /url: https://twitter.com/uber
+              - img "twitter" [ref=f1090e640]
+        - list [ref=f1090e642]:
+          - listitem [ref=f1090e643]:
+            - 'button "Current language: English" [ref=f1090e644] [cursor=pointer]': English
+          - listitem [ref=f1090e648]:
+            - 'button "Seeing information for this city: Dallas-Fort Worth" [ref=f1090e649] [cursor=pointer]':
+              - generic [ref=f1090e653]: Dallas-Fort Worth
+        - generic [ref=f1090e655]:
+          - link "Visit Google Play" [ref=f1090e656] [cursor=pointer]:
+            - /url: https://rides.sng.link/Bw5zn/vz1k?_dl=uber%3A%2F%2F&pcn=uber-com-footer&mvid=[marketing-visitor-id]
+          - link "Visit the App Store" [ref=f1090e657] [cursor=pointer]:
+            - /url: https://rides.sng.link/Cw5zn/564k?_dl=uber%3A%2F%2F&_smtype=3&pcn=uber-com-footer&mvid=[marketing-visitor-id]
+      - generic [ref=f1090e659]:
+        - paragraph [ref=f1090e661]:
+          - generic [ref=f1090e662]: © 2026
+          - text: Uber Technologies Inc.
+        - list [ref=f1090e665]:
+          - listitem [ref=f1090e666]:
+            - link [ref=f1090e667] [cursor=pointer]:
+              - /url: https://www.uber.com/legal/document/?name=privacy-notice
+              - paragraph [ref=f1090e668]: Privacy
+          - listitem [ref=f1090e669]:
+            - link [ref=f1090e670] [cursor=pointer]:
+              - /url: https://www.uber.com/us/en/about/accessibility/
+              - paragraph [ref=f1090e671]: Accessibility
+          - listitem [ref=f1090e672]:
+            - link "Terms and Conditions" [ref=f1090e673] [cursor=pointer]:
+              - /url: https://www.uber.com/legal/document/?name=general-terms-of-use
+              - paragraph [ref=f1090e674]: Terms

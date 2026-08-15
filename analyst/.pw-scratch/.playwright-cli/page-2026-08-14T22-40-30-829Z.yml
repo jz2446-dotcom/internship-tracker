@@ -1,0 +1,222 @@
+- generic [active] [ref=f1771e1]:
+  - link "Skip to Main Content" [ref=f1771e2] [cursor=pointer]:
+    - /url: "#s-lg-guide-main"
+  - banner [ref=f1771e3]:
+    - banner [ref=f1771e4]:
+      - link [ref=f1771e7] [cursor=pointer]:
+        - /url: https://library.nyu.edu
+        - img "NYU Libraries logo" [ref=f1771e8]
+  - generic [ref=f1771e9]:
+    - navigation "breadcrumb" [ref=f1771e10]:
+      - list [ref=f1771e11]:
+        - listitem [ref=f1771e12]:
+          - link "NYU Libraries" [ref=f1771e13] [cursor=pointer]:
+            - /url: https://library.nyu.edu/
+        - listitem [ref=f1771e14]:
+          - text: /
+          - link "Research Guides" [ref=f1771e15] [cursor=pointer]:
+            - /url: https://guides.nyu.edu/
+        - listitem [ref=f1771e16]:
+          - text: /
+          - link "NYU Libraries" [ref=f1771e17] [cursor=pointer]:
+            - /url: https://guides.nyu.edu/nyu-libraries
+        - listitem [ref=f1771e18]:
+          - text: /
+          - link "Job Search, Interviewing, and Compensation" [ref=f1771e19] [cursor=pointer]:
+            - /url: https://guides.nyu.edu/jobs
+        - listitem [ref=f1771e20]: / Help
+    - search [ref=f1771e24]:
+      - generic [ref=f1771e25]:
+        - textbox "Search this Guide" [ref=f1771e26]
+        - generic [ref=f1771e27]: Search this Guide
+        - button "Search" [ref=f1771e28] [cursor=pointer]
+    - generic [ref=f1771e29]:
+      - 'heading "Job Search, Interviewing, and Compensation: Help" [level=1] [ref=f1771e30]'
+      - generic [ref=f1771e31]: Key resources for your job and internship search provided by NYU Libraries.
+  - generic [ref=f1771e33]:
+    - navigation "Guide Pages" [ref=f1771e36]:
+      - list [ref=f1771e37]:
+        - listitem [ref=f1771e38]:
+          - link "Home" [ref=f1771e39] [cursor=pointer]:
+            - /url: https://guides.nyu.edu/jobs/career-interviewing-compensation
+        - listitem [ref=f1771e40]:
+          - link "Target Company Lists" [ref=f1771e41] [cursor=pointer]:
+            - /url: https://guides.nyu.edu/jobs/target-company-lists
+        - listitem [ref=f1771e42]:
+          - link "Interviewing" [ref=f1771e43] [cursor=pointer]:
+            - /url: https://guides.nyu.edu/jobs/interviewing
+        - listitem [ref=f1771e44]:
+          - link "Salaries & Negotiation" [ref=f1771e45] [cursor=pointer]:
+            - /url: https://guides.nyu.edu/jobs/salaries-and-negotiation
+        - listitem [ref=f1771e46]:
+          - link "Industry Insights" [ref=f1771e47] [cursor=pointer]:
+            - /url: https://guides.nyu.edu/jobs/industry
+        - listitem [ref=f1771e48]:
+          - link "News" [ref=f1771e49] [cursor=pointer]:
+            - /url: https://guides.nyu.edu/jobs/news
+        - listitem [ref=f1771e50]:
+          - link "H1B Visas" [ref=f1771e51] [cursor=pointer]:
+            - /url: https://guides.nyu.edu/jobs/h1b-visas
+        - listitem [ref=f1771e52]:
+          - link "Pre-MBA & GMAT" [ref=f1771e53] [cursor=pointer]:
+            - /url: https://guides.nyu.edu/jobs/mba-gmat
+        - listitem [ref=f1771e54]:
+          - link "NYU Alumni Resources This link opens in a new window" [ref=f1771e55] [cursor=pointer]:
+            - /url: https://guides.nyu.edu/vbl/alumni
+            - text: NYU Alumni Resources
+            - generic [ref=f1771e56]: 
+            - generic [ref=f1771e57]: This link opens in a new window
+        - listitem [ref=f1771e58]:
+          - link "FAQs" [ref=f1771e59] [cursor=pointer]:
+            - /url: https://guides.nyu.edu/jobs/faqs
+        - listitem [ref=f1771e60]:
+          - link "Help" [ref=f1771e61]:
+            - /url: https://guides.nyu.edu/jobs/help
+    - generic [ref=f1771e62]:
+      - generic [ref=f1771e70]:
+        - heading "Email the Business Library Team for Research Guidance" [level=2] [ref=f1771e71]
+        - paragraph [ref=f1771e75]:
+          - iframe [ref=f1771e76]:
+            - generic [ref=f1772e5]:
+              - generic [ref=f1772e6]: Required Fields*
+              - group
+              - group [ref=f1772e7]:
+                - generic [ref=f1772e8]:
+                  - generic [ref=f1772e9]: Full Name
+                  - text: "*"
+                  - textbox "Full Name" [ref=f1772e10]:
+                    - /placeholder: Your name
+                - generic [ref=f1772e11]:
+                  - generic [ref=f1772e12]: E-mail (NYU preferred)
+                  - text: "*"
+                  - textbox "E-mail (NYU preferred)" [ref=f1772e13]:
+                    - /placeholder: Your NYU email
+                - generic [ref=f1772e14]:
+                  - generic [ref=f1772e15]: Net ID (Not N Number)
+                  - text: "*"
+                  - textbox "Net ID (Not N Number)" [ref=f1772e16]:
+                    - /placeholder: "Ex: ABC123"
+                - generic [ref=f1772e17]:
+                  - generic [ref=f1772e18]: Status
+                  - text: "*"
+                  - combobox "Status" [ref=f1772e19]:
+                    - option "Select one" [selected]
+                    - option "Undergraduate"
+                    - option "Graduate - MBA"
+                    - option "Graduate - Other Masters"
+                    - option "Graduate - PhD"
+                    - option "Faculty"
+                    - option "Administrator/Staff"
+                    - option "Research/Teaching Assistant"
+                    - option "Alumni"
+                    - option "Other"
+                - generic [ref=f1772e20]:
+                  - paragraph [ref=f1772e21]:
+                    - text: Question *
+                    - textbox "Question" [ref=f1772e22]:
+                      - /placeholder: Your question...
+                  - paragraph [ref=f1772e23]:
+                    - emphasis [ref=f1772e24]: Please include any relevant context about your research/deliverable for us to best assist you.
+                  - paragraph
+                - paragraph [ref=f1772e26]:
+                  - generic [ref=f1772e27]: Your Campus
+                  - combobox "Your Campus" [ref=f1772e28]:
+                    - option "Select one" [selected]
+                    - option "New York City"
+                    - option "Abu Dhabi"
+                    - option "Shanghai"
+                    - option "NYU Global Site (DC, LA, Paris, etc.)"
+                    - option "Not at an NYU campus"
+                - paragraph [ref=f1772e30]:
+                  - generic [ref=f1772e31]: School, Department, or Program
+                  - radio "Stern School of Business" [ref=f1772e32]
+                  - generic [ref=f1772e33]: Stern School of Business
+                  - radio "School of Professional Studies (SPS)" [ref=f1772e34]
+                  - generic [ref=f1772e35]: School of Professional Studies (SPS)
+                  - radio "Economics (College of Arts & Sciences)" [ref=f1772e36]
+                  - generic [ref=f1772e37]: Economics (College of Arts & Sciences)
+                  - radio "Other" [ref=f1772e38]
+                  - generic [ref=f1772e39]: Other
+                  - textbox [disabled] [ref=f1772e40]
+              - group [ref=f1772e41]:
+                - button "Submit" [ref=f1772e42] [cursor=pointer]
+      - navigation
+  - generic [ref=f1771e77]:
+    - generic [ref=f1771e78]:
+      - list:
+        - listitem [ref=f1771e79]: "Last Updated: Jun 9, 2026 8:57 AM"
+        - listitem [ref=f1771e80]: "URL: https://guides.nyu.edu/jobs"
+        - listitem [ref=f1771e81]:
+          - link "Print Page" [ref=f1771e82] [cursor=pointer]:
+            - /url: "javascript: window.print();"
+            - generic [ref=f1771e83]: 
+            - text: Print Page
+      - link "Author Log-in" [ref=f1771e85] [cursor=pointer]:
+        - /url: https://nyu.libapps.com/libapps/login.php?site_id=873&target64=L2xpYmd1aWRlcy9hZG1pbl9jLnBocD9nPTI3Njk0NCZwPTY3NTM0OTA=
+    - generic [ref=f1771e86]:
+      - link "Report a problem" [ref=f1771e88] [cursor=pointer]:
+        - /url: https://nyu.qualtrics.com/jfe/form/SV_3wlcAeDm6EUsPDn?Source=LibGuides
+      - generic [ref=f1771e89]:
+        - text: "Subjects:"
+        - list [ref=f1771e91]:
+          - listitem [ref=f1771e92]:
+            - link "Business Subject" [ref=f1771e93] [cursor=pointer]:
+              - /url: https://guides.nyu.edu/sb.php?subject_id=56187
+              - text: Business
+          - listitem [ref=f1771e94]:
+            - text: ","
+            - link "Multidisciplinary Subject" [ref=f1771e95] [cursor=pointer]:
+              - /url: https://guides.nyu.edu/sb.php?subject_id=99643
+              - text: Multidisciplinary
+      - generic [ref=f1771e96]:
+        - text: "Tags:"
+        - list [ref=f1771e98]:
+          - listitem [ref=f1771e99]:
+            - link "careers Tag" [ref=f1771e100] [cursor=pointer]:
+              - /url: https://guides.nyu.edu/srch.php?tag=careers&default_lg=1
+              - text: careers
+          - listitem [ref=f1771e101]:
+            - text: ","
+            - link "compensation Tag" [ref=f1771e102] [cursor=pointer]:
+              - /url: https://guides.nyu.edu/srch.php?tag=compensation&default_lg=1
+              - text: compensation
+          - listitem [ref=f1771e103]:
+            - text: ","
+            - link "employment Tag" [ref=f1771e104] [cursor=pointer]:
+              - /url: https://guides.nyu.edu/srch.php?tag=employment&default_lg=1
+              - text: employment
+          - listitem [ref=f1771e105]:
+            - text: ","
+            - link "internships Tag" [ref=f1771e106] [cursor=pointer]:
+              - /url: https://guides.nyu.edu/srch.php?tag=internships&default_lg=1
+              - text: internships
+          - listitem [ref=f1771e107]:
+            - text: ","
+            - link "interviewing Tag" [ref=f1771e108] [cursor=pointer]:
+              - /url: https://guides.nyu.edu/srch.php?tag=interviewing&default_lg=1
+              - text: interviewing
+          - listitem [ref=f1771e109]:
+            - text: ","
+            - link "jobs Tag" [ref=f1771e110] [cursor=pointer]:
+              - /url: https://guides.nyu.edu/srch.php?tag=jobs&default_lg=1
+              - text: jobs
+          - listitem [ref=f1771e111]:
+            - text: ","
+            - link "negotiation Tag" [ref=f1771e112] [cursor=pointer]:
+              - /url: https://guides.nyu.edu/srch.php?tag=negotiation&default_lg=1
+              - text: negotiation
+          - listitem [ref=f1771e113]:
+            - text: ","
+            - link "pay Tag" [ref=f1771e114] [cursor=pointer]:
+              - /url: https://guides.nyu.edu/srch.php?tag=pay&default_lg=1
+              - text: pay
+          - listitem [ref=f1771e115]:
+            - text: ","
+            - link "salary Tag" [ref=f1771e116] [cursor=pointer]:
+              - /url: https://guides.nyu.edu/srch.php?tag=salary&default_lg=1
+              - text: salary
+  - text:  
+  - link "Accessibility (opens in new window)" [ref=f1771e119] [cursor=pointer]:
+    - /url: https://www.nyu.edu/footer/accessibility.html
+    - text: Accessibility
+    - generic [ref=f1771e120]: (opens in new window)

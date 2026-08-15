@@ -1,0 +1,264 @@
+- generic [ref=f145e1]:
+  - generic [ref=f145e5]:
+    - dialog [active] [ref=f145e6]:
+      - generic [ref=f145e8]:
+        - generic [ref=f145e10]:
+          - button "Close resume upload modal" [ref=f145e13] [cursor=pointer]:
+            - generic [ref=f145e14]: 
+          - img "Resume Upload Icon" [ref=f145e17]
+          - generic [ref=f145e18]:
+            - heading "Welcome to Netflix Jobs" [level=1] [ref=f145e19]
+            - paragraph [ref=f145e20]: Streamline your search by uploading your resume/CV to be matched with positions that best suit your qualifications.
+        - dialog [ref=f145e25]:
+          - generic [ref=f145e30]:
+            - generic [ref=f145e31]:
+              - paragraph [ref=f145e34]: Drop Resume/CV Here
+              - generic [ref=f145e35]:
+                - paragraph [ref=f145e36]: (doc, docx, pdf or txt)
+                - paragraph [ref=f145e37]: or
+                - button "Select your resume file to upload" [ref=f145e38] [cursor=pointer]: Select file
+            - button
+        - generic [ref=f145e40]:
+          - button "Skip" [ref=f145e41] [cursor=pointer]
+          - paragraph [ref=f145e42]: "**Uploading a resume/CV is not a formal application for employment**"
+    - navigation "main navigation" [ref=f145e45]:
+      - link "Skip to main content" [ref=f145e46] [cursor=pointer]:
+        - /url: "#main-container"
+      - link [ref=f145e47] [cursor=pointer]:
+        - /url: http://netflix.eightfold.ai/careers
+        - img "Company logo" [ref=f145e48]
+      - generic [ref=f145e50]:
+        - link "CAREERS" [ref=f145e51] [cursor=pointer]:
+          - /url: https://jobs.netflix.com/
+        - link "LOCATIONS" [ref=f145e52] [cursor=pointer]:
+          - /url: https://jobs.netflix.com/locations
+        - button "ONLY AT NETFLIX" [ref=f145e54] [cursor=pointer]
+        - link "NETFLIX HOUSE" [ref=f145e59] [cursor=pointer]:
+          - /url: https://apply.netflixhouse.com/careers
+    - main [ref=f145e60]:
+      - generic [ref=f145e63]:
+        - generic [ref=f145e64]:
+          - generic [ref=f145e67]:
+            - generic [ref=f145e68]: Search jobs by keyword
+            - generic [ref=f145e69]:
+              - combobox "Search jobs by keyword" [ref=f145e71]
+              - generic [ref=f145e72]: 
+          - generic [ref=f145e76]:
+            - generic [ref=f145e77]: City, state, zip code or "remote"
+            - generic [ref=f145e78]:
+              - combobox "City, state, zip code or \"remote\"" [ref=f145e80]
+              - generic [ref=f145e81]: 
+          - generic [ref=f145e84]:
+            - button "Go" [ref=f145e86] [cursor=pointer]
+            - button "Advanced Options " [ref=f145e89] [cursor=pointer]:
+              - text: Advanced Options
+              - generic [ref=f145e90]: 
+        - 'button "Sort by: Relevance " [ref=f145e94] [cursor=pointer]':
+          - generic [ref=f145e95]: "Sort by: Relevance"
+          - generic [ref=f145e96]: 
+      - generic [ref=f145e97]:
+        - generic [ref=f145e100]:
+          - generic [ref=f145e103]:
+            - button [expanded] [ref=f145e105] [cursor=pointer]:
+              - status [ref=f145e111]:
+                - generic [ref=f145e112]:
+                  - strong [ref=f145e113]: 488 open jobs.
+                  - text: Use your resume/CV to get matched with the right job.
+                - generic: Upload your resume/CV
+            - generic [ref=f145e114] [cursor=pointer]: 
+          - region "488 open jobs. Use your resume/CV to get matched with the right job. Upload your resume/CV " [ref=f145e117]:
+            - generic [ref=f145e118]:
+              - heading "Let your resume/CV search for jobs" [level=2] [ref=f145e119]
+              - generic [ref=f145e121]:
+                - generic [ref=f145e123]:
+                  - text: 
+                  - generic [ref=f145e128]:
+                    - generic [ref=f145e129]:
+                      - paragraph [ref=f145e134]: Drag & drop file
+                      - generic [ref=f145e135]:
+                        - paragraph [ref=f145e136]: (doc, docx, pdf or txt)
+                        - button "Select your resume file to upload" [ref=f145e137] [cursor=pointer]: Select file
+                    - button "Choose File"
+                - generic:
+                  - heading [level=3]
+                  - list:
+                    - listitem
+        - generic [ref=f145e139]:
+          - generic [ref=f145e141]:
+            - generic [ref=f145e142]: Selecting an option from the list below will update the main content
+            - list [ref=f145e144]:
+              - button "AI Engineer 6 - AI Foundation & Tooling, Ads Platform" [ref=f145e145] [cursor=pointer]:
+                - tooltip "Designated as an important hire for the company" [ref=f145e147]:
+                  - generic [ref=f145e148]: 
+                - paragraph [ref=f145e151]:
+                  - generic [ref=f145e152]: 
+                  - text: USA - Remote
+                - generic [ref=f145e153]: Data & Insights
+              - button "Media Solutions & Planning Manager (UCAN - Market Planning & Operations)" [ref=f145e155] [cursor=pointer]:
+                - paragraph [ref=f145e158]:
+                  - generic [ref=f145e159]: 
+                  - text: New York, New York, United States of America and 1 more
+                - generic [ref=f145e160]: Advertising
+              - button "Manager, UCAN Marketing - Live Title Creative" [ref=f145e162] [cursor=pointer]:
+                - paragraph [ref=f145e165]:
+                  - generic [ref=f145e166]: 
+                  - text: Los Angeles, California, United States of America
+                - generic [ref=f145e167]: Marketing
+              - button "Manager, UCAN Marketing - Live Title Strategy" [ref=f145e169] [cursor=pointer]:
+                - paragraph [ref=f145e172]:
+                  - generic [ref=f145e173]: 
+                  - text: Los Angeles, California, United States of America
+                - generic [ref=f145e174]: Marketing
+              - button "Contracts Manager, Product & Technology Legal" [ref=f145e176] [cursor=pointer]:
+                - paragraph [ref=f145e179]:
+                  - generic [ref=f145e180]: 
+                  - text: Los Gatos, California, United States of America and 1 more
+                - generic [ref=f145e181]: Legal
+              - button "Technical Program Manager 5 - Enterprise Engineering" [ref=f145e183] [cursor=pointer]:
+                - paragraph [ref=f145e186]:
+                  - generic [ref=f145e187]: 
+                  - text: Los Gatos, California, United States of America and 1 more
+                - generic [ref=f145e188]: Engineering Operations
+              - button "Technical Program Manager 4 - Enterprise Engineering" [ref=f145e190] [cursor=pointer]:
+                - paragraph [ref=f145e193]:
+                  - generic [ref=f145e194]: 
+                  - text: Los Gatos, California, United States of America and 1 more
+                - generic [ref=f145e195]: Engineering Operations
+              - button "Technical Project Manager - Netflix Animation Studios" [ref=f145e197] [cursor=pointer]:
+                - paragraph [ref=f145e200]:
+                  - generic [ref=f145e201]: 
+                  - text: Burbank, California, United States of America
+                - generic [ref=f145e202]: Feature Animation
+              - button "Sr. Account Manager (UCAN - FLEX)" [ref=f145e204] [cursor=pointer]:
+                - paragraph [ref=f145e207]:
+                  - generic [ref=f145e208]: 
+                  - text: New York, New York, United States of America
+                - generic [ref=f145e209]: Advertising
+              - button "Manager, Communications - Advertising & Corporate" [ref=f145e211] [cursor=pointer]:
+                - paragraph [ref=f145e214]:
+                  - generic [ref=f145e215]: 
+                  - text: New York, New York, United States of America and 1 more
+                - generic [ref=f145e216]: Communications & Corporate Affairs
+            - button "Show More Positions" [ref=f145e219] [cursor=pointer]
+          - generic [ref=f145e222]:
+            - 'button "Share postion: AI Engineer 6 - AI Foundation & Tooling, Ads Platform" [ref=f145e228] [cursor=pointer]'
+            - heading "AI Engineer 6 - AI Foundation & Tooling, Ads Platform" [level=1] [ref=f145e233]
+            - paragraph [ref=f145e236]: USA - Remote
+            - link "Apply Now" [ref=f145e240] [cursor=pointer]
+            - generic [ref=f145e247]:
+              - generic [ref=f145e248]:
+                - generic [ref=f145e249]:
+                  - generic [ref=f145e250]:
+                    - text: Job Posting Date
+                    - generic [ref=f145e251]: 05-19-2026
+                  - generic [ref=f145e252]:
+                    - text: Job Requisition ID
+                    - generic [ref=f145e253]: AJRT30201
+                  - generic [ref=f145e254]:
+                    - text: Teams
+                    - generic [ref=f145e255]: Data & Insights
+                  - generic [ref=f145e256]:
+                    - text: Work Type
+                    - generic [ref=f145e257]: Remote
+                - separator [ref=f145e260]
+              - generic [ref=f145e264]:
+                - paragraph [ref=f145e265]: At Netflix, our mission is to entertain the world. Together, we are writing the next episode - pushing the boundaries of storytelling, global fandom and making the unimaginable a reality. We are a dream team obsessed with the uncomfortable excitement of discovering what happens when you merge creativity, intuition and cutting-edge technology. Come be a part of what’s next.
+                - paragraph [ref=f145e266]:
+                  - link "We launched a new ad-supported tier" [ref=f145e267] [cursor=pointer]:
+                    - /url: https://deadline.com/2022/11/netflix-ads-launch-what-to-know-1235162223/
+                  - text: in November 2022 to offer our members more choice in how they consume their content. Our new tier allows us to attract new members at a lower price point, while also creating a compelling path for advertisers to reach audiences that are deeply engaged.
+                - paragraph
+                - heading "Our Team" [level=2] [ref=f145e268]
+                - paragraph [ref=f145e269]: The Ads Platform Engineering teams build advertising systems and integrations that powers the delivery of ads using our world class content delivery ecosystem. We use a number of Netflix investments and innovations to power our ads - unique mix of client and server side ad insertions, state of the art content delivery system, ad encoding recipes, content understanding and metadata etc. We deliver ads in a manner that’s thoughtful of our member’s viewing experience and drive great outcomes for advertisers. We also ensure that advertiser brand safety is ensured during serving, members only see the most appropriate ads for them.
+                - paragraph
+                - heading "About the Role" [level=2] [ref=f145e270]
+                - paragraph [ref=f145e272]: We're looking for a Staff AI Engineer to join us as the first dedicated AI engineer. Your core mission is to build the AI infrastructure and agentic workflows that transform how our team develops and operates software.
+                - paragraph
+                - paragraph [ref=f145e273]: This is a greenfield opportunity. You won't be maintaining existing AI systems — you'll be designing and building them from scratch. Our team has active AI champions and early tooling already in production, but we need someone with deep hands-on experience to architect the foundational layer and accelerate our path to AI-native engineering. Our code footprint is reasonable today but expanding at an extraordinary pace; a core part of this role is striking the right balance between AI-driven speed and quality — shipping faster without accumulating slop, regressions, or accountability gaps.
+                - paragraph
+                - paragraph [ref=f145e274]: This role focuses on applied AI — building production systems with existing models and tools, not training LLMs. You'll leverage large language models, agentic frameworks, and retrieval-augmented generation to solve real infrastructure and product problems, with a direct impact on how quickly and confidently the team can deliver in a competitive market.
+                - paragraph
+                - heading "What You’ll Do" [level=2] [ref=f145e275]
+                - paragraph [ref=f145e277]: AI Infrastructure & Agentic Workflows
+                - list [ref=f145e278]:
+                  - listitem [ref=f145e279]:
+                    - paragraph [ref=f145e280]: Architect and build a centralized context layer that gives AI agents grounded, team-specific knowledge
+                  - listitem [ref=f145e281]:
+                    - paragraph [ref=f145e282]: "Design and implement agentic workflows for the full development lifecycle: AI-assisted code generation, automated test creation, PR pre-review, and deployment validation"
+                  - listitem [ref=f145e283]:
+                    - paragraph [ref=f145e284]: Build AI-powered operational workflows — automated incident triage, log and metric correlation, root cause analysis, and guided resolution
+                  - listitem [ref=f145e285]:
+                    - paragraph [ref=f145e286]: Develop multi-agent orchestration where parallel agents handle implementation, testing, and documentation as coordinated workflows
+                  - listitem [ref=f145e287]:
+                    - paragraph [ref=f145e288]: Set up standardized AI development environments so every engineer can work in an AI-first workflow from day one
+                  - listitem [ref=f145e289]:
+                    - paragraph [ref=f145e290]: Drive team-wide AI adoption through hands-on enablement — pairing sessions, architecture reviews, workflow demonstrations, and continuous feedback loops
+                - paragraph
+                - heading "Skills & experience we’re seeking:" [level=2] [ref=f145e291]
+                - list [ref=f145e293]:
+                  - listitem [ref=f145e294]:
+                    - paragraph [ref=f145e295]: 3+ years of significant focus on applied AI systems
+                  - listitem [ref=f145e296]:
+                    - paragraph [ref=f145e297]: Proven experience building and deploying agentic AI systems in production — agent architectures, tool integration, orchestration, and evaluation frameworks
+                  - listitem [ref=f145e298]:
+                    - paragraph [ref=f145e299]: Hands-on experience setting up AI infrastructure for end-to-end software development workflows (AI coding assistants, context engineering, automated testing)
+                  - listitem [ref=f145e300]:
+                    - paragraph [ref=f145e301]: Strong software engineering fundamentals — you build production-grade systems, not just prototypes
+                  - listitem [ref=f145e302]:
+                    - paragraph [ref=f145e303]: Deep experience with retrieval-augmented generation — document indexing, embedding strategies, retrieval pipelines, and grounding techniques
+                  - listitem [ref=f145e304]:
+                    - paragraph [ref=f145e305]: Proficiency in Python and/or JVM languages
+                  - listitem [ref=f145e306]:
+                    - paragraph [ref=f145e307]: Demonstrated ability to drive technical adoption across a team — you can demonstrate value, build trust through pairing and architecture reviews, and bring engineers along on new workflows
+                - paragraph
+                - heading "Nice to haves:" [level=2] [ref=f145e308]
+                - list [ref=f145e310]:
+                  - listitem [ref=f145e311]:
+                    - paragraph [ref=f145e312]: Prior experience as the first or early AI engineer on a team — standing up AI capabilities where none previously existed, with the ownership and initiative of an early-stage environment
+                  - listitem [ref=f145e313]:
+                    - paragraph [ref=f145e314]: "Familiarity with LLM application patterns: context engineering, tool use / function calling, structured outputs, multi-agent coordination, and evaluation / hill-climbing methodologies"
+                  - listitem [ref=f145e315]:
+                    - paragraph [ref=f145e316]: Experience integrating AI into CI/CD pipelines (automated PR review, test generation, deployment validation)
+                  - listitem [ref=f145e317]:
+                    - paragraph [ref=f145e318]: Background in building operational tooling — incident response automation, log analysis, diagnostic workflows
+                - paragraph
+                - paragraph [ref=f145e319]
+                - text: Generally, our compensation structure consists solely of an annual salary; we do not have bonuses. You choose each year how much of your compensation you want in salary versus stock options. To determine your personal top of market compensation, we rely on market indicators and consider your specific job family, background, skills, and experience to determine your compensation in the market range. The range for this role is $600,000.00 - $1,066,000.00. This compensation range will vary based on location.
+                - paragraph
+                - paragraph [ref=f145e320]:
+                  - text: Netflix provides comprehensive benefits including Health Plans, Mental Health support, a 401(k) Retirement Plan with employer match, Stock Option Program, Disability Programs, Health Savings and Flexible Spending Accounts, Family-forming benefits, and Life and Serious Injury Benefits. We also offer paid leave of absence programs. Full-time hourly employees accrue 35 days annually for paid time off to be used for vacation, holidays, and sick paid time off. Full-time salaried employees are immediately entitled to flexible time off. See more details about our Benefits
+                  - link "here" [ref=f145e321] [cursor=pointer]:
+                    - /url: https://jobs.netflix.com/work-life-philosophy
+                  - text: .
+                - paragraph
+                - paragraph [ref=f145e323]:
+                  - text: Netflix is a unique culture and environment. Learn more
+                  - link "here" [ref=f145e324] [cursor=pointer]:
+                    - /url: https://jobs.netflix.com/culture
+                  - text: .
+                - paragraph
+                - paragraph [ref=f145e326]:
+                  - link "Inclusion" [ref=f145e327] [cursor=pointer]:
+                    - /url: https://about.netflix.com/en/inclusion
+                  - text: is a Netflix value and we strive to host a meaningful interview experience for all candidates. If you want an accommodation/adjustment for a disability or any other reason during the hiring process, please send a request to your recruiting partner.
+                - paragraph
+                - paragraph [ref=f145e329]: We are an equal-opportunity employer and celebrate diversity, recognizing that diversity builds stronger teams. We approach diversity and inclusion seriously and thoughtfully. We do not discriminate on the basis of race, religion, color, ancestry, national origin, caste, sex, sexual orientation, gender, gender identity or expression, age, disability, medical condition, pregnancy, genetic makeup, marital status, or military service.
+                - paragraph
+                - paragraph [ref=f145e330]: Job is open for no less than 7 days and will be removed when the position is filled.
+            - status [ref=f145e331]
+  - generic [ref=f145e333]:
+    - link [ref=f145e335] [cursor=pointer]:
+      - /url: ""
+    - generic [ref=f145e337]:
+      - link "Netflix House" [ref=f145e338] [cursor=pointer]:
+        - /url: https://apply.netflixhouse.com/careers
+      - link "About Us" [ref=f145e339] [cursor=pointer]:
+        - /url: https://about.netflix.com/en
+      - link "Privacy" [ref=f145e340] [cursor=pointer]:
+        - /url: https://jobs.netflix.com/candidate-privacy
+      - link "Cookie Preferences" [ref=f145e341] [cursor=pointer]:
+        - /url: "#"
+  - iframe [ref=f145e345]:
+    - generic [ref=f148e6]:
+      - text: protected by
+      - strong [ref=f148e7]: reCAPTCHA

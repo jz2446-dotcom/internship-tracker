@@ -1,0 +1,71 @@
+- generic [active] [ref=f611e1]:
+  - generic [ref=f611e4]:
+    - img "company logo" [ref=f611e6]
+    - generic [ref=f611e7]:
+      - heading "3 of 3 Job Opportunities" [level=2] [ref=f611e8]
+      - generic [ref=f611e9]:
+        - textbox "Search" [ref=f611e11]
+        - combobox [ref=f611e13] [cursor=pointer]:
+          - generic "open dropdown" [ref=f611e14]: 
+          - generic [ref=f611e16]: All Departments
+        - combobox [ref=f611e18] [cursor=pointer]:
+          - generic "open dropdown" [ref=f611e19]: 
+          - generic [ref=f611e21]: All Locations
+      - generic [ref=f611e22]:
+        - button [ref=f611e23] [cursor=pointer]
+        - button [ref=f611e27] [cursor=pointer]
+        - button [ref=f611e31] [cursor=pointer]
+        - button [ref=f611e35] [cursor=pointer]
+      - generic [ref=f611e39]:
+        - generic [ref=f611e40]:
+          - generic [ref=f611e41] [cursor=pointer]:
+            - generic [ref=f611e42]: Job
+            - text: ","
+            - generic [ref=f611e44]:
+              - text: Post Date
+              - generic [ref=f611e45]: 
+            - text: ","
+            - generic [ref=f611e46]: Department
+          - generic [ref=f611e47] [cursor=pointer]: Location
+        - generic [ref=f611e49]:
+          - generic [ref=f611e50]:
+            - generic [ref=f611e51]:
+              - link "Program Impact Data Manager" [ref=f611e53] [cursor=pointer]:
+                - /url: /Recruiting/Jobs/Details/4422214
+              - text: 08/14/2026
+            - generic [ref=f611e54]: Fully RemoteRemote
+          - generic [ref=f611e55]:
+            - generic [ref=f611e56]:
+              - link "Staff Accountant" [ref=f611e58] [cursor=pointer]:
+                - /url: /Recruiting/Jobs/Details/4418633
+              - text: 08/13/2026
+            - generic [ref=f611e59]: Fully RemoteRemote - Mid-Atlantic Region
+          - generic [ref=f611e60]:
+            - generic [ref=f611e61]:
+              - link "Civic Data Director" [ref=f611e63] [cursor=pointer]:
+                - /url: /Recruiting/Jobs/Details/4261254
+              - generic [ref=f611e64]: 06/17/2026 -
+              - text: Policy Solutions
+            - generic [ref=f611e65]: Philadelphia, PA
+    - generic [ref=f611e66]:
+      - text: Not Finding What You're Looking For?
+      - paragraph [ref=f611e68]: Share your information and we will contact you if new opportunities fitting your qualifications become available
+      - link "Share Your Information" [ref=f611e69] [cursor=pointer]:
+        - /url: /Recruiting/PublicLeads/New/d02fb4b0-b19b-4d66-b728-ffdafe5a67f0
+    - generic [ref=f611e70]:
+      - emphasis [ref=f611e71]: Powered by
+      - img "paylocity logo" [ref=f611e72]
+      - link "Privacy Policy" [ref=f611e73] [cursor=pointer]:
+        - /url: https://www.paylocity.com/privacy/
+      - text: "|"
+      - link "Payroll & HR Software" [ref=f611e74] [cursor=pointer]:
+        - /url: https://www.paylocity.com/
+      - 'link "Reinvestment Fund: Privacy Policy" [ref=f611e75] [cursor=pointer]':
+        - /url: https://www.reinvestment.com/privacy-policy/
+  - alertdialog "Privacy" [ref=f611e77]:
+    - generic [ref=f611e79]:
+      - paragraph [ref=f611e82]: By clicking “Accept All Cookies”, you agree to the storing of cookies on your device to enhance site navigation, analyze site usage, and assist in our marketing efforts.
+      - generic [ref=f611e84]:
+        - button "Cookies Settings" [ref=f611e85] [cursor=pointer]
+        - button "Accept All Cookies" [ref=f611e86] [cursor=pointer]
+    - button "Close" [ref=f611e88] [cursor=pointer]

@@ -1,0 +1,81 @@
+- generic [ref=f89e4]:
+  - link "Skip to Main Content":
+    - /url: "#skipContent"
+  - region "Career Navigation" [ref=f89e7]:
+    - generic [ref=f89e8]:
+      - generic:
+        - link "Sign In" [ref=f89e10] [cursor=pointer]:
+          - /url: /career?career_company=americairP&lang=en_US&company=americairP&site=&loginFlowRequired=true&_s.crb=9WlIUuC%2fdPSeZCrxBRB1H4wQ88fJOiubjFOrfUJdZYA%3d
+        - generic [ref=f89e11]: Language
+        - generic [ref=f89e12]:
+          - combobox "Language" [ref=f89e13] [cursor=pointer]:
+            - text: English US ‎(English US)‎
+            - button ""
+          - generic [ref=f89e14]: Collapsed. To expand press enter
+          - generic [ref=f89e15]: Expanded. To collapse press enter
+  - generic "Region" [active]
+  - table [ref=f89e18]:
+    - rowgroup [ref=f89e19]:
+      - row [ref=f89e20]:
+        - cell [ref=f89e21]:
+          - region "Search for Openings" [ref=f89e22]:
+            - heading " Search for Openings" [level=2] [ref=f89e23]
+            - table [ref=f89e38]:
+              - rowgroup [ref=f89e39]:
+                - row [ref=f89e40]:
+                  - 'cell "Keywords: Show help text. Switch to Virtual PC Cursor mode to read entire text. Keyword search options Posted within the last: days Requisition ID: Posting Country: Recall/Transfer: RMK Job Category: Additional Locations: 104 Jobs match the selections Emphasized Search Jobs Clear" [ref=f89e41]':
+                    - generic [ref=f89e43]:
+                      - text: "Keywords:"
+                      - generic [ref=f89e44]:
+                        - textbox "Keywords" [ref=f89e45]
+                        - button "Show help text. Switch to Virtual PC Cursor mode to read entire text." [ref=f89e46] [cursor=pointer]:
+                          - text: 
+                          - generic [ref=f89e47]: "Show help, How does keyword search work? Enter a list of words, and we’ll search for them in the job title, or you can choose to search for them also within the job description. Tips: We will find results for any words listed in the search Results beginning with words searched will also be returned. Ex: A search for “Manage” will return “manage, manager, management” etc. To find an exact phrase, surround your search phrase with double quotes (” “). Ex: “senior manager”, or check ‘Exact match’. Advanced search: Use AND, OR, NOT, and () to combine search terms. Ex: Sales AND engineer finds only jobs that have both terms. Sales OR engineer finds all jobs that have either. (Sales AND Engineer) NOT Manager finds jobs that contain both “Sales” and “Engineer” but not “Manager”. Use question mark (?) for an unknown letter. Ex: Thomps?n finds Thompson, Thompsen, Thompsan, etc. Use tilde (~) to find similar spellings. Ex: roam~ finds roam, roams, room, road, roads, etc. Do not use advanced search options if you have checked ‘Exact match’."
+                        - group "Keyword search options" [ref=f89e48]:
+                          - generic [ref=f89e50]:
+                            - checkbox "Exact Match" [ref=f89e51]
+                            - generic [ref=f89e52]: Exact Match
+                          - generic [ref=f89e56]:
+                            - radio "in job title" [checked] [ref=f89e57]
+                            - generic [ref=f89e58]: in job title
+                          - generic [ref=f89e63]:
+                            - radio "in job title or description" [ref=f89e64]
+                            - generic [ref=f89e65]: in job title or description
+                      - text: "Posted within the last:"
+                      - textbox "Posted within the last" [ref=f89e67]
+                      - text: "days Requisition ID:"
+                      - textbox "Requisition ID" [ref=f89e68]
+                      - text: "Posting Country:"
+                      - combobox "Posting Country" [ref=f89e70]:
+                        - textbox "Select one or more options" [ref=f89e71]: Any
+                        - button "Posting Country" [ref=f89e72]: 
+                        - generic [ref=f89e73]: Select one or more options for Posting Country multiselect combobox with checkbox options. No value selected
+                      - text: "Recall/Transfer:"
+                      - combobox "Recall/Transfer" [ref=f89e76]:
+                        - textbox "Select one or more options" [ref=f89e77]: Any
+                        - button "Recall/Transfer" [ref=f89e78]: 
+                        - generic [ref=f89e79]: Select one or more options for Recall/Transfer multiselect combobox with checkbox options. No value selected
+                      - text: "RMK Job Category:"
+                      - combobox "RMK Job Category" [ref=f89e82]:
+                        - textbox "Select one or more options" [ref=f89e83]: Any
+                        - button "RMK Job Category" [ref=f89e84]: 
+                        - generic [ref=f89e85]: Select one or more options for RMK Job Category multiselect combobox with checkbox options. No value selected
+                      - text: "Additional Locations:"
+                      - combobox "Additional Locations" [ref=f89e88]:
+                        - textbox "Select one or more options" [ref=f89e89]: Any
+                        - button "Additional Locations" [ref=f89e90]: 
+                        - generic [ref=f89e91]: Select one or more options for Additional Locations multiselect combobox with checkbox options. No value selected
+                      - generic [ref=f89e94]:
+                        - generic [ref=f89e95]: 104 Jobs
+                        - generic [ref=f89e96]: match the selections
+                      - generic [ref=f89e97]: Emphasized
+                      - button "Search Jobs" [ref=f89e100] [cursor=pointer]
+                      - button "Clear" [ref=f89e103] [cursor=pointer]
+            - text: 
+        - cell [ref=f89e30]:
+          - region "Welcome text region. Use up and down arrow keys in Virtual PC mode to read text in this region." [ref=f89e31]:
+            - paragraph [ref=f89e32]: "Founded in 1930, we're now one of the largest airlines in the world. We've also created more than 900,000 jobs worldwide! And we welcome people like you who are excited to join our #AATeam as we continue to grow. Looking to join a company with a rich legacy and a promising future? You’ve come to the right place."
+            - paragraph [ref=f89e33]
+            - paragraph [ref=f89e34]
+      - row:
+        - cell

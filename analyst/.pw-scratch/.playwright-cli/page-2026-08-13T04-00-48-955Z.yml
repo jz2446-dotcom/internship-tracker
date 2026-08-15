@@ -1,0 +1,161 @@
+- generic [active]:
+  - link:
+    - /url: "#main-content"
+    - text: Skip to main content
+  - banner:
+    - generic:
+      - generic:
+        - generic:
+          - link:
+            - /url: /en/
+            - generic: Uber
+        - generic:
+          - generic:
+            - link:
+              - /url: https://iaziqy.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UberCareers/my-profile/sign-in
+              - generic: Login
+  - generic [ref=f292e110]:
+    - link [ref=f292e111] [cursor=pointer]:
+      - /url: /en/
+      - generic [ref=f292e114]: Home
+    - button [ref=f292e115] [cursor=pointer]:
+      - generic [ref=f292e118]: Search jobs
+    - link [ref=f292e119] [cursor=pointer]:
+      - /url: /en/jobs/saved-jobs/
+      - generic [ref=f292e122]: Saved jobs
+    - button [ref=f292e123] [cursor=pointer]:
+      - generic [ref=f292e134]: Explore
+  - main:
+    - generic:
+      - generic:
+        - generic:
+          - heading [level=1]: Find your next move
+    - generic:
+      - generic:
+        - generic:
+          - generic:
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic: Search by skill
+                    - generic:
+                      - textbox:
+                        - /placeholder: Search roles by title, skill, or keyword
+                  - generic:
+                    - generic: Location
+                    - generic:
+                      - generic:
+                        - combobox
+                      - button
+                  - generic:
+                    - generic: Country
+                    - combobox:
+                      - generic: All countries
+                  - generic:
+                    - generic: Radius in miles
+                    - spinbutton: "100"
+                    - generic:
+                      - generic:
+                        - slider
+                  - generic:
+                    - generic: Team
+                    - combobox:
+                      - generic: University
+                    - combobox
+                  - generic:
+                    - generic: Sub-Teams
+                    - combobox:
+                      - generic: All sub-teams
+                    - combobox
+                  - generic:
+                    - button: Search
+                    - button: Clear filters
+        - generic:
+          - generic:
+            - paragraph: Get job alerts for this search by email
+            - button: Create alert
+          - paragraph: Unable to load jobs right now.
+          - generic:
+            - paragraph: No jobs found.
+            - paragraph: Try adjusting your filters, or check all available roles.
+            - link "All jobs":
+              - /url: /en/jobs/
+    - generic:
+      - generic:
+        - generic:
+          - generic:
+            - generic:
+              - generic:
+                - heading [level=2]: Get ahead, stay ahead
+          - generic:
+            - generic:
+              - generic:
+                - paragraph:
+                  - generic: Join our talent community to stay connected, receive updates, and be the first to know about new opportunities at Uber.
+          - generic:
+            - generic:
+              - link:
+                - /url: https://flows.beamery.com/uber/join-our-talent-community
+                - text: Join our talent community
+  - contentinfo:
+    - generic:
+      - generic:
+        - generic:
+          - link:
+            - /url: /en/
+            - generic: Uber
+    - generic:
+      - generic:
+        - paragraph: © 2026 Uber Technologies Inc.
+      - list:
+        - listitem:
+          - link:
+            - /url: https://www.uber.com
+            - text: Uber.com
+        - listitem:
+          - link:
+            - /url: /en/cookies/
+            - text: Cookies
+        - listitem:
+          - link:
+            - /url: /en/sitemap/
+            - text: Sitemap
+        - listitem:
+          - link:
+            - /url: /en/people-stories/
+            - text: People stories
+      - generic:
+        - generic:
+          - link:
+            - /url: https://www.linkedin.com/company/uber-com/
+          - link:
+            - /url: https://www.instagram.com/uber/
+          - link:
+            - /url: https://x.com/uber
+          - link:
+            - /url: https://www.youtube.com/playlist?list=PLmVTG4mAK7nz26Q2Cy0kBogO3LrolexqW
+  - region "Notifications alt+T"
+  - alert
+  - dialog [ref=f292e136]:
+    - generic [ref=f292e137]:
+      - heading "We care about your privacy" [level=2] [ref=f292e138]
+      - paragraph [ref=f292e141]:
+        - paragraph [ref=f292e143]: By clicking "Accept All", you agree to the storing of cookies on your device to give you the most optimal experience using our website. We may also use cookies to enhance performance, analyze site usage and to personalize your experience.
+    - generic [ref=f292e144]:
+      - link "Manage Preferences" [ref=f292e145] [cursor=pointer]:
+        - /url: /en/cookies/
+      - generic [ref=f292e146]:
+        - button "Essential Only" [ref=f292e147] [cursor=pointer]
+        - button "Accept All" [ref=f292e148] [cursor=pointer]
+    - button "Close" [ref=f292e149]
+  - iframe [ref=f292e151]:
+    - generic:
+      - generic:
+        - status [ref=f293e1]
+        - alert [ref=f293e2]
+        - generic:
+          - region "Chatbot tooltip with cycling messages" [ref=f293e14]: Have a question?
+          - complementary "Chatbot widget" [ref=f293e4]:
+            - button "Open chatbot conversation" [ref=f293e5] [cursor=pointer]:
+              - img "Chatbot avatar" [ref=f293e6]

@@ -1,0 +1,42 @@
+- generic [active] [ref=f289e1]:
+  - banner [ref=f289e2]:
+    - navigation [ref=f289e3]:
+      - generic [ref=f289e4]:
+        - link "Go to Homepage" [ref=f289e5] [cursor=pointer]:
+          - /url: /
+          - button "Accel" [ref=f289e6]:
+            - img "Accel" [ref=f289e7]
+        - generic [ref=f289e13]:
+          - link [ref=f289e14] [cursor=pointer]:
+            - /url: /companies
+          - link [ref=f289e16] [cursor=pointer]:
+            - /url: /team
+          - link [ref=f289e18] [cursor=pointer]:
+            - /url: /news
+  - main [ref=f289e20]:
+    - button "Open search" [ref=f289e24] [cursor=pointer]
+  - contentinfo [ref=f289e28]:
+    - generic [ref=f289e29]:
+      - generic [ref=f289e30]:
+        - heading "Get in Touch" [level=3] [ref=f289e31]
+        - link "Contact Us" [ref=f289e32] [cursor=pointer]:
+          - /url: /contact-us
+      - generic [ref=f289e34]:
+        - generic [ref=f289e35]:
+          - generic [ref=f289e36]:
+            - button "System" [disabled] [ref=f289e37]
+            - button "Light" [disabled] [ref=f289e40]
+            - button "Dark" [disabled] [ref=f289e43]
+          - link [ref=f289e46] [cursor=pointer]:
+            - /url: https://jobs.accel.com/
+          - generic [ref=f289e48]:
+            - link "Go to Youtube page" [ref=f289e49] [cursor=pointer]:
+              - /url: https://www.youtube.com/@AccelVC
+            - link "Go to X page" [ref=f289e52] [cursor=pointer]:
+              - /url: https://x.com/accel
+            - link "Go to LinkedIn page" [ref=f289e55] [cursor=pointer]:
+              - /url: https://www.linkedin.com/company/accel-vc/
+        - generic [ref=f289e59]:
+          - paragraph [ref=f289e60]: Accel ©2026
+          - link "Legal" [ref=f289e61] [cursor=pointer]:
+            - /url: https://privacy.accel.com/

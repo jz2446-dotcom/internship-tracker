@@ -1,0 +1,476 @@
+- generic [active] [ref=f1698e1]:
+  - banner [ref=f1698e3]:
+    - generic:
+      - link "Skip to main content":
+        - /url: "#skipToMainContent"
+    - generic [ref=f1698e7]:
+      - link "Company Logo" [ref=f1698e9] [cursor=pointer]:
+        - /url: https://careers.united.com/us/en/
+        - img "Company Logo" [ref=f1698e10]
+      - navigation "primary" [ref=f1698e17]:
+        - list [ref=f1698e18]:
+          - listitem [ref=f1698e19]:
+            - link "Careers home" [ref=f1698e21] [cursor=pointer]:
+              - /url: https://careers.united.com/us/en/home
+              - text: Careers Home
+          - listitem [ref=f1698e22]:
+            - link "Locations" [ref=f1698e24] [cursor=pointer]:
+              - /url: https://careers.united.com/us/en/search-results
+              - text: Open Jobs
+          - listitem [ref=f1698e25]:
+            - link "Events" [ref=f1698e27] [cursor=pointer]:
+              - /url: https://careers.united.com/us/en/events
+          - listitem [ref=f1698e28]:
+            - button "Working At United" [ref=f1698e29] [cursor=pointer]
+      - list [ref=f1698e35]:
+        - listitem [ref=f1698e36]:
+          - button "Login" [ref=f1698e40] [cursor=pointer]
+        - listitem [ref=f1698e47]:
+          - link "saved jobs (0)" [ref=f1698e50] [cursor=pointer]:
+            - /url: https://careers.united.com/us/en/jobcart
+            - generic [ref=f1698e54]: Saved jobs
+            - generic [ref=f1698e55]: (0)
+  - main [ref=f1698e56]:
+    - generic: "-"
+    - generic [ref=f1698e57]: "-"
+    - generic [ref=f1698e63]:
+      - generic [ref=f1698e64]:
+        - region "Refine your search" [ref=f1698e68]:
+          - text: $
+          - heading "Refine your search" [level=2] [ref=f1698e71]
+          - generic [ref=f1698e72]:
+            - generic [ref=f1698e73]:
+              - heading [level=3] [ref=f1698e76]:
+                - button "Category" [expanded] [ref=f1698e77] [cursor=pointer]:
+                  - text: Category
+                  - generic [ref=f1698e78]: "8"
+              - generic [ref=f1698e80]:
+                - generic [ref=f1698e82]:
+                  - searchbox "Category" [ref=f1698e83]
+                  - text: ":"
+                - group "Category" [ref=f1698e85]:
+                  - list [ref=f1698e87]:
+                    - listitem [ref=f1698e88]:
+                      - generic [ref=f1698e89] [cursor=pointer]:
+                        - checkbox "Corporate 110 jobs" [ref=f1698e90]
+                        - generic [ref=f1698e92]:
+                          - text: Corporate
+                          - generic [ref=f1698e93]:
+                            - text: (110)
+                            - generic [ref=f1698e94]: jobs
+                    - listitem [ref=f1698e95]:
+                      - generic [ref=f1698e96] [cursor=pointer]:
+                        - checkbox "Digital Technology 58 jobs" [ref=f1698e97]
+                        - generic [ref=f1698e99]:
+                          - text: Digital Technology
+                          - generic [ref=f1698e100]:
+                            - text: (58)
+                            - generic [ref=f1698e101]: jobs
+                    - listitem [ref=f1698e102]:
+                      - generic [ref=f1698e103] [cursor=pointer]:
+                        - checkbox "Aircraft Maintenance and Support 43 jobs" [ref=f1698e104]
+                        - generic [ref=f1698e106]:
+                          - text: Aircraft Maintenance and Support
+                          - generic [ref=f1698e107]:
+                            - text: (43)
+                            - generic [ref=f1698e108]: jobs
+                    - listitem [ref=f1698e109]:
+                      - generic [ref=f1698e110] [cursor=pointer]:
+                        - checkbox "At the Airport 26 jobs" [ref=f1698e111]
+                        - generic [ref=f1698e113]:
+                          - text: At the Airport
+                          - generic [ref=f1698e114]:
+                            - text: (26)
+                            - generic [ref=f1698e115]: jobs
+                    - listitem [ref=f1698e116]:
+                      - generic [ref=f1698e117] [cursor=pointer]:
+                        - checkbox "Flight Attendant 6 jobs" [ref=f1698e118]
+                        - generic [ref=f1698e120]:
+                          - text: Flight Attendant
+                          - generic [ref=f1698e121]:
+                            - text: (6)
+                            - generic [ref=f1698e122]: jobs
+                    - listitem [ref=f1698e123]:
+                      - generic [ref=f1698e124] [cursor=pointer]:
+                        - checkbox "Customer Solutions 4 jobs" [ref=f1698e125]
+                        - generic [ref=f1698e127]:
+                          - text: Customer Solutions
+                          - generic [ref=f1698e128]:
+                            - text: (4)
+                            - generic [ref=f1698e129]: jobs
+            - generic [ref=f1698e130]:
+              - heading [level=3] [ref=f1698e133]:
+                - button "Country" [ref=f1698e134] [cursor=pointer]:
+                  - text: Country
+                  - generic [ref=f1698e135]: (
+              - generic: ":"
+            - generic [ref=f1698e136]:
+              - heading [level=3] [ref=f1698e139]:
+                - button "State / Province" [ref=f1698e140] [cursor=pointer]:
+                  - text: State / Province
+                  - generic [ref=f1698e141]: (
+              - generic: ":"
+            - generic [ref=f1698e142]:
+              - heading [level=3] [ref=f1698e145]:
+                - button "City" [ref=f1698e146] [cursor=pointer]:
+                  - text: City
+                  - generic [ref=f1698e147]: (
+              - generic: ":"
+            - generic [ref=f1698e148]:
+              - heading [level=3] [ref=f1698e151]:
+                - button "Hiring Type" [ref=f1698e152] [cursor=pointer]:
+                  - text: Hiring Type
+                  - generic [ref=f1698e153]: (
+              - generic: ":"
+            - generic [ref=f1698e154]:
+              - heading [level=3] [ref=f1698e157]:
+                - button "Job ID" [ref=f1698e158] [cursor=pointer]:
+                  - text: Job ID
+                  - generic [ref=f1698e159]: (
+              - generic: ":"
+          - generic: Search results updated 144 jobs found
+        - generic [ref=f1698e169]:
+          - link "United Benefits" [ref=f1698e170] [cursor=pointer]:
+            - /url: benefits
+          - generic [ref=f1698e178]:
+            - heading "United Benefits" [level=2] [ref=f1698e180]
+            - generic [ref=f1698e183]: Learn more about the competitive benefits package that will keep you happy, healthy and well-traveled.
+      - generic [ref=f1698e189]:
+        - region "Search results" [ref=f1698e190]:
+          - generic [ref=f1698e192]:
+            - generic [ref=f1698e194]:
+              - generic [ref=f1698e197]:
+                - generic [ref=f1698e198]: Search job title, location, or military code
+                - textbox "Search job title, location, or military code" [ref=f1698e199]
+                - text: "$ :"
+              - generic [ref=f1698e201]:
+                - generic [ref=f1698e202]: 144 results
+                - generic [ref=f1698e203]:
+                  - text: "|"
+                  - generic [ref=f1698e204]: Sort by
+                  - generic [ref=f1698e205]:
+                    - combobox "Sort by" [ref=f1698e206]:
+                      - option "Most relevant" [selected]
+                      - option "Most recent"
+                    - generic: 
+                - text: F
+            - list [ref=f1698e208]:
+              - listitem [ref=f1698e209]:
+                - generic [ref=f1698e210]:
+                  - generic [ref=f1698e211]:
+                    - heading [level=3] [ref=f1698e212]:
+                      - link "Flight Dispatcher (Greater Chicago Area) Job ID is OPB00000960" [ref=f1698e213] [cursor=pointer]:
+                        - /url: https://careers.united.com/us/en/job/OPB00000960/Flight-Dispatcher-Greater-Chicago-Area
+                        - generic [ref=f1698e214]: Flight Dispatcher (Greater Chicago Area)
+                    - paragraph [ref=f1698e215]:
+                      - button "Available in 43 locations" [ref=f1698e218] [cursor=pointer]:
+                        - generic [ref=f1698e219]: 
+                        - text: Available in 43 locations
+                      - generic [ref=f1698e221]:
+                        - generic [ref=f1698e222]: Category
+                        - generic [ref=f1698e223]: 
+                        - text: Corporate
+                      - generic [ref=f1698e225]:
+                        - generic [ref=f1698e226]: Job Id
+                        - text: OPB00000960
+                      - generic [ref=f1698e228]:
+                        - generic [ref=f1698e229]: Posted Date
+                        - generic [ref=f1698e230]: 
+                        - text: August 05 2026
+                    - text: 
+                    - paragraph [ref=f1698e231]: Become part of our team as a Flight Dispatcher, ensuring the safe and efficient operation of United Airlines flights. Oversee flight release preparation, monitor progress, and provide critical support to pilots. Ideal for candidates with strong organisational and communication skills, and experience in airline operations.
+                  - link "Apply Now for Flight Dispatcher (Greater Chicago Area)" [ref=f1698e234] [cursor=pointer]:
+                    - /url: https://careers.united.com/us/en/hvhapply?jobSeqNo=UAIUADUSOPB00000960EXTERNALENUSTALEO
+                    - text: Apply Now
+                    - generic [ref=f1698e235]: Flight Dispatcher (Greater Chicago Area)
+              - listitem [ref=f1698e236]:
+                - generic [ref=f1698e237]:
+                  - generic [ref=f1698e238]:
+                    - heading [level=3] [ref=f1698e239]:
+                      - link "Flight Attendant (German Speakers Only) Job ID is FA2026-LQ-GER-2" [ref=f1698e240] [cursor=pointer]:
+                        - /url: https://careers.united.com/us/en/job/FA2026-LQ-GER-2/Flight-Attendant-German-Speakers-Only
+                        - generic [ref=f1698e241]: Flight Attendant (German Speakers Only)
+                    - paragraph [ref=f1698e242]:
+                      - button "Available in 6 locations" [ref=f1698e245] [cursor=pointer]:
+                        - generic [ref=f1698e246]: 
+                        - text: Available in 6 locations
+                      - generic [ref=f1698e248]:
+                        - generic [ref=f1698e249]: Category
+                        - generic [ref=f1698e250]: 
+                        - text: Flight Attendant
+                      - generic [ref=f1698e252]:
+                        - generic [ref=f1698e253]: Job Id
+                        - text: FA2026-LQ-GER-2
+                      - generic [ref=f1698e255]:
+                        - generic [ref=f1698e256]: Posted Date
+                        - generic [ref=f1698e257]: 
+                        - text: July 20 2026
+                    - text: 
+                    - paragraph [ref=f1698e258]: "We are expanding our team: As a Flight Attendant (German Speakers Only), you will play a vital role in ensuring safety and delivering excellent customer service on our extensive airline network. Engage directly with passengers, respond to emergencies, and support a positive travel experience. Ideal candidates are fluent in English and German, with customer service experience and a commitment to safety."
+                  - link "Apply Now for Flight Attendant (German Speakers Only)" [ref=f1698e261] [cursor=pointer]:
+                    - /url: https://careers.united.com/us/en/hvhapply?jobSeqNo=UAIUADUSFA2026LQGER2EXTERNALENUSTALEO
+                    - text: Apply Now
+                    - generic [ref=f1698e262]: Flight Attendant (German Speakers Only)
+              - listitem [ref=f1698e263]:
+                - generic [ref=f1698e264]:
+                  - generic [ref=f1698e265]:
+                    - heading [level=3] [ref=f1698e266]:
+                      - link "Flight Attendant Job ID is FA2026-4" [ref=f1698e267] [cursor=pointer]:
+                        - /url: https://careers.united.com/us/en/job/FA2026-4/Flight-Attendant
+                        - generic [ref=f1698e268]: Flight Attendant
+                    - paragraph [ref=f1698e269]:
+                      - button "Available in 7 locations" [ref=f1698e272] [cursor=pointer]:
+                        - generic [ref=f1698e273]: 
+                        - text: Available in 7 locations
+                      - generic [ref=f1698e275]:
+                        - generic [ref=f1698e276]: Category
+                        - generic [ref=f1698e277]: 
+                        - text: Flight Attendant
+                      - generic [ref=f1698e279]:
+                        - generic [ref=f1698e280]: Job Id
+                        - text: FA2026-4
+                      - generic [ref=f1698e282]:
+                        - generic [ref=f1698e283]: Posted Date
+                        - generic [ref=f1698e284]: 
+                        - text: August 05 2026
+                    - text: 
+                    - paragraph [ref=f1698e285]: Join us as a Flight Attendant and play a vital role in ensuring safety and exceptional service for every passenger. You will engage directly with customers, respond to emergencies, and support a positive travel experience. Ideal candidates have customer service experience and a commitment to teamwork and safety.
+                  - link "Apply Now for Flight Attendant" [ref=f1698e288] [cursor=pointer]:
+                    - /url: https://careers.united.com/us/en/hvhapply?jobSeqNo=UAIUADUSFA20264EXTERNALENUSTALEO
+                    - text: Apply Now
+                    - generic [ref=f1698e289]: Flight Attendant
+              - listitem [ref=f1698e290]:
+                - generic [ref=f1698e291]:
+                  - generic [ref=f1698e292]:
+                    - heading [level=3] [ref=f1698e293]:
+                      - link "Gen Mgr - Cartagena, COL Job ID is CTG00000001" [ref=f1698e294] [cursor=pointer]:
+                        - /url: https://careers.united.com/us/en/job/CTG00000001/Gen-Mgr-Cartagena-COL
+                        - generic [ref=f1698e295]: Gen Mgr - Cartagena, COL
+                    - paragraph [ref=f1698e296]:
+                      - generic [ref=f1698e298]:
+                        - generic [ref=f1698e299]: Location
+                        - generic [ref=f1698e300]: 
+                        - text: Cartagena, Bolivar, Colombia
+                      - generic [ref=f1698e302]:
+                        - generic [ref=f1698e303]: Category
+                        - generic [ref=f1698e304]: 
+                        - text: Corporate
+                      - generic [ref=f1698e306]:
+                        - generic [ref=f1698e307]: Job Id
+                        - text: CTG00000001
+                      - generic [ref=f1698e309]:
+                        - generic [ref=f1698e310]: Posted Date
+                        - generic [ref=f1698e311]: 
+                        - text: August 06 2026
+                    - text: 
+                    - paragraph [ref=f1698e312]: "We are expanding our team: As a Gen Mgr in Cartagena, you will oversee daily airport operations, ensuring operational integrity and service excellence. You will manage personnel performance and coordinate with internal and external stakeholders. Ideal candidates bring significant airport operations management experience and strong leadership skills."
+                  - link "Apply Now for Gen Mgr - Cartagena, COL" [ref=f1698e315] [cursor=pointer]:
+                    - /url: https://careers.united.com/us/en/hvhapply?jobSeqNo=UAIUADUSCTG00000001EXTERNALENUSTALEO
+                    - text: Apply Now
+                    - generic [ref=f1698e316]: Gen Mgr - Cartagena, COL
+              - listitem [ref=f1698e317]:
+                - generic [ref=f1698e318]:
+                  - generic [ref=f1698e319]:
+                    - heading [level=3] [ref=f1698e320]:
+                      - link "Full Stack Developer II ( Java + React) Job ID is GGN00002551" [ref=f1698e321] [cursor=pointer]:
+                        - /url: https://careers.united.com/us/en/job/GGN00002551/Full-Stack-Developer-II-Java-React
+                        - generic [ref=f1698e322]: Full Stack Developer II ( Java + React)
+                    - paragraph [ref=f1698e323]:
+                      - generic [ref=f1698e325]:
+                        - generic [ref=f1698e326]: Location
+                        - generic [ref=f1698e327]: 
+                        - text: Gurugram, Haryana, India
+                      - button "Associated with 2 categories" [ref=f1698e330] [cursor=pointer]:
+                        - generic [ref=f1698e331]: 
+                        - text: Associated with 2 categories
+                      - generic [ref=f1698e333]:
+                        - generic [ref=f1698e334]: Job Id
+                        - text: GGN00002551
+                      - generic [ref=f1698e336]:
+                        - generic [ref=f1698e337]: Posted Date
+                        - generic [ref=f1698e338]: 
+                        - text: June 24 2026
+                    - text: 
+                    - paragraph [ref=f1698e339]: Become part of our team as a Full Stack Developer II, contributing to the development of mission-critical applications for United Airlines’ Customer Technology Platform. You will design and build real-time middleware solutions, focusing on cloud-based systems. Ideal candidates bring significant experience in Java, React, and enterprise-grade integration, with strong technical expertise and leadership skills.
+                  - link "Apply Now for Full Stack Developer II ( Java + React)" [ref=f1698e342] [cursor=pointer]:
+                    - /url: https://careers.united.com/us/en/hvhapply?jobSeqNo=UAIUADUSGGN00002551EXTERNALENUSTALEO
+                    - text: Apply Now
+                    - generic [ref=f1698e343]: Full Stack Developer II ( Java + React)
+              - listitem [ref=f1698e344]:
+                - generic [ref=f1698e345]:
+                  - generic [ref=f1698e346]:
+                    - heading [level=3] [ref=f1698e347]:
+                      - link "Manager - Human Resources Job ID is TYO00000104" [ref=f1698e348] [cursor=pointer]:
+                        - /url: https://careers.united.com/us/en/job/TYO00000104/Manager-Human-Resources
+                        - generic [ref=f1698e349]: Manager - Human Resources
+                    - paragraph [ref=f1698e350]:
+                      - generic [ref=f1698e352]:
+                        - generic [ref=f1698e353]: Location
+                        - generic [ref=f1698e354]: 
+                        - text: Tokyo, Tokyo-To, Japan
+                      - generic [ref=f1698e356]:
+                        - generic [ref=f1698e357]: Category
+                        - generic [ref=f1698e358]: 
+                        - text: Corporate
+                      - generic [ref=f1698e360]:
+                        - generic [ref=f1698e361]: Job Id
+                        - text: TYO00000104
+                      - generic [ref=f1698e363]:
+                        - generic [ref=f1698e364]: Posted Date
+                        - generic [ref=f1698e365]: 
+                        - text: June 22 2026
+                    - text: 
+                    - paragraph [ref=f1698e366]: We are recruiting a Manager - Human Resources to align HR strategies with business objectives, fostering people development and supporting organisational effectiveness. The role involves partnering with business teams, managing complex employee relations, and driving HR initiatives. Ideal for experienced HR professionals with strong business acumen and international HR expertise.
+                  - link "Apply Now for Manager - Human Resources" [ref=f1698e369] [cursor=pointer]:
+                    - /url: https://careers.united.com/us/en/hvhapply?jobSeqNo=UAIUADUSTYO00000104EXTERNALENUSTALEO
+                    - text: Apply Now
+                    - generic [ref=f1698e370]: Manager - Human Resources
+              - listitem [ref=f1698e371]:
+                - generic [ref=f1698e372]:
+                  - generic [ref=f1698e373]:
+                    - heading [level=3] [ref=f1698e374]:
+                      - link "Facilities Maintenance Technician (Building Engineer) - $10,000 Sign on Bonus Job ID is EWR00004625" [ref=f1698e375] [cursor=pointer]:
+                        - /url: https://careers.united.com/us/en/job/EWR00004625/Facilities-Maintenance-Technician-Building-Engineer-10-000-Sign-on-Bonus
+                        - generic [ref=f1698e376]: Facilities Maintenance Technician (Building Engineer) - $10,000 Sign on Bonus
+                    - paragraph [ref=f1698e377]:
+                      - generic [ref=f1698e379]:
+                        - generic [ref=f1698e380]: Location
+                        - generic [ref=f1698e381]: 
+                        - text: Newark, New Jersey, United States
+                      - button "Associated with 2 categories" [ref=f1698e384] [cursor=pointer]:
+                        - generic [ref=f1698e385]: 
+                        - text: Associated with 2 categories
+                      - generic [ref=f1698e387]:
+                        - generic [ref=f1698e388]: Job Id
+                        - text: EWR00004625
+                      - generic [ref=f1698e390]:
+                        - generic [ref=f1698e391]: Posted Date
+                        - generic [ref=f1698e392]: 
+                        - text: July 06 2026
+                    - text: 
+                    - paragraph [ref=f1698e393]: Join us as a Facilities Maintenance Technician and play a vital role in supporting our technical operations team. You will handle building maintenance, focusing on electrical systems and repairs. Ideal candidates bring hands-on experience in electrical, structural, HVAC, or mechanical disciplines and are comfortable working outdoors in all weather conditions.
+                  - link "Apply Now for Facilities Maintenance Technician (Building Engineer) - $10,000 Sign on Bonus" [ref=f1698e396] [cursor=pointer]:
+                    - /url: https://careers.united.com/us/en/hvhapply?jobSeqNo=UAIUADUSEWR00004625EXTERNALENUSTALEO
+                    - text: Apply Now
+                    - generic [ref=f1698e397]: Facilities Maintenance Technician (Building Engineer) - $10,000 Sign on Bonus
+              - listitem [ref=f1698e398]:
+                - generic [ref=f1698e399]:
+                  - generic [ref=f1698e400]:
+                    - heading [level=3] [ref=f1698e401]:
+                      - link "Sr Manager - IT Application Development Job ID is WHQ00026695" [ref=f1698e402] [cursor=pointer]:
+                        - /url: https://careers.united.com/us/en/job/WHQ00026695/Sr-Manager-IT-Application-Development
+                        - generic [ref=f1698e403]: Sr Manager - IT Application Development
+                    - paragraph [ref=f1698e404]:
+                      - generic [ref=f1698e406]:
+                        - generic [ref=f1698e407]: Location
+                        - generic [ref=f1698e408]: 
+                        - text: Chicago, Illinois, United States
+                      - button "Associated with 2 categories" [ref=f1698e411] [cursor=pointer]:
+                        - generic [ref=f1698e412]: 
+                        - text: Associated with 2 categories
+                      - generic [ref=f1698e414]:
+                        - generic [ref=f1698e415]: Job Id
+                        - text: WHQ00026695
+                      - generic [ref=f1698e417]:
+                        - generic [ref=f1698e418]: Posted Date
+                        - generic [ref=f1698e419]: 
+                        - text: August 07 2026
+                    - text: 
+                    - paragraph [ref=f1698e420]: We are looking for a Senior Manager of IT Application Development to lead a team focused on developing innovative solutions for our Crew Scheduling business unit. Drive technological advancements, manage resources, and foster a collaborative team culture. Ideal for experienced leaders with strong application development expertise and a background in Agile methodologies.
+                  - link "Apply Now for Sr Manager - IT Application Development" [ref=f1698e423] [cursor=pointer]:
+                    - /url: https://careers.united.com/us/en/hvhapply?jobSeqNo=UAIUADUSWHQ00026695EXTERNALENUSTALEO
+                    - text: Apply Now
+                    - generic [ref=f1698e424]: Sr Manager - IT Application Development
+              - listitem [ref=f1698e425]:
+                - generic [ref=f1698e426]:
+                  - generic [ref=f1698e427]:
+                    - heading [level=3] [ref=f1698e428]:
+                      - link "Supervisor - Airport Operations Job ID is HNL00001290" [ref=f1698e429] [cursor=pointer]:
+                        - /url: https://careers.united.com/us/en/job/HNL00001290/Supervisor-Airport-Operations
+                        - generic [ref=f1698e430]: Supervisor - Airport Operations
+                    - paragraph [ref=f1698e431]:
+                      - generic [ref=f1698e433]:
+                        - generic [ref=f1698e434]: Location
+                        - generic [ref=f1698e435]: 
+                        - text: Honolulu, Hawaii, United States
+                      - generic [ref=f1698e437]:
+                        - generic [ref=f1698e438]: Category
+                        - generic [ref=f1698e439]: 
+                        - text: Corporate
+                      - generic [ref=f1698e441]:
+                        - generic [ref=f1698e442]: Job Id
+                        - text: HNL00001290
+                      - generic [ref=f1698e444]:
+                        - generic [ref=f1698e445]: Posted Date
+                        - generic [ref=f1698e446]: 
+                        - text: August 05 2026
+                    - text: 
+                    - paragraph [ref=f1698e447]: Become part of our team as a Supervisor - Airport Operations, leading and developing front-line staff to deliver excellent customer service and operational excellence. Oversee daily airport operations, ensure compliance with company standards, and drive continuous improvement. Ideal for candidates with team leadership experience and strong communication skills.
+                  - link "Apply Now for Supervisor - Airport Operations" [ref=f1698e450] [cursor=pointer]:
+                    - /url: https://careers.united.com/us/en/hvhapply?jobSeqNo=UAIUADUSHNL00001290EXTERNALENUSTALEO
+                    - text: Apply Now
+                    - generic [ref=f1698e451]: Supervisor - Airport Operations
+              - listitem [ref=f1698e452]:
+                - generic [ref=f1698e453]:
+                  - generic [ref=f1698e454]:
+                    - heading [level=3] [ref=f1698e455]:
+                      - link "Mechanic TWN Job ID is TPE00000125" [ref=f1698e456] [cursor=pointer]:
+                        - /url: https://careers.united.com/us/en/job/TPE00000125/Mechanic-TWN
+                        - generic [ref=f1698e457]: Mechanic TWN
+                    - paragraph [ref=f1698e458]:
+                      - generic [ref=f1698e460]:
+                        - generic [ref=f1698e461]: Location
+                        - generic [ref=f1698e462]: 
+                        - text: Taipei, Taipei, Taiwan
+                      - button "Associated with 2 categories" [ref=f1698e465] [cursor=pointer]:
+                        - generic [ref=f1698e466]: 
+                        - text: Associated with 2 categories
+                      - generic [ref=f1698e468]:
+                        - generic [ref=f1698e469]: Job Id
+                        - text: TPE00000125
+                      - generic [ref=f1698e471]:
+                        - generic [ref=f1698e472]: Posted Date
+                        - generic [ref=f1698e473]: 
+                        - text: July 29 2026
+                    - text: 
+                    - paragraph [ref=f1698e474]: Join our team as a Mechanic TWN, supporting the technical operations of our airline by performing all aspects of aircraft maintenance and repair. You will ensure aircraft are serviced and ready for flight, working collaboratively with your team. Ideal candidates are proactive, reliable, and fluent in English and Mandarin.
+                  - link "Apply Now for Mechanic TWN" [ref=f1698e477] [cursor=pointer]:
+                    - /url: https://careers.united.com/us/en/hvhapply?jobSeqNo=UAIUADUSTPE00000125EXTERNALENUSTALEO
+                    - text: Apply Now
+                    - generic [ref=f1698e478]: Mechanic TWN
+        - region "pagination" [ref=f1698e479]:
+          - text: Z
+          - button "Page 1": "1"
+          - button "Page 2" [ref=f1698e480] [cursor=pointer]: "2"
+          - button "Page 3" [ref=f1698e481] [cursor=pointer]: "3"
+          - button "Page 4" [ref=f1698e482] [cursor=pointer]: "4"
+          - button "Page 5" [ref=f1698e483] [cursor=pointer]: "5"
+          - button "Page 6" [ref=f1698e484] [cursor=pointer]: "6"
+          - button "Page 7" [ref=f1698e485] [cursor=pointer]: "7"
+          - button "Page 8" [ref=f1698e486] [cursor=pointer]: "8"
+          - button "Page 9" [ref=f1698e487] [cursor=pointer]: "9"
+          - button "Page 10" [ref=f1698e488] [cursor=pointer]: "10"
+          - button "View next page" [ref=f1698e489] [cursor=pointer]:
+            - generic [ref=f1698e490]: 
+  - contentinfo [ref=f1698e491]:
+    - generic [ref=f1698e493]:
+      - generic [ref=f1698e496]:
+        - list [ref=f1698e500]:
+          - listitem [ref=f1698e501]:
+            - link "Career Site Cookie Settings" [ref=f1698e503] [cursor=pointer]:
+              - /url: javascript:showConsentPreferencesPopup()
+          - listitem [ref=f1698e504]:
+            - link "Personal Information" [ref=f1698e506] [cursor=pointer]:
+              - /url: https://careers.united.com/us/en/personal-information
+        - generic [ref=f1698e507]:
+          - strong [ref=f1698e508]: United Careers – Accessibility and Accommodations
+          - text: United complies with all state and federal laws and supports applicants and employees by providing reasonable accommodations for disabilities and sincerely held religious beliefs, observances, and practices. Applicants, employees, and individuals with conditional job offers may request an accommodation or support at any stage of the hiring process or employment to help perform essential job functions. For assistance, please contact
+          - link "JobAccommodations@united.com" [ref=f1698e510] [cursor=pointer]:
+            - /url: mailto:JobAccommodations@united.com
+          - text: .
+      - generic [ref=f1698e511]: Copyright © 2026 United Airlines, Inc. All rights reserved.
+  - iframe [ref=f1698e515]:
+    - generic [ref=f1699e1]:
+      - text: 
+      - generic [ref=f1699e2]: "-"
+      - complementary "Static Text" [ref=f1699e7]

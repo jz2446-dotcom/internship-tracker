@@ -1,0 +1,669 @@
+- generic [ref=f1569e2]:
+  - link "Skip to Main Content" [ref=f1569e3] [cursor=pointer]:
+    - /url: "#content_inner"
+  - generic [ref=f1569e4]:
+    - generic [ref=f1569e8]:
+      - link [ref=f1569e10] [cursor=pointer]:
+        - /url: /
+        - img "alternate_text_here" [ref=f1569e11]
+      - heading [level=1] [ref=f1569e13]
+    - generic:
+      - navigation [ref=f1569e15]:
+        - generic [ref=f1569e16]:
+          - list [ref=f1569e17]:
+            - listitem [ref=f1569e18]:
+              - link " Home" [ref=f1569e19] [cursor=pointer]:
+                - /url: /
+            - listitem [ref=f1569e20]:
+              - link " Search Jobs" [ref=f1569e21] [cursor=pointer]:
+                - /url: /postings/search
+            - listitem [ref=f1569e22]:
+              - link " Log In /Create Account" [ref=f1569e23] [cursor=pointer]:
+                - /url: /login
+            - listitem [ref=f1569e24]:
+              - link " Help" [ref=f1569e25] [cursor=pointer]:
+                - /url: https://help.powerschool.com/t5/PeopleAdmin-Applicant-Support/tkb-p/PeopleAdmin-Applicant-Support-Knowledge
+          - list
+      - generic [ref=f1569e27]:
+        - heading [level=2] [ref=f1569e29]:
+          - text: Search Postings (38)
+          - link [ref=f1569e30] [cursor=pointer]:
+            - /url: /postings/all_jobs.atom
+            - img "All Jobs Atom Feed" [ref=f1569e31]
+        - button "Hide Search Options " [ref=f1569e33] [cursor=pointer]:
+          - text: Hide Search Options
+          - generic [ref=f1569e34]: 
+        - paragraph [ref=f1569e35]: View all open Postings below, or enter search criteria to narrow your search.
+        - generic [ref=f1569e37]:
+          - generic [ref=f1569e40]:
+            - generic [ref=f1569e41]: Keywords
+            - textbox "Keywords" [ref=f1569e44]
+            - generic [ref=f1569e45]: Posted Within
+            - combobox "Posted Within" [ref=f1569e48]:
+              - option "Any time period" [selected]
+              - option "Last Day"
+              - option "Last Week"
+              - option "Last Month"
+          - generic [ref=f1569e51]:
+            - generic [ref=f1569e52]:
+              - generic [ref=f1569e53]: Position Type
+              - listbox "Position Type" [ref=f1569e57]:
+                - option "No Selection" [ref=f1569e58]
+                - option "General Staff" [ref=f1569e59]
+                - option "Faculty/Academic" [ref=f1569e60]
+              - generic [ref=f1569e61]: Position Title
+              - textbox "Position Title" [ref=f1569e65]
+            - generic [ref=f1569e66]:
+              - generic [ref=f1569e67]: Department
+              - listbox "Department" [ref=f1569e71]:
+                - option "No Selection" [ref=f1569e72]
+                - option "Advancement - 130" [ref=f1569e73]
+                - option "Anthropology - 010" [ref=f1569e74]
+                - option "Astrophysics - 003" [ref=f1569e75]
+                - option "Audio Visual - 063" [ref=f1569e76]
+                - option "Biodiversity - 022" [ref=f1569e77]
+                - option "Budget & Financial Planning - 112" [ref=f1569e78]
+                - option "Business Development - 133" [ref=f1569e79]
+                - option "Cash Control - 125" [ref=f1569e80]
+                - option "Commun (Editorial) - 138" [ref=f1569e81]
+                - option "Commun (Gen & Admin) - 135" [ref=f1569e82]
+                - option "Commun (Marketing) - 137" [ref=f1569e83]
+                - option "Commun (Media Relations) - 136" [ref=f1569e84]
+                - option "Construction/Capital - 142" [ref=f1569e85]
+                - option "Controller/Finance - 122" [ref=f1569e86]
+                - option "Convening and Events Services - 146" [ref=f1569e87]
+                - option "Cultural Resources Office - 029" [ref=f1569e88]
+                - option "Custodial Services - 143" [ref=f1569e89]
+                - option "Dean of Science for Collections - 032" [ref=f1569e90]
+                - option "Digital Media - 126" [ref=f1569e91]
+                - option "EDU – Youth and CFL - 052" [ref=f1569e92]
+                - option "Earth & Planetary Scienc - 017" [ref=f1569e93]
+                - option "Editorial - 094" [ref=f1569e94]
+                - option "Education (NCSLET) - 056" [ref=f1569e95]
+                - option "Education (Prfsnl Dvlpmt - 054" [ref=f1569e96]
+                - option "Education - 050" [ref=f1569e97]
+                - option "Events & Conferences - 102" [ref=f1569e98]
+                - option "Executive - 161" [ref=f1569e99]
+                - option "Exhibition - 060" [ref=f1569e100]
+                - option "Facilities Operations - 141" [ref=f1569e101]
+                - option "General Accounting - 123" [ref=f1569e102]
+                - option "General Counsel - 128" [ref=f1569e103]
+                - option "Government Corporate Community - 116" [ref=f1569e104]
+                - option "Hayden Planetarium - 002" [ref=f1569e105]
+                - option "Herpetology - 014" [ref=f1569e106]
+                - option "Human Resources - 117" [ref=f1569e107]
+                - option "Ichthyology - 015" [ref=f1569e108]
+                - option "Information Technology - 139" [ref=f1569e109]
+                - option "Inst For Comp Genomics - 009" [ref=f1569e110]
+                - option "Internal Audit - 119" [ref=f1569e111]
+                - option "Invertebrate Paleontology - 012" [ref=f1569e112]
+                - option "Invertebrate Zoology - 011" [ref=f1569e113]
+                - option "Library Services - 025" [ref=f1569e114]
+                - option "Mammalogy - 016" [ref=f1569e115]
+                - option "Membership - 070" [ref=f1569e116]
+                - option "Micro & Imaging - 021" [ref=f1569e117]
+                - option "Not Assigned" [ref=f1569e118]
+                - option "Office of Grants - 023" [ref=f1569e119]
+                - option "Office of the President - 110" [ref=f1569e120]
+                - option "Operational Planning 140" [ref=f1569e121]
+                - option "Ops and Capital Programs - 115" [ref=f1569e122]
+                - option "Ornithology - 018" [ref=f1569e123]
+                - option "Payroll - 124" [ref=f1569e124]
+                - option "Photo Studio - 031" [ref=f1569e125]
+                - option "Procurement Services - 118" [ref=f1569e126]
+                - option "RGGS - 005" [ref=f1569e127]
+                - option "Registrar - 033" [ref=f1569e128]
+                - option "Research & Evaluation - 055" [ref=f1569e129]
+                - option "Retail - 108" [ref=f1569e130]
+                - option "Revenue Security - 151" [ref=f1569e131]
+                - option "Rose Center Engineering - 145" [ref=f1569e132]
+                - option "SCV – Science Visualization - 057" [ref=f1569e133]
+                - option "SCV– Public Programs - 051" [ref=f1569e134]
+                - option "Security - 150" [ref=f1569e135]
+                - option "Southwest Research Sta - 024" [ref=f1569e136]
+                - option "Sr Vp & CFO - 121" [ref=f1569e137]
+                - option "Sr Vp & Provost - 034" [ref=f1569e138]
+                - option "Transportation - 084" [ref=f1569e139]
+                - option "Vertebrate Paleontology - 019" [ref=f1569e140]
+                - option "Visitor Services - 080" [ref=f1569e141]
+                - option "Volunteer Services - 082" [ref=f1569e142]
+          - button "Search" [ref=f1569e143] [cursor=pointer]
+        - navigation "Pagination" [ref=f1569e144]:
+          - generic [ref=f1569e145]: Previous
+          - emphasis [ref=f1569e146]: "1"
+          - link "Page 2" [ref=f1569e147] [cursor=pointer]:
+            - /url: /postings/search?page=2
+            - text: "2"
+          - link "Next" [ref=f1569e148] [cursor=pointer]:
+            - /url: /postings/search?page=2
+        - heading "View Results (38 )" [level=2] [ref=f1569e149]
+        - generic [ref=f1569e150]:
+          - link "Job Title column, unsorted, click to sort in ascending order" [ref=f1569e152] [cursor=pointer]:
+            - /url: /postings/search?sort=435+asc
+            - text: Job Title
+          - generic [ref=f1569e153]:
+            - link "Posting Number column, unsorted, click to sort in ascending order" [ref=f1569e156] [cursor=pointer]:
+              - /url: /postings/search?sort=225+asc
+              - text: Posting Number
+            - link "Department column, unsorted, click to sort in ascending order" [ref=f1569e158] [cursor=pointer]:
+              - /url: /postings/search?sort=226+asc
+              - text: Department
+            - link "Position Type column, unsorted, click to sort in ascending order" [ref=f1569e160] [cursor=pointer]:
+              - /url: /postings/search?sort=434+asc
+              - text: Position Type
+            - link "Job Close Date column, unsorted, click to sort in ascending order" [ref=f1569e162] [cursor=pointer]:
+              - /url: /postings/search?sort=227+asc
+              - text: Job Close Date
+        - generic [ref=f1569e163]:
+          - generic [ref=f1569e165]:
+            - generic [ref=f1569e166]:
+              - heading [level=3] [ref=f1569e168]:
+                - link "Senior Event Manager" [ref=f1569e169] [cursor=pointer]:
+                  - /url: /postings/4904
+              - generic [ref=f1569e170]:
+                - generic [ref=f1569e172]: GS1037P
+                - generic [ref=f1569e173]: Convening and Events Services - 146
+                - generic [ref=f1569e174]: General Staff
+            - generic [ref=f1569e178]:
+              - text: The American Museum of Natural History is one of the world’s preeminent scientific and cultural institutions, and has as its mission to discover, interpret, and disseminate information about human cultures, the natural world, and the universe through a wide-ranging program of scientific research, education, and exhibition.The Convening & Event Services department is seeking an experienced, ...
+              - generic [ref=f1569e179]:
+                - link " View Details" [ref=f1569e180] [cursor=pointer]:
+                  - /url: /postings/4904
+                - link "Bookmark" [ref=f1569e181] [cursor=pointer]:
+                  - /url: /bookmarks?posting_id=4904
+          - generic [ref=f1569e183]:
+            - generic [ref=f1569e184]:
+              - heading [level=3] [ref=f1569e186]:
+                - link "Research Project Assistant, Southwestern Research Station (Portal, AZ)" [ref=f1569e187] [cursor=pointer]:
+                  - /url: /postings/4903
+              - generic [ref=f1569e188]:
+                - generic [ref=f1569e190]: GS1039P
+                - generic [ref=f1569e191]: Southwest Research Sta - 024
+                - generic [ref=f1569e192]: General Staff
+            - generic [ref=f1569e196]:
+              - text: The Southwestern Research Station (SWRS), located in the rural community of Portal, Arizona, is a non-profit biological field station owned by the American Museum of Natural History in New York City. We have been in operation since 1955. Our primary mission is to encourage and support biological research and conservation. We host researchers, students, workshop, courses, and naturalists from ar...
+              - generic [ref=f1569e197]:
+                - link " View Details" [ref=f1569e198] [cursor=pointer]:
+                  - /url: /postings/4903
+                - link "Bookmark" [ref=f1569e199] [cursor=pointer]:
+                  - /url: /bookmarks?posting_id=4903
+          - generic [ref=f1569e201]:
+            - generic [ref=f1569e202]:
+              - heading [level=3] [ref=f1569e204]:
+                - link "Manager, Signature Experiences" [ref=f1569e205] [cursor=pointer]:
+                  - /url: /postings/4901
+              - generic [ref=f1569e206]:
+                - generic [ref=f1569e208]: GS1040P
+                - generic [ref=f1569e209]: Visitor Services - 080
+                - generic [ref=f1569e210]: General Staff
+            - generic [ref=f1569e214]:
+              - text: The American Museum of Natural History is one of the world’s preeminent scientific and cultural institutions, and has as its mission to discover, interpret, and disseminate information about human cultures, the natural world, and the universe through a wide-ranging program of scientific research, education, and exhibition.The Signature Experiences department is seeking a Manager of Signature Ex...
+              - generic [ref=f1569e215]:
+                - link " View Details" [ref=f1569e216] [cursor=pointer]:
+                  - /url: /postings/4901
+                - link "Bookmark" [ref=f1569e217] [cursor=pointer]:
+                  - /url: /bookmarks?posting_id=4901
+          - generic [ref=f1569e219]:
+            - generic [ref=f1569e220]:
+              - heading [level=3] [ref=f1569e222]:
+                - link "Bus Greeter" [ref=f1569e223] [cursor=pointer]:
+                  - /url: /postings/4899
+              - generic [ref=f1569e224]:
+                - generic [ref=f1569e226]: GS1035P
+                - generic [ref=f1569e227]: Transportation - 084
+                - generic [ref=f1569e228]: General Staff
+            - generic [ref=f1569e232]:
+              - text: The American Museum of Natural History is one of the world’s preeminent scientific and cultural institutions, and has as its mission to discover, interpret, and disseminate information about human cultures, the natural world, and the universe through a wide-ranging program of scientific research, education, and exhibition.The Transportation department is seeking a full-time Bus Greeter. The Bus...
+              - generic [ref=f1569e233]:
+                - link " View Details" [ref=f1569e234] [cursor=pointer]:
+                  - /url: /postings/4899
+                - link "Bookmark" [ref=f1569e235] [cursor=pointer]:
+                  - /url: /bookmarks?posting_id=4899
+          - generic [ref=f1569e237]:
+            - generic [ref=f1569e238]:
+              - heading [level=3] [ref=f1569e240]:
+                - link "Postdoctoral Fellow (Eleanor J. Sterling Conservation Fellow)" [ref=f1569e241] [cursor=pointer]:
+                  - /url: /postings/4897
+              - generic [ref=f1569e242]:
+                - generic [ref=f1569e244]: GS1041P
+                - generic [ref=f1569e245]: Biodiversity - 022
+                - generic [ref=f1569e246]: General Staff
+            - generic [ref=f1569e250]:
+              - text: The American Museum of Natural History is one of the world’s preeminent scientific and cultural institutions, and has as its mission to discover, interpret, and disseminate information about human cultures, the natural world, and the universe through a wide-ranging program of scientific research, education, and exhibition.The Center for Biodiversity and Conservation (CBC), within the Science di...
+              - generic [ref=f1569e251]:
+                - link " View Details" [ref=f1569e252] [cursor=pointer]:
+                  - /url: /postings/4897
+                - link "Bookmark" [ref=f1569e253] [cursor=pointer]:
+                  - /url: /bookmarks?posting_id=4897
+          - generic [ref=f1569e255]:
+            - generic [ref=f1569e256]:
+              - heading [level=3] [ref=f1569e258]:
+                - link "Associate General Counsel" [ref=f1569e259] [cursor=pointer]:
+                  - /url: /postings/4896
+              - generic [ref=f1569e260]:
+                - generic [ref=f1569e262]: GS1038P
+                - generic [ref=f1569e263]: General Counsel - 128
+                - generic [ref=f1569e264]: General Staff
+            - generic [ref=f1569e268]:
+              - text: The American Museum of Natural History is one of the world’s preeminent scientific and cultural institutions, and has as its mission to discover, interpret, and disseminate information about human cultures, the natural world, and the universe through a wide-ranging program of scientific research, education, and exhibition.The Museum’s Office of General Counsel (OGC) is seeking a full-time Assoc...
+              - generic [ref=f1569e269]:
+                - link " View Details" [ref=f1569e270] [cursor=pointer]:
+                  - /url: /postings/4896
+                - link "Bookmark" [ref=f1569e271] [cursor=pointer]:
+                  - /url: /bookmarks?posting_id=4896
+          - generic [ref=f1569e273]:
+            - generic [ref=f1569e274]:
+              - heading [level=3] [ref=f1569e276]:
+                - link "Museum Specialist" [ref=f1569e277] [cursor=pointer]:
+                  - /url: /postings/4893
+              - generic [ref=f1569e278]:
+                - generic [ref=f1569e280]: GS1036P
+                - generic [ref=f1569e281]: Ornithology - 018
+                - generic [ref=f1569e282]: General Staff
+            - generic [ref=f1569e286]:
+              - text: The American Museum of Natural History is one of the world’s preeminent scientific and cultural institutions, and has as its mission to discover, interpret, and disseminate information about human cultures, the natural world, and the universe through a wide-ranging program of scientific research, education, and exhibition.The Ornithology department is seeking a full-time Museum Specialist. The ...
+              - generic [ref=f1569e287]:
+                - link " View Details" [ref=f1569e288] [cursor=pointer]:
+                  - /url: /postings/4893
+                - link "Bookmark" [ref=f1569e289] [cursor=pointer]:
+                  - /url: /bookmarks?posting_id=4893
+          - generic [ref=f1569e291]:
+            - generic [ref=f1569e292]:
+              - heading [level=3] [ref=f1569e294]:
+                - link "Supervising Museum Maintainer, HVAC (Evening)" [ref=f1569e295] [cursor=pointer]:
+                  - /url: /postings/4882
+              - generic [ref=f1569e296]:
+                - generic [ref=f1569e298]: GS1034P
+                - generic [ref=f1569e299]: Facilities Operations - 141
+                - generic [ref=f1569e300]: General Staff
+            - generic [ref=f1569e304]:
+              - text: The American Museum of Natural History is one of the world’s preeminent scientific and cultural institutions, and has as its mission to discover, interpret, and disseminate information about human cultures, the natural world, and the universe through a wide-ranging program of scientific research, education, and exhibition.The Museum’s Facilities Operations department is seeking a full-time Supe...
+              - generic [ref=f1569e305]:
+                - link " View Details" [ref=f1569e306] [cursor=pointer]:
+                  - /url: /postings/4882
+                - link "Bookmark" [ref=f1569e307] [cursor=pointer]:
+                  - /url: /bookmarks?posting_id=4882
+          - generic [ref=f1569e309]:
+            - generic [ref=f1569e310]:
+              - heading [level=3] [ref=f1569e312]:
+                - link "Museum Maintainer/HVAC Technician" [ref=f1569e313] [cursor=pointer]:
+                  - /url: /postings/4881
+              - generic [ref=f1569e314]:
+                - generic [ref=f1569e316]: GS1033P
+                - generic [ref=f1569e317]: Facilities Operations - 141
+                - generic [ref=f1569e318]: General Staff
+            - generic [ref=f1569e322]:
+              - text: The American Museum of Natural History is one of the world’s preeminent scientific and cultural institutions, and has as its mission to discover, interpret, and disseminate information about human cultures, the natural world, and the universe through a wide-ranging program of scientific research, education, and exhibition.The Museum Maintainer will perform preventative maintenance and service o...
+              - generic [ref=f1569e323]:
+                - link " View Details" [ref=f1569e324] [cursor=pointer]:
+                  - /url: /postings/4881
+                - link "Bookmark" [ref=f1569e325] [cursor=pointer]:
+                  - /url: /bookmarks?posting_id=4881
+          - generic [ref=f1569e327]:
+            - generic [ref=f1569e328]:
+              - heading [level=3] [ref=f1569e330]:
+                - link "Digitization Assistant" [ref=f1569e331] [cursor=pointer]:
+                  - /url: /postings/4877
+              - generic [ref=f1569e332]:
+                - generic [ref=f1569e334]: GS1032P
+                - generic [ref=f1569e335]: Invertebrate Zoology - 011
+                - generic [ref=f1569e336]: General Staff
+            - generic [ref=f1569e340]:
+              - text: The American Museum of Natural History is one of the world’s preeminent scientific and cultural institutions, and has as its mission to discover, interpret, and disseminate information about human cultures, the natural world, and the universe through a wide-ranging program of scientific research, education, and exhibition.The Invertebrate Zoology department is seeking a full-time Digitization A...
+              - generic [ref=f1569e341]:
+                - link " View Details" [ref=f1569e342] [cursor=pointer]:
+                  - /url: /postings/4877
+                - link "Bookmark" [ref=f1569e343] [cursor=pointer]:
+                  - /url: /bookmarks?posting_id=4877
+          - generic [ref=f1569e345]:
+            - generic [ref=f1569e346]:
+              - heading [level=3] [ref=f1569e348]:
+                - link "Open-rank Curator and Professor of Biological Anthropology" [ref=f1569e349] [cursor=pointer]:
+                  - /url: /postings/4876
+              - generic [ref=f1569e350]:
+                - generic [ref=f1569e352]: FA016P
+                - generic [ref=f1569e353]: Anthropology - 010
+                - generic [ref=f1569e354]: Faculty/Academic
+            - generic [ref=f1569e358]:
+              - text: The Division of Anthropology at the American Museum of Natural History (AMNH) seeks an outstanding colleague to join the Museum on or after July 1, 2027. This is an open rank tenure-track or tenured appointment, to be filled at the level of Assistant Curator/Assistant Professor, Associate Curator/Associate Professor, or Curator/Professor.We seek a biological anthropologist with an innovative re...
+              - generic [ref=f1569e359]:
+                - link " View Details" [ref=f1569e360] [cursor=pointer]:
+                  - /url: /postings/4876
+                - link "Bookmark" [ref=f1569e361] [cursor=pointer]:
+                  - /url: /bookmarks?posting_id=4876
+          - generic [ref=f1569e363]:
+            - generic [ref=f1569e364]:
+              - heading [level=3] [ref=f1569e366]:
+                - link "Public Programs Associate" [ref=f1569e367] [cursor=pointer]:
+                  - /url: /postings/4875
+              - generic [ref=f1569e368]:
+                - generic [ref=f1569e370]: GS1030P
+                - generic [ref=f1569e371]: SCV– Public Programs - 051
+                - generic [ref=f1569e372]: General Staff
+            - generic [ref=f1569e376]:
+              - text: The American Museum of Natural History is one of the world’s preeminent scientific and cultural institutions, and has as its mission to discover, interpret, and disseminate information about human cultures, the natural world, and the universe through a wide-ranging program of scientific research, education, and exhibition.The Museum’s Public Programs department works to create an inclusive and ...
+              - generic [ref=f1569e377]:
+                - link " View Details" [ref=f1569e378] [cursor=pointer]:
+                  - /url: /postings/4875
+                - link "Bookmark" [ref=f1569e379] [cursor=pointer]:
+                  - /url: /bookmarks?posting_id=4875
+          - generic [ref=f1569e381]:
+            - generic [ref=f1569e382]:
+              - heading [level=3] [ref=f1569e384]:
+                - link "Exhibition Explainer (Part-Time)" [ref=f1569e385] [cursor=pointer]:
+                  - /url: /postings/4872
+              - generic [ref=f1569e386]:
+                - generic [ref=f1569e388]: GS1031P
+                - generic [ref=f1569e389]: Exhibition - 060
+                - generic [ref=f1569e390]: General Staff
+            - generic [ref=f1569e394]:
+              - text: The American Museum of Natural History is one of the world’s preeminent scientific and cultural institutions, and has as its mission to discover, interpret, and disseminate information about human cultures, the natural world, and the universe through a wide-ranging program of scientific research, education, and exhibition.The Exhibition department is seeking a part-time Exhibition Explainer to ...
+              - generic [ref=f1569e395]:
+                - link " View Details" [ref=f1569e396] [cursor=pointer]:
+                  - /url: /postings/4872
+                - link "Bookmark" [ref=f1569e397] [cursor=pointer]:
+                  - /url: /bookmarks?posting_id=4872
+          - generic [ref=f1569e399]:
+            - generic [ref=f1569e400]:
+              - heading [level=3] [ref=f1569e402]:
+                - link "Department Administrator" [ref=f1569e403] [cursor=pointer]:
+                  - /url: /postings/4867
+              - generic [ref=f1569e404]:
+                - generic [ref=f1569e406]: GS1027P
+                - generic [ref=f1569e407]: Vertebrate Paleontology - 019
+                - generic [ref=f1569e408]: General Staff
+            - generic [ref=f1569e412]:
+              - text: The American Museum of Natural History is one of the world’s preeminent scientific and cultural institutions, and has as its mission to discover, interpret, and disseminate information about human cultures, the natural world, and the universe through a wide-ranging program of scientific research, education, and exhibition.The Vertebrate Paleontology department is seeking a full-time Department ...
+              - generic [ref=f1569e413]:
+                - link " View Details" [ref=f1569e414] [cursor=pointer]:
+                  - /url: /postings/4867
+                - link "Bookmark" [ref=f1569e415] [cursor=pointer]:
+                  - /url: /bookmarks?posting_id=4867
+          - generic [ref=f1569e417]:
+            - generic [ref=f1569e418]:
+              - heading [level=3] [ref=f1569e420]:
+                - link "Laboratory Research Assistant (Part-Time)" [ref=f1569e421] [cursor=pointer]:
+                  - /url: /postings/4861
+              - generic [ref=f1569e422]:
+                - generic [ref=f1569e424]: GS1028P
+                - generic [ref=f1569e425]: Invertebrate Zoology - 011
+                - generic [ref=f1569e426]: General Staff
+            - generic [ref=f1569e430]:
+              - text: The American Museum of Natural History is one of the world’s preeminent scientific and cultural institutions, and has as its mission to discover, interpret, and disseminate information about human cultures, the natural world, and the universe through a wide-ranging program of scientific research, education, and exhibition.The Invertebrate Zoology department is seeking a part-time Laboratory Res...
+              - generic [ref=f1569e431]:
+                - link " View Details" [ref=f1569e432] [cursor=pointer]:
+                  - /url: /postings/4861
+                - link "Bookmark" [ref=f1569e433] [cursor=pointer]:
+                  - /url: /bookmarks?posting_id=4861
+          - generic [ref=f1569e435]:
+            - generic [ref=f1569e436]:
+              - heading [level=3] [ref=f1569e438]:
+                - link "Visualization Software and Data Specialist" [ref=f1569e439] [cursor=pointer]:
+                  - /url: /postings/4860
+              - generic [ref=f1569e440]:
+                - generic [ref=f1569e442]: GS1023P
+                - generic [ref=f1569e443]: Astrophysics - 003
+                - generic [ref=f1569e444]: General Staff
+            - generic [ref=f1569e448]:
+              - text: The American Museum of Natural History is one of the world’s preeminent scientific and cultural institutions, and has as its mission to discover, interpret, and disseminate information about human cultures, the natural world, and the universe through a wide-ranging program of scientific research, education, and exhibition.The Astrophysics department is seeking a full-time Visualization Software...
+              - generic [ref=f1569e449]:
+                - link " View Details" [ref=f1569e450] [cursor=pointer]:
+                  - /url: /postings/4860
+                - link "Bookmark" [ref=f1569e451] [cursor=pointer]:
+                  - /url: /bookmarks?posting_id=4860
+          - generic [ref=f1569e453]:
+            - generic [ref=f1569e454]:
+              - heading [level=3] [ref=f1569e456]:
+                - link "Science Research Program Mentor" [ref=f1569e457] [cursor=pointer]:
+                  - /url: /postings/4858
+              - generic [ref=f1569e458]:
+                - generic [ref=f1569e460]: GS1029P
+                - generic [ref=f1569e461]: EDU – Youth and CFL - 052
+                - generic [ref=f1569e462]: General Staff
+            - generic [ref=f1569e466]:
+              - text: The American Museum of Natural History is one of the world’s preeminent scientific and cultural institutions, and has as its mission to discover, interpret, and disseminate information about human cultures, the natural world, and the universe through a wide-ranging program of scientific research, education, and exhibition.The Museum’s Youth Initiatives (YI) group, part of the department of Educ...
+              - generic [ref=f1569e467]:
+                - link " View Details" [ref=f1569e468] [cursor=pointer]:
+                  - /url: /postings/4858
+                - link "Bookmark" [ref=f1569e469] [cursor=pointer]:
+                  - /url: /bookmarks?posting_id=4858
+          - generic [ref=f1569e471]:
+            - generic [ref=f1569e472]:
+              - heading [level=3] [ref=f1569e474]:
+                - link "Coordinator, Principal Gifts Program" [ref=f1569e475] [cursor=pointer]:
+                  - /url: /postings/4850
+              - generic [ref=f1569e476]:
+                - generic [ref=f1569e478]: GS1026P
+                - generic [ref=f1569e479]: Advancement - 130
+                - generic [ref=f1569e480]: General Staff
+            - generic [ref=f1569e484]:
+              - text: The American Museum of Natural History is one of the world’s preeminent scientific and cultural institutions, and has as its mission to discover, interpret, and disseminate information about human cultures, the natural world, and the universe through a wide-ranging program of scientific research, education, and exhibition.The Advancement department is seeking a full-time Coordinator, Principal ...
+              - generic [ref=f1569e485]:
+                - link " View Details" [ref=f1569e486] [cursor=pointer]:
+                  - /url: /postings/4850
+                - link "Bookmark" [ref=f1569e487] [cursor=pointer]:
+                  - /url: /bookmarks?posting_id=4850
+          - generic [ref=f1569e489]:
+            - generic [ref=f1569e490]:
+              - heading [level=3] [ref=f1569e492]:
+                - link "Locksmith" [ref=f1569e493] [cursor=pointer]:
+                  - /url: /postings/4845
+              - generic [ref=f1569e494]:
+                - generic [ref=f1569e496]: GS1024P
+                - generic [ref=f1569e497]: Security - 150
+                - generic [ref=f1569e498]: General Staff
+            - generic [ref=f1569e502]:
+              - text: The American Museum of Natural History is one of the world’s preeminent scientific and cultural institutions, and has as its mission to discover, interpret, and disseminate information about human cultures, the natural world, and the universe through a wide-ranging program of scientific research, education, and exhibition.The Security department is seeking a full-time Locksmith to provide all l...
+              - generic [ref=f1569e503]:
+                - link " View Details" [ref=f1569e504] [cursor=pointer]:
+                  - /url: /postings/4845
+                - link "Bookmark" [ref=f1569e505] [cursor=pointer]:
+                  - /url: /bookmarks?posting_id=4845
+          - generic [ref=f1569e507]:
+            - generic [ref=f1569e508]:
+              - heading [level=3] [ref=f1569e510]:
+                - link "Educator, Children and Family Learning (Part-Time)" [ref=f1569e511] [cursor=pointer]:
+                  - /url: /postings/4833
+              - generic [ref=f1569e512]:
+                - generic [ref=f1569e514]: GS1018P
+                - generic [ref=f1569e515]: EDU – Youth and CFL - 052
+                - generic [ref=f1569e516]: General Staff
+            - generic [ref=f1569e520]:
+              - text: The American Museum of Natural History is one of the world’s preeminent scientific and cultural institutions, and has as its mission to discover, interpret, and disseminate information about human cultures, the natural world, and the universe through a wide-ranging program of scientific research, education, and exhibition.The Education department is seeking an experienced part-time Educator to ...
+              - generic [ref=f1569e521]:
+                - link " View Details" [ref=f1569e522] [cursor=pointer]:
+                  - /url: /postings/4833
+                - link "Bookmark" [ref=f1569e523] [cursor=pointer]:
+                  - /url: /bookmarks?posting_id=4833
+          - generic [ref=f1569e525]:
+            - generic [ref=f1569e526]:
+              - heading [level=3] [ref=f1569e528]:
+                - link "Civic Science Fellow" [ref=f1569e529] [cursor=pointer]:
+                  - /url: /postings/4832
+              - generic [ref=f1569e530]:
+                - generic [ref=f1569e532]: GS1019P
+                - generic [ref=f1569e533]: Research & Evaluation - 055
+                - generic [ref=f1569e534]: General Staff
+            - generic [ref=f1569e538]:
+              - text: The American Museum of Natural History is one of the world’s preeminent scientific and cultural institutions, and has as its mission to discover, interpret, and disseminate information about human cultures, the natural world, and the universe through a wide-ranging program of scientific research, education, and exhibition.The Research and Evaluation department, part of Learning and Public Engag...
+              - generic [ref=f1569e539]:
+                - link " View Details" [ref=f1569e540] [cursor=pointer]:
+                  - /url: /postings/4832
+                - link "Bookmark" [ref=f1569e541] [cursor=pointer]:
+                  - /url: /bookmarks?posting_id=4832
+          - generic [ref=f1569e543]:
+            - generic [ref=f1569e544]:
+              - heading [level=3] [ref=f1569e546]:
+                - link "Public Programs Manager, Film Programming and Budget Management" [ref=f1569e547] [cursor=pointer]:
+                  - /url: /postings/4825
+              - generic [ref=f1569e548]:
+                - generic [ref=f1569e550]: GS1010P
+                - generic [ref=f1569e551]: SCV– Public Programs - 051
+                - generic [ref=f1569e552]: General Staff
+            - generic [ref=f1569e556]:
+              - text: The American Museum of Natural History is one of the world’s preeminent scientific and cultural institutions, and has as its mission to discover, interpret, and disseminate information about human cultures, the natural world, and the universe through a wide-ranging program of scientific research, education, and exhibition.The Public Programs department is seeking a full-time Public Programs Man...
+              - generic [ref=f1569e557]:
+                - link " View Details" [ref=f1569e558] [cursor=pointer]:
+                  - /url: /postings/4825
+                - link "Bookmark" [ref=f1569e559] [cursor=pointer]:
+                  - /url: /bookmarks?posting_id=4825
+          - generic [ref=f1569e561]:
+            - generic [ref=f1569e562]:
+              - heading [level=3] [ref=f1569e564]:
+                - link "Teaching Assistant (Part-Time)" [ref=f1569e565] [cursor=pointer]:
+                  - /url: /postings/4819
+              - generic [ref=f1569e566]:
+                - generic [ref=f1569e568]: GS1013P
+                - generic [ref=f1569e569]: EDU – Youth and CFL - 052
+                - generic [ref=f1569e570]: General Staff
+            - generic [ref=f1569e574]:
+              - text: The American Museum of Natural History is one of the world’s preeminent scientific and cultural institutions, and has as its mission to discover, interpret, and disseminate information about human cultures, the natural world, and the universe through a wide-ranging program of scientific research, education, and exhibition.The part-time Teaching Assistant will work across programs offered by two...
+              - generic [ref=f1569e575]:
+                - link " View Details" [ref=f1569e576] [cursor=pointer]:
+                  - /url: /postings/4819
+                - link "Bookmark" [ref=f1569e577] [cursor=pointer]:
+                  - /url: /bookmarks?posting_id=4819
+          - generic [ref=f1569e579]:
+            - generic [ref=f1569e580]:
+              - heading [level=3] [ref=f1569e582]:
+                - link "Director, Planned Giving" [ref=f1569e583] [cursor=pointer]:
+                  - /url: /postings/4811
+              - generic [ref=f1569e584]:
+                - generic [ref=f1569e586]: GS1014P
+                - generic [ref=f1569e587]: Advancement - 130
+                - generic [ref=f1569e588]: General Staff
+            - generic [ref=f1569e592]:
+              - text: The American Museum of Natural History is one of the world’s preeminent scientific and cultural institutions, and has as its mission to discover, interpret, and disseminate information about human cultures, the natural world, and the universe through a wide-ranging program of scientific research, education, and exhibition.AMNH is seeking a strategic, relationship-driven Director, Planned Giving...
+              - generic [ref=f1569e593]:
+                - link " View Details" [ref=f1569e594] [cursor=pointer]:
+                  - /url: /postings/4811
+                - link "Bookmark" [ref=f1569e595] [cursor=pointer]:
+                  - /url: /bookmarks?posting_id=4811
+          - generic [ref=f1569e597]:
+            - generic [ref=f1569e598]:
+              - heading [level=3] [ref=f1569e600]:
+                - link "Director of Payroll" [ref=f1569e601] [cursor=pointer]:
+                  - /url: /postings/4810
+              - generic [ref=f1569e602]:
+                - generic [ref=f1569e604]: GS1002P
+                - generic [ref=f1569e605]: Payroll - 124
+                - generic [ref=f1569e606]: General Staff
+            - generic [ref=f1569e610]:
+              - text: The American Museum of Natural History is one of the world’s preeminent scientific and cultural institutions, and has as its mission to discover, interpret, and disseminate information about human cultures, the natural world, and the universe through a wide-ranging program of scientific research, education, and exhibition.The Payroll department is seeking a full-time Director of Payroll to ensu...
+              - generic [ref=f1569e611]:
+                - link " View Details" [ref=f1569e612] [cursor=pointer]:
+                  - /url: /postings/4810
+                - link "Bookmark" [ref=f1569e613] [cursor=pointer]:
+                  - /url: /bookmarks?posting_id=4810
+          - generic [ref=f1569e615]:
+            - generic [ref=f1569e616]:
+              - heading [level=3] [ref=f1569e618]:
+                - link "Guest Services Representative (Part-Time)" [ref=f1569e619] [cursor=pointer]:
+                  - /url: /postings/4809
+              - generic [ref=f1569e620]:
+                - generic [ref=f1569e622]: GS1009P
+                - generic [ref=f1569e623]: Visitor Services - 080
+                - generic [ref=f1569e624]: General Staff
+            - generic [ref=f1569e628]:
+              - text: The American Museum of Natural History is one of the world’s preeminent scientific and cultural institutions, and has as its mission to discover, interpret, and disseminate information about human cultures, the natural world, and the universe through a wide-ranging program of scientific research, education, and exhibition.The Visitor Services department is seeking part-time Guest Services Repre...
+              - generic [ref=f1569e629]:
+                - link " View Details" [ref=f1569e630] [cursor=pointer]:
+                  - /url: /postings/4809
+                - link "Bookmark" [ref=f1569e631] [cursor=pointer]:
+                  - /url: /bookmarks?posting_id=4809
+          - generic [ref=f1569e633]:
+            - generic [ref=f1569e634]:
+              - heading [level=3] [ref=f1569e636]:
+                - link "Senior Major Gifts Officer" [ref=f1569e637] [cursor=pointer]:
+                  - /url: /postings/4797
+              - generic [ref=f1569e638]:
+                - generic [ref=f1569e640]: GS1008P
+                - generic [ref=f1569e641]: Advancement - 130
+                - generic [ref=f1569e642]: General Staff
+            - generic [ref=f1569e646]:
+              - text: The American Museum of Natural History is one of the world’s preeminent scientific and cultural institutions, and has as its mission to discover, interpret, and disseminate information about human cultures, the natural world, and the universe through a wide-ranging program of scientific research, education, and exhibition.The Advancement department is seeking a full-time Senior Major Gifts Offi...
+              - generic [ref=f1569e647]:
+                - link " View Details" [ref=f1569e648] [cursor=pointer]:
+                  - /url: /postings/4797
+                - link "Bookmark" [ref=f1569e649] [cursor=pointer]:
+                  - /url: /bookmarks?posting_id=4797
+          - generic [ref=f1569e651]:
+            - generic [ref=f1569e652]:
+              - heading [level=3] [ref=f1569e654]:
+                - link "Vice President of Budget and Financial Planning" [ref=f1569e655] [cursor=pointer]:
+                  - /url: /postings/4793
+              - generic [ref=f1569e656]:
+                - generic [ref=f1569e658]: GS1003P
+                - generic [ref=f1569e659]: Budget & Financial Planning - 112
+                - generic [ref=f1569e660]: General Staff
+            - generic [ref=f1569e664]:
+              - text: The American Museum of Natural History is one of the world’s preeminent scientific and cultural institutions, and has as its mission to discover, interpret, and disseminate information about human cultures, the natural world, and the universe through a wide-ranging program of scientific research, education, and exhibition.The Vice President of Budget and Financial Planning (VP), in partnership ...
+              - generic [ref=f1569e665]:
+                - link " View Details" [ref=f1569e666] [cursor=pointer]:
+                  - /url: /postings/4793
+                - link "Bookmark" [ref=f1569e667] [cursor=pointer]:
+                  - /url: /bookmarks?posting_id=4793
+          - generic [ref=f1569e669]:
+            - generic [ref=f1569e670]:
+              - heading [level=3] [ref=f1569e672]:
+                - link "Educator, Children and Family Learning" [ref=f1569e673] [cursor=pointer]:
+                  - /url: /postings/4784
+              - generic [ref=f1569e674]:
+                - generic [ref=f1569e676]: GS992P
+                - generic [ref=f1569e677]: EDU – Youth and CFL - 052
+                - generic [ref=f1569e678]: General Staff
+            - generic [ref=f1569e682]:
+              - text: The American Museum of Natural History is one of the world’s preeminent scientific and cultural institutions, and has as its mission to discover, interpret, and disseminate information about human cultures, the natural world, and the universe through a wide-ranging program of scientific research, education, and exhibition.The Education department is seeking an experienced full-time Educator to ...
+              - generic [ref=f1569e683]:
+                - link " View Details" [ref=f1569e684] [cursor=pointer]:
+                  - /url: /postings/4784
+                - link "Bookmark" [ref=f1569e685] [cursor=pointer]:
+                  - /url: /bookmarks?posting_id=4784
+          - generic [ref=f1569e687]:
+            - generic [ref=f1569e688]:
+              - heading [level=3] [ref=f1569e690]:
+                - link "Coordinator, Donor Relations" [ref=f1569e691] [cursor=pointer]:
+                  - /url: /postings/4738
+              - generic [ref=f1569e692]:
+                - generic [ref=f1569e694]: GS981P
+                - generic [ref=f1569e695]: Advancement - 130
+                - generic [ref=f1569e696]: General Staff
+            - generic [ref=f1569e700]:
+              - text: The American Museum of Natural History is one of the world’s preeminent scientific and cultural institutions, and has as its mission to discover, interpret, and disseminate information about human cultures, the natural world, and the universe through a wide-ranging program of scientific research, education, and exhibition.The Advancement department is seeking a full-time Coordinator to support ...
+              - generic [ref=f1569e701]:
+                - link " View Details" [ref=f1569e702] [cursor=pointer]:
+                  - /url: /postings/4738
+                - link "Bookmark" [ref=f1569e703] [cursor=pointer]:
+                  - /url: /bookmarks?posting_id=4738
+        - navigation "Pagination" [ref=f1569e704]:
+          - generic [ref=f1569e705]: Previous
+          - emphasis [ref=f1569e706]: "1"
+          - link "Page 2" [ref=f1569e707] [cursor=pointer]:
+            - /url: /postings/search?page=2
+            - text: "2"
+          - link "Next" [ref=f1569e708] [cursor=pointer]:
+            - /url: /postings/search?page=2
+    - generic [ref=f1569e711]:
+      - generic [ref=f1569e712]:
+        - strong [ref=f1569e713]: American Museum of Natural History
+        - text: "200 Central Park West New York, NY 10024-5192 Phone: 212-769-5100 Open daily, 10am – 5:30pm"
+        - link "Maps and Directions" [ref=f1569e714] [cursor=pointer]:
+          - /url: https://www.amnh.org/plan-your-visit
+      - paragraph [ref=f1569e716]:
+        - link "Back to top" [ref=f1569e717] [cursor=pointer]:
+          - /url: "#header"
+      - paragraph [ref=f1569e719]:
+        - strong [ref=f1569e720]: Employment FAQ’s
+        - text: Have questions about the application process? Review the
+        - link "Employment FAQs" [ref=f1569e721] [cursor=pointer]:
+          - /url: https://pa-hrsuite-production.s3.amazonaws.com/3037/docs/97661.pdf
+        - text: . No Surprise Billing Act Disclosure is available at
+        - link "www.aetna.com" [ref=f1569e722] [cursor=pointer]:
+          - /url: https://www.aetna.com/
+        - text: ","
+        - link "Transparency in coverage" [ref=f1569e723] [cursor=pointer]:
+          - /url: https://health1.aetna.com/app/public/#/one/insurerCode=AETNACVS_I&brandCode=ALICSI/machine-readable-transparency-in-coverage?searchTerm=15812&lock=true
+        - link "Know Your Rights" [ref=f1569e724] [cursor=pointer]:
+          - /url: https://pa-hrsuite-production.s3.amazonaws.com/3037/docs/177670.pdf
+        - link "Employee Polygraph Protection Act Notice" [ref=f1569e725] [cursor=pointer]:
+          - /url: https://pa-hrsuite-production.s3.amazonaws.com/3065/docs/81975.pdf

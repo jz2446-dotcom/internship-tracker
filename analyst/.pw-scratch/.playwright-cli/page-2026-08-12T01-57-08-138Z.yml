@@ -1,0 +1,511 @@
+- generic [active] [ref=f733e1]:
+  - generic [ref=f733e2]:
+    - generic [ref=f733e4]:
+      - generic [ref=f733e5]:
+        - link "Quick Reference Guide" [ref=f733e6] [cursor=pointer]:
+          - /url: http://www.adb.org/documents/adb-career-and-employment-system-guide
+        - text: "|"
+        - link "FAQs" [ref=f733e7] [cursor=pointer]:
+          - /url: http://www.adb.org/site/careers/faqs/aces
+      - generic [ref=f733e9]:
+        - generic [ref=f733e11]:
+          - heading "Welcome. You are not signed in." [level=2] [ref=f733e13]
+          - link "Sign In / Register" [ref=f733e16] [cursor=pointer]:
+            - /url: /careersection/2/jobsearch.ftl?ftlcompclass=LoginComponent
+          - list [ref=f733e17]:
+            - listitem [ref=f733e18]:
+              - link "Job Search" [ref=f733e19] [cursor=pointer]:
+                - /url: /careersection/2/jobsearch.ftl
+            - listitem [ref=f733e20]:
+              - link "My Jobpage" [ref=f733e21] [cursor=pointer]:
+                - /url: /careersection/2/mysubmissions.ftl
+        - generic [ref=f733e22]:
+          - list [ref=f733e27]:
+            - listitem [ref=f733e28]:
+              - link "View All Jobs" [ref=f733e29] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=f733e30]:
+              - link "Advanced Search" [ref=f733e31] [cursor=pointer]:
+                - /url: /careersection/2/moresearch.ftl
+          - generic [ref=f733e32]:
+            - generic:
+              - status [ref=f733e33]:
+                - heading "Job Openings 1 - 25 of 26" [level=1] [ref=f733e173]
+              - generic [ref=f733e35]:
+                - text: "RSS:"
+                - button [ref=f733e36] [cursor=pointer]:
+                  - button "Create an RSS feed" [ref=f733e37]
+          - generic:
+            - generic [ref=f733e38]:
+              - button "Location" [disabled] [ref=f733e42]
+              - generic [ref=f733e43]:
+                - button "Job Field" [expanded] [ref=f733e46] [cursor=pointer]
+                - generic [ref=f733e174]:
+                  - group "Staff Category" [ref=f733e175]:
+                    - checkbox "Technical International(10)" [ref=f733e178]
+                    - generic [ref=f733e179]: Technical International(10)
+                    - checkbox "Anticipated Vacancy(4)" [ref=f733e184]
+                    - generic [ref=f733e185]: Anticipated Vacancy(4)
+                    - checkbox "Technical Local - Field Office(4)" [ref=f733e190]
+                    - generic [ref=f733e191]: Technical Local - Field Office(4)
+                    - checkbox "Technical Local - HQ(4)" [ref=f733e196]
+                    - generic [ref=f733e197]: Technical Local - HQ(4)
+                    - checkbox "Managerial International(4)" [ref=f733e202]
+                    - generic [ref=f733e203]: Managerial International(4)
+                  - link "See all job fields" [ref=f733e209] [cursor=pointer]:
+                    - /url: javascript:void(0);
+              - generic [ref=f733e47]:
+                - button "Posting Date" [expanded] [ref=f733e50] [cursor=pointer]
+                - combobox [ref=f733e212]:
+                  - option [selected]
+                  - option "Today"
+                  - option "Yesterday"
+                  - option "Last 7 Days"
+                  - option "Last 14 Days"
+                  - option "Last 21 Days"
+                  - option "Last 28 Days"
+            - generic [ref=f733e51]:
+              - generic [ref=f733e57]:
+                - link "Save this Search" [ref=f733e59] [cursor=pointer]:
+                  - /url: /careersection/2/jobsearch.ftl?ftlcompclass=LoginComponent&restore=true
+                - generic [ref=f733e60]:
+                  - generic:
+                    - generic [ref=f733e61]: Job list in multi line view. Press ENTER to switch to single line view.
+                    - link "Job list in multi line view. Press ENTER to switch to single line view." [ref=f733e62] [cursor=pointer]:
+                      - /url: "#"
+                      - text: Multi-line
+                  - button [ref=f733e64] [cursor=pointer]:
+                    - img "Access the online help" [ref=f733e65]
+                - generic [ref=f733e67]:
+                  - text: Sort by
+                  - generic [ref=f733e68]:
+                    - combobox "Sort by" [ref=f733e69]:
+                      - option "Location"
+                      - option "Posting Date" [selected]
+                      - option "Relevancy"
+                    - generic [ref=f733e70]: Order
+                    - combobox "Order" [ref=f733e71]:
+                      - option "Ascending"
+                      - option "Descending" [selected]
+              - generic [ref=f733e72]:
+                - alert [ref=f733e73]: The list of jobs has reloaded. 1 – 25 of 26. Page 1
+                - table "Job Openings" [ref=f733e75]:
+                  - rowgroup [ref=f733e76]:
+                    - row [ref=f733e77]:
+                      - columnheader "Icons" [ref=f733e78]
+                      - columnheader "Jobs" [ref=f733e80]
+                      - columnheader "Department" [ref=f733e81]
+                      - columnheader "Closing Date" [ref=f733e82]
+                      - columnheader "Actions" [ref=f733e83]
+                  - rowgroup [ref=f733e213]:
+                    - row [ref=f733e214]:
+                      - cell [ref=f733e215]
+                      - rowheader [ref=f733e216]:
+                        - generic "Adaptation Solutions Specialist (Transport)" [ref=f733e218]:
+                          - link "Adaptation Solutions Specialist (Transport)" [ref=f733e220] [cursor=pointer]:
+                            - /url: /careersection/2/jobdetail.ftl?job=260795&tz=GMT-05%3A00&tzname=America%2FChicago
+                      - cell "Sectors Department 1" [ref=f733e221]:
+                        - generic "Sectors Department 1" [ref=f733e223]
+                      - cell "25-Aug-2026" [ref=f733e224]:
+                        - generic "25-Aug-2026" [ref=f733e226]
+                      - cell [ref=f733e227]:
+                        - generic [ref=f733e228]:
+                          - button "Apply" [ref=f733e229] [cursor=pointer]
+                          - button "More actions" [ref=f733e230] [cursor=pointer]: ‌
+                    - row [ref=f733e232]:
+                      - cell [ref=f733e233]
+                      - rowheader [ref=f733e234]:
+                        - generic "Investment Officer" [ref=f733e236]:
+                          - link "Investment Officer" [ref=f733e238] [cursor=pointer]:
+                            - /url: /careersection/2/jobdetail.ftl?job=260778&tz=GMT-05%3A00&tzname=America%2FChicago
+                      - cell "Private Sector Operations Department" [ref=f733e239]:
+                        - generic "Private Sector Operations Department" [ref=f733e241]
+                      - cell "25-Aug-2026" [ref=f733e242]:
+                        - generic "25-Aug-2026" [ref=f733e244]
+                      - cell [ref=f733e245]:
+                        - generic [ref=f733e246]:
+                          - button "Apply" [ref=f733e247] [cursor=pointer]
+                          - button "More actions" [ref=f733e248] [cursor=pointer]: ‌
+                    - row [ref=f733e250]:
+                      - cell [ref=f733e251]
+                      - rowheader [ref=f733e252]:
+                        - generic "Senior Operations Assistant" [ref=f733e254]:
+                          - link "Senior Operations Assistant" [ref=f733e256] [cursor=pointer]:
+                            - /url: /careersection/2/jobdetail.ftl?job=260805&tz=GMT-05%3A00&tzname=America%2FChicago
+                      - cell "Southeast Asia Department" [ref=f733e257]:
+                        - generic "Southeast Asia Department" [ref=f733e259]
+                      - cell "21-Aug-2026" [ref=f733e260]:
+                        - generic "21-Aug-2026" [ref=f733e262]
+                      - cell [ref=f733e263]:
+                        - generic [ref=f733e264]:
+                          - button "Apply" [ref=f733e265] [cursor=pointer]
+                          - button "More actions" [ref=f733e266] [cursor=pointer]: ‌
+                    - row [ref=f733e268]:
+                      - cell [ref=f733e269]
+                      - rowheader [ref=f733e270]:
+                        - generic "Türkiye Talent Outreach 2026" [ref=f733e272]:
+                          - link "Türkiye Talent Outreach 2026" [ref=f733e274] [cursor=pointer]:
+                            - /url: /careersection/2/jobdetail.ftl?job=260824&tz=GMT-05%3A00&tzname=America%2FChicago
+                      - cell "Budget, People, and Management Systems Department" [ref=f733e275]:
+                        - generic "Budget, People, and Management Systems Department" [ref=f733e277]
+                      - cell "06-Sep-2026" [ref=f733e278]:
+                        - generic "06-Sep-2026" [ref=f733e280]
+                      - cell [ref=f733e281]:
+                        - generic [ref=f733e282]:
+                          - button "Apply" [ref=f733e283] [cursor=pointer]
+                          - button "More actions" [ref=f733e284] [cursor=pointer]: ‌
+                    - row [ref=f733e286]:
+                      - cell [ref=f733e287]
+                      - rowheader [ref=f733e288]:
+                        - generic "Reward Specialist" [ref=f733e290]:
+                          - link "Reward Specialist" [ref=f733e292] [cursor=pointer]:
+                            - /url: /careersection/2/jobdetail.ftl?job=260815&tz=GMT-05%3A00&tzname=America%2FChicago
+                      - cell "Budget, People, and Management Systems Department" [ref=f733e293]:
+                        - generic "Budget, People, and Management Systems Department" [ref=f733e295]
+                      - cell "04-Sep-2026" [ref=f733e296]:
+                        - generic "04-Sep-2026" [ref=f733e298]
+                      - cell [ref=f733e299]:
+                        - generic [ref=f733e300]:
+                          - button "Apply" [ref=f733e301] [cursor=pointer]
+                          - button "More actions" [ref=f733e302] [cursor=pointer]: ‌
+                    - row [ref=f733e304]:
+                      - cell [ref=f733e305]
+                      - rowheader [ref=f733e306]:
+                        - generic "Investment Specialist" [ref=f733e308]:
+                          - link "Investment Specialist" [ref=f733e310] [cursor=pointer]:
+                            - /url: /careersection/2/jobdetail.ftl?job=260773&tz=GMT-05%3A00&tzname=America%2FChicago
+                      - cell "Private Sector Operations Department" [ref=f733e311]:
+                        - generic "Private Sector Operations Department" [ref=f733e313]
+                      - cell "20-Aug-2026" [ref=f733e314]:
+                        - generic "20-Aug-2026" [ref=f733e316]
+                      - cell [ref=f733e317]:
+                        - generic [ref=f733e318]:
+                          - button "Apply" [ref=f733e319] [cursor=pointer]
+                          - button "More actions" [ref=f733e320] [cursor=pointer]: ‌
+                    - row [ref=f733e322]:
+                      - cell [ref=f733e323]
+                      - rowheader [ref=f733e324]:
+                        - generic "Financial Management Specialist" [ref=f733e326]:
+                          - link "Financial Management Specialist" [ref=f733e328] [cursor=pointer]:
+                            - /url: /careersection/2/jobdetail.ftl?job=260666&tz=GMT-05%3A00&tzname=America%2FChicago
+                      - cell "Procurement, Portfolio and Financial Management Department" [ref=f733e329]:
+                        - generic "Procurement, Portfolio and Financial Management Department" [ref=f733e331]
+                      - cell "19-Aug-2026" [ref=f733e332]:
+                        - generic "19-Aug-2026" [ref=f733e334]
+                      - cell [ref=f733e335]:
+                        - generic [ref=f733e336]:
+                          - button "Apply" [ref=f733e337] [cursor=pointer]
+                          - button "More actions" [ref=f733e338] [cursor=pointer]: ‌
+                    - row [ref=f733e340]:
+                      - cell [ref=f733e341]
+                      - rowheader [ref=f733e342]:
+                        - generic "Senior Advisor (Public Sector Management and Governance)" [ref=f733e344]:
+                          - link "Senior Advisor (Public Sector Management and Governance)" [ref=f733e346] [cursor=pointer]:
+                            - /url: /careersection/2/jobdetail.ftl?job=260802&tz=GMT-05%3A00&tzname=America%2FChicago
+                      - cell "Sectors Department 3" [ref=f733e347]:
+                        - generic "Sectors Department 3" [ref=f733e349]
+                      - cell "19-Aug-2026" [ref=f733e350]:
+                        - generic "19-Aug-2026" [ref=f733e352]
+                      - cell [ref=f733e353]:
+                        - generic [ref=f733e354]:
+                          - button "Apply" [ref=f733e355] [cursor=pointer]
+                          - button "More actions" [ref=f733e356] [cursor=pointer]: ‌
+                    - row [ref=f733e358]:
+                      - cell [ref=f733e359]
+                      - rowheader [ref=f733e360]:
+                        - generic "Senior Advisor (Finance Sector)" [ref=f733e362]:
+                          - link "Senior Advisor (Finance Sector)" [ref=f733e364] [cursor=pointer]:
+                            - /url: /careersection/2/jobdetail.ftl?job=260803&tz=GMT-05%3A00&tzname=America%2FChicago
+                      - cell "Sectors Department 3" [ref=f733e365]:
+                        - generic "Sectors Department 3" [ref=f733e367]
+                      - cell "19-Aug-2026" [ref=f733e368]:
+                        - generic "19-Aug-2026" [ref=f733e370]
+                      - cell [ref=f733e371]:
+                        - generic [ref=f733e372]:
+                          - button "Apply" [ref=f733e373] [cursor=pointer]
+                          - button "More actions" [ref=f733e374] [cursor=pointer]: ‌
+                    - row [ref=f733e376]:
+                      - cell [ref=f733e377]
+                      - rowheader [ref=f733e378]:
+                        - generic "Senior Operations Assistant" [ref=f733e380]:
+                          - link "Senior Operations Assistant" [ref=f733e382] [cursor=pointer]:
+                            - /url: /careersection/2/jobdetail.ftl?job=260781&tz=GMT-05%3A00&tzname=America%2FChicago
+                      - cell "Southeast Asia Department" [ref=f733e383]:
+                        - generic "Southeast Asia Department" [ref=f733e385]
+                      - cell "17-Aug-2026" [ref=f733e386]:
+                        - generic "17-Aug-2026" [ref=f733e388]
+                      - cell [ref=f733e389]:
+                        - generic [ref=f733e390]:
+                          - button "Apply" [ref=f733e391] [cursor=pointer]
+                          - button "More actions" [ref=f733e392] [cursor=pointer]: ‌
+                    - row [ref=f733e394]:
+                      - cell [ref=f733e395]
+                      - rowheader [ref=f733e396]:
+                        - generic "Financial Sector Specialist" [ref=f733e398]:
+                          - link "Financial Sector Specialist" [ref=f733e400] [cursor=pointer]:
+                            - /url: /careersection/2/jobdetail.ftl?job=260779&tz=GMT-05%3A00&tzname=America%2FChicago
+                      - cell "Sectors Department 3" [ref=f733e401]:
+                        - generic "Sectors Department 3" [ref=f733e403]
+                      - cell "14-Aug-2026" [ref=f733e404]:
+                        - generic "14-Aug-2026" [ref=f733e406]
+                      - cell [ref=f733e407]:
+                        - generic [ref=f733e408]:
+                          - button "Apply" [ref=f733e409] [cursor=pointer]
+                          - button "More actions" [ref=f733e410] [cursor=pointer]: ‌
+                    - row [ref=f733e412]:
+                      - cell [ref=f733e413]
+                      - rowheader [ref=f733e414]:
+                        - generic "Associate Financial Control Officer" [ref=f733e416]:
+                          - link "Associate Financial Control Officer" [ref=f733e418] [cursor=pointer]:
+                            - /url: /careersection/2/jobdetail.ftl?job=260738&tz=GMT-05%3A00&tzname=America%2FChicago
+                      - cell "Controller's Department" [ref=f733e419]:
+                        - generic "Controller's Department" [ref=f733e421]
+                      - cell "14-Aug-2026" [ref=f733e422]:
+                        - generic "14-Aug-2026" [ref=f733e424]
+                      - cell [ref=f733e425]:
+                        - generic [ref=f733e426]:
+                          - button "Apply" [ref=f733e427] [cursor=pointer]
+                          - button "More actions" [ref=f733e428] [cursor=pointer]: ‌
+                    - row [ref=f733e430]:
+                      - cell [ref=f733e431]
+                      - rowheader [ref=f733e432]:
+                        - generic "Principal Business Intelligence Specialist (Operations)" [ref=f733e434]:
+                          - link "Principal Business Intelligence Specialist (Operations)" [ref=f733e436] [cursor=pointer]:
+                            - /url: /careersection/2/jobdetail.ftl?job=260764&tz=GMT-05%3A00&tzname=America%2FChicago
+                      - cell "Office of Business Intelligence and Operations Coordination" [ref=f733e437]:
+                        - generic "Office of Business Intelligence and Operations Coordination" [ref=f733e439]
+                      - cell "13-Aug-2026" [ref=f733e440]:
+                        - generic "13-Aug-2026" [ref=f733e442]
+                      - cell [ref=f733e443]:
+                        - generic [ref=f733e444]:
+                          - button "Apply" [ref=f733e445] [cursor=pointer]
+                          - button "More actions" [ref=f733e446] [cursor=pointer]: ‌
+                    - row [ref=f733e448]:
+                      - cell [ref=f733e449]
+                      - rowheader [ref=f733e450]:
+                        - generic "Principal IT Specialist (Digital Adoption and Outreach)" [ref=f733e452]:
+                          - link "Principal IT Specialist (Digital Adoption and Outreach)" [ref=f733e454] [cursor=pointer]:
+                            - /url: /careersection/2/jobdetail.ftl?job=260749&tz=GMT-05%3A00&tzname=America%2FChicago
+                      - cell "Information Technology Department" [ref=f733e455]:
+                        - generic "Information Technology Department" [ref=f733e457]
+                      - cell "13-Aug-2026" [ref=f733e458]:
+                        - generic "13-Aug-2026" [ref=f733e460]
+                      - cell [ref=f733e461]:
+                        - generic [ref=f733e462]:
+                          - button "Apply" [ref=f733e463] [cursor=pointer]
+                          - button "More actions" [ref=f733e464] [cursor=pointer]: ‌
+                    - row [ref=f733e466]:
+                      - cell [ref=f733e467]
+                      - rowheader [ref=f733e468]:
+                        - generic "Economics Analyst" [ref=f733e470]:
+                          - link "Economics Analyst" [ref=f733e472] [cursor=pointer]:
+                            - /url: /careersection/2/jobdetail.ftl?job=260726&tz=GMT-05%3A00&tzname=America%2FChicago
+                      - cell "South Asia Department" [ref=f733e473]:
+                        - generic "South Asia Department" [ref=f733e475]
+                      - cell "13-Aug-2026" [ref=f733e476]:
+                        - generic "13-Aug-2026" [ref=f733e478]
+                      - cell [ref=f733e479]:
+                        - generic [ref=f733e480]:
+                          - button "Apply" [ref=f733e481] [cursor=pointer]
+                          - button "More actions" [ref=f733e482] [cursor=pointer]: ‌
+                    - row [ref=f733e484]:
+                      - cell [ref=f733e485]
+                      - rowheader [ref=f733e486]:
+                        - generic "Investment Officer" [ref=f733e488]:
+                          - link "Investment Officer" [ref=f733e490] [cursor=pointer]:
+                            - /url: /careersection/2/jobdetail.ftl?job=260750&tz=GMT-05%3A00&tzname=America%2FChicago
+                      - cell "Private Sector Operations Department" [ref=f733e491]:
+                        - generic "Private Sector Operations Department" [ref=f733e493]
+                      - cell "12-Aug-2026" [ref=f733e494]:
+                        - generic "12-Aug-2026" [ref=f733e496]
+                      - cell [ref=f733e497]:
+                        - generic [ref=f733e498]:
+                          - button "Apply" [ref=f733e499] [cursor=pointer]
+                          - button "More actions" [ref=f733e500] [cursor=pointer]: ‌
+                    - row [ref=f733e502]:
+                      - cell [ref=f733e503]
+                      - rowheader [ref=f733e504]:
+                        - generic "Assistant Treasurer" [ref=f733e506]:
+                          - link "Assistant Treasurer" [ref=f733e508] [cursor=pointer]:
+                            - /url: /careersection/2/jobdetail.ftl?job=260770&tz=GMT-05%3A00&tzname=America%2FChicago
+                      - cell "Treasury Department" [ref=f733e509]:
+                        - generic "Treasury Department" [ref=f733e511]
+                      - cell "21-Aug-2026" [ref=f733e512]:
+                        - generic "21-Aug-2026" [ref=f733e514]
+                      - cell [ref=f733e515]:
+                        - generic [ref=f733e516]:
+                          - button "Apply" [ref=f733e517] [cursor=pointer]
+                          - button "More actions" [ref=f733e518] [cursor=pointer]: ‌
+                    - row [ref=f733e520]:
+                      - cell [ref=f733e521]
+                      - rowheader [ref=f733e522]:
+                        - generic "Senior Private Sector Development Specialist" [ref=f733e524]:
+                          - link "Senior Private Sector Development Specialist" [ref=f733e526] [cursor=pointer]:
+                            - /url: /careersection/2/jobdetail.ftl?job=260740&tz=GMT-05%3A00&tzname=America%2FChicago
+                      - cell "South Asia Department" [ref=f733e527]:
+                        - generic "South Asia Department" [ref=f733e529]
+                      - cell "13-Aug-2026" [ref=f733e530]:
+                        - generic "13-Aug-2026" [ref=f733e532]
+                      - cell [ref=f733e533]:
+                        - generic [ref=f733e534]:
+                          - button "Apply" [ref=f733e535] [cursor=pointer]
+                          - button "More actions" [ref=f733e536] [cursor=pointer]: ‌
+                    - row [ref=f733e538]:
+                      - cell [ref=f733e539]
+                      - rowheader [ref=f733e540]:
+                        - generic "Finance and Administration Officer" [ref=f733e542]:
+                          - link "Finance and Administration Officer" [ref=f733e544] [cursor=pointer]:
+                            - /url: /careersection/2/jobdetail.ftl?job=260730&tz=GMT-05%3A00&tzname=America%2FChicago
+                      - cell "Pacific Department" [ref=f733e545]:
+                        - generic "Pacific Department" [ref=f733e547]
+                      - cell "27-Aug-2026" [ref=f733e548]:
+                        - generic "27-Aug-2026" [ref=f733e550]
+                      - cell [ref=f733e551]:
+                        - generic [ref=f733e552]:
+                          - button "Apply" [ref=f733e553] [cursor=pointer]
+                          - button "More actions" [ref=f733e554] [cursor=pointer]: ‌
+                    - row [ref=f733e556]:
+                      - cell [ref=f733e557]
+                      - rowheader [ref=f733e558]:
+                        - generic "Investment Officer" [ref=f733e560]:
+                          - link "Investment Officer" [ref=f733e562] [cursor=pointer]:
+                            - /url: /careersection/2/jobdetail.ftl?job=260728&tz=GMT-05%3A00&tzname=America%2FChicago
+                      - cell "Private Sector Operations Department" [ref=f733e563]:
+                        - generic "Private Sector Operations Department" [ref=f733e565]
+                      - cell "20-Aug-2026" [ref=f733e566]:
+                        - generic "20-Aug-2026" [ref=f733e568]
+                      - cell [ref=f733e569]:
+                        - generic [ref=f733e570]:
+                          - button "Apply" [ref=f733e571] [cursor=pointer]
+                          - button "More actions" [ref=f733e572] [cursor=pointer]: ‌
+                    - row [ref=f733e574]:
+                      - cell [ref=f733e575]
+                      - rowheader [ref=f733e576]:
+                        - generic "Individual Career Guidance - Recruitment Outreach Mission in Tokyo, Japan" [ref=f733e578]:
+                          - link "Individual Career Guidance - Recruitment Outreach Mission in Tokyo, Japan" [ref=f733e580] [cursor=pointer]:
+                            - /url: /careersection/2/jobdetail.ftl?job=260701&tz=GMT-05%3A00&tzname=America%2FChicago
+                      - cell "Budget, People, and Management Systems Department" [ref=f733e581]:
+                        - generic "Budget, People, and Management Systems Department" [ref=f733e583]
+                      - cell "17-Aug-2026" [ref=f733e584]:
+                        - generic "17-Aug-2026" [ref=f733e586]
+                      - cell [ref=f733e587]:
+                        - generic [ref=f733e588]:
+                          - button "Apply" [ref=f733e589] [cursor=pointer]
+                          - button "More actions" [ref=f733e590] [cursor=pointer]: ‌
+                    - row [ref=f733e592]:
+                      - cell [ref=f733e593]
+                      - rowheader [ref=f733e594]:
+                        - generic "Recruitment Outreach – Malaysia" [ref=f733e596]:
+                          - link "Recruitment Outreach – Malaysia" [ref=f733e598] [cursor=pointer]:
+                            - /url: /careersection/2/jobdetail.ftl?job=260602&tz=GMT-05%3A00&tzname=America%2FChicago
+                      - cell "Budget, People, and Management Systems Department" [ref=f733e599]:
+                        - generic "Budget, People, and Management Systems Department" [ref=f733e601]
+                      - cell "14-Aug-2026" [ref=f733e602]:
+                        - generic "14-Aug-2026" [ref=f733e604]
+                      - cell [ref=f733e605]:
+                        - generic [ref=f733e606]:
+                          - button "Apply" [ref=f733e607] [cursor=pointer]
+                          - button "More actions" [ref=f733e608] [cursor=pointer]: ‌
+                    - row [ref=f733e610]:
+                      - cell [ref=f733e611]
+                      - rowheader [ref=f733e612]:
+                        - generic "Recruitment Outreach – Bangkok, Thailand" [ref=f733e614]:
+                          - link "Recruitment Outreach – Bangkok, Thailand" [ref=f733e616] [cursor=pointer]:
+                            - /url: /careersection/2/jobdetail.ftl?job=260601&tz=GMT-05%3A00&tzname=America%2FChicago
+                      - cell "Budget, People, and Management Systems Department" [ref=f733e617]:
+                        - generic "Budget, People, and Management Systems Department" [ref=f733e619]
+                      - cell "14-Aug-2026" [ref=f733e620]:
+                        - generic "14-Aug-2026" [ref=f733e622]
+                      - cell [ref=f733e623]:
+                        - generic [ref=f733e624]:
+                          - button "Apply" [ref=f733e625] [cursor=pointer]
+                          - button "More actions" [ref=f733e626] [cursor=pointer]: ‌
+                - generic [ref=f733e84]:
+                  - link "Previous" [disabled] [ref=f733e87] [cursor=pointer]:
+                    - /url: "#"
+                  - list [ref=f733e629]:
+                    - listitem [ref=f733e630]:
+                      - link "1" [disabled] [ref=f733e631]:
+                        - /url: "#"
+                    - listitem [ref=f733e632]:
+                      - link "2" [ref=f733e633] [cursor=pointer]:
+                        - /url: "#"
+                  - link "Next" [ref=f733e90] [cursor=pointer]:
+                    - /url: "#"
+    - generic [ref=f733e93]:
+      - generic [ref=f733e95]:
+        - generic [ref=f733e98]:
+          - heading "Why Work at ADB?" [level=2] [ref=f733e99]
+          - list [ref=f733e102]:
+            - listitem [ref=f733e103]:
+              - link "What We Offer" [ref=f733e104] [cursor=pointer]:
+                - /url: http://www.adb.org/site/careers/what-we-offer
+            - listitem [ref=f733e105]:
+              - link "Meet Our People" [ref=f733e106] [cursor=pointer]:
+                - /url: http://www.adb.org/site/careers/what-we-look-for/meet-our-people
+            - listitem [ref=f733e107]:
+              - link "Life at ADB" [ref=f733e108] [cursor=pointer]:
+                - /url: http://www.adb.org/site/careers/what-we-offer/workplace-and-environment
+        - generic [ref=f733e111]:
+          - heading "Opportunities" [level=2] [ref=f733e112]
+          - list [ref=f733e115]:
+            - listitem [ref=f733e116]:
+              - link "What We Look For" [ref=f733e117] [cursor=pointer]:
+                - /url: http://www.adb.org/site/careers/what-we-look-for
+            - listitem [ref=f733e118]:
+              - link "Internship Program" [ref=f733e119] [cursor=pointer]:
+                - /url: http://www.adb.org/site/careers/internship-program
+            - listitem [ref=f733e120]:
+              - link "Careers at ADBI" [ref=f733e121] [cursor=pointer]:
+                - /url: http://www.adb.org/adbi/main
+            - listitem [ref=f733e122]:
+              - link "ADB-Japan Scholarship Program" [ref=f733e123] [cursor=pointer]:
+                - /url: http://www.adb.org/site/careers/japan-scholarship-program/main
+        - generic [ref=f733e126]:
+          - heading "Learn More" [level=2] [ref=f733e127]
+          - list [ref=f733e129]:
+            - listitem [ref=f733e130]:
+              - link "Frequently Asked Questions" [ref=f733e131] [cursor=pointer]:
+                - /url: http://www.adb.org/site/careers/faqs/aces
+            - listitem [ref=f733e132]:
+              - link "Contact Us" [ref=f733e133] [cursor=pointer]:
+                - /url: https://www.adb.org/contact?target=Hz8eg9/9ZI/PbeRShL+yPrOfV+uQuHoJGOziPYJeXgo=&name=ADB%20Career%20and%20Employment%20System%20(ACES)&referrer=node/569276
+        - generic [ref=f733e135]:
+          - generic [ref=f733e137]:
+            - heading "Asian Development Bank" [level=1] [ref=f733e138]
+            - list [ref=f733e140]:
+              - listitem [ref=f733e141]: "Headquarters: 6 ADB Avenue,"
+              - listitem [ref=f733e142]: Mandaluyong City 1550, Metro
+              - listitem [ref=f733e143]: Manila, Philippines
+              - listitem [ref=f733e144]: + 63 2 632 4444
+              - listitem [ref=f733e145]: + 63 2 636 2444
+          - generic [ref=f733e149]:
+            - link [ref=f733e150] [cursor=pointer]:
+              - /url: mailto:adbemp@adb.org
+              - img "mail" [ref=f733e151]
+            - link [ref=f733e152] [cursor=pointer]:
+              - /url: https://www.linkedin.com/company/asian-development-bank
+              - img "linkedin" [ref=f733e153]
+            - link [ref=f733e154] [cursor=pointer]:
+              - /url: https://www.facebook.com/AsianDevBank
+              - img "facebook" [ref=f733e155]
+            - link [ref=f733e156] [cursor=pointer]:
+              - /url: https://twitter.com/ADB_HQ
+              - img "twitter" [ref=f733e157]
+            - link [ref=f733e158] [cursor=pointer]:
+              - /url: https://www.youtube.com/AsianDevelopmentBank
+              - img "youtube" [ref=f733e159]
+      - generic [ref=f733e162]:
+        - generic [ref=f733e163]:
+          - text: ©
+          - link "Asian Development Bank" [ref=f733e164] [cursor=pointer]:
+            - /url: http://www.adb.org/
+          - text: . All Rights Reserved.
+        - list [ref=f733e166]:
+          - listitem [ref=f733e167]:
+            - link "Terms of use" [ref=f733e168] [cursor=pointer]:
+              - /url: http://www.adb.org/terms-use
+  - status [ref=f733e169]
+  - status [ref=f733e170]
+  - status [ref=f733e171]
+  - status [ref=f733e172]

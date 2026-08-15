@@ -1,0 +1,329 @@
+- generic [active] [ref=f708e1]:
+  - link "Skip to main content":
+    - /url: "#skip"
+  - generic [ref=f708e2]:
+    - region "Alerts and Notifications"
+    - banner [ref=f708e3]:
+      - generic [ref=f708e4]:
+        - img "Wells Fargo Home Page" [ref=f708e7]
+        - navigation "Header Navigation" [ref=f708e8]:
+          - list [ref=f708e9]:
+            - listitem [ref=f708e10]:
+              - link "ATMs/Locations" [ref=f708e11] [cursor=pointer]:
+                - /url: https://locations.wellsfargo.com/search
+            - listitem [ref=f708e12]:
+              - button "Help" [ref=f708e13] [cursor=pointer]
+            - listitem [ref=f708e14]:
+              - link "Español" [ref=f708e15] [cursor=pointer]:
+                - /url: /es/
+            - listitem [ref=f708e16]:
+              - link "Search, Opens a dialog." [ref=f708e17] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=f708e18]:
+              - link "Sign On" [ref=f708e20] [cursor=pointer]:
+                - /url: https://connect.secure.wellsfargo.com/auth/login/present?origin=cob&LOB=CONS
+    - navigation "Main Navigation" [ref=f708e22]:
+      - list [ref=f708e25]:
+        - listitem [ref=f708e26]:
+          - link "selected, Personal" [ref=f708e27] [cursor=pointer]:
+            - /url: /
+            - generic: selected,
+            - text: Personal
+          - list [ref=f708e28]:
+            - listitem [ref=f708e29]:
+              - link "Checking" [ref=f708e30] [cursor=pointer]:
+                - /url: /checking/
+            - listitem [ref=f708e31]:
+              - link "Savings & CDs" [ref=f708e32] [cursor=pointer]:
+                - /url: /savings-cds/
+            - listitem [ref=f708e33]:
+              - link "Credit Cards" [ref=f708e34] [cursor=pointer]:
+                - /url: https://creditcards.wellsfargo.com/?sub_channel=WEB&vendor_code=WF&linkLoc=FNMC&lang=en
+            - listitem [ref=f708e35]:
+              - link "Home Loans" [ref=f708e36] [cursor=pointer]:
+                - /url: /mortgage/
+            - listitem [ref=f708e37]:
+              - link "Personal Loans" [ref=f708e38] [cursor=pointer]:
+                - /url: /personal-loans/
+            - listitem [ref=f708e39]:
+              - link "Auto Loans" [ref=f708e40] [cursor=pointer]:
+                - /url: /auto-loans/
+            - listitem [ref=f708e41]:
+              - link "Premier" [ref=f708e42] [cursor=pointer]:
+                - /url: /premier/
+            - listitem [ref=f708e43]:
+              - link "Education & Tools" [ref=f708e44] [cursor=pointer]:
+                - /url: /financial-health/
+        - listitem [ref=f708e45]:
+          - link "Investing & Wealth Management" [ref=f708e46] [cursor=pointer]:
+            - /url: /investing-wealth/
+        - listitem [ref=f708e47]:
+          - link "Business" [ref=f708e48] [cursor=pointer]:
+            - /url: /biz/
+        - listitem [ref=f708e49]:
+          - link "Commercial Banking" [ref=f708e50] [cursor=pointer]:
+            - /url: /com/
+        - listitem [ref=f708e51]:
+          - link "Corporate & Investment Banking" [ref=f708e52] [cursor=pointer]:
+            - /url: /cib/
+        - listitem [ref=f708e53]:
+          - link "About Wells Fargo" [ref=f708e54] [cursor=pointer]:
+            - /url: /about/
+    - main [ref=f708e55]:
+      - heading "Wells Fargo" [level=1]
+      - generic [ref=f708e56]:
+        - generic [ref=f708e57]:
+          - heading "Good afternoon" [level=2] [ref=f708e58]
+          - generic [ref=f708e59]: Sign on to manage your accounts.
+          - generic [ref=f708e60]:
+            - generic [ref=f708e61]:
+              - textbox "Username" [ref=f708e62]
+              - generic [ref=f708e63]: Username
+            - generic [ref=f708e64]:
+              - textbox "Password" [ref=f708e65]
+              - generic [ref=f708e66]: Password
+              - button "Show password" [ref=f708e67] [cursor=pointer]: Show
+            - generic [ref=f708e68]:
+              - checkbox "Save username"
+              - generic [ref=f708e69]: Save username
+            - generic [ref=f708e70]:
+              - button "Sign On" [ref=f708e71] [cursor=pointer]
+              - link "Enroll" [ref=f708e72] [cursor=pointer]:
+                - /url: https://oam.wellsfargo.com/oamo/identity/authentication?execution=e1s1/
+        - generic [ref=f708e73]:
+          - link "Sign on with a passkey" [ref=f708e74] [cursor=pointer]:
+            - /url: https://connect.secure.wellsfargo.com/auth/login/present?passkey=Y
+          - link "Forgot username or password?" [ref=f708e75] [cursor=pointer]:
+            - /url: https://oam.wellsfargo.com/oamo/identity/help/passwordhelp/
+          - link "Privacy, Cookies, and Legal" [ref=f708e76] [cursor=pointer]:
+            - /url: /privacy-security/?linkLoc=signon
+      - generic [ref=f708e80]:
+        - img "Enjoy $325" [ref=f708e83]
+        - generic [ref=f708e84]:
+          - heading "$325 checking bonus on us" [level=2] [ref=f708e85]
+          - paragraph [ref=f708e86]: New customers open an eligible checking account with qualifying direct deposits
+          - link "Get Started and find out how to get a $325 checking bonus." [ref=f708e88] [cursor=pointer]:
+            - /url: https://accountoffers.wellsfargo.com/checkingoffer/?sub_channel=WEB&vendor_code=WF&collateral_code=HPPBQ326test
+            - text: Get started >>
+      - generic [ref=f708e89]:
+        - generic [ref=f708e92]:
+          - generic [ref=f708e95]:
+            - heading "New customer? Say hello to a $125 bonus" [level=2] [ref=f708e96]
+            - paragraph [ref=f708e97]: Open a Clear Access Banking account, great for students & more, complete offer requirements
+          - paragraph [ref=f708e99]:
+            - link "New customer? Say hello to a $125 bonus. Open a Clear Access Banking account, great for students & more, complete offer requirements. See offer details." [ref=f708e101] [cursor=pointer]:
+              - /url: https://accountoffers.wellsfargo.com/checking125/?sub_channel=WEB&vendor_code=WF&collateral_code=HPPS1551
+              - text: See offer details
+        - generic [ref=f708e104]:
+          - generic [ref=f708e107]:
+            - heading "Enjoy 0% intro APR for 21 months" [level=2] [ref=f708e108]
+            - paragraph [ref=f708e109]: from account opening on purchases and qualifying balance transfers. Terms apply.
+          - paragraph [ref=f708e111]:
+            - link "Enjoy 0% intro APR for 21 months from account opening on purchases and qualifying balance transfers. Terms apply. Learn more." [ref=f708e113] [cursor=pointer]:
+              - /url: https://creditcards.wellsfargo.com/reflect-visa-credit-card/?sub_channel=WEB&vendor_code=CE&lang=en&product_code=CC&SubProduct_Code=VV&creative_id=Ad_Banner&placement_id=CE_ccd_acq_vv_reflect_pstk1_7899613_&offerid=CE_ccd_takeonereflect0045_toolbelt&slotid=WF_CON_HP_SMLPRIMARY&linkloc=HP&OfferType=TK1
+              - text: Learn more
+        - generic [ref=f708e116]:
+          - generic [ref=f708e119]:
+            - heading "Earn up to $350 in One Key rewards" [level=2] [ref=f708e120]
+            - paragraph [ref=f708e121]: Use rewards on eligible bookings on Expedia®, Hotels.com®, and Vrbo®. Terms apply.
+          - paragraph [ref=f708e123]:
+            - link "Learn more about OneKey cash cards" [ref=f708e125] [cursor=pointer]:
+              - /url: https://creditcards.wellsfargo.com/compare-one-key-credit-cards/?sub_channel=WEB&vendor_code=CE&lang=en&product_code=CC&SubProduct_Code=MC&creative_id=Ad_Banner&placement_id=CE_ccd_acq_tk1onekey_dualproduct_1570_&offerid=CE_ccd_acq_tk1onekey_dualproduct_1570_toolbelt&slotid=WF_CON_HP_SMLPRIMARY&linkloc=HP&OfferType=TK1
+              - text: Learn more
+        - generic [ref=f708e129]:
+          - generic [ref=f708e130]:
+            - heading "Interest rates today" [level=2] [ref=f708e132]
+            - generic:
+              - list
+          - button "Check rates opens dropdown" [ref=f708e135] [cursor=pointer]:
+            - paragraph [ref=f708e136]:
+              - generic [ref=f708e137]: Check rates
+      - generic [ref=f708e147]:
+        - heading "Earn 60,000 bonus points" [level=2] [ref=f708e148]
+        - paragraph [ref=f708e149]: on qualifying purchases. Terms apply.
+        - link "Learn more. Earn 60,000 bonus points on qualifying purchases with the Choice credit card." [ref=f708e151] [cursor=pointer]:
+          - /url: https://creditcards.wellsfargo.com/wells-fargo-choice-privileges-credit-cards/
+          - text: Learn more
+      - generic [ref=f708e152]:
+        - generic [ref=f708e153]:
+          - generic [ref=f708e154]: ‍
+          - heading "Financial guidance and support" [level=2] [ref=f708e155]
+        - generic [ref=f708e156]:
+          - generic [ref=f708e160]:
+            - heading "Step into your future" [level=3] [ref=f708e161]
+            - generic [ref=f708e163]:
+              - text: Track goals and get insights for your financial future with LifeSync
+              - superscript [ref=f708e164]: ®
+            - paragraph [ref=f708e165]:
+              - link "Discover how. Track goals and get insights with LifeSync" [ref=f708e166] [cursor=pointer]:
+                - /url: https://sites.wf.com/lifesync/?utm_source=wfhp&utm_medium=1579lifesyncbanner&utm_campaign=25fhsmlpromo
+                - text: Discover how
+          - generic [ref=f708e170]:
+            - heading "Borrowing built around you" [level=3] [ref=f708e171]
+            - generic [ref=f708e172]: Discover borrowing designed for every step of your journey
+            - paragraph [ref=f708e174]:
+              - link "Explore borrowing. Designed for every step of your journey." [ref=f708e175] [cursor=pointer]:
+                - /url: /financial-goals/borrow/?utm_source=wfhp&utm_medium=1580borrowingbanner&utm_campaign=25fhsmlpromo
+                - text: Explore borrowing
+          - generic [ref=f708e179]:
+            - heading "Savings you can count on" [level=3] [ref=f708e180]
+            - generic [ref=f708e181]: Discover how smart saving moves you closer to your goals
+            - paragraph [ref=f708e183]:
+              - link "Grow your savings. Move closer to your goals." [ref=f708e184] [cursor=pointer]:
+                - /url: /financial-goals/save/?utm_source=wfhp&utm_medium=1578savingsbanner&utm_campaign=25fhsmlpromo
+                - text: Grow your savings
+      - generic [ref=f708e190]:
+        - generic [ref=f708e191]:
+          - heading [level=2] [ref=f708e192]:
+            - text: Need help? Ask Fargo
+            - superscript [ref=f708e193]: ®
+          - paragraph [ref=f708e194]:
+            - text: Fargo
+            - superscript [ref=f708e195]: "1"
+            - text: gives you valuable insights like a summary of your spending by category, retailer and across accounts. Find it only in the Wells Fargo Mobile
+            - superscript [ref=f708e196]: ®
+            - text: app.
+        - generic:
+          - generic:
+            - generic:
+              - list
+        - generic [ref=f708e199]:
+          - generic [ref=f708e200]:
+            - button "Download on the App Store opens a dialog" [ref=f708e201] [cursor=pointer]
+            - button "Get it on Google Play opens a dialog" [ref=f708e202] [cursor=pointer]
+          - generic [ref=f708e203]: "*Screen image is simulated"
+      - generic [ref=f708e205]:
+        - generic [ref=f708e206]:
+          - generic [ref=f708e207]: ‍
+          - heading "Serving our customers and communities" [level=2] [ref=f708e208]
+        - paragraph [ref=f708e210]: It doesn't happen with one transaction, in one day on the job, or in one quarter. It's earned relationship by relationship.
+        - generic [ref=f708e211]:
+          - generic [ref=f708e215]:
+            - heading "Who we are" [level=3] [ref=f708e217]
+            - generic [ref=f708e218]: Wells Fargo helps strengthen communities through inclusion, economic empowerment, and sustainability.
+            - paragraph [ref=f708e219]:
+              - link "About Wells Fargo" [ref=f708e220] [cursor=pointer]:
+                - /url: /about/
+          - generic [ref=f708e224]:
+            - heading "Why we're committed to communities" [level=3] [ref=f708e226]
+            - generic [ref=f708e227]: We don't just serve our communities—we are our communities. We're committed to helping customers and neighborhoods across the country thrive.
+            - paragraph [ref=f708e228]:
+              - link "Wells Fargo Stories" [ref=f708e229] [cursor=pointer]:
+                - /url: https://stories.wf.com/
+      - generic [ref=f708e230]:
+        - heading "How can we help?" [level=2] [ref=f708e233]
+        - generic [ref=f708e234]:
+          - list:
+            - listitem [ref=f708e235]:
+              - button "‍ Find a location ‍" [ref=f708e236] [cursor=pointer]:
+                - generic: ‍
+                - heading "Find a location" [level=3]
+                - generic: ‍
+            - listitem [ref=f708e237]:
+              - link "Make an appointment link" [ref=f708e238] [cursor=pointer]:
+                - /url: https://appointments.wellsfargo.com/maa/appointment/
+                - text: Make an appointment
+            - listitem [ref=f708e239]:
+              - button "‍ Quick help ‍" [ref=f708e240] [cursor=pointer]:
+                - generic: ‍
+                - heading "Quick help" [level=3]
+                - generic: ‍
+    - contentinfo [ref=f708e241]:
+      - generic [ref=f708e242]:
+        - navigation "Footer Navigation" [ref=f708e245]:
+          - list [ref=f708e246]:
+            - listitem [ref=f708e247]:
+              - link "Privacy, Cookies, Security & Legal" [ref=f708e249] [cursor=pointer]:
+                - /url: /privacy-security/
+            - listitem [ref=f708e250]:
+              - link "Do Not Sell or Share My Personal Information" [ref=f708e252] [cursor=pointer]:
+                - /url: /privacy-security/opt-out-notice/
+            - listitem [ref=f708e253]:
+              - link "Notice of Data Collection" [ref=f708e255] [cursor=pointer]:
+                - /url: /privacy-security/notice-of-data-collection/
+            - listitem [ref=f708e256]:
+              - link "General Terms of Use" [ref=f708e258] [cursor=pointer]:
+                - /url: /privacy-security/terms/
+            - listitem [ref=f708e259]:
+              - link "Online Access Agreement" [ref=f708e261] [cursor=pointer]:
+                - /url: /online-banking/online-access-agreement/
+            - listitem [ref=f708e262]:
+              - link "Report Fraud" [ref=f708e264] [cursor=pointer]:
+                - /url: /privacy-security/fraud/report/
+            - listitem [ref=f708e265]:
+              - link "About Wells Fargo" [ref=f708e267] [cursor=pointer]:
+                - /url: /about/?linkLoc=footer/
+            - listitem [ref=f708e268]:
+              - link "Careers" [ref=f708e270] [cursor=pointer]:
+                - /url: https://www.wellsfargojobs.com/
+            - listitem [ref=f708e271]:
+              - link "Inclusion and Accessibility" [ref=f708e273] [cursor=pointer]:
+                - /url: /about/inclusion/
+            - listitem [ref=f708e274]:
+              - link "Sitemap" [ref=f708e276] [cursor=pointer]:
+                - /url: /sitemap/
+        - list [ref=f708e279]:
+          - listitem [ref=f708e280]:
+            - link "Wells Fargo facebook page" [ref=f708e281] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=f708e282]:
+            - link "Wells Fargo LinkedIn page" [ref=f708e283] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=f708e284]:
+            - link "Wells Fargo Instagram page" [ref=f708e285] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=f708e286]:
+            - link "Wells Fargo Pinterest page" [ref=f708e287] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=f708e288]:
+            - link "Wells Fargo Youtube page" [ref=f708e289] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=f708e290]:
+            - link "Wells Fargo Twitter page" [ref=f708e291] [cursor=pointer]:
+              - /url: "#"
+        - generic [ref=f708e292]:
+          - paragraph [ref=f708e293]: "Investment and Insurance Products are:"
+          - list [ref=f708e294]:
+            - listitem [ref=f708e295]: Not Insured by the FDIC or Any Federal Government Agency
+            - listitem [ref=f708e296]: Not a Deposit or Other Obligation of, or Guaranteed by, the Bank or Any Bank Affiliate
+            - listitem [ref=f708e297]: Subject to Investment Risks, Including Possible Loss of the Principal Amount Invested
+        - generic [ref=f708e298]:
+          - paragraph
+          - paragraph [ref=f708e299]:
+            - text: Investment products and services are offered through Wells Fargo Advisors. Wells Fargo Advisors is a trade name used by Wells Fargo Clearing Services, LLC (WFCS) and Wells Fargo Advisors Financial Network, LLC, Members
+            - link "hyperlink text opens dialogue" [ref=f708e300] [cursor=pointer]:
+              - /url: "#"
+              - text: SIPC
+            - text: ", separate registered broker-dealers and non-bank affiliates of Wells Fargo & Company."
+          - paragraph
+        - generic [ref=f708e301]:
+          - paragraph
+          - paragraph [ref=f708e302]:
+            - text: 1. Availability may be affected by your mobile carrier’s coverage area. Your mobile carrier’s message and data rates may apply. Fargo is only available on the smartphone versions of the Wells Fargo Mobile
+            - superscript [ref=f708e303]: ®
+            - text: app.
+          - paragraph
+        - generic [ref=f708e304]:
+          - paragraph
+          - paragraph [ref=f708e305]: Android, Google Play, Chrome, Pixel and other marks are trademarks of Google LLC.
+          - paragraph
+        - generic [ref=f708e306]:
+          - paragraph
+          - paragraph [ref=f708e307]: Apple, the Apple logo, Apple Pay, Apple Watch, Face ID, iCloud Keychain, iPad, iPad Pro, iPhone, iTunes, Mac, Safari, and Touch ID are trademarks of Apple Inc., registered in the U.S. and other countries. Apple Wallet is a trademark of Apple Inc. App Store is a service mark of Apple Inc.
+          - paragraph
+        - generic [ref=f708e308]:
+          - paragraph
+          - paragraph [ref=f708e309]: Deposit products offered by Wells Fargo Bank, N.A. Member FDIC.
+          - paragraph
+        - generic [ref=f708e310]:
+          - generic [ref=f708e311]: ‍
+          - text: Equal Housing Lender
+        - generic [ref=f708e312]:
+          - paragraph
+          - paragraph [ref=f708e313]: PM-09192027-5314505
+          - paragraph
+        - generic [ref=f708e314]:
+          - paragraph
+          - paragraph [ref=f708e315]: DT2-09192027-12-8840298-1.1
+          - paragraph
+        - generic [ref=f708e316]: © 1999 - 2026 Wells Fargo. NMLSR ID 399801

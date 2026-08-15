@@ -1,0 +1,47 @@
+- generic [ref=f253e2]:
+  - link "Skip To Main Content" [ref=f253e3] [cursor=pointer]:
+    - /url: "#main"
+  - generic [ref=f253e4]:
+    - banner [ref=f253e5]:
+      - generic [ref=f253e6]:
+        - link [ref=f253e7] [cursor=pointer]:
+          - /url: /jobs/
+          - img "Alexandria Real Estate Equities, Inc logo" [ref=f253e8]
+        - heading "Alexandria Real Estate Equities, Inc" [level=1] [ref=f253e9]
+    - search [ref=f253e10]:
+      - generic [ref=f253e11]:
+        - combobox [ref=f253e13]:
+          - textbox "Keyword" [ref=f253e16]:
+            - /placeholder: job title or keywords
+        - combobox [ref=f253e18]:
+          - generic [ref=f253e20]:
+            - img "map pin" [ref=f253e22]
+            - textbox "Location" [ref=f253e23]:
+              - /placeholder: city, state, country or zip code
+        - button "Search" [ref=f253e24] [cursor=pointer]
+      - link "view all jobs (12)" [ref=f253e25] [cursor=pointer]:
+        - /url: /jobs/
+    - generic [ref=f253e175]:
+      - main [ref=f253e176]:
+        - generic [ref=f253e177]: LOADING...
+        - list [ref=f253e179]:
+          - listitem [ref=f253e180]
+          - listitem [ref=f253e186]
+          - listitem [ref=f253e192]
+          - listitem [ref=f253e198]
+          - listitem [ref=f253e204]
+      - complementary [ref=f253e212]
+    - contentinfo [ref=f253e162]:
+      - generic [ref=f253e163]:
+        - text: Powered By
+        - img "DirectEmployers Association logo" [ref=f253e164]
+      - link "Cookie Policy" [ref=f253e166] [cursor=pointer]:
+        - /url: "#"
+    - generic [ref=f253e169]:
+      - paragraph [ref=f253e170]:
+        - text: We use cookies to improve your experience on our site. To find out more, read our
+        - link "privacy policy" [ref=f253e171] [cursor=pointer]:
+          - /url: https://directemployers.org/privacy-terms/
+      - generic [ref=f253e172]:
+        - button "Accept Cookies" [ref=f253e173] [cursor=pointer]
+        - button "Decline Cookies" [ref=f253e174] [cursor=pointer]

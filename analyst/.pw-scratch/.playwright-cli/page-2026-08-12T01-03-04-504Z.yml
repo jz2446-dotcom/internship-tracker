@@ -1,0 +1,14 @@
+- dialog "We Value Your Privacy" [ref=f16e3]:
+  - generic [ref=f16e4]:
+    - generic [ref=f16e5]:
+      - generic:
+        - heading "We Value Your Privacy" [level=2] [ref=f16e6]
+        - generic [ref=f16e7]:
+          - text: Franklin Templeton uses essential (or strictly necessary) cookies to run our site. With your permission, we’ll also use cookies and other tracking technologies to analyze website usage, improve performance, personalize your experience, deliver personalized ads, and support marketing efforts. Non-essential cookies remain off until you choose Accept All or enable them in Manage Settings. You can continue with essential-only and change choices anytime. For more information, view our
+          - link "Privacy & Cookies Notice" [ref=f16e8] [cursor=pointer]:
+            - /url: https://www.franklintempleton.com/help/privacy-policy
+          - text: .
+    - generic [ref=f16e10]:
+      - button "Manage Settings, Opens the preference center dialog" [ref=f16e11] [cursor=pointer]: Manage Settings
+      - button "Reject Non-Essential" [ref=f16e12] [cursor=pointer]
+      - button "Accept All" [ref=f16e13] [cursor=pointer]

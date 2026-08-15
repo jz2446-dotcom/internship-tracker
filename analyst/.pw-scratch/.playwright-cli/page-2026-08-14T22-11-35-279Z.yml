@@ -1,0 +1,599 @@
+- generic [active] [ref=f1293e1]:
+  - alertdialog "Cookie Consent Prompt" [ref=f1293e2]:
+    - generic [ref=f1293e4]:
+      - generic [ref=f1293e5]:
+        - text: This site uses cookies and other tools to enhance site navigation, analyze site usage and provide content and ads that might interest you. Some of these tools are set by third parties and may collect data in real-time about your device, browser, and how you interact with the site. You can adjust your preferences by clicking “
+        - button "Preferences" [ref=f1293e6] [cursor=pointer]
+        - text: ” and exercise your privacy rights using the links in the footer of the website. Learn more about our information practices and your privacy choices in our
+        - link "Cookie Policy" [ref=f1293e7] [cursor=pointer]:
+          - /url: /cookie-policy/
+        - text: and
+        - link "Privacy Policy" [ref=f1293e8] [cursor=pointer]:
+          - /url: /privacy-policy/
+        - text: .
+      - generic [ref=f1293e9]:
+        - button "Preferences" [ref=f1293e10] [cursor=pointer]
+        - button "Continue" [ref=f1293e11] [cursor=pointer]
+  - text: 
+  - banner [ref=f1293e12]:
+    - generic [ref=f1293e15]:
+      - generic:
+        - link [ref=f1293e17] [cursor=pointer]:
+          - /url: /
+          - img "MSI Home" [ref=f1293e18]
+        - list [ref=f1293e20]:
+          - listitem [ref=f1293e21]:
+            - link "CAREERS" [ref=f1293e22] [cursor=pointer]:
+              - /url: /careers/
+          - listitem [ref=f1293e23]:
+            - link "VENDOR" [ref=f1293e24] [cursor=pointer]:
+              - /url: /vendor-portal/
+          - listitem [ref=f1293e25]:
+            - link "My MSI" [ref=f1293e26] [cursor=pointer]:
+              - /url: /customer-portal/
+          - text: 
+          - listitem [ref=f1293e27]
+          - listitem [ref=f1293e28]:
+            - link [ref=f1293e29] [cursor=pointer]:
+              - /url: https://www.msisurfaces.com/shoppingcart.aspx
+              - img "Cart" [ref=f1293e30]
+              - text: SAMPLES
+          - listitem [ref=f1293e31]:
+            - link [ref=f1293e32] [cursor=pointer]:
+              - /url: /favorites/
+              - img "Selection Cart" [ref=f1293e33]
+              - text: FAVORITES
+          - text: 
+        - generic [ref=f1293e35]:
+          - textbox "Search" [ref=f1293e36]:
+            - /placeholder: Search products
+          - button "Search" [ref=f1293e38] [cursor=pointer]: 
+          - generic [ref=f1293e39]: "|"
+          - button "Search" [ref=f1293e41] [cursor=pointer]
+    - separator [ref=f1293e42]
+    - navigation [ref=f1293e44]:
+      - generic [ref=f1293e46]:
+        - navigation "Main" [ref=f1293e48]:
+          - menubar "Main" [ref=f1293e49]:
+            - menuitem "Products" [ref=f1293e50] [cursor=pointer]
+            - text: 
+            - menuitem "Design Tools" [ref=f1293e51] [cursor=pointer]
+            - menuitem "Inspiration" [ref=f1293e52] [cursor=pointer]
+            - menuitem "Resources" [ref=f1293e53] [cursor=pointer]
+            - menuitem "For The Trade" [ref=f1293e54] [cursor=pointer]
+            - menuitem "Contact Us" [ref=f1293e55] [cursor=pointer]
+            - link "Dealer Locator" [ref=f1293e56] [cursor=pointer]:
+              - /url: /dealer-locator/
+        - list [ref=f1293e58]:
+          - menuitem "ENG" [ref=f1293e59] [cursor=pointer]
+  - main [ref=f1293e63]:
+    - generic [ref=f1293e70]:
+      - heading "Granite Countertops & Slabs" [level=1] [ref=f1293e71]
+      - paragraph [ref=f1293e72]: MSI offers an impressive range of granite countertops, with over 80 colors to choose from. Our granite slab collection is the most comprehensive in the market, providing you with endless options to fi ...
+      - link "Read More" [ref=f1293e73] [cursor=pointer]:
+        - /url: javascript:void(0);
+    - generic [ref=f1293e74]:
+      - list [ref=f1293e78]:
+        - listitem [ref=f1293e79]:
+          - link "Home" [ref=f1293e80] [cursor=pointer]:
+            - /url: /
+        - listitem [ref=f1293e81]:
+          - text: /
+          - link "Countertops" [ref=f1293e82] [cursor=pointer]:
+            - /url: /countertops/
+        - listitem [ref=f1293e83]: / Granite Countertops
+      - navigation [ref=f1293e84]:
+        - menu [ref=f1293e85]:
+          - listitem [ref=f1293e86]:
+            - link "Selection" [ref=f1293e87] [cursor=pointer]:
+              - /url: "#ss-selection"
+          - listitem [ref=f1293e88]:
+            - link "REAL PROJECTS" [ref=f1293e89] [cursor=pointer]:
+              - /url: "#ss-realproject"
+      - generic [ref=f1293e90]:
+        - generic [ref=f1293e91]:
+          - generic [ref=f1293e93]:
+            - button "FILTER" [ref=f1293e94] [cursor=pointer]
+            - list [ref=f1293e96]:
+              - listitem [ref=f1293e97]:
+                - button [ref=f1293e99] [cursor=pointer]:
+                  - generic [ref=f1293e100]:
+                    - img "Sort Icon" [ref=f1293e101]
+                    - text: Sort
+          - dialog [ref=f1293e105]:
+            - document [ref=f1293e106]:
+              - generic [ref=f1293e107]:
+                - listitem [ref=f1293e108] [cursor=pointer]:
+                  - link [ref=f1293e110]:
+                    - /url: javascript:void(0)
+                    - text: Color
+                - listitem [ref=f1293e112] [cursor=pointer]:
+                  - link [ref=f1293e114]:
+                    - /url: javascript:void(0)
+                    - text: Accent Color
+                - listitem [ref=f1293e116] [cursor=pointer]:
+                  - link [ref=f1293e118]:
+                    - /url: javascript:void(0)
+                    - text: Country
+                - listitem [ref=f1293e120] [cursor=pointer]:
+                  - link [ref=f1293e122]:
+                    - /url: javascript:void(0)
+                    - text: Size
+                - listitem [ref=f1293e124] [cursor=pointer]:
+                  - link [ref=f1293e126]:
+                    - /url: javascript:void(0)
+                    - text: Finish
+                - text: 
+        - generic [ref=f1293e128]:
+          - paragraph [ref=f1293e131]: Showing 48 of 83
+          - separator [ref=f1293e132]
+        - generic [ref=f1293e135]:
+          - generic [ref=f1293e139]:
+            - link "absolute black product page" [ref=f1293e140] [cursor=pointer]:
+              - /url: /granite/absolute-black/
+              - img "Absolute Black Granite Thumbnail" [ref=f1293e142]
+              - generic [ref=f1293e143]: Absolute Black
+            - button [ref=f1293e146] [cursor=pointer]
+          - generic [ref=f1293e148]:
+            - link "african rainbow product page" [ref=f1293e149] [cursor=pointer]:
+              - /url: /granite/african-rainbow/
+              - img "African Rainbow Granite" [ref=f1293e151]
+              - generic [ref=f1293e152]: African Rainbow
+            - button [ref=f1293e155] [cursor=pointer]
+          - generic [ref=f1293e157]:
+            - link "agatha black product page" [ref=f1293e158] [cursor=pointer]:
+              - /url: /granite/agatha-black/
+              - img "Agatha Black Granite" [ref=f1293e160]
+              - generic [ref=f1293e161]: Agatha Black
+            - button [ref=f1293e164] [cursor=pointer]
+          - generic [ref=f1293e166]:
+            - link "alpine valley product page" [ref=f1293e167] [cursor=pointer]:
+              - /url: /granite/alpine-valley/
+              - img "Alpine Valley" [ref=f1293e169]
+              - generic [ref=f1293e170]: Alpine Valley
+            - button [ref=f1293e173] [cursor=pointer]
+          - generic [ref=f1293e175]:
+            - link "amarello ornamental product page" [ref=f1293e176] [cursor=pointer]:
+              - /url: /granite/amarello-ornamental/
+              - img "Amarello Ornamental Granite" [ref=f1293e178]
+              - generic [ref=f1293e179]: Amarello Ornamental
+            - button [ref=f1293e182] [cursor=pointer]
+          - generic [ref=f1293e184]:
+            - link "andino white product page" [ref=f1293e185] [cursor=pointer]:
+              - /url: /granite/andino-white/
+              - img "Andino White Granite" [ref=f1293e187]
+              - generic [ref=f1293e188]: Andino White
+            - button [ref=f1293e191] [cursor=pointer]
+          - generic [ref=f1293e193]:
+            - link "arctic sand product page" [ref=f1293e194] [cursor=pointer]:
+              - /url: /granite/arctic-sand/
+              - img "Arctic Sand" [ref=f1293e196]
+              - generic [ref=f1293e197]: Arctic Sand
+            - button [ref=f1293e200] [cursor=pointer]
+          - generic [ref=f1293e202]:
+            - link "aspen white product page" [ref=f1293e203] [cursor=pointer]:
+              - /url: /granite/aspen-white/
+              - img "Aspen White Granite" [ref=f1293e205]
+              - generic [ref=f1293e206]: Aspen White
+            - button [ref=f1293e209] [cursor=pointer]
+          - generic [ref=f1293e211]:
+            - link "astoria product page" [ref=f1293e212] [cursor=pointer]:
+              - /url: /granite/astoria/
+              - generic [ref=f1293e214]: Astoria
+            - button [ref=f1293e217] [cursor=pointer]
+          - generic [ref=f1293e219]:
+            - link "avalon white product page" [ref=f1293e220] [cursor=pointer]:
+              - /url: /granite/avalon-white/
+              - generic [ref=f1293e222]: Avalon White
+            - button [ref=f1293e225] [cursor=pointer]
+          - generic [ref=f1293e227]:
+            - link "azul celeste product page" [ref=f1293e228] [cursor=pointer]:
+              - /url: /granite/azul-celeste/
+              - generic [ref=f1293e230]: Azul Celeste
+            - button [ref=f1293e233] [cursor=pointer]
+          - generic [ref=f1293e235]:
+            - link "azul platino product page" [ref=f1293e236] [cursor=pointer]:
+              - /url: /granite/azul-platino/
+              - generic [ref=f1293e238]: Azul Platino
+            - button [ref=f1293e241] [cursor=pointer]
+          - generic [ref=f1293e243]:
+            - link "azure mist product page" [ref=f1293e244] [cursor=pointer]:
+              - /url: /granite/azure-mist/
+              - generic [ref=f1293e246]: Azure Mist
+            - button [ref=f1293e249] [cursor=pointer]
+          - generic [ref=f1293e251]:
+            - link "bianco antico product page" [ref=f1293e252] [cursor=pointer]:
+              - /url: /granite/bianco-antico/
+              - generic [ref=f1293e254]: Bianco Antico
+            - button [ref=f1293e257] [cursor=pointer]
+          - generic [ref=f1293e259]:
+            - link "bianco frost product page" [ref=f1293e260] [cursor=pointer]:
+              - /url: /granite/bianco-frost/
+              - generic [ref=f1293e262]: Bianco Frost
+            - button [ref=f1293e265] [cursor=pointer]
+          - generic [ref=f1293e267]:
+            - link "black galaxy product page" [ref=f1293e268] [cursor=pointer]:
+              - /url: /granite/black-galaxy/
+              - generic [ref=f1293e270]: Black Galaxy
+            - button [ref=f1293e273] [cursor=pointer]
+          - generic [ref=f1293e275]:
+            - link "black pearl product page" [ref=f1293e276] [cursor=pointer]:
+              - /url: /granite/black-pearl/
+              - generic [ref=f1293e278]: Black Pearl
+            - button [ref=f1293e281] [cursor=pointer]
+          - generic [ref=f1293e283]:
+            - link "blue pearl product page" [ref=f1293e284] [cursor=pointer]:
+              - /url: /granite/blue-pearl/
+              - generic [ref=f1293e286]: Blue Pearl
+            - button [ref=f1293e289] [cursor=pointer]
+          - generic [ref=f1293e291]:
+            - link "caledonia product page" [ref=f1293e292] [cursor=pointer]:
+              - /url: /granite/caledonia/
+              - generic [ref=f1293e294]: Caledonia
+            - button [ref=f1293e297] [cursor=pointer]
+          - generic [ref=f1293e299]:
+            - link "caravelas gold product page" [ref=f1293e300] [cursor=pointer]:
+              - /url: /granite/caravelas-gold/
+              - generic [ref=f1293e302]: Caravelas Gold
+            - button [ref=f1293e305] [cursor=pointer]
+          - generic [ref=f1293e307]:
+            - link "ceara white product page" [ref=f1293e308] [cursor=pointer]:
+              - /url: /granite/ceara-white/
+              - generic [ref=f1293e310]: Ceara White
+            - button [ref=f1293e313] [cursor=pointer]
+          - generic [ref=f1293e315]:
+            - link "coffee brown product page" [ref=f1293e316] [cursor=pointer]:
+              - /url: /granite/coffee-brown/
+              - generic [ref=f1293e318]: Coffee Brown
+            - button [ref=f1293e321] [cursor=pointer]
+          - generic [ref=f1293e323]:
+            - link "colonial cream product page" [ref=f1293e324] [cursor=pointer]:
+              - /url: /granite/colonial-cream/
+              - generic [ref=f1293e326]: Colonial Cream
+            - button [ref=f1293e329] [cursor=pointer]
+          - generic [ref=f1293e331]:
+            - link "colonial ice product page" [ref=f1293e332] [cursor=pointer]:
+              - /url: /granite/colonial-ice/
+              - generic [ref=f1293e334]: Colonial Ice
+            - button [ref=f1293e337] [cursor=pointer]
+          - generic [ref=f1293e339]:
+            - link "colonial white product page" [ref=f1293e340] [cursor=pointer]:
+              - /url: /granite/colonial-white/
+              - generic [ref=f1293e342]: Colonial White
+            - button [ref=f1293e345] [cursor=pointer]
+          - generic [ref=f1293e347]:
+            - link "costa esmeralda product page" [ref=f1293e348] [cursor=pointer]:
+              - /url: /granite/costa-esmeralda/
+              - generic [ref=f1293e350]: Costa Esmeralda
+            - button [ref=f1293e353] [cursor=pointer]
+          - generic [ref=f1293e355]:
+            - link "crema atlantico product page" [ref=f1293e356] [cursor=pointer]:
+              - /url: /granite/crema-atlantico/
+              - generic [ref=f1293e358]: Crema Atlantico
+            - button [ref=f1293e361] [cursor=pointer]
+          - generic [ref=f1293e363]:
+            - link "crema caramel product page" [ref=f1293e364] [cursor=pointer]:
+              - /url: /granite/crema-caramel/
+              - generic [ref=f1293e366]: Crema Caramel
+            - button [ref=f1293e369] [cursor=pointer]
+          - generic [ref=f1293e371]:
+            - link "cygnus product page" [ref=f1293e372] [cursor=pointer]:
+              - /url: /granite/cygnus/
+              - generic [ref=f1293e374]: Cygnus
+            - button [ref=f1293e377] [cursor=pointer]
+          - generic [ref=f1293e379]:
+            - link "delicatus white product page" [ref=f1293e380] [cursor=pointer]:
+              - /url: /granite/delicatus-white/
+              - generic [ref=f1293e382]: Delicatus White
+            - button [ref=f1293e385] [cursor=pointer]
+          - generic [ref=f1293e387]:
+            - link "desert beach product page" [ref=f1293e388] [cursor=pointer]:
+              - /url: /granite/desert-beach/
+              - generic [ref=f1293e390]: Desert Beach
+            - button [ref=f1293e393] [cursor=pointer]
+          - generic [ref=f1293e395]:
+            - link "desert dream product page" [ref=f1293e396] [cursor=pointer]:
+              - /url: /granite/desert-dream/
+              - generic [ref=f1293e398]: Desert Dream
+            - button [ref=f1293e401] [cursor=pointer]
+          - generic [ref=f1293e403]:
+            - link "eclipse product page" [ref=f1293e404] [cursor=pointer]:
+              - /url: /granite/eclipse/
+              - generic [ref=f1293e406]: Eclipse
+            - button [ref=f1293e409] [cursor=pointer]
+          - generic [ref=f1293e411]:
+            - link "everest mist product page" [ref=f1293e412] [cursor=pointer]:
+              - /url: /granite/everest-mist/
+              - generic [ref=f1293e414]: Everest Mist
+            - button [ref=f1293e417] [cursor=pointer]
+          - generic [ref=f1293e419]:
+            - link "ferro gold product page" [ref=f1293e420] [cursor=pointer]:
+              - /url: /granite/ferro-gold/
+              - generic [ref=f1293e422]: Ferro Gold
+            - button [ref=f1293e425] [cursor=pointer]
+          - generic [ref=f1293e427]:
+            - link "fortaleza product page" [ref=f1293e428] [cursor=pointer]:
+              - /url: /granite/fortaleza/
+              - generic [ref=f1293e430]: Fortaleza
+            - button [ref=f1293e433] [cursor=pointer]
+          - generic [ref=f1293e435]:
+            - link "giallo ornamental product page" [ref=f1293e436] [cursor=pointer]:
+              - /url: /granite/giallo-ornamental/
+              - generic [ref=f1293e438]: Giallo Ornamental
+            - button [ref=f1293e441] [cursor=pointer]
+          - generic [ref=f1293e443]:
+            - link "gran valle product page" [ref=f1293e444] [cursor=pointer]:
+              - /url: /granite/gran-valle/
+              - generic [ref=f1293e446]: Gran Valle
+            - button [ref=f1293e449] [cursor=pointer]
+          - generic [ref=f1293e451]:
+            - link "gray mist product page" [ref=f1293e452] [cursor=pointer]:
+              - /url: /granite/gray-mist/
+              - generic [ref=f1293e454]: Gray Mist
+            - button [ref=f1293e457] [cursor=pointer]
+          - generic [ref=f1293e459]:
+            - link "gray nuevo product page" [ref=f1293e460] [cursor=pointer]:
+              - /url: /granite/gray-nuevo/
+              - generic [ref=f1293e462]: Gray Nuevo
+            - button [ref=f1293e465] [cursor=pointer]
+          - generic [ref=f1293e467]:
+            - link "himalaya white product page" [ref=f1293e468] [cursor=pointer]:
+              - /url: /granite/himalaya-white/
+              - generic [ref=f1293e470]: Himalaya White
+            - button [ref=f1293e473] [cursor=pointer]
+          - generic [ref=f1293e475]:
+            - link "lennon product page" [ref=f1293e476] [cursor=pointer]:
+              - /url: /granite/lennon/
+              - generic [ref=f1293e478]: Lennon
+            - button [ref=f1293e481] [cursor=pointer]
+          - generic [ref=f1293e483]:
+            - link "luna pearl product page" [ref=f1293e484] [cursor=pointer]:
+              - /url: /granite/luna-pearl/
+              - generic [ref=f1293e486]: Luna Pearl
+            - button [ref=f1293e489] [cursor=pointer]
+          - generic [ref=f1293e491]:
+            - link "makalu bay product page" [ref=f1293e492] [cursor=pointer]:
+              - /url: /granite/makalu-bay/
+              - generic [ref=f1293e494]: Makalu Bay
+            - button [ref=f1293e497] [cursor=pointer]
+          - generic [ref=f1293e499]:
+            - link "mirage white product page" [ref=f1293e500] [cursor=pointer]:
+              - /url: /granite/mirage-white/
+              - generic [ref=f1293e502]: Mirage White
+            - button [ref=f1293e505] [cursor=pointer]
+          - generic [ref=f1293e507]:
+            - link "monte cristo product page" [ref=f1293e508] [cursor=pointer]:
+              - /url: /granite/monte-cristo/
+              - generic [ref=f1293e510]: Monte Cristo
+            - button [ref=f1293e513] [cursor=pointer]
+          - generic [ref=f1293e515]:
+            - link "nero mist product page" [ref=f1293e516] [cursor=pointer]:
+              - /url: /granite/nero-mist/
+              - generic [ref=f1293e518]: Nero Mist
+            - button [ref=f1293e521] [cursor=pointer]
+          - generic [ref=f1293e523]:
+            - link "new river white product page" [ref=f1293e524] [cursor=pointer]:
+              - /url: /granite/new-river-white/
+              - generic [ref=f1293e526]: New River White
+            - button [ref=f1293e529] [cursor=pointer]
+        - generic [ref=f1293e530]:
+          - separator [ref=f1293e531]
+          - paragraph [ref=f1293e534]: Showing 48 of 83
+      - generic [ref=f1293e537]:
+        - heading "Granite ON INSTAGRAM" [level=2] [ref=f1293e540]
+        - region "carousel" [ref=f1293e541]:
+          - generic [ref=f1293e542]:
+            - button "open detail modal for instagram post by tristatemarble on 09 JULY 2026" [ref=f1293e544] [cursor=pointer]:
+              - generic [ref=f1293e545]:   SHOP NOW
+            - button "open detail modal for instagram post by thedesignerycolumbus on 10 DECEMBER 2025" [ref=f1293e547] [cursor=pointer]:
+              - generic [ref=f1293e548]:   SHOP NOW
+            - button "open detail modal for instagram post by anything_granite on 09 NOVEMBER 2025" [ref=f1293e550] [cursor=pointer]:
+              - generic [ref=f1293e551]: 
+            - button "open detail modal for instagram post by boyarskitchencabinets on 01 JULY 2025" [ref=f1293e553] [cursor=pointer]:
+              - generic [ref=f1293e554]:   SHOP NOW
+            - button [ref=f1293e556] [cursor=pointer]:
+              - generic [ref=f1293e557]:   SHOP NOW
+            - button [ref=f1293e559] [cursor=pointer]:
+              - generic [ref=f1293e560]:   SHOP NOW
+            - button [ref=f1293e562] [cursor=pointer]:
+              - generic [ref=f1293e563]:   SHOP NOW
+            - button [ref=f1293e565] [cursor=pointer]:
+              - generic [ref=f1293e566]:   SHOP NOW
+            - button [ref=f1293e568] [cursor=pointer]:
+              - generic [ref=f1293e569]:   SHOP NOW
+            - button [ref=f1293e571] [cursor=pointer]:
+              - generic [ref=f1293e572]:   SHOP NOW
+            - button [ref=f1293e574] [cursor=pointer]:
+              - generic [ref=f1293e575]:   SHOP NOW
+            - button [ref=f1293e577] [cursor=pointer]:
+              - generic [ref=f1293e578]:   SHOP NOW
+            - button [ref=f1293e580] [cursor=pointer]:
+              - generic [ref=f1293e581]:   SHOP NOW
+            - button [ref=f1293e583] [cursor=pointer]:
+              - generic [ref=f1293e584]:   SHOP NOW
+            - button [ref=f1293e586] [cursor=pointer]:
+              - generic [ref=f1293e587]:   SHOP NOW
+            - button [ref=f1293e589] [cursor=pointer]:
+              - generic [ref=f1293e590]:   SHOP NOW
+            - button [ref=f1293e592] [cursor=pointer]:
+              - generic [ref=f1293e593]:   SHOP NOW
+            - button [ref=f1293e595] [cursor=pointer]:
+              - generic [ref=f1293e596]:   SHOP NOW
+            - button [ref=f1293e598] [cursor=pointer]:
+              - generic [ref=f1293e599]:   SHOP NOW
+            - button [ref=f1293e601] [cursor=pointer]:
+              - generic [ref=f1293e602]:   SHOP NOW
+            - button [ref=f1293e604] [cursor=pointer]:
+              - generic [ref=f1293e605]:   SHOP NOW
+          - generic [ref=f1293e606]: 21 more posts loaded
+          - button "Scroll gallery to next page" [ref=f1293e607] [cursor=pointer]:
+            - img "Chevron pointing right" [ref=f1293e608]
+      - generic [ref=f1293e613]:
+        - heading "LEARN MORE ABOUT GRANITE COUNTERTOPS" [level=3] [ref=f1293e617]
+        - separator [ref=f1293e618]
+        - link "Granite Countertop Benefits " [ref=f1293e619] [cursor=pointer]:
+          - /url: javascript:void(0)
+          - text: Granite Countertop Benefits
+          - generic [ref=f1293e620]: 
+        - paragraph [ref=f1293e622]: Granite countertops are a popular choice among homeowners for a variety of reasons. One of the biggest benefits of granite countertops is their durability. Granite is a tough and resilient stone, which makes it ideal for use in high-traffic areas like kitchens and bathrooms. Granite is also heat-resistant, so you can place hot pans and dishes directly on the countertop without worrying about damage. Additionally, granite is resistant to scratches and chips, which helps it maintain its beautiful appearance over time. With proper maintenance and care, granite countertops can last for decades, making them a wise investment for any home.Another benefit of granite countertops is their aesthetic appeal. Granite is a natural stone in various colors and patterns, so you can choose a style that complements your home's decor. Additionally, each granite slab is unique, so you can be sure your countertop will be unique. Furthermore, granite's natural beauty and elegance can add value to your home and create a warm and inviting atmosphere. Finally, granite countertops are easy to clean and maintain, which makes them an ideal choice for busy homeowners.
+        - separator [ref=f1293e623]
+        - link "Granite Countertop Care and Maintenance " [ref=f1293e624] [cursor=pointer]:
+          - /url: javascript:void(0)
+          - text: Granite Countertop Care and Maintenance
+          - generic [ref=f1293e625]: 
+        - paragraph [ref=f1293e627]: Granite countertops are a fantastic investment for any home, and with proper care and maintenance, they can provide a lifetime of beauty and functionality. One of the great things about granite countertops is their incredible durability. They are resistant to scratches, chips, and heat, making them a perfect choice for high-traffic areas like kitchens and bathrooms.Taking care of your granite countertop is simple and straightforward. With regular cleaning using a mild detergent and water, you can keep your countertop looking like new. Additionally, annually applying a high-quality sealer can help protect the stone from stains and other types of damage. And while it's important to avoid using harsh chemicals or abrasive cleaners, you can still enjoy cooking and entertaining on your granite countertop without worrying about damaging it.
+        - separator [ref=f1293e628]
+        - link "What is Cost of Granite Countertops? " [ref=f1293e629] [cursor=pointer]:
+          - /url: javascript:void(0)
+          - text: What is Cost of Granite Countertops?
+          - generic [ref=f1293e630]: 
+        - generic [ref=f1293e631]: The choice of your granite can impact the cost of your countertop project. The cost of granite is determined by the demand for and appearance of the stone. The price of granite can range from $10 to $75 per square foot, the price may vary depending on color and veining, with more exotic veining usually commanding higher prices.It's important to note that the granite material cost does not include installation. Nationwide, installing countertops ranges from $40 to $150 per square foot, depending on the job's complexity and local labor costs. Factors affecting your countertop installation costs include cut-outs, fixtures, edging, and corner details, which can increase the installation's complexity.
+        - separator [ref=f1293e632]
+        - link "How Long Do Granite Countertops Last? " [ref=f1293e633] [cursor=pointer]:
+          - /url: javascript:void(0)
+          - text: How Long Do Granite Countertops Last?
+          - generic [ref=f1293e634]: 
+        - generic [ref=f1293e635]: Granite is a durable natural stone known for its strength and resilience. When properly cared for, granite countertops can last for decades, making them a wise investment for any home. The longevity of granite countertops is due to the stone's natural hardness and resistance to scratches, chips, and heat. With proper maintenance and care, including regular cleaning and sealing, granite countertops can maintain their beauty and functionality for many years. The exact lifespan of granite countertops will depend on various factors, including the quality of the granite, the installation process, and the level of care and maintenance they receive. However, with the right care, it's common for granite countertops to last 30 years or more.
+        - separator [ref=f1293e636]
+        - link "Can Granite Countertops Be Repaired? " [ref=f1293e637] [cursor=pointer]:
+          - /url: javascript:void(0)
+          - text: Can Granite Countertops Be Repaired?
+          - generic [ref=f1293e638]: 
+        - generic [ref=f1293e639]: Yes, granite countertops can be repaired. While granite is incredibly durable and resilient, it can still sustain damage from heavy impact or other accidents. However, with the help of a professional stone repair specialist, many types of damage can be repaired, restoring the countertop to its original beauty and functionality.The type of repair needed will depend on the extent and type of damage. For example, minor scratches or chips can often be buffed out or filled with epoxy to restore the surface. However, deeper scratches or cracks may require a more extensive repair, such as grinding and polishing the surface to remove the damaged area and match the surrounding surface. Sometimes, a damaged section of the countertop may need to be replaced entirely.Attempting to repair granite countertops on your own can be risky and may cause more damage. Instead, it's best to work with a professional stone repair specialist with the skills and equipment to repair your countertop safely and effectively.
+        - separator [ref=f1293e640]
+        - link "How to Seal Granite Countertops " [ref=f1293e641] [cursor=pointer]:
+          - /url: javascript:void(0)
+          - text: How to Seal Granite Countertops
+          - generic [ref=f1293e642]: 
+        - generic [ref=f1293e643]:
+          - paragraph [ref=f1293e644]: 1.Purchase a high-quality granite sealer that is specifically designed for use on granite countertops. Look for a product that is labeled as a granite sealer or a natural stone sealer. Penetrating or impregnating sealers are typically recommended for use on granite countertops, as they are designed to penetrate the pores of the granite and create a protective barrier against stains and damage. It's important to choose a high-quality sealer that is designed for use on granite countertops, as other types of sealers may not provide adequate protection or may damage the surface of the granite.
+          - paragraph [ref=f1293e645]: 2.Clean the granite countertops thoroughly using a granite cleaner. Use a gentle cleaner that is formulated specifically for use on granite. Avoid using harsh chemicals or abrasive cleaners that can damage the surface of the granite. Rinse the countertops thoroughly with water and then dry them completely using a clean, dry cloth.
+          - paragraph [ref=f1293e646]: 3.Apply the granite sealer to the countertops using a clean, dry cloth or a brush. Make sure to apply the sealer evenly and cover the entire surface of the countertops. Be careful not to leave any streaks or pools of sealer on the surface.
+          - paragraph [ref=f1293e647]: 4.Let the sealer sit on the countertops for the recommended time specified by the manufacturer. This can range from a few minutes to several hours depending on the product. The sealer will penetrate the pores of the granite and form a protective barrier against stains and damage.
+          - paragraph [ref=f1293e648]: 5.After the sealer has had time to absorb into the granite, wipe off any excess sealer using a clean, dry cloth. Make sure to remove all excess sealer from the surface of the countertops to prevent streaking or cloudiness.
+          - paragraph [ref=f1293e649]: 6.Allow the countertops to dry completely before using them. Depending on the product you are using, this can take anywhere from a few hours to a full day. Do not use the countertops until they are completely dry.
+          - paragraph [ref=f1293e650]: 7.Repeat the sealing process annually or as recommended by the manufacturer. Over time, the protective barrier created by the sealer will break down and become less effective. To maintain the protective barrier and keep your countertops looking beautiful, it is important to reapply the sealer on a regular basis.
+          - text: By following these step-by-step instructions, you can easily seal your granite countertops and protect them from stains and damage. Remember to use a high-quality granite sealer, clean the countertops thoroughly before sealing, and repeat the sealing process annually to keep your countertops looking beautiful for years to come.
+  - contentinfo [ref=f1293e651]:
+    - separator [ref=f1293e653]
+    - generic [ref=f1293e655]:
+      - generic [ref=f1293e656]:
+        - generic [ref=f1293e657]:
+          - heading "Company" [level=1] [ref=f1293e659]
+          - list:
+            - listitem [ref=f1293e660]:
+              - link "About MSI" [ref=f1293e661] [cursor=pointer]:
+                - /url: /corporate/company-profile.aspx
+            - listitem [ref=f1293e662]:
+              - link "Company History" [ref=f1293e663] [cursor=pointer]:
+                - /url: /corporate/company-history.aspx
+            - listitem [ref=f1293e664]:
+              - link "Our Guiding Statements" [ref=f1293e665] [cursor=pointer]:
+                - /url: /corporate/guiding-statements.aspx
+            - listitem [ref=f1293e666]:
+              - link "Technology and Innovation" [ref=f1293e667] [cursor=pointer]:
+                - /url: /corporate/technology-innovation.aspx
+            - listitem [ref=f1293e668]:
+              - link "Partnering with MSI" [ref=f1293e669] [cursor=pointer]:
+                - /url: /corporate/msi-partnering.aspx
+            - listitem [ref=f1293e670]:
+              - link "MSI Gives Back" [ref=f1293e671] [cursor=pointer]:
+                - /url: /corporate/charitable-trust.aspx
+            - listitem [ref=f1293e672]:
+              - link "Environmental" [ref=f1293e673] [cursor=pointer]:
+                - /url: /corporate/msi-environmental.aspx
+            - listitem [ref=f1293e674]:
+              - link "Our Corporate Responsibility" [ref=f1293e675] [cursor=pointer]:
+                - /url: /corporate/esg/
+        - generic [ref=f1293e676]:
+          - heading "News" [level=2] [ref=f1293e678]
+          - list [ref=f1293e679]:
+            - listitem [ref=f1293e680]:
+              - link "Events" [ref=f1293e681] [cursor=pointer]:
+                - /url: /news/events/msi-events/
+            - listitem [ref=f1293e682]:
+              - link "Press Releases" [ref=f1293e683] [cursor=pointer]:
+                - /url: /news/press-releases.aspx
+            - listitem [ref=f1293e684]:
+              - link "In The News" [ref=f1293e685] [cursor=pointer]:
+                - /url: /inthenews.aspx
+            - listitem [ref=f1293e686]:
+              - link "Newsletters & Announcements" [ref=f1293e687] [cursor=pointer]:
+                - /url: /news/newsletters.aspx
+        - generic [ref=f1293e688]:
+          - heading "Careers" [level=3] [ref=f1293e690]
+          - list [ref=f1293e691]:
+            - listitem [ref=f1293e692]:
+              - link "Join the Team" [ref=f1293e693] [cursor=pointer]:
+                - /url: /careers/
+        - generic [ref=f1293e694]:
+          - generic [ref=f1293e695]: Services
+          - list [ref=f1293e697]:
+            - listitem [ref=f1293e698]:
+              - link "Online Bill Pay" [ref=f1293e699] [cursor=pointer]:
+                - /url: https://b2b.msisurfaces.com/quickpay/PaymentCheckout.aspx
+        - generic [ref=f1293e700]:
+          - generic [ref=f1293e701]: GET THE LATEST FROM MSI
+          - generic [ref=f1293e703]:
+            - paragraph [ref=f1293e704]: Be the first to receive new product launches, design inspiration, and industry insights.
+            - button "SIGN UP" [ref=f1293e705] [cursor=pointer]
+      - generic: 
+    - separator [ref=f1293e706]
+    - generic [ref=f1293e707]:
+      - generic [ref=f1293e710]:
+        - link "logo" [ref=f1293e713] [cursor=pointer]:
+          - /url: /
+          - img "MSI Logo with Tagline" [ref=f1293e714]
+        - generic [ref=f1293e716]:
+          - link "MSI Instagram Page" [ref=f1293e718] [cursor=pointer]:
+            - /url: https://www.instagram.com/msisurfaces/
+          - link "MSI Pinterest page" [ref=f1293e720] [cursor=pointer]:
+            - /url: https://pinterest.com/msisurfaces/
+          - link "MSI Facebook Page" [ref=f1293e722] [cursor=pointer]:
+            - /url: https://www.facebook.com/msisurfaces/
+          - link "MSI LinkedIn page" [ref=f1293e724] [cursor=pointer]:
+            - /url: "https://www.linkedin.com/company/msisurfaces/ "
+          - generic [ref=f1293e725]:
+            - link "MSI Youtube Page" [ref=f1293e727] [cursor=pointer]:
+              - /url: https://www.youtube.com/%40msisurfaces
+            - link "MSI Houzz Page" [ref=f1293e729] [cursor=pointer]:
+              - /url: https://www.houzz.com/professionals/countertop/msi-pfvwus-pf~59199526?
+      - separator [ref=f1293e730]
+      - list [ref=f1293e735]:
+        - listitem [ref=f1293e736]:
+          - generic [ref=f1293e738] [cursor=pointer]:
+            - img "Language icon" [ref=f1293e740]
+            - text: ENG
+        - listitem [ref=f1293e741]
+        - listitem [ref=f1293e743]:
+          - link "Sitemap" [ref=f1293e744] [cursor=pointer]:
+            - /url: /sitemap.aspx
+        - listitem [ref=f1293e745]
+        - listitem [ref=f1293e747]:
+          - link "Deep Links" [ref=f1293e748] [cursor=pointer]:
+            - /url: /helpful-links/click-sitemap-main.html
+        - listitem [ref=f1293e749]
+        - listitem [ref=f1293e751]:
+          - link "Copyright & Disclaimer" [ref=f1293e752] [cursor=pointer]:
+            - /url: /copyright-disclaimer.aspx
+        - listitem [ref=f1293e753]
+        - listitem [ref=f1293e755]:
+          - link "Privacy Policy" [ref=f1293e756] [cursor=pointer]:
+            - /url: /privacy-policy/
+        - listitem [ref=f1293e757]
+        - listitem [ref=f1293e759]:
+          - link "Cookie Policy" [ref=f1293e760] [cursor=pointer]:
+            - /url: /cookie-policy/
+        - listitem [ref=f1293e761]
+        - listitem [ref=f1293e763]:
+          - link [ref=f1293e764] [cursor=pointer]:
+            - /url: "#"
+            - text: Your Privacy Choices
+            - img "Your Privacy Choices" [ref=f1293e765]
+        - listitem [ref=f1293e766]
+        - listitem [ref=f1293e768]:
+          - link "User Agreement" [ref=f1293e769] [cursor=pointer]:
+            - /url: /user-agreement.aspx
+        - listitem [ref=f1293e770]
+        - listitem [ref=f1293e772]:
+          - paragraph [ref=f1293e773]: M S International, Inc. All rights reserved.

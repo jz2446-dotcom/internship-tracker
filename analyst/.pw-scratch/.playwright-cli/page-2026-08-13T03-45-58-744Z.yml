@@ -1,0 +1,537 @@
+- generic [active] [ref=f194e1]:
+  - link "Skip to main content" [ref=f194e2] [cursor=pointer]:
+    - /url: "#content"
+  - banner [ref=f194e3]:
+    - generic [ref=f194e5]:
+      - link [ref=f194e7] [cursor=pointer]:
+        - /url: /
+        - img "Ameriprise Careers Logo" [ref=f194e8]
+      - navigation [ref=f194e10]:
+        - list [ref=f194e12]:
+          - listitem [ref=f194e13]:
+            - link "Search jobs" [ref=f194e14] [cursor=pointer]:
+              - /url: /search-jobs/
+          - listitem [ref=f194e15]:
+            - button "Our brands" [ref=f194e16] [cursor=pointer]
+          - listitem [ref=f194e17]:
+            - link "FAQs" [ref=f194e18] [cursor=pointer]:
+              - /url: /faqs/
+          - listitem [ref=f194e19]:
+            - link "Saved Jobs" [ref=f194e20] [cursor=pointer]:
+              - /url: /search-jobs/saved-jobs/
+              - status [ref=f194e24]: "0"
+  - main [ref=f194e25]:
+    - heading "Search jobs" [level=1] [ref=f194e30]
+    - navigation "Breadcrumb" [ref=f194e33]:
+      - list [ref=f194e34]:
+        - listitem [ref=f194e35]:
+          - link "Home" [ref=f194e36] [cursor=pointer]:
+            - /url: /
+        - listitem [ref=f194e37]: / Search jobs
+    - generic [ref=f194e39]:
+      - complementary [ref=f194e40]:
+        - group "Filter jobs" [ref=f194e43]:
+          - generic [ref=f194e46]:
+            - generic [ref=f194e47]: Keywords
+            - searchbox "Keywords" [ref=f194e49]
+          - generic [ref=f194e53]:
+            - generic [ref=f194e54]: Country
+            - generic [ref=f194e55]:
+              - listbox [ref=f194e56]:
+                - option "Country" [ref=f194e57]
+                - option "Germany" [ref=f194e58]
+                - option "India" [ref=f194e59]
+                - option "Japan" [ref=f194e60]
+                - option "Luxembourg" [ref=f194e61]
+                - option "Netherlands" [ref=f194e62]
+                - option "United Kingdom" [ref=f194e63]
+                - option "United States of America" [ref=f194e64]
+              - combobox "Country" [ref=f194e67]
+          - generic [ref=f194e68]:
+            - generic [ref=f194e69]: Region / State
+            - generic [ref=f194e70]:
+              - listbox [ref=f194e71]:
+                - option "Region / State" [ref=f194e72]
+                - option "Andhra Pradesh" [ref=f194e73]
+                - option "California" [ref=f194e74]
+                - option "Connecticut" [ref=f194e75]
+                - option "Delaware" [ref=f194e76]
+                - option "Edinburgh, City of" [ref=f194e77]
+                - option "Florida" [ref=f194e78]
+                - option "Haryāna" [ref=f194e79]
+                - option "Hawaii" [ref=f194e80]
+                - option "Hesse" [ref=f194e81]
+                - option "Idaho" [ref=f194e82]
+                - option "Illinois" [ref=f194e83]
+                - option "Indiana" [ref=f194e84]
+                - option "London" [ref=f194e85]
+                - option "Louisiana" [ref=f194e86]
+                - option "Luxembourg" [ref=f194e87]
+                - option "Maryland" [ref=f194e88]
+                - option "Massachusetts" [ref=f194e89]
+                - option "Michigan" [ref=f194e90]
+                - option "Minnesota" [ref=f194e91]
+                - option "Missouri" [ref=f194e92]
+                - option "Nevada" [ref=f194e93]
+                - option "New Jersey" [ref=f194e94]
+                - option "New York" [ref=f194e95]
+                - option "North Carolina" [ref=f194e96]
+                - option "Ohio" [ref=f194e97]
+                - option "Oregon" [ref=f194e98]
+                - option "South Carolina" [ref=f194e99]
+                - option "Telangāna" [ref=f194e100]
+                - option "Texas" [ref=f194e101]
+                - option "Tokyo" [ref=f194e102]
+                - option "Uttar Pradesh" [ref=f194e103]
+                - option "Virginia" [ref=f194e104]
+                - option "Washington" [ref=f194e105]
+                - option "Wisconsin" [ref=f194e106]
+              - combobox "Region / State" [ref=f194e109]
+          - generic [ref=f194e110]:
+            - generic [ref=f194e111]: City
+            - generic [ref=f194e112]:
+              - listbox [ref=f194e113]:
+                - option "City" [ref=f194e114]
+                - option "Amsterdam" [ref=f194e115]
+                - option "Bellevue" [ref=f194e116]
+                - option "Boston" [ref=f194e117]
+                - option "Brookfield" [ref=f194e118]
+                - option "Charlotte" [ref=f194e119]
+                - option "Chesterfield" [ref=f194e120]
+                - option "Chicago" [ref=f194e121]
+                - option "Chiyoda-ku" [ref=f194e122]
+                - option "Deerfield" [ref=f194e123]
+                - option "Downers Grove" [ref=f194e124]
+                - option "Edinburgh" [ref=f194e125]
+                - option "Florham Park" [ref=f194e126]
+                - option "Frankfurt Am Main" [ref=f194e127]
+                - option "Fresno" [ref=f194e128]
+                - option "Ft Lauderdale" [ref=f194e129]
+                - option "Glastonbury" [ref=f194e130]
+                - option "Glen Allen" [ref=f194e131]
+                - option "Grand Rapids" [ref=f194e132]
+                - option "Greenwich" [ref=f194e133]
+                - option "Greenwood" [ref=f194e134]
+                - option "Gurugram" [ref=f194e135]
+                - option "Hingham" [ref=f194e136]
+                - option "Honolulu" [ref=f194e137]
+                - option "Houston" [ref=f194e138]
+                - option "Hyderabad" [ref=f194e139]
+                - option "Idaho Falls" [ref=f194e140]
+                - option "Irvine" [ref=f194e141]
+                - option "Jacksonville" [ref=f194e142]
+                - option "Kingwood" [ref=f194e143]
+                - option "Las Vegas" [ref=f194e144]
+                - option "Leesburg" [ref=f194e145]
+                - option "Lexington" [ref=f194e146]
+                - option "London" [ref=f194e147]
+                - option "Los Angeles" [ref=f194e148]
+                - option "Mahtomedi" [ref=f194e149]
+                - option "Minneapolis" [ref=f194e150]
+                - option "Minnetonka" [ref=f194e151]
+                - option "Naperville" [ref=f194e152]
+                - option "New Orleans" [ref=f194e153]
+                - option "New York" [ref=f194e154]
+                - option "Noida" [ref=f194e155]
+                - option "Ojai" [ref=f194e156]
+                - option "Owings Mills" [ref=f194e157]
+                - option "Palm Beach Gardens" [ref=f194e158]
+                - option "Pepper Pike" [ref=f194e159]
+                - option "Plano" [ref=f194e160]
+                - option "Plantation" [ref=f194e161]
+                - option "Portland" [ref=f194e162]
+                - option "San Antonio" [ref=f194e163]
+                - option "San Diego" [ref=f194e164]
+                - option "Seattle" [ref=f194e165]
+                - option "Seminole" [ref=f194e166]
+                - option "SENNINGERBERG" [ref=f194e167]
+                - option "St Charles" [ref=f194e168]
+                - option "Swindon" [ref=f194e169]
+                - option "Tampa" [ref=f194e170]
+                - option "Troy" [ref=f194e171]
+                - option "Vienna" [ref=f194e172]
+                - option "Virginia Beach" [ref=f194e173]
+                - option "Warrenville" [ref=f194e174]
+                - option "Westlake" [ref=f194e175]
+                - option "Wilmington" [ref=f194e176]
+              - combobox "City" [ref=f194e179]
+          - generic [ref=f194e180]:
+            - generic [ref=f194e181]: Remote Type
+            - generic [ref=f194e182]:
+              - listbox [ref=f194e183]:
+                - option "Remote Type" [ref=f194e184]
+                - option "Hybrid" [ref=f194e185]
+                - option "On-Site" [ref=f194e186]
+                - option "Remote" [ref=f194e187]
+              - combobox "Remote Type" [ref=f194e190]
+          - generic [ref=f194e191]:
+            - generic [ref=f194e192]: Job Family Group
+            - generic [ref=f194e193]:
+              - listbox [ref=f194e194]:
+                - option "Job Family Group" [ref=f194e195]
+                - option "Business Support & Operations" [ref=f194e196]
+                - option "Client Service" [ref=f194e197]
+                - option "Communications" [ref=f194e198]
+                - option "Data" [ref=f194e199]
+                - option "Enterprise Risk Management" [ref=f194e200]
+                - option "Enterprise Strategy" [ref=f194e201]
+                - option "Finance" [ref=f194e202]
+                - option "Human Capital" [ref=f194e203]
+                - option "Investment Management" [ref=f194e204]
+                - option "Legal Affairs" [ref=f194e205]
+                - option "Marketing/Product Management" [ref=f194e206]
+                - option "Mutual Fund Operations" [ref=f194e207]
+                - option "Sales" [ref=f194e208]
+                - option "Technology" [ref=f194e209]
+                - option "Unclassifieds" [ref=f194e210]
+              - combobox "Job Family Group" [ref=f194e213]
+          - generic [ref=f194e214]:
+            - generic [ref=f194e215]: Contract
+            - generic [ref=f194e216]:
+              - listbox [ref=f194e217]:
+                - option "Contract" [ref=f194e218]
+                - option "Full Time" [ref=f194e219]
+                - option "Part Time" [ref=f194e220]
+              - combobox "Contract" [ref=f194e223]
+          - generic [ref=f194e224]:
+            - generic [ref=f194e225]: Brand
+            - generic [ref=f194e226]:
+              - listbox [ref=f194e227]:
+                - option "Brand" [ref=f194e228]
+                - option "Ameriprise Financial" [ref=f194e229]
+                - option "Ameriprise India" [ref=f194e230]
+                - option "Columbia Threadneedle Investments" [ref=f194e231]
+                - option "Our Company" [ref=f194e232]
+                - option "RiverSource" [ref=f194e233]
+              - combobox "Brand" [ref=f194e236]
+          - button "Search" [ref=f194e237] [cursor=pointer]
+      - complementary [ref=f194e238]
+      - generic [ref=f194e239]:
+        - paragraph [ref=f194e242]:
+          - text: Displaying
+          - strong [ref=f194e243]: "1"
+          - text: to
+          - strong [ref=f194e244]: "20"
+          - text: of
+          - strong [ref=f194e245]: "275"
+          - text: matching jobs
+        - generic [ref=f194e246]:
+          - generic [ref=f194e248]:
+            - heading [level=2] [ref=f194e249]:
+              - link "AP & TEV Associate" [ref=f194e250] [cursor=pointer]:
+                - /url: /search-jobs/r26_3222/ap-tev-associate/
+            - button "Save AP & TEV Associate" [ref=f194e252] [cursor=pointer]:
+              - generic [ref=f194e255]: Save
+            - list [ref=f194e256]:
+              - listitem [ref=f194e257]: Noida, Uttar Pradesh
+              - listitem [ref=f194e258]: •Finance
+              - listitem [ref=f194e259]: •Ameriprise India
+          - generic [ref=f194e261]:
+            - heading [level=2] [ref=f194e262]:
+              - link "Senior Operations Professional" [ref=f194e263] [cursor=pointer]:
+                - /url: /search-jobs/r26_3175/senior-operations-professional/
+            - button "Save Senior Operations Professional" [ref=f194e265] [cursor=pointer]:
+              - generic [ref=f194e268]: Save
+            - list [ref=f194e269]:
+              - listitem [ref=f194e270]: Minneapolis, Minnesota
+              - listitem [ref=f194e271]: •Business Support & Operations
+              - listitem [ref=f194e272]: •Ameriprise Financial
+          - generic [ref=f194e274]:
+            - heading [level=2] [ref=f194e275]:
+              - link "Lead Fund Accounting Oversight" [ref=f194e276] [cursor=pointer]:
+                - /url: /search-jobs/r26_2055/lead-fund-accounting-oversight/
+            - button "Save Lead Fund Accounting Oversight" [ref=f194e278] [cursor=pointer]:
+              - generic [ref=f194e281]: Save
+            - list [ref=f194e282]:
+              - listitem [ref=f194e283]: Noida, Uttar Pradesh
+              - listitem [ref=f194e284]: •Mutual Fund Operations
+              - listitem [ref=f194e285]: •Ameriprise India
+          - generic [ref=f194e287]:
+            - heading [level=2] [ref=f194e288]:
+              - link "European Equity Analyst" [ref=f194e289] [cursor=pointer]:
+                - /url: /search-jobs/r26_3220/european-equity-analyst/
+            - button "Save European Equity Analyst" [ref=f194e291] [cursor=pointer]:
+              - generic [ref=f194e294]: Save
+            - list [ref=f194e295]:
+              - listitem [ref=f194e296]: London, London
+              - listitem [ref=f194e297]: •Investment Management
+              - listitem [ref=f194e298]: •Columbia Threadneedle Investments
+          - generic [ref=f194e300]:
+            - heading [level=2] [ref=f194e301]:
+              - link "Business Program Coordinator" [ref=f194e302] [cursor=pointer]:
+                - /url: /search-jobs/r26_3156/business-program-coordinator/
+            - button "Save Business Program Coordinator" [ref=f194e304] [cursor=pointer]:
+              - generic [ref=f194e307]: Save
+            - list [ref=f194e308]:
+              - listitem [ref=f194e309]: Minneapolis, Minnesota
+              - listitem [ref=f194e310]: •Business Support & Operations
+              - listitem [ref=f194e311]: •Ameriprise Financial
+          - generic [ref=f194e313]:
+            - heading [level=2] [ref=f194e314]:
+              - link "Senior Product Manager - Cash Products" [ref=f194e315] [cursor=pointer]:
+                - /url: /search-jobs/r26_2462/senior-product-manager-cash-products/
+            - button "Save Senior Product Manager - Cash Products" [ref=f194e317] [cursor=pointer]:
+              - generic [ref=f194e320]: Save
+            - list [ref=f194e321]:
+              - listitem [ref=f194e322]: Minneapolis, Minnesota
+              - listitem [ref=f194e323]: •Marketing/Product Management
+              - listitem [ref=f194e324]: •Ameriprise Financial
+          - generic [ref=f194e326]:
+            - heading [level=2] [ref=f194e327]:
+              - link "Client Service Associate" [ref=f194e328] [cursor=pointer]:
+                - /url: /search-jobs/r26_2246/client-service-associate/
+            - button "Save Client Service Associate" [ref=f194e330] [cursor=pointer]:
+              - generic [ref=f194e333]: Save
+            - list [ref=f194e334]:
+              - listitem [ref=f194e335]: Lexington, South Carolina
+              - listitem [ref=f194e336]: •Business Support & Operations
+              - listitem [ref=f194e337]: •Ameriprise Financial
+          - generic [ref=f194e339]:
+            - heading [level=2] [ref=f194e340]:
+              - link "Senior Portfolio Management Assistant" [ref=f194e341] [cursor=pointer]:
+                - /url: /search-jobs/r26_2673/senior-portfolio-management-assistant/
+            - button "Save Senior Portfolio Management Assistant" [ref=f194e343] [cursor=pointer]:
+              - generic [ref=f194e346]: Save
+            - list [ref=f194e347]:
+              - listitem [ref=f194e348]: New York, New York
+              - listitem [ref=f194e349]: •Investment Management
+              - listitem [ref=f194e350]: •Columbia Threadneedle Investments
+          - generic [ref=f194e352]:
+            - heading [level=2] [ref=f194e353]:
+              - link "Senior Business Data Analyst" [ref=f194e354] [cursor=pointer]:
+                - /url: /search-jobs/r26_2784/senior-business-data-analyst/
+            - button "Save Senior Business Data Analyst" [ref=f194e356] [cursor=pointer]:
+              - generic [ref=f194e359]: Save
+            - list [ref=f194e360]:
+              - listitem [ref=f194e361]: Gurugram, Haryāna
+              - listitem [ref=f194e362]: •Sales
+              - listitem [ref=f194e363]: •Ameriprise India
+          - generic [ref=f194e365]:
+            - heading [level=2] [ref=f194e366]:
+              - link "Microsoft Teams Operations Analyst" [ref=f194e367] [cursor=pointer]:
+                - /url: /search-jobs/r26_1725/microsoft-teams-operations-analyst/
+            - button "Save Microsoft Teams Operations Analyst" [ref=f194e369] [cursor=pointer]:
+              - generic [ref=f194e372]: Save
+            - list [ref=f194e373]:
+              - listitem [ref=f194e374]: Noida, Uttar Pradesh / Hyderabad, Andhra Pradesh
+              - listitem [ref=f194e375]: •Technology
+              - listitem [ref=f194e376]: •Ameriprise India
+          - generic [ref=f194e378]:
+            - heading [level=2] [ref=f194e379]:
+              - link "Senior Architect - Microsoft Ecosystem & Modern Workplace" [ref=f194e380] [cursor=pointer]:
+                - /url: /search-jobs/r26_3159/senior-architect-microsoft-ecosystem-modern-workplace/
+            - button "Save Senior Architect - Microsoft Ecosystem & Modern Workplace" [ref=f194e382] [cursor=pointer]:
+              - generic [ref=f194e385]: Save
+            - list [ref=f194e386]:
+              - listitem [ref=f194e387]: Minneapolis, Minnesota
+              - listitem [ref=f194e388]: •Technology
+              - listitem [ref=f194e389]: •Ameriprise Financial
+          - generic [ref=f194e391]:
+            - heading [level=2] [ref=f194e392]:
+              - link "Client Service Associate" [ref=f194e393] [cursor=pointer]:
+                - /url: /search-jobs/r26_3036/client-service-associate/
+            - button "Save Client Service Associate" [ref=f194e395] [cursor=pointer]:
+              - generic [ref=f194e398]: Save
+            - list [ref=f194e399]:
+              - listitem [ref=f194e400]: Naperville, Illinois
+              - listitem [ref=f194e401]: •Unclassifieds
+              - listitem [ref=f194e402]: •Ameriprise Financial
+          - generic [ref=f194e404]:
+            - heading [level=2] [ref=f194e405]:
+              - link "Senior Data Scientist" [ref=f194e406] [cursor=pointer]:
+                - /url: /search-jobs/r26_1914/senior-data-scientist/
+            - button "Save Senior Data Scientist" [ref=f194e408] [cursor=pointer]:
+              - generic [ref=f194e411]: Save
+            - list [ref=f194e412]:
+              - listitem [ref=f194e413]: Boston, Massachusetts / Minneapolis, Minnesota
+              - listitem [ref=f194e414]: •Data
+              - listitem [ref=f194e415]: •Ameriprise Financial
+          - generic [ref=f194e417]:
+            - heading [level=2] [ref=f194e418]:
+              - link "Team Lead-Research Analyst" [ref=f194e419] [cursor=pointer]:
+                - /url: /search-jobs/r26_3139/team-lead-research-analyst/
+            - button "Save Team Lead-Research Analyst" [ref=f194e421] [cursor=pointer]:
+              - generic [ref=f194e424]: Save
+            - list [ref=f194e425]:
+              - listitem [ref=f194e426]: Noida, Uttar Pradesh / Gurugram, Haryāna
+              - listitem [ref=f194e427]: •Business Support & Operations
+              - listitem [ref=f194e428]: •Ameriprise India
+          - generic [ref=f194e430]:
+            - heading [level=2] [ref=f194e431]:
+              - link "Client Service Specialist" [ref=f194e432] [cursor=pointer]:
+                - /url: /search-jobs/r26_3261/client-service-specialist/
+            - button "Save Client Service Specialist" [ref=f194e434] [cursor=pointer]:
+              - generic [ref=f194e437]: Save
+            - list [ref=f194e438]:
+              - listitem [ref=f194e439]: Ojai, California
+              - listitem [ref=f194e440]: •Unclassifieds
+              - listitem [ref=f194e441]: •Ameriprise Financial
+          - generic [ref=f194e443]:
+            - heading [level=2] [ref=f194e444]:
+              - link "Actuarial Analyst" [ref=f194e445] [cursor=pointer]:
+                - /url: /search-jobs/r26_2644/actuarial-analyst/
+            - button "Save Actuarial Analyst" [ref=f194e447] [cursor=pointer]:
+              - generic [ref=f194e450]: Save
+            - list [ref=f194e451]:
+              - listitem [ref=f194e452]: Minneapolis, Minnesota
+              - listitem [ref=f194e453]: •Finance
+              - listitem [ref=f194e454]: •Ameriprise Financial
+          - generic [ref=f194e456]:
+            - heading [level=2] [ref=f194e457]:
+              - link "Principal Lead- ETL Architect" [ref=f194e458] [cursor=pointer]:
+                - /url: /search-jobs/r26_3161/principal-lead-etl-architect/
+            - button "Save Principal Lead- ETL Architect" [ref=f194e460] [cursor=pointer]:
+              - generic [ref=f194e463]: Save
+            - list [ref=f194e464]:
+              - listitem [ref=f194e465]: Noida, Uttar Pradesh
+              - listitem [ref=f194e466]: •Technology
+              - listitem [ref=f194e467]: •Ameriprise India
+          - generic [ref=f194e469]:
+            - heading [level=2] [ref=f194e470]:
+              - link "Client Service Associate" [ref=f194e471] [cursor=pointer]:
+                - /url: /search-jobs/r26_3185/client-service-associate/
+            - button "Save Client Service Associate" [ref=f194e473] [cursor=pointer]:
+              - generic [ref=f194e476]: Save
+            - list [ref=f194e477]:
+              - listitem [ref=f194e478]: Houston, Texas
+              - listitem [ref=f194e479]: •Business Support & Operations
+              - listitem [ref=f194e480]: •Ameriprise Financial
+          - generic [ref=f194e482]:
+            - heading [level=2] [ref=f194e483]:
+              - link "Structured Product Bond Trader" [ref=f194e484] [cursor=pointer]:
+                - /url: /search-jobs/r26_2384/structured-product-bond-trader/
+            - button "Save Structured Product Bond Trader" [ref=f194e486] [cursor=pointer]:
+              - generic [ref=f194e489]: Save
+            - list [ref=f194e490]:
+              - listitem [ref=f194e491]: Minneapolis, Minnesota
+              - listitem [ref=f194e492]: •Investment Management
+              - listitem [ref=f194e493]: •Columbia Threadneedle Investments
+          - generic [ref=f194e495]:
+            - heading [level=2] [ref=f194e496]:
+              - link "Controllership Associate" [ref=f194e497] [cursor=pointer]:
+                - /url: /search-jobs/r26_3194/controllership-associate/
+            - button "Save Controllership Associate" [ref=f194e499] [cursor=pointer]:
+              - generic [ref=f194e502]: Save
+            - list [ref=f194e503]:
+              - listitem [ref=f194e504]: Gurugram, Haryāna
+              - listitem [ref=f194e505]: •Finance
+              - listitem [ref=f194e506]: •Ameriprise India
+        - navigation "Pagination" [ref=f194e507]:
+          - list [ref=f194e508]:
+            - listitem [ref=f194e509]:
+              - link "Page 1" [ref=f194e510] [cursor=pointer]:
+                - /url: https://careers.ameriprise.com/search-jobs/#results
+                - text: "1"
+            - listitem [ref=f194e511]:
+              - link "Page 2" [ref=f194e512] [cursor=pointer]:
+                - /url: https://careers.ameriprise.com/search-jobs/?page=2#results
+                - text: "2"
+            - listitem [ref=f194e513]:
+              - link "Page 3" [ref=f194e514] [cursor=pointer]:
+                - /url: https://careers.ameriprise.com/search-jobs/?page=3#results
+                - text: "3"
+            - listitem [ref=f194e515]:
+              - link "Page 4" [ref=f194e516] [cursor=pointer]:
+                - /url: https://careers.ameriprise.com/search-jobs/?page=4#results
+                - text: "4"
+            - listitem [ref=f194e517]:
+              - link "Page 5" [ref=f194e518] [cursor=pointer]:
+                - /url: https://careers.ameriprise.com/search-jobs/?page=5#results
+                - text: "5"
+            - listitem [ref=f194e519]:
+              - link "Page 6" [ref=f194e520] [cursor=pointer]:
+                - /url: https://careers.ameriprise.com/search-jobs/?page=6#results
+                - text: "6"
+            - listitem [ref=f194e521]:
+              - link "Page 7" [ref=f194e522] [cursor=pointer]:
+                - /url: https://careers.ameriprise.com/search-jobs/?page=7#results
+                - text: "7"
+            - listitem [ref=f194e523]:
+              - link "Page 8" [ref=f194e524] [cursor=pointer]:
+                - /url: https://careers.ameriprise.com/search-jobs/?page=8#results
+                - text: "8"
+            - listitem [ref=f194e525]:
+              - link "Page 9" [ref=f194e526] [cursor=pointer]:
+                - /url: https://careers.ameriprise.com/search-jobs/?page=9#results
+                - text: "9"
+            - listitem [ref=f194e527]:
+              - generic [ref=f194e528]: …
+            - listitem [ref=f194e529]:
+              - link "Last page 14" [ref=f194e530] [cursor=pointer]:
+                - /url: https://careers.ameriprise.com/search-jobs/?page=14#results
+                - text: "14"
+            - listitem [ref=f194e531]:
+              - link "Next page" [ref=f194e532] [cursor=pointer]:
+                - /url: https://careers.ameriprise.com/search-jobs/?page=2#results
+  - contentinfo [ref=f194e535]:
+    - generic [ref=f194e536]:
+      - generic [ref=f194e538]:
+        - img "Ameriprise Logo" [ref=f194e541]
+        - img "RiverSource Logo" [ref=f194e544]
+        - img "Columbia Threadneedle Logo" [ref=f194e547]
+        - generic:
+          - generic:
+            - list
+      - generic [ref=f194e548]:
+        - list [ref=f194e550]:
+          - listitem [ref=f194e551]:
+            - link "Jobs" [ref=f194e552] [cursor=pointer]:
+              - /url: /search-jobs/
+          - listitem [ref=f194e553]:
+            - link "FAQs" [ref=f194e554] [cursor=pointer]:
+              - /url: /faqs/
+        - list [ref=f194e556]:
+          - listitem [ref=f194e557]:
+            - link "Our brands" [ref=f194e558] [cursor=pointer]:
+              - /url: /our-brands/
+          - listitem [ref=f194e559]:
+            - link "Ameriprise" [ref=f194e560] [cursor=pointer]:
+              - /url: /our-brands/ameriprise/
+          - listitem [ref=f194e561]:
+            - link "Ameriprise India" [ref=f194e562] [cursor=pointer]:
+              - /url: /our-brands/ameriprise-india/
+          - listitem [ref=f194e563]:
+            - link "Columbia Threadneedle Investments" [ref=f194e564] [cursor=pointer]:
+              - /url: /our-brands/columbia-threadneedle-investments/
+          - listitem [ref=f194e565]:
+            - link "RiverSource" [ref=f194e566] [cursor=pointer]:
+              - /url: /our-brands/riversource/
+        - list [ref=f194e568]:
+          - listitem [ref=f194e569]:
+            - link "Cookie settings (Opens in new window)" [ref=f194e570] [cursor=pointer]:
+              - /url: https://www.ameriprise.com/privacy-security-fraud
+              - text: Cookie settings
+          - listitem [ref=f194e573]:
+            - link "Personal information (Opens in new window)" [ref=f194e574] [cursor=pointer]:
+              - /url: https://www.ameriprise.com/privacy-security-fraud
+              - text: Personal information
+          - listitem [ref=f194e577]:
+            - link "Privacy policy (Opens in new window)" [ref=f194e578] [cursor=pointer]:
+              - /url: https://www.ameriprise.com/privacy-security-fraud
+              - text: Privacy policy
+          - listitem [ref=f194e581]:
+            - link "Terms of use (Opens in new window)" [ref=f194e582] [cursor=pointer]:
+              - /url: https://www.ameriprise.com/privacy-security-fraud
+              - text: Terms of use
+        - list [ref=f194e586]:
+          - listitem [ref=f194e587]:
+            - link "Corporate site (Opens in new window)" [ref=f194e588] [cursor=pointer]:
+              - /url: https://www.ameriprise.com/careers
+              - text: Corporate site
+      - generic [ref=f194e591]:
+        - paragraph [ref=f194e592]: Ameriprise Financial is an equal opportunity employer. We consider all qualified applicants without regard to race, color, religion, sex, national origin, genetic information, age, sexual orientation, citizenship, gender identity, disability, veteran status, marital status, family status or any other basis prohibited by law. You may request assistance if you require a reasonable accommodation for any part of the hiring process.
+        - paragraph [ref=f194e593]: Investment products are not insured by the FDIC, NCUA or any federal agency, are not deposits or obligations of, or guaranteed by any financial institution, and involve investment risks including possible loss of principal and fluctuation in value.
+        - paragraph [ref=f194e594]: Investment and advisory products and services are made available through Ameriprise Financial Services, LLC, a registered investment advisor.
+        - paragraph [ref=f194e595]: Ameriprise Financial Services, LLC. Member FINRA and SIPC.
+        - paragraph [ref=f194e596]: Users of this site agree to be bound by the terms of the Ameriprise Financial Website Rules and Regulations.
+        - paragraph [ref=f194e597]: © 2026 Ameriprise Financial, Inc. All rights reserved.
+  - generic [ref=f194e599]:
+    - paragraph [ref=f194e600]: We care about your privacy
+    - generic [ref=f194e601]:
+      - paragraph [ref=f194e602]: By clicking "Accept All", you agree to the storing of cookies on your device to give you the most optimal experience using our website. We may also use cookies to enhance performance, analyze site usage and to personalize your experience.
+      - generic [ref=f194e603]:
+        - link "Manage Preferences" [ref=f194e605] [cursor=pointer]:
+          - /url: /cookies/#cookieprefs
+        - generic [ref=f194e606]:
+          - button "Accept All" [ref=f194e607] [cursor=pointer]
+          - button "Essential Only" [ref=f194e608] [cursor=pointer]

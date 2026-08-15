@@ -1,0 +1,58 @@
+- generic [active] [ref=f832e1]:
+  - generic [ref=f832e4]:
+    - img "company logo" [ref=f832e6]
+    - generic [ref=f832e7]:
+      - heading "1 of 1 Job Opportunity" [level=2] [ref=f832e8]
+      - generic [ref=f832e9]:
+        - textbox "Search" [ref=f832e11]
+        - combobox [ref=f832e13] [cursor=pointer]:
+          - generic "open dropdown" [ref=f832e14]: 
+          - generic [ref=f832e16]: All Departments
+        - combobox [ref=f832e18] [cursor=pointer]:
+          - generic "open dropdown" [ref=f832e19]: 
+          - generic [ref=f832e21]: All Locations
+      - generic [ref=f832e22]:
+        - button [ref=f832e23] [cursor=pointer]
+        - button [ref=f832e27] [cursor=pointer]
+        - button [ref=f832e31] [cursor=pointer]
+        - button [ref=f832e35] [cursor=pointer]
+      - generic [ref=f832e39]:
+        - generic [ref=f832e40]:
+          - generic [ref=f832e41] [cursor=pointer]:
+            - generic [ref=f832e42]: Job
+            - text: ","
+            - generic [ref=f832e44]:
+              - text: Post Date
+              - generic [ref=f832e45]: 
+            - text: ","
+            - generic [ref=f832e46]: Department
+          - generic [ref=f832e47] [cursor=pointer]: Location
+        - generic [ref=f832e50]:
+          - generic [ref=f832e51]:
+            - link "Civic Data Director" [ref=f832e53] [cursor=pointer]:
+              - /url: /Recruiting/Jobs/Details/4261254
+            - generic [ref=f832e54]: 06/17/2026 -
+            - text: Policy Solutions
+          - generic [ref=f832e55]: Philadelphia, PA
+    - generic [ref=f832e56]:
+      - text: Not Finding What You're Looking For?
+      - paragraph [ref=f832e58]: Share your information and we will contact you if new opportunities fitting your qualifications become available
+      - link "Share Your Information" [ref=f832e59] [cursor=pointer]:
+        - /url: /Recruiting/PublicLeads/New/d02fb4b0-b19b-4d66-b728-ffdafe5a67f0
+    - generic [ref=f832e60]:
+      - emphasis [ref=f832e61]: Powered by
+      - img "paylocity logo" [ref=f832e62]
+      - link "Privacy Policy" [ref=f832e63] [cursor=pointer]:
+        - /url: https://www.paylocity.com/privacy/
+      - text: "|"
+      - link "Payroll & HR Software" [ref=f832e64] [cursor=pointer]:
+        - /url: https://www.paylocity.com/
+      - 'link "Reinvestment Fund: Privacy Policy" [ref=f832e65] [cursor=pointer]':
+        - /url: https://www.reinvestment.com/privacy-policy/
+  - alertdialog "Privacy" [ref=f832e67]:
+    - generic [ref=f832e69]:
+      - paragraph [ref=f832e72]: By clicking “Accept All Cookies”, you agree to the storing of cookies on your device to enhance site navigation, analyze site usage, and assist in our marketing efforts.
+      - generic [ref=f832e74]:
+        - button "Cookies Settings" [ref=f832e75] [cursor=pointer]
+        - button "Accept All Cookies" [ref=f832e76] [cursor=pointer]
+    - button "Close" [ref=f832e78] [cursor=pointer]

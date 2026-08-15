@@ -1,0 +1,245 @@
+- generic [active] [ref=f872e1]:
+  - generic:
+    - link "Lien vers la navigation" [ref=f872e2] [cursor=pointer]:
+      - /url: "#accordion"
+      - text: Passer à la navigation
+    - link "Lien vers le contenu principal" [ref=f872e3] [cursor=pointer]:
+      - /url: "#main-content"
+      - text: Passer au contenu principal
+    - link "Lien vers le bas de page" [ref=f872e4] [cursor=pointer]:
+      - /url: "#footer"
+      - text: Passer au bas de page
+  - generic [ref=f872e5]:
+    - banner [ref=f872e6]:
+      - navigation "primary" [ref=f872e7]:
+        - generic [ref=f872e9]:
+          - link "Page d'accueil" [ref=f872e11] [cursor=pointer]:
+            - /url: /
+          - generic [ref=f872e37]:
+            - generic [ref=f872e38]:
+              - generic [ref=f872e39]: "Rechercher un job:"
+              - generic [ref=f872e40]:
+                - generic [ref=f872e41]: Une liste de suggestion de recherche apparaitra au ciblage du champ de recherche
+                - textbox "Rechercher un job:" [ref=f872e42]:
+                  - /placeholder: Trouvez le job de vos rêves...
+            - button "Rechercher" [ref=f872e43] [cursor=pointer]
+          - generic [ref=f872e45]:
+            - link "0" [ref=f872e46] [cursor=pointer]:
+              - /url: /offres-sauvegardees
+            - alert [ref=f872e48]
+            - generic [ref=f872e49]:
+              - button "Une fenêtre de connexion apparaitra au ciblage" [ref=f872e50] [cursor=pointer]
+              - generic [ref=f872e52]:
+                - button "Fermer la fenêtre de connexion" [ref=f872e53] [cursor=pointer]
+                - generic [ref=f872e57]:
+                  - generic [ref=f872e58]: Suivre mes candidatures, enregistrer mon CV, programmer mes alertes...
+                  - link "Créer mon profil" [ref=f872e59] [cursor=pointer]:
+                    - /url: https://socgen.taleo.net/careersection/sgcareers/profile.ftl?lang=&src=CWS-1
+                  - separator [ref=f872e60]
+                  - generic [ref=f872e61]: De retour ?
+                  - link "Me connecter" [ref=f872e62] [cursor=pointer]:
+                    - /url: https://socgen.taleo.net/careersection/sgcareers/profile.ftl?lang=fr-FR&src=CWS-1
+      - navigation "secondary" [ref=f872e63]:
+        - generic [ref=f872e65]:
+          - list [ref=f872e66]:
+            - listitem [ref=f872e67]:
+              - link "Votre avenir chez nous" [ref=f872e69] [cursor=pointer]:
+                - /url: /groupe
+              - list:
+                - listitem [ref=f872e70]:
+                  - link "Mieux nous connaître" [ref=f872e71] [cursor=pointer]:
+                    - /url: /groupe/nous-connaitre
+                - listitem [ref=f872e72]:
+                  - link "Engagés ensemble" [ref=f872e73] [cursor=pointer]:
+                    - /url: /engages-ensemble
+            - listitem [ref=f872e74]:
+              - link "Profils recherchés" [ref=f872e76] [cursor=pointer]:
+                - /url: /metiers
+              - list:
+                - listitem [ref=f872e77]:
+                  - link "IT & Digital" [ref=f872e78] [cursor=pointer]:
+                    - /url: /metiers/it-digital
+                - listitem [ref=f872e79]:
+                  - link "Data" [ref=f872e80] [cursor=pointer]:
+                    - /url: /metiers/data
+                - listitem [ref=f872e81]:
+                  - link "Banque de Détail" [ref=f872e82] [cursor=pointer]:
+                    - /url: /metiers/banque-de-detail
+                - listitem [ref=f872e83]:
+                  - link "Banque de Grande Clientèle et Solutions Investisseurs" [ref=f872e84] [cursor=pointer]:
+                    - /url: /metiers/banque-de-grande-clientele-et-solutions-investisseurs
+                - listitem [ref=f872e85]:
+                  - link "Risques" [ref=f872e86] [cursor=pointer]:
+                    - /url: /metiers/risques
+                - listitem [ref=f872e87]:
+                  - link "Conformité" [ref=f872e88] [cursor=pointer]:
+                    - /url: /metiers/conformite
+                - listitem [ref=f872e89]:
+                  - link "Juridique & Fiscalité" [ref=f872e90] [cursor=pointer]:
+                    - /url: /metiers/juridique
+                - listitem [ref=f872e91]:
+                  - link "Direction financière" [ref=f872e92] [cursor=pointer]:
+                    - /url: /metiers/direction-financiere
+                - listitem [ref=f872e93]:
+                  - link "Inspection Générale, Audit & Consulting" [ref=f872e94] [cursor=pointer]:
+                    - /url: /metiers/inspection-generale-audit-consulting
+                - listitem [ref=f872e95]:
+                  - link "Plus de métiers" [ref=f872e96] [cursor=pointer]:
+                    - /url: /metiers/plus-metiers
+            - listitem [ref=f872e97]:
+              - link "Étudiants & jeunes diplômés" [ref=f872e99] [cursor=pointer]:
+                - /url: /etudiants-jeunes-diplomes
+              - list:
+                - listitem [ref=f872e100]:
+                  - link "Alternance" [ref=f872e101] [cursor=pointer]:
+                    - /url: /alternance
+                - listitem [ref=f872e102]:
+                  - link "Stages" [ref=f872e103] [cursor=pointer]:
+                    - /url: /stages
+                - listitem [ref=f872e104]:
+                  - link "V.I.E" [ref=f872e105] [cursor=pointer]:
+                    - /url: /vie
+                - listitem [ref=f872e106]:
+                  - link "Graduate programmes" [ref=f872e107] [cursor=pointer]:
+                    - /url: /etudiants-jeunes-diplomes/graduate-programmes
+                - listitem [ref=f872e108]:
+                  - link "Jobs étudiants" [ref=f872e109] [cursor=pointer]:
+                    - /url: /jobs-etudiants
+                - listitem [ref=f872e110]:
+                  - link "Conseils candidats" [ref=f872e111] [cursor=pointer]:
+                    - /url: /conseils-candidats
+            - listitem [ref=f872e112]:
+              - link "Rechercher" [ref=f872e113] [cursor=pointer]:
+                - /url: /rechercher
+                - text: Toutes les offres
+          - generic [ref=f872e118]:
+            - switch "Mode sombre"
+    - main [ref=f872e122]:
+      - generic [ref=f872e123]:
+        - generic [ref=f872e124]:
+          - generic [ref=f872e127]:
+            - paragraph [ref=f872e131]: Rejoignez-nous, trouvez votre job d'été
+            - link "Inscriptions closes" [ref=f872e133] [cursor=pointer]:
+              - /url: ""
+          - heading "JOBS ÉTUDIANTS" [level=1] [ref=f872e140]
+          - generic [ref=f872e146]:
+            - paragraph [ref=f872e147]:
+              - strong [ref=f872e148]: Vous recherchez un job étudiant pour cet été ?
+              - text: Vous êtes motivé/e, dynamique, vous avez l’esprit d’équipe ? Rejoignez-nous pour vivre une expérience enrichissante avec une équipe engagée ! Chez Société Générale, nous recherchons chaque année des auxiliaires d’été afin de vous proposer des emplois qui vous permettent un premier contact avec le monde de l'entreprise. En tant qu’auxiliaire d’été, vous aurez un contrat de 4 semaines consécutives de 35 heures hebdomadaires rémunérées au SMIC.
+            - paragraph [ref=f872e149]: La durée des contrats d’auxiliaire de vacances est de 4 semaines consécutives au maximum.
+          - heading "Les missions qui pourront vous être confiées" [level=2] [ref=f872e154]
+          - generic [ref=f872e157]:
+            - generic [ref=f872e161]:
+              - generic [ref=f872e162]: En agence
+              - generic [ref=f872e164]:
+                - strong [ref=f872e165]: Société Générale dispose d’un réseau d’agences partout en France afin d’être au plus près de ses clients.
+                - generic [ref=f872e166]: "Missions : accueil de la clientèle physique et téléphonique, tâches administratives…"
+            - generic [ref=f872e170]:
+              - generic [ref=f872e171]: Hors agence
+              - generic [ref=f872e173]:
+                - strong [ref=f872e174]: Vous serez accueilli au sein des services administratifs où se dessine l’avenir financier avec engagement.
+                - generic [ref=f872e175]: "Missions : tâches administratives, diverses missions, contacts téléphoniques…"
+          - generic [ref=f872e177]:
+            - generic [ref=f872e178]:
+              - heading "Qui peut postuler ?" [level=2] [ref=f872e179]
+              - generic [ref=f872e180]:
+                - paragraph [ref=f872e181]:
+                  - strong [ref=f872e182]: "Pour postuler, vous devez être disponible sur la période des congés scolaires ou universitaires entre juillet et septembre pour 4 semaines consécutives et respecter les conditions suivantes :"
+                - list [ref=f872e183]:
+                  - listitem [ref=f872e184]:
+                    - text: • Être
+                    - strong [ref=f872e185]: titulaire
+                    - text: ", au minimum, du"
+                    - strong [ref=f872e186]: Baccalauréat
+                    - text: au moment de l'inscription
+                  - listitem [ref=f872e187]:
+                    - text: • Être âgé d'
+                    - strong [ref=f872e188]: au moins 18 ans
+                    - text: lors du premier jour de mission
+                  - listitem [ref=f872e189]:
+                    - text: • Être
+                    - strong [ref=f872e190]: scolarisé
+                    - text: ": un certificat attestant de la scolarisation au titre de l'année scolaire 2025-2026"
+                  - listitem [ref=f872e191]:
+                    - text: • Avoir un
+                    - strong [ref=f872e192]: casier judiciaire vierge
+            - generic [ref=f872e193]:
+              - heading "Quand postuler ?" [level=2] [ref=f872e194]
+              - generic [ref=f872e197]:
+                - img [ref=f872e199]: 
+                - generic [ref=f872e201]:
+                  - text: Les inscriptions sont fermées pour le moment.
+                  - strong [ref=f872e203]: Rendez-vous en 2027.
+          - generic [ref=f872e204]: Inscriptions closes
+        - navigation "Fil d'Ariane" [ref=f872e214]:
+          - list [ref=f872e215]:
+            - listitem [ref=f872e216]:
+              - link "Accueil" [ref=f872e217] [cursor=pointer]:
+                - /url: /
+              - text: ">"
+            - listitem [ref=f872e218]:
+              - link "Étudiants & jeunes diplômés" [ref=f872e219] [cursor=pointer]:
+                - /url: /etudiants-jeunes-diplomes
+              - text: ">"
+            - listitem [ref=f872e220]: Jobs étudiants
+    - contentinfo [ref=f872e221]:
+      - contentinfo [ref=f872e222]:
+        - generic [ref=f872e223]:
+          - generic [ref=f872e224]:
+            - generic [ref=f872e225]: Découvrir
+            - list [ref=f872e226]:
+              - listitem [ref=f872e227]:
+                - link "Offres d’emplois dans la banque" [ref=f872e228] [cursor=pointer]:
+                  - /url: /rechercher
+              - listitem [ref=f872e229]:
+                - link "Site du groupe Société Générale" [ref=f872e230] [cursor=pointer]:
+                  - /url: https://www.societegenerale.com/fr
+          - generic [ref=f872e231]:
+            - generic [ref=f872e232]: Liens utiles
+            - list [ref=f872e233]:
+              - listitem [ref=f872e234]:
+                - link "Aide" [ref=f872e235] [cursor=pointer]:
+                  - /url: /aide
+              - listitem [ref=f872e236]:
+                - link "Profils recherchés" [ref=f872e237] [cursor=pointer]:
+                  - /url: /metiers
+              - listitem [ref=f872e238]:
+                - link "Plan du site" [ref=f872e239] [cursor=pointer]:
+                  - /url: /sitemap
+              - listitem [ref=f872e240]:
+                - 'link "Accessibilité : non-conforme" [ref=f872e241] [cursor=pointer]':
+                  - /url: /politique-accessibilite
+          - generic [ref=f872e242]:
+            - generic [ref=f872e243]: Informations légales
+            - list [ref=f872e244]:
+              - listitem [ref=f872e245]:
+                - link "Informations légales" [ref=f872e246] [cursor=pointer]:
+                  - /url: /informations-legales
+              - listitem [ref=f872e247]:
+                - link "Politique de confidentialité" [ref=f872e248] [cursor=pointer]:
+                  - /url: /protection-des-donnees
+              - listitem [ref=f872e249]:
+                - link "Charte Cookies" [ref=f872e250] [cursor=pointer]:
+                  - /url: /cookies
+              - listitem [ref=f872e251]:
+                - link "Gestion des cookies" [ref=f872e252] [cursor=pointer]:
+                  - /url: ""
+          - generic [ref=f872e253]:
+            - generic [ref=f872e254]: "Suivez nous :"
+            - list [ref=f872e255]:
+              - listitem [ref=f872e256]:
+                - link "Facebook - Nouvel onglet" [ref=f872e257] [cursor=pointer]:
+                  - /url: https://www.facebook.com/societegenerale
+              - listitem [ref=f872e261]:
+                - link "Youtube - Nouvel onglet" [ref=f872e262] [cursor=pointer]:
+                  - /url: https://www.youtube.com/playlist?list=PLO28QHeP4SE6s6hcc5_PcYVbZ2EiBZOQq
+              - listitem [ref=f872e266]:
+                - link "Twitter - Nouvel onglet" [ref=f872e267] [cursor=pointer]:
+                  - /url: https://twitter.com/SocieteGenerale
+              - listitem [ref=f872e271]:
+                - link "LinkedIn - Nouvel onglet" [ref=f872e272] [cursor=pointer]:
+                  - /url: https://www.linkedin.com/company/societe-generale/
+              - listitem [ref=f872e276]:
+                - link "Instagram - Nouvel onglet" [ref=f872e277] [cursor=pointer]:
+                  - /url: https://www.instagram.com/societegenerale/
+    - button "Retourner en haut de la page" [ref=f872e281] [cursor=pointer]

@@ -1,0 +1,912 @@
+- generic [ref=f1160e1]:
+  - banner "Site Header" [ref=f1160e2]:
+    - region "Leaderboard Advert" [ref=f1160e3]
+    - link "Skip to Main Content" [ref=f1160e5] [cursor=pointer]:
+      - /url: "#site-content"
+    - generic [ref=f1160e6]:
+      - navigation [ref=f1160e9]:
+        - list [ref=f1160e10]:
+          - listitem [ref=f1160e11]:
+            - link "The Boston Globe" [ref=f1160e12] [cursor=pointer]:
+              - /url: https://www.bostonglobe.com/?p1=HatNav_BDC
+          - listitem [ref=f1160e13]:
+            - link "Boston.com" [ref=f1160e14] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=f1160e15]:
+            - link "Boston Magazine" [ref=f1160e16] [cursor=pointer]:
+              - /url: https://www.bostonmagazine.com?utm_source=bdc&utm_medium=referral&utm_campaign=hatnav_bdc
+          - listitem [ref=f1160e17]:
+            - link "B-Side" [ref=f1160e18] [cursor=pointer]:
+              - /url: https://www.boston.com/tag/the-b-side/?p1=HatNav_BDC
+      - generic [ref=f1160e19]:
+        - button "Toggle Panel menu" [ref=f1160e21] [cursor=pointer]:
+          - generic: Open
+          - generic: Close
+          - generic: Menu
+        - heading [level=1] [ref=f1160e23]:
+          - link "Boston.com" [ref=f1160e24] [cursor=pointer]:
+            - /url: https://www.boston.com
+        - navigation "Utility Navigation" [ref=f1160e27]:
+          - list [ref=f1160e28]:
+            - listitem [ref=f1160e29]:
+              - button "Search" [ref=f1160e30] [cursor=pointer]
+          - navigation [ref=f1160e31]:
+            - list [ref=f1160e32]:
+              - listitem [ref=f1160e33]:
+                - link "Subscribe" [ref=f1160e34] [cursor=pointer]:
+                  - /url: "#"
+              - listitem [ref=f1160e35]:
+                - link "Log in" [ref=f1160e36] [cursor=pointer]:
+                  - /url: "#"
+              - listitem [ref=f1160e37]:
+                - link [ref=f1160e38] [cursor=pointer]:
+                  - /url: "#"
+                  - img "User" [ref=f1160e39]
+    - generic [ref=f1160e42]:
+      - navigation "Main Site Navigation" [ref=f1160e43]:
+        - list [ref=f1160e45]:
+          - listitem [ref=f1160e46]:
+            - link "News" [ref=f1160e47] [cursor=pointer]:
+              - /url: https://www.boston.com/category/news/
+          - listitem [ref=f1160e48]:
+            - link "Sports" [ref=f1160e49] [cursor=pointer]:
+              - /url: https://www.boston.com/category/sports/
+          - listitem [ref=f1160e50]:
+            - link "Weather" [ref=f1160e51] [cursor=pointer]:
+              - /url: https://www.boston.com/category/weather/
+          - listitem [ref=f1160e52]:
+            - link "Real Estate" [ref=f1160e53] [cursor=pointer]:
+              - /url: https://www.boston.com/category/real-estate/
+          - listitem [ref=f1160e54]:
+            - link "Food" [ref=f1160e55] [cursor=pointer]:
+              - /url: https://www.boston.com/category/food/
+          - listitem [ref=f1160e56]:
+            - link "Love Letters" [ref=f1160e57] [cursor=pointer]:
+              - /url: https://www.boston.com/category/love-letters/
+          - listitem [ref=f1160e58]:
+            - link "Culture" [ref=f1160e59] [cursor=pointer]:
+              - /url: https://www.boston.com/category/culture/
+          - listitem [ref=f1160e60]:
+            - link "Things To Do" [ref=f1160e61] [cursor=pointer]:
+              - /url: https://www.boston.com/category/things-to-do/
+          - listitem [ref=f1160e62]:
+            - link "Travel" [ref=f1160e63] [cursor=pointer]:
+              - /url: https://www.boston.com/category/travel/
+          - listitem [ref=f1160e64]:
+            - link "Community" [ref=f1160e65] [cursor=pointer]:
+              - /url: https://www.boston.com/category/community/
+          - listitem [ref=f1160e66]:
+            - link "Cars" [ref=f1160e67] [cursor=pointer]:
+              - /url: https://www.boston.com/category/cars/
+      - navigation "Trending Navigation" [ref=f1160e68]:
+        - list [ref=f1160e70]:
+          - listitem [ref=f1160e71]:
+            - link "Lindsay Clancy" [ref=f1160e72] [cursor=pointer]:
+              - /url: https://www.boston.com/news/crime/2026/08/12/lindsay-clancy-murder-trial-livestream-video-wednesday-august-12/
+          - listitem [ref=f1160e73]:
+            - link "Acton" [ref=f1160e74] [cursor=pointer]:
+              - /url: https://www.boston.com/news/local-news/2026/08/12/police-seek-acton-teen-after-finding-two-dead-in-home-they-shared/
+          - listitem [ref=f1160e75]:
+            - link "Boston nightlife" [ref=f1160e76] [cursor=pointer]:
+              - /url: https://www.boston.com/news/local-news/2026/08/12/qa-bostons-nightlife-czar-says-the-city-is-just-getting-started/
+  - main "Main Site Content" [ref=f1160e77]:
+    - generic [ref=f1160e78]:
+      - generic [ref=f1160e79]:
+        - generic [ref=f1160e80]:
+          - generic [ref=f1160e82]:
+            - article "Lindsay Clancy sobs in court as medical examiner testifies about children’s autopsies" [ref=f1160e83] [cursor=pointer]:
+              - link [ref=f1160e84]:
+                - /url: https://www.boston.com/news/crime/2026/08/12/lindsay-clancy-murder-trial-livestream-video-wednesday-august-12/
+                - generic [ref=f1160e85]:
+                  - figure [ref=f1160e86]
+                  - generic [ref=f1160e87]:
+                    - heading "Lindsay Clancy sobs in court as medical examiner testifies about children’s autopsies" [level=2] [ref=f1160e88]
+                    - paragraph [ref=f1160e89]: long read
+            - article "Tour the Patriots’ new 160,000-square-foot training facility" [ref=f1160e90] [cursor=pointer]:
+              - link [ref=f1160e91]:
+                - /url: https://www.boston.com/sports/new-england-patriots/2026/08/12/new-england-patriots-training-facility-new-balance-nfl-football-tour-video/
+                - generic [ref=f1160e92]:
+                  - figure [ref=f1160e93]:
+                    - img "The team locker room pictured during a media tour at the New England Patriots state-of-the-art New Balance training headquarters in Foxborough, MA." [ref=f1160e94]
+                  - generic [ref=f1160e95]:
+                    - heading "Tour the Patriots’ new 160,000-square-foot training facility" [level=2] [ref=f1160e96]
+                    - paragraph [ref=f1160e97]: 2 min read
+            - article "Man killed in stabbing inside South Station during rush hour, officials say" [ref=f1160e98] [cursor=pointer]:
+              - link [ref=f1160e99]:
+                - /url: https://www.boston.com/news/local-news/2026/08/12/man-killed-in-stabbing-inside-south-station-during-rush-hour-officials-say/
+                - generic [ref=f1160e100]:
+                  - figure [ref=f1160e101]
+                  - generic [ref=f1160e102]:
+                    - heading "Man killed in stabbing inside South Station during rush hour, officials say" [level=2] [ref=f1160e103]
+                    - paragraph [ref=f1160e104]: 1 min read
+            - article "Acton teen charged with murder used ChatGPT for ‘fantasies’ about killing family, DA says" [ref=f1160e105] [cursor=pointer]:
+              - link [ref=f1160e106]:
+                - /url: https://www.boston.com/news/local-news/2026/08/12/police-seek-acton-teen-after-finding-two-dead-in-home-they-shared/
+                - generic [ref=f1160e107]:
+                  - figure [ref=f1160e108]
+                  - generic [ref=f1160e109]:
+                    - heading "Acton teen charged with murder used ChatGPT for ‘fantasies’ about killing family, DA says" [level=2] [ref=f1160e110]
+                    - paragraph [ref=f1160e111]: 3 min read
+            - 'article "Patriots stock watch 2.0: Who''s rising and falling ahead of preseason opener?" [ref=f1160e112] [cursor=pointer]':
+              - link [ref=f1160e113]:
+                - /url: https://www.boston.com/sports/new-england-patriots/2026/08/12/patriots-stock-watch-2-0-whos-rising-and-falling-ahead-of-preseason-opener/
+                - generic [ref=f1160e114]:
+                  - figure [ref=f1160e115]
+                  - generic [ref=f1160e116]:
+                    - 'heading "Patriots stock watch 2.0: Who''s rising and falling ahead of preseason opener?" [level=2] [ref=f1160e117]'
+                    - paragraph [ref=f1160e118]: 5 min read
+            - article "Cape Cod lawmaker proposes tax on million-dollar vacation homes. Do you agree?" [ref=f1160e119] [cursor=pointer]:
+              - link [ref=f1160e120]:
+                - /url: https://www.boston.com/community/tell-us/cape-cod-lawmaker-proposes-taxing-million-dollar-vacation-homes/
+                - generic [ref=f1160e121]:
+                  - figure [ref=f1160e122]
+                  - generic [ref=f1160e123]:
+                    - heading "Cape Cod lawmaker proposes tax on million-dollar vacation homes. Do you agree?" [level=2] [ref=f1160e124]
+                    - paragraph [ref=f1160e125]: 4 min read
+            - article "Allston-Brighton residents divided over future of Jackson Mann Community Center, survey shows" [ref=f1160e126] [cursor=pointer]:
+              - link [ref=f1160e127]:
+                - /url: https://www.boston.com/news/local-news/2026/08/12/allston-brighton-residents-divided-over-future-of-jackson-mann-community-center-survey-shows/
+                - generic [ref=f1160e128]:
+                  - figure [ref=f1160e129]
+                  - generic [ref=f1160e130]:
+                    - heading "Allston-Brighton residents divided over future of Jackson Mann Community Center, survey shows" [level=2] [ref=f1160e131]
+                    - paragraph [ref=f1160e132]: 3 min read
+          - generic [ref=f1160e133]:
+            - article "Body found at TD Garden, police say" [ref=f1160e134] [cursor=pointer]:
+              - link "TD Garden Body found at TD Garden, police say 1 min read" [ref=f1160e135]:
+                - /url: https://www.boston.com/news/local-news/2026/08/12/body-found-at-td-garden-police-say/
+                - generic [ref=f1160e137]:
+                  - generic [ref=f1160e138]: TD Garden
+                  - heading "Body found at TD Garden, police say" [level=3] [ref=f1160e139]
+                  - paragraph [ref=f1160e140]: 1 min read
+            - 'article "Police: Person held pregnant woman hostage with gun during dramatic chase on I-93 in Milton" [ref=f1160e141] [cursor=pointer]':
+              - 'link "Crime Police: Person held pregnant woman hostage with gun during dramatic chase on I-93 in Milton 1 min read" [ref=f1160e142]':
+                - /url: https://www.boston.com/news/local-news/2026/08/12/police-person-held-pregnant-woman-hostage-with-gun-during-dramatic-chase-on-i-93-in-milton/
+                - generic [ref=f1160e144]:
+                  - generic [ref=f1160e145]: Crime
+                  - 'heading "Police: Person held pregnant woman hostage with gun during dramatic chase on I-93 in Milton" [level=3] [ref=f1160e146]'
+                  - paragraph [ref=f1160e147]: 1 min read
+            - article "Red Sox drop fifth straight game, fall to Jays 6-4" [ref=f1160e148] [cursor=pointer]:
+              - link "Red Sox Red Sox drop fifth straight game, fall to Jays 6-4 1 min read" [ref=f1160e149]:
+                - /url: https://www.boston.com/uncategorized/boston-red-sox/2026/08/12/blue-jays-erupt-for-5-runs-in-the-eighth-to-beat-red-sox-6-4-extend-bostons-skid-to-5/
+                - generic [ref=f1160e151]:
+                  - generic [ref=f1160e152]: Red Sox
+                  - heading "Red Sox drop fifth straight game, fall to Jays 6-4" [level=3] [ref=f1160e153]
+                  - paragraph [ref=f1160e154]: 1 min read
+            - article "Stoughton town manager contradicts police chief who accused him of tampering with Sandra Birchmore investigation" [ref=f1160e155] [cursor=pointer]:
+              - link "Stoughton Stoughton town manager contradicts police chief who accused him of tampering with Sandra Birchmore investigation 3 min read" [ref=f1160e156]:
+                - /url: https://www.boston.com/news/local-news/2026/08/12/stoughton-town-manager-contradicts-police-chief-who-accused-him-of-tampering-with-sandra-birchmore-investigation/
+                - generic [ref=f1160e158]:
+                  - generic [ref=f1160e159]: Stoughton
+                  - heading "Stoughton town manager contradicts police chief who accused him of tampering with Sandra Birchmore investigation" [level=3] [ref=f1160e160]
+                  - paragraph [ref=f1160e161]: 3 min read
+            - article "Athol man charged with child pornography possession" [ref=f1160e162] [cursor=pointer]:
+              - link "Crime Athol man charged with child pornography possession 1 min read" [ref=f1160e163]:
+                - /url: https://www.boston.com/news/local-news/2026/08/12/athol-man-charged-with-child-pornography-possession/
+                - generic [ref=f1160e165]:
+                  - generic [ref=f1160e166]: Crime
+                  - heading "Athol man charged with child pornography possession" [level=3] [ref=f1160e167]
+                  - paragraph [ref=f1160e168]: 1 min read
+            - article "Nearly 30 people arrested after investigation into drug trafficking in Western Mass." [ref=f1160e169] [cursor=pointer]:
+              - link "Crime Nearly 30 people arrested after investigation into drug trafficking in Western Mass. 1 min read" [ref=f1160e170]:
+                - /url: https://www.boston.com/news/local-news/2026/08/12/nearly-30-people-arrested-after-investigation-into-drug-trafficking-in-western-mass/
+                - generic [ref=f1160e172]:
+                  - generic [ref=f1160e173]: Crime
+                  - heading "Nearly 30 people arrested after investigation into drug trafficking in Western Mass." [level=3] [ref=f1160e174]
+                  - paragraph [ref=f1160e175]: 1 min read
+            - article "White House press secretary Karoline Leavitt, youngest person to hold role, to leave at month’s end" [ref=f1160e176] [cursor=pointer]:
+              - link "Politics White House press secretary Karoline Leavitt, youngest person to hold role, to leave at month’s end 1 min read" [ref=f1160e177]:
+                - /url: https://www.boston.com/news/politics/2026/08/12/white-house-press-secretary-karoline-leavitt-youngest-person-to-hold-role-to-leave-at-months-end/
+                - generic [ref=f1160e179]:
+                  - generic [ref=f1160e180]: Politics
+                  - heading "White House press secretary Karoline Leavitt, youngest person to hold role, to leave at month’s end" [level=3] [ref=f1160e181]
+                  - paragraph [ref=f1160e182]: 1 min read
+            - article "Public art tiles stolen out of sidewalk in Dedham, town says" [ref=f1160e183] [cursor=pointer]:
+              - link "Dedham Public art tiles stolen out of sidewalk in Dedham, town says 1 min read" [ref=f1160e184]:
+                - /url: https://www.boston.com/news/local-news/2026/08/12/public-art-tiles-stolen-out-of-sidewalk-in-dedham-town-says/
+                - generic [ref=f1160e186]:
+                  - generic [ref=f1160e187]: Dedham
+                  - heading "Public art tiles stolen out of sidewalk in Dedham, town says" [level=3] [ref=f1160e188]
+                  - paragraph [ref=f1160e189]: 1 min read
+            - article "Are millionaires really leaving Massachusetts? We don’t know yet." [ref=f1160e190] [cursor=pointer]:
+              - link "'Millionaires tax' Are millionaires really leaving Massachusetts? We don’t know yet. 4 min read" [ref=f1160e191]:
+                - /url: https://www.boston.com/news/business/2026/08/12/are-millionaires-really-leaving-massachusetts-we-dont-know-yet/
+                - generic [ref=f1160e193]:
+                  - generic [ref=f1160e194]: "'Millionaires tax'"
+                  - heading "Are millionaires really leaving Massachusetts? We don’t know yet." [level=3] [ref=f1160e195]
+                  - paragraph [ref=f1160e196]: 4 min read
+            - article "Motorcyclist killed in crash with pickup truck in Raynham" [ref=f1160e197] [cursor=pointer]:
+              - link "Local News Motorcyclist killed in crash with pickup truck in Raynham 1 min read" [ref=f1160e198]:
+                - /url: https://www.boston.com/news/local-news/2026/08/12/motorcyclist-killed-in-crash-with-pickup-truck-in-raynham/
+                - generic [ref=f1160e200]:
+                  - generic [ref=f1160e201]: Local News
+                  - heading "Motorcyclist killed in crash with pickup truck in Raynham" [level=3] [ref=f1160e202]
+                  - paragraph [ref=f1160e203]: 1 min read
+            - article "Minnesota man kills his wife and daughter at a daycare after killing another relative" [ref=f1160e204] [cursor=pointer]:
+              - link "Crime Minnesota man kills his wife and daughter at a daycare after killing another relative 2 min read" [ref=f1160e205]:
+                - /url: https://www.boston.com/news/crime/2026/08/12/minnesota-man-who-killed-wife-and-daughter-at-a-daycare-may-have-killed-another-family-member/
+                - generic [ref=f1160e207]:
+                  - generic [ref=f1160e208]: Crime
+                  - heading "Minnesota man kills his wife and daughter at a daycare after killing another relative" [level=3] [ref=f1160e209]
+                  - paragraph [ref=f1160e210]: 2 min read
+        - generic [ref=f1160e211]: "Advertisement:"
+        - generic [ref=f1160e214]:
+          - article "In Lindsay Clancy’s case, both sides agree she killed her children. Here’s what will decide her fate." [ref=f1160e216] [cursor=pointer]:
+            - figure [ref=f1160e217]:
+              - link [ref=f1160e218]:
+                - /url: https://www.boston.com/news/crime/2026/07/20/lindsay-clancy-murder-trial-insanity-defense/
+            - generic [ref=f1160e219]:
+              - paragraph [ref=f1160e220]:
+                - 'link "Topic: Lindsay Clancy" [ref=f1160e221]':
+                  - /url: https://www.boston.com/news/crime/2026/07/20/lindsay-clancy-murder-trial-insanity-defense/
+                  - generic [ref=f1160e222]: "Topic:"
+                  - text: Lindsay Clancy
+              - heading [level=3] [ref=f1160e223]:
+                - link "Here’s what will decide Lindsay Clancy's fate" [ref=f1160e224]:
+                  - /url: https://www.boston.com/news/crime/2026/07/20/lindsay-clancy-murder-trial-insanity-defense/
+          - figure [ref=f1160e226]:
+            - iframe [ref=f1160e228]:
+              - generic [ref=f1161e1]:
+                - generic "YouTube Video Player" [ref=f1161e3]
+                - generic [ref=f1161e5]:
+                  - generic:
+                    - generic:
+                      - button "Play video" [ref=f1161e10] [cursor=pointer]
+                      - button "Hide player controls" [ref=f1161e14] [cursor=pointer]
+                      - generic [ref=f1161e21]:
+                        - generic [ref=f1161e22]:
+                          - link "In Lindsay Clancy's case, both sides agree she killed her children. Here's what will decide her fate" [ref=f1161e23] [cursor=pointer]:
+                            - /url: https://www.youtube.com/shorts/h7j8ZZ5bYuQ
+                          - link "Boston.com" [ref=f1161e24] [cursor=pointer]:
+                            - /url: /channel/UC8IkdxFyPXgw11n4Ew0osHQ
+                        - generic [ref=f1161e26]:
+                          - button [ref=f1161e27] [cursor=pointer]
+                          - generic [ref=f1161e29]:
+                            - generic: Boston.com
+                            - generic: 10.3K subscribers
+        - generic [ref=f1160e229]: "Advertisement:"
+        - generic [ref=f1160e233]:
+          - link "New England Travel The best waterfront hotel in America is in Massachusetts, according to USA Today readers" [ref=f1160e234] [cursor=pointer]:
+            - /url: https://www.boston.com/travel/new-england-travel/2026/08/12/best-waterfront-hotel-in-america-is-in-massachusetts/
+            - generic [ref=f1160e237]:
+              - generic [ref=f1160e238]: New England Travel
+              - heading "The best waterfront hotel in America is in Massachusetts, according to USA Today readers" [level=2] [ref=f1160e239]
+          - link "Cape Cod Travel 7 things to do during a rainy day on the Cape" [ref=f1160e240] [cursor=pointer]:
+            - /url: https://www.boston.com/travel/new-england-travel/2026/08/12/things-to-do-during-a-rainy-day-on-the-cape/
+            - generic [ref=f1160e243]:
+              - generic [ref=f1160e244]: Cape Cod Travel
+              - heading "7 things to do during a rainy day on the Cape" [level=2] [ref=f1160e245]
+          - link "Federal agents walk down a street. Immigration ICE plans to give officers gloves that can deliver painful electric shocks" [ref=f1160e246] [cursor=pointer]:
+            - /url: https://www.boston.com/news/national-news/2026/08/12/ice-plans-to-give-officers-gloves-that-can-deliver-painful-electric-shocks/
+            - generic [ref=f1160e247]:
+              - img "Federal agents walk down a street." [ref=f1160e249]
+              - generic [ref=f1160e250]:
+                - generic [ref=f1160e251]: Immigration
+                - heading "ICE plans to give officers gloves that can deliver painful electric shocks" [level=2] [ref=f1160e252]
+          - link "Boston Nightlife ‘Boston is ready for less restrictive alcohol regulation’" [ref=f1160e253] [cursor=pointer]:
+            - /url: https://www.boston.com/news/local-news/2026/08/12/qa-bostons-nightlife-czar-says-the-city-is-just-getting-started/
+            - generic [ref=f1160e256]:
+              - generic [ref=f1160e257]: Boston Nightlife
+              - heading "‘Boston is ready for less restrictive alcohol regulation’" [level=2] [ref=f1160e258]
+          - link "Reddit Boca Raton resident offers praise for Boston, says trip to city ‘made me realize my hometown sucks’" [ref=f1160e259] [cursor=pointer]:
+            - /url: https://www.boston.com/travel/local-news/2026/08/12/visit-to-boston-made-boca-raton-resident-feel-miserable-about-living-in-boca-raton/
+            - generic [ref=f1160e262]:
+              - generic [ref=f1160e263]: Reddit
+              - heading "Boca Raton resident offers praise for Boston, says trip to city ‘made me realize my hometown sucks’" [level=2] [ref=f1160e264]
+          - 'link "Local Obituaries Local obituary: Max Rothschild, Williamstown 7-year-old" [ref=f1160e265] [cursor=pointer]':
+            - /url: https://www.boston.com/news/massachusetts-obituaries/2026/08/11/local-obituary-max-rothschild-williamstown-7-year-old/
+            - generic [ref=f1160e268]:
+              - generic [ref=f1160e269]: Local Obituaries
+              - 'heading "Local obituary: Max Rothschild, Williamstown 7-year-old" [level=2] [ref=f1160e270]'
+        - generic [ref=f1160e271]:
+          - link "BIGFOOT 'I keep telling people you have to see it to believe it. I can't convince you and I'm not even going to try.'" [ref=f1160e272] [cursor=pointer]:
+            - /url: https://www.boston.com/news/off-beat/2026/08/08/an-8-foot-bigfoot-was-spotted-in-connecticut-last-month-its-far-from-new-englands-first/
+            - generic [ref=f1160e275]:
+              - generic [ref=f1160e276]: BIGFOOT
+              - heading "'I keep telling people you have to see it to believe it. I can't convince you and I'm not even going to try.'" [level=2] [ref=f1160e277]
+          - link "Celebs ‘Real Housewives’ star Dorinda Medley lists part of Berkshires estate" [ref=f1160e278] [cursor=pointer]:
+            - /url: https://www.boston.com/real-estate/on-the-market/2026/08/11/dorinda-medley-real-housewives-bluestone-manor-berkshires-sale/
+            - generic [ref=f1160e281]:
+              - generic [ref=f1160e282]: Celebs
+              - heading "‘Real Housewives’ star Dorinda Medley lists part of Berkshires estate" [level=2] [ref=f1160e283]
+          - link "Allston A ‘cat stroll’ is coming to Allston next month" [ref=f1160e284] [cursor=pointer]:
+            - /url: https://www.boston.com/things-to-do/events/a-cat-stroll-is-coming-to-allston-next-month/
+            - generic [ref=f1160e287]:
+              - generic [ref=f1160e288]: Allston
+              - heading "A ‘cat stroll’ is coming to Allston next month" [level=2] [ref=f1160e289]
+          - link "The Boston Globe Cape Cod homeowner sues, says bank should not have given him mortgage for $5.5 million mansion at risk of collapse" [ref=f1160e290] [cursor=pointer]:
+            - /url: https://www.boston.com/news/the-boston-globe/2026/08/03/cape-cod-homeowner-sues-says-bank-should-not-have-given-him-mortgage-for-5-5-million-mansion-at-risk-of-collapse/
+            - generic [ref=f1160e293]:
+              - generic [ref=f1160e294]: The Boston Globe
+              - heading "Cape Cod homeowner sues, says bank should not have given him mortgage for $5.5 million mansion at risk of collapse" [level=2] [ref=f1160e295]
+          - link "Dating How is a guy supposed to meet someone after college?" [ref=f1160e296] [cursor=pointer]:
+            - /url: https://www.boston.com/love-letters/dating/how-is-a-guy-supposed-to-meet-someone-after-college/
+            - generic [ref=f1160e299]:
+              - generic [ref=f1160e300]: Dating
+              - heading "How is a guy supposed to meet someone after college?" [level=2] [ref=f1160e301]
+          - link "A group of five women in a red hot tub tug boat on the water, outlined in white. Background is water and other boats, all faded to purple. White steam line and star sketches are on the sides of the boat. The B-Side These hot tub boats are WILD 🤯🚣" [ref=f1160e302] [cursor=pointer]:
+            - /url: https://www.boston.com/community/the-b-side/these-hot-tub-boats-are-wild/
+            - generic [ref=f1160e303]:
+              - img "A group of five women in a red hot tub tug boat on the water, outlined in white. Background is water and other boats, all faded to purple. White steam line and star sketches are on the sides of the boat." [ref=f1160e305]
+              - generic [ref=f1160e306]:
+                - generic [ref=f1160e307]: The B-Side
+                - heading "These hot tub boats are WILD 🤯🚣" [level=2] [ref=f1160e308]
+        - generic [ref=f1160e309]: "Advertisement:"
+        - generic [ref=f1160e314]:
+          - generic [ref=f1160e315]:
+            - heading "Stay up to date with everything Boston" [level=3] [ref=f1160e316]
+            - paragraph [ref=f1160e317]: Receive the latest news and breaking updates, straight from our newsroom to your inbox.
+          - group "Submit your email" [ref=f1160e320]:
+            - generic [ref=f1160e322]:
+              - generic [ref=f1160e323]: Enter your email address
+              - textbox "Enter your email address" [ref=f1160e324]:
+                - /placeholder: Email Address
+            - button "Sign up" [ref=f1160e325] [cursor=pointer]
+        - region "News" [ref=f1160e326]:
+          - generic [ref=f1160e327]:
+            - heading [level=3] [ref=f1160e329]:
+              - link "News" [ref=f1160e330] [cursor=pointer]:
+                - /url: https://www.boston.com/category/news
+            - region "Body found at TD Garden, police say" [ref=f1160e331]:
+              - link "Body found at TD Garden, police say" [ref=f1160e332] [cursor=pointer]:
+                - /url: https://www.boston.com/news/local-news/2026/08/12/body-found-at-td-garden-police-say/
+                - heading "Body found at TD Garden, police say" [level=3] [ref=f1160e336]
+          - list [ref=f1160e338]:
+            - listitem [ref=f1160e339] [cursor=pointer]:
+              - link "Crime Athol man charged with child pornography possession" [ref=f1160e340]:
+                - /url: https://www.boston.com/news/local-news/2026/08/12/athol-man-charged-with-child-pornography-possession/
+                - generic [ref=f1160e342]:
+                  - generic [ref=f1160e343]: Crime
+                  - heading "Athol man charged with child pornography possession" [level=4] [ref=f1160e344]
+            - listitem [ref=f1160e345] [cursor=pointer]:
+              - 'link "Crime Police: Person held pregnant woman hostage with gun during dramatic chase on I-93 in Milton" [ref=f1160e346]':
+                - /url: https://www.boston.com/news/local-news/2026/08/12/police-person-held-pregnant-woman-hostage-with-gun-during-dramatic-chase-on-i-93-in-milton/
+                - generic [ref=f1160e348]:
+                  - generic [ref=f1160e349]: Crime
+                  - 'heading "Police: Person held pregnant woman hostage with gun during dramatic chase on I-93 in Milton" [level=4] [ref=f1160e350]'
+            - listitem [ref=f1160e351] [cursor=pointer]:
+              - link "Stoughton Stoughton town manager contradicts police chief who accused him of tampering with Sandra Birchmore investigation" [ref=f1160e352]:
+                - /url: https://www.boston.com/news/local-news/2026/08/12/stoughton-town-manager-contradicts-police-chief-who-accused-him-of-tampering-with-sandra-birchmore-investigation/
+                - generic [ref=f1160e354]:
+                  - generic [ref=f1160e355]: Stoughton
+                  - heading "Stoughton town manager contradicts police chief who accused him of tampering with Sandra Birchmore investigation" [level=4] [ref=f1160e356]
+        - generic [ref=f1160e357]: "Advertisement:"
+        - separator [ref=f1160e361]
+        - region "Sports" [ref=f1160e362]:
+          - generic [ref=f1160e363]:
+            - heading [level=3] [ref=f1160e365]:
+              - link "Sports" [ref=f1160e366] [cursor=pointer]:
+                - /url: https://www.boston.com/category/sports
+            - region "Former NFL QB Matt Hasselbeck is part of the latest CTE frontier at BU — diagnosing brain disease in the living" [ref=f1160e367]:
+              - link "Former NFL QB Matt Hasselbeck is part of the latest CTE frontier at BU" [ref=f1160e368] [cursor=pointer]:
+                - /url: https://www.boston.com/sports/health/2026/08/12/former-nfl-qb-matt-hasselbeck-is-part-of-the-latest-cte-frontier-at-bu-diagnosing-brain-disease-in-the-living/
+                - heading "Former NFL QB Matt Hasselbeck is part of the latest CTE frontier at BU" [level=3] [ref=f1160e372]
+          - list [ref=f1160e374]:
+            - listitem [ref=f1160e375] [cursor=pointer]:
+              - link "Sports News Why was Keith Foulke fired by the Women’s Pro Baseball League after three games? Here’s what we learned." [ref=f1160e376]:
+                - /url: https://www.boston.com/sports/sports-news/2026/08/12/keith-foulke-fired-womens-pro-baseball-league-three-games/
+                - generic [ref=f1160e378]:
+                  - generic [ref=f1160e379]: Sports News
+                  - heading "Why was Keith Foulke fired by the Women’s Pro Baseball League after three games? Here’s what we learned." [level=4] [ref=f1160e380]
+            - listitem [ref=f1160e381] [cursor=pointer]:
+              - 'link "Vaughn Grissom Red Sox trade comments Red Sox Former Red Sox infielder criticized front office: ''Some people watch the game, some people go on the computer''" [ref=f1160e382]':
+                - /url: https://www.boston.com/sports/morning-sports-update/2026/08/12/red-sox-vaughn-grissom-analytics-criticism/
+                - generic [ref=f1160e383]:
+                  - img "Vaughn Grissom Red Sox trade comments" [ref=f1160e384]
+                  - generic [ref=f1160e385]:
+                    - generic [ref=f1160e386]: Red Sox
+                    - 'heading "Former Red Sox infielder criticized front office: ''Some people watch the game, some people go on the computer''" [level=4] [ref=f1160e387]'
+            - listitem [ref=f1160e388] [cursor=pointer]:
+              - link "Red Blue Jays beat Boston 5-3, hand Red Sox 4th straight loss" [ref=f1160e389]:
+                - /url: https://www.boston.com/sports/boston-red-sox/2026/08/11/clement-drives-in-tiebreaking-run-as-blue-jays-beat-boston-5-3-hand-red-sox-4th-straight-loss/
+                - generic [ref=f1160e391]:
+                  - generic [ref=f1160e392]: Red
+                  - heading "Blue Jays beat Boston 5-3, hand Red Sox 4th straight loss" [level=4] [ref=f1160e393]
+        - generic [ref=f1160e394]: "Advertisement:"
+        - separator [ref=f1160e398]
+        - region "Patriots" [ref=f1160e399]:
+          - generic [ref=f1160e400]:
+            - heading [level=3] [ref=f1160e402]:
+              - link "Patriots" [ref=f1160e403] [cursor=pointer]:
+                - /url: https://www.boston.com/tag/new-england-patriots
+            - region "Why Patriots rookie Caleb Lomu isn’t fretting over up-and-down training camp" [ref=f1160e404]:
+              - link [ref=f1160e405] [cursor=pointer]:
+                - /url: https://www.boston.com/sports/new-england-patriots/2026/08/11/caleb-lomu-new-england-patriots-rookie-offensive-line-nfl-football-morgan-moses/
+                - generic [ref=f1160e406]:
+                  - img "New England Patriots tackle Caleb Lomu (74) during the team's NFL football training camp, Friday, July 31, 2026, in Foxborough, Mass." [ref=f1160e408]
+                  - heading "Why Patriots rookie Caleb Lomu isn’t fretting over up-and-down training camp" [level=3] [ref=f1160e410]
+          - list [ref=f1160e412]:
+            - listitem [ref=f1160e413] [cursor=pointer]:
+              - link "Adam Vinatieri is honored during the first half of the NFL Super Bowl 60 football game between the New England Patriots and the Seattle Seahawks, Feb. 8, 2026, in Santa Clara, Calif. Adam Vinatieri Adam Vinatieri says there’s ‘no animosity’ with Patriots, Bill Belichick after Hall-of-Fame speech" [ref=f1160e414]:
+                - /url: https://www.boston.com/sports/new-england-patriots/2026/08/11/new-england-patriots-adam-vinatieri-hall-of-fame-football-bill-belichick-weei/
+                - generic [ref=f1160e415]:
+                  - img "Adam Vinatieri is honored during the first half of the NFL Super Bowl 60 football game between the New England Patriots and the Seattle Seahawks, Feb. 8, 2026, in Santa Clara, Calif." [ref=f1160e416]
+                  - generic [ref=f1160e417]:
+                    - generic [ref=f1160e418]: Adam Vinatieri
+                    - heading "Adam Vinatieri says there’s ‘no animosity’ with Patriots, Bill Belichick after Hall-of-Fame speech" [level=4] [ref=f1160e419]
+            - listitem [ref=f1160e420] [cursor=pointer]:
+              - link "Patriots Sauce Gardner claps back after video shows A.J. Brown dusting him during 1-on-1 drill" [ref=f1160e421]:
+                - /url: https://www.boston.com/sports/new-england-patriots/2026/08/11/patriots-aj-brown-sauce-gardner-video-clip-comments/
+                - generic [ref=f1160e423]:
+                  - generic [ref=f1160e424]: Patriots
+                  - heading "Sauce Gardner claps back after video shows A.J. Brown dusting him during 1-on-1 drill" [level=4] [ref=f1160e425]
+            - listitem [ref=f1160e426] [cursor=pointer]:
+              - link "DeMario Douglas comes up with the catch as he is defend by Colts Justin Walley as the New England Patriots held a joint practice Tuesday with the Indianapolis Colts at the Gillette Stadium practice fields. Patriots 6 takeaways from a competitive joint practice for Patriots, Colts" [ref=f1160e427]:
+                - /url: https://www.boston.com/sports/new-england-patriots/2026/08/11/new-england-patriots-colts-joint-practice-takeaways-nfl-football-indy-indianapolis-drake-maye/
+                - generic [ref=f1160e428]:
+                  - img "DeMario Douglas comes up with the catch as he is defend by Colts Justin Walley as the New England Patriots held a joint practice Tuesday with the Indianapolis Colts at the Gillette Stadium practice fields." [ref=f1160e429]
+                  - generic [ref=f1160e430]:
+                    - generic [ref=f1160e431]: Patriots
+                    - heading "6 takeaways from a competitive joint practice for Patriots, Colts" [level=4] [ref=f1160e432]
+        - separator [ref=f1160e433]
+        - region "Celtics" [ref=f1160e434]:
+          - generic [ref=f1160e435]:
+            - heading [level=3] [ref=f1160e437]:
+              - link "Celtics" [ref=f1160e438] [cursor=pointer]:
+                - /url: https://www.boston.com/tag/boston-celtics
+            - region "Celtics to open 2026-27 NBA slate with Oct. 20 afternoon game at Detroit" [ref=f1160e439]:
+              - link [ref=f1160e440] [cursor=pointer]:
+                - /url: https://www.boston.com/sports/boston-celtics/2026/08/11/celtics-schedule-2026-2027-opener/
+                - generic [ref=f1160e441]:
+                  - img "Boston Celtics' Jayson Tatum plays during Game 6 in a first-round NBA basketball playoff series Thursday, April 30, 2026, in Philadelphia." [ref=f1160e443]
+                  - heading "Celtics to open 2026-27 NBA slate with Oct. 20 afternoon game at Detroit" [level=3] [ref=f1160e445]
+          - list [ref=f1160e447]:
+            - listitem [ref=f1160e448] [cursor=pointer]:
+              - link "Boston Celtics' Payton Pritchard plays during Game 6 in a first-round NBA basketball playoff series Thursday, April 30, 2026, in Philadelphia. Payton Pritchard Payton Pritchard talks Jaylen Brown trade, contract extension with Celtics" [ref=f1160e449]:
+                - /url: https://www.boston.com/sports/boston-celtics/2026/08/10/boston-celtics-payton-pritchard-nba-basketball-jaylen-brown-trade/
+                - generic [ref=f1160e450]:
+                  - img "Boston Celtics' Payton Pritchard plays during Game 6 in a first-round NBA basketball playoff series Thursday, April 30, 2026, in Philadelphia." [ref=f1160e451]
+                  - generic [ref=f1160e452]:
+                    - generic [ref=f1160e453]: Payton Pritchard
+                    - heading "Payton Pritchard talks Jaylen Brown trade, contract extension with Celtics" [level=4] [ref=f1160e454]
+            - listitem [ref=f1160e455] [cursor=pointer]:
+              - 'link "🥹🥹🥹 Tell us: What''s your farewell message to Jaylen Brown?" [ref=f1160e456]':
+                - /url: https://www.boston.com/tease/tell-us-whats-your-farewell-message-to-jaylen-brown/
+                - generic [ref=f1160e458]:
+                  - generic [ref=f1160e459]: 🥹🥹🥹
+                  - 'heading "Tell us: What''s your farewell message to Jaylen Brown?" [level=4] [ref=f1160e460]'
+            - listitem [ref=f1160e461] [cursor=pointer]:
+              - link "LOCAL NEWS Jaylen Brown to host public Boston block party as thank-you to fans" [ref=f1160e462]:
+                - /url: https://www.boston.com/news/local-news/2026/08/10/jaylen-brown-to-host-public-boston-block-party/
+                - generic [ref=f1160e464]:
+                  - generic [ref=f1160e465]: LOCAL NEWS
+                  - heading "Jaylen Brown to host public Boston block party as thank-you to fans" [level=4] [ref=f1160e466]
+        - generic [ref=f1160e467]: "Advertisement:"
+        - separator [ref=f1160e471]
+        - region "Food" [ref=f1160e472]:
+          - generic [ref=f1160e473]:
+            - heading [level=3] [ref=f1160e475]:
+              - link "Food" [ref=f1160e476] [cursor=pointer]:
+                - /url: https://www.boston.com/category/food
+            - region "5 restaurants we can’t wait to try in August" [ref=f1160e477]:
+              - link "5 restaurants we can’t wait to try in August" [ref=f1160e478] [cursor=pointer]:
+                - /url: https://www.boston.com/food/restaurants/2026/08/07/5-restaurants-we-cant-wait-to-try-in-august-2026/
+                - heading "5 restaurants we can’t wait to try in August" [level=3] [ref=f1160e482]
+          - list [ref=f1160e484]:
+            - listitem [ref=f1160e485] [cursor=pointer]:
+              - link "An interior of Harry Hare's. Restaurant Openings 5 best new restaurant openings and dining updates in Boston this week" [ref=f1160e486]:
+                - /url: https://www.boston.com/food/restaurants/2026/08/06/restaurant-openings-in-boston/
+                - generic [ref=f1160e487]:
+                  - img "An interior of Harry Hare's." [ref=f1160e488]
+                  - generic [ref=f1160e489]:
+                    - generic [ref=f1160e490]: Restaurant Openings
+                    - heading "5 best new restaurant openings and dining updates in Boston this week" [level=4] [ref=f1160e491]
+            - listitem [ref=f1160e492] [cursor=pointer]:
+              - link "Restaurants This beloved Chinese restaurant is closing its doors after 54 years" [ref=f1160e493]:
+                - /url: https://www.boston.com/food/restaurants/2026/07/31/lo-kai-restaurant-dracut-closing/
+                - generic [ref=f1160e495]:
+                  - generic [ref=f1160e496]: Restaurants
+                  - heading "This beloved Chinese restaurant is closing its doors after 54 years" [level=4] [ref=f1160e497]
+            - listitem [ref=f1160e498] [cursor=pointer]:
+              - link "Dunkin' Dunkin' is bringing back its 48-oz. iced coffee — plus, a cupholder" [ref=f1160e499]:
+                - /url: https://www.boston.com/food/business/2026/07/30/wondering-how-to-fit-that-48-oz-iced-coffee-in-your-car-dont-worry-dunkin-has-got-you/
+                - generic [ref=f1160e501]:
+                  - generic [ref=f1160e502]: Dunkin'
+                  - heading "Dunkin' is bringing back its 48-oz. iced coffee — plus, a cupholder" [level=4] [ref=f1160e503]
+        - separator [ref=f1160e504]
+        - region "Love Letters" [ref=f1160e505]:
+          - generic [ref=f1160e506]:
+            - heading [level=3] [ref=f1160e508]:
+              - link "Love Letters" [ref=f1160e509] [cursor=pointer]:
+                - /url: https://www.boston.com/category/love-letters/
+            - link "Relationships My friends don’t want to do things with me" [ref=f1160e510] [cursor=pointer]:
+              - /url: https://www.boston.com/love-letters/relationships/my-friends-dont-want-to-do-things-with-me/
+              - generic [ref=f1160e513]:
+                - paragraph [ref=f1160e514]: Relationships
+                - heading "My friends don’t want to do things with me" [level=3] [ref=f1160e515]
+          - list [ref=f1160e517]:
+            - listitem [ref=f1160e518]:
+              - link [ref=f1160e519] [cursor=pointer]:
+                - /url: https://www.boston.com/love-letters/relationships/been-together-six-years-and-were-only-22/
+                - generic [ref=f1160e520]: Relationships
+                - heading "Been together six years – and we’re only 22" [level=4] [ref=f1160e521]
+            - listitem [ref=f1160e522]:
+              - link [ref=f1160e523] [cursor=pointer]:
+                - /url: https://www.boston.com/love-letters/relationships/2026/08/08/i-will-miss-my-friend-margo-who-told-me-to-grieve-but-not-too-much/
+                - generic [ref=f1160e524]: LOVE LETTERS
+                - heading "I will miss my friend Margo, who told me to grieve, but not too much" [level=4] [ref=f1160e525]
+            - listitem [ref=f1160e526]:
+              - link [ref=f1160e527] [cursor=pointer]:
+                - /url: https://www.boston.com/love-letters/marriage/my-wife-was-in-someone-elses-memoir/
+                - generic [ref=f1160e528]: Marriage
+                - heading "My wife was in someone else’s memoir" [level=4] [ref=f1160e529]
+            - listitem [ref=f1160e530]:
+              - link [ref=f1160e531] [cursor=pointer]:
+                - /url: https://www.boston.com/love-letters/dating/he-found-me-on-instagram/
+                - generic [ref=f1160e532]: Dating
+                - heading "He found me on Instagram" [level=4] [ref=f1160e533]
+        - separator [ref=f1160e534]
+        - region "Real Estate" [ref=f1160e535]:
+          - generic [ref=f1160e536]:
+            - heading [level=3] [ref=f1160e538]:
+              - link "Real Estate" [ref=f1160e539] [cursor=pointer]:
+                - /url: https://www.boston.com/category/real-estate/
+            - region "Cruel summer? Rhode Island’s ‘Taylor Swift tax’ went into effect — who’s paying it?" [ref=f1160e540]:
+              - link "Cruel summer? Rhode Island’s ‘Taylor Swift tax’ went into effect — who’s paying it?" [ref=f1160e541] [cursor=pointer]:
+                - /url: https://www.boston.com/real-estate/luxury-homes/2026/08/12/rhode-island-taylor-swift-tax-vacation-homes/
+                - heading "Cruel summer? Rhode Island’s ‘Taylor Swift tax’ went into effect — who’s paying it?" [level=3] [ref=f1160e545]
+          - list [ref=f1160e547]:
+            - listitem [ref=f1160e548] [cursor=pointer]:
+              - link "Latest Sales Recent homes sales in Greater Boston (Aug. 12)" [ref=f1160e549]:
+                - /url: https://www.boston.com/real-estate/latest-sales/2026/08/12/recent-homes-sales-in-greater-boston-aug-12/
+                - generic [ref=f1160e551]:
+                  - generic [ref=f1160e552]: Latest Sales
+                  - heading "Recent homes sales in Greater Boston (Aug. 12)" [level=4] [ref=f1160e553]
+            - listitem [ref=f1160e554] [cursor=pointer]:
+              - link "LOCAL NEWS This North Shore city was Realtor.com’s hottest ZIP code in 2026" [ref=f1160e555]:
+                - /url: https://www.boston.com/real-estate/local-news/2026/08/11/peabody-named-hottest-zipcode-2026-realtor-com/
+                - generic [ref=f1160e557]:
+                  - generic [ref=f1160e558]: LOCAL NEWS
+                  - heading "This North Shore city was Realtor.com’s hottest ZIP code in 2026" [level=4] [ref=f1160e559]
+            - listitem [ref=f1160e560] [cursor=pointer]:
+              - link "Home of the Week Rhode Island beach house with water views on both sides for under $2m" [ref=f1160e561]:
+                - /url: https://www.boston.com/real-estate/home-of-the-week/2026/08/11/westerly-rhode-island-beach-house-winnapaug-pond/
+                - generic [ref=f1160e563]:
+                  - generic [ref=f1160e564]: Home of the Week
+                  - heading "Rhode Island beach house with water views on both sides for under $2m" [level=4] [ref=f1160e565]
+        - separator [ref=f1160e566]
+        - region "Culture" [ref=f1160e567]:
+          - generic [ref=f1160e568]:
+            - heading [level=3] [ref=f1160e570]:
+              - link "Culture" [ref=f1160e571] [cursor=pointer]:
+                - /url: https://www.boston.com/category/culture
+            - 'region "Review & setlist: Olivia Dean taught Boston how to love at TD Garden" [ref=f1160e572]':
+              - 'link "Review & setlist: Olivia Dean taught Boston how to love at TD Garden" [ref=f1160e573] [cursor=pointer]':
+                - /url: https://www.boston.com/culture/concert-reviews/2026/08/11/review-olivia-dean-taught-boston-how-to-love-at-td-garden/
+                - 'heading "Review & setlist: Olivia Dean taught Boston how to love at TD Garden" [level=3] [ref=f1160e577]'
+          - list [ref=f1160e579]:
+            - listitem [ref=f1160e580] [cursor=pointer]:
+              - link "Celebs Seth Meyers runs Martha’s Vineyard road race with his son" [ref=f1160e581]:
+                - /url: https://www.boston.com/culture/celebs/2026/08/11/seth-meyers-runs-marthas-vineyard-road-race-with-his-son/
+                - generic [ref=f1160e583]:
+                  - generic [ref=f1160e584]: Celebs
+                  - heading "Seth Meyers runs Martha’s Vineyard road race with his son" [level=4] [ref=f1160e585]
+            - listitem [ref=f1160e586] [cursor=pointer]:
+              - link "Hilary Duff Hilary Duff ate New England clam chowder and a Dunkin’ Munchkin on stage during her Mass. concert" [ref=f1160e587]:
+                - /url: https://www.boston.com/culture/celebs/2026/08/10/hilary-duff-ate-new-england-clam-chowder-and-a-dunkin-munchkin-on-stage-during-her-mass-concert/
+                - generic [ref=f1160e589]:
+                  - generic [ref=f1160e590]: Hilary Duff
+                  - heading "Hilary Duff ate New England clam chowder and a Dunkin’ Munchkin on stage during her Mass. concert" [level=4] [ref=f1160e591]
+            - listitem [ref=f1160e592] [cursor=pointer]:
+              - link "HOBBITS AMONGST US All four ‘Lord of the Rings’ movie Hobbits explored Boston together this weekend" [ref=f1160e593]:
+                - /url: https://www.boston.com/culture/celebs/2026/08/10/all-four-lord-of-the-rings-movie-hobbits-explored-boston-together-this-weekend/
+                - generic [ref=f1160e595]:
+                  - generic [ref=f1160e596]: HOBBITS AMONGST US
+                  - heading "All four ‘Lord of the Rings’ movie Hobbits explored Boston together this weekend" [level=4] [ref=f1160e597]
+        - separator [ref=f1160e598]
+        - region "Travel" [ref=f1160e599]:
+          - generic [ref=f1160e600]:
+            - heading [level=3] [ref=f1160e602]:
+              - link "Travel" [ref=f1160e603] [cursor=pointer]:
+                - /url: https://www.boston.com/category/travel
+            - 'region "Q&A: A 96-year-old traveler on visiting all 63 national parks with her grandson" [ref=f1160e604]':
+              - link [ref=f1160e605] [cursor=pointer]:
+                - /url: https://www.boston.com/travel/local-news/2026/08/11/96-year-old-traveler-on-visiting-all-63-national-parks-with-her-grandson/
+                - generic [ref=f1160e606]:
+                  - img "Acadia National Park" [ref=f1160e608]
+                  - 'heading "Q&A: A 96-year-old traveler on visiting all 63 national parks with her grandson" [level=3] [ref=f1160e610]'
+          - list [ref=f1160e612]:
+            - listitem [ref=f1160e613] [cursor=pointer]:
+              - link "Harwich New England Travel A closer look at Harwich, voted the best town on Cape Cod by Boston.com readers" [ref=f1160e614]:
+                - /url: https://www.boston.com/travel/new-england-travel/2026/08/07/a-closer-look-at-harwich-cape-cod/
+                - generic [ref=f1160e615]:
+                  - img "Harwich" [ref=f1160e616]
+                  - generic [ref=f1160e617]:
+                    - generic [ref=f1160e618]: New England Travel
+                    - heading "A closer look at Harwich, voted the best town on Cape Cod by Boston.com readers" [level=4] [ref=f1160e619]
+            - listitem [ref=f1160e620] [cursor=pointer]:
+              - link "Chach Restaurant Restaurants A beloved Cape Cod restaurant is closing after 21 years" [ref=f1160e621]:
+                - /url: https://www.boston.com/travel/restaurants/2026/08/06/beloved-cape-cod-restaurant-closing-after-21-years/
+                - generic [ref=f1160e622]:
+                  - img "Chach Restaurant" [ref=f1160e623]
+                  - generic [ref=f1160e624]:
+                    - generic [ref=f1160e625]: Restaurants
+                    - heading "A beloved Cape Cod restaurant is closing after 21 years" [level=4] [ref=f1160e626]
+            - listitem [ref=f1160e627] [cursor=pointer]:
+              - link "Flights Snag one-way fares for as low as $54 during JetBlue's fall travel flash sale" [ref=f1160e628]:
+                - /url: https://www.boston.com/travel/flights/2026/08/05/jetblues-fall-travel-flash-sale/
+                - generic [ref=f1160e630]:
+                  - generic [ref=f1160e631]: Flights
+                  - heading "Snag one-way fares for as low as $54 during JetBlue's fall travel flash sale" [level=4] [ref=f1160e632]
+        - separator [ref=f1160e633]
+        - region "Community" [ref=f1160e634]:
+          - generic [ref=f1160e635]:
+            - heading [level=3] [ref=f1160e637]:
+              - link "Community" [ref=f1160e638] [cursor=pointer]:
+                - /url: https://www.boston.com/category/community/
+            - region "Do you really need a 4-year degree to build a career in Mass.?" [ref=f1160e639]:
+              - link "Do you need a college degree to get a good-paying job in Massachusetts?" [ref=f1160e640] [cursor=pointer]:
+                - /url: https://www.boston.com/community/job-doc/2026/08/11/do-you-need-a-college-degree-good-paying-job-massachusetts/
+                - heading "Do you need a college degree to get a good-paying job in Massachusetts?" [level=3] [ref=f1160e644]
+          - list [ref=f1160e646]:
+            - listitem [ref=f1160e647] [cursor=pointer]:
+              - 'link "A Too Good To Go paper bag on the right, and groceries (a loaf of bread, lettuce, a bag of onions, celery), all outlined in white. Behind is a kitchen counter faded to purple. Three white accent lines are on top of the bag of onions. The B-Side Life hack: Surprise groceries?! 🤑🥗" [ref=f1160e648]':
+                - /url: https://www.boston.com/community/the-b-side/life-hack-surprise-groceries/
+                - generic [ref=f1160e649]:
+                  - img "A Too Good To Go paper bag on the right, and groceries (a loaf of bread, lettuce, a bag of onions, celery), all outlined in white. Behind is a kitchen counter faded to purple. Three white accent lines are on top of the bag of onions." [ref=f1160e650]
+                  - generic [ref=f1160e651]:
+                    - generic [ref=f1160e652]: The B-Side
+                    - 'heading "Life hack: Surprise groceries?! 🤑🥗" [level=4] [ref=f1160e653]'
+            - listitem [ref=f1160e654] [cursor=pointer]:
+              - 'link "READERS SAY ‘The cost of living is just too high’: Why some Mass. residents want out" [ref=f1160e655]':
+                - /url: https://www.boston.com/community/readers-say/why-some-massachusett-residents-want-out/
+                - generic [ref=f1160e657]:
+                  - generic [ref=f1160e658]: READERS SAY
+                  - 'heading "‘The cost of living is just too high’: Why some Mass. residents want out" [level=4] [ref=f1160e659]'
+            - listitem [ref=f1160e660] [cursor=pointer]:
+              - link "A man in a maroon hoodie and gray shorts holding a cardboard box. The background is an empty apartment room with wooden floors, white walls, and a plant, which is all faded into a purple background. There are white sketches of cardboard boxes next to him on the floor, and white exclamation points on both sides of him. The B-Side Kinda chic to move on Sept. 1 🤪📦" [ref=f1160e661]:
+                - /url: https://www.boston.com/community/the-b-side/kinda-chic-to-move-on-sept-1/
+                - generic [ref=f1160e662]:
+                  - img "A man in a maroon hoodie and gray shorts holding a cardboard box. The background is an empty apartment room with wooden floors, white walls, and a plant, which is all faded into a purple background. There are white sketches of cardboard boxes next to him on the floor, and white exclamation points on both sides of him." [ref=f1160e663]
+                  - generic [ref=f1160e664]:
+                    - generic [ref=f1160e665]: The B-Side
+                    - heading "Kinda chic to move on Sept. 1 🤪📦" [level=4] [ref=f1160e666]
+        - separator [ref=f1160e667]
+        - region "Wickedpedia" [ref=f1160e668]:
+          - generic [ref=f1160e669]:
+            - heading [level=3] [ref=f1160e671]:
+              - link "Wickedpedia" [ref=f1160e672] [cursor=pointer]:
+                - /url: https://www.boston.com/tag/wickedpedia/
+            - region "What’s with the ghost ramp on I-93 in Somerville?" [ref=f1160e673]:
+              - link "What's with the ghost ramp on I-93 in Somerville?" [ref=f1160e674] [cursor=pointer]:
+                - /url: https://www.boston.com/community/wickedpedia/2026/07/28/ghost-ramp-on-i-93-in-somerville/
+                - heading "What's with the ghost ramp on I-93 in Somerville?" [level=3] [ref=f1160e678]
+          - list [ref=f1160e680]:
+            - listitem [ref=f1160e681] [cursor=pointer]:
+              - link "Wickedpedia What makes a ship a ‘tall ship’?" [ref=f1160e682]:
+                - /url: https://www.boston.com/community/wickedpedia/2026/06/29/what-makes-a-ship-a-tall-ship/
+                - generic [ref=f1160e684]:
+                  - generic [ref=f1160e685]: Wickedpedia
+                  - heading "What makes a ship a ‘tall ship’?" [level=4] [ref=f1160e686]
+            - listitem [ref=f1160e687] [cursor=pointer]:
+              - link "A plate of haggis. Wickedpedia Why is haggis illegal?" [ref=f1160e688]:
+                - /url: https://www.boston.com/food/wickedpedia/2026/06/19/why-is-haggis-illegal/
+                - generic [ref=f1160e689]:
+                  - img "A plate of haggis." [ref=f1160e690]
+                  - generic [ref=f1160e691]:
+                    - generic [ref=f1160e692]: Wickedpedia
+                    - heading "Why is haggis illegal?" [level=4] [ref=f1160e693]
+            - listitem [ref=f1160e694] [cursor=pointer]:
+              - link "Wickedpedia Did the story of 'Mary Had a Little Lamb' really happen in Mass.?" [ref=f1160e695]:
+                - /url: https://www.boston.com/culture/wickedpedia/2026/06/08/where-did-mary-have-a-little-lamb-massachusetts/
+                - generic [ref=f1160e697]:
+                  - generic [ref=f1160e698]: Wickedpedia
+                  - heading "Did the story of 'Mary Had a Little Lamb' really happen in Mass.?" [level=4] [ref=f1160e699]
+        - separator [ref=f1160e700]
+        - region "Things to Do" [ref=f1160e701]:
+          - heading [level=3] [ref=f1160e702]:
+            - link "Things to Do" [ref=f1160e703] [cursor=pointer]:
+              - /url: https://www.boston.com/category/things-to-do/
+          - link "Public art The Great Elephant Migration is back, this time in Boston Saturday, Aug. 8 – Sunday, Sept. 13" [ref=f1160e704] [cursor=pointer]:
+            - /url: https://www.boston.com/things-to-do/arts/the-great-elephant-migration-is-back-this-time-in-boston/
+            - generic [ref=f1160e707]:
+              - generic [ref=f1160e708]: Public art
+              - heading "The Great Elephant Migration is back, this time in Boston" [level=2] [ref=f1160e709]
+              - paragraph [ref=f1160e710]:
+                - generic [ref=f1160e711]: Saturday, Aug. 8 – Sunday, Sept. 13
+          - link "People pass through the packed streets at St. Anthony's Feast in the North End of Boston on August 28, 2022. Events 10 free things to do in Boston in August Saturday, Aug. 1 – Monday, Aug. 31" [ref=f1160e712] [cursor=pointer]:
+            - /url: https://www.boston.com/things-to-do/events/10-free-things-to-do-in-boston-in-august-3/
+            - generic [ref=f1160e713]:
+              - img "People pass through the packed streets at St. Anthony's Feast in the North End of Boston on August 28, 2022." [ref=f1160e715]
+              - generic [ref=f1160e716]:
+                - generic [ref=f1160e717]: Events
+                - heading "10 free things to do in Boston in August" [level=2] [ref=f1160e718]
+                - paragraph [ref=f1160e719]:
+                  - generic [ref=f1160e720]: Saturday, Aug. 1 – Monday, Aug. 31
+          - link "FROG POND Boston Common Frog Pond opens for 2026 season Wednesday, July 1 – Monday, Sept. 7" [ref=f1160e721] [cursor=pointer]:
+            - /url: https://www.boston.com/things-to-do/local-news/boston-common-frog-pond-opens-for-2026-season/
+            - generic [ref=f1160e724]:
+              - generic [ref=f1160e725]: FROG POND
+              - heading "Boston Common Frog Pond opens for 2026 season" [level=2] [ref=f1160e726]
+              - paragraph [ref=f1160e727]:
+                - generic [ref=f1160e728]: Wednesday, July 1 – Monday, Sept. 7
+          - 'link "2026 Fenway Park Concerts: Noah Kahan will perform four shows at the home of the Red Sox on July 7, 8, 10, and 11. Events 2026 Fenway Park concerts: All the artists playing shows this summer Monday, June 22 – Saturday, Aug. 15" [ref=f1160e729] [cursor=pointer]':
+            - /url: https://www.boston.com/things-to-do/events/fenway-park-concerts-2026/
+            - generic [ref=f1160e730]:
+              - 'img "2026 Fenway Park Concerts: Noah Kahan will perform four shows at the home of the Red Sox on July 7, 8, 10, and 11." [ref=f1160e732]'
+              - generic [ref=f1160e733]:
+                - generic [ref=f1160e734]: Events
+                - 'heading "2026 Fenway Park concerts: All the artists playing shows this summer" [level=2] [ref=f1160e735]'
+                - paragraph [ref=f1160e736]:
+                  - generic [ref=f1160e737]: Monday, June 22 – Saturday, Aug. 15
+          - link "Events Tanglewood adds Hugh Jackman, Brandi Carlile, John Fogerty, Steve Winwood to summer lineup Sunday, June 21 – Sunday, Sept. 6" [ref=f1160e738] [cursor=pointer]:
+            - /url: https://www.boston.com/things-to-do/events/tanglewood-adds-hugh-jackman-brandi-carlile-john-fogerty-steve-winwood-to-summer-lineup/
+            - generic [ref=f1160e741]:
+              - generic [ref=f1160e742]: Events
+              - heading "Tanglewood adds Hugh Jackman, Brandi Carlile, John Fogerty, Steve Winwood to summer lineup" [level=2] [ref=f1160e743]
+              - paragraph [ref=f1160e744]:
+                - generic [ref=f1160e745]: Sunday, June 21 – Sunday, Sept. 6
+          - link "CONCERTS 12 must-see concerts at Boston’s smaller venues for summer 2026 Thursday, June 4 – Monday, Aug. 31" [ref=f1160e746] [cursor=pointer]:
+            - /url: https://www.boston.com/things-to-do/events/12-must-see-concerts-at-bostons-smaller-venues-for-summer-2026/
+            - generic [ref=f1160e749]:
+              - generic [ref=f1160e750]: CONCERTS
+              - heading "12 must-see concerts at Boston’s smaller venues for summer 2026" [level=2] [ref=f1160e751]
+              - paragraph [ref=f1160e752]:
+                - generic [ref=f1160e753]: Thursday, June 4 – Monday, Aug. 31
+        - separator [ref=f1160e754]
+        - region "Neighborhoods" [ref=f1160e755]:
+          - generic [ref=f1160e756]:
+            - heading [level=3] [ref=f1160e758]:
+              - link "Neighborhoods" [ref=f1160e759] [cursor=pointer]:
+                - /url: https://www.boston.com/tag/neighborhoods/
+            - region "Faneuil Hall managers sue tenants over more than $2 million in alleged unpaid rent" [ref=f1160e760]:
+              - link "Faneuil Hall managers sue tenants over more than $2 million in alleged unpaid rent" [ref=f1160e761] [cursor=pointer]:
+                - /url: https://www.boston.com/news/business/2026/08/11/faneuil-hall-managers-sue-tenants-over-more-than-2-million-in-alleged-unpaid-rent/
+                - heading "Faneuil Hall managers sue tenants over more than $2 million in alleged unpaid rent" [level=3] [ref=f1160e765]
+          - list [ref=f1160e767]:
+            - listitem [ref=f1160e768] [cursor=pointer]:
+              - link "Boston history Lost gravestone of free Black man who died in 1729 uncovered in downtown Boston" [ref=f1160e769]:
+                - /url: https://www.boston.com/news/local-news/2026/08/10/lost-gravestone-of-free-black-man-who-died-in-1729-uncovered-in-downtown-boston/
+                - generic [ref=f1160e771]:
+                  - generic [ref=f1160e772]: Boston history
+                  - heading "Lost gravestone of free Black man who died in 1729 uncovered in downtown Boston" [level=4] [ref=f1160e773]
+            - listitem [ref=f1160e774] [cursor=pointer]:
+              - link "Downtown Boston Police to increase patrols downtown amid safety concerns, neighborhood group says" [ref=f1160e775]:
+                - /url: https://www.boston.com/news/local-news/2026/08/10/police-to-increase-patrols-downtown-amid-safety-concerns-neighborhood-group-says/
+                - generic [ref=f1160e777]:
+                  - generic [ref=f1160e778]: Downtown Boston
+                  - heading "Police to increase patrols downtown amid safety concerns, neighborhood group says" [level=4] [ref=f1160e779]
+            - listitem [ref=f1160e780] [cursor=pointer]:
+              - link "Norwood Hospital Healey signs bill allowing state to take Norwood Hospital through eminent domain" [ref=f1160e781]:
+                - /url: https://www.boston.com/news/local-news/2026/08/09/healey-signs-bill-allowing-state-to-take-norwood-hospital-through-eminent-domain/
+                - generic [ref=f1160e783]:
+                  - generic [ref=f1160e784]: Norwood Hospital
+                  - heading "Healey signs bill allowing state to take Norwood Hospital through eminent domain" [level=4] [ref=f1160e785]
+        - separator [ref=f1160e786]
+        - complementary [ref=f1160e787]
+      - generic [ref=f1160e790]:
+        - generic [ref=f1160e791]: Advertisement
+        - generic [ref=f1160e798]:
+          - heading "Most Popular" [level=3] [ref=f1160e800]
+          - generic [ref=f1160e801]:
+            - article [ref=f1160e802]:
+              - 'link "Lindsay Clancy trial livestream video: Wednesday, August 12" [ref=f1160e803] [cursor=pointer]':
+                - /url: https://www.boston.com/news/crime/2026/08/12/lindsay-clancy-murder-trial-livestream-video-wednesday-august-12/
+                - generic [ref=f1160e804]:
+                  - 'img "Lindsay Clancy trial livestream video: Wednesday, August 12" [ref=f1160e805]'
+                  - text: "1"
+            - article [ref=f1160e807]:
+              - link "Acton teen charged with murder used ChatGPT for 'fantasies' about killing family, DA says" [ref=f1160e808] [cursor=pointer]:
+                - /url: https://www.boston.com/news/local-news/2026/08/12/police-seek-acton-teen-after-finding-two-dead-in-home-they-shared/
+                - generic [ref=f1160e809]:
+                  - img "Acton teen charged with murder used ChatGPT for 'fantasies' about killing family, DA says" [ref=f1160e810]
+                  - text: "2"
+            - article [ref=f1160e812]:
+              - link "Man killed in stabbing inside South Station during rush hour, officials say" [ref=f1160e813] [cursor=pointer]:
+                - /url: https://www.boston.com/news/local-news/2026/08/12/man-killed-in-stabbing-inside-south-station-during-rush-hour-officials-say/
+                - generic [ref=f1160e814]:
+                  - img "Man killed in stabbing inside South Station during rush hour, officials say" [ref=f1160e815]
+                  - text: "3"
+            - article [ref=f1160e817]:
+              - link "Body found at TD Garden, police say" [ref=f1160e818] [cursor=pointer]:
+                - /url: https://www.boston.com/news/local-news/2026/08/12/body-found-at-td-garden-police-say/
+                - generic [ref=f1160e819]:
+                  - img "Body found at TD Garden, police say" [ref=f1160e820]
+                  - text: "4"
+            - article [ref=f1160e822]:
+              - link "Tour the Patriots’ new 160,000-square-foot training facility" [ref=f1160e823] [cursor=pointer]:
+                - /url: https://www.boston.com/sports/new-england-patriots/2026/08/12/new-england-patriots-training-facility-new-balance-nfl-football-tour-video/
+                - generic [ref=f1160e824]:
+                  - img "Tour the Patriots’ new 160,000-square-foot training facility" [ref=f1160e825]
+                  - text: "5"
+        - generic [ref=f1160e830]:
+          - generic [ref=f1160e831]:
+            - paragraph [ref=f1160e832]: Most Popular
+            - link "The Boston Globe Logo" [ref=f1160e834] [cursor=pointer]:
+              - /url: https://www.bostonglobe.com/
+          - generic [ref=f1160e839]:
+            - article "Tom Brady, Bill Belichick, and the risky business of second acts" [ref=f1160e840]:
+              - heading [level=3] [ref=f1160e841]:
+                - link "Tom Brady, Bill Belichick, and the risky business of second acts" [ref=f1160e842] [cursor=pointer]:
+                  - /url: https://www.bostonglobe.com/2026/08/12/arts/tom-brady-bill-belichick-second-acts-legacies/?s_campaign=bdc:globewell:trending
+            - 'article "Lindsay Clancy trial Day 12: Doctor from state office testifies" [ref=f1160e843]':
+              - heading [level=3] [ref=f1160e844]:
+                - 'link "Lindsay Clancy trial Day 12: Doctor from state office testifies" [ref=f1160e845] [cursor=pointer]':
+                  - /url: https://www.bostonglobe.com/2026/08/12/metro/lindsay-clancy-trial-live-updates/?s_campaign=bdc:globewell:trending
+            - 'article "Lindsay Clancy trial Day 11: Possible bipolar diagnosis raised" [ref=f1160e846]':
+              - heading [level=3] [ref=f1160e847]:
+                - 'link "Lindsay Clancy trial Day 11: Possible bipolar diagnosis raised" [ref=f1160e848] [cursor=pointer]':
+                  - /url: https://www.bostonglobe.com/2026/08/11/metro/lindsay-clancy-trial-live-updates/?s_campaign=bdc:globewell:trending
+            - article "Karoline Leavitt to step down as press secretary. See how today unfolded." [ref=f1160e849]:
+              - heading [level=3] [ref=f1160e850]:
+                - link "Karoline Leavitt to step down as press secretary. See how today unfolded." [ref=f1160e851] [cursor=pointer]:
+                  - /url: https://www.bostonglobe.com/2026/08/12/nation/trump-presidency-live-updates/?s_campaign=bdc:globewell:trending
+            - article "Scarborough Beach using drones, jet ski, to watch for sharks after close call" [ref=f1160e852]:
+              - heading [level=3] [ref=f1160e853]:
+                - link "Scarborough Beach using drones, jet ski, to watch for sharks after close call" [ref=f1160e854] [cursor=pointer]:
+                  - /url: https://www.bostonglobe.com/2026/08/12/metro/71-year-old-life-guard-scarborough-shark-encounter-video/?s_campaign=bdc:globewell:trending
+        - generic [ref=f1160e855]: Advertisement
+  - contentinfo "Site Footer" [ref=f1160e861]:
+    - generic [ref=f1160e863]:
+      - list [ref=f1160e865]:
+        - listitem [ref=f1160e866]:
+          - link "Follow Boston.com on Instagram (Opens in a New Tab)" [ref=f1160e867] [cursor=pointer]:
+            - /url: https://www.instagram.com/boston/
+        - listitem [ref=f1160e876]:
+          - link "Follow Boston.com on Twitter (Opens in a New Tab)" [ref=f1160e877] [cursor=pointer]:
+            - /url: https://x.com/BostonDotCom
+        - listitem [ref=f1160e882]:
+          - link "Like Boston.com on Facebook (Opens in a New Tab)" [ref=f1160e883] [cursor=pointer]:
+            - /url: https://www.facebook.com/boston
+      - paragraph [ref=f1160e889]: ©2026 Boston Globe Media Partners, LLC
+      - list [ref=f1160e892]:
+        - listitem [ref=f1160e893]:
+          - link "General Feedback" [ref=f1160e894] [cursor=pointer]:
+            - /url: https://www.boston.com/feedback/
+        - listitem [ref=f1160e895]:
+          - link "Customer Service" [ref=f1160e896] [cursor=pointer]:
+            - /url: https://www.boston.com/customer-support/
+        - listitem [ref=f1160e897]:
+          - link "My Account" [ref=f1160e898] [cursor=pointer]:
+            - /url: https://manage.bostonglobe.com/cs/mc/myaccount.aspx?site=bdc
+      - navigation "Footer Navigation" [ref=f1160e900]:
+        - list [ref=f1160e902]:
+          - listitem [ref=f1160e903]:
+            - link "Do not sell my data" [ref=f1160e904] [cursor=pointer]:
+              - /url: https://www.boston.com/privacy-policy
+          - listitem [ref=f1160e905]:
+            - link "Privacy Policy" [ref=f1160e906] [cursor=pointer]:
+              - /url: https://www.boston.com/privacy-policy/
+          - listitem [ref=f1160e907]:
+            - link "Your Privacy Choices" [ref=f1160e908] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=f1160e909]:
+            - link "ADVERTISE" [ref=f1160e910] [cursor=pointer]:
+              - /url: https://www.bostonglobemedia.com/advertise/
+          - listitem [ref=f1160e911]:
+            - link "Terms of Service" [ref=f1160e912] [cursor=pointer]:
+              - /url: https://www.bostonglobe.com/about/help/terms-service/
+          - listitem [ref=f1160e913]:
+            - link "Terms of Purchase" [ref=f1160e914] [cursor=pointer]:
+              - /url: https://www.bostonglobe.com/about/help/terms-purchase
+          - listitem [ref=f1160e915]:
+            - link "Newsletters" [ref=f1160e916] [cursor=pointer]:
+              - /url: https://www.boston.com/newsletter-signup/
+          - listitem [ref=f1160e917]:
+            - link "Member Agreement" [ref=f1160e918] [cursor=pointer]:
+              - /url: https://www.boston.com/member-agreement
+          - listitem [ref=f1160e919]:
+            - link "CONTACT US" [ref=f1160e920] [cursor=pointer]:
+              - /url: https://www.boston.com/contact-us/
+          - listitem [ref=f1160e921]:
+            - link "CAREERS" [ref=f1160e922] [cursor=pointer]:
+              - /url: https://www.bostonglobemedia.com/opportunities/
+          - listitem [ref=f1160e923]:
+            - link "Site Map" [ref=f1160e924] [cursor=pointer]:
+              - /url: https://www.boston.com/html-sitemap/
+  - generic [ref=f1160e925]: Some areas of this page may shift around if you resize the browser window. Be sure to check heading and document order.
+  - dialog "Privacy" [ref=f1160e927]:
+    - generic [ref=f1160e929]:
+      - generic [ref=f1160e932]:
+        - text: We use first and third-party cookies to enhance your experience, display advertising, and analyze performance and traffic on our site. By continuing to use the site, you agree to our use of cookies.
+        - link "More information about your privacy, opens in a new tab" [ref=f1160e933] [cursor=pointer]:
+          - /url: https://www.boston.com/privacy-policy/
+          - text: Privacy Notice
+      - generic [ref=f1160e935]:
+        - button "Manage Preferences, Opens the preference center dialog" [ref=f1160e936] [cursor=pointer]: Manage Preferences
+        - button "Reject" [ref=f1160e937] [cursor=pointer]
+        - button "ACCEPT" [ref=f1160e938] [cursor=pointer]
+    - button "Close" [ref=f1160e940] [cursor=pointer]
+  - generic [ref=f1160e942]: advertisement
+  - generic [ref=f1160e943]: advertisement
+  - generic [ref=f1160e944]: advertisement

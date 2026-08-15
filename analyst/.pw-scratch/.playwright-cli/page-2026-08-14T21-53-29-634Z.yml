@@ -1,0 +1,1397 @@
+- generic [ref=f761e2]:
+  - link "Skip to navigation":
+    - /url: "#navigation-container"
+  - link "Skip to main content":
+    - /url: "#nimbus-app"
+  - link "Skip to right column":
+    - /url: "#right-rail"
+  - banner [ref=f761e3]:
+    - generic [ref=f761e4]:
+      - banner [ref=f761e5]:
+        - generic [ref=f761e6]:
+          - generic [ref=f761e7]:
+            - heading "Yahoo Finance" [level=1] [ref=f761e8]
+            - link "Yahoo Finance" [ref=f761e9] [cursor=pointer]:
+              - /url: /
+          - search [ref=f761e15]:
+            - searchbox "Search for news, tickers or companies" [ref=f761e16]
+            - button "Search" [ref=f761e17] [cursor=pointer]
+          - navigation [ref=f761e20]:
+            - list [ref=f761e21]:
+              - listitem [ref=f761e22]:
+                - link "News" [ref=f761e23] [cursor=pointer]:
+                  - /url: https://www.yahoo.com/
+              - listitem [ref=f761e24]:
+                - link "Finance" [ref=f761e25] [cursor=pointer]:
+                  - /url: https://finance.yahoo.com/
+              - listitem [ref=f761e26]:
+                - link "Sports" [ref=f761e27] [cursor=pointer]:
+                  - /url: https://sports.yahoo.com/
+              - listitem [ref=f761e28]:
+                - button "More" [ref=f761e31] [cursor=pointer]
+          - toolbar [ref=f761e35]:
+            - button "Notifications" [ref=f761e37] [cursor=pointer]
+            - link "Check your mail, link" [ref=f761e41] [cursor=pointer]:
+              - /url: https://mail.yahoo.com/
+            - link "Sign in" [ref=f761e45] [cursor=pointer]:
+              - /url: https://login.yahoo.com/?done=https%3A%2F%2Ffinance.yahoo.com%2Fquote%2FPAG%2F&intl=us&lang=en-US&activity=ybar-signin&pspid=95993639&src=finance
+      - navigation "Navigation" [ref=f761e46]:
+        - menubar "Navigation menubar" [ref=f761e47]:
+          - menuitem "My Portfolio" [ref=f761e48] [cursor=pointer]
+          - menuitem "News" [ref=f761e50] [cursor=pointer]
+          - menuitem "Markets" [ref=f761e52] [cursor=pointer]
+          - menuitem "Calendars" [ref=f761e54] [cursor=pointer]
+          - menuitem "Research" [ref=f761e56] [cursor=pointer]
+          - menuitem "Community" [ref=f761e58] [cursor=pointer]
+          - menuitem "Personal Finance" [ref=f761e60] [cursor=pointer]
+          - menuitem "Videos" [ref=f761e62] [cursor=pointer]
+        - generic [ref=f761e64]:
+          - button "Network" [ref=f761e66] [cursor=pointer]
+          - generic [ref=f761e75]:
+            - link "Try AlphaSpace" [ref=f761e77] [cursor=pointer]:
+              - /url: https://finance.yahoo.com/plus/alphaspace/?.done=https%3A%2F%2Falphaspace.finance.yahoo.com%2F&ncid=100003418
+            - link "Upgrade to Premium" [ref=f761e84] [cursor=pointer]:
+              - /url: /plus/select-plan/?.done=https%3A%2F%2Ffinance.yahoo.com%2Fquote%2FPAG%2F&ncid=100002891
+  - generic [ref=f761e88]:
+    - complementary [ref=f761e89]:
+      - generic [ref=f761e91]:
+        - generic [ref=f761e92]:
+          - button "U.S. markets closed" [ref=f761e98]
+          - button [ref=f761e102] [cursor=pointer]
+        - generic [ref=f761e107]:
+          - generic [ref=f761e111]:
+            - generic [ref=f761e115]:
+              - link "S&P 500" [ref=f761e116] [cursor=pointer]:
+                - /url: /quote/%5EGSPC/
+              - generic [ref=f761e118]:
+                - generic [ref=f761e119]: 7,785.76
+                - generic [ref=f761e120]:
+                  - generic [ref=f761e121]: "-13.23"
+                  - generic [ref=f761e122]: "-0.17%"
+            - generic [ref=f761e134]:
+              - link "Dow 30" [ref=f761e135] [cursor=pointer]:
+                - /url: /quote/%5EDJI/
+              - generic [ref=f761e137]:
+                - generic [ref=f761e138]: 53,732.41
+                - generic [ref=f761e139]:
+                  - generic [ref=f761e140]: "-107.58"
+                  - generic [ref=f761e141]: "-0.20%"
+            - generic [ref=f761e155]:
+              - link "Nasdaq" [ref=f761e156] [cursor=pointer]:
+                - /url: /quote/%5EIXIC/
+              - generic [ref=f761e158]:
+                - generic [ref=f761e159]: 26,729.16
+                - generic [ref=f761e160]:
+                  - generic [ref=f761e161]: "-73.86"
+                  - generic [ref=f761e162]: "-0.28%"
+            - generic [ref=f761e174]:
+              - link "Russell 2000" [ref=f761e175] [cursor=pointer]:
+                - /url: /quote/%5ERUT/
+              - generic [ref=f761e177]:
+                - generic [ref=f761e178]: 3,068.42
+                - generic [ref=f761e179]:
+                  - generic [ref=f761e180]: "+15.57"
+                  - generic [ref=f761e181]: +0.51%
+            - generic [ref=f761e195]:
+              - link "VIX" [ref=f761e196] [cursor=pointer]:
+                - /url: /quote/%5EVIX/
+              - generic [ref=f761e198]:
+                - generic [ref=f761e199]: "14.25"
+                - generic [ref=f761e200]:
+                  - generic [ref=f761e201]: "-0.38"
+                  - generic [ref=f761e202]: "-2.60%"
+            - generic [ref=f761e218]:
+              - link "Gold" [ref=f761e219] [cursor=pointer]:
+                - /url: /quote/GC%3DF/
+              - generic [ref=f761e221]:
+                - generic [ref=f761e222]: 4,432.00
+                - generic [ref=f761e223]:
+                  - generic [ref=f761e224]: "+11.60"
+                  - generic [ref=f761e225]: +0.26%
+            - generic [ref=f761e237]:
+              - link "Bitcoin USD" [ref=f761e238] [cursor=pointer]:
+                - /url: /quote/BTC-USD/
+              - generic [ref=f761e240]:
+                - generic [ref=f761e241]: 62,821.51
+                - generic [ref=f761e242]:
+                  - generic [ref=f761e243]: "-587.67"
+                  - generic [ref=f761e244]: "-0.93%"
+            - generic [ref=f761e272]:
+              - link "Crude Oil Sep 26" [ref=f761e273] [cursor=pointer]:
+                - /url: /quote/CL%3DF/
+              - generic [ref=f761e275]:
+                - generic [ref=f761e276]: "82.40"
+                - generic [ref=f761e277]:
+                  - generic [ref=f761e278]: "+1.15"
+                  - generic [ref=f761e279]: +1.42%
+          - generic [ref=f761e300]:
+            - button "prev" [disabled]
+            - button "next" [ref=f761e301] [cursor=pointer]
+      - generic [ref=f761e305]: ADVERTISEMENT
+    - main [ref=f761e306]:
+      - generic [ref=f761e308]:
+        - complementary "Left navigation" [ref=f761e309]:
+          - navigation "PAG navigation" [ref=f761e311]:
+            - menubar "PAG navigation menubar" [ref=f761e312]:
+              - menuitem "Summary" [ref=f761e313] [cursor=pointer]
+              - menuitem "News" [ref=f761e315] [cursor=pointer]
+              - menuitem "Research" [ref=f761e317] [cursor=pointer]
+              - menuitem "Chart" [ref=f761e322] [cursor=pointer]
+              - menuitem "Community" [ref=f761e324] [cursor=pointer]
+              - menuitem "Statistics" [ref=f761e326] [cursor=pointer]
+              - menuitem "Historical Data" [ref=f761e328] [cursor=pointer]
+              - menuitem "Profile" [ref=f761e330] [cursor=pointer]
+              - menuitem "Financials" [ref=f761e332] [cursor=pointer]
+              - menuitem "Analysis" [ref=f761e334] [cursor=pointer]
+              - menuitem "Options" [ref=f761e336] [cursor=pointer]
+              - menuitem "Holders" [ref=f761e338] [cursor=pointer]
+        - generic [ref=f761e340]:
+          - generic [ref=f761e341]:
+            - generic [ref=f761e342]:
+              - generic [ref=f761e343]:
+                - generic [ref=f761e344]:
+                  - generic [ref=f761e345]: NYSE - Delayed Quote
+                  - generic [ref=f761e346]: •
+                  - generic [ref=f761e347]: USD
+                - generic [ref=f761e349]:
+                  - heading "Penske Automotive Group, Inc. (PAG)" [level=1] [ref=f761e351]
+                  - button "Follow" [ref=f761e353] [cursor=pointer]
+              - generic [ref=f761e357]:
+                - generic [ref=f761e360]:
+                  - generic [ref=f761e361]:
+                    - generic [ref=f761e362]:
+                      - generic [ref=f761e363]: "219.85"
+                      - generic [ref=f761e364]: "+2.62"
+                      - generic [ref=f761e365]: (+1.21%)
+                    - generic [ref=f761e366]: "At close: 4:00:02 PM EDT"
+                  - generic [ref=f761e368]:
+                    - generic [ref=f761e369]:
+                      - generic [ref=f761e370]: "219.85"
+                      - generic [ref=f761e371]: "0.00"
+                      - generic [ref=f761e372]: (0.00%)
+                    - generic [ref=f761e373]: "After hours: 5:05:00 PM EDT"
+                - generic [ref=f761e379]:
+                  - link "Trade PAG on Coinbase" [ref=f761e380] [cursor=pointer]:
+                    - /url: https://www.coinbase.com/stock/PAG?utm_source=yahoo_finance&utm_campaign=cx_o_m_w_m_m_yah_gro_dis_yf&utm_medium=display&utm_content=promo%3DYAHOO_1_MONTH
+                  - button "Trading disclosure" [ref=f761e382] [cursor=pointer]
+            - generic [ref=f761e396]:
+              - generic [ref=f761e397]: Dividend
+              - generic [ref=f761e399]: PAG announced a cash dividend of $1.44 with an ex-date of Aug. 14, 2026
+            - generic [ref=f761e404]:
+              - tablist "Chart Range Bar" [ref=f761e405]:
+                - tab "1D" [selected] [ref=f761e406]
+                - tab "5D" [ref=f761e407] [cursor=pointer]
+                - tab "1M" [ref=f761e410] [cursor=pointer]
+                - tab "6M" [ref=f761e413] [cursor=pointer]
+                - tab "YTD" [ref=f761e416] [cursor=pointer]
+                - tab "1Y" [ref=f761e419] [cursor=pointer]
+                - tab "5Y" [ref=f761e422] [cursor=pointer]
+                - tab "All" [ref=f761e425] [cursor=pointer]
+              - generic [ref=f761e429]:
+                - button "Chart Type" [ref=f761e433] [cursor=pointer]
+                - generic [ref=f761e434]:
+                  - link "Advanced Chart" [ref=f761e435] [cursor=pointer]:
+                    - /url: /chart/PAG
+                  - link [ref=f761e442] [cursor=pointer]:
+                    - /url: https://alphaspace.finance.yahoo.com/?view=analysis&ticker=PAG&ncid=100003536
+                - button "Chart settings" [ref=f761e448] [cursor=pointer]
+              - generic [ref=f761e452]: Loading chart for PAG
+            - list [ref=f761e463]:
+              - listitem [ref=f761e464]:
+                - generic "Previous Close" [ref=f761e465]
+                - generic "217.23" [ref=f761e466]
+              - listitem [ref=f761e467]:
+                - generic "Open" [ref=f761e468]
+                - generic "218.28" [ref=f761e469]
+              - listitem [ref=f761e470]:
+                - generic "Bid" [ref=f761e471]
+                - generic "202.93 x 10000" [ref=f761e472]
+              - listitem [ref=f761e473]:
+                - generic "Ask" [ref=f761e474]
+                - generic "229.72 x 20000" [ref=f761e475]
+              - listitem [ref=f761e476]:
+                - generic "Day's Range" [ref=f761e477]
+                - generic "217.53 - 220.49" [ref=f761e478]
+              - listitem [ref=f761e479]:
+                - generic "52 Week Range" [ref=f761e480]
+                - generic "140.12 - 227.00" [ref=f761e481]
+              - listitem [ref=f761e482]:
+                - generic "Volume" [ref=f761e483]
+                - generic "268,992" [ref=f761e484]
+              - listitem [ref=f761e485]:
+                - generic "Avg. Volume" [ref=f761e486]
+                - generic "380,491" [ref=f761e487]
+              - listitem [ref=f761e488]:
+                - generic "Market Cap (intraday)" [ref=f761e489]
+                - generic "14.436B" [ref=f761e490]
+              - listitem [ref=f761e491]:
+                - generic "Beta (5Y Monthly)" [ref=f761e492]
+                - generic "0.83" [ref=f761e493]
+              - listitem [ref=f761e494]:
+                - generic "PE Ratio (TTM)" [ref=f761e495]
+                - generic "15.99" [ref=f761e496]
+              - listitem [ref=f761e497]:
+                - generic "EPS (TTM)" [ref=f761e498]
+                - generic "13.75" [ref=f761e499]
+              - listitem [ref=f761e500]:
+                - generic "Earnings Date (est.)" [ref=f761e501]
+                - generic "Oct 28, 2026" [ref=f761e502]
+              - listitem [ref=f761e503]:
+                - generic "Forward Dividend & Yield" [ref=f761e504]
+                - generic "5.76 (2.63%)" [ref=f761e505]
+              - listitem [ref=f761e506]:
+                - generic "Ex-Dividend Date" [ref=f761e507]
+                - generic "Aug 14, 2026" [ref=f761e508]
+              - listitem [ref=f761e509]:
+                - generic "1y Target Est" [ref=f761e510]
+                - generic "211.25" [ref=f761e511]
+            - generic [ref=f761e514]:
+              - button "Expand" [ref=f761e517] [cursor=pointer]:
+                - heading "Penske Automotive Group, Inc. Overview - Auto & Truck Dealerships / Consumer Cyclical" [level=2] [ref=f761e522]
+              - region "Expand":
+                - generic:
+                  - generic [ref=f761e523]:
+                    - generic [ref=f761e524]:
+                      - paragraph [ref=f761e525]: "Penske Automotive Group, Inc., a diversified transportation services company, operates automotive and commercial truck dealerships in the United States, the United Kingdom, Germany, Italy, Japan, Canada, Australia, New Zealand, and internationally. It operates through four segments: Retail Automotive, Retail Commercial Truck, Other, and Non-Automotive Investments. The company operates franchise dealerships under franchise agreements with various automotive manufacturers and distributors. It is also involved in the sale of new and used vehicles, maintenance and repair services, sale and placement of third-party finance and insurance products, third-party extended service and maintenance contracts, replacement and aftermarket automotive products, collision repair services, and wholesale of parts. In addition, the company operates a heavy and medium duty truck dealership, which offers Freightliner and Western Star branded trucks, as well as offers a range of used trucks. Further, it imports and distributes Western Star heavy-duty trucks, MAN heavy and medium duty trucks and buses, and Dennis Eagle refuse collection vehicles with associated parts, as well as distributes diesel and gas engines, and power systems. Penske Automotive Group, Inc. was incorporated in 1990 and is headquartered in Bloomfield Hills, Michigan. Penske Automotive Group, Inc. operates as a subsidiary of Penske Corporation, Inc."
+                      - link "www.penskeautomotive.com" [ref=f761e526] [cursor=pointer]:
+                        - /url: https://www.penskeautomotive.com
+                    - generic [ref=f761e527]:
+                      - generic [ref=f761e528]:
+                        - paragraph [ref=f761e529]: 28,600
+                        - heading "Full Time Employees" [level=3] [ref=f761e530]
+                      - generic [ref=f761e531]:
+                        - paragraph [ref=f761e532]: December 31
+                        - heading "Fiscal Year Ends" [level=3] [ref=f761e533]
+                      - generic [ref=f761e534]:
+                        - paragraph [ref=f761e535]:
+                          - link "Consumer Cyclical" [ref=f761e536] [cursor=pointer]:
+                            - /url: /sectors/consumer-cyclical/
+                        - heading "Sector" [level=3] [ref=f761e537]
+                      - generic [ref=f761e538]:
+                        - paragraph [ref=f761e539]:
+                          - link "Auto & Truck Dealerships" [ref=f761e540] [cursor=pointer]:
+                            - /url: /sectors/consumer-cyclical/auto-truck-dealerships/
+                        - heading "Industry" [level=3] [ref=f761e541]
+                  - link "More about Penske Automotive Group, Inc." [ref=f761e543] [cursor=pointer]:
+                    - /url: /quote/PAG/profile/
+            - generic [ref=f761e545]:
+              - generic [ref=f761e546]:
+                - heading "Recent News" [level=3] [ref=f761e547]
+                - link "View More" [ref=f761e548] [cursor=pointer]:
+                  - /url: /quote/PAG/news/
+              - generic [ref=f761e552]:
+                - tablist [ref=f761e553]:
+                  - tab "All" [selected] [ref=f761e554]
+                  - tab "News" [ref=f761e555] [cursor=pointer]
+                  - tab "Earnings Calls" [ref=f761e556] [cursor=pointer]
+                  - tab "Press Releases" [ref=f761e557] [cursor=pointer]
+                  - tab "SEC Filings" [ref=f761e558] [cursor=pointer]
+                - generic [ref=f761e562]:
+                  - article [ref=f761e564]:
+                    - generic [ref=f761e565]:
+                      - link "Penske Automotive Group (PAG) Looks 3% Above Fair Value As Buyout Proposal Draws Focus" [ref=f761e566] [cursor=pointer]:
+                        - /url: https://finance.yahoo.com/markets/stocks/articles/penske-automotive-group-pag-looks-101342883.html
+                        - heading "Penske Automotive Group (PAG) Looks 3% Above Fair Value As Buyout Proposal Draws Focus" [level=3] [ref=f761e567]
+                      - generic [ref=f761e569]:
+                        - text: Simply Wall St.
+                        - generic [ref=f761e570]: •
+                        - text: 2d ago
+                  - article [ref=f761e572]:
+                    - generic [ref=f761e573]:
+                      - link "SAH Q2 Earnings Beat Estimates, EchoPark Total Unit Sales Rise 16%" [ref=f761e574] [cursor=pointer]:
+                        - /url: https://finance.yahoo.com/markets/stocks/articles/sah-q2-earnings-beat-estimates-134100223.html
+                        - heading "SAH Q2 Earnings Beat Estimates, EchoPark Total Unit Sales Rise 16%" [level=3] [ref=f761e575]
+                      - generic [ref=f761e577]:
+                        - text: Zacks
+                        - generic [ref=f761e578]: •
+                        - text: 3d ago
+                  - article [ref=f761e580]:
+                    - generic [ref=f761e581]:
+                      - link "PAG Q2 Earnings Beat Estimates on Auto Sales and Service Growth" [ref=f761e582] [cursor=pointer]:
+                        - /url: https://finance.yahoo.com/markets/stocks/articles/pag-q2-earnings-beat-estimates-132800307.html
+                        - heading "PAG Q2 Earnings Beat Estimates on Auto Sales and Service Growth" [level=3] [ref=f761e583]
+                      - generic [ref=f761e585]:
+                        - text: Zacks
+                        - generic [ref=f761e586]: •
+                        - text: 3d ago
+                  - article [ref=f761e588]:
+                    - generic [ref=f761e589]:
+                      - link "AN Q2 Earnings Beat as After-Sales Unit Hits Record Gross Profit" [ref=f761e590] [cursor=pointer]:
+                        - /url: https://finance.yahoo.com/markets/stocks/articles/q2-earnings-beat-sales-unit-132800133.html
+                        - heading "AN Q2 Earnings Beat as After-Sales Unit Hits Record Gross Profit" [level=3] [ref=f761e591]
+                      - generic [ref=f761e593]:
+                        - text: Zacks
+                        - generic [ref=f761e594]: •
+                        - text: 3d ago
+                  - article [ref=f761e596]:
+                    - generic [ref=f761e597]:
+                      - link "SPECIAL COMMITTEE OF PENSKE AUTOMOTIVE GROUP RETAINS FINANCIAL AND LEGAL ADVISORS IN CONNECTION WITH TAKE PRIVATE PROPOSAL" [ref=f761e598] [cursor=pointer]:
+                        - /url: https://finance.yahoo.com/markets/stocks/articles/special-committee-penske-automotive-group-200500772.html
+                        - heading "SPECIAL COMMITTEE OF PENSKE AUTOMOTIVE GROUP RETAINS FINANCIAL AND LEGAL ADVISORS IN CONNECTION WITH TAKE PRIVATE PROPOSAL" [level=3] [ref=f761e599]
+                      - generic [ref=f761e601]:
+                        - text: PR Newswire
+                        - generic [ref=f761e602]: •
+                        - text: 4d ago
+                  - article [ref=f761e604]:
+                    - generic [ref=f761e605]:
+                      - link "Penske Automotive Group is riding a wave of lease returns" [ref=f761e606] [cursor=pointer]:
+                        - /url: https://finance.yahoo.com/markets/stocks/articles/penske-automotive-group-riding-wave-121700876.html
+                        - heading "Penske Automotive Group is riding a wave of lease returns" [level=3] [ref=f761e607]
+                      - generic [ref=f761e609]:
+                        - text: Wards Auto
+                        - generic [ref=f761e610]: •
+                        - text: 4d ago
+                  - article [ref=f761e612]:
+                    - generic [ref=f761e613]:
+                      - 'link "PAG Q2 Deep Dive: Diversification and Commercial Truck Momentum Drive Outperformance" [ref=f761e614] [cursor=pointer]':
+                        - /url: https://finance.yahoo.com/markets/stocks/articles/pag-q2-deep-dive-diversification-133957288.html
+                        - 'heading "PAG Q2 Deep Dive: Diversification and Commercial Truck Momentum Drive Outperformance" [level=3] [ref=f761e615]'
+                      - generic [ref=f761e617]:
+                        - text: StockStory
+                        - generic [ref=f761e618]: •
+                        - text: 13d ago
+                  - article [ref=f761e620]:
+                    - generic [ref=f761e621]:
+                      - link "Penske Automotive Group Q2 Earnings Call Highlights" [ref=f761e622] [cursor=pointer]:
+                        - /url: https://finance.yahoo.com/markets/stocks/articles/penske-automotive-group-q2-earnings-060355430.html
+                        - heading "Penske Automotive Group Q2 Earnings Call Highlights" [level=3] [ref=f761e623]
+                      - generic [ref=f761e625]:
+                        - text: MarketBeat
+                        - generic [ref=f761e626]: •
+                        - text: 15d ago
+                  - article [ref=f761e628]:
+                    - generic [ref=f761e629]:
+                      - 'link "Penske Automotive Group Inc (PAG) (Q2 2026) Earnings Call Highlights: Record Revenue and Strong ..." [ref=f761e630] [cursor=pointer]':
+                        - /url: https://finance.yahoo.com/markets/stocks/articles/penske-automotive-group-inc-pag-030105575.html
+                        - 'heading "Penske Automotive Group Inc (PAG) (Q2 2026) Earnings Call Highlights: Record Revenue and Strong ..." [level=3] [ref=f761e631]'
+                      - generic [ref=f761e633]:
+                        - text: GuruFocus.com
+                        - generic [ref=f761e634]: •
+                        - text: 15d ago
+                  - article [ref=f761e636]:
+                    - generic [ref=f761e637]:
+                      - link "Penske Automotive Group, Inc. Q2 2026 Earnings Call Summary" [ref=f761e638] [cursor=pointer]:
+                        - /url: https://finance.yahoo.com/markets/stocks/articles/penske-automotive-group-inc-q2-005535172.html
+                        - heading "Penske Automotive Group, Inc. Q2 2026 Earnings Call Summary" [level=3] [ref=f761e639]
+                      - generic [ref=f761e641]:
+                        - text: Moby
+                        - generic [ref=f761e642]: •
+                        - text: 15d ago
+                  - article [ref=f761e644]:
+                    - generic [ref=f761e645]:
+                      - 'link "Penske (PAG) Q2 Earnings: Taking a Look at Key Metrics Versus Estimates" [ref=f761e646] [cursor=pointer]':
+                        - /url: https://finance.yahoo.com/markets/stocks/articles/penske-pag-q2-earnings-taking-153001730.html
+                        - 'heading "Penske (PAG) Q2 Earnings: Taking a Look at Key Metrics Versus Estimates" [level=3] [ref=f761e647]'
+                      - generic [ref=f761e649]:
+                        - text: Zacks
+                        - generic [ref=f761e650]: •
+                        - text: 16d ago
+            - generic [ref=f761e656]:
+              - heading "Performance Overview" [level=3] [ref=f761e658]
+              - paragraph [ref=f761e659]:
+                - text: Trailing total returns as of 8/14/2026, which may include dividends or other distributions.
+                - generic [ref=f761e660]:
+                  - text: Benchmark is
+                  - link "S&P 500 (^GSPC)" [ref=f761e661] [cursor=pointer]:
+                    - /url: /quote/%5EGSPC/
+                  - text: .
+              - generic [ref=f761e662]:
+                - generic [ref=f761e663]:
+                  - heading "YTD Return" [level=3] [ref=f761e666]
+                  - generic [ref=f761e667]:
+                    - generic [ref=f761e668]:
+                      - generic [ref=f761e669]: PAG
+                      - generic [ref=f761e670]: + 41.32%
+                    - generic [ref=f761e671]:
+                      - generic [ref=f761e672]: S&P 500 (^GSPC)
+                      - generic [ref=f761e673]: + 13.74%
+                - generic [ref=f761e674]:
+                  - heading "1-Year Return" [level=3] [ref=f761e677]
+                  - generic [ref=f761e678]:
+                    - generic [ref=f761e679]:
+                      - generic [ref=f761e680]: PAG
+                      - generic [ref=f761e681]: + 24.16%
+                    - generic [ref=f761e682]:
+                      - generic [ref=f761e683]: S&P 500 (^GSPC)
+                      - generic [ref=f761e684]: + 20.36%
+                - generic [ref=f761e685]:
+                  - heading "3-Year Return" [level=3] [ref=f761e688]
+                  - generic [ref=f761e689]:
+                    - generic [ref=f761e690]:
+                      - generic [ref=f761e691]: PAG
+                      - generic [ref=f761e692]: + 36.09%
+                    - generic [ref=f761e693]:
+                      - generic [ref=f761e694]: S&P 500 (^GSPC)
+                      - generic [ref=f761e695]: + 73.41%
+                - generic [ref=f761e696]:
+                  - heading "5-Year Return" [level=3] [ref=f761e699]
+                  - generic [ref=f761e700]:
+                    - generic [ref=f761e701]:
+                      - generic [ref=f761e702]: PAG
+                      - generic [ref=f761e703]: + 175.30%
+                    - generic [ref=f761e704]:
+                      - generic [ref=f761e705]: S&P 500 (^GSPC)
+                      - generic [ref=f761e706]: + 74.26%
+            - generic [ref=f761e708]:
+              - generic [ref=f761e709]:
+                - heading "Earnings Trends" [level=3] [ref=f761e710]
+                - link "View More" [ref=f761e711] [cursor=pointer]:
+                  - /url: /quote/PAG/analysis/
+              - generic [ref=f761e715]:
+                - generic [ref=f761e716]:
+                  - generic [ref=f761e717]:
+                    - heading "Earnings Per Share" [level=3] [ref=f761e719]
+                    - group [ref=f761e723]:
+                      - generic [ref=f761e724]:
+                        - checkbox "gaap" [ref=f761e725] [cursor=pointer]
+                        - generic [ref=f761e726]: gaap
+                        - generic [ref=f761e727]: GAAP
+                      - generic [ref=f761e728]:
+                        - checkbox "nongaap" [checked] [ref=f761e729] [cursor=pointer]
+                        - generic [ref=f761e730]: nongaap
+                        - generic [ref=f761e731]: Normalized
+                  - figure [ref=f761e733]
+                  - link "Earnings Per Share" [ref=f761e736] [cursor=pointer]:
+                    - /url: /quote/PAG/analysis/
+                - generic [ref=f761e737]:
+                  - generic [ref=f761e738]:
+                    - heading "Revenue vs. Earnings" [level=3] [ref=f761e740]
+                    - group [ref=f761e744]:
+                      - generic [ref=f761e745]:
+                        - checkbox "yearly" [ref=f761e746] [cursor=pointer]
+                        - generic [ref=f761e747]: yearly
+                        - generic [ref=f761e748]: Annual
+                      - generic [ref=f761e749]:
+                        - checkbox "quarterly" [checked] [ref=f761e750] [cursor=pointer]
+                        - generic [ref=f761e751]: quarterly
+                        - generic [ref=f761e752]: Quarterly
+                  - generic [ref=f761e753]:
+                    - generic [ref=f761e754]: Q2 FY26
+                    - generic [ref=f761e756]:
+                      - generic [ref=f761e758]: Revenue
+                      - generic [ref=f761e759]: 8.51B
+                    - generic [ref=f761e760]:
+                      - generic [ref=f761e762]: Earnings
+                      - generic [ref=f761e763]: 260.4M
+                  - generic [ref=f761e765]:
+                    - generic [ref=f761e766]:
+                      - generic [ref=f761e767]:
+                        - generic [ref=f761e769]:
+                          - paragraph [ref=f761e770]: Q3
+                          - paragraph [ref=f761e771]: FY25
+                        - generic [ref=f761e773]:
+                          - paragraph [ref=f761e774]: Q4
+                          - paragraph [ref=f761e775]: FY25
+                        - generic [ref=f761e777]:
+                          - paragraph [ref=f761e778]: Q1
+                          - paragraph [ref=f761e779]: FY26
+                        - generic [ref=f761e781]:
+                          - paragraph [ref=f761e782]: Q2
+                          - paragraph [ref=f761e783]: FY26
+                      - generic [ref=f761e784]:
+                        - generic [ref=f761e785]: "0"
+                        - generic [ref=f761e788]: 2B
+                        - generic [ref=f761e791]: 4B
+                        - generic [ref=f761e794]: 6B
+                        - generic [ref=f761e797]: 8B
+                    - img [ref=f761e800]:
+                      - generic [ref=f761e801]:
+                        - group [ref=f761e802]
+                        - group [ref=f761e807]
+                        - group [ref=f761e812]
+                        - group [ref=f761e817] [cursor=pointer]
+                  - link "Revenue vs. Earnings" [ref=f761e822] [cursor=pointer]:
+                    - /url: /quote/PAG/analysis/
+            - generic [ref=f761e824]:
+              - generic [ref=f761e825]:
+                - heading "Analyst Insights" [level=3] [ref=f761e826]
+                - link "View More" [ref=f761e827] [cursor=pointer]:
+                  - /url: /quote/PAG/analyst-insights/
+              - generic [ref=f761e831]:
+                - generic [ref=f761e832]:
+                  - heading "Analyst Price Targets" [level=3] [ref=f761e835]
+                  - generic [ref=f761e837]:
+                    - generic [ref=f761e841]:
+                      - generic [ref=f761e842]: "205.00"
+                      - generic [ref=f761e843]: Low
+                    - generic [ref=f761e845]:
+                      - generic [ref=f761e846]: "211.25"
+                      - generic [ref=f761e847]: Average
+                    - generic [ref=f761e853]:
+                      - generic [ref=f761e854]: "219.85"
+                      - generic [ref=f761e855]: Current
+                    - generic [ref=f761e856]: "220.00"
+                  - link "Analyst Price Targets" [ref=f761e860] [cursor=pointer]:
+                    - /url: /quote/PAG/analyst-insights/
+                - generic [ref=f761e861]:
+                  - heading "Analyst Recommendations" [level=3] [ref=f761e864]
+                  - figure "Strong Buy Buy Hold Underperform Sell" [ref=f761e865]:
+                    - list [ref=f761e868]:
+                      - listitem [ref=f761e869]:
+                        - generic [ref=f761e871]: Strong Buy
+                      - listitem [ref=f761e872]:
+                        - generic [ref=f761e874]: Buy
+                      - listitem [ref=f761e875]:
+                        - generic [ref=f761e877]: Hold
+                      - listitem [ref=f761e878]:
+                        - generic [ref=f761e880]: Underperform
+                      - listitem [ref=f761e881]:
+                        - generic [ref=f761e883]: Sell
+                  - link "Analyst Recommendations" [ref=f761e884] [cursor=pointer]:
+                    - /url: /quote/PAG/analyst-insights/
+                - generic [ref=f761e885]:
+                  - heading "Latest Rating" [level=3] [ref=f761e888]
+                  - generic [ref=f761e889]:
+                    - generic [ref=f761e890]:
+                      - generic [ref=f761e891]: Date
+                      - generic [ref=f761e892]: 8/4/2026
+                    - generic [ref=f761e893]:
+                      - generic [ref=f761e894]: Analyst
+                      - generic [ref=f761e895]: JP Morgan
+                    - generic [ref=f761e896]:
+                      - generic [ref=f761e897]: Rating Action
+                      - generic [ref=f761e898]: Maintains
+                    - generic [ref=f761e899]:
+                      - generic [ref=f761e900]: Rating
+                      - generic [ref=f761e901]: Neutral
+                    - generic [ref=f761e902]:
+                      - generic [ref=f761e903]: Price Action
+                      - generic [ref=f761e904]: Raises
+                    - generic [ref=f761e905]:
+                      - generic [ref=f761e906]: Price Target
+                      - generic [ref=f761e907]: 170 -> 215
+                  - link "Latest Rating" [ref=f761e908] [cursor=pointer]:
+                    - /url: /quote/PAG/analyst-insights/#upgrade-downgrade-table
+            - generic [ref=f761e910]:
+              - generic [ref=f761e911]:
+                - heading "Statistics" [level=3] [ref=f761e912]
+                - link "View More" [ref=f761e913] [cursor=pointer]:
+                  - /url: /quote/PAG/key-statistics/
+              - generic [ref=f761e917]:
+                - generic [ref=f761e918]:
+                  - heading "Valuation Measures" [level=3] [ref=f761e921]
+                  - generic [ref=f761e922]:
+                    - tablist [ref=f761e923]:
+                      - tab "Current" [selected] [ref=f761e924]
+                      - tab "Quarterly" [ref=f761e925] [cursor=pointer]
+                      - tab "Annual" [ref=f761e926] [cursor=pointer]
+                    - generic [ref=f761e930]: As of 8/10/2026
+                    - list [ref=f761e931]:
+                      - listitem [ref=f761e932]:
+                        - paragraph [ref=f761e933]: Market Cap
+                        - paragraph [ref=f761e934]: 14.20B
+                      - listitem [ref=f761e935]:
+                        - paragraph [ref=f761e936]: Enterprise Value
+                        - paragraph [ref=f761e937]: 23.38B
+                      - listitem [ref=f761e938]:
+                        - paragraph [ref=f761e939]: Trailing P/E
+                        - paragraph [ref=f761e940]: "15.72"
+                      - listitem [ref=f761e941]:
+                        - paragraph [ref=f761e942]: Forward P/E
+                        - paragraph [ref=f761e943]: "16.08"
+                      - listitem [ref=f761e944]:
+                        - paragraph [ref=f761e945]: PEG Ratio (5yr expected)
+                        - paragraph [ref=f761e946]: "2.31"
+                      - listitem [ref=f761e947]:
+                        - paragraph [ref=f761e948]: Price/Sales (ttm)
+                        - paragraph [ref=f761e949]: "0.44"
+                      - listitem [ref=f761e950]:
+                        - paragraph [ref=f761e951]: Price/Book (mrq)
+                        - paragraph [ref=f761e952]: "2.44"
+                      - listitem [ref=f761e953]:
+                        - paragraph [ref=f761e954]: Enterprise Value/Revenue
+                        - paragraph [ref=f761e955]: "0.73"
+                      - listitem [ref=f761e956]:
+                        - paragraph [ref=f761e957]: Enterprise Value/EBITDA
+                        - paragraph [ref=f761e958]: "13.87"
+                - generic [ref=f761e959]:
+                  - heading "Financial Highlights" [level=3] [ref=f761e962]
+                  - generic [ref=f761e963]:
+                    - heading "Profitability and Income Statement" [level=4] [ref=f761e964]
+                    - list [ref=f761e965]:
+                      - listitem [ref=f761e966]:
+                        - paragraph [ref=f761e967]: Profit Margin
+                        - paragraph [ref=f761e968]: 2.81%
+                      - listitem [ref=f761e969]:
+                        - paragraph [ref=f761e970]: Return on Assets (ttm)
+                        - paragraph [ref=f761e971]: 4.24%
+                      - listitem [ref=f761e972]:
+                        - paragraph [ref=f761e973]: Return on Equity (ttm)
+                        - paragraph [ref=f761e974]: 15.84%
+                      - listitem [ref=f761e975]:
+                        - paragraph [ref=f761e976]: Revenue (ttm)
+                        - paragraph [ref=f761e977]: 32.2B
+                      - listitem [ref=f761e978]:
+                        - paragraph [ref=f761e979]: Net Income Avi to Common (ttm)
+                        - paragraph [ref=f761e980]: 906M
+                      - listitem [ref=f761e981]:
+                        - paragraph [ref=f761e982]: Diluted EPS (ttm)
+                        - paragraph [ref=f761e983]: "13.75"
+                  - generic [ref=f761e984]:
+                    - heading "Balance Sheet and Cash Flow" [level=4] [ref=f761e985]
+                    - list [ref=f761e986]:
+                      - listitem [ref=f761e987]:
+                        - paragraph [ref=f761e988]: Total Cash (mrq)
+                        - paragraph [ref=f761e989]: 69.5M
+                      - listitem [ref=f761e990]:
+                        - paragraph [ref=f761e991]: Total Debt/Equity (mrq)
+                        - paragraph [ref=f761e992]: 160.65%
+                      - listitem [ref=f761e993]:
+                        - paragraph [ref=f761e994]: Levered Free Cash Flow (ttm)
+                        - paragraph [ref=f761e995]: 218.1M
+            - generic [ref=f761e997]:
+              - generic [ref=f761e998]:
+                - heading "Compare" [level=3] [ref=f761e999]
+                - link "Compare" [ref=f761e1001] [cursor=pointer]:
+                  - /url: /compare/PAG
+              - paragraph [ref=f761e1003]: Select to analyze similar companies using key performance metrics; select up to 4 stocks.
+              - generic [ref=f761e1006]:
+                - generic [ref=f761e1008]:
+                  - generic [ref=f761e1009]:
+                    - link "PAG" [ref=f761e1010] [cursor=pointer]:
+                      - /url: /quote/PAG/
+                      - generic [ref=f761e1011]:
+                        - text: PAG
+                        - generic [ref=f761e1012]: Penske Automotive Group, Inc.
+                    - button "add-to-compare" [ref=f761e1014] [cursor=pointer]
+                  - generic [ref=f761e1019]:
+                    - generic [ref=f761e1020]: "219.85"
+                    - generic [ref=f761e1021]: +1.21%
+                  - generic [ref=f761e1023]:
+                    - generic [ref=f761e1024]:
+                      - generic [ref=f761e1025]: Mkt Cap
+                      - generic [ref=f761e1026]: 14.436B
+                    - generic [ref=f761e1027]:
+                      - generic [ref=f761e1028]: Industry
+                      - generic [ref=f761e1029]: Auto & Truck Dealerships
+                - generic [ref=f761e1031]:
+                  - generic [ref=f761e1032]:
+                    - link "GPI" [ref=f761e1033] [cursor=pointer]:
+                      - /url: /quote/GPI/
+                      - generic [ref=f761e1034]:
+                        - text: GPI
+                        - generic [ref=f761e1035]: Group 1 Automotive, Inc.
+                    - button "add-to-compare" [ref=f761e1037] [cursor=pointer]
+                  - generic [ref=f761e1042]:
+                    - generic [ref=f761e1043]: "263.95"
+                    - generic [ref=f761e1044]: +0.36%
+                  - generic [ref=f761e1046]:
+                    - generic [ref=f761e1047]:
+                      - generic [ref=f761e1048]: Mkt Cap
+                      - generic [ref=f761e1049]: 3.147B
+                    - generic [ref=f761e1050]:
+                      - generic [ref=f761e1051]: Industry
+                      - generic [ref=f761e1052]: Auto & Truck Dealerships
+                - generic [ref=f761e1054]:
+                  - generic [ref=f761e1055]:
+                    - link "AN" [ref=f761e1056] [cursor=pointer]:
+                      - /url: /quote/AN/
+                      - generic [ref=f761e1057]:
+                        - text: AN
+                        - generic [ref=f761e1058]: AutoNation, Inc.
+                    - button "add-to-compare" [ref=f761e1060] [cursor=pointer]
+                  - generic [ref=f761e1065]:
+                    - generic [ref=f761e1066]: "209.41"
+                    - generic [ref=f761e1067]: +0.48%
+                  - generic [ref=f761e1069]:
+                    - generic [ref=f761e1070]:
+                      - generic [ref=f761e1071]: Mkt Cap
+                      - generic [ref=f761e1072]: 6.923B
+                    - generic [ref=f761e1073]:
+                      - generic [ref=f761e1074]: Industry
+                      - generic [ref=f761e1075]: Auto & Truck Dealerships
+                - generic [ref=f761e1077]:
+                  - generic [ref=f761e1078]:
+                    - link "LAD" [ref=f761e1079] [cursor=pointer]:
+                      - /url: /quote/LAD/
+                      - generic [ref=f761e1080]:
+                        - text: LAD
+                        - generic [ref=f761e1081]: Lithia Motors, Inc.
+                    - button "add-to-compare" [ref=f761e1083] [cursor=pointer]
+                  - generic [ref=f761e1088]:
+                    - generic [ref=f761e1089]: "377.55"
+                    - generic [ref=f761e1090]: "-0.29%"
+                  - generic [ref=f761e1092]:
+                    - generic [ref=f761e1093]:
+                      - generic [ref=f761e1094]: Mkt Cap
+                      - generic [ref=f761e1095]: 8.3B
+                    - generic [ref=f761e1096]:
+                      - generic [ref=f761e1097]: Industry
+                      - generic [ref=f761e1098]: Auto & Truck Dealerships
+                - generic [ref=f761e1100]:
+                  - generic [ref=f761e1101]:
+                    - link "ABG" [ref=f761e1102] [cursor=pointer]:
+                      - /url: /quote/ABG/
+                      - generic [ref=f761e1103]:
+                        - text: ABG
+                        - generic [ref=f761e1104]: Asbury Automotive Group, Inc.
+                    - button "add-to-compare" [ref=f761e1106] [cursor=pointer]
+                  - generic [ref=f761e1111]:
+                    - generic [ref=f761e1112]: "210.66"
+                    - generic [ref=f761e1113]: +0.04%
+                  - generic [ref=f761e1115]:
+                    - generic [ref=f761e1116]:
+                      - generic [ref=f761e1117]: Mkt Cap
+                      - generic [ref=f761e1118]: 3.782B
+                    - generic [ref=f761e1119]:
+                      - generic [ref=f761e1120]: Industry
+                      - generic [ref=f761e1121]: Auto & Truck Dealerships
+                - generic [ref=f761e1123]:
+                  - generic [ref=f761e1124]:
+                    - link "SAH" [ref=f761e1125] [cursor=pointer]:
+                      - /url: /quote/SAH/
+                      - generic [ref=f761e1126]:
+                        - text: SAH
+                        - generic [ref=f761e1127]: Sonic Automotive, Inc.
+                    - button "add-to-compare" [ref=f761e1129] [cursor=pointer]
+                  - generic [ref=f761e1134]:
+                    - generic [ref=f761e1135]: "80.83"
+                    - generic [ref=f761e1136]: +2.01%
+                  - generic [ref=f761e1138]:
+                    - generic [ref=f761e1139]:
+                      - generic [ref=f761e1140]: Mkt Cap
+                      - generic [ref=f761e1141]: 2.555B
+                    - generic [ref=f761e1142]:
+                      - generic [ref=f761e1143]: Industry
+                      - generic [ref=f761e1144]: Auto & Truck Dealerships
+                - generic [ref=f761e1146]:
+                  - generic [ref=f761e1147]:
+                    - link "RUSHA" [ref=f761e1148] [cursor=pointer]:
+                      - /url: /quote/RUSHA/
+                      - generic [ref=f761e1149]:
+                        - text: RUSHA
+                        - generic [ref=f761e1150]: Rush Enterprises, Inc.
+                    - button "add-to-compare" [ref=f761e1152] [cursor=pointer]
+                  - generic [ref=f761e1157]:
+                    - generic [ref=f761e1158]: "82.23"
+                    - generic [ref=f761e1159]: "-0.27%"
+                  - generic [ref=f761e1161]:
+                    - generic [ref=f761e1162]:
+                      - generic [ref=f761e1163]: Mkt Cap
+                      - generic [ref=f761e1164]: 9.599B
+                    - generic [ref=f761e1165]:
+                      - generic [ref=f761e1166]: Industry
+                      - generic [ref=f761e1167]: Auto & Truck Dealerships
+                - generic [ref=f761e1169]:
+                  - generic [ref=f761e1170]:
+                    - link "CRMT" [ref=f761e1171] [cursor=pointer]:
+                      - /url: /quote/CRMT/
+                      - generic [ref=f761e1172]:
+                        - text: CRMT
+                        - generic [ref=f761e1173]: America's Car-Mart, Inc.
+                    - button "add-to-compare" [ref=f761e1175] [cursor=pointer]
+                  - generic [ref=f761e1180]:
+                    - generic [ref=f761e1181]: "3.0900"
+                    - generic [ref=f761e1182]: 0.00%
+                  - generic [ref=f761e1184]:
+                    - generic [ref=f761e1185]:
+                      - generic [ref=f761e1186]: Mkt Cap
+                      - generic [ref=f761e1187]: 25.731M
+                    - generic [ref=f761e1188]:
+                      - generic [ref=f761e1189]: Industry
+                      - generic [ref=f761e1190]: Auto & Truck Dealerships
+                - generic [ref=f761e1192]:
+                  - generic [ref=f761e1193]:
+                    - link "VVV" [ref=f761e1194] [cursor=pointer]:
+                      - /url: /quote/VVV/
+                      - generic [ref=f761e1195]:
+                        - text: VVV
+                        - generic [ref=f761e1196]: Valvoline Inc.
+                    - button "add-to-compare" [ref=f761e1198] [cursor=pointer]
+                  - generic [ref=f761e1203]:
+                    - generic [ref=f761e1204]: "34.19"
+                    - generic [ref=f761e1205]: +1.24%
+                  - generic [ref=f761e1207]:
+                    - generic [ref=f761e1208]:
+                      - generic [ref=f761e1209]: Mkt Cap
+                      - generic [ref=f761e1210]: 4.36B
+                    - generic [ref=f761e1211]:
+                      - generic [ref=f761e1212]: Industry
+                      - generic [ref=f761e1213]: Auto & Truck Dealerships
+                - generic [ref=f761e1215]:
+                  - generic [ref=f761e1216]:
+                    - link "4732.T" [ref=f761e1217] [cursor=pointer]:
+                      - /url: /quote/4732.T/
+                      - generic [ref=f761e1218]:
+                        - text: 4732.T
+                        - generic [ref=f761e1219]: USS Co., Ltd.
+                    - button "add-to-compare" [ref=f761e1221] [cursor=pointer]
+                  - generic [ref=f761e1226]:
+                    - generic [ref=f761e1227]: 2,011.00
+                    - generic [ref=f761e1228]: +0.20%
+                  - generic [ref=f761e1230]:
+                    - generic [ref=f761e1231]:
+                      - generic [ref=f761e1232]: Mkt Cap
+                      - generic [ref=f761e1233]: JPY 913.075B
+                    - generic [ref=f761e1234]:
+                      - generic [ref=f761e1235]: Industry
+                      - generic [ref=f761e1236]: Auto & Truck Dealerships
+                - generic [ref=f761e1238]:
+                  - generic [ref=f761e1239]:
+                    - link "KMX" [ref=f761e1240] [cursor=pointer]:
+                      - /url: /quote/KMX/
+                      - generic [ref=f761e1241]:
+                        - text: KMX
+                        - generic [ref=f761e1242]: CarMax Inc
+                    - button "add-to-compare" [ref=f761e1244] [cursor=pointer]
+                  - generic [ref=f761e1249]:
+                    - generic [ref=f761e1250]: "59.92"
+                    - generic [ref=f761e1251]: "-0.22%"
+                  - generic [ref=f761e1253]:
+                    - generic [ref=f761e1254]:
+                      - generic [ref=f761e1255]: Mkt Cap
+                      - generic [ref=f761e1256]: "-"
+                    - generic [ref=f761e1257]:
+                      - generic [ref=f761e1258]: Industry
+                      - generic [ref=f761e1259]: Auto & Truck Dealerships
+            - generic [ref=f761e1261]:
+              - heading "Company Insights" [level=3] [ref=f761e1263]
+              - generic [ref=f761e1264]:
+                - generic [ref=f761e1265]:
+                  - heading "Fair Value" [level=3] [ref=f761e1268]
+                  - generic [ref=f761e1289]:
+                    - text: "219.85"
+                    - generic [ref=f761e1290]: Current
+                  - link "Fair Value" [ref=f761e1291] [cursor=pointer]:
+                    - /url: /plus/silver/?.done=%2Fquote%2FPAG%2Ffair-value%2F&ncid=100001111
+                - generic [ref=f761e1292]:
+                  - heading "Dividend Score" [level=3] [ref=f761e1295]
+                  - generic [ref=f761e1302]:
+                    - generic [ref=f761e1305]:
+                      - generic [ref=f761e1306]: "0"
+                      - generic [ref=f761e1307]: Low
+                    - generic [ref=f761e1316]: Sector Avg.
+                    - generic [ref=f761e1326]:
+                      - generic [ref=f761e1327]: "100"
+                      - generic [ref=f761e1328]: High
+                  - link "Dividend Score" [ref=f761e1329] [cursor=pointer]:
+                    - /url: /plus/silver/?.done=%2Fquote%2FPAG%2Fdividends%2F&ncid=100001114
+                - generic [ref=f761e1330]:
+                  - heading "Hiring Score" [level=3] [ref=f761e1333]
+                  - generic [ref=f761e1340]:
+                    - generic [ref=f761e1343]:
+                      - generic [ref=f761e1344]: "0"
+                      - generic [ref=f761e1345]: Low
+                    - generic [ref=f761e1354]: Sector Avg.
+                    - generic [ref=f761e1364]:
+                      - generic [ref=f761e1365]: "100"
+                      - generic [ref=f761e1366]: High
+                  - link "Hiring Score" [ref=f761e1367] [cursor=pointer]:
+                    - /url: /plus/silver/?.done=%2Fquote%2FPAG%2Fhiring-trends%2F&ncid=100001113
+                - generic [ref=f761e1368]:
+                  - heading "Insider Sentiment Score" [level=3] [ref=f761e1371]
+                  - generic [ref=f761e1378]:
+                    - generic [ref=f761e1381]:
+                      - generic [ref=f761e1382]: "0"
+                      - generic [ref=f761e1383]: Low
+                    - generic [ref=f761e1392]: Sector Avg.
+                    - generic [ref=f761e1402]:
+                      - generic [ref=f761e1403]: "100"
+                      - generic [ref=f761e1404]: High
+                  - link "Insider Sentiment Score" [ref=f761e1405] [cursor=pointer]:
+                    - /url: /plus/silver/?.done=%2Fquote%2FPAG%2Finsider-sentiment%2F&ncid=100001115
+            - generic [ref=f761e1407]:
+              - generic [ref=f761e1408]:
+                - heading "Research Reports" [level=3] [ref=f761e1409]
+                - link "View More" [ref=f761e1410] [cursor=pointer]:
+                  - /url: /research/stock-forecast/PAG?symbols=PAG
+              - list [ref=f761e1415]:
+                - listitem [ref=f761e1416]:
+                  - generic [ref=f761e1417]:
+                    - heading "Lowering target price to $227.00" [level=3] [ref=f761e1420]
+                    - generic [ref=f761e1421]:
+                      - paragraph [ref=f761e1422]: PENSKE AUTOMOTIVE GROUP INC has an Investment Rating of HOLD; a target price of $227.000000; an Industry Subrating of Low; a Management Subrating of Medium; a Safety Subrating of Medium; a Financial Strength Subrating of Medium; a Growth Subrating of Medium; and a Value Subrating of High.
+                      - generic [ref=f761e1423]:
+                        - generic [ref=f761e1424]: "Rating:"
+                        - generic [ref=f761e1429]: "Price Target:"
+                      - generic [ref=f761e1434]:
+                        - generic [ref=f761e1435]: Argus
+                        - generic [ref=f761e1436]: •
+                        - generic [ref=f761e1437]: 2 days ago
+                    - link "Lowering target price to $227.00" [ref=f761e1438] [cursor=pointer]:
+                      - /url: /research/reports/ARGUS_6328_QuantitativeReport_1786492800000
+                - listitem [ref=f761e1439]:
+                  - generic [ref=f761e1440]:
+                    - heading "Lowering target price to $230.00" [level=3] [ref=f761e1443]
+                    - generic [ref=f761e1444]:
+                      - paragraph [ref=f761e1445]: PENSKE AUTOMOTIVE GROUP INC has an Investment Rating of HOLD; a target price of $230.000000; an Industry Subrating of Low; a Management Subrating of Medium; a Safety Subrating of Medium; a Financial Strength Subrating of Medium; a Growth Subrating of Medium; and a Value Subrating of High.
+                      - generic [ref=f761e1446]:
+                        - generic [ref=f761e1447]: "Rating:"
+                        - generic [ref=f761e1452]: "Price Target:"
+                      - generic [ref=f761e1457]:
+                        - generic [ref=f761e1458]: Argus
+                        - generic [ref=f761e1459]: •
+                        - generic [ref=f761e1460]: 9 days ago
+                    - link "Lowering target price to $230.00" [ref=f761e1461] [cursor=pointer]:
+                      - /url: /research/reports/ARGUS_6328_QuantitativeReport_1785888000000
+                - listitem [ref=f761e1462]:
+                  - generic [ref=f761e1463]:
+                    - 'heading "Penske Earnings: Good Performance Could Force Change to $210 per Share Buyout Offer" [level=3] [ref=f761e1466]'
+                    - generic [ref=f761e1467]:
+                      - paragraph [ref=f761e1468]: Penske Automotive Group operates in 19 US states and overseas. It has about 150 US and Puerto Rico light-vehicle stores as well as 219 franchised dealerships overseas, primarily in the United Kingdom but also in Australia, Germany, Italy, and Japan. The company is the third-largest US publicly traded dealership in terms of light-vehicle revenue and sells more than 40 brands, with over 90% of retail automotive revenue coming from luxury and import names. Other segments are service and finance and insurance. The firm's Premier Truck Group owns 45 truck dealerships selling mostly Freightliner and Western Star brands, and Penske owns 15 used-vehicle stores, mostly in the US and UK under the CarShop (US) and Sytner Select (UK) brands. Penske is based in Bloomfield Hills, Michigan.
+                      - generic [ref=f761e1469]:
+                        - generic [ref=f761e1470]: "Rating:"
+                        - generic [ref=f761e1475]: "Price Target:"
+                      - generic [ref=f761e1480]:
+                        - generic [ref=f761e1481]: Morningstar
+                        - generic [ref=f761e1482]: •
+                        - generic [ref=f761e1483]: 15 days ago
+                    - 'link "Penske Earnings: Good Performance Could Force Change to $210 per Share Buyout Offer" [ref=f761e1484] [cursor=pointer]':
+                      - /url: /research/reports/MS_0P000005MN_AnalystReport_1785433939000
+                - listitem [ref=f761e1485]:
+                  - generic [ref=f761e1486]:
+                    - heading "Raising target price to $231.00" [level=3] [ref=f761e1489]
+                    - generic [ref=f761e1490]:
+                      - paragraph [ref=f761e1491]: PENSKE AUTOMOTIVE GROUP INC has an Investment Rating of HOLD; a target price of $231.000000; an Industry Subrating of Low; a Management Subrating of Medium; a Safety Subrating of Medium; a Financial Strength Subrating of Medium; a Growth Subrating of Medium; and a Value Subrating of High.
+                      - generic [ref=f761e1492]:
+                        - generic [ref=f761e1493]: "Rating:"
+                        - generic [ref=f761e1498]: "Price Target:"
+                      - generic [ref=f761e1503]:
+                        - generic [ref=f761e1504]: Argus
+                        - generic [ref=f761e1505]: •
+                        - generic [ref=f761e1506]: 16 days ago
+                    - link "Raising target price to $231.00" [ref=f761e1507] [cursor=pointer]:
+                      - /url: /research/reports/ARGUS_6328_QuantitativeReport_1785283200000
+            - generic [ref=f761e1510]:
+              - heading "People Also Watch" [level=3] [ref=f761e1512]
+              - generic [ref=f761e1515]:
+                - generic [ref=f761e1516]:
+                  - generic [ref=f761e1517]:
+                    - generic [ref=f761e1520]:
+                      - generic [ref=f761e1521]: GPI
+                      - generic "Group 1 Automotive, Inc." [ref=f761e1522]
+                    - generic [ref=f761e1523]:
+                      - strong [ref=f761e1524]: "263.95"
+                      - generic [ref=f761e1525]: +0.36%
+                  - link "GPI" [ref=f761e1526] [cursor=pointer]:
+                    - /url: /quote/GPI/
+                - generic [ref=f761e1527]:
+                  - generic [ref=f761e1528]:
+                    - generic [ref=f761e1531]:
+                      - generic [ref=f761e1532]: SAH
+                      - generic "Sonic Automotive, Inc." [ref=f761e1533]
+                    - generic [ref=f761e1534]:
+                      - strong [ref=f761e1535]: "80.83"
+                      - generic [ref=f761e1536]: +2.01%
+                  - link "SAH" [ref=f761e1537] [cursor=pointer]:
+                    - /url: /quote/SAH/
+                - generic [ref=f761e1538]:
+                  - generic [ref=f761e1539]:
+                    - generic [ref=f761e1542]:
+                      - generic [ref=f761e1543]: LAD
+                      - generic "Lithia Motors, Inc." [ref=f761e1544]
+                    - generic [ref=f761e1545]:
+                      - strong [ref=f761e1546]: "377.55"
+                      - generic [ref=f761e1547]: "-0.29%"
+                  - link "LAD" [ref=f761e1548] [cursor=pointer]:
+                    - /url: /quote/LAD/
+                - generic [ref=f761e1549]:
+                  - generic [ref=f761e1550]:
+                    - generic [ref=f761e1553]:
+                      - generic [ref=f761e1554]: AN
+                      - generic "AutoNation, Inc." [ref=f761e1555]
+                    - generic [ref=f761e1556]:
+                      - strong [ref=f761e1557]: "209.41"
+                      - generic [ref=f761e1558]: +0.48%
+                  - link "AN" [ref=f761e1559] [cursor=pointer]:
+                    - /url: /quote/AN/
+                - generic [ref=f761e1560]:
+                  - generic [ref=f761e1561]:
+                    - generic [ref=f761e1564]:
+                      - generic [ref=f761e1565]: ABG
+                      - generic "Asbury Automotive Group, Inc." [ref=f761e1566]
+                    - generic [ref=f761e1567]:
+                      - strong [ref=f761e1568]: "210.66"
+                      - generic [ref=f761e1569]: +0.04%
+                  - link "ABG" [ref=f761e1570] [cursor=pointer]:
+                    - /url: /quote/ABG/
+          - generic [ref=f761e1574]:
+            - generic [ref=f761e1575]:
+              - link "Yahoo Finance" [ref=f761e1576] [cursor=pointer]:
+                - /url: /
+              - generic [ref=f761e1581]: Copyright © 2026 Yahoo. All rights reserved.
+              - generic [ref=f761e1583]:
+                - link "Follow on Twitter" [ref=f761e1584] [cursor=pointer]:
+                  - /url: https://twitter.com/YahooFinance
+                - link "Follow on Facebook" [ref=f761e1589] [cursor=pointer]:
+                  - /url: https://facebook.com/yahoofinance
+                - link "Follow on LinkedIn" [ref=f761e1593] [cursor=pointer]:
+                  - /url: https://www.linkedin.com/company/yahoo-finance
+            - generic [ref=f761e1597]:
+              - generic [ref=f761e1598]: Trending Topics
+              - link "Dow Jones" [ref=f761e1599] [cursor=pointer]:
+                - /url: https://finance.yahoo.com/quote/%5EDJI/
+              - link "S&P 500" [ref=f761e1600] [cursor=pointer]:
+                - /url: https://finance.yahoo.com/quote/SPY/
+              - link "DAX Index" [ref=f761e1601] [cursor=pointer]:
+                - /url: https://finance.yahoo.com/quote/%5EGDAXI/
+              - link "Nvidia" [ref=f761e1602] [cursor=pointer]:
+                - /url: https://finance.yahoo.com/quote/NVDA/
+              - link "Tesla" [ref=f761e1603] [cursor=pointer]:
+                - /url: https://finance.yahoo.com/quote/TSLA/
+              - link "DJT" [ref=f761e1604] [cursor=pointer]:
+                - /url: https://finance.yahoo.com/quote/DJT/
+              - link "Tariffs" [ref=f761e1605] [cursor=pointer]:
+                - /url: https://finance.yahoo.com/topic/tariffs/
+            - generic [ref=f761e1606]:
+              - generic [ref=f761e1607]: Explore Further
+              - link "Mortgages" [ref=f761e1608] [cursor=pointer]:
+                - /url: https://finance.yahoo.com/personal-finance/mortgages/
+              - link "Credit Cards" [ref=f761e1609] [cursor=pointer]:
+                - /url: https://finance.yahoo.com/personal-finance/credit-cards/
+              - link "Sectors" [ref=f761e1610] [cursor=pointer]:
+                - /url: https://finance.yahoo.com/sectors/
+              - link "Crypto Heatmap" [ref=f761e1611] [cursor=pointer]:
+                - /url: https://finance.yahoo.com/crypto/heatmap/
+              - link "Financial News" [ref=f761e1612] [cursor=pointer]:
+                - /url: https://finance.yahoo.com/news/
+            - generic [ref=f761e1613]:
+              - generic [ref=f761e1614]: About
+              - link "Data Disclaimer" [ref=f761e1615] [cursor=pointer]:
+                - /url: https://help.yahoo.com/kb/finance-for-web/SLN2310.html?locale=en_US
+              - link "Help" [ref=f761e1616] [cursor=pointer]:
+                - /url: https://help.yahoo.com/kb/finance-for-web
+              - link "Feedback" [ref=f761e1617] [cursor=pointer]:
+                - /url: https://yahoo.uservoice.com/forums/952723-finance-b3
+              - link "Sitemap" [ref=f761e1618] [cursor=pointer]:
+                - /url: https://finance.yahoo.com/sitemap/
+              - link "Licensing" [ref=f761e1619] [cursor=pointer]:
+                - /url: https://info.wrightsmedia.com/yahoo-finance-licensing
+              - link "What's New" [ref=f761e1620] [cursor=pointer]:
+                - /url: https://finance.yahoo.com/about/whatsnew/
+              - link "About Our Ads" [ref=f761e1621] [cursor=pointer]:
+                - /url: https://policies.oath.com/us/en/oath/privacy/adinfo/index.html
+              - link "Premium Plans" [ref=f761e1622] [cursor=pointer]:
+                - /url: /about/plans/
+              - generic [ref=f761e1623]:
+                - generic [ref=f761e1624]:
+                  - link "Terms" [ref=f761e1625] [cursor=pointer]:
+                    - /url: https://guce.yahoo.com/terms?locale=en-US
+                  - text: and
+                  - link "Privacy Policy" [ref=f761e1626] [cursor=pointer]:
+                    - /url: https://guce.yahoo.com/privacy-policy?locale=en-US
+                - link "Your Privacy Choices" [ref=f761e1628] [cursor=pointer]:
+                  - /url: https://guce.yahoo.com/state-controls?locale=en-US&state=TX
+      - complementary "Dock" [ref=f761e1630]:
+        - dialog "Dock" [ref=f761e1632]:
+          - generic [ref=f761e1636]:
+            - search [ref=f761e1641]:
+              - textbox "Quote Lookup" [ref=f761e1645]
+            - generic [ref=f761e1647]:
+              - list [ref=f761e1648]:
+                - listitem [ref=f761e1649]:
+                  - generic [ref=f761e1652]:
+                    - link "Trending tickers" [ref=f761e1656] [cursor=pointer]:
+                      - /url: /trending-tickers
+                    - list [ref=f761e1658]:
+                      - listitem [ref=f761e1659]:
+                        - generic [ref=f761e1660]:
+                          - link "AVGO Broadcom Inc. 392.99 -24.83 (-5.94%)" [ref=f761e1661] [cursor=pointer]:
+                            - /url: /quote/AVGO/
+                            - generic [ref=f761e1662]:
+                              - generic [ref=f761e1663]: AVGO
+                              - generic "Broadcom Inc." [ref=f761e1664]
+                              - generic [ref=f761e1665]: "392.99"
+                              - generic [ref=f761e1666]:
+                                - generic [ref=f761e1667]: "-24.83"
+                                - generic [ref=f761e1668]: (-5.94%)
+                          - button "Follow" [ref=f761e1669] [cursor=pointer]
+                      - listitem [ref=f761e1673]:
+                        - generic [ref=f761e1674]:
+                          - link "BTC-USD Bitcoin USD 62,821.51 -587.67 (-0.93%)" [ref=f761e1675] [cursor=pointer]:
+                            - /url: /quote/BTC-USD/
+                            - generic [ref=f761e1676]:
+                              - generic [ref=f761e1677]: BTC-USD
+                              - generic "Bitcoin USD" [ref=f761e1678]
+                              - generic [ref=f761e1679]: 62,821.51
+                              - generic [ref=f761e1680]:
+                                - generic [ref=f761e1681]: "-587.67"
+                                - generic [ref=f761e1682]: (-0.93%)
+                          - button "Follow" [ref=f761e1683] [cursor=pointer]
+                      - listitem [ref=f761e1687]:
+                        - generic [ref=f761e1688]:
+                          - link "UMAC Unusual Machines, Inc. 34.06 +6.82 (+25.04%)" [ref=f761e1689] [cursor=pointer]:
+                            - /url: /quote/UMAC/
+                            - generic [ref=f761e1690]:
+                              - generic [ref=f761e1691]: UMAC
+                              - generic "Unusual Machines, Inc." [ref=f761e1692]
+                              - generic [ref=f761e1693]: "34.06"
+                              - generic [ref=f761e1694]:
+                                - generic [ref=f761e1695]: "+6.82"
+                                - generic [ref=f761e1696]: (+25.04%)
+                          - button "Follow" [ref=f761e1697] [cursor=pointer]
+                      - listitem [ref=f761e1701]:
+                        - generic [ref=f761e1702]:
+                          - link "BYND Beyond Meat, Inc. 13.47 +1.26 (+10.32%)" [ref=f761e1703] [cursor=pointer]:
+                            - /url: /quote/BYND/
+                            - generic [ref=f761e1704]:
+                              - generic [ref=f761e1705]: BYND
+                              - generic "Beyond Meat, Inc." [ref=f761e1706]
+                              - generic [ref=f761e1707]: "13.47"
+                              - generic [ref=f761e1708]:
+                                - generic [ref=f761e1709]: "+1.26"
+                                - generic [ref=f761e1710]: (+10.32%)
+                          - button "Follow" [ref=f761e1711] [cursor=pointer]
+                      - listitem [ref=f761e1715]:
+                        - generic [ref=f761e1716]:
+                          - link "RDDT Reddit, Inc. 178.09 +19.97 (+12.63%)" [ref=f761e1717] [cursor=pointer]:
+                            - /url: /quote/RDDT/
+                            - generic [ref=f761e1718]:
+                              - generic [ref=f761e1719]: RDDT
+                              - generic "Reddit, Inc." [ref=f761e1720]
+                              - generic [ref=f761e1721]: "178.09"
+                              - generic [ref=f761e1722]:
+                                - generic [ref=f761e1723]: "+19.97"
+                                - generic [ref=f761e1724]: (+12.63%)
+                          - button "Follow" [ref=f761e1725] [cursor=pointer]
+                - listitem [ref=f761e1729]:
+                  - generic [ref=f761e1730]: ADVERTISEMENT
+                - listitem [ref=f761e1731]:
+                  - generic [ref=f761e1735]:
+                    - link "Portfolio" [ref=f761e1739] [cursor=pointer]:
+                      - /url: /portfolios
+                    - generic [ref=f761e1740]:
+                      - paragraph [ref=f761e1741]: Sign in to access your portfolio
+                      - link "Sign in" [ref=f761e1742] [cursor=pointer]:
+                        - /url: https://login.yahoo.com/config/login?done=https%3A%2F%2Ffinance.yahoo.com%2Fquote%2FPAG%2F&intl=us&lang=en-US&activity=dock-portfolio&pspid=95993639&src=finance
+                - listitem [ref=f761e1743]:
+                  - generic [ref=f761e1746]:
+                    - link "Recently viewed" [ref=f761e1750] [cursor=pointer]:
+                      - /url: /recent-quotes
+                    - list
+                - listitem [ref=f761e1752]:
+                  - generic [ref=f761e1755]:
+                    - link "Top gainers" [ref=f761e1759] [cursor=pointer]:
+                      - /url: /gainers/
+                    - list [ref=f761e1761]:
+                      - listitem [ref=f761e1762]:
+                        - generic [ref=f761e1763]:
+                          - link "HTFL Heartflow, Inc. 42.08 +11.07 (+35.70%)" [ref=f761e1764] [cursor=pointer]:
+                            - /url: /quote/HTFL/
+                            - generic [ref=f761e1765]:
+                              - generic [ref=f761e1766]: HTFL
+                              - generic "Heartflow, Inc." [ref=f761e1767]
+                              - generic [ref=f761e1768]: "42.08"
+                              - generic [ref=f761e1769]:
+                                - generic [ref=f761e1770]: "+11.07"
+                                - generic [ref=f761e1771]: (+35.70%)
+                          - button "Follow" [ref=f761e1772] [cursor=pointer]
+                      - listitem [ref=f761e1776]:
+                        - generic [ref=f761e1777]:
+                          - link "AAOI Applied Optoelectronics, Inc. Common Stock 150.28 +20.20 (+15.53%)" [ref=f761e1778] [cursor=pointer]:
+                            - /url: /quote/AAOI/
+                            - generic [ref=f761e1779]:
+                              - generic [ref=f761e1780]: AAOI
+                              - generic "Applied Optoelectronics, Inc. Common Stock" [ref=f761e1781]
+                              - generic [ref=f761e1782]: "150.28"
+                              - generic [ref=f761e1783]:
+                                - generic [ref=f761e1784]: "+20.20"
+                                - generic [ref=f761e1785]: (+15.53%)
+                          - button "Follow" [ref=f761e1786] [cursor=pointer]
+                      - listitem [ref=f761e1790]:
+                        - generic [ref=f761e1791]:
+                          - link "RDDT Reddit, Inc. 178.09 +19.97 (+12.63%)" [ref=f761e1792] [cursor=pointer]:
+                            - /url: /quote/RDDT/
+                            - generic [ref=f761e1793]:
+                              - generic [ref=f761e1794]: RDDT
+                              - generic "Reddit, Inc." [ref=f761e1795]
+                              - generic [ref=f761e1796]: "178.09"
+                              - generic [ref=f761e1797]:
+                                - generic [ref=f761e1798]: "+19.97"
+                                - generic [ref=f761e1799]: (+12.63%)
+                          - button "Follow" [ref=f761e1800] [cursor=pointer]
+                      - listitem [ref=f761e1804]:
+                        - generic [ref=f761e1805]:
+                          - link "WING Wingstop Inc. 126.12 +12.55 (+11.05%)" [ref=f761e1806] [cursor=pointer]:
+                            - /url: /quote/WING/
+                            - generic [ref=f761e1807]:
+                              - generic [ref=f761e1808]: WING
+                              - generic "Wingstop Inc." [ref=f761e1809]
+                              - generic [ref=f761e1810]: "126.12"
+                              - generic [ref=f761e1811]:
+                                - generic [ref=f761e1812]: "+12.55"
+                                - generic [ref=f761e1813]: (+11.05%)
+                          - button "Follow" [ref=f761e1814] [cursor=pointer]
+                      - listitem [ref=f761e1818]:
+                        - generic [ref=f761e1819]:
+                          - link "MXL MaxLinear, Inc. 84.84 +8.19 (+10.68%)" [ref=f761e1820] [cursor=pointer]:
+                            - /url: /quote/MXL/
+                            - generic [ref=f761e1821]:
+                              - generic [ref=f761e1822]: MXL
+                              - generic "MaxLinear, Inc." [ref=f761e1823]
+                              - generic [ref=f761e1824]: "84.84"
+                              - generic [ref=f761e1825]:
+                                - generic [ref=f761e1826]: "+8.19"
+                                - generic [ref=f761e1827]: (+10.68%)
+                          - button "Follow" [ref=f761e1828] [cursor=pointer]
+                - listitem [ref=f761e1832]:
+                  - generic [ref=f761e1835]:
+                    - link "Top losers" [ref=f761e1839] [cursor=pointer]:
+                      - /url: /losers/
+                    - list [ref=f761e1841]:
+                      - listitem [ref=f761e1842]:
+                        - generic [ref=f761e1843]:
+                          - link "BLSH Bullish 24.39 -3.09 (-11.24%)" [ref=f761e1844] [cursor=pointer]:
+                            - /url: /quote/BLSH/
+                            - generic [ref=f761e1845]:
+                              - generic [ref=f761e1846]: BLSH
+                              - generic "Bullish" [ref=f761e1847]
+                              - generic [ref=f761e1848]: "24.39"
+                              - generic [ref=f761e1849]:
+                                - generic [ref=f761e1850]: "-3.09"
+                                - generic [ref=f761e1851]: (-11.24%)
+                          - button "Follow" [ref=f761e1852] [cursor=pointer]
+                      - listitem [ref=f761e1856]:
+                        - generic [ref=f761e1857]:
+                          - link "UCTT Ultra Clean Holdings, Inc. 84.93 -7.98 (-8.59%)" [ref=f761e1858] [cursor=pointer]:
+                            - /url: /quote/UCTT/
+                            - generic [ref=f761e1859]:
+                              - generic [ref=f761e1860]: UCTT
+                              - generic "Ultra Clean Holdings, Inc." [ref=f761e1861]
+                              - generic [ref=f761e1862]: "84.93"
+                              - generic [ref=f761e1863]:
+                                - generic [ref=f761e1864]: "-7.98"
+                                - generic [ref=f761e1865]: (-8.59%)
+                          - button "Follow" [ref=f761e1866] [cursor=pointer]
+                      - listitem [ref=f761e1870]:
+                        - generic [ref=f761e1871]:
+                          - link "DUOL Duolingo, Inc. 132.83 -11.27 (-7.82%)" [ref=f761e1872] [cursor=pointer]:
+                            - /url: /quote/DUOL/
+                            - generic [ref=f761e1873]:
+                              - generic [ref=f761e1874]: DUOL
+                              - generic "Duolingo, Inc." [ref=f761e1875]
+                              - generic [ref=f761e1876]: "132.83"
+                              - generic [ref=f761e1877]:
+                                - generic [ref=f761e1878]: "-11.27"
+                                - generic [ref=f761e1879]: (-7.82%)
+                          - button "Follow" [ref=f761e1880] [cursor=pointer]
+                      - listitem [ref=f761e1884]:
+                        - generic [ref=f761e1885]:
+                          - link "XE X-Energy, Inc. 20.98 -1.75 (-7.72%)" [ref=f761e1886] [cursor=pointer]:
+                            - /url: /quote/XE/
+                            - generic [ref=f761e1887]:
+                              - generic [ref=f761e1888]: XE
+                              - generic "X-Energy, Inc." [ref=f761e1889]
+                              - generic [ref=f761e1890]: "20.98"
+                              - generic [ref=f761e1891]:
+                                - generic [ref=f761e1892]: "-1.75"
+                                - generic [ref=f761e1893]: (-7.72%)
+                          - button "Follow" [ref=f761e1894] [cursor=pointer]
+                      - listitem [ref=f761e1898]:
+                        - generic [ref=f761e1899]:
+                          - link "VIK Viking Holdings Ltd 97.99 -8.12 (-7.65%)" [ref=f761e1900] [cursor=pointer]:
+                            - /url: /quote/VIK/
+                            - generic [ref=f761e1901]:
+                              - generic [ref=f761e1902]: VIK
+                              - generic "Viking Holdings Ltd" [ref=f761e1903]
+                              - generic [ref=f761e1904]: "97.99"
+                              - generic [ref=f761e1905]:
+                                - generic [ref=f761e1906]: "-8.12"
+                                - generic [ref=f761e1907]: (-7.65%)
+                          - button "Follow" [ref=f761e1908] [cursor=pointer]
+                - listitem [ref=f761e1912]:
+                  - generic [ref=f761e1915]:
+                    - link "Most active" [ref=f761e1919] [cursor=pointer]:
+                      - /url: /most-active/
+                    - list [ref=f761e1921]:
+                      - listitem [ref=f761e1922]:
+                        - generic [ref=f761e1923]:
+                          - link "NU Nu Holdings Ltd. 15.23 +1.30 (+9.33%)" [ref=f761e1924] [cursor=pointer]:
+                            - /url: /quote/NU/
+                            - generic [ref=f761e1925]:
+                              - generic [ref=f761e1926]: NU
+                              - generic "Nu Holdings Ltd." [ref=f761e1927]
+                              - generic [ref=f761e1928]: "15.23"
+                              - generic [ref=f761e1929]:
+                                - generic [ref=f761e1930]: "+1.30"
+                                - generic [ref=f761e1931]: (+9.33%)
+                          - button "Follow" [ref=f761e1932] [cursor=pointer]
+                      - listitem [ref=f761e1936]:
+                        - generic [ref=f761e1937]:
+                          - link "ONDS Ondas Inc. 9.24 +0.33 (+3.70%)" [ref=f761e1938] [cursor=pointer]:
+                            - /url: /quote/ONDS/
+                            - generic [ref=f761e1939]:
+                              - generic [ref=f761e1940]: ONDS
+                              - generic "Ondas Inc." [ref=f761e1941]
+                              - generic [ref=f761e1942]: "9.24"
+                              - generic [ref=f761e1943]:
+                                - generic [ref=f761e1944]: "+0.33"
+                                - generic [ref=f761e1945]: (+3.70%)
+                          - button "Follow" [ref=f761e1946] [cursor=pointer]
+                      - listitem [ref=f761e1950]:
+                        - generic [ref=f761e1951]:
+                          - link "SPCX Space Exploration Technologies Corp. 140.00 -1.29 (-0.91%)" [ref=f761e1952] [cursor=pointer]:
+                            - /url: /quote/SPCX/
+                            - generic [ref=f761e1953]:
+                              - generic [ref=f761e1954]: SPCX
+                              - generic "Space Exploration Technologies Corp." [ref=f761e1955]
+                              - generic [ref=f761e1956]: "140.00"
+                              - generic [ref=f761e1957]:
+                                - generic [ref=f761e1958]: "-1.29"
+                                - generic [ref=f761e1959]: (-0.91%)
+                          - button "Follow" [ref=f761e1960] [cursor=pointer]
+                      - listitem [ref=f761e1964]:
+                        - generic [ref=f761e1965]:
+                          - link "INTC Intel Corporation 102.50 -2.06 (-1.97%)" [ref=f761e1966] [cursor=pointer]:
+                            - /url: /quote/INTC/
+                            - generic [ref=f761e1967]:
+                              - generic [ref=f761e1968]: INTC
+                              - generic "Intel Corporation" [ref=f761e1969]
+                              - generic [ref=f761e1970]: "102.50"
+                              - generic [ref=f761e1971]:
+                                - generic [ref=f761e1972]: "-2.06"
+                                - generic [ref=f761e1973]: (-1.97%)
+                          - button "Follow" [ref=f761e1974] [cursor=pointer]
+                      - listitem [ref=f761e1978]:
+                        - generic [ref=f761e1979]:
+                          - link "NVDA NVIDIA Corporation 225.16 -0.14 (-0.06%)" [ref=f761e1980] [cursor=pointer]:
+                            - /url: /quote/NVDA/
+                            - generic [ref=f761e1981]:
+                              - generic [ref=f761e1982]: NVDA
+                              - generic "NVIDIA Corporation" [ref=f761e1983]
+                              - generic [ref=f761e1984]: "225.16"
+                              - generic [ref=f761e1985]:
+                                - generic [ref=f761e1986]: "-0.14"
+                                - generic [ref=f761e1987]: (-0.06%)
+                          - button "Follow" [ref=f761e1988] [cursor=pointer]
+                - listitem [ref=f761e1992]:
+                  - generic [ref=f761e1996]:
+                    - generic [ref=f761e1997]:
+                      - link "Top economic events" [ref=f761e1999] [cursor=pointer]:
+                        - /url: /calendar/economic
+                      - button "United States" [ref=f761e2003] [cursor=pointer]
+                    - list [ref=f761e2006]:
+                      - listitem [ref=f761e2007]:
+                        - generic [ref=f761e2008]:
+                          - generic [ref=f761e2009]: U Mich Sentiment Prelim
+                          - generic [ref=f761e2011]:
+                            - time [ref=f761e2012]: Aug 14, 2026, 10:00 AM EDT
+                            - generic [ref=f761e2013]: "Prior: 55.2"
+                            - generic [ref=f761e2014]: "New: 51"
+                    - generic [ref=f761e2015]:
+                      - button "prev" [disabled]
+                      - button "next" [ref=f761e2016] [cursor=pointer]
+                - listitem [ref=f761e2020]:
+                  - generic [ref=f761e2023]:
+                    - generic [ref=f761e2025]:
+                      - link "Earnings events" [ref=f761e2027] [cursor=pointer]:
+                        - /url: /calendar/earnings?day=2026-08-14
+                      - group [ref=f761e2029]:
+                        - generic [ref=f761e2031]:
+                          - checkbox "My earnings events" [ref=f761e2032] [cursor=pointer]
+                          - generic [ref=f761e2033]: My earnings events
+                        - generic [ref=f761e2038]:
+                          - checkbox "Earnings events" [checked] [ref=f761e2039] [cursor=pointer]
+                          - generic [ref=f761e2040]: Earnings events
+                    - img "Progress Spinner" [ref=f761e2046]
+              - button "Edit your Dock" [ref=f761e2079] [cursor=pointer]
+              - generic [ref=f761e2082]:
+                - generic [ref=f761e2083]:
+                  - link "Terms" [ref=f761e2084] [cursor=pointer]:
+                    - /url: https://guce.yahoo.com/terms?locale=en-US
+                  - text: and
+                  - link "Privacy Policy" [ref=f761e2085] [cursor=pointer]:
+                    - /url: https://guce.yahoo.com/privacy-policy?locale=en-US
+                - link "Your Privacy Choices" [ref=f761e2087] [cursor=pointer]:
+                  - /url: https://guce.yahoo.com/state-controls?locale=en-US&state=TX
+      - complementary

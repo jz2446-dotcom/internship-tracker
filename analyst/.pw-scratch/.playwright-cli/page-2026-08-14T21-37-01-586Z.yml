@@ -1,0 +1,633 @@
+- generic [active] [ref=f319e1]:
+  - generic [ref=f319e2]:
+    - region "talent banner" [ref=f319e7]:
+      - generic [ref=f319e8]:
+        - generic [ref=f319e14]:
+          - text: "Notice to Candidates: Be aware of false job opportunity solicitations and protect your personal information. Learn about our hiring process and what to expect from the PNC Talent Acquisition Team, visit:"
+          - link "Click to learn more about recruitment scams" [ref=f319e16] [cursor=pointer]:
+            - /url: https://careers.pnc.com/global/en/recruitment-scams
+            - text: Alert to Candidates
+        - button "close banner" [ref=f319e17] [cursor=pointer]
+    - banner [ref=f319e21]:
+      - generic:
+        - link "Skip to main content":
+          - /url: "#skipToMainContent"
+      - generic [ref=f319e25]:
+        - link "Company Logo" [ref=f319e27] [cursor=pointer]:
+          - /url: https://careers.pnc.com/global/en/home
+          - img "PNC_OrangeGray" [ref=f319e28]
+        - navigation "primary" [ref=f319e35]:
+          - list [ref=f319e36]:
+            - listitem [ref=f319e37]:
+              - button "About Us" [ref=f319e38] [cursor=pointer]
+            - listitem [ref=f319e43]:
+              - button "Browse Jobs" [ref=f319e44] [cursor=pointer]
+            - listitem [ref=f319e49]:
+              - button "Programs" [ref=f319e50] [cursor=pointer]
+            - listitem [ref=f319e55]:
+              - link "Click to view our Hiring Process" [ref=f319e57] [cursor=pointer]:
+                - /url: https://careers.pnc.com/global/en/our-hiring-process
+                - text: Hiring Process
+            - listitem [ref=f319e58]:
+              - link "Click to log into your candidate profile in Workday" [ref=f319e60] [cursor=pointer]:
+                - /url: https://pnc.wd5.myworkdayjobs.com/External/login
+                - text: Log In
+        - link "saved jobs (0)" [ref=f319e64] [cursor=pointer]:
+          - /url: https://careers.pnc.com/global/en/jobcart
+          - generic [ref=f319e68]: Saved jobs
+          - generic [ref=f319e69]: (0)
+  - main [ref=f319e70]:
+    - generic [ref=f319e71]: "-"
+    - region "cookies message" [ref=f319e74]:
+      - generic [ref=f319e75]:
+        - generic [ref=f319e76]: We use cookies to offer you a better browsing experience, analyze site traffic, and personalize content. Read about how we use cookies and how you can control them by visiting our Cookie Settings page. If you continue to use this site, you consent to our use of cookies.
+        - generic [ref=f319e77]:
+          - button "Deny" [ref=f319e78] [cursor=pointer]:
+            - generic [ref=f319e79]: $
+            - text: Deny
+          - button " Allow" [ref=f319e80] [cursor=pointer]:
+            - generic [ref=f319e81]: 
+            - text: Allow
+    - generic [ref=f319e82]:
+      - generic [ref=f319e86]:
+        - figure [ref=f319e87]:
+          - img "DP_JobCategory" [ref=f319e88]
+        - generic [ref=f319e89]:
+          - heading "Students & Graduates" [level=1] [ref=f319e90]
+          - link "Find internship and development program jobs" [ref=f319e92] [cursor=pointer]:
+            - /url: https://careers.pnc.com/global/en/c/students-graduates-jobs#ph-EyDUn
+            - generic [ref=f319e93]: Find Jobs
+      - generic [ref=f319e107]:
+        - heading "Early Career Opportunities at PNC" [level=2] [ref=f319e109]
+        - generic [ref=f319e110]: Join one of our Summer Internship or Development Programs, which will expose you to projects that positively impact our customers while providing you with the training, experience and support you need to develop and grow.
+        - strong [ref=f319e115]:
+          - generic [ref=f319e116]: Summer Internship Program
+        - generic [ref=f319e117]: During your 10-week Summer Internship, you'll engage in work that impacts our customers, communities, employees and shareholders.
+        - strong [ref=f319e122]:
+          - generic [ref=f319e123]: Development Program
+        - generic [ref=f319e124]: As an Analyst or Associate in a Development Program, you'll first establish a foundational knowledge of PNC and your specific business through an orientation, foundational banking training and formal learning.
+      - heading "Explore Students and Graduate Opportunities" [level=2] [ref=f319e140]
+      - generic [ref=f319e143]:
+        - region "Refine your search" [ref=f319e148]:
+          - text: $
+          - heading "Refine your search" [level=2] [ref=f319e151]
+          - generic [ref=f319e152]:
+            - generic [ref=f319e153]:
+              - heading [level=3] [ref=f319e156]:
+                - button "Country" [expanded] [ref=f319e157] [cursor=pointer]:
+                  - text: Country
+                  - generic [ref=f319e158]: "8"
+              - generic [ref=f319e160]:
+                - text: ":"
+                - group "Country" [ref=f319e162]:
+                  - list [ref=f319e164]:
+                    - listitem [ref=f319e165]:
+                      - generic [ref=f319e166] [cursor=pointer]:
+                        - checkbox "United States of America 44 jobs" [ref=f319e167]
+                        - generic [ref=f319e169]:
+                          - text: United States of America
+                          - generic [ref=f319e170]:
+                            - text: (44)
+                            - generic [ref=f319e171]: jobs
+            - generic [ref=f319e172]:
+              - heading [level=3] [ref=f319e175]:
+                - button "City" [ref=f319e176] [cursor=pointer]:
+                  - text: City
+                  - generic [ref=f319e177]: (
+              - generic: ":"
+            - generic [ref=f319e178]:
+              - heading [level=3] [ref=f319e181]:
+                - button "State" [ref=f319e182] [cursor=pointer]:
+                  - text: State
+                  - generic [ref=f319e183]: (
+              - generic: ":"
+            - generic [ref=f319e184]:
+              - heading [level=3] [ref=f319e187]:
+                - button "Category" [expanded] [ref=f319e188] [cursor=pointer]:
+                  - text: Category
+                  - generic [ref=f319e189]: "8"
+              - generic [ref=f319e191]:
+                - generic [ref=f319e193]:
+                  - searchbox "Search by Category" [ref=f319e194]
+                  - text: ":"
+                - group "Category" [ref=f319e196]:
+                  - list [ref=f319e198]:
+                    - listitem [ref=f319e199]:
+                      - generic [ref=f319e200] [cursor=pointer]:
+                        - checkbox "Branch Banking 1234 jobs" [ref=f319e201]
+                        - generic [ref=f319e203]:
+                          - text: Branch Banking
+                          - generic [ref=f319e204]:
+                            - text: (1234)
+                            - generic [ref=f319e205]: jobs
+                    - listitem [ref=f319e206]:
+                      - generic [ref=f319e207] [cursor=pointer]:
+                        - checkbox "Sales 340 jobs" [ref=f319e208]
+                        - generic [ref=f319e210]:
+                          - text: Sales
+                          - generic [ref=f319e211]:
+                            - text: (340)
+                            - generic [ref=f319e212]: jobs
+                    - listitem [ref=f319e213]:
+                      - generic [ref=f319e214] [cursor=pointer]:
+                        - checkbox "Technology 249 jobs" [ref=f319e215]
+                        - generic [ref=f319e217]:
+                          - text: Technology
+                          - generic [ref=f319e218]:
+                            - text: (249)
+                            - generic [ref=f319e219]: jobs
+                    - listitem [ref=f319e220]:
+                      - generic [ref=f319e221] [cursor=pointer]:
+                        - checkbox "Corporate Functions 126 jobs" [ref=f319e222]
+                        - generic [ref=f319e224]:
+                          - text: Corporate Functions
+                          - generic [ref=f319e225]:
+                            - text: (126)
+                            - generic [ref=f319e226]: jobs
+                    - listitem [ref=f319e227]:
+                      - generic [ref=f319e228] [cursor=pointer]:
+                        - checkbox "Other 101 jobs" [ref=f319e229]
+                        - generic [ref=f319e231]:
+                          - text: Other
+                          - generic [ref=f319e232]:
+                            - text: (101)
+                            - generic [ref=f319e233]: jobs
+                    - listitem [ref=f319e234]:
+                      - generic [ref=f319e235] [cursor=pointer]:
+                        - checkbox "Operations & Servicing 92 jobs" [ref=f319e236]
+                        - generic [ref=f319e238]:
+                          - text: Operations & Servicing
+                          - generic [ref=f319e239]:
+                            - text: (92)
+                            - generic [ref=f319e240]: jobs
+                    - listitem [ref=f319e241]:
+                      - generic [ref=f319e242] [cursor=pointer]:
+                        - checkbox "PNC Wealth Management 74 jobs" [ref=f319e243]
+                        - generic [ref=f319e245]:
+                          - text: PNC Wealth Management
+                          - generic [ref=f319e246]:
+                            - text: (74)
+                            - generic [ref=f319e247]: jobs
+                    - listitem [ref=f319e248]:
+                      - generic [ref=f319e249] [cursor=pointer]:
+                        - checkbox "Quantitative Analytics 64 jobs" [ref=f319e250]
+                        - generic [ref=f319e252]:
+                          - text: Quantitative Analytics
+                          - generic [ref=f319e253]:
+                            - text: (64)
+                            - generic [ref=f319e254]: jobs
+                    - listitem [ref=f319e255]:
+                      - generic [ref=f319e256] [cursor=pointer]:
+                        - checkbox "Asset Management & Private Banking 59 jobs" [ref=f319e257]
+                        - generic [ref=f319e259]:
+                          - text: Asset Management & Private Banking
+                          - generic [ref=f319e260]:
+                            - text: (59)
+                            - generic [ref=f319e261]: jobs
+                    - listitem [ref=f319e262]:
+                      - generic [ref=f319e263] [cursor=pointer]:
+                        - checkbox "Students & Graduates 44 jobs" [checked] [ref=f319e264]
+                        - generic [ref=f319e266]:
+                          - text: Students & Graduates
+                          - generic [ref=f319e267]:
+                            - text: (44)
+                            - generic [ref=f319e268]: jobs
+                    - listitem [ref=f319e269]:
+                      - generic [ref=f319e270] [cursor=pointer]:
+                        - checkbox "Product Management & Digital 41 jobs" [ref=f319e271]
+                        - generic [ref=f319e273]:
+                          - text: Product Management & Digital
+                          - generic [ref=f319e274]:
+                            - text: (41)
+                            - generic [ref=f319e275]: jobs
+                    - listitem [ref=f319e276]:
+                      - generic [ref=f319e277] [cursor=pointer]:
+                        - checkbox "Credit Policy 28 jobs" [ref=f319e278]
+                        - generic [ref=f319e280]:
+                          - text: Credit Policy
+                          - generic [ref=f319e281]:
+                            - text: (28)
+                            - generic [ref=f319e282]: jobs
+                    - listitem [ref=f319e283]:
+                      - generic [ref=f319e284] [cursor=pointer]:
+                        - checkbox "Asset & Liability Management & Capital Markets 4 jobs" [ref=f319e285]
+                        - generic [ref=f319e287]:
+                          - text: Asset & Liability Management & Capital Markets
+                          - generic [ref=f319e288]:
+                            - text: (4)
+                            - generic [ref=f319e289]: jobs
+                    - listitem [ref=f319e290]:
+                      - generic [ref=f319e291] [cursor=pointer]:
+                        - checkbox "Customer Care Center 1 job" [ref=f319e292]
+                        - generic [ref=f319e294]:
+                          - text: Customer Care Center
+                          - generic [ref=f319e295]:
+                            - text: (1)
+                            - generic [ref=f319e296]: job
+            - generic [ref=f319e297]:
+              - heading [level=3] [ref=f319e300]:
+                - button "Job Type" [ref=f319e301] [cursor=pointer]:
+                  - text: Job Type
+                  - generic [ref=f319e302]: (
+              - generic: ":"
+            - generic [ref=f319e303]:
+              - heading [level=3] [ref=f319e306]:
+                - button "Remote" [ref=f319e307] [cursor=pointer]:
+                  - text: Remote
+                  - generic [ref=f319e308]: (
+              - generic: ":"
+            - generic [ref=f319e309]:
+              - heading [level=3] [ref=f319e312]:
+                - button "Location" [ref=f319e313] [cursor=pointer]:
+                  - text: Location
+                  - generic [ref=f319e314]: (
+              - text: ":"
+              - generic: $
+        - generic [ref=f319e319]:
+          - region "Search results" [ref=f319e320]:
+            - list [ref=f319e323]:
+              - text: $
+              - listitem [ref=f319e324]:
+                - generic [ref=f319e325]: Students & Graduates
+                - button "Remove Students & Graduates filter" [ref=f319e326] [cursor=pointer]:
+                  - generic [ref=f319e327]: $
+              - listitem [ref=f319e328]:
+                - button "Clear all filters" [ref=f319e329] [cursor=pointer]:
+                  - generic [ref=f319e330]: Clear all
+            - generic [ref=f319e332]:
+              - generic [ref=f319e334]:
+                - generic [ref=f319e337]:
+                  - generic [ref=f319e338]: Search from below list
+                  - textbox "Search from below list" [ref=f319e339]
+                  - text: "$ :"
+                - generic [ref=f319e341]:
+                  - generic [ref=f319e342]: 44 results
+                  - generic [ref=f319e343]:
+                    - text: "|"
+                    - generic [ref=f319e344]: Sort by
+                    - generic [ref=f319e345]:
+                      - combobox "Sort by" [ref=f319e346]:
+                        - option "Most relevant" [selected]
+                        - option "Most recent"
+                      - generic: 
+                  - text: F
+              - list [ref=f319e348]:
+                - listitem [ref=f319e349]:
+                  - generic [ref=f319e350]:
+                    - generic [ref=f319e351]:
+                      - heading [level=3] [ref=f319e352]:
+                        - link "Corporate & Institutional Banking Undergraduate Summer 2027 Intern - Capital Markets Job ID is R218205" [ref=f319e353] [cursor=pointer]:
+                          - /url: https://careers.pnc.com/global/en/job/R218205/Corporate-Institutional-Banking-Undergraduate-Summer-2027-Intern-Capital-Markets
+                          - generic [ref=f319e354]: Corporate & Institutional Banking Undergraduate Summer 2027 Intern - Capital Markets
+                      - paragraph [ref=f319e355]:
+                        - generic [ref=f319e357]:
+                          - generic [ref=f319e358]: Category
+                          - text: Students & Graduates
+                      - button "Corporate & Institutional Banking Undergraduate Summer 2027 Intern - Capital Markets PNC1GLOBALR218205 Job available in 7 locations" [ref=f319e361] [cursor=pointer]:
+                        - text: Job available in 7 locations
+                        - generic [ref=f319e362]: 
+                      - text: 
+                    - link "Apply Now for Corporate & Institutional Banking Undergraduate Summer 2027 Intern - Capital Markets" [ref=f319e365] [cursor=pointer]:
+                      - /url: https://pnc.wd5.myworkdayjobs.com/External/job/PA---Pittsburgh-15222/Corporate---Institutional-Banking-Undergraduate-Summer-2027-Intern---Capital-Markets_R218205-1/apply
+                      - text: Apply Now
+                      - generic [ref=f319e366]: Corporate & Institutional Banking Undergraduate Summer 2027 Intern - Capital Markets
+                - listitem [ref=f319e367]:
+                  - generic [ref=f319e368]:
+                    - generic [ref=f319e369]:
+                      - heading [level=3] [ref=f319e370]:
+                        - link "Internal Audit Development Program Analyst/Associate Job ID is R231458" [ref=f319e371] [cursor=pointer]:
+                          - /url: https://careers.pnc.com/global/en/job/R231458/Internal-Audit-Development-Program-Analyst-Associate
+                          - generic [ref=f319e372]: Internal Audit Development Program Analyst/Associate
+                      - paragraph [ref=f319e373]:
+                        - generic [ref=f319e375]:
+                          - generic [ref=f319e376]: Location
+                          - text: Pittsburgh, Pennsylvania, United States of America
+                        - generic [ref=f319e378]:
+                          - generic [ref=f319e379]: Category
+                          - text: Students & Graduates
+                      - text: 
+                    - link "Apply Now for Internal Audit Development Program Analyst/Associate" [ref=f319e382] [cursor=pointer]:
+                      - /url: https://pnc.wd5.myworkdayjobs.com/External/job/PA---Pittsburgh-15222/Internal-Audit-Development-Program-Analyst-Associate_R231458-1/apply
+                      - text: Apply Now
+                      - generic [ref=f319e383]: Internal Audit Development Program Analyst/Associate
+                - listitem [ref=f319e384]:
+                  - generic [ref=f319e385]:
+                    - generic [ref=f319e386]:
+                      - heading [level=3] [ref=f319e387]:
+                        - link "Corporate & Institutional Banking Undergraduate Intern – Agency Finance Job ID is R230897" [ref=f319e388] [cursor=pointer]:
+                          - /url: https://careers.pnc.com/global/en/job/R230897/Corporate-Institutional-Banking-Undergraduate-Intern-Agency-Finance
+                          - generic [ref=f319e389]: Corporate & Institutional Banking Undergraduate Intern – Agency Finance
+                      - paragraph [ref=f319e390]:
+                        - generic [ref=f319e392]:
+                          - generic [ref=f319e393]: Category
+                          - text: Students & Graduates
+                      - button "Corporate & Institutional Banking Undergraduate Intern – Agency Finance PNC1GLOBALR230897 Job available in 2 locations" [ref=f319e396] [cursor=pointer]:
+                        - text: Job available in 2 locations
+                        - generic [ref=f319e397]: 
+                      - text: 
+                    - link "Apply Now for Corporate & Institutional Banking Undergraduate Intern – Agency Finance" [ref=f319e400] [cursor=pointer]:
+                      - /url: https://pnc.wd5.myworkdayjobs.com/External/job/CA---Calabasas/Corporate---Institutional-Banking-Undergraduate-Intern---Agency-Finance_R230897-1/apply
+                      - text: Apply Now
+                      - generic [ref=f319e401]: Corporate & Institutional Banking Undergraduate Intern – Agency Finance
+                - listitem [ref=f319e402]:
+                  - generic [ref=f319e403]:
+                    - generic [ref=f319e404]:
+                      - heading [level=3] [ref=f319e405]:
+                        - link "Corporate & Institutional Banking Undergraduate Intern – Commercial & Corporate Banking (East) Job ID is R230901" [ref=f319e406] [cursor=pointer]:
+                          - /url: https://careers.pnc.com/global/en/job/R230901/Corporate-Institutional-Banking-Undergraduate-Intern-Commercial-Corporate-Banking-East
+                          - generic [ref=f319e407]: Corporate & Institutional Banking Undergraduate Intern – Commercial & Corporate Banking (East)
+                      - paragraph [ref=f319e408]:
+                        - generic [ref=f319e410]:
+                          - generic [ref=f319e411]: Category
+                          - text: Students & Graduates
+                      - button "Corporate & Institutional Banking Undergraduate Intern – Commercial & Corporate Banking (East) PNC1GLOBALR230901 Job available in 9 locations" [ref=f319e414] [cursor=pointer]:
+                        - text: Job available in 9 locations
+                        - generic [ref=f319e415]: 
+                      - text: 
+                    - link "Apply Now for Corporate & Institutional Banking Undergraduate Intern – Commercial & Corporate Banking (East)" [ref=f319e418] [cursor=pointer]:
+                      - /url: https://pnc.wd5.myworkdayjobs.com/External/job/PA---Pittsburgh-15222/Corporate---Institutional-Banking-Undergraduate-Intern---Commercial---Corporate-Banking--East-_R230901-1/apply
+                      - text: Apply Now
+                      - generic [ref=f319e419]: Corporate & Institutional Banking Undergraduate Intern – Commercial & Corporate Banking (East)
+                - listitem [ref=f319e420]:
+                  - generic [ref=f319e421]:
+                    - generic [ref=f319e422]:
+                      - heading [level=3] [ref=f319e423]:
+                        - link "Corporate & Institutional Banking Undergraduate Intern – Real Estate Banking Job ID is R230915" [ref=f319e424] [cursor=pointer]:
+                          - /url: https://careers.pnc.com/global/en/job/R230915/Corporate-Institutional-Banking-Undergraduate-Intern-Real-Estate-Banking
+                          - generic [ref=f319e425]: Corporate & Institutional Banking Undergraduate Intern – Real Estate Banking
+                      - paragraph [ref=f319e426]:
+                        - generic [ref=f319e428]:
+                          - generic [ref=f319e429]: Category
+                          - text: Students & Graduates
+                      - button "Corporate & Institutional Banking Undergraduate Intern – Real Estate Banking PNC1GLOBALR230915 Job available in 14 locations" [ref=f319e432] [cursor=pointer]:
+                        - text: Job available in 14 locations
+                        - generic [ref=f319e433]: 
+                      - text: 
+                    - link "Apply Now for Corporate & Institutional Banking Undergraduate Intern – Real Estate Banking" [ref=f319e436] [cursor=pointer]:
+                      - /url: https://pnc.wd5.myworkdayjobs.com/External/job/PA---Pittsburgh-15222/Corporate---Institutional-Banking-Undergraduate-Intern---Real-Estate-Banking_R230915-1/apply
+                      - text: Apply Now
+                      - generic [ref=f319e437]: Corporate & Institutional Banking Undergraduate Intern – Real Estate Banking
+                - listitem [ref=f319e438]:
+                  - generic [ref=f319e439]:
+                    - generic [ref=f319e440]:
+                      - heading [level=3] [ref=f319e441]:
+                        - link "Retail Banking Development Program - Financial Wellness Solutions Job ID is R230921" [ref=f319e442] [cursor=pointer]:
+                          - /url: https://careers.pnc.com/global/en/job/R230921/Retail-Banking-Development-Program-Financial-Wellness-Solutions
+                          - generic [ref=f319e443]: Retail Banking Development Program - Financial Wellness Solutions
+                      - paragraph [ref=f319e444]:
+                        - generic [ref=f319e446]:
+                          - generic [ref=f319e447]: Category
+                          - text: Students & Graduates
+                      - button "Retail Banking Development Program - Financial Wellness Solutions PNC1GLOBALR230921 Job available in 9 locations" [ref=f319e450] [cursor=pointer]:
+                        - text: Job available in 9 locations
+                        - generic [ref=f319e451]: 
+                      - text: 
+                    - link "Apply Now for Retail Banking Development Program - Financial Wellness Solutions" [ref=f319e454] [cursor=pointer]:
+                      - /url: https://pnc.wd5.myworkdayjobs.com/External/job/OH---Cleveland/Retail-Banking-Development-Program---Financial-Wellness-Solutions_R230921-1/apply
+                      - text: Apply Now
+                      - generic [ref=f319e455]: Retail Banking Development Program - Financial Wellness Solutions
+                - listitem [ref=f319e456]:
+                  - generic [ref=f319e457]:
+                    - generic [ref=f319e458]:
+                      - heading [level=3] [ref=f319e459]:
+                        - link "Corporate & Institutional Banking (C&IB) Development Program Analyst/Associate – Midland Loan Services Job ID is R230938" [ref=f319e460] [cursor=pointer]:
+                          - /url: https://careers.pnc.com/global/en/job/R230938/Corporate-Institutional-Banking-C-IB-Development-Program-Analyst-Associate-Midland-Loan-Services
+                          - generic [ref=f319e461]: Corporate & Institutional Banking (C&IB) Development Program Analyst/Associate – Midland Loan Services
+                      - paragraph [ref=f319e462]:
+                        - generic [ref=f319e464]:
+                          - generic [ref=f319e465]: Location
+                          - text: Overland Park, Kansas, United States of America
+                        - generic [ref=f319e467]:
+                          - generic [ref=f319e468]: Category
+                          - text: Students & Graduates
+                      - text: 
+                    - link "Apply Now for Corporate & Institutional Banking (C&IB) Development Program Analyst/Associate – Midland Loan Services" [ref=f319e471] [cursor=pointer]:
+                      - /url: https://pnc.wd5.myworkdayjobs.com/External/job/KS---Overland-Park/Corporate---Institutional-Banking--C-IB--Development-Program-Analyst-Associate---Midland-Loan-Services_R230938-1/apply
+                      - text: Apply Now
+                      - generic [ref=f319e472]: Corporate & Institutional Banking (C&IB) Development Program Analyst/Associate – Midland Loan Services
+                - listitem [ref=f319e473]:
+                  - generic [ref=f319e474]:
+                    - generic [ref=f319e475]:
+                      - heading [level=3] [ref=f319e476]:
+                        - link "Independent Risk Management Development Program Analyst/Associate Job ID is R231463" [ref=f319e477] [cursor=pointer]:
+                          - /url: https://careers.pnc.com/global/en/job/R231463/Independent-Risk-Management-Development-Program-Analyst-Associate
+                          - generic [ref=f319e478]: Independent Risk Management Development Program Analyst/Associate
+                      - paragraph [ref=f319e479]:
+                        - generic [ref=f319e481]:
+                          - generic [ref=f319e482]: Location
+                          - text: Pittsburgh, Pennsylvania, United States of America
+                        - generic [ref=f319e484]:
+                          - generic [ref=f319e485]: Category
+                          - text: Students & Graduates
+                      - text: 
+                    - link "Apply Now for Independent Risk Management Development Program Analyst/Associate" [ref=f319e488] [cursor=pointer]:
+                      - /url: https://pnc.wd5.myworkdayjobs.com/External/job/PA---Pittsburgh-15222/Independent-Risk-Management-Development-Program-Analyst-Associate_R231463-1/apply
+                      - text: Apply Now
+                      - generic [ref=f319e489]: Independent Risk Management Development Program Analyst/Associate
+                - listitem [ref=f319e490]:
+                  - generic [ref=f319e491]:
+                    - generic [ref=f319e492]:
+                      - heading [level=3] [ref=f319e493]:
+                        - link "Data, Modeling, and Analytics Development Program Analyst/Associate Job ID is R231525" [ref=f319e494] [cursor=pointer]:
+                          - /url: https://careers.pnc.com/global/en/job/R231525/Data-Modeling-and-Analytics-Development-Program-Analyst-Associate
+                          - generic [ref=f319e495]: Data, Modeling, and Analytics Development Program Analyst/Associate
+                      - paragraph [ref=f319e496]:
+                        - generic [ref=f319e498]:
+                          - generic [ref=f319e499]: Location
+                          - text: Pittsburgh, Pennsylvania, United States of America
+                        - generic [ref=f319e501]:
+                          - generic [ref=f319e502]: Category
+                          - text: Students & Graduates
+                      - text: 
+                    - link "Apply Now for Data, Modeling, and Analytics Development Program Analyst/Associate" [ref=f319e505] [cursor=pointer]:
+                      - /url: https://pnc.wd5.myworkdayjobs.com/External/job/PA---Pittsburgh-15222/Data--Modeling--and-Analytics-Development-Program-Analyst-Associate_R231525-1/apply
+                      - text: Apply Now
+                      - generic [ref=f319e506]: Data, Modeling, and Analytics Development Program Analyst/Associate
+                - listitem [ref=f319e507]:
+                  - generic [ref=f319e508]:
+                    - generic [ref=f319e509]:
+                      - heading [level=3] [ref=f319e510]:
+                        - link "Human Resources Undergraduate Intern Job ID is R231530" [ref=f319e511] [cursor=pointer]:
+                          - /url: https://careers.pnc.com/global/en/job/R231530/Human-Resources-Undergraduate-Intern
+                          - generic [ref=f319e512]: Human Resources Undergraduate Intern
+                      - paragraph [ref=f319e513]:
+                        - generic [ref=f319e515]:
+                          - generic [ref=f319e516]: Location
+                          - text: Pittsburgh, Pennsylvania, United States of America
+                        - generic [ref=f319e518]:
+                          - generic [ref=f319e519]: Category
+                          - text: Students & Graduates
+                      - text: 
+                    - link "Apply Now for Human Resources Undergraduate Intern" [ref=f319e522] [cursor=pointer]:
+                      - /url: https://pnc.wd5.myworkdayjobs.com/External/job/PA---Pittsburgh-15222/Human-Resources-Undergraduate-Intern_R231530-1/apply
+                      - text: Apply Now
+                      - generic [ref=f319e523]: Human Resources Undergraduate Intern
+          - region "pagination" [ref=f319e524]:
+            - text: Z
+            - button "Page 1": "1"
+            - button "Page 2" [ref=f319e525] [cursor=pointer]: "2"
+            - button "Page 3" [ref=f319e526] [cursor=pointer]: "3"
+            - button "Page 4" [ref=f319e527] [cursor=pointer]: "4"
+            - button "Page 5" [ref=f319e528] [cursor=pointer]: "5"
+            - button "View next page" [ref=f319e529] [cursor=pointer]:
+              - generic [ref=f319e530]: 
+      - generic [ref=f319e534]:
+        - text: 
+        - generic [ref=f319e541]:
+          - generic [ref=f319e542]: Join PNC's Talent Community
+          - generic [ref=f319e546]: If you're not ready to apply yet, or you'd like to learn more about PNC, join the Talent Community to receive regular updates on what's happening at PNC and available career opportunities.
+          - link "Click to Join Click to join PNC's talent community" [ref=f319e552] [cursor=pointer]:
+            - /url: https://flows.beamery.com/pnc/tc-signup
+            - generic [ref=f319e553]: Click to Join
+            - text: 
+      - list [ref=f319e559]:
+        - listitem [ref=f319e560]:
+          - heading "Important Legal Disclosures" [level=4] [ref=f319e568]
+        - listitem [ref=f319e569]:
+          - generic [ref=f319e576]:
+            - paragraph [ref=f319e577]:
+              - generic [ref=f319e578]: If an accommodation is required to participate in the application process, please contact us via email at
+              - link "click here to access the mail client accommodationrequest@pnc.com" [ref=f319e580] [cursor=pointer]:
+                - /url: mailto:accommodationrequest@pnc.com
+                - strong [ref=f319e582]: accommodationrequest@pnc.com
+              - generic [ref=f319e583]:
+                - text: .
+                - generic [ref=f319e584]: Please include “accommodation request” in the subject line title and be sure to include your name, the job ID, and your preferred method of contact in the body of the email. Emails not related to accommodation requests will not receive responses. Applicants may also call
+              - link "877-968-7762" [ref=f319e585] [cursor=pointer]:
+                - /url: tel:877-968-7762
+                - strong [ref=f319e587]: 877-968-7762
+              - generic [ref=f319e588]: and say "Workday" for accommodation assistance. All information provided will be kept confidential and will be used only to the extent required to provide needed reasonable accommodations.
+            - paragraph [ref=f319e590]:
+              - generic [ref=f319e591]: At PNC we foster an inclusive and accessible workplace. We provide reasonable accommodations to employment applicants and qualified individuals with a disability who need an accommodation to perform the essential functions of their positions.
+        - listitem [ref=f319e592]:
+          - generic [ref=f319e600]:
+            - paragraph [ref=f319e601]:
+              - text: “Brilliant Thrives Here” is a registered trade mark of The PNC Financial Services Group, Inc.
+              - generic [ref=f319e602]: PNC provides equal opportunity to qualified persons regardless of race, color, sex, religion, national origin, age, sexual orientation, gender identity, disability, veteran status, or other categories protected by law.
+            - strong [ref=f319e605]:
+              - 'link "Know Your Rights: Workplace Discrimination is Illegal" [ref=f319e606] [cursor=pointer]':
+                - /url: https://www.eeoc.gov/sites/default/files/2023-06/22-088_EEOC_KnowYourRights6.12ScreenRdr.pdf
+            - paragraph [ref=f319e607]:
+              - generic [ref=f319e608]: PNC complies with all U.S. Federal and State employment posting requirements.
+              - strong [ref=f319e610]:
+                - link "CLICK HERE to access to all labor law ePosters." [ref=f319e611] [cursor=pointer]:
+                  - /url: https://mandatoryview.com/?LicenceId=1f6ffd2c-9547-4e5f-9a9c-73912a77a958&ProductType=IntranetLicense&SubType=PG
+              - strong [ref=f319e612]:
+                - link "CLICK HERE to access PNC Equal Opportunity and Affirmative Action (Section 503 & VEVRAA) Policy" [ref=f319e613] [cursor=pointer]:
+                  - /url: https://content.pncmc.com/live/pnc/aboutus/recruiting/PNC_EO_AASection_503_and_VEVRAA_Policy.pdf
+              - generic [ref=f319e614]: "Learn more about PNC's participation in E-Verify:"
+            - strong [ref=f319e617]:
+              - link "Right to work (in English)" [ref=f319e618] [cursor=pointer]:
+                - /url: https://www.e-verify.gov/sites/default/files/everify/posters/IER_RighttoWorkPoster.pdf
+              - link "Derecho al Trabajar (en Español)" [ref=f319e619] [cursor=pointer]:
+                - /url: https://www.e-verify.gov/sites/default/files/everify/posters/IER_RighttoWorkPosterES.pdf
+  - contentinfo [ref=f319e620]:
+    - generic [ref=f319e622]:
+      - list [ref=f319e625]:
+        - listitem [ref=f319e626]:
+          - link "Personal Information" [ref=f319e627] [cursor=pointer]:
+            - /url: https://careers.pnc.com/global/en/emailpersonalinfo
+        - listitem [ref=f319e628]:
+          - link "Career Site Cookie Settings" [ref=f319e629] [cursor=pointer]:
+            - /url: https://careers.pnc.com/global/en/cookiesettings
+      - generic [ref=f319e632]:
+        - link [ref=f319e634] [cursor=pointer]:
+          - /url: https://careers.pnc.com/global/en/home
+          - img "PNC logo" [ref=f319e635]
+        - navigation [ref=f319e641]:
+          - list [ref=f319e642]:
+            - listitem [ref=f319e643]:
+              - heading "About Us" [level=2] [ref=f319e644]
+              - list [ref=f319e646]:
+                - listitem [ref=f319e647]:
+                  - link "Click here to learn about PNC's culture" [ref=f319e649] [cursor=pointer]:
+                    - /url: https://careers.pnc.com/global/en/culture
+                    - text: Culture
+                - listitem [ref=f319e650]:
+                  - link "Click here to learn about Talent Outreach at PNC" [ref=f319e652] [cursor=pointer]:
+                    - /url: https://careers.pnc.com/global/en/talent-outreach
+                    - text: Talent Outreach
+                - listitem [ref=f319e653]:
+                  - link "Click here for Employee Benefits & Programs at PNC" [ref=f319e655] [cursor=pointer]:
+                    - /url: https://careers.pnc.com/global/en/employee-benefits
+                    - text: Employee Benefits & Programs
+                - listitem [ref=f319e656]:
+                  - link "Click here to browse PNC locations" [ref=f319e658] [cursor=pointer]:
+                    - /url: https://careers.pnc.com/global/en/locations
+                    - text: Locations
+            - listitem [ref=f319e659]:
+              - heading "Programs" [level=2] [ref=f319e660]
+              - list [ref=f319e662]:
+                - listitem [ref=f319e663]:
+                  - link "Click here to learn about opportunities for Students & Graduates" [ref=f319e665] [cursor=pointer]:
+                    - /url: https://careers.pnc.com/global/en/students
+                    - text: Students & Graduates
+                - listitem [ref=f319e666]:
+                  - link "Click here to learn about PartnerUp" [ref=f319e668] [cursor=pointer]:
+                    - /url: https://www.partnerupprogram.com/
+                    - text: PartnerUp
+            - listitem [ref=f319e669]:
+              - heading "Career Resources" [level=2] [ref=f319e670]
+              - list [ref=f319e672]:
+                - listitem [ref=f319e673]:
+                  - link "Click here to Search Jobs" [ref=f319e675] [cursor=pointer]:
+                    - /url: https://careers.pnc.com/global/en/search-results
+                    - text: Search Jobs
+                - listitem [ref=f319e676]:
+                  - link "Click here to learn more about PNC's Hiring Process" [ref=f319e678] [cursor=pointer]:
+                    - /url: https://careers.pnc.com/global/en/our-hiring-process
+                    - text: Hiring Process
+                - listitem [ref=f319e679]:
+                  - link "Learn more about PNC's Recruitment Scams Warning" [ref=f319e681] [cursor=pointer]:
+                    - /url: https://careers.pnc.com/global/en/recruitment-scams
+                    - text: Recruitment Scams Warning
+            - listitem [ref=f319e682]:
+              - heading "Contact Us" [level=2] [ref=f319e683]
+              - list [ref=f319e685]:
+                - listitem [ref=f319e686]:
+                  - link "Customer Service" [ref=f319e688] [cursor=pointer]:
+                    - /url: https://www.pnc.com/en/customer-service.html
+                - listitem [ref=f319e689]:
+                  - link "@PNCBank_Help" [ref=f319e691] [cursor=pointer]:
+                    - /url: http://www.twitter.com/PNCBank_Help
+        - generic [ref=f319e692]:
+          - heading "follow us" [level=2] [ref=f319e693]
+          - list [ref=f319e694]:
+            - listitem [ref=f319e695]:
+              - link "facebook" [ref=f319e696] [cursor=pointer]:
+                - /url: https://www.facebook.com/pncbank
+            - listitem [ref=f319e700]:
+              - link "linkedIn" [ref=f319e701] [cursor=pointer]:
+                - /url: https://www.linkedin.com/company/pnc-bank
+            - listitem [ref=f319e705]:
+              - link "twitter" [ref=f319e706] [cursor=pointer]:
+                - /url: https://twitter.com/pncbank
+            - listitem [ref=f319e710]:
+              - link "instagram" [ref=f319e711] [cursor=pointer]:
+                - /url: https://www.instagram.com/pncbank/
+            - listitem [ref=f319e715]:
+              - link "youtube" [ref=f319e716] [cursor=pointer]:
+                - /url: https://www.youtube.com/user/pnc
+            - listitem [ref=f319e720]:
+              - link "pinterest" [ref=f319e721] [cursor=pointer]:
+                - /url: https://www.pinterest.com/PNC/
+      - generic [ref=f319e727]:
+        - generic [ref=f319e728]: ©2026 The PNC Financial Services Group, Inc. All rights reserved.
+        - list [ref=f319e732]:
+          - listitem [ref=f319e733]:
+            - link "Click to view PNC's Privacy Policy" [ref=f319e735] [cursor=pointer]:
+              - /url: https://content.pncmc.com/live/pnc/aboutus/HR/HRPrivacyNotice/Human_Resources_Privacy_Notice.pdf
+              - text: PNC Human Resources Privacy Notice
+          - listitem [ref=f319e736]:
+            - link "Click to view PNC's Terms and conditions" [ref=f319e738] [cursor=pointer]:
+              - /url: https://www.pnc.com/en/terms-and-conditions.html
+              - text: Terms & Conditions
+          - listitem [ref=f319e739]:
+            - link "Click to view PNC's Security Policy" [ref=f319e741] [cursor=pointer]:
+              - /url: https://www.pnc.com/en/security-privacy.html
+              - text: Security
+  - generic:
+    - generic:
+      - generic:
+        - generic:
+          - complementary "Static Text"

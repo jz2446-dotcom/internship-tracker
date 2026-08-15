@@ -1,0 +1,24 @@
+- generic [active] [ref=f100e1]:
+  - generic [ref=f100e10]:
+    - generic [ref=f100e11]:
+      - heading "Welcome to myWalden" [level=1] [ref=f100e12]
+      - paragraph [ref=f100e15]: Welcome to the myWalden student portal. Access your classroom, register for class, manage your finances, and find other university resources and services to support your success during your journey at Walden.
+    - generic [ref=f100e17]:
+      - img "walden university logo" [ref=f100e19]
+      - paragraph [ref=f100e20]: Login to myWalden Student Portal
+      - generic [ref=f100e21] [cursor=pointer]: Login
+      - generic [ref=f100e22]: Need Help?
+      - generic [ref=f100e24]:
+        - generic [ref=f100e25] [cursor=pointer]: Reset Password
+        - generic [ref=f100e26] [cursor=pointer]: I Need Help Logging In
+        - generic [ref=f100e27] [cursor=pointer]: Order Official Transcript
+      - generic [ref=f100e28]:
+        - paragraph [ref=f100e29]:
+          - text: Need further assistance?
+          - link "1-800-925-3368" [ref=f100e30] [cursor=pointer]:
+            - /url: tel:1-800-925-3368
+        - paragraph [ref=f100e31]:
+          - link "Terms of Service & Privacy Policy" [ref=f100e32] [cursor=pointer]:
+            - /url: https://terms-and-conditions-prod.web.app
+  - generic [ref=f100e33] [cursor=pointer]:
+    - button "Open Charlotte Support"

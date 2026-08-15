@@ -1,0 +1,55 @@
+- generic [active] [ref=f964e1]:
+  - generic [ref=f964e4]:
+    - generic [ref=f964e5]:
+      - link [ref=f964e6] [cursor=pointer]:
+        - /url: https://kclibrary.org/
+        - img "company logo" [ref=f964e7]
+      - link:
+        - /url: https://kclibrary.org/
+    - generic [ref=f964e8]:
+      - heading "1 of 1 Job Opportunity" [level=2] [ref=f964e9]
+      - generic [ref=f964e10]:
+        - textbox "Search" [ref=f964e12]
+        - combobox [ref=f964e14] [cursor=pointer]:
+          - generic "open dropdown" [ref=f964e15]: 
+          - generic [ref=f964e17]: All Departments
+        - combobox [ref=f964e19] [cursor=pointer]:
+          - generic "open dropdown" [ref=f964e20]: 
+          - generic [ref=f964e22]: All Locations
+      - generic [ref=f964e23]:
+        - button [ref=f964e24] [cursor=pointer]
+        - button [ref=f964e28] [cursor=pointer]
+        - button [ref=f964e32] [cursor=pointer]
+        - button [ref=f964e36] [cursor=pointer]
+      - generic [ref=f964e40]:
+        - generic [ref=f964e41]:
+          - generic [ref=f964e42] [cursor=pointer]:
+            - generic [ref=f964e43]: Job
+            - text: ","
+            - generic [ref=f964e45]:
+              - text: Post Date
+              - generic [ref=f964e46]: 
+            - text: ","
+            - generic [ref=f964e47]: Department
+          - generic [ref=f964e48] [cursor=pointer]: Location
+        - generic [ref=f964e51]:
+          - generic [ref=f964e52]:
+            - link "Bilingual Youth Librarian" [ref=f964e54] [cursor=pointer]:
+              - /url: /Recruiting/Jobs/Details/4311035
+            - text: 07/14/2026
+          - generic [ref=f964e55]: North-East
+    - generic [ref=f964e56]:
+      - emphasis [ref=f964e57]: Powered by
+      - img "paylocity logo" [ref=f964e58]
+      - link "Privacy Policy" [ref=f964e59] [cursor=pointer]:
+        - /url: https://www.paylocity.com/privacy/
+      - text: "|"
+      - link "Payroll & HR Software" [ref=f964e60] [cursor=pointer]:
+        - /url: https://www.paylocity.com/
+  - alertdialog "Privacy" [ref=f964e62]:
+    - generic [ref=f964e64]:
+      - paragraph [ref=f964e67]: By clicking “Accept All Cookies”, you agree to the storing of cookies on your device to enhance site navigation, analyze site usage, and assist in our marketing efforts.
+      - generic [ref=f964e69]:
+        - button "Cookies Settings" [ref=f964e70] [cursor=pointer]
+        - button "Accept All Cookies" [ref=f964e71] [cursor=pointer]
+    - button "Close" [ref=f964e73] [cursor=pointer]

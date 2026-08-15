@@ -1,0 +1,534 @@
+- generic [active] [ref=f853e1]:
+  - generic [ref=f853e4]:
+    - generic [ref=f853e7]:
+      - generic [ref=f853e9]:
+        - generic:
+          - navigation "Skip to content":
+            - link "Skip to content" [ref=f853e10] [cursor=pointer]:
+              - /url: "#main-content"
+          - link "IBM logo" [ref=f853e13] [cursor=pointer]:
+            - /url: https://www.ibm.com/
+        - navigation "Primary navigation" [ref=f853e23]:
+          - generic [ref=f853e25]:
+            - generic:
+              - button "Software" [ref=f853e27] [cursor=pointer]
+              - button "Infrastructure" [ref=f853e31] [cursor=pointer]
+              - generic "Consulting" [ref=f853e34]:
+                - link "Consulting" [ref=f853e35] [cursor=pointer]:
+                  - /url: https://www.ibm.com/consulting?lnk=L0G
+              - button "Support" [ref=f853e39] [cursor=pointer]
+              - generic "Think" [ref=f853e42]:
+                - link "Think" [ref=f853e43] [cursor=pointer]:
+                  - /url: https://www.ibm.com/think
+        - generic [ref=f853e47]:
+          - generic:
+            - generic:
+              - link "Contact" [ref=f853e49] [cursor=pointer]:
+                - /url: javascript:void 0
+              - button [ref=f853e53] [cursor=pointer]
+      - generic [ref=f853e57]:
+        - link "IBM Careers" [ref=f853e60] [cursor=pointer]:
+          - /url: https://www.ibm.com/careers
+        - list [ref=f853e63]:
+          - listitem [ref=f853e64]:
+            - button "Life @ IBM" [ref=f853e65]
+          - listitem [ref=f853e68]:
+            - link "Career Areas" [ref=f853e69] [cursor=pointer]:
+              - /url: https://www.ibm.com/careers/areas
+          - listitem [ref=f853e70]:
+            - button "Entry level" [ref=f853e71]
+          - listitem [ref=f853e74]:
+            - button "Hiring Process" [ref=f853e75]
+          - listitem [ref=f853e78]:
+            - link "Search Jobs" [ref=f853e79] [cursor=pointer]:
+              - /url: https://www.ibm.com/careers/search
+        - link "Connect" [ref=f853e81] [cursor=pointer]:
+          - /url: https://www.ibm.com/careers/connect
+        - link "My profile" [ref=f853e83] [cursor=pointer]:
+          - /url: https://careers.ibm.com/en_US/careers/JobAlerts?source=WEB_Search_NA
+    - generic [ref=f853e93]:
+      - generic [ref=f853e95]:
+        - generic [ref=f853e96]:
+          - navigation "Breadcrumb" [ref=f853e97]:
+            - list [ref=f853e98]:
+              - listitem [ref=f853e99]:
+                - link "Home" [ref=f853e100] [cursor=pointer]:
+                  - /url: /
+                - text: /
+              - listitem [ref=f853e102]:
+                - link "Careers" [ref=f853e103] [cursor=pointer]:
+                  - /url: /careers
+                - text: /
+              - listitem [ref=f853e105]:
+                - generic [ref=f853e106]: Search Jobs
+          - heading "Come search jobs like an IBMer." [level=1] [ref=f853e107]
+        - paragraph [ref=f853e112]: From leading the way in groundbreaking technologies to making a difference in local communities, bring your skills to transform the way the world works.
+      - img "IBMers discussing" [ref=f853e119]
+    - generic [ref=f853e125]:
+      - main [ref=f853e129]:
+        - generic [ref=f853e137]:
+          - list [ref=f853e147]:
+            - listitem [ref=f853e148]:
+              - button "Hybrid and Remote jobs" [expanded] [ref=f853e149] [cursor=pointer]
+              - link "Hybrid Hybrid (47)" [ref=f853e157] [cursor=pointer]:
+                - /url: javascript:void(0)
+                - checkbox "Hybrid" [ref=f853e158]
+                - generic [ref=f853e159]:
+                  - generic [ref=f853e160]: Hybrid
+                  - text: (47)
+            - listitem [ref=f853e161]:
+              - button "Career Areas" [ref=f853e162] [cursor=pointer]
+            - listitem [ref=f853e166]:
+              - button "Experience level" [expanded] [ref=f853e167] [cursor=pointer]
+              - generic [ref=f853e174]:
+                - link "Professional Professional (974)" [ref=f853e175] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - checkbox "Professional" [ref=f853e176]
+                  - generic [ref=f853e177]:
+                    - generic [ref=f853e178]: Professional
+                    - text: (974)
+                - link "Entry level Entry level (83)" [ref=f853e179] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - checkbox "Entry level" [ref=f853e180]
+                  - generic [ref=f853e181]:
+                    - generic [ref=f853e182]: Entry level
+                    - text: (83)
+                - link "Internship Internship (64)" [ref=f853e183] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - checkbox "Internship" [checked] [ref=f853e184]
+                  - generic [ref=f853e185]:
+                    - generic [ref=f853e186]: Internship
+                    - text: (64)
+            - listitem [ref=f853e187]:
+              - button "Location" [ref=f853e188] [cursor=pointer]
+          - generic [ref=f853e192]:
+            - form "Search" [ref=f853e196]:
+              - combobox "Search" [expanded] [ref=f853e197]
+              - button [ref=f853e198] [cursor=pointer]
+            - generic [ref=f853e203]:
+              - generic [ref=f853e204]: 1 – 30 of 64 items
+              - combobox [ref=f853e210] [cursor=pointer]:
+                - 'option "Items per page: 10"'
+                - 'option "Items per page: 20"'
+                - 'option "Items per page: 30" [selected]'
+              - combobox [ref=f853e214] [cursor=pointer]:
+                - option "Most Relevant" [selected]
+                - option "Newest To Oldest"
+                - option "Oldest to Newest"
+                - option "Title A-Z"
+                - option "Title Z-A"
+            - generic [ref=f853e215]:
+              - 'link "Experience level: Internship" [ref=f853e216] [cursor=pointer]':
+                - /url: javascript:;
+              - link "Clear all" [ref=f853e220] [cursor=pointer]:
+                - /url: javascript:void(0);
+            - tabpanel [ref=f853e222]:
+              - generic [ref=f853e223]:
+                - 'region "Duales Studium 2027 Bachelor@IBM: Wirtschaftsinformatik - Data Science (f,m,x)" [ref=f853e224]':
+                  - 'link "Cloud Duales Studium 2027 Bachelor@IBM: Wirtschaftsinformatik - Data Science (f,m,x) Internship Ehningen, DE" [ref=f853e225] [cursor=pointer]':
+                    - /url: https://careers.ibm.com/en_US/careers/JobDetail?jobId=103741&source=WEB_Search_NA
+                    - generic [ref=f853e228]:
+                      - generic [ref=f853e229]: Cloud
+                      - generic [ref=f853e230]: "Duales Studium 2027 Bachelor@IBM: Wirtschaftsinformatik - Data Science (f,m,x)"
+                      - generic [ref=f853e231]: InternshipEhningen, DE
+                - region "Master@IBM Cloud Technical Sales Specialist (f/m/x)" [ref=f853e239]:
+                  - link "Cloud Master@IBM Cloud Technical Sales Specialist (f/m/x) Internship KOELN, DE" [ref=f853e240] [cursor=pointer]:
+                    - /url: https://careers.ibm.com/en_US/careers/JobDetail?jobId=114279&source=WEB_Search_NA
+                    - generic [ref=f853e243]:
+                      - generic [ref=f853e244]: Cloud
+                      - generic [ref=f853e245]: Master@IBM Cloud Technical Sales Specialist (f/m/x)
+                      - generic [ref=f853e246]: InternshipKOELN, DE
+                - region "IBM Consulting Interns" [ref=f853e254]:
+                  - link "Software Engineering IBM Consulting Interns Internship QUEZON CITY, PH" [ref=f853e255] [cursor=pointer]:
+                    - /url: https://careers.ibm.com/en_US/careers/JobDetail?jobId=58347&source=WEB_Search_NA
+                    - generic [ref=f853e258]:
+                      - generic [ref=f853e259]: Software Engineering
+                      - generic [ref=f853e260]: IBM Consulting Interns
+                      - generic [ref=f853e261]: InternshipQUEZON CITY, PH
+                - region "Site Reliability Engineer Intern 2027" [ref=f853e269]:
+                  - link "Infrastructure & Technology Site Reliability Engineer Intern 2027 Internship Multiple Cities" [ref=f853e270] [cursor=pointer]:
+                    - /url: https://careers.ibm.com/en_US/careers/JobDetail?jobId=128513&source=WEB_Search_NA
+                    - generic [ref=f853e273]:
+                      - generic [ref=f853e274]: Infrastructure & Technology
+                      - generic [ref=f853e275]: Site Reliability Engineer Intern 2027
+                      - generic [ref=f853e276]: InternshipMultiple Cities
+                - region "Estagiário(a) em Qualidade e Suporte ao Cliente" [ref=f853e284]:
+                  - link "Enterprise Operations Estagiário(a) em Qualidade e Suporte ao Cliente Internship Belo Horizonte, BR" [ref=f853e285] [cursor=pointer]:
+                    - /url: https://careers.ibm.com/en_US/careers/JobDetail?jobId=114388&source=WEB_Search_NA
+                    - generic [ref=f853e288]:
+                      - generic [ref=f853e289]: Enterprise Operations
+                      - generic [ref=f853e290]: Estagiário(a) em Qualidade e Suporte ao Cliente
+                      - generic [ref=f853e291]: InternshipBelo Horizonte, BR
+                - 'region "Master@IBM - Working Student: Build Ecosystem - ISV Partner Specialist (f/m/x)" [ref=f853e299]':
+                  - 'link "Cloud Master@IBM - Working Student: Build Ecosystem - ISV Partner Specialist (f/m/x) Internship FRANKFURT, DE" [ref=f853e300] [cursor=pointer]':
+                    - /url: https://careers.ibm.com/en_US/careers/JobDetail?jobId=103600&source=WEB_Search_NA
+                    - generic [ref=f853e303]:
+                      - generic [ref=f853e304]: Cloud
+                      - generic [ref=f853e305]: "Master@IBM - Working Student: Build Ecosystem - ISV Partner Specialist (f/m/x)"
+                      - generic [ref=f853e306]: InternshipFRANKFURT, DE
+                - region "Package Consultant-Billing & Digital Subscription-Intern" [ref=f853e314]:
+                  - link "Consulting Package Consultant-Billing & Digital Subscription-Intern Internship QUEZON CITY, PH" [ref=f853e315] [cursor=pointer]:
+                    - /url: https://careers.ibm.com/en_US/careers/JobDetail?jobId=125444&source=WEB_Search_NA
+                    - generic [ref=f853e318]:
+                      - generic [ref=f853e319]: Consulting
+                      - generic [ref=f853e320]: Package Consultant-Billing & Digital Subscription-Intern
+                      - generic [ref=f853e321]: InternshipQUEZON CITY, PH
+                - region "Master@IBM - IT-Automation Customer Success Engineer (f/m/x)" [ref=f853e329]:
+                  - link "Cloud Master@IBM - IT-Automation Customer Success Engineer (f/m/x) Internship Multiple Cities" [ref=f853e330] [cursor=pointer]:
+                    - /url: https://careers.ibm.com/en_US/careers/JobDetail?jobId=106754&source=WEB_Search_NA
+                    - generic [ref=f853e333]:
+                      - generic [ref=f853e334]: Cloud
+                      - generic [ref=f853e335]: Master@IBM - IT-Automation Customer Success Engineer (f/m/x)
+                      - generic [ref=f853e336]: InternshipMultiple Cities
+                - region "Ausbildungsplatz als Fachinformatiker Systemintegration (m/w/x)" [ref=f853e344]:
+                  - link "Infrastructure & Technology Ausbildungsplatz als Fachinformatiker Systemintegration (m/w/x) Internship Ehningen, DE" [ref=f853e345] [cursor=pointer]:
+                    - /url: https://careers.ibm.com/en_US/careers/JobDetail?jobId=117921&source=WEB_Search_NA
+                    - generic [ref=f853e348]:
+                      - generic [ref=f853e349]: Infrastructure & Technology
+                      - generic [ref=f853e350]: Ausbildungsplatz als Fachinformatiker Systemintegration (m/w/x)
+                      - generic [ref=f853e351]: InternshipEhningen, DE
+                - 'region "Programa de Prácticas: Profesional de Operaciones Empresariales, Guadalajara" [ref=f853e359]':
+                  - 'link "Enterprise Operations Programa de Prácticas: Profesional de Operaciones Empresariales, Guadalajara Internship GUADALAJARA, MX" [ref=f853e360] [cursor=pointer]':
+                    - /url: https://careers.ibm.com/en_US/careers/JobDetail?jobId=118273&source=WEB_Search_NA
+                    - generic [ref=f853e363]:
+                      - generic [ref=f853e364]: Enterprise Operations
+                      - generic [ref=f853e365]: "Programa de Prácticas: Profesional de Operaciones Empresariales, Guadalajara"
+                      - generic [ref=f853e366]: InternshipGUADALAJARA, MX
+                - region "Master@IBM - Client Engineering - Data & AI, Automation (f/m/x)" [ref=f853e374]:
+                  - link "Cloud Master@IBM - Client Engineering - Data & AI, Automation (f/m/x) Internship FRANKFURT, DE" [ref=f853e375] [cursor=pointer]:
+                    - /url: https://careers.ibm.com/en_US/careers/JobDetail?jobId=114826&source=WEB_Search_NA
+                    - generic [ref=f853e378]:
+                      - generic [ref=f853e379]: Cloud
+                      - generic [ref=f853e380]: Master@IBM - Client Engineering - Data & AI, Automation (f/m/x)
+                      - generic [ref=f853e381]: InternshipFRANKFURT, DE
+                - region "Package Consultant-Billing & Digital Subscription-Intern" [ref=f853e389]:
+                  - link "Consulting Package Consultant-Billing & Digital Subscription-Intern Internship QUEZON CITY, PH" [ref=f853e390] [cursor=pointer]:
+                    - /url: https://careers.ibm.com/en_US/careers/JobDetail?jobId=125441&source=WEB_Search_NA
+                    - generic [ref=f853e393]:
+                      - generic [ref=f853e394]: Consulting
+                      - generic [ref=f853e395]: Package Consultant-Billing & Digital Subscription-Intern
+                      - generic [ref=f853e396]: InternshipQUEZON CITY, PH
+                - region "Human Resources Intern - 2027" [ref=f853e404]:
+                  - link "Enterprise Operations Human Resources Intern - 2027 Internship Armonk, US" [ref=f853e405] [cursor=pointer]:
+                    - /url: https://careers.ibm.com/en_US/careers/JobDetail?jobId=128347&source=WEB_Search_NA
+                    - generic [ref=f853e408]:
+                      - generic [ref=f853e409]: Enterprise Operations
+                      - generic [ref=f853e410]: Human Resources Intern - 2027
+                      - generic [ref=f853e411]: InternshipArmonk, US
+                - region "HR Technology Intern" [ref=f853e419]:
+                  - link "Consulting HR Technology Intern Internship Singapore, SG" [ref=f853e420] [cursor=pointer]:
+                    - /url: https://careers.ibm.com/en_US/careers/JobDetail?jobId=121537&source=WEB_Search_NA
+                    - generic [ref=f853e423]:
+                      - generic [ref=f853e424]: Consulting
+                      - generic [ref=f853e425]: HR Technology Intern
+                      - generic [ref=f853e426]: InternshipSingapore, SG
+                - region "Technology Seller Intern - Entry Level Sales Program 2027" [ref=f853e434]:
+                  - link "Sales Technology Seller Intern - Entry Level Sales Program 2027 Internship Multiple Cities" [ref=f853e435] [cursor=pointer]:
+                    - /url: https://careers.ibm.com/en_US/careers/JobDetail?jobId=128339&source=WEB_Search_NA
+                    - generic [ref=f853e438]:
+                      - generic [ref=f853e439]: Sales
+                      - generic [ref=f853e440]: Technology Seller Intern - Entry Level Sales Program 2027
+                      - generic [ref=f853e441]: InternshipMultiple Cities
+                - region "Federal Developer Intern 2027" [ref=f853e449]:
+                  - link "Software Engineering Federal Developer Intern 2027 Internship Herndon, US" [ref=f853e450] [cursor=pointer]:
+                    - /url: https://careers.ibm.com/en_US/careers/JobDetail?jobId=127714&source=WEB_Search_NA
+                    - generic [ref=f853e453]:
+                      - generic [ref=f853e454]: Software Engineering
+                      - generic [ref=f853e455]: Federal Developer Intern 2027
+                      - generic [ref=f853e456]: InternshipHerndon, US
+                - 'region "Returning Intern: Software Developer" [ref=f853e464]':
+                  - 'link "Software Engineering Returning Intern: Software Developer Internship Multiple Cities" [ref=f853e465] [cursor=pointer]':
+                    - /url: https://careers.ibm.com/en_US/careers/JobDetail?jobId=115594&source=WEB_Search_NA
+                    - generic [ref=f853e468]:
+                      - generic [ref=f853e469]: Software Engineering
+                      - generic [ref=f853e470]: "Returning Intern: Software Developer"
+                      - generic [ref=f853e471]: InternshipMultiple Cities
+                - region "2027 Returning Intern - Canada" [ref=f853e479]:
+                  - link "Cloud 2027 Returning Intern - Canada Internship Multiple Cities" [ref=f853e480] [cursor=pointer]:
+                    - /url: https://careers.ibm.com/en_US/careers/JobDetail?jobId=127925&source=WEB_Search_NA
+                    - generic [ref=f853e483]:
+                      - generic [ref=f853e484]: Cloud
+                      - generic [ref=f853e485]: 2027 Returning Intern - Canada
+                      - generic [ref=f853e486]: InternshipMultiple Cities
+                - region "Hardware Compliance Lab Technician Apprentice" [ref=f853e494]:
+                  - link "Infrastructure & Technology Hardware Compliance Lab Technician Apprentice Internship ROCHESTER, US" [ref=f853e495] [cursor=pointer]:
+                    - /url: https://careers.ibm.com/en_US/careers/JobDetail?jobId=125359&source=WEB_Search_NA
+                    - generic [ref=f853e498]:
+                      - generic [ref=f853e499]: Infrastructure & Technology
+                      - generic [ref=f853e500]: Hardware Compliance Lab Technician Apprentice
+                      - generic [ref=f853e501]: InternshipROCHESTER, US
+                - region "Associate Package Consultant Co-op 2026 - Financial Services" [ref=f853e509]:
+                  - link "Consulting Associate Package Consultant Co-op 2026 - Financial Services Internship No City, US" [ref=f853e510] [cursor=pointer]:
+                    - /url: https://careers.ibm.com/en_US/careers/JobDetail?jobId=64446&source=WEB_Search_NA
+                    - generic [ref=f853e513]:
+                      - generic [ref=f853e514]: Consulting
+                      - generic [ref=f853e515]: Associate Package Consultant Co-op 2026 - Financial Services
+                      - generic [ref=f853e516]: InternshipNo City, US
+                - region "Master@IBM - Working Student - Automation Customer Success Engineer (f/m/x)" [ref=f853e524]:
+                  - link "Cloud Master@IBM - Working Student - Automation Customer Success Engineer (f/m/x) Internship FRANKFURT, DE" [ref=f853e525] [cursor=pointer]:
+                    - /url: https://careers.ibm.com/en_US/careers/JobDetail?jobId=112385&source=WEB_Search_NA
+                    - generic [ref=f853e528]:
+                      - generic [ref=f853e529]: Cloud
+                      - generic [ref=f853e530]: Master@IBM - Working Student - Automation Customer Success Engineer (f/m/x)
+                      - generic [ref=f853e531]: InternshipFRANKFURT, DE
+                - region "(Kaohsiung)Application Developer Intern" [ref=f853e539]:
+                  - link "Software Engineering (Kaohsiung)Application Developer Intern Internship Kaohsiung, TW" [ref=f853e540] [cursor=pointer]:
+                    - /url: https://careers.ibm.com/en_US/careers/JobDetail?jobId=125026&source=WEB_Search_NA
+                    - generic [ref=f853e543]:
+                      - generic [ref=f853e544]: Software Engineering
+                      - generic [ref=f853e545]: (Kaohsiung)Application Developer Intern
+                      - generic [ref=f853e546]: InternshipKaohsiung, TW
+                - region "Business Analyst Intern" [ref=f853e554]:
+                  - link "Consulting Business Analyst Intern Internship Singapore, SG" [ref=f853e555] [cursor=pointer]:
+                    - /url: https://careers.ibm.com/en_US/careers/JobDetail?jobId=121559&source=WEB_Search_NA
+                    - generic [ref=f853e558]:
+                      - generic [ref=f853e559]: Consulting
+                      - generic [ref=f853e560]: Business Analyst Intern
+                      - generic [ref=f853e561]: InternshipSingapore, SG
+                - region "Brand Sales Specialist - Spring Co-op Sales Program 2027" [ref=f853e569]:
+                  - link "Sales Brand Sales Specialist - Spring Co-op Sales Program 2027 Internship Multiple Cities" [ref=f853e570] [cursor=pointer]:
+                    - /url: https://careers.ibm.com/en_US/careers/JobDetail?jobId=128788&source=WEB_Search_NA
+                    - generic [ref=f853e573]:
+                      - generic [ref=f853e574]: Sales
+                      - generic [ref=f853e575]: Brand Sales Specialist - Spring Co-op Sales Program 2027
+                      - generic [ref=f853e576]: InternshipMultiple Cities
+                - 'region "Duales Studium 2027 Bachelor@IBM: Internationale Wirtschaftsinformatik (f,m,x)" [ref=f853e584]':
+                  - 'link "Cloud Duales Studium 2027 Bachelor@IBM: Internationale Wirtschaftsinformatik (f,m,x) Internship Ehningen, DE" [ref=f853e585] [cursor=pointer]':
+                    - /url: https://careers.ibm.com/en_US/careers/JobDetail?jobId=103734&source=WEB_Search_NA
+                    - generic [ref=f853e588]:
+                      - generic [ref=f853e589]: Cloud
+                      - generic [ref=f853e590]: "Duales Studium 2027 Bachelor@IBM: Internationale Wirtschaftsinformatik (f,m,x)"
+                      - generic [ref=f853e591]: InternshipEhningen, DE
+                - region "Practicante de Consultoría" [ref=f853e599]:
+                  - link "Consulting Practicante de Consultoría Internship Bogota, CO" [ref=f853e600] [cursor=pointer]:
+                    - /url: https://careers.ibm.com/en_US/careers/JobDetail?jobId=114858&source=WEB_Search_NA
+                    - generic [ref=f853e603]:
+                      - generic [ref=f853e604]: Consulting
+                      - generic [ref=f853e605]: Practicante de Consultoría
+                      - generic [ref=f853e606]: InternshipBogota, CO
+                - region "Bachelor@IBM - Storage Sales Support (60%)" [ref=f853e614]:
+                  - link "Cloud Bachelor@IBM - Storage Sales Support (60%) Internship Zurich, CH" [ref=f853e615] [cursor=pointer]:
+                    - /url: https://careers.ibm.com/en_US/careers/JobDetail?jobId=125336&source=WEB_Search_NA
+                    - generic [ref=f853e618]:
+                      - generic [ref=f853e619]: Cloud
+                      - generic [ref=f853e620]: Bachelor@IBM - Storage Sales Support (60%)
+                      - generic [ref=f853e621]: InternshipZurich, CH
+                - region "HR Technology Intern" [ref=f853e629]:
+                  - link "Consulting HR Technology Intern Internship Singapore, SG" [ref=f853e630] [cursor=pointer]:
+                    - /url: https://careers.ibm.com/en_US/careers/JobDetail?jobId=121540&source=WEB_Search_NA
+                    - generic [ref=f853e633]:
+                      - generic [ref=f853e634]: Consulting
+                      - generic [ref=f853e635]: HR Technology Intern
+                      - generic [ref=f853e636]: InternshipSingapore, SG
+                - region "Brand Sales Specialist Intern – Entry Level Sales Program 2027" [ref=f853e644]:
+                  - link "Sales Brand Sales Specialist Intern – Entry Level Sales Program 2027 Internship Multiple Cities" [ref=f853e645] [cursor=pointer]:
+                    - /url: https://careers.ibm.com/en_US/careers/JobDetail?jobId=128348&source=WEB_Search_NA
+                    - generic [ref=f853e648]:
+                      - generic [ref=f853e649]: Sales
+                      - generic [ref=f853e650]: Brand Sales Specialist Intern – Entry Level Sales Program 2027
+                      - generic [ref=f853e651]: InternshipMultiple Cities
+                - region "Technical Sales Engineer - Spring Co-op Sales Program 2027" [ref=f853e659]:
+                  - link "Sales Technical Sales Engineer - Spring Co-op Sales Program 2027 Internship Multiple Cities" [ref=f853e660] [cursor=pointer]:
+                    - /url: https://careers.ibm.com/en_US/careers/JobDetail?jobId=128800&source=WEB_Search_NA
+                    - generic [ref=f853e663]:
+                      - generic [ref=f853e664]: Sales
+                      - generic [ref=f853e665]: Technical Sales Engineer - Spring Co-op Sales Program 2027
+                      - generic [ref=f853e666]: InternshipMultiple Cities
+            - generic [ref=f853e674]:
+              - combobox [ref=f853e677] [cursor=pointer]:
+                - 'option "Items per page: 10"'
+                - 'option "Items per page: 20"'
+                - 'option "Items per page: 30" [selected]'
+              - generic [ref=f853e678]: 1 – 30 of 64 items
+              - generic [ref=f853e680]:
+                - link "Previous" [disabled]:
+                  - /url: javascript:void(0);
+                - link "Page 1" [ref=f853e681] [cursor=pointer]:
+                  - /url: javascript:void(0);
+                  - text: "1"
+                - link "Page 2" [ref=f853e682] [cursor=pointer]:
+                  - /url: javascript:void(0);
+                  - text: "2"
+                - link "Page 3" [ref=f853e683] [cursor=pointer]:
+                  - /url: javascript:void(0);
+                  - text: "3"
+                - link "Next" [ref=f853e684] [cursor=pointer]:
+                  - /url: javascript:void(0);
+      - generic [ref=f853e689]:
+        - generic [ref=f853e691]:
+          - heading "Keep exploring." [level=2] [ref=f853e693]
+          - generic [ref=f853e694]:
+            - generic:
+              - list
+        - generic [ref=f853e700]:
+          - generic:
+            - generic [ref=f853e701]:
+              - heading "Talent Network" [level=4] [ref=f853e705]
+              - paragraph [ref=f853e709]: Stay up to date on career related news and events.
+              - link [ref=f853e711] [cursor=pointer]:
+                - /url: https://careers.ibm.com/en_US/globalform?source=WEB_Search_NA
+                - generic "join our talent network button" [ref=f853e712]:
+                  - link [ref=f853e713]:
+                    - /url: https://careers.ibm.com/en_US/globalform?source=WEB_Search_NA
+            - generic [ref=f853e719]:
+              - heading "Job Alerts" [level=4] [ref=f853e723]
+              - paragraph [ref=f853e727]: Get notified on job openings that match your skills.
+              - link [ref=f853e729] [cursor=pointer]:
+                - /url: https://careers.ibm.com/en_US/careers/JobAlerts?source=WEB_Search_NA
+                - generic "Job Alerts button" [ref=f853e730]:
+                  - link [ref=f853e731]:
+                    - /url: https://careers.ibm.com/en_US/careers/JobAlerts?source=WEB_Search_NA
+            - generic [ref=f853e737]:
+              - heading "Search Jobs" [level=4] [ref=f853e741]
+              - paragraph [ref=f853e745]: Come empower, invent and advance like an IBMer.
+              - link [ref=f853e747] [cursor=pointer]:
+                - /url: https://www.ibm.com/careers/search
+                - generic "Search jobs button" [ref=f853e748]:
+                  - link [ref=f853e749]:
+                    - /url: https://www.ibm.com/careers/search
+            - generic [ref=f853e755]:
+              - heading "Locations" [level=4] [ref=f853e759]
+              - paragraph [ref=f853e763]: Discover countless stories of impact and collaboration.
+              - link [ref=f853e765] [cursor=pointer]:
+                - /url: https://www.ibm.com/careers/locations
+                - generic "Explore our Locations" [ref=f853e766]:
+                  - link [ref=f853e767]:
+                    - /url: https://www.ibm.com/careers/locations
+    - contentinfo "footer" [ref=f853e776]:
+      - generic [ref=f853e780]:
+        - link "IBM logo" [ref=f853e782] [cursor=pointer]:
+          - /url: https://www.ibm.com/
+          - img "IBM Logo" [ref=f853e783]
+        - navigation "Footer navigation" [ref=f853e785]:
+          - list [ref=f853e786]:
+            - generic:
+              - listitem [ref=f853e787]:
+                - heading "Discover" [level=2] [ref=f853e788]
+                - list [ref=f853e791]:
+                  - generic:
+                    - listitem [ref=f853e792]:
+                      - link "Products" [ref=f853e793] [cursor=pointer]:
+                        - /url: https://www.ibm.com/products?lnk=flatitem
+                    - listitem [ref=f853e794]:
+                      - link "Consulting services" [ref=f853e795] [cursor=pointer]:
+                        - /url: https://www.ibm.com/consulting?lnk=flatitem
+                    - listitem [ref=f853e796]:
+                      - link "Industries" [ref=f853e797] [cursor=pointer]:
+                        - /url: https://www.ibm.com/industries?lnk=flatitem
+                    - listitem [ref=f853e798]:
+                      - link "Case studies" [ref=f853e799] [cursor=pointer]:
+                        - /url: https://www.ibm.com/case-studies?lnk=flatitem
+                    - listitem [ref=f853e800]:
+                      - link "Financing" [ref=f853e801] [cursor=pointer]:
+                        - /url: https://www.ibm.com/financing?lnk=flatitem
+                    - listitem [ref=f853e802]:
+                      - link "Research" [ref=f853e803] [cursor=pointer]:
+                        - /url: https://research.ibm.com/?lnk=flatitem
+              - listitem [ref=f853e804]:
+                - heading "Follow" [level=2] [ref=f853e805]
+                - list [ref=f853e808]:
+                  - generic:
+                    - listitem [ref=f853e809]:
+                      - link "LinkedIn" [ref=f853e810] [cursor=pointer]:
+                        - /url: https://www.linkedin.com/company/ibm
+                    - listitem [ref=f853e811]:
+                      - link "X" [ref=f853e812] [cursor=pointer]:
+                        - /url: https://www.twitter.com/ibm
+                    - listitem [ref=f853e813]:
+                      - link "Instagram" [ref=f853e814] [cursor=pointer]:
+                        - /url: https://www.instagram.com/ibm
+                    - listitem [ref=f853e815]:
+                      - link "YouTube" [ref=f853e816] [cursor=pointer]:
+                        - /url: https://www.youtube.com/@IBM
+                    - listitem [ref=f853e817]:
+                      - link "Podcasts" [ref=f853e818] [cursor=pointer]:
+                        - /url: https://www.ibm.com/think/podcasts
+              - listitem [ref=f853e819]:
+                - heading "Connect" [level=2] [ref=f853e820]
+                - list [ref=f853e823]:
+                  - generic:
+                    - listitem [ref=f853e824]:
+                      - link "Business partners" [ref=f853e825] [cursor=pointer]:
+                        - /url: https://www.ibm.com/partnerplus/directory/companies
+                    - listitem [ref=f853e826]:
+                      - link "Documentation" [ref=f853e827] [cursor=pointer]:
+                        - /url: https://www.ibm.com/docs/en?lnk=flathl
+                    - listitem [ref=f853e828]:
+                      - link "Events" [ref=f853e829] [cursor=pointer]:
+                        - /url: https://www.ibm.com/events/
+                    - listitem [ref=f853e830]:
+                      - link "Newsletters" [ref=f853e831] [cursor=pointer]:
+                        - /url: https://www.ibm.com/subscribe/
+                    - listitem [ref=f853e832]:
+                      - link "Support" [ref=f853e833] [cursor=pointer]:
+                        - /url: https://www.ibm.com/mysupport/s/?language=en_US&lnk=flathl
+                    - listitem [ref=f853e834]:
+                      - link "TechXchange community" [ref=f853e835] [cursor=pointer]:
+                        - /url: https://community.ibm.com/community/user/home?lnk=fpo
+              - listitem [ref=f853e836]:
+                - heading "About" [level=2] [ref=f853e837]
+                - list [ref=f853e840]:
+                  - generic:
+                    - listitem [ref=f853e841]:
+                      - link "Overview" [ref=f853e842] [cursor=pointer]:
+                        - /url: https://www.ibm.com/about/?lnk=flatitem
+                    - listitem [ref=f853e843]:
+                      - link "Careers" [ref=f853e844] [cursor=pointer]:
+                        - /url: https://www.ibm.com/careers/us-en?lnk=flathl
+                    - listitem [ref=f853e845]:
+                      - link "Investor relations" [ref=f853e846] [cursor=pointer]:
+                        - /url: https://www.ibm.com/investor?lnk=flatitem
+                    - listitem [ref=f853e847]:
+                      - link "Leadership" [ref=f853e848] [cursor=pointer]:
+                        - /url: https://newsroom.ibm.com/executive-bios
+                    - listitem [ref=f853e849]:
+                      - link "Newsroom" [ref=f853e850] [cursor=pointer]:
+                        - /url: https://newsroom.ibm.com/?lnk=flatitem
+                    - listitem [ref=f853e851]:
+                      - link "Security, privacy and trust" [ref=f853e852] [cursor=pointer]:
+                        - /url: https://www.ibm.com/trust?lnk=flatitem
+      - navigation "Legal Navigation" [ref=f853e854]:
+        - list [ref=f853e856]:
+          - generic:
+            - listitem [ref=f853e857]:
+              - link "Contact IBM" [ref=f853e858] [cursor=pointer]:
+                - /url: https://www.ibm.com/contact/global
+            - listitem [ref=f853e859]:
+              - link "Privacy" [ref=f853e860] [cursor=pointer]:
+                - /url: https://www.ibm.com/us-en/privacy
+            - listitem [ref=f853e861]:
+              - link "Terms of use" [ref=f853e862] [cursor=pointer]:
+                - /url: https://www.ibm.com/legal?lnk=flg-tous-usen
+            - listitem [ref=f853e863]:
+              - link "Accessibility" [ref=f853e864] [cursor=pointer]:
+                - /url: https://www.ibm.com/able/?lnk=flg-acce-usen
+            - complementary "Open Cookie Preferences Modal" [ref=f853e865]:
+              - link "Cookie Preferences, opens a dedicated popup modal window" [ref=f853e866] [cursor=pointer]: Cookie Preferences
+  - banner "consent_blackbar":
+    - generic [ref=f853e879]:
+      - button "close icon" [ref=f853e881] [cursor=pointer]
+      - generic [ref=f853e883]:
+        - generic [ref=f853e886]:
+          - text: About cookies on this site
+          - generic [ref=f853e887]:
+            - generic [ref=f853e888]: Our websites require some cookies to function properly (required). In addition, other cookies may be used with your consent to analyze site usage, improve the user experience and for advertising.
+            - generic [ref=f853e889]:
+              - text: For more information, please review your
+              - button "cookie preferences" [ref=f853e890] [cursor=pointer]
+              - text: options. By visiting our website, you agree to our processing of information as described in IBM’s
+              - link "privacy statement" [ref=f853e891] [cursor=pointer]:
+                - /url: https://www.ibm.com/privacy
+              - text: .
+            - generic [ref=f853e892]:
+              - text: To provide a smooth navigation, your cookie preferences will be shared across the IBM web domains listed
+              - link "here" [ref=f853e893] [cursor=pointer]:
+                - /url: "#truste_domain_list"
+              - text: .
+        - generic [ref=f853e894]:
+          - button "Accept all" [ref=f853e895] [cursor=pointer]
+          - button "More options" [ref=f853e896] [cursor=pointer]
+  - alert [ref=f853e897]
+  - generic:
+    - generic:
+      - complementary "Chat launcher":
+        - button "Open chat" [ref=f853e899] [cursor=pointer]

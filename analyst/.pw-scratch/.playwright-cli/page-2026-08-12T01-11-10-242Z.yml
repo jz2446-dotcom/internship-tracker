@@ -1,0 +1,31 @@
+- generic [ref=f113e4]:
+  - link "Skip to Main Content":
+    - /url: "#skipContent"
+  - region "Career Navigation" [ref=f113e7]:
+    - generic [ref=f113e8]:
+      - generic:
+        - link "Sign In" [ref=f113e10] [cursor=pointer]:
+          - /url: /career?career_company=americairP&lang=en_US&company=americairP&site=&loginFlowRequired=true&_s.crb=TZ0srb%2fqUbk9tuUnlzys6uYDSz%2baH7H4fDAy0ik0Ios%3d
+        - generic [ref=f113e11]: Language
+        - generic [ref=f113e12]:
+          - combobox "Language" [ref=f113e13] [cursor=pointer]:
+            - text: English US ‎(English US)‎
+            - button ""
+          - generic [ref=f113e14]: Collapsed. To expand press enter
+          - generic [ref=f113e15]: Expanded. To collapse press enter
+  - generic "Region"
+  - table [ref=f113e18]:
+    - rowgroup [ref=f113e19]:
+      - row [ref=f113e20]:
+        - cell [ref=f113e21]:
+          - region "Search for Openings" [ref=f113e22]:
+            - heading " Search for Openings" [level=2] [ref=f113e23]
+            - alert [ref=f113e29]: Loading Search Filters
+            - text: 
+        - cell [ref=f113e30]:
+          - region "Welcome text region. Use up and down arrow keys in Virtual PC mode to read text in this region." [ref=f113e31]:
+            - paragraph [ref=f113e32]: "Founded in 1930, we're now one of the largest airlines in the world. We've also created more than 900,000 jobs worldwide! And we welcome people like you who are excited to join our #AATeam as we continue to grow. Looking to join a company with a rich legacy and a promising future? You’ve come to the right place."
+            - paragraph [ref=f113e33]
+            - paragraph [ref=f113e34]
+      - row:
+        - cell

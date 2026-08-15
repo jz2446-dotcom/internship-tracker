@@ -1,0 +1,84 @@
+- generic [ref=f942e3]:
+  - generic [ref=f942e5]:
+    - link [ref=f942e6] [cursor=pointer]:
+      - /url: /
+      - img "OfferToday" [ref=f942e7]
+    - list [ref=f942e9]:
+      - listitem [ref=f942e10] [cursor=pointer]:
+        - link "首頁" [ref=f942e11]:
+          - /url: /
+      - listitem [ref=f942e12] [cursor=pointer]:
+        - link "職位" [ref=f942e13]:
+          - /url: /hk/recommend
+      - listitem [ref=f942e14] [cursor=pointer]:
+        - generic "專區" [ref=f942e15]
+    - generic [ref=f942e18]:
+      - textbox
+      - textbox
+      - generic [ref=f942e21]:
+        - combobox "搜索職位 / 公司 / 技能" [ref=f942e22]
+        - button [ref=f942e23] [cursor=pointer]:
+          - link:
+            - /url: /hk/search
+    - generic [ref=f942e24]:
+      - button "登入" [ref=f942e26] [cursor=pointer]
+      - button [ref=f942e27] [cursor=pointer]:
+        - img "lang" [ref=f942e28]
+    - link "雇主平台" [ref=f942e31] [cursor=pointer]:
+      - /url: /recruiter/hk/login
+  - progressbar [ref=f942e34]
+  - generic [ref=f942e38]:
+    - generic [ref=f942e39]:
+      - heading "OfferToday" [level=3] [ref=f942e41]
+      - generic [ref=f942e42]:
+        - generic [ref=f942e44]:
+          - term [ref=f942e45]: 招聘者
+          - definition [ref=f942e46]:
+            - link "發佈職位" [ref=f942e47] [cursor=pointer]:
+              - /url: /recruiter/hk/login
+          - definition [ref=f942e48]:
+            - link "註冊" [ref=f942e49] [cursor=pointer]:
+              - /url: /recruiter/hk/login
+        - generic [ref=f942e51]:
+          - term [ref=f942e52]: 求職者
+          - definition [ref=f942e53]:
+            - link "搜尋工作" [ref=f942e54] [cursor=pointer]:
+              - /url: /hk/scan
+          - definition [ref=f942e55]:
+            - link "個人檔案" [ref=f942e56] [cursor=pointer]:
+              - /url: /hk/profile
+          - definition [ref=f942e57]:
+            - link "求職期望" [ref=f942e58] [cursor=pointer]:
+              - /url: /hk/job-expectation
+        - generic [ref=f942e60]:
+          - term [ref=f942e61]: OfferToday
+          - definition [ref=f942e62]:
+            - link "關於我們" [ref=f942e63] [cursor=pointer]:
+              - /url: /hk/aboutUs
+          - definition [ref=f942e64]:
+            - link "聯絡我們" [ref=f942e65] [cursor=pointer]:
+              - /url: /hk/contactUs
+          - definition [ref=f942e66]:
+            - link "職業指南" [ref=f942e67] [cursor=pointer]:
+              - /url: /hk/news
+          - definition [ref=f942e68]:
+            - link "常見問題" [ref=f942e69] [cursor=pointer]:
+              - /url: /hk/qa
+      - generic [ref=f942e70]:
+        - paragraph [ref=f942e71]: 下載應用程式
+        - link "download on the App Store" [ref=f942e72] [cursor=pointer]:
+          - /url: https://apps.apple.com/app/offertoday/id6477343752
+        - link "download on the Google Play" [ref=f942e73] [cursor=pointer]:
+          - /url: https://play.google.com/store/apps/details?id=com.offerToday
+    - generic [ref=f942e75]:
+      - generic [ref=f942e76]:
+        - paragraph [ref=f942e77]: Copyright © Zhipin Technology HK Limited 2026.
+        - paragraph [ref=f942e78]: 職業介紹所牌照號碼：80909
+      - generic [ref=f942e79]:
+        - link "勞工處" [ref=f942e80] [cursor=pointer]:
+          - /url: https://www.labour.gov.hk/tc/
+        - link "安全私隱" [ref=f942e81] [cursor=pointer]:
+          - /url: https://m.offertoday.com/wap/policy/1?lang=zh_HK
+        - link "服務協議" [ref=f942e82] [cursor=pointer]:
+          - /url: https://m.offertoday.com/wap/policy/2?lang=zh_HK
+        - text: 意見反饋

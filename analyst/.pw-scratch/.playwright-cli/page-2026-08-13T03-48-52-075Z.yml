@@ -1,0 +1,192 @@
+- generic [active] [ref=f737e1]:
+  - banner [ref=f737e3]:
+    - link "Page d'accueil Société.com" [ref=f737e5] [cursor=pointer]:
+      - /url: /
+    - navigation [ref=f737e6]:
+      - list [ref=f737e7]:
+        - listitem [ref=f737e8]:
+          - button "Solutions " [ref=f737e9] [cursor=pointer]:
+            - generic [ref=f737e10]: Solutions
+            - generic [ref=f737e11]: 
+          - list [ref=f737e13]:
+            - listitem [ref=f737e14]:
+              - link [ref=f737e15] [cursor=pointer]:
+                - /url: /solutions/surveillance
+                - text: Surveiller des entreprises ou dirigeants
+                - paragraph [ref=f737e16]: Restez informé des évolutions clés de vos partenaires et concurrents
+                - text: 
+            - listitem [ref=f737e17]:
+              - link [ref=f737e18] [cursor=pointer]:
+                - /url: /solutions/api
+                - text: Connecter vos outils en API
+                - paragraph [ref=f737e19]: Intégrez facilement nos données à vos outils via API, Zapier ou Make
+                - text: 
+            - listitem [ref=f737e20]:
+              - link [ref=f737e21] [cursor=pointer]:
+                - /url: /solutions/prospection
+                - text: Démarcher des prospects
+                - paragraph [ref=f737e22]: Identifiez des prospects qualifiés et ciblez vos campagnes commerciales
+                - text: 
+            - listitem [ref=f737e23]:
+              - link [ref=f737e24] [cursor=pointer]:
+                - /url: /solutions/export
+                - text: Exporter un fichier d'entreprises
+                - paragraph [ref=f737e25]: Téléchargez des listes d'entreprises pour vos démarches et analyses
+                - text: 
+            - listitem [ref=f737e26]:
+              - link [ref=f737e27] [cursor=pointer]:
+                - /url: /solutions/veille
+                - text: Veille sectorielle et territoriale
+                - paragraph [ref=f737e28]: Soyez alerté des évenements sur le périmètre de votre choix
+                - text: 
+            - listitem [ref=f737e29]:
+              - link [ref=f737e30] [cursor=pointer]:
+                - /url: /solutions/enrichissement
+                - text: Enrichir ma base de données
+                - paragraph [ref=f737e31]: Améliorez vos bases de données avec des informations fiables et actualisées
+                - text: 
+            - listitem [ref=f737e32]:
+              - link "Sirétiser ma base Nouveauté Enrichissez vos données avec des SIREN, des SIRET ou des n° de TVA " [ref=f737e33] [cursor=pointer]:
+                - /url: /siretisation/
+                - text: Sirétiser ma base
+                - generic [ref=f737e34]: Nouveauté
+                - paragraph [ref=f737e35]: Enrichissez vos données avec des SIREN, des SIRET ou des n° de TVA
+                - text: 
+            - listitem [ref=f737e36]:
+              - link [ref=f737e37] [cursor=pointer]:
+                - /url: /maps/
+                - text: Société Map
+                - paragraph [ref=f737e38]: Retrouvez les données des entreprises et bien plus sur une carte interactive
+                - text: 
+        - listitem [ref=f737e39]:
+          - link "Formalités" [ref=f737e40] [cursor=pointer]:
+            - /url: /formalites/
+        - listitem [ref=f737e41]:
+          - link "Offres" [ref=f737e42] [cursor=pointer]:
+            - /url: /offres.html
+        - listitem [ref=f737e43]:
+          - link "Recherche IA" [ref=f737e44] [cursor=pointer]:
+            - /url: /ia
+            - generic [ref=f737e45]: 
+    - search [ref=f737e48]:
+      - generic [ref=f737e49]:
+        - generic [ref=f737e50]: 
+        - textbox "Entreprise, dirigeant, SIREN..." [ref=f737e51]
+        - generic: 
+    - list [ref=f737e52]:
+      - listitem [ref=f737e53]:
+        - button "Connexion à votre espace utilisateur" [ref=f737e54] [cursor=pointer]:
+          - generic [ref=f737e55]: Se connecter
+        - generic [ref=f737e57]:
+          - navigation [ref=f737e58]:
+            - paragraph [ref=f737e59]: Personnel
+            - list [ref=f737e60]:
+              - listitem [ref=f737e61]:
+                - link "Espace client" [ref=f737e62] [cursor=pointer]:
+                  - /url: /cgi-bin/compte-synthese
+                  - generic [ref=f737e63]: 
+              - listitem [ref=f737e65]:
+                - link "Paramètres du profil" [ref=f737e66] [cursor=pointer]:
+                  - /url: /cgi-bin/compte-profil
+                  - generic [ref=f737e67]: 
+            - paragraph [ref=f737e69]: Professionnel
+            - list
+          - separator [ref=f737e70]
+          - button "Se déconnecter" [ref=f737e73] [cursor=pointer]: Déconnexion
+      - listitem: 
+      - listitem
+  - main [ref=f737e74]:
+    - generic [ref=f737e76]:
+      - generic [ref=f737e77]:
+        - text: 
+        - paragraph [ref=f737e78]: Votre client a émis trop de requêtes dans un délai donné. Veuillez réduire la fréquence de vos requêtes.
+      - paragraph [ref=f737e79]:
+        - text: "Rappel : La reproduction, la rediffusion ou l'extraction automatique par tout moyen d'informations figurant sur"
+        - link "Societe.com" [ref=f737e80] [cursor=pointer]:
+          - /url: https://www.societe.com
+        - text: "est interdite. L'emploi de robots, programmes permettant l'extraction directe de données est rigoureusement interdit. Voir les CGU / CGV ici :"
+        - link "https://www.societe.com/pages/cgu-cgv.html" [ref=f737e81] [cursor=pointer]:
+          - /url: https://www.societe.com/pages/cgu-cgv.html
+      - paragraph [ref=f737e82]:
+        - text: Si vous souhaitez un accès facile et dédié aux datas
+        - link "Societe.com" [ref=f737e83] [cursor=pointer]:
+          - /url: https://www.societe.com
+        - text: "en toute légalité, veuillez utiliser notre API Pro :"
+        - link [ref=f737e84] [cursor=pointer]:
+          - /url: https://api.societe.com/apisite/documentation.html
+          - img "Documentation API" [ref=f737e85]
+        - link "https://www.societe.com/solutions/api" [ref=f737e86] [cursor=pointer]:
+          - /url: /solutions/api
+  - contentinfo [ref=f737e88]:
+    - generic "Footer Navigation" [ref=f737e89]:
+      - generic [ref=f737e90]:
+        - link "Retour à l'accueil" [ref=f737e91] [cursor=pointer]:
+          - /url: /
+        - list [ref=f737e92]:
+          - listitem [ref=f737e93]:
+            - heading "Offres et services" [level=2] [ref=f737e94]
+            - list [ref=f737e95]:
+              - listitem [ref=f737e96]:
+                - link "Offres" [ref=f737e97] [cursor=pointer]:
+                  - /url: /offres.html
+              - listitem [ref=f737e98]:
+                - link "Fichiers" [ref=f737e99] [cursor=pointer]:
+                  - /url: https://fichier.societe.com/pages/fichier-entreprises.html
+              - listitem [ref=f737e100]:
+                - link "Annuaire" [ref=f737e101] [cursor=pointer]:
+                  - /url: /entreprises
+              - listitem [ref=f737e102]:
+                - link "API" [ref=f737e103] [cursor=pointer]:
+                  - /url: /solutions/api
+          - listitem [ref=f737e104]:
+            - heading "Aide et contact" [level=2] [ref=f737e105]
+            - list [ref=f737e106]:
+              - listitem [ref=f737e107]:
+                - link "Contact Societe.com" [ref=f737e108] [cursor=pointer]:
+                  - /url: /ia?contact
+              - listitem [ref=f737e109]:
+                - link "Glossaire" [ref=f737e110] [cursor=pointer]:
+                  - /url: /glossaire/index.html
+          - listitem [ref=f737e111]:
+            - heading "Actualité" [level=2] [ref=f737e112]
+            - list [ref=f737e113]:
+              - listitem [ref=f737e114]:
+                - link "Blog Societe" [ref=f737e115] [cursor=pointer]:
+                  - /url: https://blog.societe.com/
+              - listitem [ref=f737e116]:
+                - heading "Suivez-nous" [level=2] [ref=f737e117]
+                - list [ref=f737e118]:
+                  - listitem [ref=f737e119]:
+                    - link "Suivez-nous sur LinkedIn" [ref=f737e120] [cursor=pointer]:
+                      - /url: https://fr.linkedin.com/company/societe.com
+                      - generic [ref=f737e121]: 
+                  - listitem [ref=f737e122]:
+                    - link "X (anciennement Twitter)" [ref=f737e123] [cursor=pointer]:
+                      - /url: https://twitter.com/Societe_com
+                      - generic [ref=f737e124]: 
+                  - listitem [ref=f737e126]:
+                    - link "Visualisez nos vidéos et podcasts sur Youtube" [ref=f737e127] [cursor=pointer]:
+                      - /url: https://www.youtube.com/@Soci%C3%A9t%C3%A9_FR
+                      - generic [ref=f737e128]: 
+                  - listitem [ref=f737e129]:
+                    - link "Retrouvez nos vidéos et podcasts sur TikTok" [ref=f737e130] [cursor=pointer]:
+                      - /url: https://www.tiktok.com/@societe.com
+                      - generic [ref=f737e131]: 
+    - generic [ref=f737e133]:
+      - paragraph [ref=f737e134]: ©2026 SOCIETE SAS
+      - list [ref=f737e135]:
+        - listitem [ref=f737e136]:
+          - link "À propos" [ref=f737e137] [cursor=pointer]:
+            - /url: /pages/a-propos.html
+        - listitem [ref=f737e138]:
+          - link "CGU & CGV" [ref=f737e139] [cursor=pointer]:
+            - /url: /pages/cgu-cgv.html
+        - listitem [ref=f737e140]:
+          - link "Gestion des cookies" [ref=f737e141] [cursor=pointer]:
+            - /url: javascript:Didomi.preferences.show()
+        - listitem [ref=f737e142]:
+          - link "Politique de confidentialité" [ref=f737e143] [cursor=pointer]:
+            - /url: /pages/politique-de-protection-des-donnees-personnelles.html
+        - listitem [ref=f737e144]:
+          - link "Mentions Légales" [ref=f737e145] [cursor=pointer]:
+            - /url: /pages/mentions-legales.html

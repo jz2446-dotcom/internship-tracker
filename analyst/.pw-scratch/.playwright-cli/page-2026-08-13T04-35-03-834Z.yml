@@ -1,0 +1,96 @@
+- generic [ref=f632e3]:
+  - generic [ref=f632e5]:
+    - link [ref=f632e6] [cursor=pointer]:
+      - /url: /
+      - img "OfferToday" [ref=f632e7]
+    - list [ref=f632e9]:
+      - listitem [ref=f632e10] [cursor=pointer]:
+        - link "首頁" [ref=f632e11]:
+          - /url: /
+      - listitem [ref=f632e12] [cursor=pointer]:
+        - link "職位" [ref=f632e13]:
+          - /url: /hk/recommend
+      - listitem [ref=f632e14] [cursor=pointer]:
+        - generic "專區" [ref=f632e15]
+    - generic [ref=f632e18]:
+      - textbox
+      - textbox
+      - generic [ref=f632e21]:
+        - combobox "搜索職位 / 公司 / 技能" [ref=f632e22]
+        - button [ref=f632e23] [cursor=pointer]:
+          - link:
+            - /url: /hk/search
+    - generic [ref=f632e24]:
+      - button "登入" [ref=f632e26] [cursor=pointer]
+      - button [ref=f632e27] [cursor=pointer]:
+        - img "lang" [ref=f632e28]
+    - link "雇主平台" [ref=f632e31] [cursor=pointer]:
+      - /url: /recruiter/hk/login
+  - generic [ref=f632e33]:
+    - generic [ref=f632e92]:
+      - heading "類似工作" [level=6] [ref=f632e94]
+      - link "查看更多" [ref=f632e95] [cursor=pointer]:
+        - /url: /hk/recommend
+    - generic [ref=f632e190]:
+      - paragraph [ref=f632e191]: 職業指南
+      - link "查看更多" [ref=f632e192] [cursor=pointer]:
+        - /url: /hk/news
+    - tablist [ref=f632e199]:
+      - tab "熱門地區" [selected] [ref=f632e200] [cursor=pointer]
+      - tab "最新職位" [ref=f632e201] [cursor=pointer]
+      - tab "人氣搜索" [ref=f632e202] [cursor=pointer]
+  - generic [ref=f632e207]:
+    - generic [ref=f632e208]:
+      - heading "OfferToday" [level=3] [ref=f632e210]
+      - generic [ref=f632e211]:
+        - generic [ref=f632e213]:
+          - term [ref=f632e214]: 招聘者
+          - definition [ref=f632e215]:
+            - link "發佈職位" [ref=f632e216] [cursor=pointer]:
+              - /url: /recruiter/hk/login
+          - definition [ref=f632e217]:
+            - link "註冊" [ref=f632e218] [cursor=pointer]:
+              - /url: /recruiter/hk/login
+        - generic [ref=f632e220]:
+          - term [ref=f632e221]: 求職者
+          - definition [ref=f632e222]:
+            - link "搜尋工作" [ref=f632e223] [cursor=pointer]:
+              - /url: /hk/scan
+          - definition [ref=f632e224]:
+            - link "個人檔案" [ref=f632e225] [cursor=pointer]:
+              - /url: /hk/profile
+          - definition [ref=f632e226]:
+            - link "求職期望" [ref=f632e227] [cursor=pointer]:
+              - /url: /hk/job-expectation
+        - generic [ref=f632e229]:
+          - term [ref=f632e230]: OfferToday
+          - definition [ref=f632e231]:
+            - link "關於我們" [ref=f632e232] [cursor=pointer]:
+              - /url: /hk/aboutUs
+          - definition [ref=f632e233]:
+            - link "聯絡我們" [ref=f632e234] [cursor=pointer]:
+              - /url: /hk/contactUs
+          - definition [ref=f632e235]:
+            - link "職業指南" [ref=f632e236] [cursor=pointer]:
+              - /url: /hk/news
+          - definition [ref=f632e237]:
+            - link "常見問題" [ref=f632e238] [cursor=pointer]:
+              - /url: /hk/qa
+      - generic [ref=f632e239]:
+        - paragraph [ref=f632e240]: 下載應用程式
+        - link "download on the App Store" [ref=f632e241] [cursor=pointer]:
+          - /url: https://apps.apple.com/app/offertoday/id6477343752
+        - link "download on the Google Play" [ref=f632e242] [cursor=pointer]:
+          - /url: https://play.google.com/store/apps/details?id=com.offerToday
+    - generic [ref=f632e244]:
+      - generic [ref=f632e245]:
+        - paragraph [ref=f632e246]: Copyright © Zhipin Technology HK Limited 2026.
+        - paragraph [ref=f632e247]: 職業介紹所牌照號碼：80909
+      - generic [ref=f632e248]:
+        - link "勞工處" [ref=f632e249] [cursor=pointer]:
+          - /url: https://www.labour.gov.hk/tc/
+        - link "安全私隱" [ref=f632e250] [cursor=pointer]:
+          - /url: https://m.offertoday.com/wap/policy/1?lang=zh_HK
+        - link "服務協議" [ref=f632e251] [cursor=pointer]:
+          - /url: https://m.offertoday.com/wap/policy/2?lang=zh_HK
+        - text: 意見反饋

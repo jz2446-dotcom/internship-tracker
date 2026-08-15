@@ -1,0 +1,10 @@
+- dialog "Privacy" [ref=f1140e2]:
+  - generic [ref=f1140e3]:
+    - generic [ref=f1140e6]:
+      - text: This website processes personal data through our and third parties’ online tracking technologies, including analytics and advertising cookies. To learn more about how we and our affiliates within the Qualcomm Group may use your personal data and cookies, please review the Privacy Policy published at the bottom of this website and Qualcomm’s
+      - link "Cookie Policy" [ref=f1140e7] [cursor=pointer]:
+        - /url: https://www.qualcomm.com/site/privacy/cookies
+      - text: . If you don’t want to share your website activities, including browsing behavior, with our third-party partners via these tracking technologies, click on “Cookie Settings" below to update your preferences. You can also update your cookie preferences at any time by clicking the Do Not Sell or Share My Personal Information link at the bottom of this website.
+    - generic [ref=f1140e9]:
+      - button "Cookie Settings, Opens the preference center dialog" [ref=f1140e10] [cursor=pointer]: Cookie Settings
+      - button "I Understand" [ref=f1140e12] [cursor=pointer]

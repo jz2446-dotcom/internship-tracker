@@ -1,0 +1,397 @@
+- generic [active] [ref=f288e1]:
+  - banner [ref=f288e2]:
+    - link "Skip to main content" [ref=f288e3] [cursor=pointer]:
+      - /url: "#skip-to-content"
+    - generic [ref=f288e4]:
+      - link "Nike Home Page" [ref=f288e5] [cursor=pointer]:
+        - /url: /
+      - navigation [ref=f288e7]:
+        - list [ref=f288e8]:
+          - listitem [ref=f288e9]:
+            - link "Home" [ref=f288e10] [cursor=pointer]:
+              - /url: /
+          - listitem [ref=f288e11]:
+            - link "Career Areas" [ref=f288e12] [cursor=pointer]:
+              - /url: /career-areas
+          - listitem [ref=f288e13]:
+            - link "Total Rewards" [ref=f288e14] [cursor=pointer]:
+              - /url: /total-rewards
+          - listitem [ref=f288e15]:
+            - link "Life@Nike" [ref=f288e16] [cursor=pointer]:
+              - /url: /life-at-nike
+          - listitem [ref=f288e17]:
+            - link "Purpose" [ref=f288e18] [cursor=pointer]:
+              - /url: /purpose
+      - generic [ref=f288e19]:
+        - button "Select Language" [ref=f288e21] [cursor=pointer]:
+          - generic [ref=f288e24]: Language
+        - link "Search Open Jobs" [ref=f288e28] [cursor=pointer]:
+          - /url: /jobs
+          - generic [ref=f288e29]: Careers
+  - main [ref=f288e30]:
+    - generic [ref=f288e31]:
+      - generic [ref=f288e33]:
+        - generic [ref=f288e34]:
+          - generic [ref=f288e37]:
+            - heading "Filters" [level=3] [ref=f288e38]
+            - list
+          - link "Clear Filters" [ref=f288e39] [cursor=pointer]:
+            - /url: javascript:void(0);
+        - list [ref=f288e42]:
+          - listitem [ref=f288e43]:
+            - button "Remove Filters" [ref=f288e44] [cursor=pointer]: All Careers
+          - listitem [ref=f288e45]:
+            - button "Filter Retail Jobs" [ref=f288e46] [cursor=pointer]: Retail
+          - listitem [ref=f288e47]
+          - listitem [ref=f288e48]:
+            - button "Filter Manufacturing Jobs" [ref=f288e49] [cursor=pointer]: Manufacturing
+          - listitem [ref=f288e50]:
+            - button "Filter Corporate Jobs" [ref=f288e51] [cursor=pointer]: Corporate
+          - listitem [ref=f288e52]
+        - generic [ref=f288e56]:
+          - generic [ref=f288e57]:
+            - generic [ref=f288e58]: Keyword Search
+            - combobox "Keyword Search" [ref=f288e61]
+          - generic [ref=f288e63]:
+            - generic [ref=f288e64]: Location Search
+            - generic [ref=f288e65]:
+              - text: 
+              - combobox "Location Search" [ref=f288e67]
+              - button "Use your location" [ref=f288e70] [cursor=pointer]:
+                - img [ref=f288e71]:
+                  - generic [ref=f288e72]: Use your location
+          - button "Search" [ref=f288e75] [cursor=pointer]
+          - alert [ref=f288e76]: 1086 related jobs displayed
+        - generic [ref=f288e81]:
+          - group [ref=f288e82]:
+            - button "Career Areas " [ref=f288e83] [cursor=pointer]:
+              - generic [ref=f288e84]: Career Areas
+              - text: 
+            - group "Career Areas " [ref=f288e86]:
+              - generic [ref=f288e87]:
+                - checkbox "Accounts Payable / Receivable 2" [ref=f288e88]
+                - generic [ref=f288e89]: Accounts Payable / Receivable
+                - generic [ref=f288e90]: "2"
+              - generic [ref=f288e91]:
+                - checkbox "Advanced Innovation 3" [ref=f288e92]
+                - generic [ref=f288e93]: Advanced Innovation
+                - generic [ref=f288e94]: "3"
+              - generic [ref=f288e95]:
+                - checkbox "Business Operations 7" [ref=f288e96]
+                - generic [ref=f288e97]: Business Operations
+                - generic [ref=f288e98]: "7"
+              - generic [ref=f288e99]:
+                - checkbox "Communications 1" [ref=f288e100]
+                - generic [ref=f288e101]: Communications
+                - generic [ref=f288e102]: "1"
+              - generic [ref=f288e103]:
+                - checkbox "Data 5" [ref=f288e104]
+                - generic [ref=f288e105]: Data
+                - generic [ref=f288e106]: "5"
+              - generic [ref=f288e107]:
+                - checkbox "Design 56" [ref=f288e108]
+                - generic [ref=f288e109]: Design
+                - generic [ref=f288e110]: "56"
+              - generic [ref=f288e111]:
+                - checkbox "Facilities & Real Estate 7" [ref=f288e112]
+                - generic [ref=f288e113]: Facilities & Real Estate
+                - generic [ref=f288e114]: "7"
+              - generic [ref=f288e115]:
+                - checkbox "Finance & Accounting 12" [ref=f288e116]
+                - generic [ref=f288e117]: Finance & Accounting
+                - generic [ref=f288e118]: "12"
+              - generic [ref=f288e119]:
+                - checkbox "General Counsel 4" [ref=f288e120]
+                - generic [ref=f288e121]: General Counsel
+                - generic [ref=f288e122]: "4"
+          - group [ref=f288e123]:
+            - button "Position Type " [ref=f288e124] [cursor=pointer]:
+              - generic [ref=f288e125]: Position Type
+              - text: 
+            - group "Position Type " [ref=f288e126]:
+              - generic [ref=f288e127]:
+                - checkbox "Full Time 795" [ref=f288e128]
+                - generic [ref=f288e129]: Full Time
+                - generic [ref=f288e130]: "795"
+              - generic [ref=f288e131]:
+                - checkbox "Part Time 231" [ref=f288e132]
+                - generic [ref=f288e133]: Part Time
+                - generic [ref=f288e134]: "231"
+          - group [ref=f288e135]:
+            - button "Is Remote " [ref=f288e136] [cursor=pointer]:
+              - generic [ref=f288e137]: Is Remote
+              - text: 
+            - group "Is Remote " [ref=f288e138]:
+              - generic [ref=f288e139]:
+                - checkbox "No 1083" [ref=f288e140]
+                - generic [ref=f288e141]: "No"
+                - generic [ref=f288e142]: "1083"
+              - generic [ref=f288e143]:
+                - checkbox "Yes 3" [ref=f288e144]
+                - generic [ref=f288e145]: "Yes"
+                - generic [ref=f288e146]: "3"
+          - group [ref=f288e147]:
+            - button "Brand " [ref=f288e148] [cursor=pointer]:
+              - generic [ref=f288e149]: Brand
+              - text: 
+            - group "Brand " [ref=f288e150]:
+              - generic [ref=f288e151]:
+                - checkbox "CONVERSE 67" [ref=f288e152]
+                - generic [ref=f288e153]: CONVERSE
+                - generic [ref=f288e154]: "67"
+              - generic [ref=f288e155]:
+                - checkbox "JORDAN 19" [ref=f288e156]
+                - generic [ref=f288e157]: JORDAN
+                - generic [ref=f288e158]: "19"
+              - generic [ref=f288e159]:
+                - checkbox "NIKE 1000" [ref=f288e160]
+                - generic [ref=f288e161]: NIKE
+                - generic [ref=f288e162]: "1000"
+          - text:  
+        - list [ref=f288e164]:
+          - listitem [ref=f288e165]:
+            - link "Join The Talent Community " [ref=f288e166] [cursor=pointer]:
+              - /url: https://nikeats.avature.net/niketalentcommunity
+              - generic [ref=f288e167]: Join The Talent Community
+              - generic [ref=f288e168]: 
+          - listitem [ref=f288e169]:
+            - link "Contract Jobs - USA Only* " [ref=f288e170] [cursor=pointer]:
+              - /url: https://www.livehire.com/careers/nikeinc/jobs
+              - generic [ref=f288e171]: Contract Jobs - USA Only*
+              - generic [ref=f288e172]: 
+      - generic [ref=f288e173]:
+        - generic [ref=f288e177]:
+          - generic [ref=f288e178]: Search Careers
+          - 'heading "OPEN POSITIONS: 539" [level=2] [ref=f288e179]'
+        - generic [ref=f288e183]:
+          - generic [ref=f288e187]:
+            - generic [ref=f288e188]: Sort By
+            - button "Sort By Posting Date" [ref=f288e190] [cursor=pointer]:
+              - generic [ref=f288e191]: Posting Date
+          - generic [ref=f288e195]:
+            - list [ref=f288e200]:
+              - listitem [ref=f288e201]:
+                - heading "Assistant Store Manager - Nike Canutillo Job ID:R-89879" [level=3] [ref=f288e203]:
+                  - link "Assistant Store Manager - Nike Canutillo" [ref=f288e204] [cursor=pointer]:
+                    - /url: /assistant-store-manager-nike-canutillo/job/R-89879
+                  - generic [ref=f288e205]: Job ID:R-89879
+                - generic [ref=f288e206]:
+                  - generic [ref=f288e207]:
+                    - generic [ref=f288e208]: Canutillo, Texas, United States
+                    - generic [ref=f288e211]: Retail Stores
+                  - link "View Job, Assistant Store Manager - Nike Canutillo" [ref=f288e213] [cursor=pointer]:
+                    - /url: /assistant-store-manager-nike-canutillo/job/R-89879
+                    - generic [ref=f288e214]: View Job
+              - listitem [ref=f288e216]:
+                - heading "Principal, Sports Marketing, Team/Athlete Men's Basketball Job ID:R-89619" [level=3] [ref=f288e218]:
+                  - link "Principal, Sports Marketing, Team/Athlete Men's Basketball" [ref=f288e219] [cursor=pointer]:
+                    - /url: /principal-sports-marketing-team-athlete-men-s-basketball/job/R-89619
+                  - generic [ref=f288e220]: Job ID:R-89619
+                - generic [ref=f288e221]:
+                  - generic [ref=f288e222]:
+                    - generic [ref=f288e223]: Beaverton, Oregon, United States
+                    - generic [ref=f288e226]: Marketing
+                  - link "View Job, Principal, Sports Marketing, Team/Athlete Men's Basketball" [ref=f288e228] [cursor=pointer]:
+                    - /url: /principal-sports-marketing-team-athlete-men-s-basketball/job/R-89619
+                    - generic [ref=f288e229]: View Job
+              - listitem [ref=f288e231]:
+                - heading "Account Specialist, Basketball Sports Marketing Job ID:R-88633" [level=3] [ref=f288e233]:
+                  - link "Account Specialist, Basketball Sports Marketing" [ref=f288e234] [cursor=pointer]:
+                    - /url: /account-specialist-basketball-sports-marketing/job/R-88633
+                  - generic [ref=f288e235]: Job ID:R-88633
+                - generic [ref=f288e236]:
+                  - generic [ref=f288e237]:
+                    - generic [ref=f288e238]: Beaverton, Oregon, United States
+                    - generic [ref=f288e241]: Marketing
+                  - link "View Job, Account Specialist, Basketball Sports Marketing" [ref=f288e243] [cursor=pointer]:
+                    - /url: /account-specialist-basketball-sports-marketing/job/R-88633
+                    - generic [ref=f288e244]: View Job
+              - listitem [ref=f288e246]:
+                - heading "Director, Self-Service and AI Operations - Global Consumer Services Job ID:R-86781" [level=3] [ref=f288e248]:
+                  - link "Director, Self-Service and AI Operations - Global Consumer Services" [ref=f288e249] [cursor=pointer]:
+                    - /url: /director-self-service-and-ai-operations-global-consumer-services/job/R-86781
+                  - generic [ref=f288e250]: Job ID:R-86781
+                - generic [ref=f288e251]:
+                  - generic [ref=f288e252]:
+                    - generic [ref=f288e253]: Beaverton, Oregon, United States
+                    - generic [ref=f288e256]: Sales & Customer Service
+                  - link "View Job, Director, Self-Service and AI Operations - Global Consumer Services" [ref=f288e258] [cursor=pointer]:
+                    - /url: /director-self-service-and-ai-operations-global-consumer-services/job/R-86781
+                    - generic [ref=f288e259]: View Job
+              - listitem [ref=f288e261]:
+                - heading "Supervisor - Nike Princeton Job ID:R-89870" [level=3] [ref=f288e263]:
+                  - link "Supervisor - Nike Princeton" [ref=f288e264] [cursor=pointer]:
+                    - /url: /supervisor-nike-princeton/job/R-89870
+                  - generic [ref=f288e265]: Job ID:R-89870
+                - generic [ref=f288e266]:
+                  - generic [ref=f288e267]:
+                    - generic [ref=f288e268]: Lawrenceville, New Jersey, United States
+                    - generic [ref=f288e271]: Retail Stores
+                  - link "View Job, Supervisor - Nike Princeton" [ref=f288e273] [cursor=pointer]:
+                    - /url: /supervisor-nike-princeton/job/R-89870
+                    - generic [ref=f288e274]: View Job
+              - listitem [ref=f288e276]:
+                - heading "Lead Merchant, Accessories, Global Jordan Job ID:R-89857" [level=3] [ref=f288e278]:
+                  - link "Lead Merchant, Accessories, Global Jordan" [ref=f288e279] [cursor=pointer]:
+                    - /url: /lead-merchant-accessories-global-jordan/job/R-89857
+                  - generic [ref=f288e280]: Job ID:R-89857
+                - generic [ref=f288e281]:
+                  - generic [ref=f288e282]:
+                    - generic [ref=f288e283]: Beaverton, Oregon, United States
+                    - generic [ref=f288e286]: Merchandising
+                  - link "View Job, Lead Merchant, Accessories, Global Jordan" [ref=f288e288] [cursor=pointer]:
+                    - /url: /lead-merchant-accessories-global-jordan/job/R-89857
+                    - generic [ref=f288e289]: View Job
+              - listitem [ref=f288e291]:
+                - heading "Senior Technical Designer, NikeSKIMS Job ID:R-88458" [level=3] [ref=f288e293]:
+                  - link "Senior Technical Designer, NikeSKIMS" [ref=f288e294] [cursor=pointer]:
+                    - /url: /senior-technical-designer-nikeskims/job/R-88458
+                  - generic [ref=f288e295]: Job ID:R-88458
+                - generic [ref=f288e296]:
+                  - generic [ref=f288e297]:
+                    - generic [ref=f288e298]: Beaverton, Oregon, United States
+                    - generic [ref=f288e301]: Product Creation, Development & Management
+                  - link "View Job, Senior Technical Designer, NikeSKIMS" [ref=f288e303] [cursor=pointer]:
+                    - /url: /senior-technical-designer-nikeskims/job/R-88458
+                    - generic [ref=f288e304]: View Job
+              - listitem [ref=f288e306]:
+                - heading "Lead Technical Designer, NikeSKIMS Apparel Job ID:R-88459" [level=3] [ref=f288e308]:
+                  - link "Lead Technical Designer, NikeSKIMS Apparel" [ref=f288e309] [cursor=pointer]:
+                    - /url: /lead-technical-designer-nikeskims-apparel/job/R-88459
+                  - generic [ref=f288e310]: Job ID:R-88459
+                - generic [ref=f288e311]:
+                  - generic [ref=f288e312]:
+                    - generic [ref=f288e313]: Beaverton, Oregon, United States
+                    - generic [ref=f288e316]: Product Creation, Development & Management
+                  - link "View Job, Lead Technical Designer, NikeSKIMS Apparel" [ref=f288e318] [cursor=pointer]:
+                    - /url: /lead-technical-designer-nikeskims-apparel/job/R-88459
+                    - generic [ref=f288e319]: View Job
+              - listitem [ref=f288e321]:
+                - heading "Assistant Store Manager - Nike Camarillo Job ID:R-89771" [level=3] [ref=f288e323]:
+                  - link "Assistant Store Manager - Nike Camarillo" [ref=f288e324] [cursor=pointer]:
+                    - /url: /assistant-store-manager-nike-camarillo/job/R-89771
+                  - generic [ref=f288e325]: Job ID:R-89771
+                - generic [ref=f288e326]:
+                  - generic [ref=f288e327]:
+                    - generic [ref=f288e328]: Camarillo, California, United States
+                    - generic [ref=f288e331]: Retail Stores
+                  - link "View Job, Assistant Store Manager - Nike Camarillo" [ref=f288e333] [cursor=pointer]:
+                    - /url: /assistant-store-manager-nike-camarillo/job/R-89771
+                    - generic [ref=f288e334]: View Job
+              - listitem [ref=f288e336]:
+                - heading "FT Supervisor - Converse Carlsbad Job ID:R-89867" [level=3] [ref=f288e338]:
+                  - link "FT Supervisor - Converse Carlsbad" [ref=f288e339] [cursor=pointer]:
+                    - /url: /ft-supervisor-converse-carlsbad/job/R-89867
+                  - generic [ref=f288e340]: Job ID:R-89867
+                - generic [ref=f288e341]:
+                  - generic [ref=f288e342]:
+                    - generic [ref=f288e343]: Carlsbad, California, United States
+                    - generic [ref=f288e346]: Retail Stores
+                  - link "View Job, FT Supervisor - Converse Carlsbad" [ref=f288e348] [cursor=pointer]:
+                    - /url: /ft-supervisor-converse-carlsbad/job/R-89867
+                    - generic [ref=f288e349]: View Job
+            - region "Page Navigation Controls" [ref=f288e353]:
+              - navigation "Pagination" [ref=f288e354]:
+                - list [ref=f288e355]:
+                  - listitem
+                  - listitem
+                  - listitem [ref=f288e356]:
+                    - link "Page 1" [ref=f288e357] [cursor=pointer]:
+                      - /url: /jobs/page/1
+                      - text: "1"
+                  - listitem [ref=f288e358]:
+                    - link "Page 2" [ref=f288e359] [cursor=pointer]:
+                      - /url: /jobs/page/2
+                      - text: "2"
+                  - listitem [ref=f288e360]:
+                    - link "Page 3" [ref=f288e361] [cursor=pointer]:
+                      - /url: /jobs/page/3
+                      - text: "3"
+                  - listitem [ref=f288e362]:
+                    - link "Page 4" [ref=f288e363] [cursor=pointer]:
+                      - /url: /jobs/page/4
+                      - text: "4"
+                  - listitem [ref=f288e364]:
+                    - link "Page 5" [ref=f288e365] [cursor=pointer]:
+                      - /url: /jobs/page/5
+                      - text: "5"
+                  - listitem [ref=f288e366]:
+                    - link "Page 6" [ref=f288e367] [cursor=pointer]:
+                      - /url: /jobs/page/6
+                      - text: "6"
+                  - listitem [ref=f288e368]:
+                    - link "Page 7" [ref=f288e369] [cursor=pointer]:
+                      - /url: /jobs/page/7
+                      - text: "7"
+                  - listitem [ref=f288e370]:
+                    - link "Page 8" [ref=f288e371] [cursor=pointer]:
+                      - /url: /jobs/page/8
+                      - text: "8"
+                  - listitem [ref=f288e372]:
+                    - link "Page 9" [ref=f288e373] [cursor=pointer]:
+                      - /url: /jobs/page/9
+                      - text: "9"
+                  - listitem [ref=f288e374]:
+                    - link "Page 10" [ref=f288e375] [cursor=pointer]:
+                      - /url: /jobs/page/10
+                      - text: "10"
+                  - listitem [ref=f288e376]:
+                    - link "Next Page" [ref=f288e377] [cursor=pointer]:
+                      - /url: /jobs/page/2
+                      - img "Go to next page"
+                  - listitem [ref=f288e378]:
+                    - link "Last page" [ref=f288e379] [cursor=pointer]:
+                      - /url: /jobs/page/109
+                      - img "Go to last page"
+              - combobox "Page Size" [ref=f288e380]:
+                - option "10" [selected]
+                - option "20"
+  - contentinfo [ref=f288e381]:
+    - generic [ref=f288e382]:
+      - list [ref=f288e390]:
+        - listitem [ref=f288e391]:
+          - link "Home" [ref=f288e392] [cursor=pointer]:
+            - /url: /
+        - listitem [ref=f288e393]:
+          - link "About Us" [ref=f288e394] [cursor=pointer]:
+            - /url: https://about.nike.com/en/
+        - listitem [ref=f288e395]:
+          - link "Contact" [ref=f288e396] [cursor=pointer]:
+            - /url: https://www.nike.com/us/en/help#contact
+        - listitem [ref=f288e397]:
+          - link "Talent Community" [ref=f288e398] [cursor=pointer]:
+            - /url: https://nikeats.avature.net/niketalentcommunity
+        - listitem [ref=f288e399]:
+          - link "Terms" [ref=f288e400] [cursor=pointer]:
+            - /url: https://privacypolicy.nike.com/applicant
+      - list [ref=f288e403]:
+        - listitem [ref=f288e404]:
+          - link "x" [ref=f288e405] [cursor=pointer]:
+            - /url: https://twitter.com/Nike
+        - listitem [ref=f288e406]:
+          - link "linkedin" [ref=f288e407] [cursor=pointer]:
+            - /url: https://www.linkedin.com/company/nike
+        - listitem [ref=f288e408]:
+          - link "instagram" [ref=f288e409] [cursor=pointer]:
+            - /url: https://www.instagram.com/nike/
+        - listitem [ref=f288e410]:
+          - link "youtube" [ref=f288e411] [cursor=pointer]:
+            - /url: https://www.youtube.com/c/NikeCareersourStories
+      - list [ref=f288e413]:
+        - listitem [ref=f288e414]:
+          - link "Nike Applicant Privacy Policy" [ref=f288e415] [cursor=pointer]:
+            - /url: https://privacypolicy.nike.com/applicant
+        - listitem [ref=f288e416]:
+          - link "Do Not Sell or Share My Personal Information" [ref=f288e417] [cursor=pointer]:
+            - /url: "javascript: Cookiebot.renew()"
+      - generic [ref=f288e418]:
+        - paragraph [ref=f288e420]: We offer a number of accommodations to complete our interview process including screen readers, sign language interpreters, accessible and single location for in-person interviews, closed captioning, and other reasonable modifications as needed.
+        - generic [ref=f288e421]:
+          - paragraph [ref=f288e422]: If you discover, as you navigate our application process, that you need assistance or an accommodation due to a disability, please contact us at +1 503-671-4156 and include your full name, best way to reach you, and the accommodation you request to assist with the application process.
+          - paragraph [ref=f288e423]:
+            - text: For more information, please refer to
+            - link "Equal Employment Opportunity is The Law." [ref=f288e424] [cursor=pointer]:
+              - /url: https://www.eeoc.gov/sites/default/files/2023-06/22-088_EEOC_KnowYourRights6.12ScreenRdr.pdf
+      - paragraph [ref=f288e426]: © 2026 Nike, Inc. All Rights Reserved
+  - iframe [ref=f288e427]:
+    

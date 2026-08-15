@@ -1,0 +1,231 @@
+- generic [active] [ref=f874e1]:
+  - text: 
+  - generic [ref=f874e4]:
+    - generic [ref=f874e5]:
+      - generic [ref=f874e7]:
+        - generic [ref=f874e8]:
+          - list "Choisissez la langue du site" [ref=f874e10]:
+            - listitem [ref=f874e11]:
+              - link "EN" [ref=f874e12] [cursor=pointer]:
+                - /url: /homepage.aspx?LCID=2057
+            - 'listitem "Langue choisie : Français" [ref=f874e13]':  FR
+            - listitem [ref=f874e14]:
+              - link "IT" [ref=f874e15] [cursor=pointer]:
+                - /url: /homepage.aspx?LCID=1040
+          - generic [ref=f874e16]:
+            - heading "Suivez nous" [level=2] [ref=f874e17]
+            - list [ref=f874e18]:
+              - listitem [ref=f874e19]:
+                - generic [ref=f874e21]:
+                  - link "Instagram" [ref=f874e22] [cursor=pointer]:
+                    - /url: https://www.instagram.com/myamundi
+                  - link "Facebook" [ref=f874e24] [cursor=pointer]:
+                    - /url: https://www.facebook.com/AmundiOfficial
+                  - link "X" [ref=f874e26] [cursor=pointer]:
+                    - /url: https://x.com/Amundi_FR
+                  - link "X" [ref=f874e28] [cursor=pointer]:
+                    - /url: https://x.com/Amundi_ENG
+                  - link "LinkedIn" [ref=f874e30] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/company/amundi-
+        - generic [ref=f874e34]:
+          - heading "Espace candidat" [level=2] [ref=f874e35]
+          - generic [ref=f874e37]:
+            - text: "*  "
+            - generic [ref=f874e38]:
+              - generic [ref=f874e39]:
+                - 'generic "Identifiant (email de type : exemple@exemple.fr)" [ref=f874e40]'
+                - 'textbox "Identifiant (email de type : exemple@exemple.fr)" [ref=f874e41]'
+              - generic [ref=f874e42]:
+                - generic [ref=f874e43]: Mot de passe
+                - textbox "Mot de passe" [ref=f874e44]
+            - generic [ref=f874e45]:
+              - generic [ref=f874e46]:
+                - generic [ref=f874e47]:
+                  - checkbox "Rester connecté" [ref=f874e49]
+                  - generic [ref=f874e50]: Rester connecté
+                - link "Mot de passe perdu" [ref=f874e52] [cursor=pointer]:
+                  - /url: /mon-compte/retrouver-mon-mot-de-passe.aspx
+              - button "Se connecter" [ref=f874e53] [cursor=pointer]
+          - heading [level=3] [ref=f874e55]:
+            - link "Je me crée un espace candidat" [ref=f874e56] [cursor=pointer]:
+              - /url: /my-account/log-in.aspx?titletype=dashboard
+      - generic [ref=f874e57]:
+        - paragraph [ref=f874e59]:
+          - text: "Vous êtes ici :"
+          - generic [ref=f874e60]:
+            - link "Passer le fil d'ariane":
+              - /url: "#smp_SkipLink"
+            - generic [ref=f874e61]: Accueil
+        - 'link " Ma sélection : 0 offre(s)" [ref=f874e65] [cursor=pointer]':
+          - /url: /offre-de-emploi/ma-selection-offres.aspx
+          - text: 
+          - 'generic "Ma sélection : 0 offre(s)" [ref=f874e66]'
+      - text:   
+    - generic [ref=f874e67]:
+      - list [ref=f874e70]:
+        - listitem [ref=f874e71]:
+          - generic [ref=f874e72]: Accueil
+        - listitem [ref=f874e73]:
+          - link "Ma recherche, mon alerte" [ref=f874e74] [cursor=pointer]:
+            - /url: /mon-compte/mon-abonnement.aspx#ancrecontenu
+        - listitem [ref=f874e75]:
+          - link "Les Ressources Humaines chez Amundi" [ref=f874e76] [cursor=pointer]:
+            - /url: "https://legroupe.amundi.com/rejoignez-nous "
+      - generic [ref=f874e78]:
+        - group "Moteur de recherche d'offres d'emploi Amundi" [ref=f874e81]:
+          - generic [ref=f874e83]:
+            - generic [ref=f874e84]:
+              - generic [ref=f874e85]:
+                - generic [ref=f874e87]:
+                  - text: "Mots clés(ex : ingénieur commercial Paris)"
+                  - 'textbox "Mots clés(ex : ingénieur commercial Paris)" [ref=f874e88]'
+                - generic [ref=f874e90]:
+                  - generic [ref=f874e91]: Type de métier
+                  - combobox "Type de métier" [ref=f874e92]:
+                    - option "Veuillez sélectionner une valeur" [selected]
+                    - option "Types de métiers Crédit Agricole S.A. (85)"
+                    - option "Achat (1)"
+                    - option "Administration / Services Généraux (1)"
+                    - option "Analyse financière et économique (1)"
+                    - option "Autres (2)"
+                    - option "Commercial / Relations Clients (9)"
+                    - option "Conformité / Sécurité financière (3)"
+                    - option "Direction générale (1)"
+                    - option "Financement et Investissement (2)"
+                    - option "Finances / Comptabilité / Contrôle de gestion (6)"
+                    - option "Gestion d'Actifs (26)"
+                    - option "Gestion des opérations (4)"
+                    - option "Inspection / Audit (1)"
+                    - option "Juridique (1)"
+                    - option "Marketing et Communication (8)"
+                    - option "Gestion de projet / Transformation (1)"
+                    - option "Ressources Humaines (3)"
+                    - option "Risques / Contrôles permanents (1)"
+                    - option "IT, Digital et Data (20)"
+              - generic [ref=f874e93]:
+                - generic [ref=f874e95]:
+                  - generic [ref=f874e96]: Type de contrat
+                  - combobox "Type de contrat" [ref=f874e97]:
+                    - option "Veuillez sélectionner une valeur" [selected]
+                    - option "CDD (2)"
+                    - option "CDI (36)"
+                    - option "Alternance / Apprentissage (15)"
+                    - option "Stage (25)"
+                    - option "VIE (7)"
+                - generic [ref=f874e99]:
+                  - generic [ref=f874e100]: Zone géographique
+                  - combobox "Zone géographique" [ref=f874e101]:
+                    - option "Veuillez sélectionner une valeur" [selected]
+                    - option "Allemagne (9)"
+                    - option "Autriche (3)"
+                    - option "Chine (1)"
+                    - option "Hong-Kong (2)"
+                    - option "Irlande (8)"
+                    - option "Japon (1)"
+                    - option "Luxembourg (8)"
+                    - option "République Tchèque (1)"
+                    - option "Singapour (2)"
+                    - option "Royaume-Uni (4)"
+                    - option "France (43)"
+                    - option "Ile-de-France (43)"
+                    - option "75 - Paris (39)"
+                    - option "Italie (2)"
+                    - option "Lombardie (1)"
+                    - option "Milan (1)"
+            - generic [ref=f874e102]:
+              - link " Voir toutes les offres" [ref=f874e104] [cursor=pointer]:
+                - /url: /offre-de-emploi/liste-toutes-offres.aspx?all=1&mode=list#ancrecontenu
+              - link " Flux RSS et autres flux" [ref=f874e106] [cursor=pointer]:
+                - /url: /offre-de-emploi/tous-les-flux-rss.aspx
+                - text:  Flux
+                - generic "Really Simple Syndication" [ref=f874e107]: RSS
+                - text: et autres flux
+              - button "Lancer la recherche" [ref=f874e109] [cursor=pointer]
+        - text:   
+        - heading "BIENVENUE SUR LE SITE CARRIERE d'Amundi" [level=1] [ref=f874e111]
+        - generic [ref=f874e113]:
+          - generic [ref=f874e114]:
+            - paragraph
+            - generic [ref=f874e115]:
+              - paragraph
+              - text: Grâce à ses capacités de recherche uniques et au talent de près de 4 500 collaborateurs et experts des marchés, basés dans 37 pays, Amundi fournit aux particuliers, aux clientèles institutionnelles et corporate des solutions d’épargne et d'investissement innovantes pour répondre à leurs besoins, objectifs de rendement et profils de risque spécifiques.
+            - paragraph [ref=f874e119]: Que vous soyez un candidat expérimenté, un jeune diplômé ou un étudiant, retrouvez ici tous les postes disponibles, ainsi que nos offres de stage, d’alternance et de VIE.
+            - paragraph
+          - generic [ref=f874e122]:
+            - heading "Nos dernières offres d'emploi" [level=2] [ref=f874e123]
+            - list [ref=f874e125]:
+              - listitem [ref=f874e126] [cursor=pointer]:
+                - heading [level=3] [ref=f874e127]:
+                  - link "Senior Project Manager M/F" [ref=f874e128]:
+                    - /url: /offre-de-emploi/emploi-senior-project-manager-m-f_99916.aspx
+                - 'generic "Ajouter cette offre à ma sélection : Senior Project Manager M/F (2025-99916)" [ref=f874e129]': 
+                - list [ref=f874e130]:
+                  - listitem [ref=f874e131]: CDI
+                  - listitem [ref=f874e132]: aixigo AG
+                  - listitem [ref=f874e133]: Allemagne
+                  - listitem [ref=f874e134]: Aachen/Paris
+              - listitem [ref=f874e135] [cursor=pointer]:
+                - heading [level=3] [ref=f874e136]:
+                  - link "Senior Software architect (m/f/d) M/F" [ref=f874e137]:
+                    - /url: /offre-de-emploi/emploi-senior-software-architect-m-f-d-m-f_100828.aspx
+                - 'generic "Ajouter cette offre à ma sélection : Senior Software architect (m/f/d) M/F (2025-100828)" [ref=f874e138]': 
+                - list [ref=f874e139]:
+                  - listitem [ref=f874e140]: CDI
+                  - listitem [ref=f874e141]: aixigo AG
+                  - listitem [ref=f874e142]: Allemagne
+                  - listitem [ref=f874e143]: Aachen, Paris
+              - listitem [ref=f874e144] [cursor=pointer]:
+                - heading [level=3] [ref=f874e145]:
+                  - link "Solution Architect (m/f/d)" [ref=f874e146]:
+                    - /url: /offre-de-emploi/emploi-solution-architect-m-f-d-_100324.aspx
+                - 'generic "Ajouter cette offre à ma sélection : Solution Architect (m/f/d) (2025-100324)" [ref=f874e147]': 
+                - list [ref=f874e148]:
+                  - listitem [ref=f874e149]: CDI
+                  - listitem [ref=f874e150]: aixigo AG
+                  - listitem
+                  - listitem [ref=f874e151]: Aachen/Paris
+              - listitem [ref=f874e152] [cursor=pointer]:
+                - heading [level=3] [ref=f874e153]:
+                  - link "(Senior) Consultant / Business Analyst m/f/d M/F" [ref=f874e154]:
+                    - /url: /offre-de-emploi/emploi--senior-consultant-business-analyst-m-f-d-m-f_105838.aspx
+                - 'generic "Ajouter cette offre à ma sélection : (Senior) Consultant / Business Analyst m/f/d M/F (2025-105838)" [ref=f874e155]': 
+                - list [ref=f874e156]:
+                  - listitem [ref=f874e157]: CDI
+                  - listitem [ref=f874e158]: aixigo AG
+                  - listitem [ref=f874e159]: Allemagne
+                  - listitem [ref=f874e160]: Aachen/Paris
+              - listitem [ref=f874e161] [cursor=pointer]:
+                - heading [level=3] [ref=f874e162]:
+                  - link "Alternance - Chargé des appels d'offres / RFP - H/F" [ref=f874e163]:
+                    - /url: /offre-de-emploi/emploi-alternance-charge-des-appels-d-offres-rfp-h-f_109016.aspx
+                - 'generic "Ajouter cette offre à ma sélection : Alternance - Chargé des appels d''offres / RFP - H/F (2026-109016)" [ref=f874e164]': 
+                - list [ref=f874e165]:
+                  - listitem [ref=f874e166]: Alternance / Apprentissage
+                  - listitem [ref=f874e167]: Amundi Asset Management
+                  - listitem [ref=f874e168]: France
+                  - listitem [ref=f874e169]: Paris
+    - generic [ref=f874e170]:
+      - list [ref=f874e171]:
+        - listitem [ref=f874e172]:
+          - link "Mentions légales" [ref=f874e173] [cursor=pointer]:
+            - /url: /mention-legale.aspx
+        - listitem [ref=f874e174]:
+          - text: "-"
+          - link "Cookies" [ref=f874e175] [cursor=pointer]:
+            - /url: https://privacy.talentsoft.com/recrutement
+        - listitem [ref=f874e176]:
+          - text: "-"
+          - link "Paramétrer vos cookies" [ref=f874e177] [cursor=pointer]:
+            - /url: "#"
+        - listitem [ref=f874e178]:
+          - text: "-"
+          - 'link "Accessibilité : partiellement conforme" [ref=f874e179] [cursor=pointer]':
+            - /url: /accessibilite.aspx
+        - listitem [ref=f874e180]:
+          - text: "-"
+          - link "Plan du site" [ref=f874e181] [cursor=pointer]:
+            - /url: /plan-site.aspx
+      - link "Aller en haut " [ref=f874e182] [cursor=pointer]:
+        - /url: "#ancrehaut"
+        - generic [ref=f874e183]: Aller en haut
+        - generic [ref=f874e184]: 

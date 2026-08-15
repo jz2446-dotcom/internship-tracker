@@ -1,0 +1,660 @@
+- generic [ref=f1540e2]:
+  - banner [ref=f1540e3]:
+    - generic [ref=f1540e4]:
+      - navigation "Main site navigation" [ref=f1540e7]:
+        - menubar [ref=f1540e8]:
+          - link [ref=f1540e10] [cursor=pointer]:
+            - /url: https://careers.bain.com/recruits/signin
+            - img "Bain & Company" [ref=f1540e11]
+          - generic [ref=f1540e12]:
+            - generic:
+              - navigation:
+                - list:
+                  - menuitem [ref=f1540e13]:
+                    - link "Careers" [ref=f1540e14] [cursor=pointer]:
+                      - /url: http://www.bain.com/careers/
+                  - menuitem [ref=f1540e15]:
+                    - link "Offices" [ref=f1540e16] [cursor=pointer]:
+                      - /url: http://www.bain.com/about/worldwide-offices/index.aspx
+                  - menuitem [ref=f1540e17]:
+                    - link "Login" [ref=f1540e18] [cursor=pointer]:
+                      - /url: https://careers.bain.com/recruits/signin
+      - generic [ref=f1540e19]: Position Application
+  - main [ref=f1540e21]:
+    - generic [ref=f1540e22]:
+      - list [ref=f1540e23]:
+        - listitem [ref=f1540e24]:
+          - text: Upload resume
+          - generic [ref=f1540e25]: 1/6
+        - listitem [ref=f1540e26]:
+          - text: Personal Information
+          - generic [ref=f1540e27]: 2/6
+        - listitem [ref=f1540e28]:
+          - text: Job Specific Questions
+          - generic [ref=f1540e29]: 3/6
+        - listitem [ref=f1540e30]:
+          - text: Additional Candidate Information
+          - generic [ref=f1540e31]: 4/6
+        - listitem [ref=f1540e32]:
+          - text: Confirm information
+          - generic [ref=f1540e33]: 5/6
+        - listitem [ref=f1540e34]:
+          - text: Success
+          - generic [ref=f1540e35]: 6/6
+      - generic [ref=f1540e37]:
+        - generic:
+          - generic [ref=f1540e41]:
+            - generic [ref=f1540e42]: First name *
+            - textbox "First name *" [ref=f1540e43]:
+              - /placeholder: ""
+          - generic [ref=f1540e47]:
+            - generic [ref=f1540e48]: Last name *
+            - textbox "Last name *" [ref=f1540e49]:
+              - /placeholder: ""
+          - generic [ref=f1540e53]:
+            - generic [ref=f1540e54]: Preferred first name *
+            - textbox "Preferred first name *" [ref=f1540e55]:
+              - /placeholder: ""
+          - generic [ref=f1540e59]:
+            - generic [ref=f1540e60]: Pronouns
+            - combobox "Pronouns" [ref=f1540e61]:
+              - option "Select an option" [selected]
+              - option "She/Her/Hers"
+              - option "He/Him/His"
+              - option "They/Them/Theirs"
+              - option "Zi/Zir/Zirs"
+              - option "No Pronouns"
+              - option "They/She"
+              - option "They/He"
+          - generic [ref=f1540e65]:
+            - generic [ref=f1540e66]: Preferred email *
+            - textbox "Preferred email *" [ref=f1540e67]:
+              - /placeholder: ""
+          - generic [ref=f1540e71]:
+            - generic [ref=f1540e72]: Primary phone number *
+            - textbox "Primary phone number *" [ref=f1540e73]:
+              - /placeholder: Country code + area code + phone (e.g., 1-555-555-5555)
+          - generic [ref=f1540e77]:
+            - generic [ref=f1540e78]: Secondary e-mail
+            - textbox "Secondary e-mail" [ref=f1540e79]:
+              - /placeholder: ""
+          - generic [ref=f1540e83]:
+            - generic [ref=f1540e84]: Secondary phone number
+            - textbox "Secondary phone number" [ref=f1540e85]:
+              - /placeholder: Country code + area code + phone (e.g., 1-555-555-5555)
+          - generic [ref=f1540e89]:
+            - generic [ref=f1540e90]: Street *
+            - textbox "Street *" [ref=f1540e91]:
+              - /placeholder: ""
+          - generic [ref=f1540e95]:
+            - generic [ref=f1540e96]: City *
+            - textbox "City *" [ref=f1540e97]:
+              - /placeholder: ""
+          - generic [ref=f1540e101]:
+            - generic [ref=f1540e102]: Country of residence *
+            - combobox "Country of residence *" [ref=f1540e104]:
+              - option "Select a country" [selected]
+              - option "Afghanistan"
+              - option "Albania"
+              - option "Algeria"
+              - option "American Samoa"
+              - option "Andorra"
+              - option "Angola"
+              - option "Anguilla"
+              - option "Antarctica"
+              - option "Antigua and Barbuda"
+              - option "Argentina"
+              - option "Armenia"
+              - option "Aruba"
+              - option "Australia"
+              - option "Austria"
+              - option "Azerbaijan"
+              - option "Bahamas"
+              - option "Bahrain"
+              - option "Bangladesh"
+              - option "Barbados"
+              - option "Belarus"
+              - option "Belgium"
+              - option "Belize"
+              - option "Benin"
+              - option "Bermuda"
+              - option "Bhutan"
+              - option "Bolivia (Plurinational State of)"
+              - option "Bonaire, Sint Eustatius and Saba"
+              - option "Bosnia and Herzegovina"
+              - option "Botswana"
+              - option "Bouvet Island"
+              - option "Brazil"
+              - option "British Indian Ocean Territory"
+              - option "Brunei Darussalam"
+              - option "Bulgaria"
+              - option "Burkina Faso"
+              - option "Burundi"
+              - option "Cabo Verde"
+              - option "Cambodia"
+              - option "Cameroon"
+              - option "Canada"
+              - option "Cayman Islands"
+              - option "Central African Republic"
+              - option "Chad"
+              - option "Chile"
+              - option "China"
+              - option "Christmas Island"
+              - option "Cocos (Keeling) Islands"
+              - option "Colombia"
+              - option "Comoros"
+              - option "Congo"
+              - option "Congo, Democratic Republic of the"
+              - option "Cook Islands"
+              - option "Costa Rica"
+              - option "Croatia"
+              - option "Cuba"
+              - option "Curaçao"
+              - option "Cyprus"
+              - option "Czechia"
+              - option "Côte d'Ivoire"
+              - option "Denmark"
+              - option "Djibouti"
+              - option "Dominica"
+              - option "Dominican Republic"
+              - option "Ecuador"
+              - option "Egypt"
+              - option "El Salvador"
+              - option "Equatorial Guinea"
+              - option "Eritrea"
+              - option "Estonia"
+              - option "Eswatini"
+              - option "Ethiopia"
+              - option "Falkland Islands (Malvinas)"
+              - option "Faroe Islands"
+              - option "Fiji"
+              - option "Finland"
+              - option "France"
+              - option "French Guiana"
+              - option "French Polynesia"
+              - option "French Southern Territories"
+              - option "Gabon"
+              - option "Gambia"
+              - option "Georgia"
+              - option "Germany"
+              - option "Ghana"
+              - option "Gibraltar"
+              - option "Greece"
+              - option "Greenland"
+              - option "Grenada"
+              - option "Guadeloupe"
+              - option "Guam"
+              - option "Guatemala"
+              - option "Guernsey"
+              - option "Guinea"
+              - option "Guinea-Bissau"
+              - option "Guyana"
+              - option "Haiti"
+              - option "Heard Island and McDonald Islands"
+              - option "Holy See (Vatican City State)"
+              - option "Honduras"
+              - option "Hong Kong"
+              - option "Hungary"
+              - option "Iceland"
+              - option "India"
+              - option "Indonesia"
+              - option "Iran, Islamic Republic of"
+              - option "Iraq"
+              - option "Ireland"
+              - option "Isle of Man"
+              - option "Israel"
+              - option "Italy"
+              - option "Jamaica"
+              - option "Japan"
+              - option "Jersey"
+              - option "Jordan"
+              - option "Kazakhstan"
+              - option "Kenya"
+              - option "Kiribati"
+              - option "Korea, Democratic People's Republic of"
+              - option "Korea, Republic of"
+              - option "Kuwait"
+              - option "Kyrgyzstan"
+              - option "Lao People's Democratic Republic"
+              - option "Latvia"
+              - option "Lebanon"
+              - option "Lesotho"
+              - option "Liberia"
+              - option "Libya"
+              - option "Liechtenstein"
+              - option "Lithuania"
+              - option "Luxembourg"
+              - option "Macao"
+              - option "Madagascar"
+              - option "Malawi"
+              - option "Malaysia"
+              - option "Maldives"
+              - option "Mali"
+              - option "Malta"
+              - option "Marshall Islands"
+              - option "Martinique"
+              - option "Mauritania"
+              - option "Mauritius"
+              - option "Mayotte"
+              - option "Mexico"
+              - option "Micronesia, Federated States of"
+              - option "Moldova, Republic of"
+              - option "Monaco"
+              - option "Mongolia"
+              - option "Montenegro"
+              - option "Montserrat"
+              - option "Morocco"
+              - option "Mozambique"
+              - option "Myanmar"
+              - option "Namibia"
+              - option "Nauru"
+              - option "Nepal"
+              - option "Netherlands"
+              - option "Netherlands Antilles"
+              - option "New Caledonia"
+              - option "New Zealand"
+              - option "Nicaragua"
+              - option "Niger"
+              - option "Nigeria"
+              - option "Niue"
+              - option "Norfolk Island"
+              - option "North Macedonia"
+              - option "Northern Mariana Islands"
+              - option "Norway"
+              - option "Oman"
+              - option "Pakistan"
+              - option "Palau"
+              - option "Palestine, State of"
+              - option "Panama"
+              - option "Papua New Guinea"
+              - option "Paraguay"
+              - option "Peru"
+              - option "Philippines"
+              - option "Pitcairn"
+              - option "Poland"
+              - option "Portugal"
+              - option "Puerto Rico"
+              - option "Qatar"
+              - option "Romania"
+              - option "Russian Federation"
+              - option "Rwanda"
+              - option "Réunion"
+              - option "Saint Barthélemy"
+              - option "Saint Helena, Ascension and Tristan da Cunha"
+              - option "Saint Kitts and Nevis"
+              - option "Saint Lucia"
+              - option "Saint Martin (French part)"
+              - option "Saint Pierre and Miquelon"
+              - option "Saint Vincent and the Grenadines"
+              - option "Samoa"
+              - option "San Marino"
+              - option "Sao Tome and Principe"
+              - option "Saudi Arabia"
+              - option "Senegal"
+              - option "Serbia"
+              - option "Seychelles"
+              - option "Sierra Leone"
+              - option "Singapore"
+              - option "Sint Maarten (Dutch part)"
+              - option "Slovakia"
+              - option "Slovenia"
+              - option "Solomon Islands"
+              - option "Somalia"
+              - option "South Africa"
+              - option "South Georgia and the South Sandwich Islands"
+              - option "South Sudan"
+              - option "Spain"
+              - option "Sri Lanka"
+              - option "Sudan"
+              - option "Suriname"
+              - option "Svalbard and Jan Mayen"
+              - option "Sweden"
+              - option "Switzerland"
+              - option "Syrian Arab Republic"
+              - option "Taiwan"
+              - option "Tajikistan"
+              - option "Tanzania, United Republic of"
+              - option "Thailand"
+              - option "Timor-Leste"
+              - option "Togo"
+              - option "Tokelau"
+              - option "Tonga"
+              - option "Trinidad and Tobago"
+              - option "Tunisia"
+              - option "Turkmenistan"
+              - option "Turks and Caicos Islands"
+              - option "Tuvalu"
+              - option "Türkiye"
+              - option "Uganda"
+              - option "Ukraine"
+              - option "United Arab Emirates"
+              - option "United Kingdom of Great Britain and Northern Ireland"
+              - option "United States"
+              - option "United States Minor Outlying Islands"
+              - option "Uruguay"
+              - option "Uzbekistan"
+              - option "Vanuatu"
+              - option "Venezuela (Bolivarian Republic of)"
+              - option "Vietnam"
+              - option "Virgin Islands, British"
+              - option "Virgin Islands, U.S."
+              - option "Wallis and Futuna"
+              - option "Western Sahara"
+              - option "Yemen"
+              - option "Zambia"
+              - option "Zimbabwe"
+              - option "Åland Islands"
+          - generic [ref=f1540e108]:
+            - generic [ref=f1540e109]: State
+            - combobox "State" [disabled] [ref=f1540e110]:
+              - option "Not required" [selected]
+          - generic [ref=f1540e114]:
+            - generic [ref=f1540e115]: Zip code *
+            - textbox "Zip code *" [ref=f1540e116]:
+              - /placeholder: ""
+          - generic [ref=f1540e120]:
+            - generic [ref=f1540e121]: LinkedIn address
+            - textbox "LinkedIn address" [ref=f1540e122]:
+              - /placeholder: Your LinkedIn address will not be included in review of your application
+        - generic [ref=f1540e128]:
+          - generic [ref=f1540e129]: Are you currently attending a university? *
+          - radiogroup "Are you currently attending a university? *" [ref=f1540e130]:
+            - generic [ref=f1540e131]:
+              - radio "No" [ref=f1540e132]
+              - generic [ref=f1540e133] [cursor=pointer]: "No"
+            - generic [ref=f1540e134]:
+              - radio "Yes" [ref=f1540e135]
+              - generic [ref=f1540e136] [cursor=pointer]: "Yes"
+        - generic [ref=f1540e147]:
+          - generic [ref=f1540e148]: Diversity and Affinity groups
+          - generic [ref=f1540e155]:
+            - text: Please indicate your interest in learning more about any of our diversity and affinity groups. Learn more about our diversity and affinity groups
+            - link "here" [ref=f1540e156] [cursor=pointer]:
+              - /url: https://www.bain.com/careers/life-at-bain/affinity-groups/
+            - text: . If you express an interest in any of our diversity and affinity groups below, our Diversity and Affinity team will follow up with you with more information on these groups. The information you provide will not be used to evaluate your candidacy or attached to your formal application to work at Bain.
+          - generic [ref=f1540e160]:
+            - generic [ref=f1540e161]: Are you interested in any of our diversity and affinity groups?
+            - radiogroup "Are you interested in any of our diversity and affinity groups?" [ref=f1540e162]:
+              - generic [ref=f1540e163]:
+                - radio "No" [ref=f1540e164]
+                - generic [ref=f1540e165] [cursor=pointer]: "No"
+              - generic [ref=f1540e166]:
+                - radio "Yes" [ref=f1540e167]
+                - generic [ref=f1540e168] [cursor=pointer]: "Yes"
+        - generic [ref=f1540e173]:
+          - generic [ref=f1540e174]: Office preferences
+          - generic [ref=f1540e175]: Please select the office(s) to which you would like to apply. You can apply to up to three offices at a time. Please allocate up to 100 points across each office to reflect your interest level in each. Office preference 1 should be your top office preference, office preference 2 your second choice, and office preference 3 your third choice. All offices you indicate here will review your application.
+        - generic [ref=f1540e182]:
+          - generic [ref=f1540e187]:
+            - generic [ref=f1540e188]: Office preference 1 *
+            - combobox "Office preference 1 *" [ref=f1540e189]:
+              - option "Select an option" [selected]
+              - option "Amsterdam"
+              - option "Athens"
+              - option "Atlanta"
+              - option "Austin"
+              - option "Bangkok"
+              - option "Beijing"
+              - option "Bengaluru"
+              - option "Berlin"
+              - option "Bogota"
+              - option "Boston"
+              - option "Brussels"
+              - option "Buenos Aires"
+              - option "Chicago"
+              - option "Copenhagen"
+              - option "Dallas"
+              - option "Denver"
+              - option "Doha"
+              - option "Dubai"
+              - option "Dusseldorf"
+              - option "Frankfurt"
+              - option "Helsinki"
+              - option "Ho Chi Minh City"
+              - option "Hong Kong"
+              - option "Houston"
+              - option "Istanbul"
+              - option "Jakarta"
+              - option "Kuala Lumpur"
+              - option "Kyiv"
+              - option "Lisbon"
+              - option "London"
+              - option "Los Angeles"
+              - option "Madrid"
+              - option "Manila"
+              - option "Melbourne"
+              - option "Mexico City"
+              - option "Milan"
+              - option "Monterrey"
+              - option "Montreal"
+              - option "Mumbai"
+              - option "Munich"
+              - option "New Delhi"
+              - option "New York"
+              - option "Oslo"
+              - option "Paris"
+              - option "Perth"
+              - option "Rio de Janeiro"
+              - option "Riyadh"
+              - option "Rome"
+              - option "San Francisco/Silicon Valley"
+              - option "Santiago"
+              - option "Sao Paulo"
+              - option "Seattle"
+              - option "Seoul"
+              - option "Shanghai"
+              - option "Singapore"
+              - option "Stockholm"
+              - option "Sydney"
+              - option "Tokyo"
+              - option "Toronto"
+              - option "Vienna"
+              - option "Warsaw"
+              - option "Washington DC"
+              - option "Zurich"
+          - generic [ref=f1540e193]:
+            - generic [ref=f1540e194]: Office preference 1 (%) *
+            - textbox "Office preference 1 (%) *" [ref=f1540e195]:
+              - /placeholder: ""
+          - generic [ref=f1540e199]:
+            - generic [ref=f1540e200]: Office preference 2
+            - combobox "Office preference 2" [ref=f1540e201]:
+              - option "Select an option" [selected]
+              - option "Amsterdam"
+              - option "Athens"
+              - option "Atlanta"
+              - option "Austin"
+              - option "Bangkok"
+              - option "Beijing"
+              - option "Bengaluru"
+              - option "Berlin"
+              - option "Bogota"
+              - option "Boston"
+              - option "Brussels"
+              - option "Buenos Aires"
+              - option "Chicago"
+              - option "Copenhagen"
+              - option "Dallas"
+              - option "Denver"
+              - option "Doha"
+              - option "Dubai"
+              - option "Dusseldorf"
+              - option "Frankfurt"
+              - option "Helsinki"
+              - option "Ho Chi Minh City"
+              - option "Hong Kong"
+              - option "Houston"
+              - option "Istanbul"
+              - option "Jakarta"
+              - option "Kuala Lumpur"
+              - option "Kyiv"
+              - option "Lisbon"
+              - option "London"
+              - option "Los Angeles"
+              - option "Madrid"
+              - option "Manila"
+              - option "Melbourne"
+              - option "Mexico City"
+              - option "Milan"
+              - option "Monterrey"
+              - option "Montreal"
+              - option "Mumbai"
+              - option "Munich"
+              - option "New Delhi"
+              - option "New York"
+              - option "Oslo"
+              - option "Paris"
+              - option "Perth"
+              - option "Rio de Janeiro"
+              - option "Riyadh"
+              - option "Rome"
+              - option "San Francisco/Silicon Valley"
+              - option "Santiago"
+              - option "Sao Paulo"
+              - option "Seattle"
+              - option "Seoul"
+              - option "Shanghai"
+              - option "Singapore"
+              - option "Stockholm"
+              - option "Sydney"
+              - option "Tokyo"
+              - option "Toronto"
+              - option "Vienna"
+              - option "Warsaw"
+              - option "Washington DC"
+              - option "Zurich"
+          - generic [ref=f1540e205]:
+            - generic [ref=f1540e206]: Office preference 2 (%)
+            - textbox "Office preference 2 (%)" [ref=f1540e207]:
+              - /placeholder: ""
+          - generic [ref=f1540e211]:
+            - generic [ref=f1540e212]: Office preference 3
+            - combobox "Office preference 3" [ref=f1540e213]:
+              - option "Select an option" [selected]
+              - option "Amsterdam"
+              - option "Athens"
+              - option "Atlanta"
+              - option "Austin"
+              - option "Bangkok"
+              - option "Beijing"
+              - option "Bengaluru"
+              - option "Berlin"
+              - option "Bogota"
+              - option "Boston"
+              - option "Brussels"
+              - option "Buenos Aires"
+              - option "Chicago"
+              - option "Copenhagen"
+              - option "Dallas"
+              - option "Denver"
+              - option "Doha"
+              - option "Dubai"
+              - option "Dusseldorf"
+              - option "Frankfurt"
+              - option "Helsinki"
+              - option "Ho Chi Minh City"
+              - option "Hong Kong"
+              - option "Houston"
+              - option "Istanbul"
+              - option "Jakarta"
+              - option "Kuala Lumpur"
+              - option "Kyiv"
+              - option "Lisbon"
+              - option "London"
+              - option "Los Angeles"
+              - option "Madrid"
+              - option "Manila"
+              - option "Melbourne"
+              - option "Mexico City"
+              - option "Milan"
+              - option "Monterrey"
+              - option "Montreal"
+              - option "Mumbai"
+              - option "Munich"
+              - option "New Delhi"
+              - option "New York"
+              - option "Oslo"
+              - option "Paris"
+              - option "Perth"
+              - option "Rio de Janeiro"
+              - option "Riyadh"
+              - option "Rome"
+              - option "San Francisco/Silicon Valley"
+              - option "Santiago"
+              - option "Sao Paulo"
+              - option "Seattle"
+              - option "Seoul"
+              - option "Shanghai"
+              - option "Singapore"
+              - option "Stockholm"
+              - option "Sydney"
+              - option "Tokyo"
+              - option "Toronto"
+              - option "Vienna"
+              - option "Warsaw"
+              - option "Washington DC"
+              - option "Zurich"
+          - generic [ref=f1540e217]:
+            - generic [ref=f1540e218]: Office preference 3 (%)
+            - textbox "Office preference 3 (%)" [ref=f1540e219]:
+              - /placeholder: ""
+        - generic [ref=f1540e220]:
+          - generic [ref=f1540e225]:
+            - generic [ref=f1540e226]: Geographic flexibility
+            - generic [ref=f1540e227]: Please indicate any special circumstances we should be aware of regarding your office preferences or if you have geographic flexibility and would be open to more than the office(s) listed above.
+            - textbox "Geographic flexibility Please indicate any special circumstances we should be aware of regarding your office preferences or if you have geographic flexibility and would be open to more than the office(s) listed above." [ref=f1540e228]:
+              - /placeholder: ""
+          - generic [ref=f1540e232]:
+            - generic [ref=f1540e233]: "Support for work authorization: *"
+            - generic [ref=f1540e234]: "Will you now or at any point in the future require sponsorship for employer-based work authorization in the country of any office you selected? (For example: H-1B, TN, O-1, or other employment-based visas.)"
+            - 'radiogroup "Support for work authorization: *" [ref=f1540e235]':
+              - generic [ref=f1540e236]:
+                - radio "Yes" [ref=f1540e237]
+                - generic [ref=f1540e238] [cursor=pointer]: "Yes"
+              - generic [ref=f1540e239]:
+                - radio "No" [checked] [ref=f1540e240]
+                - generic [ref=f1540e241] [cursor=pointer]: "No"
+        - generic [ref=f1540e242]:
+          - generic [ref=f1540e244]: Your password must be at least 8 characters long, alphanumeric and have no number or letter repeating more than three consecutive times.
+          - generic [ref=f1540e254]:
+            - generic [ref=f1540e255]: Password *
+            - textbox "Password *" [ref=f1540e256]:
+              - /placeholder: ""
+          - generic [ref=f1540e260]:
+            - generic [ref=f1540e261]: Confirm password *
+            - textbox "Confirm password *" [ref=f1540e262]:
+              - /placeholder: ""
+          - generic [ref=f1540e266]:
+            - generic [ref=f1540e267]:
+              - text: I have read and agree to the terms of
+              - link "Bain's Privacy Policy" [ref=f1540e268] [cursor=pointer]:
+                - /url: http://www.bain.com/privacy
+              - text: .*
+            - checkbox [ref=f1540e270]
+          - generic [ref=f1540e275]:
+            - button "Cancel" [ref=f1540e276] [cursor=pointer]
+            - button "Next" [ref=f1540e277] [cursor=pointer]
+          - generic [ref=f1540e283]:
+            - text: Bain maintains a commitment to
+            - link "equal employment opportunity" [ref=f1540e284] [cursor=pointer]:
+              - /url: /recruits/EEO
+            - text: in all our employment practices.
+  - contentinfo "Footer" [ref=f1540e285]:
+    - generic [ref=f1540e287]:
+      - generic [ref=f1540e289]:
+        - link:
+          - /url: http://www.linkedin.com/company/bain-and-company
+        - link:
+          - /url: http://twitter.com/BainAlerts
+        - link:
+          - /url: http://www.facebook.com/bainandcompany
+        - link:
+          - /url: http://www.youtube.com/user/bainandcompany
+        - link:
+          - /url: https://www.instagram.com/bainandcompany/
+      - generic [ref=f1540e290]:
+        - link "Terms & conditions" [ref=f1540e291] [cursor=pointer]:
+          - /url: https://www.bain.com/about/terms/
+        - link "Privacy policy" [ref=f1540e292] [cursor=pointer]:
+          - /url: https://www.bain.com/about/privacy/
+      - generic [ref=f1540e293]: © 1996-2026 Bain & Company, Inc.

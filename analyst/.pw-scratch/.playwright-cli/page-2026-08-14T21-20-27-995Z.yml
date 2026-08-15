@@ -1,0 +1,37 @@
+- generic [active] [ref=f19e1]:
+  - main [ref=f19e2]:
+    - generic [ref=f19e3]:
+      - heading "www.brightnetwork.co.uk" [level=1] [ref=f19e5]
+      - heading "Performing security verification" [level=2] [ref=f19e6]
+      - paragraph [ref=f19e7]: This website uses a security service to protect against malicious bots. This page is displayed while the website verifies you are not a bot.
+      - alert [ref=f19e14]:
+        - generic [ref=f19e15]:
+          - heading "Why is this verification taking longer?" [level=2] [ref=f19e16]
+          - paragraph [ref=f19e17]: This verification can take longer due to an older computer or a slow internet connection.
+          - paragraph [ref=f19e18]: "What to do next:"
+          - list [ref=f19e19]:
+            - listitem [ref=f19e20]: Wait briefly. Refreshing the page will restart the security verification and may take longer.
+            - listitem [ref=f19e21]:
+              - text: If the verification still does not complete,
+              - link "refresh this page" [ref=f19e22] [cursor=pointer]:
+                - /url: "#"
+              - text: .
+            - listitem [ref=f19e23]:
+              - text: If you are still stuck on this page after a page refresh, refer to Cloudflare’s
+              - link "troubleshooting documentation" [ref=f19e24] [cursor=pointer]:
+                - /url: /cdn-cgi/challenge-platform/help
+              - text: for more help.
+  - contentinfo [ref=f19e25]:
+    - generic [ref=f19e27]:
+      - generic [ref=f19e29]:
+        - text: "Ray ID:"
+        - code [ref=f19e30]: a2b300c90aa8efb5
+      - generic [ref=f19e31]:
+        - generic [ref=f19e32]:
+          - text: Performance and Security by
+          - link "Cloudflare, opens in a new tab" [ref=f19e33] [cursor=pointer]:
+            - /url: https://www.cloudflare.com?utm_source=challenge&utm_campaign=m
+            - text: Cloudflare
+        - link "Privacy, opens in a new tab" [ref=f19e35] [cursor=pointer]:
+          - /url: https://www.cloudflare.com/privacypolicy/
+          - text: Privacy

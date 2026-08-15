@@ -1,0 +1,245 @@
+- generic [active] [ref=f1245e1]:
+  - generic [ref=f1245e3]:
+    - link [ref=f1245e4] [cursor=pointer]:
+      - /url: https://jobs.hilton.com/
+      - img "Hilton Logo" [ref=f1245e5]
+    - navigation [ref=f1245e7]:
+      - list [ref=f1245e8]:
+        - listitem [ref=f1245e9]:
+          - link "Culture" [ref=f1245e10] [cursor=pointer]:
+            - /url: https://jobs.hilton.com/us/en/culture
+        - listitem [ref=f1245e11]:
+          - link "Benefits" [ref=f1245e12] [cursor=pointer]:
+            - /url: https://jobs.hilton.com/us/en/benefits
+        - listitem [ref=f1245e13]:
+          - link "Diversity" [ref=f1245e14] [cursor=pointer]:
+            - /url: " https://jobs.hilton.com/us/en/diversity-home2"
+        - listitem [ref=f1245e15]:
+          - link "Career Paths" [ref=f1245e16] [cursor=pointer]:
+            - /url: https://jobs.hilton.com/us/en/career-paths
+        - listitem [ref=f1245e17]:
+          - link "Brands" [ref=f1245e18] [cursor=pointer]:
+            - /url: https://jobs.hilton.com/us/en/brands
+        - listitem [ref=f1245e19]:
+          - link "Connect" [ref=f1245e20] [cursor=pointer]:
+            - /url: https://jobs.hilton.com/us/en/connect
+        - listitem [ref=f1245e21]:
+          - link "Search Jobs" [ref=f1245e22] [cursor=pointer]:
+            - /url: https://jobs.hilton.com/us/en/search-results
+  - generic [ref=f1245e25]:
+    - generic [ref=f1245e27]:
+      - link "Sign In" [ref=f1245e31] [cursor=pointer]:
+        - /url: /careersection/hil_corp_ext/jobsearch.ftl?ftlcompclass=LoginComponent
+      - list [ref=f1245e32]:
+        - listitem [ref=f1245e33]:
+          - link "Job Search" [ref=f1245e34] [cursor=pointer]:
+            - /url: /careersection/hil_corp_ext/jobsearch.ftl
+        - listitem [ref=f1245e35]:
+          - link "My Jobpage" [ref=f1245e36] [cursor=pointer]:
+            - /url: /careersection/hil_corp_ext/mysubmissions.ftl
+    - generic [ref=f1245e37]:
+      - heading "Search Jobs AT HILTON" [level=1] [ref=f1245e38]
+      - generic [ref=f1245e39]:
+        - generic [ref=f1245e42]:
+          - textbox "Keyword" [ref=f1245e44] [cursor=pointer]
+          - button "Search for jobs" [ref=f1245e46] [cursor=pointer]: Search Jobs
+        - list [ref=f1245e48]:
+          - listitem [ref=f1245e49]:
+            - link "instagram" [ref=f1245e50] [cursor=pointer]:
+              - /url: https://www.instagram.com/Hilton_Careers/
+          - listitem [ref=f1245e51]:
+            - link "youtube" [ref=f1245e52] [cursor=pointer]:
+              - /url: https://www.youtube.com/user/hiltonworldwide
+          - listitem [ref=f1245e53]:
+            - link "linkedin" [ref=f1245e54] [cursor=pointer]:
+              - /url: https://www.linkedin.com/company/hilton
+          - listitem [ref=f1245e55]:
+            - link "facebook" [ref=f1245e56] [cursor=pointer]:
+              - /url: https://www.facebook.com/HiltonCareersEMEA
+          - listitem [ref=f1245e57]:
+            - link "twitter" [ref=f1245e58] [cursor=pointer]:
+              - /url: https://twitter.com/HiltonNewsroom
+          - listitem [ref=f1245e59]:
+            - link "glassdoor" [ref=f1245e60] [cursor=pointer]:
+              - /url: https://www.glassdoor.co.in/Overview/Working-at-Hilton-EI_IE330.11,17.htm?countryRedirect=true
+      - generic [ref=f1245e61]:
+        - generic [ref=f1245e62]:
+          - text: Refine
+          - button "Organization" [disabled] [ref=f1245e65]
+          - button "Location" [disabled] [ref=f1245e68]
+          - button "Job Field" [disabled] [ref=f1245e71]
+          - button "Job Schedule" [disabled] [ref=f1245e74]
+        - generic [ref=f1245e75]:
+          - generic [ref=f1245e76]:
+            - generic [ref=f1245e77]:
+              - status [ref=f1245e79]: ( ) ( ) ( )
+              - link "Save this Search" [ref=f1245e80] [cursor=pointer]:
+                - /url: /careersection/hil_corp_ext/jobsearch.ftl?ftlcompclass=LoginComponent&restore=true
+            - generic [ref=f1245e81]: Job list in single line view. Press ENTER to switch to multi line view.
+            - generic [ref=f1245e83]:
+              - generic [ref=f1245e84]:
+                - text: "Sort by :"
+                - generic [ref=f1245e85]:
+                  - combobox "Sort by :" [ref=f1245e86] [cursor=pointer]:
+                    - option "Relevancy" [selected]
+                    - option "Location"
+                    - option "Job Title"
+                  - text: "Order :"
+              - generic [ref=f1245e87]: "Jobs available in:"
+          - generic [ref=f1245e88]:
+            - alert [ref=f1245e89]: The list of jobs has reloaded. 1 – 0 of 0. Page 1
+            - generic [ref=f1245e90]:
+              - paragraph [ref=f1245e91]: No jobs correspond to the specified criteria.
+              - list [ref=f1245e92]:
+                - listitem [ref=f1245e93]: To improve your search results, remove one or more filters.
+                - listitem [ref=f1245e94]:
+                  - link "You can also view all available job openings." [ref=f1245e95] [cursor=pointer]:
+                    - /url: "#"
+  - generic [ref=f1245e96]:
+    - list [ref=f1245e99]:
+      - listitem [ref=f1245e100]:
+        - link "Recruitment Fraud" [ref=f1245e101] [cursor=pointer]:
+          - /url: https://cdn.phenompeople.com/CareerConnectResources/prod/HILTGLOBAL/documents/Recruitment_Fraud-English-20230515-1684253711523.pdf
+        - text: "|"
+      - listitem [ref=f1245e102]:
+        - link "Accomodations and Accessibility Assistance" [ref=f1245e103] [cursor=pointer]:
+          - /url: https://cdn.phenompeople.com/CareerConnectResources/prod/HILTGLOBAL/documents/ApplicantAccommodationandAccessibilityAssistance-English-20230627-1687960620757.pdf
+        - text: "|"
+      - listitem [ref=f1245e104]:
+        - link "Employment Disclaimer" [ref=f1245e105] [cursor=pointer]:
+          - /url: https://cdn.phenompeople.com/CareerConnectResources/prod/HILTGLOBAL/documents/Employment_Disclaimer-English-20230515-1684253913103.pdf
+        - text: "|"
+      - listitem [ref=f1245e106]:
+        - link "Equal Opportunity Employer" [ref=f1245e107] [cursor=pointer]:
+          - /url: https://cdn.phenompeople.com/CareerConnectResources/prod/HILTGLOBAL/documents/EqualOpportunityEmployer-English-20230627-1687960510061.pdf
+        - text: "|"
+      - listitem [ref=f1245e108]:
+        - link "Career Site Cookie Settings" [ref=f1245e109] [cursor=pointer]:
+          - /url: https://jobs.hilton.com/us/en/cookiesettings
+        - text: "|"
+      - listitem [ref=f1245e110]:
+        - link "Profile Information" [ref=f1245e111] [cursor=pointer]:
+          - /url: https://jobs.hilton.com/us/en/emailpersonalinfo
+        - text: "|"
+      - listitem [ref=f1245e112]:
+        - link "E-Verify" [ref=f1245e113] [cursor=pointer]:
+          - /url: https://cdn.phenompeople.com/CareerConnectResources/prod/HILTGLOBAL/documents/E-Verify_Notice-English-20230515-1684253871325.pdf
+    - generic [ref=f1245e115]:
+      - link [ref=f1245e117] [cursor=pointer]:
+        - /url: https://jobs.hilton.com/
+        - img "Hilton Logo" [ref=f1245e118]
+      - generic [ref=f1245e119]:
+        - list [ref=f1245e120]:
+          - listitem [ref=f1245e121]:
+            - link "Hilton.com" [ref=f1245e122] [cursor=pointer]:
+              - /url: https://www.hilton.com/en/
+            - text: "|"
+          - listitem [ref=f1245e123]:
+            - link "Careers Home" [ref=f1245e124] [cursor=pointer]:
+              - /url: https://jobs.hilton.com/
+            - text: "|"
+          - listitem [ref=f1245e125]:
+            - link "Current Team Member" [ref=f1245e126] [cursor=pointer]:
+              - /url: https://teammembers.hilton.com/
+            - text: "|"
+          - listitem [ref=f1245e127]:
+            - link "Global Privacy Statement" [ref=f1245e128] [cursor=pointer]:
+              - /url: https://hiltonhonors3.hilton.com/en/policy/global-privacy-statement/index.html
+        - generic [ref=f1245e129]:
+          - generic [ref=f1245e130]:
+            - heading [level=3] [ref=f1245e131]:
+              - link "Culture" [ref=f1245e132] [cursor=pointer]:
+                - /url: https://jobs.hilton.com/us/en/culture
+            - list [ref=f1245e133]:
+              - listitem [ref=f1245e134]:
+                - link "Inclusion" [ref=f1245e135] [cursor=pointer]:
+                  - /url: https://jobs.hilton.com/us/en/culture#diversity-inclusion
+              - listitem [ref=f1245e136]:
+                - link "Career Growth" [ref=f1245e137] [cursor=pointer]:
+                  - /url: https://jobs.hilton.com/us/en/culture#career-growth
+              - listitem [ref=f1245e138]:
+                - link "Heart of House" [ref=f1245e139] [cursor=pointer]:
+                  - /url: https://jobs.hilton.com/us/en/culture
+              - listitem [ref=f1245e140]:
+                - link "The Hilton Effect" [ref=f1245e141] [cursor=pointer]:
+                  - /url: https://hiltoneffect.org/
+          - generic [ref=f1245e142]:
+            - heading [level=3] [ref=f1245e143]:
+              - link "Benefits" [ref=f1245e144] [cursor=pointer]:
+                - /url: https://jobs.hilton.com/us/en/benefits
+            - list [ref=f1245e145]:
+              - listitem [ref=f1245e146]:
+                - link "Thrive at Hilton" [ref=f1245e147] [cursor=pointer]:
+                  - /url: https://jobs.hilton.com/us/en/benefits
+              - listitem [ref=f1245e148]:
+                - link "Unique Hilton Benefits" [ref=f1245e149] [cursor=pointer]:
+                  - /url: https://jobs.hilton.com/us/en/benefits#uniquely-hilton
+              - listitem [ref=f1245e150]:
+                - link "Parental Assistance" [ref=f1245e151] [cursor=pointer]:
+                  - /url: https://jobs.hilton.com/us/en/benefits
+              - listitem [ref=f1245e152]:
+                - link "Employee Recognition" [ref=f1245e153] [cursor=pointer]:
+                  - /url: https://jobs.hilton.com/us/en/benefits
+          - generic [ref=f1245e154]:
+            - heading [level=3] [ref=f1245e155]:
+              - link "Career Paths" [ref=f1245e156] [cursor=pointer]:
+                - /url: https://jobs.hilton.com/us/en/career-paths
+            - list [ref=f1245e157]:
+              - listitem [ref=f1245e158]:
+                - link "Hotels" [ref=f1245e159] [cursor=pointer]:
+                  - /url: https://jobs.hilton.com/us/en/career-areas-hotel
+              - listitem [ref=f1245e160]:
+                - link "Corporate" [ref=f1245e161] [cursor=pointer]:
+                  - /url: https://jobs.hilton.com/us/en/career-areas-corporate
+              - listitem [ref=f1245e162]:
+                - link "Universities" [ref=f1245e163] [cursor=pointer]:
+                  - /url: https://jobs.hilton.com/us/en/career-areas-university-all
+              - listitem [ref=f1245e164]:
+                - link "Work From Home" [ref=f1245e165] [cursor=pointer]:
+                  - /url: https://jobs.hilton.com/us/en/career-areas-wfh
+          - heading [level=3] [ref=f1245e167]:
+            - link "Brands" [ref=f1245e168] [cursor=pointer]:
+              - /url: https://jobs.hilton.com/us/en/brands
+          - generic [ref=f1245e169]:
+            - heading [level=3] [ref=f1245e170]:
+              - link "Connect" [ref=f1245e171] [cursor=pointer]:
+                - /url: https://jobs.hilton.com/us/en/connect
+            - list [ref=f1245e172]:
+              - listitem [ref=f1245e173]:
+                - link "Social Media" [ref=f1245e174] [cursor=pointer]:
+                  - /url: https://jobs.hilton.com/us/en/connect
+              - listitem [ref=f1245e175]:
+                - link "Job Alerts" [ref=f1245e176] [cursor=pointer]:
+                  - /url: https://jobs.hilton.com/us/en/jointalentcommunity?applyType=JTC
+              - listitem [ref=f1245e177]:
+                - link "Events" [ref=f1245e178] [cursor=pointer]:
+                  - /url: https://jobs.hilton.com/us/en/events
+              - listitem [ref=f1245e179]:
+                - link "Blogs" [ref=f1245e180] [cursor=pointer]:
+                  - /url: https://jobs.hilton.com/us/en/blog
+          - heading [level=3] [ref=f1245e182]:
+            - link "Search Jobs" [ref=f1245e183] [cursor=pointer]:
+              - /url: https://jobs.hilton.com/us/en/search-results
+    - generic [ref=f1245e185]:
+      - paragraph [ref=f1245e187]: Copyright © 2026 Hilton
+      - generic [ref=f1245e188]:
+        - heading "@HiltonCareers" [level=3] [ref=f1245e190]
+        - list [ref=f1245e191]:
+          - listitem [ref=f1245e192]:
+            - link "Glassdoor" [ref=f1245e193] [cursor=pointer]:
+              - /url: https://www.glassdoor.co.in/Overview/Working-at-Hilton-EI_IE330.11,17.htm?countryRedirect=true
+          - listitem [ref=f1245e194]:
+            - link "Facebook" [ref=f1245e195] [cursor=pointer]:
+              - /url: https://www.facebook.com/hiltoncareers/
+          - listitem [ref=f1245e196]:
+            - link "LinkedIn" [ref=f1245e197] [cursor=pointer]:
+              - /url: https://www.linkedin.com/company/hilton
+          - listitem [ref=f1245e198]:
+            - link "YouTube" [ref=f1245e199] [cursor=pointer]:
+              - /url: https://www.youtube.com/user/hiltonworldwide
+          - listitem [ref=f1245e200]:
+            - link "Twitter" [ref=f1245e201] [cursor=pointer]:
+              - /url: https://twitter.com/HiltonNewsroom
+          - listitem [ref=f1245e202]:
+            - link "Instagram" [ref=f1245e203] [cursor=pointer]:
+              - /url: https://www.instagram.com/hiltoncareers/

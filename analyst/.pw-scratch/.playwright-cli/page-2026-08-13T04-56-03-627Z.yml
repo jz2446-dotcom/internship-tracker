@@ -1,0 +1,17 @@
+- generic [active] [ref=f968e1]:
+  - banner [ref=f968e2]:
+    - img "Teamtailor logo" [ref=f968e3]
+  - main:
+    - generic [ref=f968e5]:
+      - generic [ref=f968e6]: 😢
+      - heading "Ooops." [level=1] [ref=f968e7]
+      - paragraph [ref=f968e8]:
+        - text: We couldn’t find the page you were looking for. Go back to
+        - link "Teamtailor" [ref=f968e9] [cursor=pointer]:
+          - /url: https://www.teamtailor.com/
+        - text: or
+        - link "contact us" [ref=f968e10] [cursor=pointer]:
+          - /url: mailto:support@teamtailor.com
+        - text: about a problem.
+      - strong [ref=f968e11]: "404"
+    - paragraph [ref=f968e12]: Thanks for your patience 😊

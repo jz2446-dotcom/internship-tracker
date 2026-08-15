@@ -1,0 +1,163 @@
+- generic [ref=f922e1]:
+  - dialog "Manage Consent" [ref=f922e2]:
+    - generic [ref=f922e3]:
+      - generic [ref=f922e4]: Manage Consent
+      - button "Close dialog" [active] [ref=f922e5] [cursor=pointer]
+    - generic [ref=f922e8]: To provide the best experiences, we use technologies like cookies to store and/or access device information. Consenting to these technologies will allow us to process data such as browsing behavior or unique IDs on this site. Not consenting or withdrawing consent, may adversely affect certain features and functions.
+    - button "Accept" [ref=f922e11] [cursor=pointer]
+    - list [ref=f922e13]:
+      - listitem [ref=f922e14]:
+        - link "Opt-out preferences" [ref=f922e15] [cursor=pointer]:
+          - /url: https://www.westchesterlibraries.org/opt-out-preferences/
+      - listitem [ref=f922e16]:
+        - link "Privacy of Patron Data" [ref=f922e17] [cursor=pointer]:
+          - /url: https://www.westchesterlibraries.org/about-wls/patron-privacy/
+      - listitem
+  - generic [ref=f922e18] [cursor=pointer]: 
+  - generic [ref=f922e20]:
+    - banner [ref=f922e21]:
+      - generic:
+        - banner [ref=f922e22]:
+          - generic [ref=f922e23]:
+            - link [ref=f922e25] [cursor=pointer]:
+              - /url: https://www.westchesterlibraries.org/
+              - img "Westchester Library System" [ref=f922e26]
+            - generic [ref=f922e27]:
+              - link [ref=f922e28] [cursor=pointer]:
+                - /url: https://www.facebook.com/westchesterlibrarysystem
+                - img "Facebook" [ref=f922e29]
+              - link [ref=f922e30] [cursor=pointer]:
+                - /url: https://www.instagram.com/westchesterlibrarysystem/
+                - img "Instagram" [ref=f922e31]
+              - link [ref=f922e32] [cursor=pointer]:
+                - /url: https://www.youtube.com/user/WestchesterLibraries?feature=watch
+                - img "YouTube" [ref=f922e33]
+              - link [ref=f922e34] [cursor=pointer]:
+                - /url: https://blog.westchesterlibraries.org/
+                - img "AboutMe" [ref=f922e35]
+        - generic [ref=f922e36]: "[gtranslate]"
+        - generic [ref=f922e38]:
+          - heading "WLS Catalog Search:" [level=3] [ref=f922e39]
+          - textbox "Enter one or more terms to search for" [ref=f922e40]
+          - combobox "Search Index" [ref=f922e41]:
+            - option "by Keyword" [selected]
+            - option "by Title"
+            - option "by Start of Title"
+            - option "by Series"
+            - option "by Author"
+            - option "by Subject"
+          - button "Search" [ref=f922e42]
+        - navigation [ref=f922e43]:
+          - link "Skip to content" [ref=f922e45] [cursor=pointer]:
+            - /url: "#content"
+          - generic:
+            - list:
+              - listitem [ref=f922e46]:
+                - link "Home" [ref=f922e47] [cursor=pointer]:
+                  - /url: /
+              - listitem [ref=f922e48]:
+                - link "Account/Catalog" [ref=f922e49] [cursor=pointer]:
+                  - /url: https://opac.westchesterlibraries.org
+              - listitem [ref=f922e50]:
+                - link "Listen, Read & Watch" [ref=f922e51] [cursor=pointer]:
+                  - /url: /listen-read
+              - listitem [ref=f922e52]:
+                - link "Business & Research" [ref=f922e53] [cursor=pointer]:
+                  - /url: /research-tools
+              - listitem [ref=f922e54]:
+                - link "Learn" [ref=f922e55] [cursor=pointer]:
+                  - /url: /learn-online
+              - listitem [ref=f922e56]:
+                - link "Jobs & Careers" [ref=f922e57] [cursor=pointer]:
+                  - /url: /jobs-careers/
+              - listitem [ref=f922e58]:
+                - link "Services" [ref=f922e59] [cursor=pointer]:
+                  - /url: /services-programs/
+              - listitem [ref=f922e60]:
+                - link "Member Libraries" [ref=f922e61] [cursor=pointer]:
+                  - /url: "#"
+              - listitem [ref=f922e62]:
+                - link "About WLS" [ref=f922e63] [cursor=pointer]:
+                  - /url: /about-wls
+    - main [ref=f922e66]:
+      - generic [ref=f922e67]:
+        - link "Westchester Library System" [ref=f922e68] [cursor=pointer]:
+          - /url: https://www.westchesterlibraries.org
+        - text: » Jobs & Careers
+      - generic [ref=f922e69]:
+        - heading "Jobs & Careers" [level=1] [ref=f922e70]
+        - list [ref=f922e73]:
+          - listitem [ref=f922e74]:
+            - strong [ref=f922e75]: "*NEW*"
+            - link "BlueCareer" [ref=f922e76] [cursor=pointer]:
+              - /url: /jobs-careers/bluecareer/
+            - text: – Provides in-depth information on more than 100 skilled trades, connects individuals with hundreds of trade schools across the United States and Canada, and provides training resources for those seeking to build their trade knowledge and experience.
+          - listitem [ref=f922e77]:
+            - link "WLS Career Coaching Services" [ref=f922e78] [cursor=pointer]:
+              - /url: https://wlscareercoachingservices.org/
+            - text: – Specialized programs with trained professionals to guide you in your career path.
+          - listitem [ref=f922e79]:
+            - link "Current Job Postings" [ref=f922e80] [cursor=pointer]:
+              - /url: /jobs-careers/job-postings/
+            - text: – Job postings that have been sent to WLS for listing.
+          - listitem [ref=f922e81]:
+            - generic [ref=f922e82]:
+              - link "On Demand Job Search Coaching" [ref=f922e83] [cursor=pointer]:
+                - /url: https://www.firstfind.org/jobs-and-careers/
+              - text: – Get free one-on-one job search help by emailing our
+              - link "Job Search Coach" [ref=f922e84] [cursor=pointer]:
+                - /url: https://www.firstfind.org/jobs-and-careers/job-search-coach/
+              - text: . Learn more about finding a job, interviewing techniques and training with our
+              - link "Job Search Toolkit" [ref=f922e85] [cursor=pointer]:
+                - /url: https://www.firstfind.org/jobs-and-careers/
+              - text: . Special sections on exploring different careers, opportunities for young people and unemployment support (see section on “Roadmaps”)
+    - contentinfo [ref=f922e86]:
+      - complementary [ref=f922e88]:
+        - list [ref=f922e90]:
+          - listitem [ref=f922e91]:
+            - heading [level=2] [ref=f922e92]:
+              - text: Westchester Library System | 570 Taxter Road | Suite 400Elmsford, NY 10523 | 914-674-3600
+              - link "WLS Patron Privacy Policy" [ref=f922e93] [cursor=pointer]:
+                - /url: /about-wls/patron-privacy/
+            - link:
+              - /url: /about-wls/patron-privacy/
+            - generic [ref=f922e94]:
+              - link:
+                - /url: /about-wls/patron-privacy/
+              - link [ref=f922e95] [cursor=pointer]:
+                - /url: /contact-wls/
+            - link [ref=f922e98] [cursor=pointer]:
+              - /url: https://www.guidestar.org/profile/13-1882114
+        - list [ref=f922e101]:
+          - listitem [ref=f922e102]:
+            - heading "WLS Sponsors:" [level=3] [ref=f922e103]
+            - generic [ref=f922e104]:
+              - link [ref=f922e105] [cursor=pointer]:
+                - /url: https://www.coned.com
+              - link [ref=f922e107] [cursor=pointer]:
+                - /url: https://www.imls.gov
+              - link [ref=f922e109] [cursor=pointer]:
+                - /url: https://www.westchestergov.com
+              - link [ref=f922e111] [cursor=pointer]:
+                - /url: https://www.applebank.com/
+              - link [ref=f922e113] [cursor=pointer]:
+                - /url: https://www.nysl.nysed.gov
+              - link [ref=f922e117] [cursor=pointer]:
+                - /url: https://www.mtb.com/
+              - link:
+                - /url: https://www.fieldhallfoundation.org/
+              - link:
+                - /url: https://www.uwwp.org
+              - link:
+                - /url: https://www.fulldeckdesign.com/
+              - link [ref=f922e122] [cursor=pointer]:
+                - /url: https://www.westchesterlibraries.org/about-wls/how-corporations-can-support-westchester-library-system/
+      - generic [ref=f922e125]:
+        - link "Westchester Library System" [ref=f922e126] [cursor=pointer]:
+          - /url: https://www.westchesterlibraries.org/
+        - text: "| Powered by"
+        - link "Mantra" [ref=f922e127] [cursor=pointer]:
+          - /url: //www.cryoutcreations.eu/mantra
+        - text: "&"
+        - link "WordPress." [ref=f922e128] [cursor=pointer]:
+          - /url: //wordpress.org/

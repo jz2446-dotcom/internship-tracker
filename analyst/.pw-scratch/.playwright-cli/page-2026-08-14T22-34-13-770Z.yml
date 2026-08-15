@@ -1,0 +1,262 @@
+- generic [active] [ref=f1398e1]:
+  - generic [ref=f1398e4]:
+    - generic [ref=f1398e7]:
+      - generic [ref=f1398e9]:
+        - generic:
+          - navigation "Skip to content":
+            - link "Skip to content" [ref=f1398e10] [cursor=pointer]:
+              - /url: "#main-content"
+          - link "IBM logo" [ref=f1398e13] [cursor=pointer]:
+            - /url: https://www.ibm.com/
+        - navigation "Primary navigation" [ref=f1398e23]:
+          - generic [ref=f1398e25]:
+            - generic:
+              - button "Software" [ref=f1398e27] [cursor=pointer]
+              - button "Infrastructure" [ref=f1398e31] [cursor=pointer]
+              - generic "Consulting" [ref=f1398e34]:
+                - link "Consulting" [ref=f1398e35] [cursor=pointer]:
+                  - /url: https://www.ibm.com/consulting?lnk=L0G
+              - button "Support" [ref=f1398e39] [cursor=pointer]
+              - generic "Think" [ref=f1398e42]:
+                - link "Think" [ref=f1398e43] [cursor=pointer]:
+                  - /url: https://www.ibm.com/think
+        - generic [ref=f1398e47]:
+          - generic:
+            - generic:
+              - link "Contact" [ref=f1398e49] [cursor=pointer]:
+                - /url: javascript:void 0
+              - button [ref=f1398e53] [cursor=pointer]
+      - generic [ref=f1398e57]:
+        - link "IBM Careers" [ref=f1398e60] [cursor=pointer]:
+          - /url: https://www.ibm.com/careers
+        - list [ref=f1398e63]:
+          - listitem [ref=f1398e64]:
+            - button "Life @ IBM" [ref=f1398e65]
+          - listitem [ref=f1398e68]:
+            - link "Career Areas" [ref=f1398e69] [cursor=pointer]:
+              - /url: https://www.ibm.com/careers/areas
+          - listitem [ref=f1398e70]:
+            - button "Entry level" [ref=f1398e71]
+          - listitem [ref=f1398e74]:
+            - button "Hiring Process" [ref=f1398e75]
+          - listitem [ref=f1398e78]:
+            - link "Search Jobs" [ref=f1398e79] [cursor=pointer]:
+              - /url: https://www.ibm.com/careers/search
+        - link "Connect" [ref=f1398e81] [cursor=pointer]:
+          - /url: https://www.ibm.com/careers/connect
+        - link "My profile" [ref=f1398e83] [cursor=pointer]:
+          - /url: https://careers.ibm.com/en_US/careers/JobAlerts?source=WEB_Search_NA
+    - generic [ref=f1398e93]:
+      - generic [ref=f1398e95]:
+        - generic [ref=f1398e96]:
+          - navigation "Breadcrumb" [ref=f1398e97]:
+            - list [ref=f1398e98]:
+              - listitem [ref=f1398e99]:
+                - link "Home" [ref=f1398e100] [cursor=pointer]:
+                  - /url: /
+                - text: /
+              - listitem [ref=f1398e102]:
+                - link "Careers" [ref=f1398e103] [cursor=pointer]:
+                  - /url: /careers
+                - text: /
+              - listitem [ref=f1398e105]:
+                - generic [ref=f1398e106]: Search Jobs
+          - heading "Come search jobs like an IBMer." [level=1] [ref=f1398e107]
+        - paragraph [ref=f1398e112]: From leading the way in groundbreaking technologies to making a difference in local communities, bring your skills to transform the way the world works.
+      - img "IBMers discussing" [ref=f1398e119]
+    - generic [ref=f1398e125]:
+      - main [ref=f1398e129]:
+        - generic [ref=f1398e137]:
+          - generic [ref=f1398e145]:
+            - generic:
+              - list
+          - generic [ref=f1398e146]:
+            - form "Search" [ref=f1398e150]:
+              - combobox "Search" [expanded] [ref=f1398e151]
+              - button [ref=f1398e152] [cursor=pointer]
+            - generic [ref=f1398e157]:
+              - generic [ref=f1398e158]: 1 – 0 of 0 items
+              - combobox [ref=f1398e164] [cursor=pointer]:
+                - 'option "Items per page: 10"'
+                - 'option "Items per page: 20"'
+                - 'option "Items per page: 30" [selected]'
+              - combobox [ref=f1398e168] [cursor=pointer]:
+                - option "Most Relevant" [selected]
+                - option "Newest To Oldest"
+                - option "Oldest to Newest"
+                - option "Title A-Z"
+                - option "Title Z-A"
+      - generic [ref=f1398e173]:
+        - generic [ref=f1398e175]:
+          - heading "Keep exploring." [level=2] [ref=f1398e177]
+          - generic [ref=f1398e178]:
+            - generic:
+              - list
+        - generic [ref=f1398e184]:
+          - generic:
+            - generic [ref=f1398e185]:
+              - heading "Talent Network" [level=4] [ref=f1398e189]
+              - paragraph [ref=f1398e193]: Stay up to date on career related news and events.
+              - link [ref=f1398e195] [cursor=pointer]:
+                - /url: https://careers.ibm.com/en_US/globalform?source=WEB_Search_NA
+                - generic "join our talent network button" [ref=f1398e196]:
+                  - link [ref=f1398e197]:
+                    - /url: https://careers.ibm.com/en_US/globalform?source=WEB_Search_NA
+            - generic [ref=f1398e203]:
+              - heading "Job Alerts" [level=4] [ref=f1398e207]
+              - paragraph [ref=f1398e211]: Get notified on job openings that match your skills.
+              - link [ref=f1398e213] [cursor=pointer]:
+                - /url: https://careers.ibm.com/en_US/careers/JobAlerts?source=WEB_Search_NA
+                - generic "Job Alerts button" [ref=f1398e214]:
+                  - link [ref=f1398e215]:
+                    - /url: https://careers.ibm.com/en_US/careers/JobAlerts?source=WEB_Search_NA
+            - generic [ref=f1398e221]:
+              - heading "Search Jobs" [level=4] [ref=f1398e225]
+              - paragraph [ref=f1398e229]: Come empower, invent and advance like an IBMer.
+              - link [ref=f1398e231] [cursor=pointer]:
+                - /url: https://www.ibm.com/careers/search
+                - generic "Search jobs button" [ref=f1398e232]:
+                  - link [ref=f1398e233]:
+                    - /url: https://www.ibm.com/careers/search
+            - generic [ref=f1398e239]:
+              - heading "Locations" [level=4] [ref=f1398e243]
+              - paragraph [ref=f1398e247]: Discover countless stories of impact and collaboration.
+              - link [ref=f1398e249] [cursor=pointer]:
+                - /url: https://www.ibm.com/careers/locations
+                - generic "Explore our Locations" [ref=f1398e250]:
+                  - link [ref=f1398e251]:
+                    - /url: https://www.ibm.com/careers/locations
+    - contentinfo "footer" [ref=f1398e260]:
+      - generic [ref=f1398e264]:
+        - link "IBM logo" [ref=f1398e266] [cursor=pointer]:
+          - /url: https://www.ibm.com/
+          - img "IBM Logo" [ref=f1398e267]
+        - navigation "Footer navigation" [ref=f1398e269]:
+          - list [ref=f1398e270]:
+            - generic:
+              - listitem [ref=f1398e271]:
+                - heading "Discover" [level=2] [ref=f1398e272]
+                - list [ref=f1398e275]:
+                  - generic:
+                    - listitem [ref=f1398e276]:
+                      - link "Products" [ref=f1398e277] [cursor=pointer]:
+                        - /url: https://www.ibm.com/products?lnk=flatitem
+                    - listitem [ref=f1398e278]:
+                      - link "Consulting services" [ref=f1398e279] [cursor=pointer]:
+                        - /url: https://www.ibm.com/consulting?lnk=flatitem
+                    - listitem [ref=f1398e280]:
+                      - link "Industries" [ref=f1398e281] [cursor=pointer]:
+                        - /url: https://www.ibm.com/industries?lnk=flatitem
+                    - listitem [ref=f1398e282]:
+                      - link "Case studies" [ref=f1398e283] [cursor=pointer]:
+                        - /url: https://www.ibm.com/case-studies?lnk=flatitem
+                    - listitem [ref=f1398e284]:
+                      - link "Financing" [ref=f1398e285] [cursor=pointer]:
+                        - /url: https://www.ibm.com/financing?lnk=flatitem
+                    - listitem [ref=f1398e286]:
+                      - link "Research" [ref=f1398e287] [cursor=pointer]:
+                        - /url: https://research.ibm.com/?lnk=flatitem
+              - listitem [ref=f1398e288]:
+                - heading "Follow" [level=2] [ref=f1398e289]
+                - list [ref=f1398e292]:
+                  - generic:
+                    - listitem [ref=f1398e293]:
+                      - link "LinkedIn" [ref=f1398e294] [cursor=pointer]:
+                        - /url: https://www.linkedin.com/company/ibm
+                    - listitem [ref=f1398e295]:
+                      - link "X" [ref=f1398e296] [cursor=pointer]:
+                        - /url: https://www.twitter.com/ibm
+                    - listitem [ref=f1398e297]:
+                      - link "Instagram" [ref=f1398e298] [cursor=pointer]:
+                        - /url: https://www.instagram.com/ibm
+                    - listitem [ref=f1398e299]:
+                      - link "YouTube" [ref=f1398e300] [cursor=pointer]:
+                        - /url: https://www.youtube.com/@IBM
+                    - listitem [ref=f1398e301]:
+                      - link "Podcasts" [ref=f1398e302] [cursor=pointer]:
+                        - /url: https://www.ibm.com/think/podcasts
+              - listitem [ref=f1398e303]:
+                - heading "Connect" [level=2] [ref=f1398e304]
+                - list [ref=f1398e307]:
+                  - generic:
+                    - listitem [ref=f1398e308]:
+                      - link "Business partners" [ref=f1398e309] [cursor=pointer]:
+                        - /url: https://www.ibm.com/partnerplus/directory/companies
+                    - listitem [ref=f1398e310]:
+                      - link "Documentation" [ref=f1398e311] [cursor=pointer]:
+                        - /url: https://www.ibm.com/docs/en?lnk=flathl
+                    - listitem [ref=f1398e312]:
+                      - link "Events" [ref=f1398e313] [cursor=pointer]:
+                        - /url: https://www.ibm.com/events/
+                    - listitem [ref=f1398e314]:
+                      - link "Newsletters" [ref=f1398e315] [cursor=pointer]:
+                        - /url: https://www.ibm.com/subscribe/
+                    - listitem [ref=f1398e316]:
+                      - link "Support" [ref=f1398e317] [cursor=pointer]:
+                        - /url: https://www.ibm.com/mysupport/s/?language=en_US&lnk=flathl
+                    - listitem [ref=f1398e318]:
+                      - link "TechXchange community" [ref=f1398e319] [cursor=pointer]:
+                        - /url: https://community.ibm.com/community/user/home?lnk=fpo
+              - listitem [ref=f1398e320]:
+                - heading "About" [level=2] [ref=f1398e321]
+                - list [ref=f1398e324]:
+                  - generic:
+                    - listitem [ref=f1398e325]:
+                      - link "Overview" [ref=f1398e326] [cursor=pointer]:
+                        - /url: https://www.ibm.com/about/?lnk=flatitem
+                    - listitem [ref=f1398e327]:
+                      - link "Careers" [ref=f1398e328] [cursor=pointer]:
+                        - /url: https://www.ibm.com/careers/us-en?lnk=flathl
+                    - listitem [ref=f1398e329]:
+                      - link "Investor relations" [ref=f1398e330] [cursor=pointer]:
+                        - /url: https://www.ibm.com/investor?lnk=flatitem
+                    - listitem [ref=f1398e331]:
+                      - link "Leadership" [ref=f1398e332] [cursor=pointer]:
+                        - /url: https://newsroom.ibm.com/executive-bios
+                    - listitem [ref=f1398e333]:
+                      - link "Newsroom" [ref=f1398e334] [cursor=pointer]:
+                        - /url: https://newsroom.ibm.com/?lnk=flatitem
+                    - listitem [ref=f1398e335]:
+                      - link "Security, privacy and trust" [ref=f1398e336] [cursor=pointer]:
+                        - /url: https://www.ibm.com/trust?lnk=flatitem
+      - navigation "Legal Navigation" [ref=f1398e338]:
+        - list [ref=f1398e340]:
+          - generic:
+            - listitem [ref=f1398e341]:
+              - link "Contact IBM" [ref=f1398e342] [cursor=pointer]:
+                - /url: https://www.ibm.com/contact/global
+            - listitem [ref=f1398e343]:
+              - link "Privacy" [ref=f1398e344] [cursor=pointer]:
+                - /url: https://www.ibm.com/us-en/privacy
+            - listitem [ref=f1398e345]:
+              - link "Terms of use" [ref=f1398e346] [cursor=pointer]:
+                - /url: https://www.ibm.com/legal?lnk=flg-tous-usen
+            - listitem [ref=f1398e347]:
+              - link "Accessibility" [ref=f1398e348] [cursor=pointer]:
+                - /url: https://www.ibm.com/able/?lnk=flg-acce-usen
+            - complementary "Open Cookie Preferences Modal" [ref=f1398e349]:
+              - link "Cookie Preferences, opens a dedicated popup modal window" [ref=f1398e350] [cursor=pointer]: Cookie Preferences
+  - alert [ref=f1398e362]
+  - banner "consent_blackbar":
+    - generic [ref=f1398e364]:
+      - button "close icon" [ref=f1398e366] [cursor=pointer]
+      - generic [ref=f1398e368]:
+        - generic [ref=f1398e371]:
+          - text: About cookies on this site
+          - generic [ref=f1398e372]:
+            - generic [ref=f1398e373]: Our websites require some cookies to function properly (required). In addition, other cookies may be used with your consent to analyze site usage, improve the user experience and for advertising.
+            - generic [ref=f1398e374]:
+              - text: For more information, please review your
+              - button "cookie preferences" [ref=f1398e375] [cursor=pointer]
+              - text: options. By visiting our website, you agree to our processing of information as described in IBM’s
+              - link "privacy statement" [ref=f1398e376] [cursor=pointer]:
+                - /url: https://www.ibm.com/privacy
+              - text: .
+            - generic [ref=f1398e377]:
+              - text: To provide a smooth navigation, your cookie preferences will be shared across the IBM web domains listed
+              - link "here" [ref=f1398e378] [cursor=pointer]:
+                - /url: "#truste_domain_list"
+              - text: .
+        - generic [ref=f1398e379]:
+          - button "Accept all" [ref=f1398e380] [cursor=pointer]
+          - button "More options" [ref=f1398e381] [cursor=pointer]

@@ -1,0 +1,37 @@
+- generic [active] [ref=f15e1]:
+  - main [ref=f15e2]:
+    - generic [ref=f15e3]:
+      - heading "www.brightnetwork.co.uk" [level=1] [ref=f15e5]
+      - heading "Performing security verification" [level=2] [ref=f15e6]
+      - paragraph [ref=f15e7]: This website uses a security service to protect against malicious bots. This page is displayed while the website verifies you are not a bot.
+      - alert [ref=f15e8]:
+        - generic [ref=f15e9]:
+          - heading "Why is this verification taking longer?" [level=2] [ref=f15e10]
+          - paragraph [ref=f15e11]: This verification can take longer due to an older computer or a slow internet connection.
+          - paragraph [ref=f15e12]: "What to do next:"
+          - list [ref=f15e13]:
+            - listitem [ref=f15e14]: Wait briefly. Refreshing the page will restart the security verification and may take longer.
+            - listitem [ref=f15e15]:
+              - text: If the verification still does not complete,
+              - link "refresh this page" [ref=f15e16] [cursor=pointer]:
+                - /url: "#"
+              - text: .
+            - listitem [ref=f15e17]:
+              - text: If you are still stuck on this page after a page refresh, refer to Cloudflare’s
+              - link "troubleshooting documentation" [ref=f15e18] [cursor=pointer]:
+                - /url: /cdn-cgi/challenge-platform/help
+              - text: for more help.
+  - contentinfo [ref=f15e19]:
+    - generic [ref=f15e21]:
+      - generic [ref=f15e23]:
+        - text: "Ray ID:"
+        - code [ref=f15e24]: a2a4bdf48ff1c6a2
+      - generic [ref=f15e25]:
+        - generic [ref=f15e26]:
+          - text: Performance and Security by
+          - link "Cloudflare, opens in a new tab" [ref=f15e27] [cursor=pointer]:
+            - /url: https://www.cloudflare.com?utm_source=challenge&utm_campaign=m
+            - text: Cloudflare
+        - link "Privacy, opens in a new tab" [ref=f15e29] [cursor=pointer]:
+          - /url: https://www.cloudflare.com/privacypolicy/
+          - text: Privacy

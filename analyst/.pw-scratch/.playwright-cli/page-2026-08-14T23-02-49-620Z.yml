@@ -1,0 +1,472 @@
+- generic [active] [ref=f1769e1]:
+  - banner [ref=f1769e3]:
+    - generic:
+      - link "Skip to main content":
+        - /url: "#skipToMainContent"
+    - generic [ref=f1769e7]:
+      - link "Company Logo" [ref=f1769e9] [cursor=pointer]:
+        - /url: https://careers.united.com/us/en/
+        - img "Company Logo" [ref=f1769e10]
+      - navigation "primary" [ref=f1769e17]:
+        - list [ref=f1769e18]:
+          - listitem [ref=f1769e19]:
+            - link "Careers home" [ref=f1769e21] [cursor=pointer]:
+              - /url: https://careers.united.com/us/en/home
+              - text: Careers Home
+          - listitem [ref=f1769e22]:
+            - link "Locations" [ref=f1769e24] [cursor=pointer]:
+              - /url: https://careers.united.com/us/en/search-results
+              - text: Open Jobs
+          - listitem [ref=f1769e25]:
+            - link "Events" [ref=f1769e27] [cursor=pointer]:
+              - /url: https://careers.united.com/us/en/events
+          - listitem [ref=f1769e28]:
+            - button "Working At United" [ref=f1769e29] [cursor=pointer]
+      - list [ref=f1769e35]:
+        - listitem [ref=f1769e36]:
+          - button "Login" [ref=f1769e40] [cursor=pointer]
+        - listitem [ref=f1769e47]:
+          - link "saved jobs (0)" [ref=f1769e50] [cursor=pointer]:
+            - /url: https://careers.united.com/us/en/jobcart
+            - generic [ref=f1769e54]: Saved jobs
+            - generic [ref=f1769e55]: (0)
+  - main [ref=f1769e56]:
+    - generic: "-"
+    - generic [ref=f1769e57]: "-"
+    - generic [ref=f1769e63]:
+      - generic [ref=f1769e64]:
+        - region "Refine your search" [ref=f1769e68]:
+          - text: $
+          - heading "Refine your search" [level=2] [ref=f1769e71]
+          - generic [ref=f1769e72]:
+            - generic [ref=f1769e73]:
+              - heading [level=3] [ref=f1769e76]:
+                - button "Category" [expanded] [ref=f1769e77] [cursor=pointer]:
+                  - text: Category
+                  - generic [ref=f1769e78]: "8"
+              - generic [ref=f1769e80]:
+                - generic [ref=f1769e82]:
+                  - searchbox "Category" [ref=f1769e83]
+                  - text: ":"
+                - group "Category" [ref=f1769e85]:
+                  - list [ref=f1769e87]:
+                    - listitem [ref=f1769e88]:
+                      - generic [ref=f1769e89] [cursor=pointer]:
+                        - checkbox "Corporate 110 jobs" [ref=f1769e90]
+                        - generic [ref=f1769e92]:
+                          - text: Corporate
+                          - generic [ref=f1769e93]:
+                            - text: (110)
+                            - generic [ref=f1769e94]: jobs
+                    - listitem [ref=f1769e95]:
+                      - generic [ref=f1769e96] [cursor=pointer]:
+                        - checkbox "Digital Technology 57 jobs" [ref=f1769e97]
+                        - generic [ref=f1769e99]:
+                          - text: Digital Technology
+                          - generic [ref=f1769e100]:
+                            - text: (57)
+                            - generic [ref=f1769e101]: jobs
+                    - listitem [ref=f1769e102]:
+                      - generic [ref=f1769e103] [cursor=pointer]:
+                        - checkbox "Aircraft Maintenance and Support 47 jobs" [ref=f1769e104]
+                        - generic [ref=f1769e106]:
+                          - text: Aircraft Maintenance and Support
+                          - generic [ref=f1769e107]:
+                            - text: (47)
+                            - generic [ref=f1769e108]: jobs
+                    - listitem [ref=f1769e109]:
+                      - generic [ref=f1769e110] [cursor=pointer]:
+                        - checkbox "At the Airport 33 jobs" [ref=f1769e111]
+                        - generic [ref=f1769e113]:
+                          - text: At the Airport
+                          - generic [ref=f1769e114]:
+                            - text: (33)
+                            - generic [ref=f1769e115]: jobs
+                    - listitem [ref=f1769e116]:
+                      - generic [ref=f1769e117] [cursor=pointer]:
+                        - checkbox "Customer Solutions 7 jobs" [ref=f1769e118]
+                        - generic [ref=f1769e120]:
+                          - text: Customer Solutions
+                          - generic [ref=f1769e121]:
+                            - text: (7)
+                            - generic [ref=f1769e122]: jobs
+                    - listitem [ref=f1769e123]:
+                      - generic [ref=f1769e124] [cursor=pointer]:
+                        - checkbox "Flight Attendant 6 jobs" [ref=f1769e125]
+                        - generic [ref=f1769e127]:
+                          - text: Flight Attendant
+                          - generic [ref=f1769e128]:
+                            - text: (6)
+                            - generic [ref=f1769e129]: jobs
+            - generic [ref=f1769e130]:
+              - heading [level=3] [ref=f1769e133]:
+                - button "Country" [ref=f1769e134] [cursor=pointer]:
+                  - text: Country
+                  - generic [ref=f1769e135]: (
+              - generic: ":"
+            - generic [ref=f1769e136]:
+              - heading [level=3] [ref=f1769e139]:
+                - button "State / Province" [ref=f1769e140] [cursor=pointer]:
+                  - text: State / Province
+                  - generic [ref=f1769e141]: (
+              - generic: ":"
+            - generic [ref=f1769e142]:
+              - heading [level=3] [ref=f1769e145]:
+                - button "City" [ref=f1769e146] [cursor=pointer]:
+                  - text: City
+                  - generic [ref=f1769e147]: (
+              - generic: ":"
+            - generic [ref=f1769e148]:
+              - heading [level=3] [ref=f1769e151]:
+                - button "Hiring Type" [ref=f1769e152] [cursor=pointer]:
+                  - text: Hiring Type
+                  - generic [ref=f1769e153]: (
+              - generic: ":"
+            - generic [ref=f1769e154]:
+              - heading [level=3] [ref=f1769e157]:
+                - button "Job ID" [ref=f1769e158] [cursor=pointer]:
+                  - text: Job ID
+                  - generic [ref=f1769e159]: (
+              - generic: ":"
+          - generic: Search results updated 151 jobs found
+        - generic [ref=f1769e169]:
+          - link "United Benefits" [ref=f1769e170] [cursor=pointer]:
+            - /url: benefits
+          - generic [ref=f1769e177]:
+            - heading "United Benefits" [level=2] [ref=f1769e179]
+            - generic [ref=f1769e182]: Learn more about the competitive benefits package that will keep you happy, healthy and well-traveled.
+      - generic [ref=f1769e188]:
+        - region "Search results" [ref=f1769e189]:
+          - generic [ref=f1769e191]:
+            - generic [ref=f1769e193]:
+              - generic [ref=f1769e196]:
+                - generic [ref=f1769e197]: Search job title, location, or military code
+                - textbox "Search job title, location, or military code" [ref=f1769e198]
+                - text: "$ :"
+              - generic [ref=f1769e200]:
+                - generic [ref=f1769e201]: 151 results
+                - generic [ref=f1769e202]:
+                  - text: "|"
+                  - generic [ref=f1769e203]: Sort by
+                  - generic [ref=f1769e204]:
+                    - combobox "Sort by" [ref=f1769e205]:
+                      - option "Most relevant" [selected]
+                      - option "Most recent"
+                    - generic: 
+                - text: F
+            - list [ref=f1769e207]:
+              - listitem [ref=f1769e208]:
+                - generic [ref=f1769e209]:
+                  - generic [ref=f1769e210]:
+                    - heading [level=3] [ref=f1769e211]:
+                      - link "Developer I Job ID is GGN00002574" [ref=f1769e212] [cursor=pointer]:
+                        - /url: https://careers.united.com/us/en/job/GGN00002574/Developer-I
+                        - generic [ref=f1769e213]: Developer I
+                    - paragraph [ref=f1769e214]:
+                      - generic [ref=f1769e216]:
+                        - generic [ref=f1769e217]: Location
+                        - generic [ref=f1769e218]: 
+                        - text: Gurugram, Haryana, India
+                      - button "Associated with 2 categories" [ref=f1769e221] [cursor=pointer]:
+                        - generic [ref=f1769e222]: 
+                        - text: Associated with 2 categories
+                      - generic [ref=f1769e224]:
+                        - generic [ref=f1769e225]: Job Id
+                        - text: GGN00002574
+                      - generic [ref=f1769e227]:
+                        - generic [ref=f1769e228]: Posted Date
+                        - generic [ref=f1769e229]: 
+                        - text: August 12 2026
+                    - text: 
+                    - paragraph [ref=f1769e230]: Seeking a motivated Developer to support the development and implementation of applications within our application ecosystem. Contribute to cloud-enabled projects, collaborate in Agile teams, and enhance technical skills. Ideal for candidates with foundational .NET and JavaScript experience, eager to learn modern technologies.
+                  - link "Apply Now for Developer I" [ref=f1769e233] [cursor=pointer]:
+                    - /url: https://careers.united.com/us/en/hvhapply?jobSeqNo=UAIUADUSGGN00002574EXTERNALENUSTALEO
+                    - text: Apply Now
+                    - generic [ref=f1769e234]: Developer I
+              - listitem [ref=f1769e235]:
+                - generic [ref=f1769e236]:
+                  - generic [ref=f1769e237]:
+                    - heading [level=3] [ref=f1769e238]:
+                      - link "Senior Knowledge Graph Developer Job ID is WHQ00026584" [ref=f1769e239] [cursor=pointer]:
+                        - /url: https://careers.united.com/us/en/job/WHQ00026584/Senior-Knowledge-Graph-Developer
+                        - generic [ref=f1769e240]: Senior Knowledge Graph Developer
+                    - paragraph [ref=f1769e241]:
+                      - generic [ref=f1769e243]:
+                        - generic [ref=f1769e244]: Location
+                        - generic [ref=f1769e245]: 
+                        - text: Chicago, Illinois, United States
+                      - button "Associated with 2 categories" [ref=f1769e248] [cursor=pointer]:
+                        - generic [ref=f1769e249]: 
+                        - text: Associated with 2 categories
+                      - generic [ref=f1769e251]:
+                        - generic [ref=f1769e252]: Job Id
+                        - text: WHQ00026584
+                      - generic [ref=f1769e254]:
+                        - generic [ref=f1769e255]: Posted Date
+                        - generic [ref=f1769e256]: 
+                        - text: July 31 2026
+                    - text: 
+                    - paragraph [ref=f1769e257]: Become part of our team as a Senior Knowledge Graph Developer, leading the design and implementation of scalable enterprise knowledge graphs. Drive the transformation of complex data into interconnected semantic layers, collaborating with data science teams. Ideal for experienced professionals with deep expertise in graph technologies and data engineering.
+                  - link "Apply Now for Senior Knowledge Graph Developer" [ref=f1769e260] [cursor=pointer]:
+                    - /url: https://careers.united.com/us/en/hvhapply?jobSeqNo=UAIUADUSWHQ00026584EXTERNALENUSTALEO
+                    - text: Apply Now
+                    - generic [ref=f1769e261]: Senior Knowledge Graph Developer
+              - listitem [ref=f1769e262]:
+                - generic [ref=f1769e263]:
+                  - generic [ref=f1769e264]:
+                    - heading [level=3] [ref=f1769e265]:
+                      - link "Analyst - Predictive Safety Analytics Job ID is GGN00002617" [ref=f1769e266] [cursor=pointer]:
+                        - /url: https://careers.united.com/us/en/job/GGN00002617/Analyst-Predictive-Safety-Analytics
+                        - generic [ref=f1769e267]: Analyst - Predictive Safety Analytics
+                    - paragraph [ref=f1769e268]:
+                      - generic [ref=f1769e270]:
+                        - generic [ref=f1769e271]: Location
+                        - generic [ref=f1769e272]: 
+                        - text: Gurugram, Haryana, India
+                      - generic [ref=f1769e274]:
+                        - generic [ref=f1769e275]: Category
+                        - generic [ref=f1769e276]: 
+                        - text: Corporate
+                      - generic [ref=f1769e278]:
+                        - generic [ref=f1769e279]: Job Id
+                        - text: GGN00002617
+                      - generic [ref=f1769e281]:
+                        - generic [ref=f1769e282]: Posted Date
+                        - generic [ref=f1769e283]: 
+                        - text: July 22 2026
+                    - text: 
+                    - paragraph [ref=f1769e284]: We are looking for a skilled Analyst - Predictive Safety Analytics to support the development and implementation of safety data strategies. You will deliver actionable insights, develop predictive analytics workflows, and collaborate with internal teams. Ideal candidates have experience in data analytics, predictive modelling, and AI tools.
+                  - link "Apply Now for Analyst - Predictive Safety Analytics" [ref=f1769e287] [cursor=pointer]:
+                    - /url: https://careers.united.com/us/en/hvhapply?jobSeqNo=UAIUADUSGGN00002617EXTERNALENUSTALEO
+                    - text: Apply Now
+                    - generic [ref=f1769e288]: Analyst - Predictive Safety Analytics
+              - listitem [ref=f1769e289]:
+                - generic [ref=f1769e290]:
+                  - generic [ref=f1769e291]:
+                    - heading [level=3] [ref=f1769e292]:
+                      - link "Senior Product Manager - API Management Job ID is WHQ00026118-1" [ref=f1769e293] [cursor=pointer]:
+                        - /url: https://careers.united.com/us/en/job/WHQ00026118-1/Senior-Product-Manager-API-Management
+                        - generic [ref=f1769e294]: Senior Product Manager - API Management
+                    - paragraph [ref=f1769e295]:
+                      - generic [ref=f1769e297]:
+                        - generic [ref=f1769e298]: Location
+                        - generic [ref=f1769e299]: 
+                        - text: Chicago, Illinois, United States
+                      - button "Associated with 2 categories" [ref=f1769e302] [cursor=pointer]:
+                        - generic [ref=f1769e303]: 
+                        - text: Associated with 2 categories
+                      - generic [ref=f1769e305]:
+                        - generic [ref=f1769e306]: Job Id
+                        - text: WHQ00026118-1
+                      - generic [ref=f1769e308]:
+                        - generic [ref=f1769e309]: Posted Date
+                        - generic [ref=f1769e310]: 
+                        - text: July 28 2026
+                    - text: 
+                    - paragraph [ref=f1769e311]: "We are expanding our team: As a Senior Product Manager - API Management, you will drive the adoption and road mapping of enterprise integration technologies, leading product development and delivery for scalable messaging solutions. Ideal candidates bring significant experience in API management and leadership within large-scale enterprise environments."
+                  - link "Apply Now for Senior Product Manager - API Management" [ref=f1769e314] [cursor=pointer]:
+                    - /url: https://careers.united.com/us/en/hvhapply?jobSeqNo=UAIUADUSWHQ000261181EXTERNALENUSTALEO
+                    - text: Apply Now
+                    - generic [ref=f1769e315]: Senior Product Manager - API Management
+              - listitem [ref=f1769e316]:
+                - generic [ref=f1769e317]:
+                  - generic [ref=f1769e318]:
+                    - heading [level=3] [ref=f1769e319]:
+                      - link "Director - Sales Strategy Job ID is WHQ00026709" [ref=f1769e320] [cursor=pointer]:
+                        - /url: https://careers.united.com/us/en/job/WHQ00026709/Director-Sales-Strategy
+                        - generic [ref=f1769e321]: Director - Sales Strategy
+                    - paragraph [ref=f1769e322]:
+                      - generic [ref=f1769e324]:
+                        - generic [ref=f1769e325]: Location
+                        - generic [ref=f1769e326]: 
+                        - text: Chicago, Illinois, United States
+                      - generic [ref=f1769e328]:
+                        - generic [ref=f1769e329]: Category
+                        - generic [ref=f1769e330]: 
+                        - text: Corporate
+                      - generic [ref=f1769e332]:
+                        - generic [ref=f1769e333]: Job Id
+                        - text: WHQ00026709
+                      - generic [ref=f1769e335]:
+                        - generic [ref=f1769e336]: Posted Date
+                        - generic [ref=f1769e337]: 
+                        - text: August 14 2026
+                    - text: 
+                    - paragraph [ref=f1769e338]: Join us as Director - Sales Strategy to set the direction for United’s B2B commercial dealings, leading strategic projects and driving innovative sales solutions. Oversee three sales strategy teams and deliver high-quality insights. Ideal for experienced leaders with a strong background in travel sales and team management.
+                  - link "Apply Now for Director - Sales Strategy" [ref=f1769e341] [cursor=pointer]:
+                    - /url: https://careers.united.com/us/en/hvhapply?jobSeqNo=UAIUADUSWHQ00026709EXTERNALENUSTALEO
+                    - text: Apply Now
+                    - generic [ref=f1769e342]: Director - Sales Strategy
+              - listitem [ref=f1769e343]:
+                - generic [ref=f1769e344]:
+                  - generic [ref=f1769e345]:
+                    - heading [level=3] [ref=f1769e346]:
+                      - link "Sr Mgr - IT Appl Development Job ID is GGN00002590" [ref=f1769e347] [cursor=pointer]:
+                        - /url: https://careers.united.com/us/en/job/GGN00002590/Sr-Mgr-IT-Appl-Development
+                        - generic [ref=f1769e348]: Sr Mgr - IT Appl Development
+                    - paragraph [ref=f1769e349]:
+                      - generic [ref=f1769e351]:
+                        - generic [ref=f1769e352]: Location
+                        - generic [ref=f1769e353]: 
+                        - text: Gurugram, Haryana, India
+                      - button "Associated with 2 categories" [ref=f1769e356] [cursor=pointer]:
+                        - generic [ref=f1769e357]: 
+                        - text: Associated with 2 categories
+                      - generic [ref=f1769e359]:
+                        - generic [ref=f1769e360]: Job Id
+                        - text: GGN00002590
+                      - generic [ref=f1769e362]:
+                        - generic [ref=f1769e363]: Posted Date
+                        - generic [ref=f1769e364]: 
+                        - text: August 11 2026
+                    - text: 
+                    - paragraph [ref=f1769e365]: We are recruiting a Senior Manager – IT Application Development to lead the transformation of United’s Enterprise Technology landscape. Drive the design and automation of intelligent agents and workflows, leveraging advanced AI frameworks. Ideal for experienced leaders with deep expertise in cloud-native development and enterprise systems.
+                  - link "Apply Now for Sr Mgr - IT Appl Development" [ref=f1769e368] [cursor=pointer]:
+                    - /url: https://careers.united.com/us/en/hvhapply?jobSeqNo=UAIUADUSGGN00002590EXTERNALENUSTALEO
+                    - text: Apply Now
+                    - generic [ref=f1769e369]: Sr Mgr - IT Appl Development
+              - listitem [ref=f1769e370]:
+                - generic [ref=f1769e371]:
+                  - generic [ref=f1769e372]:
+                    - heading [level=3] [ref=f1769e373]:
+                      - link "DO NOT APPLY - TEST Job ID is HVH-GER-TEST" [ref=f1769e374] [cursor=pointer]:
+                        - /url: https://careers.united.com/us/en/job/HVH-GER-TEST/DO-NOT-APPLY-TEST
+                        - generic [ref=f1769e375]: DO NOT APPLY - TEST
+                    - paragraph [ref=f1769e376]:
+                      - generic [ref=f1769e378]:
+                        - generic [ref=f1769e379]: Location
+                        - generic [ref=f1769e380]: 
+                        - text: Frankfurt am Main, Hessen, Germany
+                      - button "Associated with 2 categories" [ref=f1769e383] [cursor=pointer]:
+                        - generic [ref=f1769e384]: 
+                        - text: Associated with 2 categories
+                      - generic [ref=f1769e386]:
+                        - generic [ref=f1769e387]: Job Id
+                        - text: HVH-GER-TEST
+                      - generic [ref=f1769e389]:
+                        - generic [ref=f1769e390]: Posted Date
+                        - generic [ref=f1769e391]: 
+                        - text: August 13 2026
+                    - text: 
+                    - paragraph [ref=f1769e392]: Seeking a professional to serve as the airport representative, ensuring smooth passenger arrivals and departures. Key duties include ticketing, baggage handling, and providing friendly, reliable service. Ideal for candidates with strong customer service skills, fluency in English and German, and a commitment to operational excellence.
+                  - link "Apply Now for DO NOT APPLY - TEST" [ref=f1769e395] [cursor=pointer]:
+                    - /url: https://careers.united.com/us/en/hvhapply?jobSeqNo=UAIUADUSHVHGERTESTEXTERNALENUSTALEO
+                    - text: Apply Now
+                    - generic [ref=f1769e396]: DO NOT APPLY - TEST
+              - listitem [ref=f1769e397]:
+                - generic [ref=f1769e398]:
+                  - generic [ref=f1769e399]:
+                    - heading [level=3] [ref=f1769e400]:
+                      - link "Developer - Information Technology Job ID is WHQ00026621" [ref=f1769e401] [cursor=pointer]:
+                        - /url: https://careers.united.com/us/en/job/WHQ00026621/Developer-Information-Technology
+                        - generic [ref=f1769e402]: Developer - Information Technology
+                    - paragraph [ref=f1769e403]:
+                      - generic [ref=f1769e405]:
+                        - generic [ref=f1769e406]: Location
+                        - generic [ref=f1769e407]: 
+                        - text: Chicago, Illinois, United States
+                      - button "Associated with 2 categories" [ref=f1769e410] [cursor=pointer]:
+                        - generic [ref=f1769e411]: 
+                        - text: Associated with 2 categories
+                      - generic [ref=f1769e413]:
+                        - generic [ref=f1769e414]: Job Id
+                        - text: WHQ00026621
+                      - generic [ref=f1769e416]:
+                        - generic [ref=f1769e417]: Posted Date
+                        - generic [ref=f1769e418]: 
+                        - text: July 27 2026
+                    - text: 
+                    - paragraph [ref=f1769e419]: Join us as a Developer - Information Technology to build and enhance features within our Internal Developer Portal and support the evolution of United’s API ecosystem. You will develop developer-facing capabilities and improve the Kong API platform. Ideal candidates have strong software engineering experience and expertise in cloud-native development.
+                  - link "Apply Now for Developer - Information Technology" [ref=f1769e422] [cursor=pointer]:
+                    - /url: https://careers.united.com/us/en/hvhapply?jobSeqNo=UAIUADUSWHQ00026621EXTERNALENUSTALEO
+                    - text: Apply Now
+                    - generic [ref=f1769e423]: Developer - Information Technology
+              - listitem [ref=f1769e424]:
+                - generic [ref=f1769e425]:
+                  - generic [ref=f1769e426]:
+                    - heading [level=3] [ref=f1769e427]:
+                      - link "Ramp Service Employee - Full Time - Narita Job ID is NRT00000185" [ref=f1769e428] [cursor=pointer]:
+                        - /url: https://careers.united.com/us/en/job/NRT00000185/Ramp-Service-Employee-Full-Time-Narita
+                        - generic [ref=f1769e429]: Ramp Service Employee - Full Time - Narita
+                    - paragraph [ref=f1769e430]:
+                      - generic [ref=f1769e432]:
+                        - generic [ref=f1769e433]: Location
+                        - generic [ref=f1769e434]: 
+                        - text: Chiba, Tokyo-To, Japan
+                      - generic [ref=f1769e436]:
+                        - generic [ref=f1769e437]: Category
+                        - generic [ref=f1769e438]: 
+                        - text: At the Airport
+                      - generic [ref=f1769e440]:
+                        - generic [ref=f1769e441]: Job Id
+                        - text: NRT00000185
+                      - generic [ref=f1769e443]:
+                        - generic [ref=f1769e444]: Posted Date
+                        - generic [ref=f1769e445]: 
+                        - text: July 30 2026
+                    - text: 
+                    - paragraph [ref=f1769e446]: "We are expanding our team: As a Ramp Service Employee at Narita, you will play a key role in processing baggage and cargo, ensuring operational safety and high-quality service. This position suits individuals with strong attention to detail and the ability to work in a deadline-driven, physically demanding environment."
+                  - link "Apply Now for Ramp Service Employee - Full Time - Narita" [ref=f1769e449] [cursor=pointer]:
+                    - /url: https://careers.united.com/us/en/hvhapply?jobSeqNo=UAIUADUSNRT00000185EXTERNALENUSTALEO
+                    - text: Apply Now
+                    - generic [ref=f1769e450]: Ramp Service Employee - Full Time - Narita
+              - listitem [ref=f1769e451]:
+                - generic [ref=f1769e452]:
+                  - generic [ref=f1769e453]:
+                    - heading [level=3] [ref=f1769e454]:
+                      - link "Hub Maintenance Coordinator Job ID is ORD00003684" [ref=f1769e455] [cursor=pointer]:
+                        - /url: https://careers.united.com/us/en/job/ORD00003684/Hub-Maintenance-Coordinator
+                        - generic [ref=f1769e456]: Hub Maintenance Coordinator
+                    - paragraph [ref=f1769e457]:
+                      - generic [ref=f1769e459]:
+                        - generic [ref=f1769e460]: Location
+                        - generic [ref=f1769e461]: 
+                        - text: Chicago, Illinois, United States
+                      - button "Associated with 2 categories" [ref=f1769e464] [cursor=pointer]:
+                        - generic [ref=f1769e465]: 
+                        - text: Associated with 2 categories
+                      - generic [ref=f1769e467]:
+                        - generic [ref=f1769e468]: Job Id
+                        - text: ORD00003684
+                      - generic [ref=f1769e470]:
+                        - generic [ref=f1769e471]: Posted Date
+                        - generic [ref=f1769e472]: 
+                        - text: August 12 2026
+                    - text: 
+                    - paragraph [ref=f1769e473]: We are currently hiring a Hub Maintenance Coordinator to represent our Technical Operations department, coordinate maintenance activities, and ensure aircraft readiness. The role involves managing maintenance discrepancies and supporting operational goals. Ideal candidates have significant aircraft maintenance experience and strong communication skills.
+                  - link "Apply Now for Hub Maintenance Coordinator" [ref=f1769e476] [cursor=pointer]:
+                    - /url: https://careers.united.com/us/en/hvhapply?jobSeqNo=UAIUADUSORD00003684EXTERNALENUSTALEO
+                    - text: Apply Now
+                    - generic [ref=f1769e477]: Hub Maintenance Coordinator
+        - region "pagination" [ref=f1769e478]:
+          - text: Z
+          - button "Page 1": "1"
+          - button "Page 2" [ref=f1769e479] [cursor=pointer]: "2"
+          - button "Page 3" [ref=f1769e480] [cursor=pointer]: "3"
+          - button "Page 4" [ref=f1769e481] [cursor=pointer]: "4"
+          - button "Page 5" [ref=f1769e482] [cursor=pointer]: "5"
+          - button "Page 6" [ref=f1769e483] [cursor=pointer]: "6"
+          - button "Page 7" [ref=f1769e484] [cursor=pointer]: "7"
+          - button "Page 8" [ref=f1769e485] [cursor=pointer]: "8"
+          - button "Page 9" [ref=f1769e486] [cursor=pointer]: "9"
+          - button "Page 10" [ref=f1769e487] [cursor=pointer]: "10"
+          - button "View next page" [ref=f1769e488] [cursor=pointer]:
+            - generic [ref=f1769e489]: 
+  - contentinfo [ref=f1769e490]:
+    - generic [ref=f1769e492]:
+      - generic [ref=f1769e495]:
+        - list [ref=f1769e499]:
+          - listitem [ref=f1769e500]:
+            - link "Career Site Cookie Settings" [ref=f1769e502] [cursor=pointer]:
+              - /url: javascript:showConsentPreferencesPopup()
+          - listitem [ref=f1769e503]:
+            - link "Personal Information" [ref=f1769e505] [cursor=pointer]:
+              - /url: https://careers.united.com/us/en/personal-information
+        - generic [ref=f1769e506]:
+          - strong [ref=f1769e507]: United Careers – Accessibility and Accommodations
+          - text: United complies with all state and federal laws and supports applicants and employees by providing reasonable accommodations for disabilities and sincerely held religious beliefs, observances, and practices. Applicants, employees, and individuals with conditional job offers may request an accommodation or support at any stage of the hiring process or employment to help perform essential job functions. For assistance, please contact
+          - link "JobAccommodations@united.com" [ref=f1769e509] [cursor=pointer]:
+            - /url: mailto:JobAccommodations@united.com
+          - text: .
+      - generic [ref=f1769e510]: Copyright © 2026 United Airlines, Inc. All rights reserved.
+  - iframe [ref=f1769e514]

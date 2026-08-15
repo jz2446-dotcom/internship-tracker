@@ -1,0 +1,79 @@
+- generic [active] [ref=f1088e1]:
+  - link "Skip to main content" [ref=f1088e2] [cursor=pointer]:
+    - /url: "#main-content"
+  - banner [ref=f1088e3]:
+    - generic [ref=f1088e5]:
+      - link "Uber" [ref=f1088e7] [cursor=pointer]:
+        - /url: /en/
+      - link "Login" [ref=f1088e11] [cursor=pointer]:
+        - /url: https://iaziqy.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UberCareers/my-profile/sign-in
+  - main [ref=f1088e13]:
+    - heading "Find your next move" [level=1] [ref=f1088e17]
+    - generic [ref=f1088e19]:
+      - generic [ref=f1088e24]:
+        - generic [ref=f1088e25]:
+          - generic [ref=f1088e26]: Search by skill
+          - textbox "Search by skill" [ref=f1088e28]:
+            - /placeholder: Search roles by title, skill, or keyword
+        - generic [ref=f1088e29]:
+          - generic [ref=f1088e30]: Location
+          - generic [ref=f1088e31]:
+            - combobox "Location" [ref=f1088e33]
+            - button "Use my location" [ref=f1088e34] [cursor=pointer]
+        - generic [ref=f1088e36]:
+          - generic [ref=f1088e37]: Country
+          - combobox [ref=f1088e38] [cursor=pointer]:
+            - generic [ref=f1088e39]: All countries
+        - generic [ref=f1088e40]:
+          - generic [ref=f1088e41]: Radius in miles
+          - spinbutton "Radius in miles" [ref=f1088e42]: "100"
+          - generic "Radius in miles" [ref=f1088e43]
+        - generic [ref=f1088e46]:
+          - generic [ref=f1088e47]: Team
+          - combobox "Team" [ref=f1088e48]
+          - combobox [ref=f1088e49]
+        - button "Search" [ref=f1088e51] [cursor=pointer]
+      - generic [ref=f1088e52]:
+        - generic [ref=f1088e53]:
+          - paragraph [ref=f1088e54]: Get job alerts for this search by email
+          - button "Create alert" [ref=f1088e55] [cursor=pointer]
+        - paragraph [ref=f1088e56]: Loading jobs…
+    - generic [ref=f1088e59]:
+      - heading "Get ahead, stay ahead" [level=2] [ref=f1088e63]
+      - paragraph [ref=f1088e67]:
+        - generic [ref=f1088e68]: Join our talent community to stay connected, receive updates, and be the first to know about new opportunities at Uber.
+      - link "Join our talent community" [ref=f1088e71] [cursor=pointer]:
+        - /url: https://flows.beamery.com/uber/join-our-talent-community
+  - contentinfo [ref=f1088e72]:
+    - link "Uber" [ref=f1088e76] [cursor=pointer]:
+      - /url: /en/
+    - generic [ref=f1088e78]:
+      - paragraph [ref=f1088e80]: © 2026 Uber Technologies Inc.
+      - list [ref=f1088e81]:
+        - listitem [ref=f1088e82]:
+          - link "Uber.com" [ref=f1088e83] [cursor=pointer]:
+            - /url: https://www.uber.com
+        - listitem [ref=f1088e84]:
+          - link "Cookies" [ref=f1088e85] [cursor=pointer]:
+            - /url: /en/cookies/
+        - listitem [ref=f1088e86]:
+          - link "Sitemap" [ref=f1088e87] [cursor=pointer]:
+            - /url: /en/sitemap/
+        - listitem [ref=f1088e88]:
+          - link "People stories" [ref=f1088e89] [cursor=pointer]:
+            - /url: /en/people-stories/
+      - generic [ref=f1088e91]:
+        - link "Follow us on LinkedIn" [ref=f1088e92] [cursor=pointer]:
+          - /url: https://www.linkedin.com/company/uber-com/
+          - img "Follow us on LinkedIn social icon" [ref=f1088e93]
+        - link "Follow us on Instagram" [ref=f1088e96] [cursor=pointer]:
+          - /url: https://www.instagram.com/uber/
+          - img "Follow us on Instagram social icon" [ref=f1088e97]
+        - link "Follow us on X (Twitter)" [ref=f1088e100] [cursor=pointer]:
+          - /url: https://x.com/uber
+          - img "Follow us on X (Twitter) social icon" [ref=f1088e101]
+        - link "Follow us on Youtube" [ref=f1088e104] [cursor=pointer]:
+          - /url: https://www.youtube.com/playlist?list=PLmVTG4mAK7nz26Q2Cy0kBogO3LrolexqW
+          - img "Follow us on Youtube social icon" [ref=f1088e105]
+  - region "Notifications alt+T"
+  - alert [ref=f1088e108]

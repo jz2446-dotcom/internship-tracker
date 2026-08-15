@@ -1,0 +1,1285 @@
+- generic [active] [ref=f469e1]:
+  - img:
+    - generic "Globe icon"
+    - generic "Login icon"
+    - generic "Recap icon"
+    - generic "Search icon"
+    - generic "Tickets icon"
+  - banner [ref=f469e3]:
+    - generic [ref=f469e4]:
+      - generic "Top Navigation" [ref=f469e5]:
+        - link [ref=f469e7] [cursor=pointer]:
+          - /url: /astros/
+          - img "Houston Astros" [ref=f469e8]
+        - link [ref=f469e12] [cursor=pointer]:
+          - /url: /astros/
+          - img "Houston Astros URL logo" [ref=f469e13]
+        - generic [ref=f469e14]:
+          - generic [ref=f469e15]:
+            - navigation [ref=f469e16]:
+              - list "Secondary Navigation" [ref=f469e17]:
+                - listitem [ref=f469e18]:
+                  - link "Tickets" [ref=f469e20] [cursor=pointer]:
+                    - /url: /astros/tickets
+                - listitem [ref=f469e22]:
+                  - link "Schedule" [ref=f469e24] [cursor=pointer]:
+                    - /url: /astros/schedule
+                - listitem [ref=f469e26]:
+                  - link "Roster" [ref=f469e28] [cursor=pointer]:
+                    - /url: /astros/roster
+                - listitem [ref=f469e30]:
+                  - link "Video" [ref=f469e32] [cursor=pointer]:
+                    - /url: /astros/video
+                - listitem [ref=f469e34]:
+                  - link "Daikin Park" [ref=f469e36] [cursor=pointer]:
+                    - /url: /astros/ballpark
+            - navigation [ref=f469e38]:
+              - list "Spillover Navigation" [ref=f469e39]:
+                - listitem [ref=f469e40]
+          - navigation "Tertiary Navigation" [ref=f469e45]:
+            - list "Tertiary Navigation" [ref=f469e46]:
+              - listitem [ref=f469e47]:
+                - link "STH Home" [ref=f469e49] [cursor=pointer]:
+                  - /url: /astros/tickets/season-tickets/holders
+              - listitem [ref=f469e51]:
+                - link "MLB.TV" [ref=f469e53] [cursor=pointer]:
+                  - /url: https://www.mlb.com/tv?&affiliateId=clubMENU
+              - listitem [ref=f469e55]:
+                - link "Shop" [ref=f469e57] [cursor=pointer]:
+                  - /url: https://www.mlbshop.com/houston-astros/t-14553163+z-871253-930065732?_s=bm-mlbcom-hou
+              - listitem [ref=f469e59]:
+                - link "Teams" [ref=f469e61] [cursor=pointer]:
+                  - /url: https://www.mlb.com/team
+              - listitem [ref=f469e63]:
+                - link "Español" [ref=f469e65] [cursor=pointer]:
+                  - /url: https://www.mlb.com/es/astros
+        - button "search" [ref=f469e68] [cursor=pointer]
+        - button "Log In" [ref=f469e70]
+      - navigation
+  - main [ref=f469e76]:
+    - navigation [ref=f469e77]:
+      - navigation [ref=f469e79]:
+        - generic [ref=f469e80]:
+          - generic [ref=f469e81]: Search by Roster
+          - generic [ref=f469e82]:
+            - generic [ref=f469e83]: "2026"
+            - combobox [ref=f469e84] [cursor=pointer]:
+              - option "Select Year" [selected]
+              - option "2026"
+              - option "2025"
+              - option "2024"
+              - option "2023"
+              - option "2022"
+              - option "2021"
+              - option "2020"
+              - option "2019"
+              - option "2018"
+              - option "2017"
+              - option "2016"
+              - option "2015"
+              - option "2014"
+              - option "2013"
+              - option "2012"
+              - option "2011"
+              - option "2010"
+              - option "2009"
+              - option "2008"
+              - option "2007"
+              - option "2006"
+              - option "2005"
+              - option "2004"
+              - option "2003"
+              - option "2002"
+              - option "2001"
+              - option "2000"
+              - option "1999"
+              - option "1998"
+              - option "1997"
+              - option "1996"
+              - option "1995"
+              - option "1994"
+              - option "1993"
+              - option "1992"
+              - option "1991"
+              - option "1990"
+              - option "1989"
+              - option "1988"
+              - option "1987"
+              - option "1986"
+              - option "1985"
+              - option "1984"
+              - option "1983"
+              - option "1982"
+              - option "1981"
+              - option "1980"
+              - option "1979"
+              - option "1978"
+              - option "1977"
+              - option "1976"
+              - option "1975"
+              - option "1974"
+              - option "1973"
+              - option "1972"
+              - option "1971"
+              - option "1970"
+              - option "1969"
+              - option "1968"
+              - option "1967"
+              - option "1966"
+              - option "1965"
+              - option "1964"
+              - option "1963"
+              - option "1962"
+              - option "1961"
+              - option "1960"
+              - option "1959"
+              - option "1958"
+              - option "1957"
+              - option "1956"
+              - option "1955"
+              - option "1954"
+              - option "1953"
+              - option "1952"
+              - option "1951"
+              - option "1950"
+              - option "1949"
+              - option "1948"
+              - option "1947"
+              - option "1946"
+              - option "1945"
+              - option "1944"
+              - option "1943"
+              - option "1942"
+              - option "1941"
+              - option "1940"
+              - option "1939"
+              - option "1938"
+              - option "1937"
+              - option "1936"
+              - option "1935"
+              - option "1934"
+              - option "1933"
+              - option "1932"
+              - option "1931"
+              - option "1930"
+              - option "1929"
+              - option "1928"
+              - option "1927"
+              - option "1926"
+              - option "1925"
+              - option "1924"
+              - option "1923"
+              - option "1922"
+              - option "1921"
+              - option "1920"
+              - option "1919"
+              - option "1918"
+              - option "1917"
+              - option "1916"
+              - option "1915"
+              - option "1914"
+              - option "1913"
+              - option "1912"
+              - option "1911"
+              - option "1910"
+              - option "1909"
+              - option "1908"
+              - option "1907"
+              - option "1906"
+              - option "1905"
+              - option "1904"
+              - option "1903"
+              - option "1902"
+              - option "1901"
+              - option "1900"
+              - option "1899"
+              - option "1898"
+              - option "1897"
+              - option "1896"
+              - option "1895"
+              - option "1894"
+              - option "1893"
+              - option "1892"
+              - option "1891"
+              - option "1890"
+              - option "1889"
+              - option "1888"
+              - option "1887"
+              - option "1886"
+              - option "1885"
+              - option "1884"
+              - option "1883"
+              - option "1882"
+              - option "1881"
+              - option "1880"
+              - option "1879"
+              - option "1878"
+              - option "1877"
+              - option "1876"
+            - text: ▾
+          - generic [ref=f469e85]:
+            - generic [ref=f469e86]: Houston Astros
+            - combobox [ref=f469e87] [cursor=pointer]:
+              - option "Select Team" [selected]
+              - option "Arizona Diamondbacks"
+              - option "Athletics"
+              - option "Atlanta Braves"
+              - option "Baltimore Orioles"
+              - option "Boston Red Sox"
+              - option "Chicago Cubs"
+              - option "Chicago White Sox"
+              - option "Cincinnati Reds"
+              - option "Cleveland Guardians"
+              - option "Colorado Rockies"
+              - option "Detroit Tigers"
+              - option "Houston Astros"
+              - option "Kansas City Royals"
+              - option "Los Angeles Angels"
+              - option "Los Angeles Dodgers"
+              - option "Miami Marlins"
+              - option "Milwaukee Brewers"
+              - option "Minnesota Twins"
+              - option "New York Mets"
+              - option "New York Yankees"
+              - option "Philadelphia Phillies"
+              - option "Pittsburgh Pirates"
+              - option "San Diego Padres"
+              - option "San Francisco Giants"
+              - option "Seattle Mariners"
+              - option "St. Louis Cardinals"
+              - option "Tampa Bay Rays"
+              - option "Texas Rangers"
+              - option "Toronto Blue Jays"
+              - option "Washington Nationals"
+            - text: ▾
+          - generic [ref=f469e88]:
+            - generic [ref=f469e89]: Trammell, Taylor
+            - combobox [ref=f469e90] [cursor=pointer]:
+              - option "Select Player" [selected]
+              - option "Abreu, Bryan"
+              - option "Allen, Nick"
+              - option "Altuve, Jose"
+              - option "Alvarez, Yordan"
+              - option "Blanco, Ronel"
+              - option "Blubaugh, AJ"
+              - option "Brown, Hunter"
+              - option "De Los Santos, Enyel"
+              - option "Diaz, Yainer"
+              - option "Hader, Josh"
+              - option "Imai, Tatsuya"
+              - option "Javier, Cristian"
+              - option "King, Bryan"
+              - option "Lambert, Peter"
+              - option "Okert, Steven"
+              - option "Paredes, Isaac"
+              - option "Peña, Jeremy"
+              - option "Smith, Cam"
+              - option "Sousa, Bennett"
+              - option "Trammell, Taylor"
+              - option "Varsho, Daulton"
+              - option "Vázquez, Christian"
+              - option "Velázquez, Nelson"
+              - option "Wade Jr., LaMonte"
+              - option "Walker, Christian"
+              - option "Wesneski, Hayden"
+            - text: ▾
+    - img:
+      - generic:
+        - img "Arrow Expand icon"
+      - generic:
+        - img "Arrow Contract icon"
+      - generic:
+        - img "arrow-down":
+          - generic "Arrow Down icon"
+      - generic:
+        - img "X icon"
+      - generic:
+        - img "Instagram icon"
+      - generic:
+        - img "Tiktok icon"
+      - generic:
+        - img "YouTube icon"
+      - generic:
+        - img "Close icon"
+    - generic [ref=f469e91]:
+      - generic [ref=f469e92]:
+        - generic [ref=f469e93]:
+          - img "Taylor Trammell" [ref=f469e94]
+          - generic [ref=f469e95]:
+            - 'heading "Taylor Trammell #26" [level=1] [ref=f469e96]'
+            - list [ref=f469e97]:
+              - listitem [ref=f469e98]: CF
+              - listitem [ref=f469e99]: "B/T: L/L"
+              - listitem [ref=f469e100]: 6' 1"/220
+              - listitem [ref=f469e101]: "Age: 28"
+            - button "Follow" [ref=f469e102] [cursor=pointer]
+            - link "Watch Story" [ref=f469e104] [cursor=pointer]:
+              - /url: https://www.mlb.com/stories/player/666211?storylocal=player-page-header-embed
+        - navigation [ref=f469e109]:
+          - generic [ref=f469e111]:
+            - link "Summary" [ref=f469e112] [cursor=pointer]:
+              - /url: "#summary-block"
+            - link "Stats" [ref=f469e113] [cursor=pointer]:
+              - /url: "#stats-block"
+            - link "News" [ref=f469e114] [cursor=pointer]:
+              - /url: "#news-block"
+            - link "Awards" [ref=f469e115] [cursor=pointer]:
+              - /url: "#awards-block"
+            - link "Shop" [ref=f469e116] [cursor=pointer]:
+              - /url: http://www.mlbshop.com/search/Taylor Trammell
+      - generic [ref=f469e117]:
+        - generic [ref=f469e118]:
+          - generic:
+            - generic:
+              - generic [ref=f469e119]:
+                - list [ref=f469e120]:
+                  - listitem [ref=f469e121]: Taylor Walter-Lee Trammell
+                  - listitem [ref=f469e122]: "Born: 9/13/1997 in Powder Springs, GA"
+                  - listitem [ref=f469e123]: "Draft: 2016, Cincinnati Reds, Round: CB-A, Overall Pick: 35"
+                  - listitem [ref=f469e124]: "High School: Mount Paran Christian, Kennesaw, GA"
+                  - listitem [ref=f469e125]: "Debut: 4/01/2021"
+                - list [ref=f469e126]:
+                  - listitem [ref=f469e127]: "Follow:"
+                  - listitem [ref=f469e128]:
+                    - link "instagram" [ref=f469e129] [cursor=pointer]:
+                      - /url: https://www.instagram.com/tay_tram5
+                  - listitem [ref=f469e132]:
+                    - link "x" [ref=f469e133] [cursor=pointer]:
+                      - /url: https://twitter.com/@Taytram24
+                - button "View More Bio Info +" [ref=f469e136]
+              - generic [ref=f469e137]:
+                - group
+                - generic [ref=f469e140]:
+                  - table [ref=f469e143]:
+                    - rowgroup [ref=f469e144]:
+                      - row [ref=f469e145]:
+                        - columnheader "Year" [ref=f469e146]
+                        - columnheader "AB" [ref=f469e148]
+                        - columnheader "R" [ref=f469e150]
+                        - columnheader "H" [ref=f469e152]
+                        - columnheader "HR" [ref=f469e154]
+                        - columnheader "RBI" [ref=f469e156]
+                        - columnheader "SB" [ref=f469e158]
+                        - columnheader "AVG" [ref=f469e160]
+                        - columnheader "OBP" [ref=f469e162]
+                        - columnheader "OPS" [ref=f469e164]
+                    - rowgroup [ref=f469e166]:
+                      - row [ref=f469e167]:
+                        - cell "2026 Regular Season" [ref=f469e168]
+                        - cell "166" [ref=f469e169]
+                        - cell "26" [ref=f469e170]
+                        - cell [ref=f469e171]:
+                          - link "39" [ref=f469e173] [cursor=pointer]:
+                            - /url: https://www.mlb.com/video/search?q=BatterId+%3D+%5B666211%5D+AND+HitResult+%3D+%5B%22Hit%22%5D+AND+GameType+%3D+%5B%22REGULAR_SEASON%22%5D+AND+Season+%3D+%5B2026%5D+Order+By+Timestamp+DESC
+                        - cell [ref=f469e174]:
+                          - link "7" [ref=f469e176] [cursor=pointer]:
+                            - /url: https://www.mlb.com/video/search?q=BatterId+%3D+%5B666211%5D+AND+HitResult+%3D+%5B%22Home%20Run%22%5D+AND+GameType+%3D+%5B%22REGULAR_SEASON%22%5D+AND+Season+%3D+%5B2026%5D+Order+By+Timestamp+DESC
+                        - cell "20" [ref=f469e177]
+                        - cell "3" [ref=f469e178]
+                        - cell ".235" [ref=f469e179]
+                        - cell ".324" [ref=f469e180]
+                        - cell ".746" [ref=f469e181]
+                      - row [ref=f469e182]:
+                        - cell "Career Regular Season" [ref=f469e183]
+                        - cell "594" [ref=f469e184]
+                        - cell "88" [ref=f469e185]
+                        - cell "114" [ref=f469e186]
+                        - cell "25" [ref=f469e187]
+                        - cell "71" [ref=f469e188]
+                        - cell "10" [ref=f469e189]
+                        - cell ".192" [ref=f469e190]
+                        - cell ".290" [ref=f469e191]
+                        - cell ".664" [ref=f469e192]
+                  - generic:
+                    - table:
+                      - rowgroup:
+                        - row:
+                          - columnheader [ref=f469e193]:
+                            - generic [ref=f469e194]: Year
+                      - rowgroup:
+                        - row:
+                          - cell: 2026 Regular Season
+                        - row:
+                          - cell: Career Regular Season
+              - list [ref=f469e195]:
+                - listitem [ref=f469e196]: "Status: Active"
+                - listitem [ref=f469e197]: "Next HOU Game: 08-14 vs SEA"
+          - generic [ref=f469e198]:
+            - heading "Splits" [level=2] [ref=f469e199]
+            - generic:
+              - group
+            - generic [ref=f469e201]:
+              - generic [ref=f469e204]:
+                - table [ref=f469e207]:
+                  - rowgroup [ref=f469e208]:
+                    - row [ref=f469e209]:
+                      - columnheader "Duration" [ref=f469e210]
+                      - columnheader "AB" [ref=f469e212]
+                      - columnheader "R" [ref=f469e214]
+                      - columnheader "H" [ref=f469e216]
+                      - columnheader "HR" [ref=f469e218]
+                      - columnheader "RBI" [ref=f469e220]
+                      - columnheader "BB" [ref=f469e222]
+                      - columnheader "SO" [ref=f469e224]
+                      - columnheader "SB" [ref=f469e226]
+                      - columnheader "AVG" [ref=f469e228]
+                      - columnheader "OBP" [ref=f469e230]
+                      - columnheader "SLG" [ref=f469e232]
+                  - rowgroup [ref=f469e234]:
+                    - row [ref=f469e235]:
+                      - cell "Last 7 Games" [ref=f469e236]
+                      - cell "21" [ref=f469e237]
+                      - cell "5" [ref=f469e238]
+                      - cell "4" [ref=f469e239]
+                      - cell "2" [ref=f469e240]
+                      - cell "4" [ref=f469e241]
+                      - cell "3" [ref=f469e242]
+                      - cell "5" [ref=f469e243]
+                      - cell "0" [ref=f469e244]
+                      - cell ".190" [ref=f469e245]
+                      - cell ".292" [ref=f469e246]
+                      - cell ".571" [ref=f469e247]
+                    - row [ref=f469e248]:
+                      - cell "Last 15 Games" [ref=f469e249]
+                      - cell "45" [ref=f469e250]
+                      - cell "11" [ref=f469e251]
+                      - cell "11" [ref=f469e252]
+                      - cell "4" [ref=f469e253]
+                      - cell "8" [ref=f469e254]
+                      - cell "9" [ref=f469e255]
+                      - cell "12" [ref=f469e256]
+                      - cell "0" [ref=f469e257]
+                      - cell ".244" [ref=f469e258]
+                      - cell ".393" [ref=f469e259]
+                      - cell ".578" [ref=f469e260]
+                    - row [ref=f469e261]:
+                      - cell "Last 30 Games" [ref=f469e262]
+                      - cell "80" [ref=f469e263]
+                      - cell "15" [ref=f469e264]
+                      - cell "16" [ref=f469e265]
+                      - cell "5" [ref=f469e266]
+                      - cell "11" [ref=f469e267]
+                      - cell "11" [ref=f469e268]
+                      - cell "23" [ref=f469e269]
+                      - cell "2" [ref=f469e270]
+                      - cell ".200" [ref=f469e271]
+                      - cell ".319" [ref=f469e272]
+                      - cell ".425" [ref=f469e273]
+                - generic:
+                  - table:
+                    - rowgroup:
+                      - row:
+                        - columnheader [ref=f469e274]:
+                          - generic [ref=f469e275]: Duration
+                    - rowgroup:
+                      - row:
+                        - cell: Last 7 Games
+                      - row:
+                        - cell: Last 15 Games
+                      - row:
+                        - cell: Last 30 Games
+              - generic [ref=f469e278]:
+                - table [ref=f469e281]:
+                  - rowgroup [ref=f469e282]:
+                    - row [ref=f469e283]:
+                      - columnheader "Last 3 Games" [ref=f469e284]
+                      - columnheader "AB" [ref=f469e286]
+                      - columnheader "R" [ref=f469e288]
+                      - columnheader "H" [ref=f469e290]
+                      - columnheader "HR" [ref=f469e292]
+                      - columnheader "RBI" [ref=f469e294]
+                      - columnheader "BB" [ref=f469e296]
+                      - columnheader "SO" [ref=f469e298]
+                      - columnheader "SB" [ref=f469e300]
+                  - rowgroup [ref=f469e302]:
+                    - row [ref=f469e303]:
+                      - cell "8/12 @ SF" [ref=f469e304]
+                      - cell "3" [ref=f469e305]
+                      - cell "1" [ref=f469e306]
+                      - cell "1" [ref=f469e307]
+                      - cell "0" [ref=f469e308]
+                      - cell "0" [ref=f469e309]
+                      - cell "0" [ref=f469e310]
+                      - cell "2" [ref=f469e311]
+                      - cell "0" [ref=f469e312]
+                    - row [ref=f469e313]:
+                      - cell "8/10 @ SF" [ref=f469e314]
+                      - cell "3" [ref=f469e315]
+                      - cell "0" [ref=f469e316]
+                      - cell "0" [ref=f469e317]
+                      - cell "0" [ref=f469e318]
+                      - cell "0" [ref=f469e319]
+                      - cell "2" [ref=f469e320]
+                      - cell "0" [ref=f469e321]
+                      - cell "0" [ref=f469e322]
+                    - row [ref=f469e323]:
+                      - cell "8/9 @ SD" [ref=f469e324]
+                      - cell "3" [ref=f469e325]
+                      - cell "1" [ref=f469e326]
+                      - cell "1" [ref=f469e327]
+                      - cell "0" [ref=f469e328]
+                      - cell "0" [ref=f469e329]
+                      - cell "0" [ref=f469e330]
+                      - cell "1" [ref=f469e331]
+                      - cell "0" [ref=f469e332]
+                - generic:
+                  - table:
+                    - rowgroup:
+                      - row:
+                        - columnheader [ref=f469e333]:
+                          - generic [ref=f469e334]: Last 3 Games
+                    - rowgroup:
+                      - row:
+                        - cell: 8/12 @ SF
+                      - row:
+                        - cell: 8/10 @ SF
+                      - row:
+                        - cell: 8/9 @ SD
+            - generic [ref=f469e335]: "Games by Position: LF (36) CF (27) RF (5)"
+        - generic [ref=f469e338]:
+          - heading "Stats" [level=2] [ref=f469e339]
+          - listitem [ref=f469e342]:
+            - group [ref=f469e343]:
+              - link [ref=f469e345] [cursor=pointer]:
+                - /url: "#"
+                - button "Career" [ref=f469e346]
+              - link [ref=f469e348] [cursor=pointer]:
+                - /url: "#"
+                - button "Game Logs" [ref=f469e349]
+              - link [ref=f469e351] [cursor=pointer]:
+                - /url: "#"
+                - button "Splits" [ref=f469e352]
+              - link [ref=f469e354] [cursor=pointer]:
+                - /url: "#"
+                - button "Batter vs. Pitcher" [ref=f469e355]
+          - tabpanel [ref=f469e357]:
+            - list [ref=f469e358]:
+              - listitem [ref=f469e359]:
+                - group [ref=f469e360]:
+                  - link [ref=f469e362] [cursor=pointer]:
+                    - /url: "#"
+                    - button "MLB" [ref=f469e363]
+                  - link [ref=f469e365] [cursor=pointer]:
+                    - /url: "#"
+                    - button "Minors" [ref=f469e366]
+              - listitem [ref=f469e367]:
+                - group [ref=f469e368]:
+                  - link [ref=f469e370] [cursor=pointer]:
+                    - /url: "#"
+                    - button "Batting" [ref=f469e371]
+                  - link [ref=f469e373] [cursor=pointer]:
+                    - /url: "#"
+                    - button "Fielding" [ref=f469e374]
+              - listitem [ref=f469e375]:
+                - generic [ref=f469e376]:
+                  - generic [ref=f469e377]: Regular Season
+                  - combobox "Regular Season" [ref=f469e381] [cursor=pointer]:
+                    - option "All-Star Game"
+                    - option "Regular Season" [selected]
+                    - option "Wild Card"
+                    - option "Division Series"
+                    - option "League Championship Series"
+                    - option "World Series"
+                    - option "Spring Training"
+                    - option "Postseason Cumulative"
+            - generic [ref=f469e382]:
+              - heading "Career Stats" [level=3] [ref=f469e383]
+              - generic [ref=f469e386]:
+                - table [ref=f469e389]:
+                  - rowgroup [ref=f469e390]:
+                    - row [ref=f469e391]:
+                      - columnheader "Season" [ref=f469e392] [cursor=pointer]
+                      - columnheader "Team" [ref=f469e394] [cursor=pointer]
+                      - columnheader "LG" [ref=f469e396] [cursor=pointer]
+                      - columnheader "G" [ref=f469e398] [cursor=pointer]
+                      - columnheader "AB" [ref=f469e400] [cursor=pointer]
+                      - columnheader "R" [ref=f469e402] [cursor=pointer]
+                      - columnheader "H" [ref=f469e404] [cursor=pointer]
+                      - columnheader "TB" [ref=f469e406] [cursor=pointer]
+                      - columnheader "2B" [ref=f469e408] [cursor=pointer]
+                      - columnheader "3B" [ref=f469e410] [cursor=pointer]
+                      - columnheader "HR" [ref=f469e412] [cursor=pointer]
+                      - columnheader "RBI" [ref=f469e414] [cursor=pointer]
+                      - columnheader "BB" [ref=f469e416] [cursor=pointer]
+                      - columnheader "IBB" [ref=f469e418] [cursor=pointer]
+                      - columnheader "SO" [ref=f469e420] [cursor=pointer]
+                      - columnheader "SB" [ref=f469e422] [cursor=pointer]
+                      - columnheader "CS" [ref=f469e424] [cursor=pointer]
+                      - columnheader "AVG" [ref=f469e426] [cursor=pointer]
+                      - columnheader "OBP" [ref=f469e428] [cursor=pointer]
+                      - columnheader "SLG" [ref=f469e430] [cursor=pointer]
+                      - columnheader "OPS" [ref=f469e432] [cursor=pointer]
+                      - columnheader "GO/AO" [ref=f469e434] [cursor=pointer]
+                  - rowgroup [ref=f469e436]:
+                    - row [ref=f469e437]:
+                      - cell "2021" [ref=f469e438]
+                      - cell "SEA" [ref=f469e439]
+                      - cell "AL" [ref=f469e440]
+                      - cell "51" [ref=f469e441]
+                      - cell "156" [ref=f469e442]
+                      - cell "23" [ref=f469e443]
+                      - cell [ref=f469e444]:
+                        - link "25" [ref=f469e446] [cursor=pointer]:
+                          - /url: https://www.mlb.com/video/search?q=BatterId+%3D+%5B666211%5D+AND+BattingTeamId+%3D+%5B136%5D+AND+HitResult+%3D+%5B%22Hit%22%5D+AND+GameType+%3D+%5B%22REGULAR_SEASON%22%5D+AND+Season+%3D+%5B2021%5D+Order+By+Timestamp+DESC
+                      - cell "56" [ref=f469e447]
+                      - cell [ref=f469e448]:
+                        - link "7" [ref=f469e450] [cursor=pointer]:
+                          - /url: https://www.mlb.com/video/search?q=BatterId+%3D+%5B666211%5D+AND+BattingTeamId+%3D+%5B136%5D+AND+HitResult+%3D+%5B%22Double%22%5D+AND+GameType+%3D+%5B%22REGULAR_SEASON%22%5D+AND+Season+%3D+%5B2021%5D+Order+By+Timestamp+DESC
+                      - cell "0" [ref=f469e451]
+                      - cell [ref=f469e452]:
+                        - link "8" [ref=f469e454] [cursor=pointer]:
+                          - /url: https://www.mlb.com/video/search?q=BatterId+%3D+%5B666211%5D+AND+BattingTeamId+%3D+%5B136%5D+AND+HitResult+%3D+%5B%22Home%20Run%22%5D+AND+GameType+%3D+%5B%22REGULAR_SEASON%22%5D+AND+Season+%3D+%5B2021%5D+Order+By+Timestamp+DESC
+                      - cell "18" [ref=f469e455]
+                      - cell [ref=f469e456]:
+                        - link "17" [ref=f469e458] [cursor=pointer]:
+                          - /url: https://www.mlb.com/video/search?q=BatterId+%3D+%5B666211%5D+AND+BattingTeamId+%3D+%5B136%5D+AND+HitResult+%3D+%5B%22Walk%22%5D+AND+GameType+%3D+%5B%22REGULAR_SEASON%22%5D+AND+Season+%3D+%5B2021%5D+Order+By+Timestamp+DESC
+                      - cell "0" [ref=f469e459]
+                      - cell [ref=f469e460]:
+                        - link "75" [ref=f469e462] [cursor=pointer]:
+                          - /url: https://www.mlb.com/video/search?q=BatterId+%3D+%5B666211%5D+AND+BattingTeamId+%3D+%5B136%5D+AND+HitResult+%3D+%5B%22Strikeout%22%5D+AND+GameType+%3D+%5B%22REGULAR_SEASON%22%5D+AND+Season+%3D+%5B2021%5D+Order+By+Timestamp+DESC
+                      - cell "2" [ref=f469e463]
+                      - cell "3" [ref=f469e464]
+                      - cell ".160" [ref=f469e465]
+                      - cell ".256" [ref=f469e466]
+                      - cell ".359" [ref=f469e467]
+                      - cell ".615" [ref=f469e468]
+                      - cell "1.07" [ref=f469e469]
+                    - row [ref=f469e470]:
+                      - cell "2022" [ref=f469e471]
+                      - cell "SEA" [ref=f469e472]
+                      - cell "AL" [ref=f469e473]
+                      - cell "43" [ref=f469e474]
+                      - cell "102" [ref=f469e475]
+                      - cell "15" [ref=f469e476]
+                      - cell [ref=f469e477]:
+                        - link "20" [ref=f469e479] [cursor=pointer]:
+                          - /url: https://www.mlb.com/video/search?q=BatterId+%3D+%5B666211%5D+AND+BattingTeamId+%3D+%5B136%5D+AND+HitResult+%3D+%5B%22Hit%22%5D+AND+GameType+%3D+%5B%22REGULAR_SEASON%22%5D+AND+Season+%3D+%5B2022%5D+Order+By+Timestamp+DESC
+                      - cell "41" [ref=f469e480]
+                      - cell [ref=f469e481]:
+                        - link "9" [ref=f469e483] [cursor=pointer]:
+                          - /url: https://www.mlb.com/video/search?q=BatterId+%3D+%5B666211%5D+AND+BattingTeamId+%3D+%5B136%5D+AND+HitResult+%3D+%5B%22Double%22%5D+AND+GameType+%3D+%5B%22REGULAR_SEASON%22%5D+AND+Season+%3D+%5B2022%5D+Order+By+Timestamp+DESC
+                      - cell "0" [ref=f469e484]
+                      - cell [ref=f469e485]:
+                        - link "4" [ref=f469e487] [cursor=pointer]:
+                          - /url: https://www.mlb.com/video/search?q=BatterId+%3D+%5B666211%5D+AND+BattingTeamId+%3D+%5B136%5D+AND+HitResult+%3D+%5B%22Home%20Run%22%5D+AND+GameType+%3D+%5B%22REGULAR_SEASON%22%5D+AND+Season+%3D+%5B2022%5D+Order+By+Timestamp+DESC
+                      - cell "10" [ref=f469e488]
+                      - cell [ref=f469e489]:
+                        - link "13" [ref=f469e491] [cursor=pointer]:
+                          - /url: https://www.mlb.com/video/search?q=BatterId+%3D+%5B666211%5D+AND+BattingTeamId+%3D+%5B136%5D+AND+HitResult+%3D+%5B%22Walk%22%5D+AND+GameType+%3D+%5B%22REGULAR_SEASON%22%5D+AND+Season+%3D+%5B2022%5D+Order+By+Timestamp+DESC
+                      - cell "0" [ref=f469e492]
+                      - cell [ref=f469e493]:
+                        - link "33" [ref=f469e495] [cursor=pointer]:
+                          - /url: https://www.mlb.com/video/search?q=BatterId+%3D+%5B666211%5D+AND+BattingTeamId+%3D+%5B136%5D+AND+HitResult+%3D+%5B%22Strikeout%22%5D+AND+GameType+%3D+%5B%22REGULAR_SEASON%22%5D+AND+Season+%3D+%5B2022%5D+Order+By+Timestamp+DESC
+                      - cell "2" [ref=f469e496]
+                      - cell "1" [ref=f469e497]
+                      - cell ".196" [ref=f469e498]
+                      - cell ".284" [ref=f469e499]
+                      - cell ".402" [ref=f469e500]
+                      - cell ".686" [ref=f469e501]
+                      - cell "0.82" [ref=f469e502]
+                    - row [ref=f469e503]:
+                      - cell "2023" [ref=f469e504]
+                      - cell "SEA" [ref=f469e505]
+                      - cell "AL" [ref=f469e506]
+                      - cell "22" [ref=f469e507]
+                      - cell "46" [ref=f469e508]
+                      - cell "7" [ref=f469e509]
+                      - cell [ref=f469e510]:
+                        - link "6" [ref=f469e512] [cursor=pointer]:
+                          - /url: https://www.mlb.com/video/search?q=BatterId+%3D+%5B666211%5D+AND+BattingTeamId+%3D+%5B136%5D+AND+HitResult+%3D+%5B%22Hit%22%5D+AND+GameType+%3D+%5B%22REGULAR_SEASON%22%5D+AND+Season+%3D+%5B2023%5D+Order+By+Timestamp+DESC
+                      - cell "15" [ref=f469e513]
+                      - cell "0" [ref=f469e514]
+                      - cell "0" [ref=f469e515]
+                      - cell [ref=f469e516]:
+                        - link "3" [ref=f469e518] [cursor=pointer]:
+                          - /url: https://www.mlb.com/video/search?q=BatterId+%3D+%5B666211%5D+AND+BattingTeamId+%3D+%5B136%5D+AND+HitResult+%3D+%5B%22Home%20Run%22%5D+AND+GameType+%3D+%5B%22REGULAR_SEASON%22%5D+AND+Season+%3D+%5B2023%5D+Order+By+Timestamp+DESC
+                      - cell "11" [ref=f469e519]
+                      - cell [ref=f469e520]:
+                        - link "9" [ref=f469e522] [cursor=pointer]:
+                          - /url: https://www.mlb.com/video/search?q=BatterId+%3D+%5B666211%5D+AND+BattingTeamId+%3D+%5B136%5D+AND+HitResult+%3D+%5B%22Walk%22%5D+AND+GameType+%3D+%5B%22REGULAR_SEASON%22%5D+AND+Season+%3D+%5B2023%5D+Order+By+Timestamp+DESC
+                      - cell "0" [ref=f469e523]
+                      - cell [ref=f469e524]:
+                        - link "22" [ref=f469e526] [cursor=pointer]:
+                          - /url: https://www.mlb.com/video/search?q=BatterId+%3D+%5B666211%5D+AND+BattingTeamId+%3D+%5B136%5D+AND+HitResult+%3D+%5B%22Strikeout%22%5D+AND+GameType+%3D+%5B%22REGULAR_SEASON%22%5D+AND+Season+%3D+%5B2023%5D+Order+By+Timestamp+DESC
+                      - cell "0" [ref=f469e527]
+                      - cell "1" [ref=f469e528]
+                      - cell ".130" [ref=f469e529]
+                      - cell ".286" [ref=f469e530]
+                      - cell ".326" [ref=f469e531]
+                      - cell ".612" [ref=f469e532]
+                      - cell "0.64" [ref=f469e533]
+                    - row [ref=f469e534]:
+                      - cell [ref=f469e535]:
+                        - text: "2024"
+                        - link [ref=f469e536] [cursor=pointer]:
+                          - /url: "#"
+                      - cell "2 teams" [ref=f469e539]
+                      - cell "-" [ref=f469e540]
+                      - cell "10" [ref=f469e541]
+                      - cell "7" [ref=f469e542]
+                      - cell "2" [ref=f469e543]
+                      - cell [ref=f469e544]:
+                        - link "1" [ref=f469e546] [cursor=pointer]:
+                          - /url: https://www.mlb.com/video/search?q=BatterId+%3D+%5B666211%5D+AND+HitResult+%3D+%5B%22Hit%22%5D+AND+GameType+%3D+%5B%22REGULAR_SEASON%22%5D+AND+Season+%3D+%5B2024%5D+Order+By+Timestamp+DESC
+                      - cell "1" [ref=f469e547]
+                      - cell "0" [ref=f469e548]
+                      - cell "0" [ref=f469e549]
+                      - cell "0" [ref=f469e550]
+                      - cell "0" [ref=f469e551]
+                      - cell [ref=f469e552]:
+                        - link "1" [ref=f469e554] [cursor=pointer]:
+                          - /url: https://www.mlb.com/video/search?q=BatterId+%3D+%5B666211%5D+AND+HitResult+%3D+%5B%22Walk%22%5D+AND+GameType+%3D+%5B%22REGULAR_SEASON%22%5D+AND+Season+%3D+%5B2024%5D+Order+By+Timestamp+DESC
+                      - cell "0" [ref=f469e555]
+                      - cell [ref=f469e556]:
+                        - link "3" [ref=f469e558] [cursor=pointer]:
+                          - /url: https://www.mlb.com/video/search?q=BatterId+%3D+%5B666211%5D+AND+HitResult+%3D+%5B%22Strikeout%22%5D+AND+GameType+%3D+%5B%22REGULAR_SEASON%22%5D+AND+Season+%3D+%5B2024%5D+Order+By+Timestamp+DESC
+                      - cell "0" [ref=f469e559]
+                      - cell "0" [ref=f469e560]
+                      - cell ".143" [ref=f469e561]
+                      - cell ".250" [ref=f469e562]
+                      - cell ".143" [ref=f469e563]
+                      - cell ".393" [ref=f469e564]
+                      - cell "0.50" [ref=f469e565]
+                    - row [ref=f469e566]:
+                      - cell "2025" [ref=f469e567]
+                      - cell "HOU" [ref=f469e568]
+                      - cell "AL" [ref=f469e569]
+                      - cell "52" [ref=f469e570]
+                      - cell "117" [ref=f469e571]
+                      - cell "15" [ref=f469e572]
+                      - cell [ref=f469e573]:
+                        - link "23" [ref=f469e575] [cursor=pointer]:
+                          - /url: https://www.mlb.com/video/search?q=BatterId+%3D+%5B666211%5D+AND+BattingTeamId+%3D+%5B117%5D+AND+HitResult+%3D+%5B%22Hit%22%5D+AND+GameType+%3D+%5B%22REGULAR_SEASON%22%5D+AND+Season+%3D+%5B2025%5D+Order+By+Timestamp+DESC
+                      - cell "39" [ref=f469e576]
+                      - cell [ref=f469e577]:
+                        - link "7" [ref=f469e579] [cursor=pointer]:
+                          - /url: https://www.mlb.com/video/search?q=BatterId+%3D+%5B666211%5D+AND+BattingTeamId+%3D+%5B117%5D+AND+HitResult+%3D+%5B%22Double%22%5D+AND+GameType+%3D+%5B%22REGULAR_SEASON%22%5D+AND+Season+%3D+%5B2025%5D+Order+By+Timestamp+DESC
+                      - cell "0" [ref=f469e580]
+                      - cell [ref=f469e581]:
+                        - link "3" [ref=f469e583] [cursor=pointer]:
+                          - /url: https://www.mlb.com/video/search?q=BatterId+%3D+%5B666211%5D+AND+BattingTeamId+%3D+%5B117%5D+AND+HitResult+%3D+%5B%22Home%20Run%22%5D+AND+GameType+%3D+%5B%22REGULAR_SEASON%22%5D+AND+Season+%3D+%5B2025%5D+Order+By+Timestamp+DESC
+                      - cell "12" [ref=f469e584]
+                      - cell [ref=f469e585]:
+                        - link "17" [ref=f469e587] [cursor=pointer]:
+                          - /url: https://www.mlb.com/video/search?q=BatterId+%3D+%5B666211%5D+AND+BattingTeamId+%3D+%5B117%5D+AND+HitResult+%3D+%5B%22Walk%22%5D+AND+GameType+%3D+%5B%22REGULAR_SEASON%22%5D+AND+Season+%3D+%5B2025%5D+Order+By+Timestamp+DESC
+                      - cell "0" [ref=f469e588]
+                      - cell [ref=f469e589]:
+                        - link "41" [ref=f469e591] [cursor=pointer]:
+                          - /url: https://www.mlb.com/video/search?q=BatterId+%3D+%5B666211%5D+AND+BattingTeamId+%3D+%5B117%5D+AND+HitResult+%3D+%5B%22Strikeout%22%5D+AND+GameType+%3D+%5B%22REGULAR_SEASON%22%5D+AND+Season+%3D+%5B2025%5D+Order+By+Timestamp+DESC
+                      - cell "3" [ref=f469e592]
+                      - cell "2" [ref=f469e593]
+                      - cell ".197" [ref=f469e594]
+                      - cell ".296" [ref=f469e595]
+                      - cell ".333" [ref=f469e596]
+                      - cell ".629" [ref=f469e597]
+                      - cell "0.93" [ref=f469e598]
+                    - row [ref=f469e599]:
+                      - cell "2026" [ref=f469e600]
+                      - cell "HOU" [ref=f469e601]
+                      - cell "AL" [ref=f469e602]
+                      - cell "64" [ref=f469e603]
+                      - cell "166" [ref=f469e604]
+                      - cell "26" [ref=f469e605]
+                      - cell [ref=f469e606]:
+                        - link "39" [ref=f469e608] [cursor=pointer]:
+                          - /url: https://www.mlb.com/video/search?q=BatterId+%3D+%5B666211%5D+AND+BattingTeamId+%3D+%5B117%5D+AND+HitResult+%3D+%5B%22Hit%22%5D+AND+GameType+%3D+%5B%22REGULAR_SEASON%22%5D+AND+Season+%3D+%5B2026%5D+Order+By+Timestamp+DESC
+                      - cell "70" [ref=f469e609]
+                      - cell [ref=f469e610]:
+                        - link "6" [ref=f469e612] [cursor=pointer]:
+                          - /url: https://www.mlb.com/video/search?q=BatterId+%3D+%5B666211%5D+AND+BattingTeamId+%3D+%5B117%5D+AND+HitResult+%3D+%5B%22Double%22%5D+AND+GameType+%3D+%5B%22REGULAR_SEASON%22%5D+AND+Season+%3D+%5B2026%5D+Order+By+Timestamp+DESC
+                      - cell [ref=f469e613]:
+                        - link "2" [ref=f469e615] [cursor=pointer]:
+                          - /url: https://www.mlb.com/video/search?q=BatterId+%3D+%5B666211%5D+AND+BattingTeamId+%3D+%5B117%5D+AND+HitResult+%3D+%5B%22Triple%22%5D+AND+GameType+%3D+%5B%22REGULAR_SEASON%22%5D+AND+Season+%3D+%5B2026%5D+Order+By+Timestamp+DESC
+                      - cell [ref=f469e616]:
+                        - link "7" [ref=f469e618] [cursor=pointer]:
+                          - /url: https://www.mlb.com/video/search?q=BatterId+%3D+%5B666211%5D+AND+BattingTeamId+%3D+%5B117%5D+AND+HitResult+%3D+%5B%22Home%20Run%22%5D+AND+GameType+%3D+%5B%22REGULAR_SEASON%22%5D+AND+Season+%3D+%5B2026%5D+Order+By+Timestamp+DESC
+                      - cell "20" [ref=f469e619]
+                      - cell [ref=f469e620]:
+                        - link "18" [ref=f469e622] [cursor=pointer]:
+                          - /url: https://www.mlb.com/video/search?q=BatterId+%3D+%5B666211%5D+AND+BattingTeamId+%3D+%5B117%5D+AND+HitResult+%3D+%5B%22Walk%22%5D+AND+GameType+%3D+%5B%22REGULAR_SEASON%22%5D+AND+Season+%3D+%5B2026%5D+Order+By+Timestamp+DESC
+                      - cell "1" [ref=f469e623]
+                      - cell [ref=f469e624]:
+                        - link "56" [ref=f469e626] [cursor=pointer]:
+                          - /url: https://www.mlb.com/video/search?q=BatterId+%3D+%5B666211%5D+AND+BattingTeamId+%3D+%5B117%5D+AND+HitResult+%3D+%5B%22Strikeout%22%5D+AND+GameType+%3D+%5B%22REGULAR_SEASON%22%5D+AND+Season+%3D+%5B2026%5D+Order+By+Timestamp+DESC
+                      - cell "3" [ref=f469e627]
+                      - cell "2" [ref=f469e628]
+                      - cell ".235" [ref=f469e629]
+                      - cell ".324" [ref=f469e630]
+                      - cell ".422" [ref=f469e631]
+                      - cell ".746" [ref=f469e632]
+                      - cell "0.80" [ref=f469e633]
+                  - rowgroup [ref=f469e634]:
+                    - row [ref=f469e635]:
+                      - cell "MLB Career" [ref=f469e636]
+                      - cell "-" [ref=f469e637]
+                      - cell "-" [ref=f469e638]
+                      - cell "242" [ref=f469e639]
+                      - cell "594" [ref=f469e640]
+                      - cell "88" [ref=f469e641]
+                      - cell "114" [ref=f469e642]
+                      - cell "222" [ref=f469e643]
+                      - cell "29" [ref=f469e644]
+                      - cell "2" [ref=f469e645]
+                      - cell "25" [ref=f469e646]
+                      - cell "71" [ref=f469e647]
+                      - cell "75" [ref=f469e648]
+                      - cell "1" [ref=f469e649]
+                      - cell "230" [ref=f469e650]
+                      - cell "10" [ref=f469e651]
+                      - cell "9" [ref=f469e652]
+                      - cell ".192" [ref=f469e653]
+                      - cell ".290" [ref=f469e654]
+                      - cell ".374" [ref=f469e655]
+                      - cell ".664" [ref=f469e656]
+                      - cell "0.87" [ref=f469e657]
+                - generic:
+                  - table:
+                    - rowgroup:
+                      - row:
+                        - columnheader [ref=f469e658] [cursor=pointer]:
+                          - generic [ref=f469e659]: Season
+                    - rowgroup:
+                      - row:
+                        - cell: "2021"
+                      - row:
+                        - cell: "2022"
+                      - row:
+                        - cell: "2023"
+                      - row:
+                        - cell:
+                          - text: "2024"
+                          - link:
+                            - /url: "#"
+                      - row:
+                        - cell: "2025"
+                      - row:
+                        - cell: "2026"
+                    - rowgroup:
+                      - row:
+                        - cell: MLB Career
+              - generic [ref=f469e660]:
+                - heading "Advanced Career Stats" [level=3] [ref=f469e661]
+                - generic [ref=f469e664]:
+                  - table [ref=f469e667]:
+                    - rowgroup [ref=f469e668]:
+                      - row [ref=f469e669]:
+                        - columnheader "Season" [ref=f469e670] [cursor=pointer]
+                        - columnheader "Team" [ref=f469e672] [cursor=pointer]
+                        - columnheader "LG" [ref=f469e674] [cursor=pointer]
+                        - columnheader "PA" [ref=f469e676] [cursor=pointer]
+                        - columnheader "TB" [ref=f469e678] [cursor=pointer]
+                        - columnheader "XBH" [ref=f469e680] [cursor=pointer]
+                        - columnheader "HBP" [ref=f469e682] [cursor=pointer]
+                        - columnheader "SAC" [ref=f469e684] [cursor=pointer]
+                        - columnheader "SF" [ref=f469e686] [cursor=pointer]
+                        - columnheader "BABIP" [ref=f469e688] [cursor=pointer]
+                        - columnheader "GIDP" [ref=f469e690] [cursor=pointer]
+                        - columnheader "GIDPO" [ref=f469e692] [cursor=pointer]
+                        - columnheader "NP" [ref=f469e694] [cursor=pointer]
+                        - columnheader "P/PA" [ref=f469e696] [cursor=pointer]
+                        - columnheader "ROE" [ref=f469e698] [cursor=pointer]
+                        - columnheader "LOB" [ref=f469e700] [cursor=pointer]
+                        - columnheader "WO" [ref=f469e702] [cursor=pointer]
+                    - rowgroup [ref=f469e704]:
+                      - row [ref=f469e705]:
+                        - cell "2021" [ref=f469e706]
+                        - cell "SEA" [ref=f469e707]
+                        - cell "AL" [ref=f469e708]
+                        - cell "178" [ref=f469e709]
+                        - cell "56" [ref=f469e710]
+                        - cell [ref=f469e711]:
+                          - link "15" [ref=f469e713] [cursor=pointer]:
+                            - /url: https://www.mlb.com/video/search?q=BatterId+%3D+%5B666211%5D+AND+BattingTeamId+%3D+%5B136%5D+AND+HitResult+%3D+%5B%22Double%22%2C%22Triple%22%2C%22Home%20Run%22%5D+AND+GameType+%3D+%5B%22REGULAR_SEASON%22%5D+AND+Season+%3D+%5B2021%5D+Order+By+Timestamp+DESC
+                        - cell [ref=f469e714]:
+                          - link "3" [ref=f469e716] [cursor=pointer]:
+                            - /url: https://www.mlb.com/video/search?q=BatterId+%3D+%5B666211%5D+AND+BattingTeamId+%3D+%5B136%5D+AND+HitResult+%3D+%5B%22Hit%20By%20Pitch%22%5D+AND+GameType+%3D+%5B%22REGULAR_SEASON%22%5D+AND+Season+%3D+%5B2021%5D+Order+By+Timestamp+DESC
+                        - cell "2" [ref=f469e717]
+                        - cell "0" [ref=f469e718]
+                        - cell ".233" [ref=f469e719]
+                        - cell "1" [ref=f469e720]
+                        - cell "17" [ref=f469e721]
+                        - cell "751" [ref=f469e722]
+                        - cell "4.219" [ref=f469e723]
+                        - cell "1" [ref=f469e724]
+                        - cell "65" [ref=f469e725]
+                        - cell "0" [ref=f469e726]
+                      - row [ref=f469e727]:
+                        - cell "2022" [ref=f469e728]
+                        - cell "SEA" [ref=f469e729]
+                        - cell "AL" [ref=f469e730]
+                        - cell "117" [ref=f469e731]
+                        - cell "41" [ref=f469e732]
+                        - cell [ref=f469e733]:
+                          - link "13" [ref=f469e735] [cursor=pointer]:
+                            - /url: https://www.mlb.com/video/search?q=BatterId+%3D+%5B666211%5D+AND+BattingTeamId+%3D+%5B136%5D+AND+HitResult+%3D+%5B%22Double%22%2C%22Triple%22%2C%22Home%20Run%22%5D+AND+GameType+%3D+%5B%22REGULAR_SEASON%22%5D+AND+Season+%3D+%5B2022%5D+Order+By+Timestamp+DESC
+                        - cell "0" [ref=f469e736]
+                        - cell "1" [ref=f469e737]
+                        - cell "1" [ref=f469e738]
+                        - cell ".242" [ref=f469e739]
+                        - cell "2" [ref=f469e740]
+                        - cell "12" [ref=f469e741]
+                        - cell "430" [ref=f469e742]
+                        - cell "3.675" [ref=f469e743]
+                        - cell "0" [ref=f469e744]
+                        - cell "49" [ref=f469e745]
+                        - cell "0" [ref=f469e746]
+                      - row [ref=f469e747]:
+                        - cell "2023" [ref=f469e748]
+                        - cell "SEA" [ref=f469e749]
+                        - cell "AL" [ref=f469e750]
+                        - cell "56" [ref=f469e751]
+                        - cell "15" [ref=f469e752]
+                        - cell [ref=f469e753]:
+                          - link "3" [ref=f469e755] [cursor=pointer]:
+                            - /url: https://www.mlb.com/video/search?q=BatterId+%3D+%5B666211%5D+AND+BattingTeamId+%3D+%5B136%5D+AND+HitResult+%3D+%5B%22Double%22%2C%22Triple%22%2C%22Home%20Run%22%5D+AND+GameType+%3D+%5B%22REGULAR_SEASON%22%5D+AND+Season+%3D+%5B2023%5D+Order+By+Timestamp+DESC
+                        - cell [ref=f469e756]:
+                          - link "1" [ref=f469e758] [cursor=pointer]:
+                            - /url: https://www.mlb.com/video/search?q=BatterId+%3D+%5B666211%5D+AND+BattingTeamId+%3D+%5B136%5D+AND+HitResult+%3D+%5B%22Hit%20By%20Pitch%22%5D+AND+GameType+%3D+%5B%22REGULAR_SEASON%22%5D+AND+Season+%3D+%5B2023%5D+Order+By+Timestamp+DESC
+                        - cell "0" [ref=f469e759]
+                        - cell "0" [ref=f469e760]
+                        - cell ".143" [ref=f469e761]
+                        - cell "2" [ref=f469e762]
+                        - cell "5" [ref=f469e763]
+                        - cell "239" [ref=f469e764]
+                        - cell "4.268" [ref=f469e765]
+                        - cell "0" [ref=f469e766]
+                        - cell "24" [ref=f469e767]
+                        - cell "0" [ref=f469e768]
+                      - row [ref=f469e769]:
+                        - cell [ref=f469e770]:
+                          - text: "2024"
+                          - link [ref=f469e771] [cursor=pointer]:
+                            - /url: "#"
+                        - cell "2 teams" [ref=f469e774]
+                        - cell "-" [ref=f469e775]
+                        - cell "8" [ref=f469e776]
+                        - cell "1" [ref=f469e777]
+                        - cell "0" [ref=f469e778]
+                        - cell "0" [ref=f469e779]
+                        - cell "0" [ref=f469e780]
+                        - cell "0" [ref=f469e781]
+                        - cell ".250" [ref=f469e782]
+                        - cell "0" [ref=f469e783]
+                        - cell "1" [ref=f469e784]
+                        - cell "37" [ref=f469e785]
+                        - cell "4.625" [ref=f469e786]
+                        - cell "0" [ref=f469e787]
+                        - cell "2" [ref=f469e788]
+                        - cell "0" [ref=f469e789]
+                      - row [ref=f469e790]:
+                        - cell "2025" [ref=f469e791]
+                        - cell "HOU" [ref=f469e792]
+                        - cell "AL" [ref=f469e793]
+                        - cell "135" [ref=f469e794]
+                        - cell "39" [ref=f469e795]
+                        - cell [ref=f469e796]:
+                          - link "10" [ref=f469e798] [cursor=pointer]:
+                            - /url: https://www.mlb.com/video/search?q=BatterId+%3D+%5B666211%5D+AND+BattingTeamId+%3D+%5B117%5D+AND+HitResult+%3D+%5B%22Double%22%2C%22Triple%22%2C%22Home%20Run%22%5D+AND+GameType+%3D+%5B%22REGULAR_SEASON%22%5D+AND+Season+%3D+%5B2025%5D+Order+By+Timestamp+DESC
+                        - cell "0" [ref=f469e799]
+                        - cell "0" [ref=f469e800]
+                        - cell "1" [ref=f469e801]
+                        - cell ".270" [ref=f469e802]
+                        - cell "0" [ref=f469e803]
+                        - cell "11" [ref=f469e804]
+                        - cell "552" [ref=f469e805]
+                        - cell "4.089" [ref=f469e806]
+                        - cell "0" [ref=f469e807]
+                        - cell "46" [ref=f469e808]
+                        - cell "0" [ref=f469e809]
+                      - row [ref=f469e810]:
+                        - cell "2026" [ref=f469e811]
+                        - cell "HOU" [ref=f469e812]
+                        - cell "AL" [ref=f469e813]
+                        - cell "189" [ref=f469e814]
+                        - cell "70" [ref=f469e815]
+                        - cell [ref=f469e816]:
+                          - link "15" [ref=f469e818] [cursor=pointer]:
+                            - /url: https://www.mlb.com/video/search?q=BatterId+%3D+%5B666211%5D+AND+BattingTeamId+%3D+%5B117%5D+AND+HitResult+%3D+%5B%22Double%22%2C%22Triple%22%2C%22Home%20Run%22%5D+AND+GameType+%3D+%5B%22REGULAR_SEASON%22%5D+AND+Season+%3D+%5B2026%5D+Order+By+Timestamp+DESC
+                        - cell [ref=f469e819]:
+                          - link "4" [ref=f469e821] [cursor=pointer]:
+                            - /url: https://www.mlb.com/video/search?q=BatterId+%3D+%5B666211%5D+AND+BattingTeamId+%3D+%5B117%5D+AND+HitResult+%3D+%5B%22Hit%20By%20Pitch%22%5D+AND+GameType+%3D+%5B%22REGULAR_SEASON%22%5D+AND+Season+%3D+%5B2026%5D+Order+By+Timestamp+DESC
+                        - cell "1" [ref=f469e822]
+                        - cell "0" [ref=f469e823]
+                        - cell ".311" [ref=f469e824]
+                        - cell "2" [ref=f469e825]
+                        - cell "17" [ref=f469e826]
+                        - cell "713" [ref=f469e827]
+                        - cell "3.772" [ref=f469e828]
+                        - cell "1" [ref=f469e829]
+                        - cell "55" [ref=f469e830]
+                        - cell "0" [ref=f469e831]
+                    - rowgroup [ref=f469e832]:
+                      - row [ref=f469e833]:
+                        - cell "MLB Career" [ref=f469e834]
+                        - cell "-" [ref=f469e835]
+                        - cell "-" [ref=f469e836]
+                        - cell "683" [ref=f469e837]
+                        - cell "222" [ref=f469e838]
+                        - cell "56" [ref=f469e839]
+                        - cell "8" [ref=f469e840]
+                        - cell "4" [ref=f469e841]
+                        - cell "2" [ref=f469e842]
+                        - cell ".261" [ref=f469e843]
+                        - cell "7" [ref=f469e844]
+                        - cell "63" [ref=f469e845]
+                        - cell "2722" [ref=f469e846]
+                        - cell "3.985" [ref=f469e847]
+                        - cell "2" [ref=f469e848]
+                        - cell "241" [ref=f469e849]
+                        - cell "0" [ref=f469e850]
+                  - generic:
+                    - table:
+                      - rowgroup:
+                        - row:
+                          - columnheader [ref=f469e851] [cursor=pointer]:
+                            - generic [ref=f469e852]: Season
+                      - rowgroup:
+                        - row:
+                          - cell: "2021"
+                        - row:
+                          - cell: "2022"
+                        - row:
+                          - cell: "2023"
+                        - row:
+                          - cell:
+                            - text: "2024"
+                            - link:
+                              - /url: "#"
+                        - row:
+                          - cell: "2025"
+                        - row:
+                          - cell: "2026"
+                      - rowgroup:
+                        - row:
+                          - cell: MLB Career
+        - generic [ref=f469e854]:
+          - heading "News" [level=2] [ref=f469e855]
+          - generic [ref=f469e857]:
+            - link "8/12/2026 at 7:25 PM Taylor Trammell on the Astros' resiliency" [ref=f469e858] [cursor=pointer]:
+              - /url: /astros/video/taylor-trammell-on-the-astros-resiliency
+              - generic [ref=f469e861]:
+                - generic [ref=f469e862]: 8/12/2026 at 7:25 PM
+                - heading "Taylor Trammell on the Astros' resiliency" [level=4] [ref=f469e863]
+            - link "8/12/2026 at 5:54 PM Taylor Trammell's leadoff triple in the 8th inning" [ref=f469e864] [cursor=pointer]:
+              - /url: /astros/video/taylor-trammell-triples-2-on-a-fly-ball-to-right-fielder-jung-hoo-lee
+              - generic [ref=f469e867]:
+                - generic [ref=f469e868]: 8/12/2026 at 5:54 PM
+                - heading "Taylor Trammell's leadoff triple in the 8th inning" [level=4] [ref=f469e869]
+            - link "8/05/2026 at 12:34 AM Trammell trots again! But this time it counts, as Astros beat Blue Jays" [ref=f469e870] [cursor=pointer]:
+              - /url: /astros/news/taylor-trammell-s-3-run-home-run-leads-astros-past-blue-jays
+              - generic [ref=f469e873]:
+                - generic [ref=f469e874]: 8/05/2026 at 12:34 AM
+                - heading "Trammell trots again! But this time it counts, as Astros beat Blue Jays" [level=4] [ref=f469e875]
+          - link "View More Videos" [ref=f469e878] [cursor=pointer]:
+            - /url: https://www.mlb.com/astros/video/search?q=PlayerId+%3D%3D+%5B666211%5D+Order+By+Timestamp
+        - generic [ref=f469e879]:
+          - generic [ref=f469e880]:
+            - heading "Awards" [level=2] [ref=f469e881]
+            - generic [ref=f469e883]:
+              - generic [ref=f469e884]:
+                - generic [ref=f469e885]:
+                  - heading "MiLB.com Organization All-Star" [level=4] [ref=f469e886]
+                  - table [ref=f469e887]:
+                    - rowgroup [ref=f469e888]:
+                      - row [ref=f469e889]:
+                        - columnheader "Year" [ref=f469e890]
+                        - columnheader "Team" [ref=f469e891]
+                        - columnheader "League" [ref=f469e892]
+                    - rowgroup [ref=f469e893]:
+                      - row [ref=f469e894]:
+                        - cell "2016" [ref=f469e895]
+                        - cell "Cincinnati Reds" [ref=f469e896]
+                        - cell "NL" [ref=f469e897]
+                      - row [ref=f469e898]:
+                        - cell "2017" [ref=f469e899]
+                        - cell "Cincinnati Reds" [ref=f469e900]
+                        - cell "NL" [ref=f469e901]
+                      - row [ref=f469e902]:
+                        - cell "2018" [ref=f469e903]
+                        - cell "Cincinnati Reds" [ref=f469e904]
+                        - cell "NL" [ref=f469e905]
+                - generic [ref=f469e906]:
+                  - heading "Baseball America Low Class A All-Star" [level=4] [ref=f469e907]
+                  - table [ref=f469e908]:
+                    - rowgroup [ref=f469e909]:
+                      - row [ref=f469e910]:
+                        - columnheader "Year" [ref=f469e911]
+                        - columnheader "Team" [ref=f469e912]
+                        - columnheader "League" [ref=f469e913]
+                    - rowgroup [ref=f469e914]:
+                      - row [ref=f469e915]:
+                        - cell "2017" [ref=f469e916]
+                        - cell "Dayton Dragons" [ref=f469e917]
+                        - cell "MID" [ref=f469e918]
+                - generic [ref=f469e919]:
+                  - heading "FSL Mid-Season All-Star" [level=4] [ref=f469e920]
+                  - table [ref=f469e921]:
+                    - rowgroup [ref=f469e922]:
+                      - row [ref=f469e923]:
+                        - columnheader "Year" [ref=f469e924]
+                        - columnheader "Team" [ref=f469e925]
+                        - columnheader "League" [ref=f469e926]
+                    - rowgroup [ref=f469e927]:
+                      - row [ref=f469e928]:
+                        - cell "2018" [ref=f469e929]
+                        - cell "Daytona Tortugas" [ref=f469e930]
+                        - cell "FSL" [ref=f469e931]
+                - generic [ref=f469e932]:
+                  - heading "Futures Game Most Valuable Player" [level=4] [ref=f469e933]
+                  - table [ref=f469e934]:
+                    - rowgroup [ref=f469e935]:
+                      - row [ref=f469e936]:
+                        - columnheader "Year" [ref=f469e937]
+                        - columnheader "Team" [ref=f469e938]
+                        - columnheader "League" [ref=f469e939]
+                    - rowgroup [ref=f469e940]:
+                      - row [ref=f469e941]:
+                        - cell "2018" [ref=f469e942]
+                        - cell "Daytona Tortugas" [ref=f469e943]
+                        - cell "FSL" [ref=f469e944]
+                - generic [ref=f469e945]:
+                  - heading "Futures Game Selection" [level=4] [ref=f469e946]
+                  - table [ref=f469e947]:
+                    - rowgroup [ref=f469e948]:
+                      - row [ref=f469e949]:
+                        - columnheader "Year" [ref=f469e950]
+                        - columnheader "Team" [ref=f469e951]
+                        - columnheader "League" [ref=f469e952]
+                    - rowgroup [ref=f469e953]:
+                      - row [ref=f469e954]:
+                        - cell "2018" [ref=f469e955]
+                        - cell "Daytona Tortugas" [ref=f469e956]
+                        - cell "FSL" [ref=f469e957]
+                      - row [ref=f469e958]:
+                        - cell "2019" [ref=f469e959]
+                        - cell "Chattanooga Lookouts" [ref=f469e960]
+                        - cell "SOU" [ref=f469e961]
+                - generic [ref=f469e962]:
+                  - heading "FSL Post-Season All-Star" [level=4] [ref=f469e963]
+                  - table [ref=f469e964]:
+                    - rowgroup [ref=f469e965]:
+                      - row [ref=f469e966]:
+                        - columnheader "Year" [ref=f469e967]
+                        - columnheader "Team" [ref=f469e968]
+                        - columnheader "League" [ref=f469e969]
+                    - rowgroup [ref=f469e970]:
+                      - row [ref=f469e971]:
+                        - cell "2018" [ref=f469e972]
+                        - cell "Daytona Tortugas" [ref=f469e973]
+                        - cell "FSL" [ref=f469e974]
+              - generic [ref=f469e975]: + View More Awards
+          - generic [ref=f469e977]:
+            - heading "League Rankings" [level=3] [ref=f469e978]
+            - generic [ref=f469e980]:
+              - heading "Triples" [level=4] [ref=f469e981]
+              - table [ref=f469e982]:
+                - rowgroup [ref=f469e983]:
+                  - row [ref=f469e984]:
+                    - columnheader "Year" [ref=f469e985]
+                    - columnheader "3B" [ref=f469e986]
+                    - columnheader "Rank" [ref=f469e987]
+                - rowgroup [ref=f469e988]:
+                  - row [ref=f469e989]:
+                    - cell "2026" [ref=f469e990]
+                    - cell "2" [ref=f469e991]
+                    - cell "24th in AL" [ref=f469e992]
+          - generic [ref=f469e993]:
+            - heading "Latest Transactions" [level=3] [ref=f469e994]
+            - table [ref=f469e996]:
+              - rowgroup [ref=f469e997]:
+                - row [ref=f469e998]:
+                  - columnheader "Team" [ref=f469e999]
+                  - columnheader "Date" [ref=f469e1000]
+                  - columnheader "Transaction" [ref=f469e1001]
+              - rowgroup [ref=f469e1002]:
+                - row "May 26, 2026 Houston Astros activated CF Taylor Trammell from the 10-day injured list." [ref=f469e1003]:
+                  - cell [ref=f469e1004]
+                  - cell "May 26, 2026" [ref=f469e1006]
+                  - cell "Houston Astros activated CF Taylor Trammell from the 10-day injured list." [ref=f469e1007]
+                - row "May 19, 2026 Houston Astros sent CF Taylor Trammell on a rehab assignment to Corpus Christi Hooks." [ref=f469e1008]:
+                  - cell [ref=f469e1009]
+                  - cell "May 19, 2026" [ref=f469e1011]
+                  - cell "Houston Astros sent CF Taylor Trammell on a rehab assignment to Corpus Christi Hooks." [ref=f469e1012]
+                - row "May 19, 2026 Houston Astros sent CF Taylor Trammell on a rehab assignment to Corpus Christi Hooks." [ref=f469e1013]:
+                  - cell [ref=f469e1014]
+                  - cell "May 19, 2026" [ref=f469e1016]
+                  - cell "Houston Astros sent CF Taylor Trammell on a rehab assignment to Corpus Christi Hooks." [ref=f469e1017]
+                - row "April 21, 2026 Houston Astros placed LF Taylor Trammell on the 10-day injured list. Left groin strain." [ref=f469e1018]:
+                  - cell [ref=f469e1019]
+                  - cell "April 21, 2026" [ref=f469e1021]
+                  - cell "Houston Astros placed LF Taylor Trammell on the 10-day injured list. Left groin strain." [ref=f469e1022]
+                - row "April 16, 2026 LF Taylor Trammell changed number to 26." [ref=f469e1023]:
+                  - cell [ref=f469e1024]
+                  - cell "April 16, 2026" [ref=f469e1026]
+                  - cell "LF Taylor Trammell changed number to 26." [ref=f469e1027]
+                - row "April 15, 2026 LF Taylor Trammell changed number to 42." [ref=f469e1028]:
+                  - cell [ref=f469e1029]
+                  - cell "April 15, 2026" [ref=f469e1031]
+                  - cell "LF Taylor Trammell changed number to 42." [ref=f469e1032]
+                - row "April 10, 2026 Houston Astros selected the contract of LF Taylor Trammell from Sugar Land Space Cowboys." [ref=f469e1033]:
+                  - cell [ref=f469e1034]
+                  - cell "April 10, 2026" [ref=f469e1036]
+                  - cell "Houston Astros selected the contract of LF Taylor Trammell from Sugar Land Space Cowboys." [ref=f469e1037]
+                - row "January 16, 2026 Houston Astros invited non-roster LF Taylor Trammell to spring training." [ref=f469e1038]:
+                  - cell [ref=f469e1039]
+                  - cell "January 16, 2026" [ref=f469e1041]
+                  - cell "Houston Astros invited non-roster LF Taylor Trammell to spring training." [ref=f469e1042]
+                - row "December 5, 2025 Houston Astros sent LF Taylor Trammell outright to Sugar Land Space Cowboys." [ref=f469e1043]:
+                  - cell [ref=f469e1044]
+                  - cell "December 5, 2025" [ref=f469e1046]
+                  - cell "Houston Astros sent LF Taylor Trammell outright to Sugar Land Space Cowboys." [ref=f469e1047]
+                - row "September 1, 2025 Houston Astros activated LF Taylor Trammell from the 10-day injured list." [ref=f469e1048]:
+                  - cell [ref=f469e1049]
+                  - cell "September 1, 2025" [ref=f469e1051]
+                  - cell "Houston Astros activated LF Taylor Trammell from the 10-day injured list." [ref=f469e1052]
+            - generic [ref=f469e1053]: + View More Transactions
+    - generic "Spray Chart"
+  - contentinfo [ref=f469e1056]:
+    - generic [ref=f469e1057]:
+      - generic [ref=f469e1058]:
+        - link [ref=f469e1060] [cursor=pointer]:
+          - /url: /astros/
+        - list [ref=f469e1061]:
+          - listitem [ref=f469e1062]:
+            - link "Official Info" [ref=f469e1063] [cursor=pointer]:
+              - /url: https://www.mlb.com/official-information
+          - listitem [ref=f469e1064]:
+            - link "Contact the Astros" [ref=f469e1065] [cursor=pointer]:
+              - /url: https://www.mlb.com/astros/official-information/contact
+          - listitem [ref=f469e1066]:
+            - link "Accessibility" [ref=f469e1067] [cursor=pointer]:
+              - /url: https://www.mlb.com/official-information/accessibility
+          - listitem [ref=f469e1068]:
+            - link "Job Opportunities" [ref=f469e1069] [cursor=pointer]:
+              - /url: https://www.mlb.com/astros/team/jobs
+          - listitem [ref=f469e1070]:
+            - link "Advertising Opportunities" [ref=f469e1071] [cursor=pointer]:
+              - /url: https://www.mlb.com/sponsorship
+      - generic [ref=f469e1072]:
+        - list [ref=f469e1074]:
+          - listitem [ref=f469e1075]:
+            - link "MLB.com" [ref=f469e1076] [cursor=pointer]:
+              - /url: /
+              - img "MLB.com" [ref=f469e1077]
+          - listitem [ref=f469e1078]:
+            - link "Boys and Girls Club of America" [ref=f469e1079] [cursor=pointer]:
+              - /url: https://www.bgca.org/about-us/our-partners/mlb
+              - img "Boys and Girls Club of America"
+        - generic [ref=f469e1080]:
+          - list [ref=f469e1081]:
+            - listitem [ref=f469e1082]:
+              - link "Terms of Use" [ref=f469e1083] [cursor=pointer]:
+                - /url: https://www.mlb.com/official-information/terms-of-use
+            - listitem [ref=f469e1084]:
+              - link "Privacy Policy" [ref=f469e1085] [cursor=pointer]:
+                - /url: https://www.mlb.com/official-information/privacy-policy
+            - listitem [ref=f469e1086]:
+              - link "Legal Notices" [ref=f469e1087] [cursor=pointer]:
+                - /url: https://www.mlb.com/official-information/legal-notices
+            - listitem [ref=f469e1088]:
+              - link "Contact MLB" [ref=f469e1089] [cursor=pointer]:
+                - /url: https://support.mlb.com/s/
+            - listitem [ref=f469e1090]:
+              - link "Do not Sell or Share My Personal Data" [ref=f469e1091] [cursor=pointer]:
+                - /url: https://privacyportal.onetrust.com/webform/53a301ae-6882-46f9-af93-24f64f792aee/3251a424-8286-4725-9313-603f12c85a49
+          - generic [ref=f469e1092]: © 2026 MLB Advanced Media, LP. All rights reserved.

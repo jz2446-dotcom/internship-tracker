@@ -1,0 +1,472 @@
+- generic [active] [ref=f1589e1]:
+  - banner [ref=f1589e3]:
+    - generic:
+      - link "Skip to main content":
+        - /url: "#skipToMainContent"
+    - generic [ref=f1589e7]:
+      - link "Company Logo" [ref=f1589e9] [cursor=pointer]:
+        - /url: https://careers.united.com/us/en/
+        - img "Company Logo" [ref=f1589e10]
+      - navigation "primary" [ref=f1589e17]:
+        - list [ref=f1589e18]:
+          - listitem [ref=f1589e19]:
+            - link "Careers home" [ref=f1589e21] [cursor=pointer]:
+              - /url: https://careers.united.com/us/en/home
+              - text: Careers Home
+          - listitem [ref=f1589e22]:
+            - link "Locations" [ref=f1589e24] [cursor=pointer]:
+              - /url: https://careers.united.com/us/en/search-results
+              - text: Open Jobs
+          - listitem [ref=f1589e25]:
+            - link "Events" [ref=f1589e27] [cursor=pointer]:
+              - /url: https://careers.united.com/us/en/events
+          - listitem [ref=f1589e28]:
+            - button "Working At United" [ref=f1589e29] [cursor=pointer]
+      - list [ref=f1589e35]:
+        - listitem [ref=f1589e36]:
+          - button "Login" [ref=f1589e40] [cursor=pointer]
+        - listitem [ref=f1589e47]:
+          - link "saved jobs (0)" [ref=f1589e50] [cursor=pointer]:
+            - /url: https://careers.united.com/us/en/jobcart
+            - generic [ref=f1589e54]: Saved jobs
+            - generic [ref=f1589e55]: (0)
+  - main [ref=f1589e56]:
+    - generic: "-"
+    - generic [ref=f1589e57]: "-"
+    - generic [ref=f1589e63]:
+      - generic [ref=f1589e64]:
+        - region "Refine your search" [ref=f1589e68]:
+          - text: $
+          - heading "Refine your search" [level=2] [ref=f1589e71]
+          - generic [ref=f1589e72]:
+            - generic [ref=f1589e73]:
+              - heading [level=3] [ref=f1589e76]:
+                - button "Category" [expanded] [ref=f1589e77] [cursor=pointer]:
+                  - text: Category
+                  - generic [ref=f1589e78]: "8"
+              - generic [ref=f1589e80]:
+                - generic [ref=f1589e82]:
+                  - searchbox "Category" [ref=f1589e83]
+                  - text: ":"
+                - group "Category" [ref=f1589e85]:
+                  - list [ref=f1589e87]:
+                    - listitem [ref=f1589e88]:
+                      - generic [ref=f1589e89] [cursor=pointer]:
+                        - checkbox "Corporate 111 jobs" [ref=f1589e90]
+                        - generic [ref=f1589e92]:
+                          - text: Corporate
+                          - generic [ref=f1589e93]:
+                            - text: (111)
+                            - generic [ref=f1589e94]: jobs
+                    - listitem [ref=f1589e95]:
+                      - generic [ref=f1589e96] [cursor=pointer]:
+                        - checkbox "Digital Technology 58 jobs" [ref=f1589e97]
+                        - generic [ref=f1589e99]:
+                          - text: Digital Technology
+                          - generic [ref=f1589e100]:
+                            - text: (58)
+                            - generic [ref=f1589e101]: jobs
+                    - listitem [ref=f1589e102]:
+                      - generic [ref=f1589e103] [cursor=pointer]:
+                        - checkbox "Aircraft Maintenance and Support 44 jobs" [ref=f1589e104]
+                        - generic [ref=f1589e106]:
+                          - text: Aircraft Maintenance and Support
+                          - generic [ref=f1589e107]:
+                            - text: (44)
+                            - generic [ref=f1589e108]: jobs
+                    - listitem [ref=f1589e109]:
+                      - generic [ref=f1589e110] [cursor=pointer]:
+                        - checkbox "At the Airport 25 jobs" [ref=f1589e111]
+                        - generic [ref=f1589e113]:
+                          - text: At the Airport
+                          - generic [ref=f1589e114]:
+                            - text: (25)
+                            - generic [ref=f1589e115]: jobs
+                    - listitem [ref=f1589e116]:
+                      - generic [ref=f1589e117] [cursor=pointer]:
+                        - checkbox "Flight Attendant 6 jobs" [ref=f1589e118]
+                        - generic [ref=f1589e120]:
+                          - text: Flight Attendant
+                          - generic [ref=f1589e121]:
+                            - text: (6)
+                            - generic [ref=f1589e122]: jobs
+                    - listitem [ref=f1589e123]:
+                      - generic [ref=f1589e124] [cursor=pointer]:
+                        - checkbox "Customer Solutions 4 jobs" [ref=f1589e125]
+                        - generic [ref=f1589e127]:
+                          - text: Customer Solutions
+                          - generic [ref=f1589e128]:
+                            - text: (4)
+                            - generic [ref=f1589e129]: jobs
+            - generic [ref=f1589e130]:
+              - heading [level=3] [ref=f1589e133]:
+                - button "Country" [ref=f1589e134] [cursor=pointer]:
+                  - text: Country
+                  - generic [ref=f1589e135]: (
+              - generic: ":"
+            - generic [ref=f1589e136]:
+              - heading [level=3] [ref=f1589e139]:
+                - button "State / Province" [ref=f1589e140] [cursor=pointer]:
+                  - text: State / Province
+                  - generic [ref=f1589e141]: (
+              - generic: ":"
+            - generic [ref=f1589e142]:
+              - heading [level=3] [ref=f1589e145]:
+                - button "City" [ref=f1589e146] [cursor=pointer]:
+                  - text: City
+                  - generic [ref=f1589e147]: (
+              - generic: ":"
+            - generic [ref=f1589e148]:
+              - heading [level=3] [ref=f1589e151]:
+                - button "Hiring Type" [ref=f1589e152] [cursor=pointer]:
+                  - text: Hiring Type
+                  - generic [ref=f1589e153]: (
+              - generic: ":"
+            - generic [ref=f1589e154]:
+              - heading [level=3] [ref=f1589e157]:
+                - button "Job ID" [ref=f1589e158] [cursor=pointer]:
+                  - text: Job ID
+                  - generic [ref=f1589e159]: (
+              - generic: ":"
+        - generic [ref=f1589e167]:
+          - link "United Benefits" [ref=f1589e168] [cursor=pointer]:
+            - /url: benefits
+          - generic [ref=f1589e175]:
+            - heading "United Benefits" [level=2] [ref=f1589e177]
+            - generic [ref=f1589e180]: Learn more about the competitive benefits package that will keep you happy, healthy and well-traveled.
+      - generic [ref=f1589e186]:
+        - region "Search results" [ref=f1589e187]:
+          - generic [ref=f1589e189]:
+            - generic [ref=f1589e191]:
+              - generic [ref=f1589e194]:
+                - generic [ref=f1589e195]: Search job title, location, or military code
+                - textbox "Search job title, location, or military code" [ref=f1589e196]
+                - text: "$ :"
+              - generic [ref=f1589e198]:
+                - generic [ref=f1589e199]: 144 results
+                - generic [ref=f1589e200]:
+                  - text: "|"
+                  - generic [ref=f1589e201]: Sort by
+                  - generic [ref=f1589e202]:
+                    - combobox "Sort by" [ref=f1589e203]:
+                      - option "Most relevant" [selected]
+                      - option "Most recent"
+                    - generic: 
+                - text: F
+            - list [ref=f1589e205]:
+              - listitem [ref=f1589e206]:
+                - generic [ref=f1589e207]:
+                  - generic [ref=f1589e208]:
+                    - heading [level=3] [ref=f1589e209]:
+                      - link "Sr Mgr - IT Appl Development Job ID is GGN00002590" [ref=f1589e210] [cursor=pointer]:
+                        - /url: https://careers.united.com/us/en/job/GGN00002590/Sr-Mgr-IT-Appl-Development
+                        - generic [ref=f1589e211]: Sr Mgr - IT Appl Development
+                    - paragraph [ref=f1589e212]:
+                      - generic [ref=f1589e214]:
+                        - generic [ref=f1589e215]: Location
+                        - generic [ref=f1589e216]: 
+                        - text: Gurugram, Haryana, India
+                      - button "Associated with 2 categories" [ref=f1589e219] [cursor=pointer]:
+                        - generic [ref=f1589e220]: 
+                        - text: Associated with 2 categories
+                      - generic [ref=f1589e222]:
+                        - generic [ref=f1589e223]: Job Id
+                        - text: GGN00002590
+                      - generic [ref=f1589e225]:
+                        - generic [ref=f1589e226]: Posted Date
+                        - generic [ref=f1589e227]: 
+                        - text: August 11 2026
+                    - text: 
+                    - paragraph [ref=f1589e228]: We are recruiting a Senior Manager – IT Application Development to lead the transformation of United’s Enterprise Technology landscape. Drive the design and automation of intelligent agents and workflows, leveraging advanced AI frameworks. Ideal for experienced leaders with deep expertise in cloud-native development and enterprise systems.
+                  - link "Apply Now for Sr Mgr - IT Appl Development" [ref=f1589e231] [cursor=pointer]:
+                    - /url: https://careers.united.com/us/en/hvhapply?jobSeqNo=UAIUADUSGGN00002590EXTERNALENUSTALEO
+                    - text: Apply Now
+                    - generic [ref=f1589e232]: Sr Mgr - IT Appl Development
+              - listitem [ref=f1589e233]:
+                - generic [ref=f1589e234]:
+                  - generic [ref=f1589e235]:
+                    - heading [level=3] [ref=f1589e236]:
+                      - link "Senior Engineer - DevOps Job ID is BKC00000013" [ref=f1589e237] [cursor=pointer]:
+                        - /url: https://careers.united.com/us/en/job/BKC00000013/Senior-Engineer-DevOps
+                        - generic [ref=f1589e238]: Senior Engineer - DevOps
+                    - paragraph [ref=f1589e239]:
+                      - generic [ref=f1589e241]:
+                        - generic [ref=f1589e242]: Location
+                        - generic [ref=f1589e243]: 
+                        - text: Bengaluru, Karnataka, India
+                      - button "Associated with 2 categories" [ref=f1589e246] [cursor=pointer]:
+                        - generic [ref=f1589e247]: 
+                        - text: Associated with 2 categories
+                      - generic [ref=f1589e249]:
+                        - generic [ref=f1589e250]: Job Id
+                        - text: BKC00000013
+                      - generic [ref=f1589e252]:
+                        - generic [ref=f1589e253]: Posted Date
+                        - generic [ref=f1589e254]: 
+                        - text: August 07 2026
+                    - text: 
+                    - paragraph [ref=f1589e255]: We are recruiting a Senior Engineer - DevOps to drive automation and streamline software delivery processes for a leading airline. You will enhance collaboration between development and operations, manage cloud infrastructure, and implement CI/CD pipelines. Ideal candidates have significant DevOps experience and strong scripting and automation skills.
+                  - link "Apply Now for Senior Engineer - DevOps" [ref=f1589e258] [cursor=pointer]:
+                    - /url: https://careers.united.com/us/en/hvhapply?jobSeqNo=UAIUADUSBKC00000013EXTERNALENUSTALEO
+                    - text: Apply Now
+                    - generic [ref=f1589e259]: Senior Engineer - DevOps
+              - listitem [ref=f1589e260]:
+                - generic [ref=f1589e261]:
+                  - generic [ref=f1589e262]:
+                    - heading [level=3] [ref=f1589e263]:
+                      - link "Senior Product Manager - API Management Job ID is WHQ00026118-1" [ref=f1589e264] [cursor=pointer]:
+                        - /url: https://careers.united.com/us/en/job/WHQ00026118-1/Senior-Product-Manager-API-Management
+                        - generic [ref=f1589e265]: Senior Product Manager - API Management
+                    - paragraph [ref=f1589e266]:
+                      - generic [ref=f1589e268]:
+                        - generic [ref=f1589e269]: Location
+                        - generic [ref=f1589e270]: 
+                        - text: Chicago, Illinois, United States
+                      - button "Associated with 2 categories" [ref=f1589e273] [cursor=pointer]:
+                        - generic [ref=f1589e274]: 
+                        - text: Associated with 2 categories
+                      - generic [ref=f1589e276]:
+                        - generic [ref=f1589e277]: Job Id
+                        - text: WHQ00026118-1
+                      - generic [ref=f1589e279]:
+                        - generic [ref=f1589e280]: Posted Date
+                        - generic [ref=f1589e281]: 
+                        - text: July 28 2026
+                    - text: 
+                    - paragraph [ref=f1589e282]: We are recruiting a Senior Product Manager - API Management to drive the adoption and road mapping of enterprise integration technologies. Lead the development and delivery of integration platforms, collaborating with cross-functional teams. Ideal for experienced leaders with strong technical and business acumen in API management and enterprise-scale solutions.
+                  - link "Apply Now for Senior Product Manager - API Management" [ref=f1589e285] [cursor=pointer]:
+                    - /url: https://careers.united.com/us/en/hvhapply?jobSeqNo=UAIUADUSWHQ000261181EXTERNALENUSTALEO
+                    - text: Apply Now
+                    - generic [ref=f1589e286]: Senior Product Manager - API Management
+              - listitem [ref=f1589e287]:
+                - generic [ref=f1589e288]:
+                  - generic [ref=f1589e289]:
+                    - heading [level=3] [ref=f1589e290]:
+                      - link "Senior Manager - Digital Governance (Remote) Job ID is WHQ00026547" [ref=f1589e291] [cursor=pointer]:
+                        - /url: https://careers.united.com/us/en/job/WHQ00026547/Senior-Manager-Digital-Governance-Remote
+                        - generic [ref=f1589e292]: Senior Manager - Digital Governance (Remote)
+                    - paragraph [ref=f1589e293]:
+                      - generic [ref=f1589e295]:
+                        - generic [ref=f1589e296]: Location
+                        - generic [ref=f1589e297]: 
+                        - text: Chicago, Illinois, United States
+                      - button "Associated with 2 categories" [ref=f1589e300] [cursor=pointer]:
+                        - generic [ref=f1589e301]: 
+                        - text: Associated with 2 categories
+                      - generic [ref=f1589e303]:
+                        - generic [ref=f1589e304]: Job Id
+                        - text: WHQ00026547
+                      - generic [ref=f1589e306]:
+                        - generic [ref=f1589e307]: Posted Date
+                        - generic [ref=f1589e308]: 
+                        - text: July 01 2026
+                    - text: 
+                    - paragraph [ref=f1589e309]: Become part of our team as a Senior Manager - Digital Governance, leading the design and execution of regulatory and compliance enablement initiatives to support cybersecurity, data integrity, and financial controls. Oversee cross-functional programmes and manage a team to ensure compliance and operational resilience. Ideal for experienced leaders in digital risk and compliance.
+                  - link "Apply Now for Senior Manager - Digital Governance (Remote)" [ref=f1589e312] [cursor=pointer]:
+                    - /url: https://careers.united.com/us/en/hvhapply?jobSeqNo=UAIUADUSWHQ00026547EXTERNALENUSTALEO
+                    - text: Apply Now
+                    - generic [ref=f1589e313]: Senior Manager - Digital Governance (Remote)
+              - listitem [ref=f1589e314]:
+                - generic [ref=f1589e315]:
+                  - generic [ref=f1589e316]:
+                    - heading [level=3] [ref=f1589e317]:
+                      - link "Sr Cloud DevOps Engineer Job ID is GGN00002632" [ref=f1589e318] [cursor=pointer]:
+                        - /url: https://careers.united.com/us/en/job/GGN00002632/Sr-Cloud-DevOps-Engineer
+                        - generic [ref=f1589e319]: Sr Cloud DevOps Engineer
+                    - paragraph [ref=f1589e320]:
+                      - generic [ref=f1589e322]:
+                        - generic [ref=f1589e323]: Location
+                        - generic [ref=f1589e324]: 
+                        - text: Gurugram, Haryana, India
+                      - button "Associated with 2 categories" [ref=f1589e327] [cursor=pointer]:
+                        - generic [ref=f1589e328]: 
+                        - text: Associated with 2 categories
+                      - generic [ref=f1589e330]:
+                        - generic [ref=f1589e331]: Job Id
+                        - text: GGN00002632
+                      - generic [ref=f1589e333]:
+                        - generic [ref=f1589e334]: Posted Date
+                        - generic [ref=f1589e335]: 
+                        - text: July 31 2026
+                    - text: 
+                    - paragraph [ref=f1589e336]: We are seeking a Sr Cloud DevOps Engineer to design, automate, and manage secure, scalable cloud infrastructure. You will embed security into platform engineering and collaborate with cross-functional teams. Ideal candidates have significant experience in cloud security automation and infrastructure as code.
+                  - link "Apply Now for Sr Cloud DevOps Engineer" [ref=f1589e339] [cursor=pointer]:
+                    - /url: https://careers.united.com/us/en/hvhapply?jobSeqNo=UAIUADUSGGN00002632EXTERNALENUSTALEO
+                    - text: Apply Now
+                    - generic [ref=f1589e340]: Sr Cloud DevOps Engineer
+              - listitem [ref=f1589e341]:
+                - generic [ref=f1589e342]:
+                  - generic [ref=f1589e343]:
+                    - heading [level=3] [ref=f1589e344]:
+                      - link "Quality Engineering Manager Job ID is WHQ00026235" [ref=f1589e345] [cursor=pointer]:
+                        - /url: https://careers.united.com/us/en/job/WHQ00026235/Quality-Engineering-Manager
+                        - generic [ref=f1589e346]: Quality Engineering Manager
+                    - paragraph [ref=f1589e347]:
+                      - generic [ref=f1589e349]:
+                        - generic [ref=f1589e350]: Location
+                        - generic [ref=f1589e351]: 
+                        - text: Chicago, Illinois, United States
+                      - button "Associated with 2 categories" [ref=f1589e354] [cursor=pointer]:
+                        - generic [ref=f1589e355]: 
+                        - text: Associated with 2 categories
+                      - generic [ref=f1589e357]:
+                        - generic [ref=f1589e358]: Job Id
+                        - text: WHQ00026235
+                      - generic [ref=f1589e360]:
+                        - generic [ref=f1589e361]: Posted Date
+                        - generic [ref=f1589e362]: 
+                        - text: August 05 2026
+                    - text: 
+                    - paragraph [ref=f1589e363]: We are looking for a Quality Engineering Manager to lead quality initiatives and resource planning within United's Digital Technology team. Oversee quality engineering teams, drive automation, and collaborate with application teams. Ideal for candidates with significant experience in quality engineering and automation frameworks.
+                  - link "Apply Now for Quality Engineering Manager" [ref=f1589e366] [cursor=pointer]:
+                    - /url: https://careers.united.com/us/en/hvhapply?jobSeqNo=UAIUADUSWHQ00026235EXTERNALENUSTALEO
+                    - text: Apply Now
+                    - generic [ref=f1589e367]: Quality Engineering Manager
+              - listitem [ref=f1589e368]:
+                - generic [ref=f1589e369]:
+                  - generic [ref=f1589e370]:
+                    - heading [level=3] [ref=f1589e371]:
+                      - link "Supervisor - AO Premium Services (Onsite) Job ID is DEN00006867" [ref=f1589e372] [cursor=pointer]:
+                        - /url: https://careers.united.com/us/en/job/DEN00006867/Supervisor-AO-Premium-Services-Onsite
+                        - generic [ref=f1589e373]: Supervisor - AO Premium Services (Onsite)
+                    - paragraph [ref=f1589e374]:
+                      - generic [ref=f1589e376]:
+                        - generic [ref=f1589e377]: Location
+                        - generic [ref=f1589e378]: 
+                        - text: Denver, Colorado, United States
+                      - generic [ref=f1589e380]:
+                        - generic [ref=f1589e381]: Category
+                        - generic [ref=f1589e382]: 
+                        - text: Customer Solutions
+                      - generic [ref=f1589e384]:
+                        - generic [ref=f1589e385]: Job Id
+                        - text: DEN00006867
+                      - generic [ref=f1589e387]:
+                        - generic [ref=f1589e388]: Posted Date
+                        - generic [ref=f1589e389]: 
+                        - text: August 06 2026
+                    - text: 
+                    - paragraph [ref=f1589e390]: Seeking a Supervisor to lead operational execution for United’s premium services at an airport. Oversee teams, manage vendor relationships, and ensure high standards in customer service and facility operations. Ideal for candidates with airline operations management experience and strong leadership skills.
+                  - link "Apply Now for Supervisor - AO Premium Services (Onsite)" [ref=f1589e393] [cursor=pointer]:
+                    - /url: https://careers.united.com/us/en/hvhapply?jobSeqNo=UAIUADUSDEN00006867EXTERNALENUSTALEO
+                    - text: Apply Now
+                    - generic [ref=f1589e394]: Supervisor - AO Premium Services (Onsite)
+              - listitem [ref=f1589e395]:
+                - generic [ref=f1589e396]:
+                  - generic [ref=f1589e397]:
+                    - heading [level=3] [ref=f1589e398]:
+                      - link "Managing Director - Digital Sales Job ID is WHQ00026679" [ref=f1589e399] [cursor=pointer]:
+                        - /url: https://careers.united.com/us/en/job/WHQ00026679/Managing-Director-Digital-Sales
+                        - generic [ref=f1589e400]: Managing Director - Digital Sales
+                    - paragraph [ref=f1589e401]:
+                      - generic [ref=f1589e403]:
+                        - generic [ref=f1589e404]: Location
+                        - generic [ref=f1589e405]: 
+                        - text: Chicago, Illinois, United States
+                      - generic [ref=f1589e407]:
+                        - generic [ref=f1589e408]: Category
+                        - generic [ref=f1589e409]: 
+                        - text: Corporate
+                      - generic [ref=f1589e411]:
+                        - generic [ref=f1589e412]: Job Id
+                        - text: WHQ00026679
+                      - generic [ref=f1589e414]:
+                        - generic [ref=f1589e415]: Posted Date
+                        - generic [ref=f1589e416]: 
+                        - text: August 03 2026
+                    - text: 
+                    - paragraph [ref=f1589e417]: We are currently hiring a Managing Director - Digital Sales to lead the strategy and execution of worldwide digital sales capabilities. Oversee digital transformation initiatives, optimise sales platforms, and drive technology-enabled sales effectiveness. Ideal for an experienced leader with deep expertise in digital sales and the airline industry.
+                  - link "Apply Now for Managing Director - Digital Sales" [ref=f1589e420] [cursor=pointer]:
+                    - /url: https://careers.united.com/us/en/hvhapply?jobSeqNo=UAIUADUSWHQ00026679EXTERNALENUSTALEO
+                    - text: Apply Now
+                    - generic [ref=f1589e421]: Managing Director - Digital Sales
+              - listitem [ref=f1589e422]:
+                - generic [ref=f1589e423]:
+                  - generic [ref=f1589e424]:
+                    - heading [level=3] [ref=f1589e425]:
+                      - link "Principal Developer - IT Job ID is WHQ00026134" [ref=f1589e426] [cursor=pointer]:
+                        - /url: https://careers.united.com/us/en/job/WHQ00026134/Principal-Developer-IT
+                        - generic [ref=f1589e427]: Principal Developer - IT
+                    - paragraph [ref=f1589e428]:
+                      - generic [ref=f1589e430]:
+                        - generic [ref=f1589e431]: Location
+                        - generic [ref=f1589e432]: 
+                        - text: Chicago, Illinois, United States
+                      - button "Associated with 2 categories" [ref=f1589e435] [cursor=pointer]:
+                        - generic [ref=f1589e436]: 
+                        - text: Associated with 2 categories
+                      - generic [ref=f1589e438]:
+                        - generic [ref=f1589e439]: Job Id
+                        - text: WHQ00026134
+                      - generic [ref=f1589e441]:
+                        - generic [ref=f1589e442]: Posted Date
+                        - generic [ref=f1589e443]: 
+                        - text: March 09 2026
+                    - text: 
+                    - paragraph [ref=f1589e444]: We are currently hiring a Principal Developer to design and develop high-scale, distributed platforms powering customer data and identity technologies for United Airlines. Lead architectural strategy, drive innovation, and mentor top talent. Ideal for experienced IT professionals with deep expertise in CDP, identity resolution, and AWS cloud services.
+                  - link "Apply Now for Principal Developer - IT" [ref=f1589e447] [cursor=pointer]:
+                    - /url: https://careers.united.com/us/en/hvhapply?jobSeqNo=UAIUADUSWHQ00026134EXTERNALENUSTALEO
+                    - text: Apply Now
+                    - generic [ref=f1589e448]: Principal Developer - IT
+              - listitem [ref=f1589e449]:
+                - generic [ref=f1589e450]:
+                  - generic [ref=f1589e451]:
+                    - heading [level=3] [ref=f1589e452]:
+                      - link "Customer Service Representative - Part Time Job ID is PUJ00000031" [ref=f1589e453] [cursor=pointer]:
+                        - /url: https://careers.united.com/us/en/job/PUJ00000031/Customer-Service-Representative-Part-Time
+                        - generic [ref=f1589e454]: Customer Service Representative - Part Time
+                    - paragraph [ref=f1589e455]:
+                      - generic [ref=f1589e457]:
+                        - generic [ref=f1589e458]: Location
+                        - generic [ref=f1589e459]: 
+                        - text: Punta Cana, La Altagracia, Dominican Republic
+                      - button "Associated with 2 categories" [ref=f1589e462] [cursor=pointer]:
+                        - generic [ref=f1589e463]: 
+                        - text: Associated with 2 categories
+                      - generic [ref=f1589e465]:
+                        - generic [ref=f1589e466]: Job Id
+                        - text: PUJ00000031
+                      - generic [ref=f1589e468]:
+                        - generic [ref=f1589e469]: Posted Date
+                        - generic [ref=f1589e470]: 
+                        - text: March 24 2026
+                    - text: 
+                    - paragraph [ref=f1589e471]: Embrace the role of a Customer Service Representative - Part Time and help create memorable travel experiences. Use your English and Spanish skills to assist travelers with ticketing, baggage, and inquiries. Enjoy a dynamic, global environment with opportunities for growth and travel. Make a difference every day with us!
+                  - list [ref=f1589e473]:
+                    - listitem [ref=f1589e474]:
+                      - link "Apply Now for Customer Service Representative - Part Time" [ref=f1589e476] [cursor=pointer]:
+                        - /url: https://careers.united.com/us/en/hvhapply?jobSeqNo=UAIUADUSPUJ00000031EXTERNALENUSTALEO
+                        - text: Apply Now
+                        - generic [ref=f1589e477]: Customer Service Representative - Part Time
+        - region "pagination" [ref=f1589e478]:
+          - text: Z
+          - button "Page 1": "1"
+          - button "Page 2" [ref=f1589e479] [cursor=pointer]: "2"
+          - button "Page 3" [ref=f1589e480] [cursor=pointer]: "3"
+          - button "Page 4" [ref=f1589e481] [cursor=pointer]: "4"
+          - button "Page 5" [ref=f1589e482] [cursor=pointer]: "5"
+          - button "Page 6" [ref=f1589e483] [cursor=pointer]: "6"
+          - button "Page 7" [ref=f1589e484] [cursor=pointer]: "7"
+          - button "Page 8" [ref=f1589e485] [cursor=pointer]: "8"
+          - button "Page 9" [ref=f1589e486] [cursor=pointer]: "9"
+          - button "Page 10" [ref=f1589e487] [cursor=pointer]: "10"
+          - button "View next page" [ref=f1589e488] [cursor=pointer]:
+            - generic [ref=f1589e489]: 
+  - contentinfo [ref=f1589e490]:
+    - generic [ref=f1589e492]:
+      - generic [ref=f1589e495]:
+        - list [ref=f1589e499]:
+          - listitem [ref=f1589e500]:
+            - link "Career Site Cookie Settings" [ref=f1589e502] [cursor=pointer]:
+              - /url: javascript:showConsentPreferencesPopup()
+          - listitem [ref=f1589e503]:
+            - link "Personal Information" [ref=f1589e505] [cursor=pointer]:
+              - /url: https://careers.united.com/us/en/personal-information
+        - generic [ref=f1589e506]:
+          - strong [ref=f1589e507]: United Careers – Accessibility and Accommodations
+          - text: United complies with all state and federal laws and supports applicants and employees by providing reasonable accommodations for disabilities and sincerely held religious beliefs, observances, and practices. Applicants, employees, and individuals with conditional job offers may request an accommodation or support at any stage of the hiring process or employment to help perform essential job functions. For assistance, please contact
+          - link "JobAccommodations@united.com" [ref=f1589e509] [cursor=pointer]:
+            - /url: mailto:JobAccommodations@united.com
+          - text: .
+      - generic [ref=f1589e510]: Copyright © 2026 United Airlines, Inc. All rights reserved.
+  - iframe [ref=f1589e514]

@@ -1,0 +1,367 @@
+- generic [active] [ref=f465e1]:
+  - generic:
+    - link "Lien vers la navigation" [ref=f465e2] [cursor=pointer]:
+      - /url: "#accordion"
+      - text: Passer à la navigation
+    - link "Lien vers le contenu principal" [ref=f465e3] [cursor=pointer]:
+      - /url: "#main-content"
+      - text: Passer au contenu principal
+    - link "Lien vers le bas de page" [ref=f465e4] [cursor=pointer]:
+      - /url: "#footer"
+      - text: Passer au bas de page
+  - generic [ref=f465e5]:
+    - banner [ref=f465e6]:
+      - navigation "primary" [ref=f465e7]:
+        - generic [ref=f465e9]:
+          - link "Page d'accueil" [ref=f465e11] [cursor=pointer]:
+            - /url: /
+          - generic [ref=f465e34]:
+            - link "0" [ref=f465e35] [cursor=pointer]:
+              - /url: /offres-sauvegardees
+            - alert [ref=f465e37]
+            - button "Mon espace candidat" [ref=f465e39] [cursor=pointer]
+      - navigation "secondary" [ref=f465e41]:
+        - generic [ref=f465e43]:
+          - list [ref=f465e44]:
+            - listitem [ref=f465e45]:
+              - link "Votre avenir chez nous" [ref=f465e47] [cursor=pointer]:
+                - /url: /groupe
+              - list:
+                - listitem [ref=f465e48]:
+                  - link "Mieux nous connaître" [ref=f465e49] [cursor=pointer]:
+                    - /url: /groupe/nous-connaitre
+                - listitem [ref=f465e50]:
+                  - link "Engagés ensemble" [ref=f465e51] [cursor=pointer]:
+                    - /url: /engages-ensemble
+            - listitem [ref=f465e52]:
+              - link "Profils recherchés" [ref=f465e54] [cursor=pointer]:
+                - /url: /metiers
+              - list:
+                - listitem [ref=f465e55]:
+                  - link "IT & Digital" [ref=f465e56] [cursor=pointer]:
+                    - /url: /metiers/it-digital
+                - listitem [ref=f465e57]:
+                  - link "Data" [ref=f465e58] [cursor=pointer]:
+                    - /url: /metiers/data
+                - listitem [ref=f465e59]:
+                  - link "Banque de Détail" [ref=f465e60] [cursor=pointer]:
+                    - /url: /metiers/banque-de-detail
+                - listitem [ref=f465e61]:
+                  - link "Banque de Grande Clientèle et Solutions Investisseurs" [ref=f465e62] [cursor=pointer]:
+                    - /url: /metiers/banque-de-grande-clientele-et-solutions-investisseurs
+                - listitem [ref=f465e63]:
+                  - link "Risques" [ref=f465e64] [cursor=pointer]:
+                    - /url: /metiers/risques
+                - listitem [ref=f465e65]:
+                  - link "Conformité" [ref=f465e66] [cursor=pointer]:
+                    - /url: /metiers/conformite
+                - listitem [ref=f465e67]:
+                  - link "Juridique & Fiscalité" [ref=f465e68] [cursor=pointer]:
+                    - /url: /metiers/juridique
+                - listitem [ref=f465e69]:
+                  - link "Direction financière" [ref=f465e70] [cursor=pointer]:
+                    - /url: /metiers/direction-financiere
+                - listitem [ref=f465e71]:
+                  - link "Inspection Générale, Audit & Consulting" [ref=f465e72] [cursor=pointer]:
+                    - /url: /metiers/inspection-generale-audit-consulting
+                - listitem [ref=f465e73]:
+                  - link "Plus de métiers" [ref=f465e74] [cursor=pointer]:
+                    - /url: /metiers/plus-metiers
+            - listitem [ref=f465e75]:
+              - link "Étudiants & jeunes diplômés" [ref=f465e77] [cursor=pointer]:
+                - /url: /etudiants-jeunes-diplomes
+              - list:
+                - listitem [ref=f465e78]:
+                  - link "Alternance" [ref=f465e79] [cursor=pointer]:
+                    - /url: /alternance
+                - listitem [ref=f465e80]:
+                  - link "Stages" [ref=f465e81] [cursor=pointer]:
+                    - /url: /stages
+                - listitem [ref=f465e82]:
+                  - link "V.I.E" [ref=f465e83] [cursor=pointer]:
+                    - /url: /vie
+                - listitem [ref=f465e84]:
+                  - link "Graduate programmes" [ref=f465e85] [cursor=pointer]:
+                    - /url: /etudiants-jeunes-diplomes/graduate-programmes
+                - listitem [ref=f465e86]:
+                  - link "Jobs étudiants" [ref=f465e87] [cursor=pointer]:
+                    - /url: /jobs-etudiants
+                - listitem [ref=f465e88]:
+                  - link "Conseils candidats" [ref=f465e89] [cursor=pointer]:
+                    - /url: /conseils-candidats
+            - listitem [ref=f465e90]:
+              - link "Rechercher" [ref=f465e91] [cursor=pointer]:
+                - /url: /rechercher
+                - text: Toutes les offres
+          - generic [ref=f465e92]:
+            - generic [ref=f465e96]:
+              - switch "Mode sombre"
+            - generic [ref=f465e100]:
+              - generic [ref=f465e101]: Site en français (version courante)
+              - generic [ref=f465e102]: FR
+              - separator [ref=f465e103]
+              - link "Consult the english website" [ref=f465e104] [cursor=pointer]:
+                - /url: /en
+                - text: EN
+    - main [ref=f465e105]:
+      - heading "Construisez votre carrière au sein du Groupe Société Générale" [level=1] [ref=f465e106]
+      - generic [ref=f465e107]:
+        - generic [ref=f465e109]:
+          - heading "1243 offres d’emploi" [level=2] [ref=f465e110]:
+            - generic [ref=f465e111]: "1243"
+            - generic [ref=f465e112]: offres d’emploi
+          - generic [ref=f465e113]:
+            - generic [ref=f465e114]: Nous donnons à chacun les moyens de faire avancer le monde
+            - generic [ref=f465e115]:
+              - generic:
+                - generic [ref=f465e116]:
+                  - generic [ref=f465e117]:
+                    - generic [ref=f465e118]: "Rechercher un job:"
+                    - generic [ref=f465e119]:
+                      - generic [ref=f465e120]: Une liste de suggestion de recherche apparaitra au ciblage du champ de recherche
+                      - textbox "Rechercher un job:" [ref=f465e121]:
+                        - /placeholder: Trouvez le job de vos rêves...
+                  - button "Rechercher" [ref=f465e122] [cursor=pointer]
+                - generic [ref=f465e124]:
+                  - generic [ref=f465e125]:
+                    - generic [ref=f465e126]:
+                      - generic [ref=f465e127]: "Rechercher un job:"
+                      - combobox "Rechercher un job:" [ref=f465e128]
+                      - generic [ref=f465e129]: Use arrow keys to navigate through job suggestions.
+                      - status [ref=f465e130]
+                    - separator [ref=f465e131]
+                    - button "Search a contract type" [ref=f465e133] [cursor=pointer]: Type de contrat
+                  - button "Rechercher" [ref=f465e134] [cursor=pointer]
+        - generic [ref=f465e136]:
+          - list [ref=f465e138]:
+            - listitem [ref=f465e139]:
+              - generic [ref=f465e140]: Métiers de la Banque de détail
+              - generic [ref=f465e142]: Vous cherchez un emploi en tant que Conseiller Clientèle, Chargé d'Affaires Entreprises ou Conseiller en Service Clients ? Rejoignez-nous !
+              - link "Je découvre" [ref=f465e144] [cursor=pointer]:
+                - /url: /metiers/banque-de-detail
+            - listitem [ref=f465e145]:
+              - generic [ref=f465e146]: Rejoignez notre communauté Data
+              - generic [ref=f465e148]: Débloquez des opportunités de carrières dans le domaine de la Data. Prêt à façonner l'avenir grâce aux données ?
+              - link "En savoir plus" [ref=f465e150] [cursor=pointer]:
+                - /url: /metiers/data
+            - listitem [ref=f465e151]:
+              - generic [ref=f465e152]: Matchez votre CV
+              - generic [ref=f465e154]: Découvrez les jobs qui vous correspondent en faisant matcher votre CV avec nos offres d'emplois !
+              - link "Importer mon CV, Nouvel onglet" [ref=f465e156] [cursor=pointer]:
+                - /url: https://cv.societegenerale.com/fr/
+                - text: Importer mon CV
+          - generic [ref=f465e160]:
+            - heading "Plongez dans notre histoire !" [level=2] [ref=f465e161]
+            - generic [ref=f465e162]:
+              - paragraph [ref=f465e163]:
+                - strong [ref=f465e164]: Virtuel, créatif, interactif, riche en surprises
+                - text: ", nous avons conçu un musée immersif pour partager notre patrimoine."
+              - paragraph [ref=f465e165]
+              - paragraph [ref=f465e166]: Alliant prises de vue 360°, 3D réaliste, Intelligence Artificielle et solutions XR (eXtended Reality), cet espace innovant imaginé dans le fabuleux décor de l’agence centrale, présente des objets iconiques, des anciennes campagnes publicitaires, des portraits de collaborateurs au cours du temps, etc.
+              - paragraph [ref=f465e167]: Ce véritable « concentré » de Société Générale se révèle, au fil de la visite, comme un lieu de rencontre des idées et des innovations, favorisant l’accélération de tous les progrès, qu’ils soient techniques, sociaux, économiques, sportifs ou philanthropiques, etc.
+            - link "Poussez virtuellement les portes" [ref=f465e168] [cursor=pointer]:
+              - /url: https://immersion-societegenerale.com/viewer/index.php?code=03afdbd66e7929b125f8597834fa83a4&utm_source=site-careers&utm_medium=bloc-homepage&utm_campaign=launch&utm_content=fr
+          - generic [ref=f465e170]:
+            - heading "Nous recrutons" [level=2] [ref=f465e172]
+            - list [ref=f465e173]:
+              - listitem [ref=f465e174]:
+                - link "Data Analyst" [ref=f465e175] [cursor=pointer]:
+                  - /url: /metiers/data/data-analyst
+              - listitem [ref=f465e181]:
+                - link "Data Scientist" [ref=f465e182] [cursor=pointer]:
+                  - /url: /metiers/data/data-scientist
+              - listitem [ref=f465e188]:
+                - link "Modélisateur risques" [ref=f465e189] [cursor=pointer]:
+                  - /url: /metiers/risques/modelisateur-risques
+              - listitem [ref=f465e195]:
+                - link "Conseiller clientèle particulier" [ref=f465e196] [cursor=pointer]:
+                  - /url: /metiers/banque-de-detail/conseiller-clientele-particuliers
+              - listitem [ref=f465e202]:
+                - link "Conseiller clientèle banque à distance" [ref=f465e203] [cursor=pointer]:
+                  - /url: /metiers/banque-de-detail/conseiller-service-client
+              - listitem [ref=f465e209]:
+                - link "Conseiller clientèle professionnels" [ref=f465e210] [cursor=pointer]:
+                  - /url: /metiers/banque-de-detail/conseiller-clientele-professionnels
+          - link "Voir d'autres métiers où nous recrutons" [ref=f465e220] [cursor=pointer]:
+            - /url: /metiers
+          - generic [ref=f465e221]:
+            - heading "Offres récentes" [level=3] [ref=f465e222]
+            - generic [ref=f465e227]:
+              - list [ref=f465e230]:
+                - listitem [ref=f465e231] [cursor=pointer]:
+                  - generic [ref=f465e232]:
+                    - generic [ref=f465e233]:
+                      - link "Responsable des contrôles du Front Office et de la transformation IA" [ref=f465e234]:
+                        - /url: /offres-d-emploi/responsable-des-controles-du-front-office-et-de-la-transformation-ia-26000ICI-fr
+                      - generic [ref=f465e235]: CDI
+                      - generic [ref=f465e237]: Montréal, Canada
+                      - generic [ref=f465e238]: Télétravail possible
+                    - button "Ajouter aux favoris" [ref=f465e239]
+                - listitem [ref=f465e242] [cursor=pointer]:
+                  - generic [ref=f465e243]:
+                    - generic [ref=f465e244]:
+                      - link "Chargé/e de Gestion et de Recouvrement - Saint Denis de La Réunion" [ref=f465e245]:
+                        - /url: /offres-d-emploi/charge-e-de-gestion-et-de-recouvrement-saint-denis-de-la-reunion-26000IET-fr
+                      - generic [ref=f465e246]: Alternance
+                      - generic [ref=f465e248]: Saint-Denis, France
+                    - button "Ajouter aux favoris" [ref=f465e249]
+                - listitem [ref=f465e252] [cursor=pointer]:
+                  - generic [ref=f465e253]:
+                    - generic [ref=f465e254]:
+                      - link "Stage Banquier Privé" [ref=f465e255]:
+                        - /url: /offres-d-emploi/stage-banquier-prive-26000IFR-fr
+                      - generic [ref=f465e256]: Stage
+                      - generic [ref=f465e258]: La-Rochelle, France
+                      - generic [ref=f465e259]: Télétravail possible
+                    - button "Ajouter aux favoris" [ref=f465e260]
+                - listitem [ref=f465e263] [cursor=pointer]:
+                  - generic [ref=f465e264]:
+                    - generic [ref=f465e265]:
+                      - link "Assistant développement et financements export structurés pour Europe et Moyen-Orient" [ref=f465e266]:
+                        - /url: /offres-d-emploi/assistant-developpement-et-financements-export-structures-pour-europe-et-moyen-orient-26000IEU-fr
+                      - generic [ref=f465e267]: Stage
+                      - generic [ref=f465e269]: La Defense, France
+                    - button "Ajouter aux favoris" [ref=f465e270]
+                - listitem [ref=f465e273] [cursor=pointer]:
+                  - generic [ref=f465e274]:
+                    - generic [ref=f465e275]:
+                      - link "Data Analyst, Client Service Unit" [ref=f465e276]:
+                        - /url: /offres-d-emploi/data-analyst-client-service-unit-26000FKI-fr
+                      - generic [ref=f465e277]: Stage
+                      - generic [ref=f465e279]: La Defense, France
+                      - generic [ref=f465e280]: Télétravail possible
+                    - button "Ajouter aux favoris" [ref=f465e281]
+              - generic:
+                - button "Diapositive précédente" [disabled]
+                - button "Diapositive suivante" [ref=f465e284] [cursor=pointer]
+          - generic [ref=f465e287]:
+            - 'heading "Candidats et employés : que pensent-ils de nous ?" [level=2] [ref=f465e291]': Candidats et employés :que pensent-ils de nous ?
+            - generic [ref=f465e293]:
+              - generic [ref=f465e294]:
+                - generic [ref=f465e296]:
+                  - img "Happy trainee index logo" [ref=f465e298]
+                  - generic [ref=f465e299]:
+                    - generic [ref=f465e300]: 87,4% de nos stagiaires,alternants et V.I.E recommandentSociété Générale
+                    - emphasis [ref=f465e302]: "* Enquête Happy Trainees menée auprès de nos Stagiaires, Alternants et V.I.E en 2024-2025"
+                - generic [ref=f465e305]:
+                  - link "Consulter le profil de Société Générale sur glassdoor - Nouvel onglet" [ref=f465e307] [cursor=pointer]:
+                    - /url: https://www.glassdoor.fr/Avis/Soci%C3%A9t%C3%A9-G%C3%A9n%C3%A9rale-Avis-E10350.htm
+                    - img "Glassdoor" [ref=f465e308]
+                  - generic [ref=f465e311]:
+                    - generic [ref=f465e312]:
+                      - paragraph [ref=f465e313]: Évaluation globale
+                      - generic [ref=f465e314]: "3.7"
+                      - list [ref=f465e315]:
+                        - listitem [ref=f465e316]:
+                          - img [ref=f465e317]: 
+                        - listitem [ref=f465e320]:
+                          - img [ref=f465e321]: 
+                        - listitem [ref=f465e324]:
+                          - img [ref=f465e325]: 
+                        - listitem [ref=f465e328]:
+                          - img [ref=f465e329]: 
+                        - listitem [ref=f465e331]:
+                          - img [ref=f465e332]: 
+                    - list [ref=f465e334]:
+                      - listitem [ref=f465e335]:
+                        - generic [ref=f465e336]:
+                          - paragraph [ref=f465e337]:
+                            - text: Équilibre travail/vie privée
+                            - generic [ref=f465e338]: "3.8"
+                          - progressbar [ref=f465e340]
+                      - listitem [ref=f465e341]:
+                        - generic [ref=f465e342]:
+                          - paragraph [ref=f465e343]:
+                            - text: Diversité & Inclusion
+                            - generic [ref=f465e344]: "3.9"
+                          - progressbar [ref=f465e346]
+              - paragraph [ref=f465e350]:
+                - text: "Travailler dans une banque comme Société Générale, c’est participer à un projet collectif passionnant : bâtir ensemble la banque de demain, dans un esprit d’équipe partagé par chacun. Nos métiers sont multiples et nous recrutons dans 62 pays. Le site Careers.societegenerale.com présente des"
+                - link [ref=f465e351] [cursor=pointer]:
+                  - /url: /Technical/toutes-les-offres
+                  - strong [ref=f465e352]: offres d’emploi à pourvoir en France
+                - text: et
+                - link [ref=f465e353] [cursor=pointer]:
+                  - /url: /en/Technical/all-job-offers
+                  - strong [ref=f465e354]: à l’étranger
+                - text: .
+          - list [ref=f465e357]:
+            - listitem [ref=f465e358]:
+              - generic [ref=f465e360]:
+                - heading "Réussir un entretien d’embauche en visio" [level=2] [ref=f465e361]
+                - link "En savoir plus sur Réussir un entretien d’embauche en visio" [ref=f465e363] [cursor=pointer]:
+                  - /url: /conseils-candidats/pendant-entretien/conseils-pour-reussir-entretien-embauche-en-visio
+                  - text: En savoir plus
+            - listitem [ref=f465e364]:
+              - generic [ref=f465e366]:
+                - heading "Réussir sa candidature spontanée pour un stage" [level=2] [ref=f465e367]
+                - link "En savoir plus sur Réussir sa candidature spontanée pour un stage" [ref=f465e369] [cursor=pointer]:
+                  - /url: /conseils-candidats/quelles-etapes-suivre-pour-reussir-candidature-spontanee-stage
+                  - text: En savoir plus
+            - listitem [ref=f465e370]:
+              - generic [ref=f465e372]:
+                - heading "Trouver le stage de ses rêves en 9 étapes" [level=2] [ref=f465e373]
+                - link "En savoir plus sur Trouver le stage de ses rêves en 9 étapes" [ref=f465e375] [cursor=pointer]:
+                  - /url: /conseils-candidats/comment-trouver-le-stage-de-vos-reves-en-9-etapes
+                  - text: En savoir plus
+    - contentinfo [ref=f465e376]:
+      - contentinfo [ref=f465e377]:
+        - generic [ref=f465e378]:
+          - generic [ref=f465e379]:
+            - generic [ref=f465e380]: Découvrir
+            - list [ref=f465e381]:
+              - listitem [ref=f465e382]:
+                - link "Offres d’emplois dans la banque" [ref=f465e383] [cursor=pointer]:
+                  - /url: /rechercher
+              - listitem [ref=f465e384]:
+                - link "Site du groupe Société Générale" [ref=f465e385] [cursor=pointer]:
+                  - /url: https://www.societegenerale.com/fr
+          - generic [ref=f465e386]:
+            - generic [ref=f465e387]: Liens utiles
+            - list [ref=f465e388]:
+              - listitem [ref=f465e389]:
+                - link "Aide" [ref=f465e390] [cursor=pointer]:
+                  - /url: /aide
+              - listitem [ref=f465e391]:
+                - link "Profils recherchés" [ref=f465e392] [cursor=pointer]:
+                  - /url: /metiers
+              - listitem [ref=f465e393]:
+                - link "Plan du site" [ref=f465e394] [cursor=pointer]:
+                  - /url: /sitemap
+              - listitem [ref=f465e395]:
+                - 'link "Accessibilité : non-conforme" [ref=f465e396] [cursor=pointer]':
+                  - /url: /politique-accessibilite
+          - generic [ref=f465e397]:
+            - generic [ref=f465e398]: Informations légales
+            - list [ref=f465e399]:
+              - listitem [ref=f465e400]:
+                - link "Informations légales" [ref=f465e401] [cursor=pointer]:
+                  - /url: /informations-legales
+              - listitem [ref=f465e402]:
+                - link "Politique de confidentialité" [ref=f465e403] [cursor=pointer]:
+                  - /url: /protection-des-donnees
+              - listitem [ref=f465e404]:
+                - link "Charte Cookies" [ref=f465e405] [cursor=pointer]:
+                  - /url: /cookies
+              - listitem [ref=f465e406]:
+                - link "Gestion des cookies" [ref=f465e407] [cursor=pointer]:
+                  - /url: ""
+          - generic [ref=f465e408]:
+            - generic [ref=f465e409]: "Suivez nous :"
+            - list [ref=f465e410]:
+              - listitem [ref=f465e411]:
+                - link "Facebook - Nouvel onglet" [ref=f465e412] [cursor=pointer]:
+                  - /url: https://www.facebook.com/societegenerale
+              - listitem [ref=f465e416]:
+                - link "Youtube - Nouvel onglet" [ref=f465e417] [cursor=pointer]:
+                  - /url: https://www.youtube.com/playlist?list=PLO28QHeP4SE6s6hcc5_PcYVbZ2EiBZOQq
+              - listitem [ref=f465e421]:
+                - link "Twitter - Nouvel onglet" [ref=f465e422] [cursor=pointer]:
+                  - /url: https://twitter.com/SocieteGenerale
+              - listitem [ref=f465e426]:
+                - link "LinkedIn - Nouvel onglet" [ref=f465e427] [cursor=pointer]:
+                  - /url: https://www.linkedin.com/company/societe-generale/
+              - listitem [ref=f465e431]:
+                - link "Instagram - Nouvel onglet" [ref=f465e432] [cursor=pointer]:
+                  - /url: https://www.instagram.com/societegenerale/
+    - button "Retourner en haut de la page" [ref=f465e436] [cursor=pointer]

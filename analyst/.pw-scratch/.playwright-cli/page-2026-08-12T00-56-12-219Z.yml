@@ -1,0 +1,456 @@
+- generic [active] [ref=f51e1]:
+  - banner [ref=f51e7]:
+    - generic [ref=f51e9]:
+      - text:  
+      - link "Microsoft" [ref=f51e10] [cursor=pointer]:
+        - /url: https://www.microsoft.com
+      - text:  
+      - link "Careers" [ref=f51e14] [cursor=pointer]:
+        - /url: https://careers.microsoft.com/v2/global/en/home.html
+      - navigation "Contextual menu" [ref=f51e16]:
+        - list [ref=f51e17]:
+          - listitem [ref=f51e18]:
+            - link "Locations" [ref=f51e19] [cursor=pointer]:
+              - /url: https://careers.microsoft.com/v2/global/en/locations.html
+          - listitem [ref=f51e20]:
+            - link "Professions" [ref=f51e21] [cursor=pointer]:
+              - /url: https://careers.microsoft.com/v2/global/en/professions.html
+          - listitem [ref=f51e22]:
+            - button "Programs " [ref=f51e24] [cursor=pointer]
+          - listitem [ref=f51e25]:
+            - button "Life at Microsoft " [ref=f51e27] [cursor=pointer]
+          - listitem [ref=f51e28]:
+            - link "Hiring tips" [ref=f51e29] [cursor=pointer]:
+              - /url: https://careers.microsoft.com/v2/global/en/hiring-tips.html
+          - text: 
+          - listitem [ref=f51e30]:
+            - link "Join talent network" [ref=f51e31] [cursor=pointer]:
+              - /url: https://apply.careers.microsoft.com/careers/join
+      - generic [ref=f51e32]:
+        - button "Search jobs" [ref=f51e34] [cursor=pointer]: 
+        - generic:  
+        - generic [ref=f51e35]: Sign in
+  - generic [ref=f51e39]:
+    - main [ref=f51e40]:
+      - heading "Jobs" [level=1] [ref=f51e41]
+      - generic [ref=f51e43]:
+        - generic [ref=f51e44]:
+          - generic [ref=f51e45]:
+            - generic [ref=f51e46]:
+              - generic [ref=f51e48]:
+                - status [ref=f51e49]
+                - combobox "Search by job title, ID, or keyword" [ref=f51e53]
+              - generic [ref=f51e57]:
+                - status [ref=f51e58]
+                - combobox "City, state, or country/region" [ref=f51e62]
+              - generic [ref=f51e66]:
+                - button "Search jobs" [ref=f51e67] [cursor=pointer]
+                - button "Job Cart 0 job(s) added" [disabled] [ref=f51e70]:
+                  - generic [ref=f51e74]:
+                    - text: Job cart
+                    - generic [ref=f51e75]: "0"
+            - generic [ref=f51e76]:
+              - generic [ref=f51e77]:
+                - button "Work site" [ref=f51e79] [cursor=pointer]
+                - button "Experience level" [ref=f51e87] [cursor=pointer]
+                - button "Profession" [ref=f51e95] [cursor=pointer]
+                - button "Discipline" [ref=f51e103] [cursor=pointer]
+              - button "All filters" [ref=f51e110] [cursor=pointer]
+              - button "Clear all selected filters" [ref=f51e116] [cursor=pointer]:
+                - generic [ref=f51e117]: Clear All
+          - generic [ref=f51e121]:
+            - generic [ref=f51e122]:
+              - heading "Get personalized job recommendations" [level=1] [ref=f51e123]
+              - generic [ref=f51e124]: Use AI to see how you match and get help on your career journey
+            - button "Upload your resume to get personalized job recommendations" [ref=f51e126] [cursor=pointer]:
+              - generic [ref=f51e127]: Upload your resume
+        - generic [ref=f51e129]:
+          - generic [ref=f51e130]:
+            - heading "1974 jobs" [level=2] [ref=f51e132]
+            - 'button "Sort by: Latest" [ref=f51e135] [cursor=pointer]':
+              - generic [ref=f51e136]: "Sort: Latest"
+            - generic [ref=f51e140]:
+              - generic [ref=f51e141] [cursor=pointer]:
+                - generic:
+                  - switch "Turn on job alerts for this search" [disabled]
+                  - generic: Turn on job alerts for this search
+              - link "Manage" [ref=f51e142] [cursor=pointer]:
+                - /url: /careers/settings
+            - generic [ref=f51e143]:
+              - generic [ref=f51e144]:
+                - 'button "View job: Executive Business Administrator" [ref=f51e145] [cursor=pointer]':
+                  - generic [ref=f51e146]:
+                    - generic [ref=f51e147]: Executive Business Administrator
+                    - generic [ref=f51e149]: United States, Washington, Redmond
+                    - generic [ref=f51e154]: Posted 22 minutes ago
+                - button "Save Executive Business Administrator" [ref=f51e155] [cursor=pointer]
+              - generic [ref=f51e158]:
+                - 'button "View job: Executive Business Administrator" [ref=f51e159] [cursor=pointer]':
+                  - generic [ref=f51e160]:
+                    - generic [ref=f51e161]: Executive Business Administrator
+                    - generic [ref=f51e163]: United States, Washington, Redmond
+                    - generic [ref=f51e168]: Posted 26 minutes ago
+                - button "Save Executive Business Administrator" [ref=f51e169] [cursor=pointer]
+              - generic [ref=f51e172]:
+                - 'button "View job: Principal Software Engineer" [ref=f51e173] [cursor=pointer]':
+                  - generic [ref=f51e174]:
+                    - generic [ref=f51e175]: Principal Software Engineer
+                    - generic [ref=f51e177]: United States, Washington, Redmond
+                    - generic [ref=f51e182]: Posted an hour ago
+                - button "Save Principal Software Engineer" [ref=f51e183] [cursor=pointer]
+              - generic [ref=f51e186]:
+                - 'button "View job: Global Partner Development Specialist" [ref=f51e187] [cursor=pointer]':
+                  - generic [ref=f51e188]:
+                    - generic [ref=f51e189]: Global Partner Development Specialist
+                    - generic [ref=f51e191]: United States, Multiple Locations, Multiple Locations
+                    - generic [ref=f51e196]: Posted an hour ago
+                - button "Save Global Partner Development Specialist" [ref=f51e197] [cursor=pointer]
+              - generic [ref=f51e200]:
+                - 'button "View job: Senior Energy Markets Program Manager, Strategic Projects" [ref=f51e201] [cursor=pointer]':
+                  - generic [ref=f51e202]:
+                    - generic [ref=f51e203]: Senior Energy Markets Program Manager, Strategic Projects
+                    - generic [ref=f51e205]: United States, Washington, Redmond
+                    - generic [ref=f51e210]: Posted an hour ago
+                - button "Save Senior Energy Markets Program Manager, Strategic Projects" [ref=f51e211] [cursor=pointer]
+              - generic [ref=f51e214]:
+                - 'button "View job: Director, Executive Communications - Security" [ref=f51e215] [cursor=pointer]':
+                  - generic [ref=f51e216]:
+                    - generic [ref=f51e217]: Director, Executive Communications - Security
+                    - generic [ref=f51e219]: United States, Washington, Redmond
+                    - generic [ref=f51e224]: Posted 2 hours ago
+                - button "Save Director, Executive Communications - Security" [ref=f51e225] [cursor=pointer]
+              - generic [ref=f51e228]:
+                - 'button "View job: Performance Strategy & Innovation Lead" [ref=f51e229] [cursor=pointer]':
+                  - generic [ref=f51e230]:
+                    - generic [ref=f51e231]: Performance Strategy & Innovation Lead
+                    - generic [ref=f51e233]: United States, Washington, Redmond + 3 more
+                    - generic [ref=f51e238]: Posted 2 hours ago
+                - button "Save Performance Strategy & Innovation Lead" [ref=f51e239] [cursor=pointer]
+              - generic [ref=f51e242]:
+                - 'button "View job: Principal Software Engineer" [ref=f51e243] [cursor=pointer]':
+                  - generic [ref=f51e244]:
+                    - generic [ref=f51e245]: Principal Software Engineer
+                    - generic [ref=f51e247]: United States, Multiple Locations, Multiple Locations
+                    - generic [ref=f51e252]: Posted 2 hours ago
+                - button "Save Principal Software Engineer" [ref=f51e253] [cursor=pointer]
+              - generic [ref=f51e256]:
+                - 'button "View job: Business Administrator - SCHIE" [ref=f51e257] [cursor=pointer]':
+                  - generic [ref=f51e258]:
+                    - generic [ref=f51e259]: Business Administrator - SCHIE
+                    - generic [ref=f51e261]: United States, North Carolina, Raleigh
+                    - generic [ref=f51e266]: Posted 2 hours ago
+                - button "Save Business Administrator - SCHIE" [ref=f51e267] [cursor=pointer]
+              - generic [ref=f51e270]:
+                - 'button "View job: Media & Entertainment Industry Advisor" [ref=f51e271] [cursor=pointer]':
+                  - generic [ref=f51e272]:
+                    - generic [ref=f51e273]: Media & Entertainment Industry Advisor
+                    - generic [ref=f51e275]: United States, Multiple Locations, Multiple Locations
+                    - generic [ref=f51e280]: Posted 2 hours ago
+                - button "Save Media & Entertainment Industry Advisor" [ref=f51e281] [cursor=pointer]
+            - generic [ref=f51e284]: Page 1 of 198
+            - navigation "Jobs pagination" [ref=f51e285]:
+              - button "Previous jobs" [disabled] [ref=f51e286]
+              - generic [ref=f51e289]:
+                - generic [ref=f51e290]: "1"
+                - generic [ref=f51e291]: of
+                - generic [ref=f51e292]: "198"
+              - button "Next jobs" [ref=f51e293] [cursor=pointer]
+          - generic [ref=f51e297]:
+            - generic [ref=f51e298]:
+              - generic [ref=f51e299]:
+                - heading "Executive Business Administrator" [level=2] [ref=f51e300]
+                - generic [ref=f51e301]: United States, Washington, Redmond
+                - generic [ref=f51e305]:
+                  - link "Apply now" [ref=f51e306] [cursor=pointer]:
+                    - /url: /careers/apply?pid=1970393556958602
+                  - button "Add to cart" [ref=f51e309] [cursor=pointer]
+              - generic [ref=f51e311]:
+                - button "Favourite this job" [ref=f51e312] [cursor=pointer]
+                - button "Share position, Executive Business Administrator" [ref=f51e316] [cursor=pointer]
+            - generic [ref=f51e320]:
+              - generic [ref=f51e321]: Find out how well you match with this job
+              - button "Upload your resume" [ref=f51e322] [cursor=pointer]
+            - generic [ref=f51e327]:
+              - tablist [ref=f51e330]:
+                - tab "Job description" [selected] [ref=f51e331] [cursor=pointer]
+                - tab "Company and benefits" [ref=f51e334] [cursor=pointer]
+              - generic [ref=f51e336]:
+                - generic [ref=f51e337]:
+                  - generic [ref=f51e338]:
+                    - generic [ref=f51e339]:
+                      - generic [ref=f51e340]: Job number
+                      - generic [ref=f51e341]: "200047600"
+                    - generic [ref=f51e342]:
+                      - generic [ref=f51e343]: Date posted
+                      - generic [ref=f51e344]: Aug 11, 2026
+                    - generic [ref=f51e345]:
+                      - generic [ref=f51e346]: Work site
+                      - generic [ref=f51e347]: 3 days / week in-office
+                    - generic [ref=f51e348]:
+                      - generic [ref=f51e349]: Travel
+                      - generic [ref=f51e350]: Less than 25%
+                    - generic [ref=f51e351]:
+                      - generic [ref=f51e352]: Profession
+                      - generic [ref=f51e353]: Administration
+                    - generic [ref=f51e354]:
+                      - generic [ref=f51e355]: Discipline
+                      - generic [ref=f51e356]: Business Support
+                    - generic [ref=f51e357]:
+                      - generic [ref=f51e358]: Role type
+                      - generic [ref=f51e359]: Individual Contributor
+                    - generic [ref=f51e360]:
+                      - generic [ref=f51e361]: Employment type
+                      - generic [ref=f51e362]: Full-Time
+                  - generic [ref=f51e364]:
+                    - text: Overview
+                    - paragraph [ref=f51e365]: The Cloud & AI organization accelerates Microsoft’s mission and bold ambitions to ensure that our company and industry is securing digital technology platforms, devices, and clouds in our customers’ heterogeneous environments, as well as ensuring the security of our own internal estate. Our culture is centered on embracing a growth mindset, a theme of inspiring excellence, and encouraging teams and leaders to bring their best each day. In doing so, we create life-changing innovations that impact billions of lives around the world. Microsoft is one of the largest enterprise service companies in the world.
+                    - paragraph [ref=f51e366]:
+                      - text: Are you a experienced
+                      - strong [ref=f51e367]: Executive Business Administrator
+                      - text: who is passionate about supporting a dynamic leader? Do you get excited about the opportunity to manage a senior leader in Microsoft Security, CISO Organization? Do you like the challenge of complex calendaring and working to coordinate customer meetings, events and team meetings? Do you want to influence modern day security attitudes and behaviors of employees across an entire org and Microsoft? We are looking for someone like you! This position requires someone who has excellent communication skills, possesses the ability to set priorities, handle multiple critical tasks simultaneously and function as part of the administrative team in a positive efficient manner. This role requires complex calendaring skills, operational excellence, and professionalism. Beyond calendar, travel, and team support, the ideal candidate for this role will need to be able to navigate and change directions quickly within our fast-paced environment; have stellar interpersonal skills and initiative; demonstrate good judgment; proven ability to accommodate diverse work styles; be both fair and unbiased; and the ability to maintain high levels of confidentiality. You will also be skilled at setting priorities and handling multiple tasks simultaneously. Being detail-oriented and having consistent and timely follow-through will be essential to your success. A successful candidate can effectively manage a high workload under time constraints with a calm, confident and positive attitude, ability to work independently, deal with ambiguity and have a passion for making managers and organizations great. Microsoft’s mission is to empower every person and every organization on the planet to achieve more. As employees we come together with a growth mindset, innovate to empower others, and collaborate to realize our shared goals. Each day we build on our values of respect, integrity, and accountability to create a culture of inclusion where everyone can thrive at work and beyond.
+                    - paragraph [ref=f51e368]: Microsoft’s mission is to empower every person and every organization on the planet to achieve more. As employees we come together with a growth mindset, innovate to empower others, and collaborate to realize our shared goals. Each day we build on our values of respect, integrity, and accountability to create a culture of inclusion where everyone can thrive at work and beyond. In alignment with our Microsoft values, we are committed to cultivating an inclusive work environment for all employees to positively impact our culture every day.
+                    - text: Responsibilities
+                    - list [ref=f51e369]:
+                      - listitem [ref=f51e370]: Proactively manage complex calendaring for the CVP of Security Engineering.
+                      - listitem [ref=f51e371]: Provide end-to-end complex domestic and international travel planning.
+                      - listitem [ref=f51e372]: Develop & maintain strategic working relationships with key business stakeholders/leaders across the organizations.
+                      - listitem [ref=f51e373]: Develop an understanding of critical business needs, enabling appropriate decisions which impact a manager’s time.
+                      - listitem [ref=f51e374]: Schedule and manage staff meetings, events and off-sites, conferences, including agenda management, meeting logistics, note-taking, material preparation and work with the global teams.
+                      - listitem [ref=f51e375]: Partner with the Chief of Staff, Lead EA, Peer EAs and Business Operations team to effectively run the organization.
+                      - listitem [ref=f51e376]: Helping to manage the Rhythm of the Business and people processes, including the team’s budget management, quarterly and mid-year budget reviews, leadership meetings, business reviews, Connects, Rewards discussions, All-Hands meetings, and other key discussions.
+                      - listitem [ref=f51e377]: Coordinate team morale events and/or broader team-wide events.
+                      - listitem [ref=f51e378]: Participate in various admin-built SME teams in collaboration with the admin and business operations community.
+                      - listitem [ref=f51e379]: Judgment in dealing with confidential information and ensuring accurate and timely distribution of information.
+                      - listitem [ref=f51e380]: Professional presence always, as a representative of the team and Microsoft to internal and external business partners.
+                      - listitem [ref=f51e381]: Manage headcount information and be a proficient user of all internal people, budget, and space management tools to generate relevant, timely, and accurate reports.
+                      - listitem [ref=f51e382]: Execute effective space management tactics, office moves as required and coordinate with the CISO team space planner.
+                      - listitem [ref=f51e383]: Provide mentorship and leadership to administrators as part of a team.
+                      - listitem [ref=f51e384]: Embody our Culture and Values.
+                    - text: Qualifications
+                    - paragraph [ref=f51e385]:
+                      - strong [ref=f51e386]: Required Qualifications
+                    - list [ref=f51e387]:
+                      - listitem [ref=f51e388]: 5+ years Administrative, Business Support, or customer service experience in an environment with an emphasis on scheduling meetings/events, travel management, calendar management, or administration work for executive/upper-level management.
+                    - paragraph [ref=f51e389]:
+                      - strong [ref=f51e390]: Preferred Qualifications
+                    - list [ref=f51e391]:
+                      - listitem [ref=f51e392]: Bachelor's Degree in relevant field (e.g., Business Administration, Human Resources [HR], Marketing, Communications, Psychology, Sociology) OR equivalent experience.
+                      - listitem [ref=f51e393]: 5+ years of proficiency using Microsoft productivity tools including Outlook, Word, Excel, and PowerPoint and experience using OneNote, SharePoint Teams or similar collaboration tools.
+                      - listitem [ref=f51e394]: 3+ years experience reviewing and managing administrative budgets (e.g., for events, morale, travel, training).
+                      - listitem [ref=f51e395]: Experience serving as mentor, manager or lead EA role
+                      - listitem [ref=f51e396]: Knowledge of internal Microsoft tools such as Employee Central/HeadTrax, MS Expense Tool, MS Travel, iCIMS, MyOrder a plus.
+                      - listitem [ref=f51e397]: Interpersonal, organizational, planning and time management skills.
+                      - listitem [ref=f51e398]: Ability to work independently, deal with ambiguity, and to solve routine problems proactively and effectively. The aptitude for rolling with changing circumstances (direction and strategy) while continuing to have professional and positive interactions.
+                      - listitem [ref=f51e399]: Ability to work well in a changing environment, under pressure, on short-notice, and take appropriate action.
+                      - listitem [ref=f51e400]: Exercise sound judgment, tact, diplomacy, integrity and professionalism in all transactions.
+                      - listitem [ref=f51e401]: Adaptable and work in a team environment, building and maintaining effective working relationships with a diverse group of contributors internally and externally.
+                      - listitem [ref=f51e402]: Ability to maintain confidentiality of highly sensitive material and information with discretion and professionalism.
+                      - listitem [ref=f51e403]: Experience supporting an executive in a face-paced, corporate environment.
+                      - listitem [ref=f51e404]: Organizational, analytical, anticipatory, and written communication skills.
+                    - paragraph [ref=f51e405]: Business Support ATR-D - The typical base pay range for this role across the U.S. is USD $31.49 - $51.97 per hour. There is a different range applicable to specific work locations, within the San Francisco Bay area and New York City metropolitan area, and the base pay range for this role in those locations is USD $42.93 - $59.33 per hour.
+                    - paragraph
+                    - paragraph [ref=f51e406]:
+                      - text: "Certain roles may be eligible for benefits and other compensation. Find additional benefits and pay information here:"
+                      - link "https://careers.microsoft.com/us/en/us-corporate-pay" [ref=f51e407] [cursor=pointer]:
+                        - /url: https://careers.microsoft.com/us/en/us-corporate-pay
+                    - paragraph [ref=f51e408]: This position will be open for a minimum of 5 days, with applications accepted on an ongoing basis until the position is filled.
+                    - separator [ref=f51e409]
+                    - paragraph [ref=f51e410]:
+                      - text: Microsoft is an equal opportunity employer. All qualified applicants will receive consideration for employment without regard to age, ancestry, citizenship, color, family or medical care leave, gender identity or expression, genetic information, immigration status, marital status, medical condition, national origin, physical or mental disability, political affiliation, protected veteran or military status, race, ethnicity, religion, sex (including pregnancy), sexual orientation, or any other characteristic protected by applicable local laws, regulations and ordinances. If you need assistance with religious accommodations and/or a reasonable accommodation due to a disability during the application process, read more about
+                      - link "requesting accommodations." [ref=f51e411] [cursor=pointer]:
+                        - /url: https://careers.microsoft.com/v2/global/en/accessibility.html
+                - generic [ref=f51e413]:
+                  - heading "Insights from previous hires" [level=3] [ref=f51e414]
+                  - generic [ref=f51e415]:
+                    - generic [ref=f51e416]:
+                      - heading "Top skills" [level=4] [ref=f51e417]
+                      - list [ref=f51e418]:
+                        - listitem [ref=f51e419]:
+                          - generic [ref=f51e420]: Architecture
+                        - listitem [ref=f51e421]:
+                          - generic [ref=f51e422]: Administration
+                        - listitem [ref=f51e423]:
+                          - generic [ref=f51e424]: Business
+                        - listitem [ref=f51e425]:
+                          - generic [ref=f51e426]: Automation
+                        - listitem [ref=f51e427]:
+                          - generic [ref=f51e428]: Communication
+                        - listitem [ref=f51e429]:
+                          - generic [ref=f51e430]: Business Development
+                        - listitem [ref=f51e431]:
+                          - generic [ref=f51e432]: Break Fix
+                        - listitem [ref=f51e433]:
+                          - generic [ref=f51e434]: Art
+                        - listitem [ref=f51e435]:
+                          - generic [ref=f51e436]: Analytics
+                        - listitem [ref=f51e437]:
+                          - generic [ref=f51e438]: Adherence
+                    - generic [ref=f51e439]:
+                      - heading "Previously worked as" [level=4] [ref=f51e440]
+                      - list [ref=f51e441]:
+                        - listitem [ref=f51e442]: 1. Executive Business Administrator
+                        - listitem [ref=f51e443]: 2. Senior Business Administrator
+                        - listitem [ref=f51e444]: 3. Executive Assistant
+                        - listitem [ref=f51e445]: 4. Datacenter Manager
+                        - listitem [ref=f51e446]: 5. Customer Operations Manager
+            - region "Similar Positions" [ref=f51e448]:
+              - generic [ref=f51e449]:
+                - heading "Similar jobs" [level=2] [ref=f51e450]
+                - generic [ref=f51e451]:
+                  - button "Previous similar jobs" [disabled] [ref=f51e452]
+                  - button "Next similar jobs" [ref=f51e455] [cursor=pointer]
+              - generic [ref=f51e458]:
+                - navigation [ref=f51e459]
+                - list "Similar jobs" [ref=f51e463]:
+                  - listitem [ref=f51e464]:
+                    - generic [ref=f51e465]:
+                      - 'link "View job: Executive Business Administrator" [ref=f51e466] [cursor=pointer]':
+                        - /url: /careers/job/1970393556958643
+                        - generic [ref=f51e467]:
+                          - generic [ref=f51e468]: Executive Business Administrator
+                          - generic [ref=f51e470]: United States, Washington, Redmond
+                          - generic [ref=f51e475]: Posted 26 minutes ago
+                      - button "Save Executive Business Administrator" [ref=f51e476] [cursor=pointer]
+                  - listitem [ref=f51e479]:
+                    - generic [ref=f51e480]:
+                      - 'link "View job: Executive Business Administrator" [ref=f51e481] [cursor=pointer]':
+                        - /url: /careers/job/1970393556955028
+                        - generic [ref=f51e482]:
+                          - generic [ref=f51e483]: Executive Business Administrator
+                          - generic [ref=f51e485]: United States, Washington, Redmond
+                          - generic [ref=f51e490]: Posted 4 days ago
+                      - button "Save Executive Business Administrator" [ref=f51e491] [cursor=pointer]
+                  - listitem [ref=f51e494]:
+                    - generic [ref=f51e495]:
+                      - 'link "View job: Business Administrator" [ref=f51e496] [cursor=pointer]':
+                        - /url: /careers/job/1970393556928730
+                        - generic [ref=f51e497]:
+                          - generic [ref=f51e498]: Business Administrator
+                          - generic [ref=f51e500]: United States, Washington, Redmond
+                          - generic [ref=f51e505]: Posted 8 days ago
+                      - button "Save Business Administrator" [ref=f51e506] [cursor=pointer]
+                  - listitem [ref=f51e509]:
+                    - generic [ref=f51e510]:
+                      - 'link "View job: Senior Business Administrator" [ref=f51e511] [cursor=pointer]':
+                        - /url: /careers/job/1970393556953817
+                        - generic [ref=f51e512]:
+                          - generic [ref=f51e513]: Senior Business Administrator
+                          - generic [ref=f51e515]: United States, Washington, Redmond
+                          - generic [ref=f51e520]: Posted 2 hours ago
+                      - button "Save Senior Business Administrator" [ref=f51e521] [cursor=pointer]
+                  - listitem [ref=f51e524]:
+                    - generic [ref=f51e525]:
+                      - 'link "View job: Business Administrator" [ref=f51e526] [cursor=pointer]':
+                        - /url: /careers/job/1970393556927686
+                        - generic [ref=f51e527]:
+                          - generic [ref=f51e528]: Business Administrator
+                          - generic [ref=f51e530]: United States, Washington, Redmond
+                          - generic [ref=f51e535]: Posted 6 days ago
+                      - button "Save Business Administrator" [ref=f51e536] [cursor=pointer]
+                  - listitem [ref=f51e539]:
+                    - generic [ref=f51e540]:
+                      - 'link "View job: Executive Business Administrator" [ref=f51e541] [cursor=pointer]':
+                        - /url: /careers/job/1970393556955719
+                        - generic [ref=f51e542]:
+                          - generic [ref=f51e543]: Executive Business Administrator
+                          - generic [ref=f51e545]: United States, Washington, Redmond
+                          - generic [ref=f51e550]: Posted 5 days ago
+                      - button "Save Executive Business Administrator" [ref=f51e551] [cursor=pointer]
+                  - listitem [ref=f51e554]:
+                    - generic [ref=f51e555]:
+                      - 'link "View job: Executive Business Administrator" [ref=f51e556] [cursor=pointer]':
+                        - /url: /careers/job/1970393556889684
+                        - generic [ref=f51e557]:
+                          - generic [ref=f51e558]: Executive Business Administrator
+                          - generic [ref=f51e560]: United States, Washington, Redmond
+                          - generic [ref=f51e565]: Posted 2 months ago
+                      - button "Save Executive Business Administrator" [ref=f51e566] [cursor=pointer]
+                  - listitem [ref=f51e569]:
+                    - generic [ref=f51e570]:
+                      - 'link "View job: Executive Business Administrator" [ref=f51e571] [cursor=pointer]':
+                        - /url: /careers/job/1970393556938466
+                        - generic [ref=f51e572]:
+                          - generic [ref=f51e573]: Executive Business Administrator
+                          - generic [ref=f51e575]: United States, Washington, Redmond
+                          - generic [ref=f51e580]: Posted 5 days ago
+                      - button "Save Executive Business Administrator" [ref=f51e581] [cursor=pointer]
+                  - listitem [ref=f51e584]:
+                    - generic [ref=f51e585]:
+                      - 'link "View job: Executive Assistant" [ref=f51e586] [cursor=pointer]':
+                        - /url: /careers/job/1970393556938172
+                        - generic [ref=f51e587]:
+                          - generic [ref=f51e588]: Executive Assistant
+                          - generic [ref=f51e590]: United States, Washington, Redmond
+                          - generic [ref=f51e595]: Posted a month ago
+                      - button "Save Executive Assistant" [ref=f51e596] [cursor=pointer]
+                  - listitem [ref=f51e599]:
+                    - generic [ref=f51e600]:
+                      - 'link "View job: Executive Business Admin" [ref=f51e601] [cursor=pointer]':
+                        - /url: /careers/job/1970393556915289
+                        - generic [ref=f51e602]:
+                          - generic [ref=f51e603]: Executive Business Admin
+                          - generic [ref=f51e605]: United States, Washington, Redmond
+                          - generic [ref=f51e610]: Posted a month ago
+                      - button "Save Executive Business Admin" [ref=f51e611] [cursor=pointer]
+    - contentinfo [ref=f51e614]:
+      - generic [ref=f51e617]:
+        - paragraph [ref=f51e619]:
+          - link [ref=f51e620] [cursor=pointer]:
+            - /url: https://eightfold.ai
+            - text: Powered by
+            - img "Eightfold AI Logo" [ref=f51e621]
+        - paragraph [ref=f51e624]:
+          - text: This site uses AI technology provided by Eightfold, the provider of the system. Microsoft, as the deployer, applies human oversight and judgment when using this technology. For details on Eightfold's AI functionality, please see
+          - link "Eightfold's transparency documentation" [ref=f51e625] [cursor=pointer]:
+            - /url: https://eightfold.ai/responsible-ai/
+          - text: . Learn more about Microsoft's data practices in the
+          - link "Microsoft Data Privacy Notice" [ref=f51e626] [cursor=pointer]:
+            - /url: http://go.microsoft.com/fwlink/?LinkId=518021
+          - text: and
+          - link "Career Site Transparency FAQs" [ref=f51e627] [cursor=pointer]:
+            - /url: https://careers.microsoft.com/v2/global/en/transparency.html
+          - text: .
+        - contentinfo [ref=f51e628]:
+          - contentinfo [ref=f51e629]:
+            - generic [ref=f51e630]:
+              - generic [ref=f51e631]:
+                - generic [ref=f51e632]:
+                  - generic [ref=f51e633]: 
+                  - generic [ref=f51e634]:
+                    - link "English" [disabled]
+                    - text: "|"
+                  - link "FR - Canada" [ref=f51e636] [cursor=pointer]
+                - generic [ref=f51e638]:
+                  - link "Support" [ref=f51e640] [cursor=pointer]:
+                    - /url: https://apply.careers.microsoft.com/careers/forms/create?templateId=yx2LlRBJ7wq&fullPageResponse=1&hl=en-US
+                  - link "Accessibility" [ref=f51e642] [cursor=pointer]:
+                    - /url: https://careers.microsoft.com/v2/global/en/accessibility.html
+                  - link "Microsoft Data Privacy Notice" [ref=f51e644] [cursor=pointer]:
+                    - /url: http://go.microsoft.com/fwlink/?LinkId=518021
+                  - link "Transparency FAQ" [ref=f51e646] [cursor=pointer]:
+                    - /url: https://careers.microsoft.com/v2/global/en/transparency.html
+                  - link "Legal policies" [ref=f51e648] [cursor=pointer]:
+                    - /url: https://careers.microsoft.com/v2/global/en/legal-policies.html
+                  - link "Contractor roles" [ref=f51e650] [cursor=pointer]:
+                    - /url: https://careers.microsoft.com/v2/global/en/contractor-roles.html
+              - generic [ref=f51e651]:
+                - link "Facebook" [ref=f51e653] [cursor=pointer]:
+                  - /url: https://www.facebook.com/MicrosoftLife
+                - link "Linkedin" [ref=f51e658] [cursor=pointer]:
+                  - /url: https://www.linkedin.com/company/microsoft
+                - link "Instagram" [ref=f51e665] [cursor=pointer]:
+                  - /url: https://www.instagram.com/microsoftlife
+                - link "x" [ref=f51e675] [cursor=pointer]:
+                  - /url: https://x.com/microsoft
+            - generic [ref=f51e682]:
+              - link "Your Privacy Choices" [ref=f51e689] [cursor=pointer]:
+                - /url: https://aka.ms/yourcaliforniaprivacychoices
+              - link "Consumer Health Privacy" [ref=f51e690] [cursor=pointer]:
+                - /url: https://go.microsoft.com/fwlink/?linkid=2259814
+              - link "Privacy" [ref=f51e691] [cursor=pointer]:
+                - /url: https://go.microsoft.com/fwlink/?LinkId=521839
+              - link "Trademarks" [ref=f51e692] [cursor=pointer]:
+                - /url: https://go.microsoft.com/fwlink/?linkid=2196228
+              - link "Terms of use" [ref=f51e693] [cursor=pointer]:
+                - /url: https://go.microsoft.com/fwlink/?LinkID=206977
+              - generic [ref=f51e694]: © Microsoft 2026

@@ -1,0 +1,118 @@
+- generic [active] [ref=f1444e1]:
+  - generic [ref=f1444e3]:
+    - banner [ref=f1444e4]:
+      - link "Skip to page content" [ref=f1444e5] [cursor=pointer]:
+        - /url: javascript:void(0)
+      - generic [ref=f1444e6]:
+        - navigation [ref=f1444e8]:
+          - link "Go to homepage" [ref=f1444e10] [cursor=pointer]:
+            - /url: /bby
+            - img "Best Buy Careers Home" [ref=f1444e11]
+          - menubar "Header menu" [ref=f1444e13]:
+            - menuitem "::item.label" [ref=f1444e14] [cursor=pointer]: Explore Jobs
+            - menuitem "::item.label" [ref=f1444e17] [cursor=pointer]: Culture
+            - menuitem "::item.label" [ref=f1444e20] [cursor=pointer]: Company
+            - menuitem "::item.label" [ref=f1444e23] [cursor=pointer]: Candidate Resources
+            - menuitem "::item.label" [ref=f1444e26] [cursor=pointer]: Returning Applicant
+        - text:  
+        - generic:
+          - generic:
+            - button " Feedback" [ref=f1444e30] [cursor=pointer]:
+              - generic [ref=f1444e31]: 
+              - text: Feedback
+            - text:   
+    - generic [ref=f1444e32]:
+      - main [ref=f1444e33]:
+        - heading "Explore Career Area" [level=1] [ref=f1444e34]
+        - generic "Job search area" [ref=f1444e50]:
+          - generic [ref=f1444e51]:
+            - generic [ref=f1444e52]:
+              - heading "Job Search" [level=3] [ref=f1444e53]
+              - generic [ref=f1444e55]:
+                - textbox "Search by title, skill, or other keyword" [ref=f1444e57]
+                - combobox [ref=f1444e59]:
+                  - option "United States" [selected]
+                - generic [ref=f1444e60]:
+                  - textbox "Location" [ref=f1444e61]:
+                    - /placeholder: Enter ZIP Code or City, State
+                  - combobox "Distance" [disabled] [ref=f1444e62]:
+                    - option "Within 5 miles"
+                    - option "Within 15 miles"
+                    - option "Within 25 miles" [checked] [selected]
+                    - option "Within 35 miles"
+                    - option "Within 50 miles"
+                    - option "Within 80 miles"
+                - generic [ref=f1444e64]:
+                  - checkbox "Use my current location" [ref=f1444e65]
+                  - text: Use my current location
+                - button "Search" [ref=f1444e67] [cursor=pointer]
+              - generic [ref=f1444e70]:
+                - heading "Filters" [level=3] [ref=f1444e71]
+                - generic "filter jobs" [ref=f1444e72]:
+                  - heading [level=4] [ref=f1444e75]:
+                    - button "Job Type (0)" [ref=f1444e76] [cursor=pointer]
+                  - heading [level=4] [ref=f1444e79]:
+                    - button "Career Area (0)" [ref=f1444e80] [cursor=pointer]
+                  - heading [level=4] [ref=f1444e83]:
+                    - button "Experience Level (0)" [ref=f1444e84] [cursor=pointer]
+                - generic [ref=f1444e86]:
+                  - checkbox "Seasonal Jobs" [ref=f1444e87]
+                  - text: Seasonal Jobs
+                - button "Apply Filters" [ref=f1444e88] [cursor=pointer]
+            - generic [ref=f1444e90]:
+              - generic [ref=f1444e91]:
+                - heading "Job Results" [level=3] [ref=f1444e92]
+                - paragraph [ref=f1444e93]: jobs found
+              - button "Show Map" [ref=f1444e95] [cursor=pointer]:
+                - generic [ref=f1444e96]: Show
+                - text: Map
+              - button "United States" [ref=f1444e98] [cursor=pointer]
+      - contentinfo [ref=f1444e99]:
+        - generic [ref=f1444e102]:
+          - generic [ref=f1444e103]:
+            - heading "Join our Talent Community!" [level=2] [ref=f1444e104]
+            - link "Sign Up" [ref=f1444e105] [cursor=pointer]:
+              - /url: https://community.brassring.com/BestBuy/BBY_01
+          - generic [ref=f1444e106]:
+            - list [ref=f1444e107]:
+              - listitem [ref=f1444e108]:
+                - link "Bestbuy.com" [ref=f1444e109] [cursor=pointer]:
+                  - /url: https://www.bestbuy.com/
+              - listitem [ref=f1444e110]:
+                - link "Equal Employment Opportunity" [ref=f1444e111] [cursor=pointer]:
+                  - /url: /myhr?id=kb_article&sysparm_article=KB0149277
+              - listitem [ref=f1444e112]:
+                - link "Privacy Policy" [ref=f1444e113] [cursor=pointer]:
+                  - /url: "?id=item_detail&content=privacy_policy"
+              - listitem [ref=f1444e114]:
+                - link "Corporate Site" [ref=f1444e115] [cursor=pointer]:
+                  - /url: https://corporate.bestbuy.com/
+              - listitem [ref=f1444e116]:
+                - link "FAQ" [ref=f1444e117] [cursor=pointer]:
+                  - /url: "?id=faq"
+              - listitem [ref=f1444e118]:
+                - link "Best Buy Canada Jobs" [ref=f1444e119] [cursor=pointer]:
+                  - /url: https://www.bestbuy.ca/en-ca/careers/
+            - list [ref=f1444e120]:
+              - listitem [ref=f1444e121]:
+                - link [ref=f1444e122] [cursor=pointer]:
+                  - /url: https://www.youtube.com/user/bestbuy/
+                  - img "YouTube" [ref=f1444e123]
+                  - img "YouTube" [ref=f1444e124]
+              - listitem [ref=f1444e125]:
+                - link [ref=f1444e126] [cursor=pointer]:
+                  - /url: https://www.linkedin.com/company/best-buy/
+                  - img "LinkedIn" [ref=f1444e127]
+                  - img "LinkedIn" [ref=f1444e128]
+              - listitem [ref=f1444e129]:
+                - link [ref=f1444e130] [cursor=pointer]:
+                  - /url: https://www.facebook.com/bestbuy/
+                  - img "Facebook" [ref=f1444e131]
+                  - img "Facebook" [ref=f1444e132]
+              - listitem [ref=f1444e133]:
+                - link [ref=f1444e134] [cursor=pointer]:
+                  - /url: https://www.instagram.com/bestbuy/
+                  - img "Instagram" [ref=f1444e135]
+                  - img "Instagram" [ref=f1444e136]
+            - paragraph [ref=f1444e137]: © 2026 Best Buy. All rights reserved. BEST BUY, the BEST BUY logo, the tag design, and MY BEST BUY are trademarks of Best Buy and its affiliated companies.
+  - status [ref=f1444e140]

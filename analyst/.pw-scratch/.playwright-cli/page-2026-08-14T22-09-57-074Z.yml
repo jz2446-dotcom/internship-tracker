@@ -1,0 +1,165 @@
+- generic [active] [ref=f524e1]:
+  - generic [ref=f524e2]:
+    - generic [ref=f524e4]:
+      - generic [ref=f524e5]:
+        - link "Quick Reference Guide" [ref=f524e6] [cursor=pointer]:
+          - /url: http://www.adb.org/documents/adb-career-and-employment-system-guide
+        - text: "|"
+        - link "FAQs" [ref=f524e7] [cursor=pointer]:
+          - /url: http://www.adb.org/site/careers/faqs/aces
+      - generic [ref=f524e9]:
+        - generic [ref=f524e11]:
+          - heading "Welcome. You are not signed in." [level=2] [ref=f524e13]
+          - link "Sign In / Register" [ref=f524e16] [cursor=pointer]:
+            - /url: /careersection/2/jobsearch.ftl?ftlcompclass=LoginComponent
+          - list [ref=f524e17]:
+            - listitem [ref=f524e18]:
+              - link "Job Search" [ref=f524e19] [cursor=pointer]:
+                - /url: /careersection/2/jobsearch.ftl
+            - listitem [ref=f524e20]:
+              - link "My Jobpage" [ref=f524e21] [cursor=pointer]:
+                - /url: /careersection/2/mysubmissions.ftl
+        - generic [ref=f524e22]:
+          - list [ref=f524e27]:
+            - listitem [ref=f524e28]:
+              - link "View All Jobs" [ref=f524e29] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=f524e30]:
+              - link "Advanced Search" [ref=f524e31] [cursor=pointer]:
+                - /url: /careersection/2/moresearch.ftl
+          - generic [ref=f524e32]:
+            - generic:
+              - status [ref=f524e33]:
+                - heading "Job Openings" [level=1] [ref=f524e34]
+              - generic [ref=f524e35]:
+                - text: "RSS:"
+                - button [ref=f524e36] [cursor=pointer]:
+                  - button "Create an RSS feed" [ref=f524e37]
+          - generic:
+            - generic [ref=f524e38]:
+              - button "Location" [disabled] [ref=f524e42]
+              - button "Job Field" [disabled] [ref=f524e46]
+              - button "Posting Date" [disabled] [ref=f524e50]
+            - generic [ref=f524e51]:
+              - generic [ref=f524e52]:
+                - list [ref=f524e54]
+                - link "Clear search criteria." [ref=f524e56] [cursor=pointer]:
+                  - /url: "#"
+                  - text: Clear
+              - generic [ref=f524e57]:
+                - link "Save this Search" [ref=f524e59] [cursor=pointer]:
+                  - /url: "#"
+                - generic [ref=f524e60]:
+                  - generic:
+                    - generic [ref=f524e61]: Job list in multi line view. Press ENTER to switch to single line view.
+                    - link "Job list in multi line view. Press ENTER to switch to single line view." [ref=f524e62] [cursor=pointer]:
+                      - /url: "#"
+                      - text: Multi-line
+                  - button [ref=f524e64] [cursor=pointer]:
+                    - img "Access the online help" [ref=f524e65]
+                - generic [ref=f524e67]:
+                  - text: Sort by
+                  - generic [ref=f524e68]:
+                    - combobox "Sort by" [ref=f524e69]:
+                      - option "Location"
+                      - option "Posting Date" [selected]
+                      - option "Relevancy"
+                    - generic [ref=f524e70]: Order
+                    - combobox "Order" [ref=f524e71]:
+                      - option "Ascending"
+                      - option "Descending" [selected]
+              - generic [ref=f524e72]:
+                - alert [ref=f524e73]
+                - table "Job Openings" [ref=f524e75]:
+                  - rowgroup [ref=f524e76]:
+                    - row [ref=f524e77]:
+                      - columnheader "Icons" [ref=f524e78]
+                      - columnheader "Jobs" [ref=f524e80]
+                      - columnheader "Department" [ref=f524e81]
+                      - columnheader "Closing Date" [ref=f524e82]
+                      - columnheader "Actions" [ref=f524e83]
+                  - rowgroup
+                - generic [ref=f524e84]:
+                  - link "Previous" [ref=f524e87] [cursor=pointer]:
+                    - /url: "#"
+                  - generic:
+                    - list
+                  - link "Next" [ref=f524e90] [cursor=pointer]:
+                    - /url: "#"
+    - generic [ref=f524e93]:
+      - generic [ref=f524e95]:
+        - generic [ref=f524e98]:
+          - heading "Why Work at ADB?" [level=2] [ref=f524e99]
+          - list [ref=f524e102]:
+            - listitem [ref=f524e103]:
+              - link "What We Offer" [ref=f524e104] [cursor=pointer]:
+                - /url: http://www.adb.org/site/careers/what-we-offer
+            - listitem [ref=f524e105]:
+              - link "Meet Our People" [ref=f524e106] [cursor=pointer]:
+                - /url: http://www.adb.org/site/careers/what-we-look-for/meet-our-people
+            - listitem [ref=f524e107]:
+              - link "Life at ADB" [ref=f524e108] [cursor=pointer]:
+                - /url: http://www.adb.org/site/careers/what-we-offer/workplace-and-environment
+        - generic [ref=f524e111]:
+          - heading "Opportunities" [level=2] [ref=f524e112]
+          - list [ref=f524e115]:
+            - listitem [ref=f524e116]:
+              - link "What We Look For" [ref=f524e117] [cursor=pointer]:
+                - /url: http://www.adb.org/site/careers/what-we-look-for
+            - listitem [ref=f524e118]:
+              - link "Internship Program" [ref=f524e119] [cursor=pointer]:
+                - /url: http://www.adb.org/site/careers/internship-program
+            - listitem [ref=f524e120]:
+              - link "Careers at ADBI" [ref=f524e121] [cursor=pointer]:
+                - /url: http://www.adb.org/adbi/main
+            - listitem [ref=f524e122]:
+              - link "ADB-Japan Scholarship Program" [ref=f524e123] [cursor=pointer]:
+                - /url: http://www.adb.org/site/careers/japan-scholarship-program/main
+        - generic [ref=f524e126]:
+          - heading "Learn More" [level=2] [ref=f524e127]
+          - list [ref=f524e129]:
+            - listitem [ref=f524e130]:
+              - link "Frequently Asked Questions" [ref=f524e131] [cursor=pointer]:
+                - /url: http://www.adb.org/site/careers/faqs/aces
+            - listitem [ref=f524e132]:
+              - link "Contact Us" [ref=f524e133] [cursor=pointer]:
+                - /url: https://www.adb.org/contact?target=Hz8eg9/9ZI/PbeRShL+yPrOfV+uQuHoJGOziPYJeXgo=&name=ADB%20Career%20and%20Employment%20System%20(ACES)&referrer=node/569276
+        - generic [ref=f524e135]:
+          - generic [ref=f524e137]:
+            - heading "Asian Development Bank" [level=1] [ref=f524e138]
+            - list [ref=f524e140]:
+              - listitem [ref=f524e141]: "Headquarters: 6 ADB Avenue,"
+              - listitem [ref=f524e142]: Mandaluyong City 1550, Metro
+              - listitem [ref=f524e143]: Manila, Philippines
+              - listitem [ref=f524e144]: + 63 2 632 4444
+              - listitem [ref=f524e145]: + 63 2 636 2444
+          - generic [ref=f524e149]:
+            - link [ref=f524e150] [cursor=pointer]:
+              - /url: mailto:adbemp@adb.org
+              - img "mail" [ref=f524e151]
+            - link [ref=f524e152] [cursor=pointer]:
+              - /url: https://www.linkedin.com/company/asian-development-bank
+              - img "linkedin" [ref=f524e153]
+            - link [ref=f524e154] [cursor=pointer]:
+              - /url: https://www.facebook.com/AsianDevBank
+              - img "facebook" [ref=f524e155]
+            - link [ref=f524e156] [cursor=pointer]:
+              - /url: https://twitter.com/ADB_HQ
+              - img "twitter" [ref=f524e157]
+            - link [ref=f524e158] [cursor=pointer]:
+              - /url: https://www.youtube.com/AsianDevelopmentBank
+              - img "youtube" [ref=f524e159]
+      - generic [ref=f524e162]:
+        - generic [ref=f524e163]:
+          - text: ©
+          - link "Asian Development Bank" [ref=f524e164] [cursor=pointer]:
+            - /url: http://www.adb.org/
+          - text: . All Rights Reserved.
+        - list [ref=f524e166]:
+          - listitem [ref=f524e167]:
+            - link "Terms of use" [ref=f524e168] [cursor=pointer]:
+              - /url: http://www.adb.org/terms-use
+  - status [ref=f524e169]
+  - status [ref=f524e170]
+  - status [ref=f524e171]
+  - status [ref=f524e172]

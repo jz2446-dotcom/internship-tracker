@@ -1,0 +1,59 @@
+- generic [active] [ref=f85e1]:
+  - banner [ref=f85e3]:
+    - generic:
+      - link "Skip to main content":
+        - /url: "#skipToMainContent"
+    - generic [ref=f85e7]:
+      - link "Company Logo" [ref=f85e9] [cursor=pointer]:
+        - /url: https://careers.united.com/us/en/
+        - img "Company Logo" [ref=f85e10]
+      - navigation "primary" [ref=f85e17]:
+        - list [ref=f85e18]:
+          - listitem [ref=f85e19]:
+            - link "Careers home" [ref=f85e21] [cursor=pointer]:
+              - /url: https://careers.united.com/us/en/home
+              - text: Careers Home
+          - listitem [ref=f85e22]:
+            - link "Locations" [ref=f85e24] [cursor=pointer]:
+              - /url: https://careers.united.com/us/en/search-results
+              - text: Open Jobs
+          - listitem [ref=f85e25]:
+            - link "Events" [ref=f85e27] [cursor=pointer]:
+              - /url: https://careers.united.com/us/en/events
+          - listitem [ref=f85e28]:
+            - button "Working At United" [ref=f85e29] [cursor=pointer]
+      - list [ref=f85e35]:
+        - listitem [ref=f85e36]:
+          - button "Login" [ref=f85e40] [cursor=pointer]
+        - listitem [ref=f85e47]:
+          - link "saved jobs (0)" [ref=f85e50] [cursor=pointer]:
+            - /url: https://careers.united.com/us/en/jobcart
+            - generic [ref=f85e54]: Saved jobs
+            - generic [ref=f85e55]: (0)
+  - main [ref=f85e56]:
+    - generic: "-"
+    - generic [ref=f85e57]: "-"
+    - generic [ref=f85e72]:
+      - link "United Benefits" [ref=f85e73] [cursor=pointer]:
+        - /url: benefits
+      - generic [ref=f85e80]:
+        - heading "United Benefits" [level=2] [ref=f85e82]
+        - generic [ref=f85e85]: Learn more about the competitive benefits package that will keep you happy, healthy and well-traveled.
+  - contentinfo [ref=f85e88]:
+    - generic [ref=f85e90]:
+      - generic [ref=f85e93]:
+        - list [ref=f85e97]:
+          - listitem [ref=f85e98]:
+            - link "Career Site Cookie Settings" [ref=f85e100] [cursor=pointer]:
+              - /url: javascript:showConsentPreferencesPopup()
+          - listitem [ref=f85e101]:
+            - link "Personal Information" [ref=f85e103] [cursor=pointer]:
+              - /url: https://careers.united.com/us/en/personal-information
+        - generic [ref=f85e104]:
+          - strong [ref=f85e105]: United Careers – Accessibility and Accommodations
+          - text: United complies with all state and federal laws and supports applicants and employees by providing reasonable accommodations for disabilities and sincerely held religious beliefs, observances, and practices. Applicants, employees, and individuals with conditional job offers may request an accommodation or support at any stage of the hiring process or employment to help perform essential job functions. For assistance, please contact
+          - link "JobAccommodations@united.com" [ref=f85e107] [cursor=pointer]:
+            - /url: mailto:JobAccommodations@united.com
+          - text: .
+      - generic [ref=f85e108]: Copyright © 2026 United Airlines, Inc. All rights reserved.
+  - iframe [ref=f85e112]

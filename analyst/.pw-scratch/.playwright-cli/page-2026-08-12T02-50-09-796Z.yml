@@ -1,0 +1,120 @@
+- generic [ref=f1584e3]:
+  - banner:
+    - navigation "site" [ref=f1584e4]:
+      - link "Skip to main content" [ref=f1584e5] [cursor=pointer]:
+        - /url: "#main-content"
+      - generic [ref=f1584e6]:
+        - generic [ref=f1584e7]:
+          - link "John Deere logo, link to Positions Home" [ref=f1584e9] [cursor=pointer]:
+            - /url: https://www.deere.com/en/our-company/john-deere-careers/
+          - link "Jobs" [ref=f1584e11] [cursor=pointer]:
+            - /url: /careers
+          - link "Dashboard" [ref=f1584e14] [cursor=pointer]:
+            - /url: /careers/dashboard
+          - link "Profile" [ref=f1584e17] [cursor=pointer]:
+            - /url: /careers/profile
+        - generic [ref=f1584e20]:
+          - link "Join Talent Network" [ref=f1584e21] [cursor=pointer]:
+            - /url: /careers/join
+          - link "Sign In" [ref=f1584e24] [cursor=pointer]:
+            - /url: /careers/login
+          - button "Language switcher" [ref=f1584e32] [cursor=pointer]:
+            - generic [ref=f1584e33]: English
+  - main [ref=f1584e37]:
+    - heading "Jobs" [level=1] [ref=f1584e38]
+    - generic [ref=f1584e44]:
+      - 'link "Warning: Job search scams using fake job postings" [ref=f1584e46] [cursor=pointer]':
+        - /url: https://johndeere.widen.net/s/v2zjwbkpg8/warning_job_scamming_germany
+      - link "View and apply for apprentice jobs in Europe." [ref=f1584e48] [cursor=pointer]:
+        - /url: https://jobs.deere.com/successfactors/go/R2ApprenticeJobs/9425200/
+    - generic [ref=f1584e50]:
+      - generic [ref=f1584e51]:
+        - generic [ref=f1584e52]:
+          - generic [ref=f1584e53]:
+            - generic [ref=f1584e55]:
+              - status [ref=f1584e56]
+              - combobox "Search for job title or keywords" [ref=f1584e60]
+            - generic [ref=f1584e64]:
+              - status [ref=f1584e65]
+              - combobox "Search for location" [ref=f1584e69]
+            - button "Search jobs" [ref=f1584e74] [cursor=pointer]
+          - generic [ref=f1584e76]:
+            - button "All filters" [ref=f1584e77] [cursor=pointer]:
+              - generic [ref=f1584e78]: All Filters
+            - button "Clear all selected filters" [ref=f1584e83] [cursor=pointer]:
+              - generic [ref=f1584e84]: Clear All
+        - generic [ref=f1584e88]:
+          - generic [ref=f1584e89]:
+            - heading "Get personalized job recommendations" [level=1] [ref=f1584e90]
+            - generic [ref=f1584e91]: Use AI to see how you match and get help on your career journey
+          - button "Upload your resume to get personalized job recommendations" [ref=f1584e93] [cursor=pointer]:
+            - generic [ref=f1584e94]: Upload your resume
+      - generic [ref=f1584e96]:
+        - generic [ref=f1584e97]:
+          - heading "Loading jobs..." [level=2] [ref=f1584e99]
+          - button "Sort" [ref=f1584e102] [cursor=pointer]
+          - link "Manage" [ref=f1584e109] [cursor=pointer]:
+            - /url: /careers/settings
+          - generic [ref=f1584e110]:
+            - status "Loading job card" [ref=f1584e111] [cursor=pointer]
+            - status "Loading job card" [ref=f1584e115] [cursor=pointer]
+            - status "Loading job card" [ref=f1584e119] [cursor=pointer]
+            - status "Loading job card" [ref=f1584e123] [cursor=pointer]
+            - status "Loading job card" [ref=f1584e127] [cursor=pointer]
+            - status "Loading job card" [ref=f1584e131] [cursor=pointer]
+            - status "Loading job card" [ref=f1584e135] [cursor=pointer]
+            - status "Loading job card" [ref=f1584e139] [cursor=pointer]
+            - status "Loading job card" [ref=f1584e143] [cursor=pointer]
+            - status "Loading job card" [ref=f1584e147] [cursor=pointer]
+          - generic [ref=f1584e151]: Page 1 of 1
+          - navigation "Jobs pagination"
+        - tablist [ref=f1584e178]:
+          - tab "Job description" [selected] [ref=f1584e179] [cursor=pointer]
+  - contentinfo [ref=f1584e182]:
+    - generic [ref=f1584e183]:
+      - contentinfo [ref=f1584e185]:
+        - generic [ref=f1584e186]:
+          - img "USA Flag" [ref=f1584e187]
+          - generic [ref=f1584e188]: United States
+        - list [ref=f1584e189]:
+          - listitem [ref=f1584e190]:
+            - link "Site Map" [ref=f1584e191] [cursor=pointer]:
+              - /url: https://www.deere.com/en/equipment/
+          - listitem [ref=f1584e192]:
+            - link "Privacy and Data" [ref=f1584e193] [cursor=pointer]:
+              - /url: https://www.deere.com/en/privacy-and-data/
+          - listitem [ref=f1584e194]:
+            - link "Cookie Statement" [ref=f1584e195] [cursor=pointer]:
+              - /url: https://www.deere.com/en/privacy-and-data/cookie-statement/
+          - listitem [ref=f1584e196]:
+            - link "Terms of Use" [ref=f1584e197] [cursor=pointer]:
+              - /url: https://www.deere.com/en/privacy-and-data/terms/
+          - listitem [ref=f1584e198]:
+            - link "Accessibility" [ref=f1584e199] [cursor=pointer]:
+              - /url: https://www.deere.com/en/privacy-and-data/accessibility/
+          - listitem [ref=f1584e200]:
+            - link "Contact Us" [ref=f1584e201] [cursor=pointer]:
+              - /url: https://www.deere.com/en/our-company/contact-us/
+          - listitem [ref=f1584e202]:
+            - link "Global Privacy Statements|John Deere Worldwide" [ref=f1584e203] [cursor=pointer]:
+              - /url: https://www.deere.com/en/privacy-and-data/privacy-statements/
+        - button "Cookie Preferences" [ref=f1584e205] [cursor=pointer]
+        - generic [ref=f1584e206]:
+          - link "" [ref=f1584e207] [cursor=pointer]:
+            - /url: http://www.facebook.com/JohnDeereUSCA
+          - link "" [ref=f1584e209] [cursor=pointer]:
+            - /url: https://twitter.com/JohnDeere
+          - link "" [ref=f1584e211] [cursor=pointer]:
+            - /url: https://www.youtube.com/user/JohnDeere
+          - link "" [ref=f1584e213] [cursor=pointer]:
+            - /url: https://www.linkedin.com/company/john-deere
+          - link "" [ref=f1584e215] [cursor=pointer]:
+            - /url: http://instagram.com/johndeere
+          - link "" [ref=f1584e217] [cursor=pointer]:
+            - /url: https://www.deere.com/en/forms/preference-center/
+          - link:
+            - /url: https://www.tiktok.com/@johndeere?lang=en
+        - generic [ref=f1584e219]: Copyright © 2025 Deere & Company. All Rights Reserved.
+      - paragraph [ref=f1584e220]:
+        - 'link "Powered by eightfold.ai #WhatsNextForYou" [ref=f1584e221] [cursor=pointer]':
+          - /url: https://eightfold.ai
