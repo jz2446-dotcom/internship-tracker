@@ -15,6 +15,26 @@ const progressLabel = document.getElementById('progressLabel');
 const modeBtns = [...document.querySelectorAll('#modeToggle .mode-btn')];
 const brainBtns = [...document.querySelectorAll('#brainToggle .mode-btn')];
 const concBtns = [...document.querySelectorAll('#concurrencyToggle .mode-btn')];
+const themeBtns = [...document.querySelectorAll('#themeToggle .mode-btn')];
+
+// --- Theme (Light/Dark toggle) ---
+// CSS already falls back to the OS preference via @media(prefers-color-scheme), so the
+// very first paint is never "wrong" — this only overrides it once a choice is known,
+// via :root[data-theme] rules that win over the media query in either direction.
+function applyTheme(theme) {
+  document.documentElement.dataset.theme = theme;
+  themeBtns.forEach(b => b.classList.toggle('active', b.dataset.theme === theme));
+  try { localStorage.setItem('trackerRunnerTheme', theme); } catch (_) { /* storage unavailable — theme just won't persist */ }
+}
+themeBtns.forEach(b => b.addEventListener('click', () => applyTheme(b.dataset.theme)));
+(function initTheme() {
+  let saved = null;
+  try { saved = localStorage.getItem('trackerRunnerTheme'); } catch (_) { /* ignore */ }
+  const theme = (saved === 'light' || saved === 'dark')
+    ? saved
+    : (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+  applyTheme(theme);
+})();
 const resolvedToggle = document.getElementById('resolvedToggle');
 const resolvedPopup = document.getElementById('resolvedPopup');
 const resolvedBody = document.getElementById('resolvedBody');
@@ -302,7 +322,7 @@ function updateHistoryEmptyState() {
     historyEmptyState.textContent = 'No past runs saved yet — run a refresh first.';
     historyEmptyState.classList.remove('hidden');
   } else if (!selectedHistoryDate) {
-    historyEmptyState.textContent = 'Pick a date from 📅 History to view a past run.';
+    historyEmptyState.textContent = 'Pick a date from History to view a past run.';
     historyEmptyState.classList.remove('hidden');
   } else {
     historyEmptyState.classList.add('hidden');

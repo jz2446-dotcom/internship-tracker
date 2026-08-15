@@ -78,28 +78,79 @@ function getDashboardHTML() {
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Finance Internship Tracker</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
   <style>
+    /* Newcrest (NCI) design system — Surface A, canonical web palette. Navy authority +
+       a single gold accent on cream; serif for headings/values, sans for labels/body.
+       DELIBERATE EXCEPTION: the design system marks Surface A light-only (dark mode is
+       normally Surface D's alone) — dark mode below is a site-specific override the user
+       explicitly asked for, not a change to the design system itself. */
     :root {
-      --bg: #0f1117;
-      --surface: #1a1d27;
-      --surface2: #22263a;
-      --border: #2e3350;
-      --accent: #4f8ef7;
-      --accent2: #7c3aed;
-      --green: #22c55e;
-      --yellow: #eab308;
-      --red: #ef4444;
-      --gray: #6b7280;
-      --text: #e2e8f0;
-      --text2: #94a3b8;
-      --font: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+      --navy: #0f2a4a;
+      --navy-2: #163863;
+      --navy-ink: #0b2038;
+      --gold: #b8892b;
+      --gold-soft: #c99a3f;
+      --gold-ink: #8a6417;
+      --cream: #f7f4ec;
+      --cream-2: #fbf9f3;
+      --paper: #ffffff;
+      --line: #e4ddcd;
+      --line-2: #d8cfb8;
+      --ink: #1c2733;
+      --ink-soft: #5b6774;
+      --pos: #1f7a4d;
+      --neg: #a1341f;
+      --steel: #5f7291;
+      --shadow: 0 1px 2px rgba(15,42,74,.05), 0 4px 14px rgba(15,42,74,.05);
+      --radius: 10px;
+      --serif: 'Fraunces', Georgia, 'Times New Roman', serif;
+      --font: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --navy: #1c4a80; --navy-2: #245a99; --navy-ink: #0a1a2e;
+        --gold: #cca653; --gold-soft: #dcbb70; --gold-ink: #e8cf8f;
+        --cream: #0f1420; --cream-2: #171d2c; --paper: #1a212f;
+        --line: #2b3346; --line-2: #39445c;
+        --ink: #e9e5da; --ink-soft: #a9a292;
+        --pos: #4fae7c; --neg: #d16b6b; --steel: #8598ba;
+        --shadow: 0 1px 2px rgba(0,0,0,.3), 0 4px 14px rgba(0,0,0,.35);
+      }
+    }
+    /* An explicit theme choice always wins over the OS preference, in either direction. */
+    :root[data-theme="dark"] {
+      --navy: #1c4a80; --navy-2: #245a99; --navy-ink: #0a1a2e;
+      --gold: #cca653; --gold-soft: #dcbb70; --gold-ink: #e8cf8f;
+      --cream: #0f1420; --cream-2: #171d2c; --paper: #1a212f;
+      --line: #2b3346; --line-2: #39445c;
+      --ink: #e9e5da; --ink-soft: #a9a292;
+      --pos: #4fae7c; --neg: #d16b6b; --steel: #8598ba;
+      --shadow: 0 1px 2px rgba(0,0,0,.3), 0 4px 14px rgba(0,0,0,.35);
+    }
+    :root[data-theme="light"] {
+      --navy: #0f2a4a; --navy-2: #163863; --navy-ink: #0b2038;
+      --gold: #b8892b; --gold-soft: #c99a3f; --gold-ink: #8a6417;
+      --cream: #f7f4ec; --cream-2: #fbf9f3; --paper: #ffffff;
+      --line: #e4ddcd; --line-2: #d8cfb8;
+      --ink: #1c2733; --ink-soft: #5b6774;
+      --pos: #1f7a4d; --neg: #a1341f; --steel: #5f7291;
+      --shadow: 0 1px 2px rgba(15,42,74,.05), 0 4px 14px rgba(15,42,74,.05);
     }
     * { box-sizing: border-box; margin: 0; padding: 0; }
-    body { background: var(--bg); color: var(--text); font-family: var(--font); min-height: 100vh; }
+    body {
+      background: var(--cream); color: var(--ink); font-family: var(--font);
+      font-variant-numeric: tabular-nums; min-height: 100vh;
+      transition: background-color .18s, color .18s;
+    }
+    @media (prefers-reduced-motion: reduce) { body { transition: none; } }
 
+    /* Navy masthead with a gold edge — Newcrest visual grammar #1 */
     header {
-      background: var(--surface);
-      border-bottom: 1px solid var(--border);
+      background: linear-gradient(150deg, var(--navy-ink) 0%, var(--navy) 100%);
+      border-bottom: 2px solid var(--gold);
       padding: 16px 24px;
       display: flex;
       align-items: center;
@@ -108,68 +159,72 @@ function getDashboardHTML() {
       top: 0;
       z-index: 100;
     }
-    header h1 { font-size: 18px; font-weight: 700; color: var(--text); }
-    header .subtitle { font-size: 12px; color: var(--text2); margin-top: 2px; }
+    header h1 { font-family: var(--serif); font-size: 19px; font-weight: 600; color: #fff; }
+    header .subtitle { font-size: 11px; letter-spacing: .02em; color: #b9c6d6; margin-top: 3px; }
 
+    /* Pill controls — Newcrest visual grammar #6 */
     .class-toggle {
       display: flex;
-      background: var(--bg);
-      border: 1px solid var(--border);
-      border-radius: 8px;
+      border: 1.5px solid rgba(255,255,255,.22);
+      border-radius: 999px;
       overflow: hidden;
+      background: rgba(255,255,255,.05);
     }
     .class-toggle button {
       padding: 8px 20px;
       background: transparent;
       border: none;
-      color: var(--text2);
+      color: #b9c6d6;
       cursor: pointer;
-      font-size: 14px;
-      font-weight: 600;
-      transition: all 0.15s;
+      font-size: 13px;
+      font-weight: 500;
+      transition: background .15s, color .15s;
     }
     .class-toggle button.active {
-      background: var(--accent);
-      color: white;
+      background: var(--navy-2);
+      color: #fff;
+      font-weight: 700;
     }
 
     .tabs {
       display: flex;
-      gap: 4px;
+      gap: 2px;
       padding: 10px 24px 0;
-      background: var(--surface);
-      border-bottom: 1px solid var(--border);
+      background: var(--paper);
+      border-bottom: 1px solid var(--line);
+      overflow-x: auto;
     }
     .tab-btn {
-      padding: 10px 18px;
+      padding: 10px 16px;
       background: transparent;
       border: none;
       border-bottom: 2px solid transparent;
-      color: var(--text2);
+      color: var(--ink-soft);
       cursor: pointer;
-      font-size: 14px;
+      font-size: 13px;
       font-weight: 600;
-      transition: all 0.15s;
+      white-space: nowrap;
+      transition: color .15s, border-color .15s;
     }
-    .tab-btn:hover { color: var(--text); }
-    .tab-btn.active { color: var(--accent); border-bottom-color: var(--accent); }
+    .tab-btn:hover { color: var(--ink); }
+    .tab-btn.active { color: var(--gold-ink); border-bottom-color: var(--gold); }
     .tab-note {
       padding: 12px 24px;
-      background: rgba(124,58,237,0.08);
-      border-bottom: 1px solid var(--border);
+      background: rgba(184,137,43,.08);
+      border-bottom: 1px solid var(--line);
       font-size: 12px;
-      color: var(--text2);
+      color: var(--ink-soft);
       line-height: 1.5;
       display: none;
     }
     .tab-note.show { display: block; }
-    .tab-note strong { color: var(--text); }
+    .tab-note strong { color: var(--ink); }
 
     .competitiveness {
       font-size: 11px;
-      color: #c4b5fd;
-      background: rgba(124,58,237,0.12);
-      border: 1px solid rgba(124,58,237,0.25);
+      color: var(--steel);
+      background: rgba(95,114,145,.12);
+      border: 1px solid rgba(95,114,145,.28);
       border-radius: 4px;
       padding: 4px 8px;
       line-height: 1.4;
@@ -177,9 +232,9 @@ function getDashboardHTML() {
     .dates {
       font-size: 11px;
       font-weight: 600;
-      color: var(--green);
-      background: rgba(34,197,94,0.10);
-      border: 1px solid rgba(34,197,94,0.25);
+      color: var(--pos);
+      background: rgba(31,122,77,.10);
+      border: 1px solid rgba(31,122,77,.28);
       border-radius: 4px;
       padding: 4px 8px;
     }
@@ -189,13 +244,13 @@ function getDashboardHTML() {
       gap: 6px;
       font-size: 11px;
       font-weight: 600;
-      color: var(--text2);
+      color: var(--ink-soft);
       cursor: pointer;
       user-select: none;
     }
-    .applied-check input { width: 15px; height: 15px; cursor: pointer; accent-color: var(--green); }
-    .card.applied { opacity: 0.6; border-color: var(--green); }
-    .card.applied .company::after { content: ' ✓ applied'; color: var(--green); font-size: 11px; font-weight: 600; }
+    .applied-check input { width: 15px; height: 15px; cursor: pointer; accent-color: var(--gold); }
+    .card.applied { opacity: 0.6; border-color: var(--pos); }
+    .card.applied .company::after { content: ' ✓ applied'; color: var(--pos); font-size: 11px; font-weight: 600; }
 
     .controls {
       padding: 16px 24px;
@@ -203,44 +258,46 @@ function getDashboardHTML() {
       gap: 12px;
       flex-wrap: wrap;
       align-items: center;
-      border-bottom: 1px solid var(--border);
+      border-bottom: 1px solid var(--line);
+      background: var(--paper);
     }
     .filter-group { display: flex; gap: 8px; flex-wrap: wrap; }
     .filter-btn {
-      padding: 5px 12px;
-      border-radius: 6px;
-      border: 1px solid var(--border);
-      background: var(--surface);
-      color: var(--text2);
+      padding: 5px 14px;
+      border-radius: 999px;
+      border: 1px solid var(--line-2);
+      background: var(--cream-2);
+      color: var(--ink-soft);
       cursor: pointer;
       font-size: 12px;
       font-weight: 500;
-      transition: all 0.15s;
+      transition: background .15s, color .15s, border-color .15s;
     }
-    .filter-btn.active, .filter-btn:hover { background: var(--accent); color: white; border-color: var(--accent); }
+    .filter-btn.active, .filter-btn:hover { background: var(--navy); color: #fff; border-color: var(--navy); }
     .search-box {
       padding: 6px 12px;
       border-radius: 6px;
-      border: 1px solid var(--border);
-      background: var(--surface);
-      color: var(--text);
+      border: 1px solid var(--line-2);
+      background: var(--cream-2);
+      color: var(--ink);
       font-size: 13px;
       width: 220px;
       outline: none;
     }
-    .search-box:focus { border-color: var(--accent); }
+    .search-box:focus { border-color: var(--navy); box-shadow: 0 0 0 3px rgba(22,56,99,.14); }
 
     .stats-bar {
       padding: 12px 24px;
       display: flex;
       gap: 24px;
-      background: var(--surface);
-      border-bottom: 1px solid var(--border);
+      background: var(--paper);
+      border-bottom: 1px solid var(--line);
       font-size: 13px;
+      font-variant-numeric: tabular-nums;
     }
-    .stat { display: flex; align-items: center; gap: 6px; }
+    .stat { display: flex; align-items: center; gap: 6px; color: var(--ink-soft); }
     .stat-dot { width: 8px; height: 8px; border-radius: 50%; }
-    .stat-num { font-weight: 700; }
+    .stat-num { font-family: var(--serif); font-weight: 600; color: var(--ink); }
 
     .agent-section { padding: 0 24px 24px; }
     .agent-header {
@@ -250,15 +307,16 @@ function getDashboardHTML() {
       gap: 12px;
     }
     .agent-badge {
-      background: var(--accent2);
-      color: white;
-      font-size: 11px;
+      background: var(--navy);
+      color: #fff;
+      font-size: 10.5px;
       font-weight: 700;
-      padding: 3px 10px;
-      border-radius: 20px;
+      letter-spacing: .02em;
+      padding: 3px 11px;
+      border-radius: 999px;
     }
-    .agent-title { font-size: 16px; font-weight: 700; }
-    .agent-focus { font-size: 12px; color: var(--text2); margin-top: 2px; }
+    .agent-title { font-family: var(--serif); font-size: 16px; font-weight: 600; color: var(--ink); }
+    .agent-focus { font-size: 12px; color: var(--ink-soft); margin-top: 2px; }
 
     .grid {
       display: grid;
@@ -266,139 +324,152 @@ function getDashboardHTML() {
       gap: 12px;
     }
 
+    /* Gold-topped card — Newcrest visual grammar #4 */
     .card {
-      background: var(--surface);
-      border: 1px solid var(--border);
-      border-radius: 10px;
+      background: var(--paper);
+      border: 1px solid var(--line);
+      border-top: 3px solid var(--line-2);
+      border-radius: var(--radius);
       padding: 16px;
-      transition: border-color 0.15s;
+      box-shadow: var(--shadow);
+      transition: border-top-color .15s;
       display: flex;
       flex-direction: column;
       gap: 10px;
     }
-    .card:hover { border-color: var(--accent); }
+    .card:hover { border-top-color: var(--gold); }
     .card.hidden { display: none; }
 
     .card-top { display: flex; justify-content: space-between; align-items: flex-start; }
-    .company { font-size: 14px; font-weight: 700; }
+    .company { font-family: var(--serif); font-size: 14.5px; font-weight: 600; color: var(--ink); }
     .status-pill {
       font-size: 11px;
       font-weight: 600;
-      padding: 2px 9px;
-      border-radius: 20px;
+      padding: 2px 10px;
+      border-radius: 999px;
       white-space: nowrap;
     }
-    .status-open { background: rgba(34,197,94,0.15); color: var(--green); }
-    .status-closed { background: rgba(239,68,68,0.12); color: var(--red); }
-    .status-program-page { background: rgba(234,179,8,0.12); color: var(--yellow); }
-    .status-unknown { background: rgba(107,114,128,0.15); color: var(--gray); }
-    .status-none { background: rgba(107,114,128,0.1); color: var(--gray); }
-    .status-unclear { background: rgba(234,179,8,0.12); color: var(--yellow); }
+    .status-open { background: rgba(31,122,77,.14); color: var(--pos); }
+    .status-closed { background: rgba(161,52,31,.12); color: var(--neg); }
+    .status-program-page { background: rgba(95,114,145,.14); color: var(--steel); }
+    .status-unknown { background: rgba(91,103,116,.12); color: var(--ink-soft); }
+    .status-none { background: rgba(91,103,116,.08); color: var(--ink-soft); }
+    .status-unclear { background: rgba(95,114,145,.14); color: var(--steel); }
 
-    .program { font-size: 12px; color: var(--text2); line-height: 1.4; }
+    .program { font-size: 12px; color: var(--ink-soft); line-height: 1.4; }
     .meta { display: flex; flex-wrap: wrap; gap: 6px; }
     .tag {
       font-size: 11px;
       padding: 2px 8px;
       border-radius: 4px;
-      background: var(--surface2);
-      color: var(--text2);
-      border: 1px solid var(--border);
+      background: var(--cream-2);
+      color: var(--ink-soft);
+      border: 1px solid var(--line);
     }
-    .tag.cat { background: rgba(79,142,247,0.1); color: var(--accent); border-color: rgba(79,142,247,0.2); }
-    .notes { font-size: 11px; color: var(--text2); line-height: 1.4; font-style: italic; }
+    .tag.cat { background: rgba(184,137,43,.10); color: var(--gold-ink); border-color: rgba(184,137,43,.25); }
+    .notes { font-size: 11px; color: var(--ink-soft); line-height: 1.4; font-style: italic; }
     .my-notes-wrap { margin: 6px 0; }
-    .my-notes-wrap summary { font-size: 11px; color: var(--text2); cursor: pointer; user-select: none; }
-    .my-notes-wrap summary:hover { color: var(--text); }
+    .my-notes-wrap summary { font-size: 11px; color: var(--ink-soft); cursor: pointer; user-select: none; }
+    .my-notes-wrap summary:hover { color: var(--ink); }
     .my-notes {
       width: 100%;
       box-sizing: border-box;
       margin-top: 4px;
       font-size: 12px;
       font-family: inherit;
-      color: var(--text);
-      background: var(--surface2);
-      border: 1px solid var(--border);
+      color: var(--ink);
+      background: var(--cream-2);
+      border: 1px solid var(--line-2);
       border-radius: 6px;
       padding: 6px 8px;
       resize: vertical;
       min-height: 44px;
     }
-    .my-notes:focus { outline: none; border-color: var(--accent); }
-    .my-notes-saved { font-size: 10px; color: var(--text2); opacity: 0; transition: opacity 0.3s; margin-left: 6px; }
+    .my-notes:focus { outline: none; border-color: var(--navy); box-shadow: 0 0 0 3px rgba(22,56,99,.14); }
+    .my-notes-saved { font-size: 10px; color: var(--ink-soft); opacity: 0; transition: opacity 0.3s; margin-left: 6px; }
     .my-notes-saved.show { opacity: 1; }
     .card-footer { display: flex; justify-content: space-between; align-items: center; }
-    .location { font-size: 11px; color: var(--text2); }
+    .location { font-size: 11px; color: var(--ink-soft); }
     .apply-btn {
       display: inline-flex;
       align-items: center;
       gap: 4px;
-      background: var(--accent);
-      color: white;
+      background: var(--gold);
+      color: var(--navy-ink);
       text-decoration: none;
       font-size: 11px;
-      font-weight: 600;
-      padding: 5px 12px;
-      border-radius: 6px;
-      transition: opacity 0.15s;
+      font-weight: 700;
+      padding: 5px 13px;
+      border-radius: 999px;
+      transition: background .15s;
     }
-    .apply-btn:hover { opacity: 0.85; }
-    .apply-btn.disabled { background: var(--surface2); color: var(--gray); pointer-events: none; }
+    .apply-btn:hover { background: var(--gold-soft); }
+    .apply-btn.disabled { background: var(--cream-2); color: var(--ink-soft); pointer-events: none; }
 
     .no-results {
       text-align: center;
       padding: 48px;
-      color: var(--text2);
+      color: var(--ink-soft);
       font-size: 14px;
     }
 
     .last-updated {
       padding: 16px 24px;
       font-size: 12px;
-      color: var(--text2);
-      border-top: 1px solid var(--border);
+      color: var(--ink-soft);
+      border-top: 1px solid var(--line);
       margin-top: 24px;
     }
 
     /* What's changed (changelog) tab */
     .cl-entry {
-      background: var(--surface);
-      border: 1px solid var(--border);
-      border-radius: 10px;
+      background: var(--paper);
+      border: 1px solid var(--line);
+      border-top: 3px solid var(--line-2);
+      border-radius: var(--radius);
       padding: 16px 20px;
       margin: 0 24px 16px;
     }
-    .cl-entry:first-child { margin-top: 20px; border-color: var(--accent); }
-    .cl-date { font-size: 15px; font-weight: 700; color: var(--text); margin-bottom: 4px; }
-    .cl-summary { font-size: 13px; color: var(--text2); margin-bottom: 6px; }
+    .cl-entry:first-child { margin-top: 20px; border-top-color: var(--gold); }
+    .cl-date { font-family: var(--serif); font-size: 15px; font-weight: 600; color: var(--ink); margin-bottom: 4px; }
+    .cl-summary { font-size: 13px; color: var(--ink-soft); margin-bottom: 6px; }
     .cl-note {
-      font-size: 12px; color: var(--text2); line-height: 1.5;
-      background: rgba(124,58,237,0.08);
-      border: 1px solid rgba(124,58,237,0.2);
+      font-size: 12px; color: var(--ink-soft); line-height: 1.5;
+      background: rgba(184,137,43,.08);
+      border: 1px solid rgba(184,137,43,.22);
       border-radius: 6px; padding: 8px 10px; margin-bottom: 10px;
     }
     .cl-group-title {
-      font-size: 11px; font-weight: 700; text-transform: uppercase;
-      letter-spacing: 0.04em; color: var(--text2); margin: 12px 0 6px;
+      font-size: 10.5px; font-weight: 700; text-transform: uppercase;
+      letter-spacing: 0.08em; color: var(--ink-soft); margin: 12px 0 6px;
     }
     .cl-item {
-      font-size: 12px; color: var(--text); line-height: 1.7;
-      padding: 5px 0; border-bottom: 1px solid var(--border);
+      font-size: 12px; color: var(--ink); line-height: 1.7;
+      padding: 5px 0; border-bottom: 1px solid var(--line);
     }
     .cl-item:last-child { border-bottom: none; }
     .cl-item .status-pill { font-size: 10px; padding: 1px 7px; vertical-align: middle; }
-    .cl-grp { font-size: 10px; color: var(--text2); margin-left: 4px; }
+    .cl-grp { font-size: 10px; color: var(--ink-soft); margin-left: 4px; }
   </style>
 </head>
 <body>
   <header>
-    <div>
-      <h1>Finance Internship Tracker</h1>
-      <div class="subtitle">Tracking ~150 companies across 5 agents · <span id="last-updated">Loading...</span></div>
+    <div style="display:flex;align-items:center;gap:12px">
+      <span style="width:38px;height:38px;flex-shrink:0;display:flex;align-items:center;justify-content:center;border-radius:9px;background:rgba(255,255,255,.06);border:1px solid rgba(184,137,43,.5);font-family:var(--serif);font-weight:600;font-size:14px;color:var(--gold)">FT</span>
+      <div>
+        <h1>Finance Internship Tracker</h1>
+        <div class="subtitle">Tracking ~150 companies across 5 agents &middot; <span id="last-updated">Loading...</span></div>
+      </div>
     </div>
-    <div class="class-toggle">
-      <button class="active" onclick="setClassYear('2028')">Class of 2028</button>
-      <button onclick="setClassYear('2029')">Class of 2029</button>
+    <div style="display:flex;align-items:center;gap:10px">
+      <div class="class-toggle" id="theme-toggle">
+        <button data-theme-btn="light" onclick="setTheme('light')">Light</button>
+        <button data-theme-btn="dark" onclick="setTheme('dark')">Dark</button>
+      </div>
+      <div class="class-toggle">
+        <button class="active" onclick="setClassYear('2028')">Class of 2028</button>
+        <button onclick="setClassYear('2029')">Class of 2029</button>
+      </div>
     </div>
   </header>
 
@@ -439,11 +510,11 @@ function getDashboardHTML() {
   </div>
 
   <div class="stats-bar">
-    <div class="stat"><div class="stat-dot" style="background:var(--green)"></div><span id="s-open" class="stat-num">0</span>&nbsp;Open</div>
-    <div class="stat"><div class="stat-dot" style="background:var(--yellow)"></div><span id="s-pp" class="stat-num">0</span>&nbsp;Program Page</div>
-    <div class="stat"><div class="stat-dot" style="background:var(--red)"></div><span id="s-closed" class="stat-num">0</span>&nbsp;Closed</div>
-    <div class="stat"><div class="stat-dot" style="background:var(--gray)"></div><span id="s-none" class="stat-num">0</span>&nbsp;None/Unknown</div>
-    <div class="stat"><div class="stat-dot" style="background:var(--accent2)"></div>✓&nbsp;<span id="s-applied" class="stat-num">0</span>&nbsp;applied</div>
+    <div class="stat"><div class="stat-dot" style="background:var(--pos)"></div><span id="s-open" class="stat-num">0</span>&nbsp;Open</div>
+    <div class="stat"><div class="stat-dot" style="background:var(--steel)"></div><span id="s-pp" class="stat-num">0</span>&nbsp;Program Page</div>
+    <div class="stat"><div class="stat-dot" style="background:var(--neg)"></div><span id="s-closed" class="stat-num">0</span>&nbsp;Closed</div>
+    <div class="stat"><div class="stat-dot" style="background:var(--ink-soft)"></div><span id="s-none" class="stat-num">0</span>&nbsp;None/Unknown</div>
+    <div class="stat"><div class="stat-dot" style="background:var(--gold)"></div>✓&nbsp;<span id="s-applied" class="stat-num">0</span>&nbsp;applied</div>
     <div class="stat" style="margin-left:auto;"><span id="s-total" class="stat-num">0</span>&nbsp;shown</div>
   </div>
 
@@ -454,6 +525,24 @@ function getDashboardHTML() {
   <div class="last-updated" id="footer-updated"></div>
 
   <script>
+    // Theme: falls back to the OS preference (@media prefers-color-scheme in the CSS)
+    // until an explicit choice is made here, which then always wins in either direction.
+    function setTheme(theme) {
+      document.documentElement.setAttribute('data-theme', theme);
+      document.querySelectorAll('#theme-toggle [data-theme-btn]').forEach(b => {
+        b.classList.toggle('active', b.dataset.themeBtn === theme);
+      });
+      try { localStorage.setItem('nciTheme', theme); } catch (e) {}
+    }
+    (function initTheme() {
+      let saved = null;
+      try { saved = localStorage.getItem('nciTheme'); } catch (e) {}
+      const theme = (saved === 'light' || saved === 'dark')
+        ? saved
+        : (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+      setTheme(theme);
+    })();
+
     let allData = null;
     let activeClassYear = '2028';
     let activeStatusFilter = 'all';
@@ -483,7 +572,7 @@ function getDashboardHTML() {
         renderDashboard();
       } catch(e) {
         document.getElementById('content').innerHTML =
-          '<div class="no-results">Failed to load data. <a href="/api/data" style="color:var(--accent)">Check API</a></div>';
+          '<div class="no-results">Failed to load data. <a href="/api/data" style="color:var(--gold-ink)">Check API</a></div>';
       }
     }
 
@@ -638,8 +727,8 @@ function getDashboardHTML() {
         <div class="meta">
           <span class="tag cat">\${item.category || 'other'}</span>
           \${cyArr.map(y => \`<span class="tag">Class of \${y}</span>\`).join('')}
-          \${item.part_time ? '<span class="tag" style="background:#4d7c0f;color:#fff">⏰ Part-time</span>' : ''}
-          \${item.virtual ? '<span class="tag" style="background:#6d28d9;color:#fff">💻 Virtual</span>' : ''}
+          \${item.part_time ? '<span class="tag cat">⏰ Part-time</span>' : ''}
+          \${item.virtual ? '<span class="tag cat">💻 Virtual</span>' : ''}
           \${item.pay ? \`<span class="tag">💵 \${item.pay}</span>\` : ''}
         </div>
         \${(item.competitiveness || item.acceptance_rate) ? \`<div class="competitiveness">⚖️ \${item.competitiveness || ''}\${(item.acceptance_rate && item.acceptance_rate !== '—') ? \` · est. accept <strong>\${item.acceptance_rate}</strong>\` : ''}</div>\` : ''}
@@ -718,7 +807,7 @@ function getDashboardHTML() {
         section.className = 'agent-section';
         section.innerHTML = \`
           <div class="agent-header">
-            <span class="agent-badge" style="background:#7c3aed">🎓 Sophomore</span>
+            <span class="agent-badge">🎓 Sophomore</span>
             <div>
               <div class="agent-title">\${(soph && soph.name) || 'Sophomore Internships'}</div>
               <div class="agent-focus">\${(soph && soph.focus) || ''}</div>
@@ -737,7 +826,7 @@ function getDashboardHTML() {
         section.className = 'agent-section';
         section.innerHTML = \`
           <div class="agent-header">
-            <span class="agent-badge" style="background:#c2410c">🍂 Fall 2026 / Spring 2027</span>
+            <span class="agent-badge">🍂 Fall 2026 / Spring 2027</span>
             <div>
               <div class="agent-title">\${(fall && fall.name) || 'Fall 2026 / Spring 2027 Internships'}</div>
               <div class="agent-focus">\${(fall && fall.focus) || 'Off-cycle / part-time / co-op internships with a Fall 2026 or Spring 2027 work term, across every tracked company'}</div>
@@ -756,7 +845,7 @@ function getDashboardHTML() {
         section.className = 'agent-section';
         section.innerHTML = \`
           <div class="agent-header">
-            <span class="agent-badge" style="background:#0e7490">🏛️ Libraries & Museums</span>
+            <span class="agent-badge">🏛️ Libraries & Museums</span>
             <div>
               <div class="agent-title">\${(lib && lib.name) || 'Libraries & Museums Finance Internships'}</div>
               <div class="agent-focus">\${(lib && lib.focus) || 'Finance/accounting/endowment/development internships at libraries, museums, and archives — part-time & virtual roles flagged for the 2026–27 school year'}</div>
@@ -775,7 +864,7 @@ function getDashboardHTML() {
         section.className = 'agent-section';
         section.innerHTML = \`
           <div class="agent-header">
-            <span class="agent-badge" style="background:#15803d">🌱 Environmental</span>
+            <span class="agent-badge">🌱 Environmental</span>
             <div>
               <div class="agent-title">\${(env && env.name) || 'Environmental Impact Finance'}</div>
               <div class="agent-focus">\${(env && env.focus) || 'Impact investing, sustainable/ESG, climate finance, green bonds, conservation & project finance, and carbon-market internships'}</div>
@@ -794,7 +883,7 @@ function getDashboardHTML() {
         section.className = 'agent-section';
         section.innerHTML = \`
           <div class="agent-header">
-            <span class="agent-badge" style="background:#9a3412">🏢 Real Estate</span>
+            <span class="agent-badge">🏢 Real Estate</span>
             <div>
               <div class="agent-title">\${(re && re.name) || 'Real Estate Finance'}</div>
               <div class="agent-focus">\${(re && re.focus) || 'Real estate private equity, acquisitions, asset management, REIT finance, RE investment banking, development finance, RE debt/lending and valuation'}</div>
@@ -813,7 +902,7 @@ function getDashboardHTML() {
         section.className = 'agent-section';
         section.innerHTML = \`
           <div class="agent-header">
-            <span class="agent-badge" style="background:#7c3aed">🎗️ Fellowships</span>
+            <span class="agent-badge">🎗️ Fellowships</span>
             <div>
               <div class="agent-title">\${(fel && fel.name) || 'Fellowships'}</div>
               <div class="agent-focus">\${(fel && fel.focus) || 'Finance fellowship and structured leadership-pipeline programs open to all applicants'}</div>
@@ -832,7 +921,7 @@ function getDashboardHTML() {
         section.className = 'agent-section';
         section.innerHTML = \`
           <div class="agent-header">
-            <span class="agent-badge" style="background:#be123c">🇭🇰 China / Hong Kong</span>
+            <span class="agent-badge">🇭🇰 China / Hong Kong</span>
             <div>
               <div class="agent-title">\${(chk && chk.name) || 'China / Hong Kong'}</div>
               <div class="agent-focus">\${(chk && chk.focus) || 'Finance internships at the mainland China and Hong Kong offices of tracked firms'}</div>
@@ -851,7 +940,7 @@ function getDashboardHTML() {
         section.className = 'agent-section';
         section.innerHTML = \`
           <div class="agent-header">
-            <span class="agent-badge" style="background:#0f766e">📍 Ithaca, NY Local</span>
+            <span class="agent-badge">📍 Ithaca, NY Local</span>
             <div>
               <div class="agent-title">\${(ith && ith.name) || 'Ithaca, NY Local Finance Jobs'}</div>
               <div class="agent-focus">\${(ith && ith.focus) || 'Part-time finance-related jobs, including bank tellers, at recognizable employers in the Ithaca/Tompkins County area'}</div>
@@ -904,7 +993,7 @@ function getDashboardHTML() {
       entries.forEach(e => {
         html += '<div class="cl-entry">';
         html += '<div class="cl-date">' + esc(e.date) +
-          (e.open != null ? ' · <span style="color:var(--green)">' + e.open + ' open</span>' : '') +
+          (e.open != null ? ' · <span style="color:var(--pos)">' + e.open + ' open</span>' : '') +
           (e.total != null ? ' · ' + e.total + ' programs' : '') + '</div>';
         if (e.summary) html += '<div class="cl-summary">' + esc(e.summary) + '</div>';
         if (e.note) html += '<div class="cl-note">' + esc(e.note) + '</div>';
