@@ -16,6 +16,7 @@ const { spawn } = require('child_process');
 const path = require('path');
 const fs = require('fs');
 const timing = require('./lib/timing.js');
+const { parseResolvedLine } = require('./lib/resolvedParser.js');
 const TIMINGS_PATH = path.join(__dirname, 'history', 'step-timings.json');
 
 // Resolve the project root the same way the control panel does: dev (`npm start`)
@@ -202,6 +203,7 @@ function mergeFall2026(log) {
 let running = false;
 let aborted = false;
 const children = new Set();
+let resolvedThisRun = [];
 
 // Prefix every line of a chunk with the step's tag so interleaved parallel output
 // stays readable ("[agent3] ✓ ATS ...").
@@ -217,8 +219,18 @@ function runStep(step, sender) {
       ? spawn(step.cmd, { cwd: step.cwd, shell: true, windowsHide: true, env })
       : spawn(step.cmd, step.args, { cwd: step.cwd, windowsHide: true, env });
     children.add(child);
-    child.stdout.on('data', d => sender.send('run-output', { stream: 'stdout', chunk: tagChunk(step.tag, d.toString()) }));
-    child.stderr.on('data', d => sender.send('run-output', { stream: 'stderr', chunk: tagChunk(step.tag, d.toString()) }));
+    const handleData = (stream) => (d) => {
+      const tagged = tagChunk(step.tag, d.toString());
+      sender.send('run-output', { stream, chunk: tagged });
+      if (step.tag) {
+        for (const line of tagged.split('\n')) {
+          const parsed = parseResolvedLine(line);
+          if (parsed) resolvedThisRun.push(parsed);
+        }
+      }
+    };
+    child.stdout.on('data', handleData('stdout'));
+    child.stderr.on('data', handleData('stderr'));
     child.on('error', err => {
       sender.send('run-output', { stream: 'stderr', chunk: `\n[spawn error] ${err.message}\n` });
     });
@@ -239,8 +251,17 @@ function limiter(n) {
   return (fn) => new Promise((resolve) => { queue.push({ fn, resolve }); next(); });
 }
 
+function groupResolved(list) {
+  const byTab = {};
+  for (const r of list) {
+    (byTab[r.tab] = byTab[r.tab] || []).push({ company: r.company, method: r.method, detail: r.detail });
+  }
+  return byTab;
+}
+
 async function runPipeline(opts, sender) {
   const steps = buildPlan(opts);
+  resolvedThisRun = [];
   const timingsSnapshot = timing.loadTimings(TIMINGS_PATH);
   const stepStatuses = steps.map(() => 'pending');
   const stepStartedAt = {};
@@ -357,7 +378,7 @@ async function runPipeline(opts, sender) {
   const updatedTimings = timing.updateTimings(timingsSnapshot, observations);
   timing.saveTimings(TIMINGS_PATH, updatedTimings);
   running = false;
-  sender.send('run-done', { ok, aborted, failures });
+  sender.send('run-done', { ok, aborted, failures, resolved: groupResolved(resolvedThisRun) });
 }
 
 // ---------------------------------------------------------------------------

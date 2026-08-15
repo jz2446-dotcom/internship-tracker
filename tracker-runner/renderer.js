@@ -14,6 +14,11 @@ const progressLabel = document.getElementById('progressLabel');
 const modeBtns = [...document.querySelectorAll('#modeToggle .mode-btn')];
 const brainBtns = [...document.querySelectorAll('#brainToggle .mode-btn')];
 const concBtns = [...document.querySelectorAll('#concurrencyToggle .mode-btn')];
+const resolvedToggle = document.getElementById('resolvedToggle');
+const resolvedPopup = document.getElementById('resolvedPopup');
+const resolvedBody = document.getElementById('resolvedBody');
+const resolvedClose = document.getElementById('resolvedClose');
+let resolvedReport = null;
 
 let mode = 'long';
 let brain = 'nim';
@@ -125,6 +130,8 @@ window.api.onPlan(({ steps, mode: runMode, brain: runBrain }) => {
   brainBtns.forEach(b => { b.disabled = true; if (runBrain) b.classList.toggle('active', b.dataset.brain === runBrain); });
   concBtns.forEach(b => { b.disabled = true; });
   smokeCheck.disabled = true;
+  resolvedReport = null;
+  resolvedToggle.disabled = true;
   statusBar.className = '';
   statusBar.textContent = 'Running…';
   runStartTime = Date.now();
@@ -146,7 +153,7 @@ window.api.onStepStatus(({ index, status, percent }) => {
   if (typeof percent === 'number') { latestPercent = percent; renderProgress(); }
 });
 
-window.api.onDone(({ ok, aborted, failures }) => {
+window.api.onDone(({ ok, aborted, failures, resolved }) => {
   running = false;
   startBtn.disabled = false;
   stopBtn.disabled = true;
@@ -154,6 +161,8 @@ window.api.onDone(({ ok, aborted, failures }) => {
   brainBtns.forEach(b => b.disabled = false);
   concBtns.forEach(b => b.disabled = false);
   smokeCheck.disabled = false;
+  resolvedReport = resolved || {};
+  resolvedToggle.disabled = false;
   statusBar.textContent = aborted ? 'Stopped by user.'
     : ok ? 'Run complete — deployed ✓'
     : `Finished with ${failures.length} failed step(s) — see console.`;
@@ -252,6 +261,36 @@ window.api.onBrowserNavState(({ url, canGoBack, canGoForward }) => {
   navBack.disabled = !canGoBack;
   navFwd.disabled = !canGoForward;
 });
+
+function renderResolvedPopup() {
+  resolvedBody.innerHTML = '';
+  const tabs = Object.keys(resolvedReport || {}).sort();
+  if (!tabs.length) {
+    resolvedBody.innerHTML = '<div class="popup-empty">No companies resolved yet.</div>';
+    return;
+  }
+  for (const tab of tabs) {
+    const group = document.createElement('div');
+    group.className = 'tab-group';
+    const h3 = document.createElement('h3');
+    h3.textContent = `${tab} (${resolvedReport[tab].length})`;
+    group.appendChild(h3);
+    for (const { company, method, detail } of resolvedReport[tab]) {
+      const row = document.createElement('div');
+      row.className = 'company-row';
+      row.innerHTML = `<span></span><span class="method"></span>`;
+      row.children[0].textContent = `${company} — ${detail}`;
+      row.children[1].textContent = method;
+      group.appendChild(row);
+    }
+    resolvedBody.appendChild(group);
+  }
+}
+resolvedToggle.addEventListener('click', () => {
+  resolvedPopup.classList.toggle('hidden');
+  if (!resolvedPopup.classList.contains('hidden')) renderResolvedPopup();
+});
+resolvedClose.addEventListener('click', () => resolvedPopup.classList.add('hidden'));
 
 // --- boot ---
 (async () => {

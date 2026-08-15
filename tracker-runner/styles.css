@@ -245,3 +245,34 @@ footer {
 footer.ok { color: #3fb950; }
 footer.err { color: #f85149; }
 footer.warn { color: #d29922; }
+
+.popup {
+  position: fixed;
+  top: 60px; right: 18px; bottom: 18px;
+  width: 420px;
+  background: #0d1117;
+  border: 1px solid #30363d;
+  border-radius: 8px;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.5);
+  display: flex;
+  flex-direction: column;
+  z-index: 20;
+}
+.popup.hidden { display: none; }
+.popup-head {
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 12px 14px; border-bottom: 1px solid #21262d;
+}
+.popup-head h2 { font-size: 14px; color: #e6edf3; }
+.popup-body { flex: 1; overflow-y: auto; padding: 10px 14px; }
+.popup-body .tab-group { margin-bottom: 14px; }
+.popup-body .tab-group h3 {
+  font-size: 11px; text-transform: uppercase; letter-spacing: 0.06em;
+  color: #8b949e; margin-bottom: 6px;
+}
+.popup-body .company-row {
+  font-size: 12.5px; color: #c9d1d9; padding: 3px 0;
+  display: flex; justify-content: space-between; gap: 8px;
+}
+.popup-body .company-row .method { color: #58a6ff; font-size: 11px; }
+.popup-empty { color: #8b949e; font-size: 13px; padding: 20px 0; text-align: center; }

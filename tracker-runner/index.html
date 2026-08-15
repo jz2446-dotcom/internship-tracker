@@ -29,10 +29,19 @@
       <label class="smoke-label" title="Run only the Environmental tab with --limit 2, no deploy — a quick wiring check">
         <input type="checkbox" id="smokeCheck" /> Smoke test
       </label>
+      <button id="resolvedToggle" class="nav-btn" disabled>Resolved companies</button>
       <button id="startBtn" class="start">▶ Start run + deploy</button>
       <button id="stopBtn" class="stop" disabled>■ Stop</button>
     </div>
   </header>
+
+  <div id="resolvedPopup" class="popup hidden">
+    <div class="popup-head">
+      <h2>Resolved companies</h2>
+      <button id="resolvedClose" class="clear">Close</button>
+    </div>
+    <div id="resolvedBody" class="popup-body"></div>
+  </div>
 
   <div class="mode-hint" id="modeHint">
     <b>Long:</b> every firm in every roster, browser fallback ON (slow, full coverage).
