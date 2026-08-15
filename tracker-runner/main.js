@@ -15,6 +15,8 @@ const { app, BrowserWindow, BrowserView, ipcMain, shell } = require('electron');
 const { spawn } = require('child_process');
 const path = require('path');
 const fs = require('fs');
+const timing = require('./lib/timing.js');
+const TIMINGS_PATH = path.join(__dirname, 'history', 'step-timings.json');
 
 // Resolve the project root the same way the control panel does: dev (`npm start`)
 // puts this dir directly under the root; packaged walks up from the exe;
@@ -126,12 +128,12 @@ function buildPlan(opts) {
     steps.push({
       label: `Research — ${cfg.label}`,
       kind: 'cmd', cmd: 'node', args, cwd: ANALYST_DIR, shell: false,
-      wave: 1, tag: tabId, env: tabEnv,
+      wave: 1, tag: tabId, env: tabEnv, key: tabId,
     });
   }
 
   if (!opts.smokeTab) {
-    steps.push({ label: 'Merge — Fall 2026 + Spring 2027 → fall2026', kind: 'merge-fall2026' });
+    steps.push({ label: 'Merge — Fall 2026 + Spring 2027 → fall2026', kind: 'merge-fall2026', key: 'merge' });
   }
 
   if (!opts.skipDeploy) {
@@ -139,16 +141,16 @@ function buildPlan(opts) {
       label: 'Fetch live data baseline (for changelog diff)',
       kind: 'cmd', cmd: 'curl',
       args: ['-s', LIVE_DATA_URL, '-o', path.join(WORKER_DIR, 'src', 'data.json')],
-      cwd: WORKER_DIR, shell: false,
+      cwd: WORKER_DIR, shell: false, key: 'fetch-baseline',
     });
     steps.push({
       label: 'Rebuild data bundle (build-data.js)',
-      kind: 'cmd', cmd: 'node', args: ['build-data.js'], cwd: WORKER_DIR, shell: false,
+      kind: 'cmd', cmd: 'node', args: ['build-data.js'], cwd: WORKER_DIR, shell: false, key: 'build',
     });
     steps.push({
       label: 'Deploy Worker (wrangler deploy)',
       // wrangler is a .cmd shim on Windows — needs shell:true to resolve on PATH.
-      kind: 'cmd', cmd: 'wrangler deploy', args: null, cwd: WORKER_DIR, shell: true,
+      kind: 'cmd', cmd: 'wrangler deploy', args: null, cwd: WORKER_DIR, shell: true, key: 'deploy',
     });
   }
 
@@ -239,6 +241,22 @@ function limiter(n) {
 
 async function runPipeline(opts, sender) {
   const steps = buildPlan(opts);
+  const timingsSnapshot = timing.loadTimings(TIMINGS_PATH);
+  const stepStatuses = steps.map(() => 'pending');
+  const stepStartedAt = {};
+  const observations = [];
+  function sendStepStatus(index, status, extra) {
+    stepStatuses[index] = status;
+    if (status === 'running') stepStartedAt[index] = Date.now();
+    else if ((status === 'done' || status === 'failed') && stepStartedAt[index]) {
+      observations.push({ key: steps[index].key, ms: Date.now() - stepStartedAt[index] });
+    }
+    const percent = timing.computeProgress(
+      steps.map((s, i) => ({ key: s.key, status: stepStatuses[i] })),
+      timingsSnapshot,
+    );
+    sender.send('step-status', { index, status, percent, ...(extra || {}) });
+  }
   aborted = false;
   sender.send('plan', { steps: steps.map(s => s.label), mode: opts.mode, brain: opts.brain || (process.env.RUNNER_BRAIN === 'claude-cli' ? 'claude-cli' : 'nim'), sequential: !!opts.sequential, smoke: !!opts.smokeTab });
   const log = (chunk, stream) => sender.send('run-output', { stream: stream || 'meta', chunk });
@@ -260,14 +278,14 @@ async function runPipeline(opts, sender) {
 
   // One research step, parallel-safe (statuses/logs keyed by index).
   const execResearch = async (step, i) => {
-    if (aborted) { sender.send('step-status', { index: i, status: 'skipped' }); return; }
-    sender.send('step-status', { index: i, status: 'running' });
+    if (aborted) { sendStepStatus(i, 'skipped'); return; }
+    sendStepStatus(i, 'running');
     log(`\n━━━ [${i + 1}/${steps.length}] ${step.label} ━━━\n`);
     const code = await runStep(step, sender);
-    if (aborted) { sender.send('step-status', { index: i, status: 'stopped' }); ok = false; return; }
-    if (code === 0) { sender.send('step-status', { index: i, status: 'done' }); }
+    if (aborted) { sendStepStatus(i, 'stopped'); ok = false; return; }
+    if (code === 0) { sendStepStatus(i, 'done'); }
     else {
-      sender.send('step-status', { index: i, status: 'failed', code });
+      sendStepStatus(i, 'failed', { code });
       failures.push(step.label);
       log(`\n✗ ${step.label} failed (exit ${code}) — its previous results file survives.\n`, 'stderr');
       ok = false;
@@ -297,15 +315,15 @@ async function runPipeline(opts, sender) {
   for (let i = 0; i < steps.length; i++) {
     const step = steps[i];
     if (step.wave) continue; // research already ran above
-    if (aborted || bail) { sender.send('step-status', { index: i, status: aborted ? 'skipped' : 'skipped' }); continue; }
-    sender.send('step-status', { index: i, status: 'running' });
+    if (aborted || bail) { sendStepStatus(i, 'skipped'); continue; }
+    sendStepStatus(i, 'running');
     log(`\n━━━ [${i + 1}/${steps.length}] ${step.label} ━━━\n`);
 
     if (step.kind === 'merge-fall2026') {
-      try { mergeFall2026(log); sender.send('step-status', { index: i, status: 'done' }); }
+      try { mergeFall2026(log); sendStepStatus(i, 'done'); }
       catch (e) {
         log(`  merge failed: ${e.message}\n`, 'stderr');
-        sender.send('step-status', { index: i, status: 'failed' });
+        sendStepStatus(i, 'failed');
         failures.push(step.label); ok = false;
       }
       continue;
@@ -314,15 +332,15 @@ async function runPipeline(opts, sender) {
     log(`$ ${step.shell ? step.cmd : [step.cmd, ...step.args].join(' ')}\n(cwd: ${step.cwd})\n`);
     const code = await runStep(step, sender);
     if (aborted) {
-      sender.send('step-status', { index: i, status: 'stopped' });
+      sendStepStatus(i, 'stopped');
       log(`\n■ Stopped by user during "${step.label}".\n`, 'stderr');
       ok = false;
       continue;
     }
     if (code === 0) {
-      sender.send('step-status', { index: i, status: 'done' });
+      sendStepStatus(i, 'done');
     } else {
-      sender.send('step-status', { index: i, status: 'failed', code });
+      sendStepStatus(i, 'failed', { code });
       failures.push(step.label);
       log(`\n✗ Step failed (exit ${code}).`, 'stderr');
       // A failed BUILD must block the deploy that follows it.
@@ -336,6 +354,8 @@ async function runPipeline(opts, sender) {
 
   log(`\n=== Run ${aborted ? 'STOPPED' : ok ? 'COMPLETE ✓' : 'finished with failures'} ===\n`);
   if (failures.length) log(`Failed steps:\n${failures.map(f => `  ✗ ${f}`).join('\n')}\n`, 'stderr');
+  const updatedTimings = timing.updateTimings(timingsSnapshot, observations);
+  timing.saveTimings(TIMINGS_PATH, updatedTimings);
   running = false;
   sender.send('run-done', { ok, aborted, failures });
 }

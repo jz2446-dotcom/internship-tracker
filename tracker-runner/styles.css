@@ -76,6 +76,36 @@ button:disabled { opacity: 0.45; cursor: default; }
 }
 .mode-hint b { color: #c9d1d9; }
 
+.progress-wrap {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 8px 18px;
+  border-bottom: 1px solid #21262d;
+  background: #010409;
+}
+.progress-bar {
+  flex: 1;
+  height: 6px;
+  background: #161b22;
+  border: 1px solid #30363d;
+  border-radius: 4px;
+  overflow: hidden;
+}
+.progress-fill {
+  height: 100%;
+  width: 0%;
+  background: #1f6feb;
+  transition: width 0.3s ease;
+}
+.progress-label {
+  font-size: 12px;
+  color: #8b949e;
+  min-width: 110px;
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
 main { flex: 1; display: flex; min-height: 0; }
 
 #stepsPanel {

@@ -9,6 +9,8 @@ const clearBtn = document.getElementById('clearBtn');
 const statusBar = document.getElementById('statusBar');
 const modeHint = document.getElementById('modeHint');
 const smokeCheck = document.getElementById('smokeCheck');
+const progressFill = document.getElementById('progressFill');
+const progressLabel = document.getElementById('progressLabel');
 const modeBtns = [...document.querySelectorAll('#modeToggle .mode-btn')];
 const brainBtns = [...document.querySelectorAll('#brainToggle .mode-btn')];
 const concBtns = [...document.querySelectorAll('#concurrencyToggle .mode-btn')];
@@ -17,6 +19,29 @@ let mode = 'long';
 let brain = 'nim';
 let sequential = false;
 let running = false;
+
+let runStartTime = null;
+let latestPercent = 0;
+let progressTimer = null;
+
+function formatElapsed(ms) {
+  const total = Math.max(0, Math.floor(ms / 1000));
+  const mm = String(Math.floor(total / 60)).padStart(2, '0');
+  const ss = String(total % 60).padStart(2, '0');
+  return `${mm}:${ss}`;
+}
+function renderProgress() {
+  const elapsed = runStartTime ? Date.now() - runStartTime : 0;
+  progressFill.style.width = `${Math.round(latestPercent * 100)}%`;
+  progressLabel.textContent = `${formatElapsed(elapsed)} · ${Math.round(latestPercent * 100)}%`;
+}
+function startProgressTimer() {
+  stopProgressTimer();
+  progressTimer = setInterval(renderProgress, 1000);
+}
+function stopProgressTimer() {
+  if (progressTimer) { clearInterval(progressTimer); progressTimer = null; }
+}
 
 const HINTS = {
   long: '<b>Long:</b> every firm in every roster, browser fallback ON (slow, full coverage).',
@@ -102,17 +127,23 @@ window.api.onPlan(({ steps, mode: runMode, brain: runBrain }) => {
   smokeCheck.disabled = true;
   statusBar.className = '';
   statusBar.textContent = 'Running…';
+  runStartTime = Date.now();
+  latestPercent = 0;
+  startProgressTimer();
+  renderProgress();
 });
 
-window.api.onStepStatus(({ index, status }) => {
+window.api.onStepStatus(({ index, status, percent }) => {
   const li = stepsList.children[index];
-  if (!li) return;
-  li.className = status;
-  li.querySelector('.icon').textContent = STATUS_ICON[status] || '○';
-  if (status === 'running') {
-    statusBar.textContent = `Running: ${li.querySelector('.label').textContent}`;
-    li.scrollIntoView({ block: 'nearest' });
+  if (li) {
+    li.className = status;
+    li.querySelector('.icon').textContent = STATUS_ICON[status] || '○';
+    if (status === 'running') {
+      statusBar.textContent = `Running: ${li.querySelector('.label').textContent}`;
+      li.scrollIntoView({ block: 'nearest' });
+    }
   }
+  if (typeof percent === 'number') { latestPercent = percent; renderProgress(); }
 });
 
 window.api.onDone(({ ok, aborted, failures }) => {
@@ -127,6 +158,9 @@ window.api.onDone(({ ok, aborted, failures }) => {
     : ok ? 'Run complete — deployed ✓'
     : `Finished with ${failures.length} failed step(s) — see console.`;
   statusBar.className = aborted ? 'warn' : ok ? 'ok' : 'err';
+  stopProgressTimer();
+  latestPercent = aborted ? latestPercent : (ok ? 1 : latestPercent);
+  renderProgress();
 });
 
 startBtn.addEventListener('click', async () => {
