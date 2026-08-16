@@ -250,10 +250,22 @@ function extractDomPostings(session) {
   return raw.map((p) => ({ title: p.title, apply_url: p.apply_url, location: "", open: true, source: "sniff-dom" }));
 }
 
+// Escapes a string for safe use inside a RegExp constructor.
+function escapeRegex(s) {
+  return String(s).replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+}
+
 // Try one page: ATS-link, single-JobPosting, then a shape-based network sniff, then (if
 // still nothing) an interactive keyword search before giving up. Returns the same
 // {provider,slug} / {careersUrl} / {sniffed} shapes findFirm returns, or null.
-function probePage(session, url) {
+// searchTerm: the on-page keyword to type into a detected search box, and the word used
+// to judge whether page-load results already look like the right kind of posting —
+// "intern" for internship tabs, "discovery" for the Discovery Programs tab, etc.
+// (lib/tab-profiles.js's `searchTerm` field; defaults to "intern" for callers that don't
+// pass one, preserving prior behavior).
+function probePage(session, url, searchTerm) {
+  const term = searchTerm || "intern";
+  const looksLikeMatch = new RegExp(escapeRegex(term), "i");
   const r = pw.goto(session, url);
   if (r.code !== 0) return null;
   let { links, hasJobPosting, hasJibe } = pageProbe(session);
@@ -268,22 +280,22 @@ function probePage(session, url) {
     // by recency/relevance) commonly surfaces none of a firm's internships in its first
     // page — verified live 2026-08-15: Microsoft's apply.careers.microsoft.com returns
     // 10 legitimate senior/full-time postings on load, zero internships, because that's
-    // just whatever the default sort happens to show first. If nothing here looks
-    // intern-shaped, try a keyword search and MERGE whatever it turns up rather than
-    // trusting the default page was the whole picture — downstream title/finance
-    // filtering handles weeding out anything irrelevant either way.
-    if (sniffed.some((p) => /intern/i.test(p.title || ""))) return { sniffed, sniffedUrl: url };
-    if (trySearchKeyword(session, "intern")) {
+    // just whatever the default sort happens to show first. If nothing here looks like
+    // a match, try a keyword search and MERGE whatever it turns up rather than trusting
+    // the default page was the whole picture — downstream title/finance filtering
+    // handles weeding out anything irrelevant either way.
+    if (sniffed.some((p) => looksLikeMatch.test(p.title || ""))) return { sniffed, sniffedUrl: url };
+    if (trySearchKeyword(session, term)) {
       waitMs(session, 1500);
       const sniffed2 = sniff.sniffJobsApi(session);
       const seen = new Set(sniffed.map((p) => p.apply_url || p.title));
       if (sniffed2) {
         const merged = sniffed.concat(sniffed2.filter((p) => !seen.has(p.apply_url || p.title)));
-        if (merged.some((p) => /intern/i.test(p.title || ""))) return { sniffed: merged, sniffedUrl: url };
+        if (merged.some((p) => looksLikeMatch.test(p.title || ""))) return { sniffed: merged, sniffedUrl: url };
       }
-      // Network sniffing still didn't turn up anything intern-shaped — the search may
-      // have filtered client-side only (no new distinguishing request to catch). Read
-      // the rendered results directly as a last resort before giving up on this page.
+      // Network sniffing still didn't turn up a match — the search may have filtered
+      // client-side only (no new distinguishing request to catch). Read the rendered
+      // results directly as a last resort before giving up on this page.
       const domPostings = extractDomPostings(session).filter((p) => !seen.has(p.apply_url || p.title));
       if (domPostings.length) {
         const base = sniffed2 ? sniffed.concat(sniffed2.filter((p) => !seen.has(p.apply_url || p.title))) : sniffed;
@@ -294,9 +306,9 @@ function probePage(session, url) {
     // remember this page for next time (lib/registry.js) instead of re-guessing.
   }
 
-  // Nothing usable in the page as it loaded — try searching "intern" before falling
+  // Nothing usable in the page as it loaded — try the keyword search before falling
   // back to a passive hand-off of whatever links were on the (unsearched) page.
-  if (trySearchKeyword(session, "intern")) {
+  if (trySearchKeyword(session, term)) {
     waitMs(session, 1500);
     const reprobe = pageProbe(session);
     const ats2 = detectAts(reprobe.links);
@@ -316,10 +328,11 @@ function probePage(session, url) {
 // then a web search as a last resort (often bot-walled). Returns {provider, slug}
 // (preferred — reuse ATS JSON), {careersUrl} to scrape, {sniffed: postings[]} (a
 // bespoke portal whose own JSON API we mined directly — see sniff.js), or null.
-function findFirm(session, company, queryHint, hintUrl) {
+// searchTerm: see probePage — defaults to "intern".
+function findFirm(session, company, queryHint, hintUrl, searchTerm) {
   const urlsToTry = hintUrl ? [hintUrl, ...guessCareersUrls(company)] : guessCareersUrls(company);
   for (const url of urlsToTry) {
-    const hit = probePage(session, url);
+    const hit = probePage(session, url, searchTerm);
     if (!hit) continue;
     if (hit.slug || hit.careersUrl || hit.sniffed) return hit;
     // Landing page had real content but nothing usable directly — try ONE same-site
@@ -327,7 +340,7 @@ function findFirm(session, company, queryHint, hintUrl) {
     // single extra hop, not a crawl).
     const deeper = pickJobsSearchLink(hit.links, url);
     if (deeper) {
-      const hit2 = probePage(session, deeper);
+      const hit2 = probePage(session, deeper, searchTerm);
       if (hit2 && (hit2.slug || hit2.careersUrl || hit2.sniffed)) return hit2;
     }
   }

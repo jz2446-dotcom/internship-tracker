@@ -20,6 +20,7 @@ const TABS = {
   fellowships: { roster: "roster.json", allAgents: true, tab: "fellowships", agentName: "fellowships", label: "Fellowships (internal fellowship-branded tracks only — named external programs need separate handling, see README)" },
   china_hk: { roster: "roster.json", allAgents: true, tab: "china_hk", agentName: "china_hk", label: "China / Hong Kong" },
   ithaca: { roster: "ithaca_roster.json", tab: "ithaca", agentName: "ithaca", label: "Ithaca, NY Local" },
+  discovery: { roster: "roster.json", allAgents: true, tab: "discovery", agentName: "discovery", label: "Discovery Programs" },
 };
 
 function get(tabId) {

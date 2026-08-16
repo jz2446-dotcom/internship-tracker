@@ -481,6 +481,7 @@ function getDashboardHTML() {
     <button class="tab-btn" id="tab-environmental" onclick="setTab('environmental')">🌱 Environmental Impact Finance</button>
     <button class="tab-btn" id="tab-realestate" onclick="setTab('realestate')">🏢 Real Estate Finance</button>
     <button class="tab-btn" id="tab-fellowships" onclick="setTab('fellowships')">🎗️ Fellowships</button>
+    <button class="tab-btn" id="tab-discovery" onclick="setTab('discovery')">🔭 Discovery Programs</button>
     <button class="tab-btn" id="tab-china_hk" onclick="setTab('china_hk')">🇭🇰 China / Hong Kong</button>
     <button class="tab-btn" id="tab-ithaca" onclick="setTab('ithaca')">📍 Ithaca, NY Local</button>
     <button class="tab-btn" id="tab-updates" onclick="setTab('updates')">🆕 What's changed</button>
@@ -593,6 +594,7 @@ function getDashboardHTML() {
       document.getElementById('tab-environmental').classList.toggle('active', tab === 'environmental');
       document.getElementById('tab-realestate').classList.toggle('active', tab === 'realestate');
       document.getElementById('tab-fellowships').classList.toggle('active', tab === 'fellowships');
+      document.getElementById('tab-discovery').classList.toggle('active', tab === 'discovery');
       document.getElementById('tab-china_hk').classList.toggle('active', tab === 'china_hk');
       document.getElementById('tab-ithaca').classList.toggle('active', tab === 'ithaca');
       document.getElementById('tab-updates').classList.toggle('active', tab === 'updates');
@@ -614,6 +616,9 @@ function getDashboardHTML() {
         note.classList.add('show');
       } else if (tab === 'fellowships' && allData && allData.fellowships) {
         note.innerHTML = '<strong>Fellowships</strong> = finance fellowship and structured leadership-pipeline programs, filtered to those open to all applicants (no race/ethnicity/gender-restricted programs). ' + (allData.fellowships.competitiveness_note || '');
+        note.classList.add('show');
+      } else if (tab === 'discovery' && allData && allData.discovery) {
+        note.innerHTML = '<strong>Discovery Programs</strong> = short (1 day to ~2 weeks) insight/exploration/pipeline events firms run ahead of the full summer internship — Discovery Days, Insight Programs, Possibilities Summits, and similar — not the standard multi-week internship itself. Filtered to programs open to all applicants or restricted only to categories you qualify for; race/ethnicity/gender-restricted programs you don\\'t qualify for are excluded entirely, not just hidden. ' + (allData.discovery.competitiveness_note || '');
         note.classList.add('show');
       } else if (tab === 'china_hk' && allData && allData.china_hk) {
         note.innerHTML = '<strong>China / Hong Kong</strong> = finance internships at the mainland China and Hong Kong offices of tracked firms. Many roles require local work authorization — check each card\\'s notes for visa/eligibility caveats. ' + (allData.china_hk.competitiveness_note || '');
@@ -915,6 +920,25 @@ function getDashboardHTML() {
         const items = (fel && fel.internships) || [];
         items.forEach(item => grid.appendChild(buildCard(item)));
         if (!items.length) grid.innerHTML = '<div class="no-results" style="padding:24px">No fellowship programs loaded.</div>';
+      } else if (activeTab === 'discovery') {
+        const disc = allData.discovery;
+        const section = document.createElement('div');
+        section.className = 'agent-section';
+        section.innerHTML = \`
+          <div class="agent-header">
+            <span class="agent-badge">🔭 Discovery Programs</span>
+            <div>
+              <div class="agent-title">\${(disc && disc.name) || 'Discovery Programs'}</div>
+              <div class="agent-focus">\${(disc && disc.focus) || 'Short insight/exploration/pipeline events, open to all applicants or a category you qualify for'}</div>
+            </div>
+          </div>
+          <div class="grid" id="disc-grid"></div>
+        \`;
+        container.appendChild(section);
+        const grid = section.querySelector('#disc-grid');
+        const items = (disc && disc.internships) || [];
+        items.forEach(item => grid.appendChild(buildCard(item)));
+        if (!items.length) grid.innerHTML = '<div class="no-results" style="padding:24px">No discovery programs loaded.</div>';
       } else if (activeTab === 'china_hk') {
         const chk = allData.china_hk;
         const section = document.createElement('div');
@@ -986,7 +1010,7 @@ function getDashboardHTML() {
         container.innerHTML = '<div class="no-results">No changes recorded yet. Updates will appear here automatically after the next refresh.</div>';
         return;
       }
-      const groupName = (g) => g === 'sophomore' ? '🎓 Sophomore' : g === 'fall2026' ? '🍂 Fall 2026 / Spring 2027' : g === 'libraries' ? '🏛️ Libraries & Museums' : g === 'environmental' ? '🌱 Environmental Impact Finance' : g === 'realestate' ? '🏢 Real Estate Finance' : g === 'fellowships' ? '🎗️ Fellowships' : g === 'china_hk' ? '🇭🇰 China / Hong Kong' : g === 'ithaca' ? '📍 Ithaca, NY Local' : ('Agent ' + g + (AGENT_NAMES[g] ? ' · ' + AGENT_NAMES[g] : ''));
+      const groupName = (g) => g === 'sophomore' ? '🎓 Sophomore' : g === 'fall2026' ? '🍂 Fall 2026 / Spring 2027' : g === 'libraries' ? '🏛️ Libraries & Museums' : g === 'environmental' ? '🌱 Environmental Impact Finance' : g === 'realestate' ? '🏢 Real Estate Finance' : g === 'fellowships' ? '🎗️ Fellowships' : g === 'discovery' ? '🔭 Discovery Programs' : g === 'china_hk' ? '🇭🇰 China / Hong Kong' : g === 'ithaca' ? '📍 Ithaca, NY Local' : ('Agent ' + g + (AGENT_NAMES[g] ? ' · ' + AGENT_NAMES[g] : ''));
       const pill = (s) => '<span class="status-pill status-' + s + '">' + statusLabel(s) + '</span>';
       const esc = (t) => String(t == null ? '' : t).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
       let html = '';

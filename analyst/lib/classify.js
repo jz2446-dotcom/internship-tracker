@@ -13,20 +13,30 @@ const EXCLUDE = /\b(senior|staff|principal|lead|manager|director|head of|vp|vice
 // The Ithaca tab isn't hunting internships — it wants ongoing part-time local jobs
 // (explicitly including tellers), so it needs its own title signal instead of INTERN.
 const ITHACA_TITLES = /\b(teller|personal banker|member service|financial services rep|loan (processing|processor|assistant)|treasury|cash management|financial advisor|client service associate|tax[- ]?prep|bursar|financial affairs|banking (associate|representative))\b/i;
+// Discovery isn't hunting internships either — it wants short insight/pipeline EVENTS,
+// which almost never contain "intern"/"internship" in the title (e.g. "Discovery Day",
+// "Possibilities Summit") and would otherwise be silently dropped by INTERN, the exact
+// failure mode Ithaca already needed its own regex to avoid.
+const DISCOVERY_TITLES = /\b(discovery (day|program|week|summit)|insight (day|week|program)|explore program|possibilities summit|sophomore (summit|program|day)|freshman (summit|program|day)|scholars program|leadership (summit|program)|pipeline program|diversity (day|summit|program))\b/i;
 const FULL_TIME = /\bfull[- ]?time\b|\b40\s*(hrs?|hours)\s*\/?\s*week\b|\bexempt\b/i;
 const PART_TIME = /\bpart[- ]?time\b|\b(1[0-9]|20|25)\s*(hrs?|hours)\s*\/?\s*week\b/i;
 
 // A title clearly fits when it pairs an internship signal with a finance signal and
 // carries no exclusion word. Those we can mark relevant for free.
-// tab: pass "ithaca" to use the local-job title signal instead of the internship one.
+// tab: pass "ithaca" to use the local-job title signal instead of the internship one,
+// or "discovery" to use the insight/pipeline-event title signal.
 function titleVerdict(title, tab) {
   const t = title || "";
   const hasFinance = FINANCE.test(t);
-  const hasSignal = tab === "ithaca" ? ITHACA_TITLES.test(t) : INTERN.test(t);
+  const hasSignal = tab === "ithaca" ? ITHACA_TITLES.test(t) : tab === "discovery" ? DISCOVERY_TITLES.test(t) : INTERN.test(t);
   const excluded = EXCLUDE.test(t);
-  if (!hasSignal) return "skip";          // not an internship/local-job title — drop
+  if (!hasSignal) return "skip";          // not an internship/local-job/event title — drop
   if (excluded) return "skip";            // senior / non-finance-function — drop
   if (tab === "ithaca") return hasSignal ? "confident" : "uncertain"; // ithaca titles ARE the finance signal
+  // Discovery: unlike ithaca, a matching title says nothing about eligibility — always
+  // send to the brain so criteriaPreamble's hard eligibility rule gets applied before
+  // anything is kept, never auto-confirm from title alone.
+  if (tab === "discovery") return "uncertain";
   if (hasFinance) return "confident";     // internship + finance + clean → relevant
   return "uncertain";                     // internship but finance unclear → ask brain
 }
@@ -63,4 +73,4 @@ function verdictFromValidThrough(validThrough, today = new Date()) {
   return vt > today ? "open" : "closed";
 }
 
-module.exports = { titleVerdict, routeAtsPosting, verdictFromValidThrough, partTimeGate, FINANCE, INTERN, EXCLUDE, ITHACA_TITLES };
+module.exports = { titleVerdict, routeAtsPosting, verdictFromValidThrough, partTimeGate, FINANCE, INTERN, EXCLUDE, ITHACA_TITLES, DISCOVERY_TITLES };

@@ -349,7 +349,7 @@ async function main() {
       while (qi < queue.length) {
         const company = queue[qi++];
         if (!opened) { pw.openBlank(wsession); opened = true; openSessions.add(wsession); }
-        const hit = browse.findFirm(wsession, company, profile.queryHint, careersHints[company]);
+        const hit = browse.findFirm(wsession, company, profile.queryHint, careersHints[company], profile.searchTerm);
         if (hit && hit.slug) {
           const postings = await ats.fetchBySlug(hit.provider, hit.slug);
           if (postings) {

@@ -93,6 +93,13 @@ if (existsSync(ithacaFile)) {
   console.log(`Loaded Ithaca, NY Local Finance Jobs: ${combined.ithaca.internships?.length || 0} roles`);
 }
 
+// Discovery Programs tab (separate top-level group, rendered under its own tab)
+const discoveryFile = path.join(dataDir, 'discovery_results.json');
+if (existsSync(discoveryFile)) {
+  combined.discovery = JSON.parse(readFileSync(discoveryFile, 'utf-8'));
+  console.log(`Loaded Discovery Programs: ${combined.discovery.internships?.length || 0} programs`);
+}
+
 // --- changelog: flatten + diff helpers ---
 function flatten(bundle) {
   const out = [];
@@ -107,6 +114,7 @@ function flatten(bundle) {
   if (bundle.fellowships) groups.push(['fellowships', bundle.fellowships]);
   if (bundle.china_hk) groups.push(['china_hk', bundle.china_hk]);
   if (bundle.ithaca) groups.push(['ithaca', bundle.ithaca]);
+  if (bundle.discovery) groups.push(['discovery', bundle.discovery]);
   for (const [g, gd] of groups) {
     for (const it of (gd.internships || [])) {
       out.push({ group: g, company: it.company, program: it.program || '', status: it.status || 'unknown' });

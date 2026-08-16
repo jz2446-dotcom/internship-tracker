@@ -75,14 +75,14 @@ const tabRegistry = require(path.join(ANALYST_DIR, 'lib', 'tab-registry.js'));
 // ALL research tabs launch SIMULTANEOUSLY (user's call: maximum wall-clock speed),
 // with a hard barrier before merge/build/deploy. Each tab is its own node process;
 // per-tab NIM/search concurrency is throttled to 1 via env so the global request
-// rate (14 tabs × 1) stays civilised, and the caches merge-on-save so concurrent
-// writes never clobber. Known cost: the 5 whole-roster tabs can't share in-flight
-// search results, so an UNCACHED firm they all touch may be searched up to 5× —
+// rate (15 tabs × 1) stays civilised, and the caches merge-on-save so concurrent
+// writes never clobber. Known cost: the 6 whole-roster tabs can't share in-flight
+// search results, so an UNCACHED firm they all touch may be searched up to 6× —
 // a one-time Tavily-quota hit (30-day cache absorbs it on every later run).
 const TAB_ORDER = [
   'agent1', 'agent2', 'agent3', 'agent4', 'agent5',
   'libraries', 'environmental', 'realestate', 'ithaca',
-  'sophomore', 'fall2026', 'spring2027', 'fellowships', 'china_hk',
+  'sophomore', 'fall2026', 'spring2027', 'fellowships', 'china_hk', 'discovery',
 ];
 
 // Maps each dedupable category to the results file build-data.js reads. Mirrors
