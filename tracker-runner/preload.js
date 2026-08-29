@@ -6,6 +6,7 @@ contextBridge.exposeInMainWorld('api', {
   getPlan: (opts) => ipcRenderer.invoke('get-plan', opts),
   startRun: (opts) => ipcRenderer.invoke('start-run', opts),
   startDedup: () => ipcRenderer.invoke('start-dedup'),
+  saveSchedule: (cadenceHours) => ipcRenderer.invoke('save-schedule', cadenceHours),
   stopRun: () => ipcRenderer.invoke('stop-run'),
 
   onOutput: (cb) => {

@@ -42,6 +42,16 @@
       <button id="dedupBtn" class="dedup" title="Remove postings duplicated across categories (keeping the most specific one), then rebuild and redeploy">Dedup + redeploy</button>
       <button id="stopBtn" class="stop" disabled>■ Stop</button>
     </div>
+    <div id="scheduleSection" class="schedule-section">
+      <label for="cadenceSelect">Unattended refresh:</label>
+      <select id="cadenceSelect">
+        <option value="24">Daily</option>
+        <option value="12">Twice daily</option>
+        <option value="72">Every 3 days</option>
+      </select>
+      <button id="saveScheduleBtn">Save schedule</button>
+      <span id="scheduleStatus"></span>
+    </div>
   </header>
 
   <div id="resolvedPopup" class="popup hidden">

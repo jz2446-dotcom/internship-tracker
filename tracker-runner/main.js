@@ -21,6 +21,7 @@ const { dedupCategories } = require('./lib/dedup.js');
 const history = require('./lib/history.js');
 const historyServer = require('./lib/historyServer.js');
 const htmlLoader = require('./lib/htmlLoader.js');
+const schedule = require('../analyst/lib/schedule.js');
 const TIMINGS_PATH = path.join(__dirname, 'history', 'step-timings.json');
 const HISTORY_DIR = path.join(__dirname, 'history');
 
@@ -62,6 +63,7 @@ const PROJECT_ROOT = resolveProjectRoot();
 const ANALYST_DIR = path.join(PROJECT_ROOT, 'analyst');
 const WORKER_DIR = path.join(PROJECT_ROOT, 'cloudflare-worker');
 const DATA_DIR = path.join(PROJECT_ROOT, 'data');
+const SCHEDULE_CONFIG_PATH = path.join(DATA_DIR, '_schedule_config.json');
 const LIVE_DATA_URL = 'https://internship-tracker.jz-tracker.workers.dev/api/data';
 
 // Single source of truth for what a "tab" means — shared with the analyst CLI and
@@ -601,6 +603,33 @@ ipcMain.handle('start-dedup', (event) => {
       event.sender.send('run-done', { ok: false, aborted: false, failures: ['pipeline error'] });
     });
   return { started: true };
+});
+
+ipcMain.handle('save-schedule', async (_event, cadenceHours) => {
+  if (!Number.isFinite(cadenceHours) || cadenceHours <= 0) {
+    return { ok: false, error: 'invalid cadence' };
+  }
+  try {
+    const config = schedule.loadConfig(SCHEDULE_CONFIG_PATH);
+    config.cadenceHours = cadenceHours;
+    schedule.saveConfig(SCHEDULE_CONFIG_PATH, config);
+  } catch (e) {
+    return { ok: false, error: `write failed: ${e.message}` };
+  }
+  const pushed = await new Promise((resolve) => {
+    const child = spawn('git', ['add', 'data/_schedule_config.json'], { cwd: PROJECT_ROOT, stdio: 'inherit' });
+    child.on('close', (code) => {
+      if (code !== 0) return resolve(false);
+      const commit = spawn('git', ['commit', '-m', 'Update refresh cadence'], { cwd: PROJECT_ROOT, stdio: 'inherit' });
+      commit.on('close', (commitCode) => {
+        // exit 1 with nothing to commit (cadence unchanged) is not an error
+        if (commitCode !== 0 && commitCode !== 1) return resolve(false);
+        const push = spawn('git', ['push'], { cwd: PROJECT_ROOT, stdio: 'inherit' });
+        push.on('close', (pushCode) => resolve(pushCode === 0));
+      });
+    });
+  });
+  return { ok: pushed, error: pushed ? undefined : 'git commit/push failed — see app console' };
 });
 
 ipcMain.handle('stop-run', () => {
