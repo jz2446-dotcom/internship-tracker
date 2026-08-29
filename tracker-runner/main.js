@@ -124,7 +124,7 @@ function writeCategoryFiles(dataDir, cleaned, removals) {
 // <1GB RAM free on a 16GB box — the machine thrashes and the run gets SLOWER, not
 // faster). Sequential mode (one tab at a time) has the headroom for real browse
 // concurrency instead.
-const PARALLEL_ENV = { ANALYST_NIM_CONC: '1', ANALYST_SEARCH_CONC: '1', FIRECRAWL_RUN_CAP: '10', ANALYST_BROWSE_CONC: '1' };
+const PARALLEL_ENV = { ANALYST_NIM_CONC: '1', ANALYST_SEARCH_CONC: '1', ANALYST_BROWSE_CONC: '1' };
 
 // opts: { mode: 'long'|'short', limit?: number, smokeTab?: string, skipDeploy?: boolean }
 function buildPlan(opts) {
@@ -136,7 +136,7 @@ function buildPlan(opts) {
   // machine load: only one tab's Node process (+ its Playwright session) is ever
   // alive at once, so each one can safely use the old single-tab budgets instead
   // of the parallel-mode throttled-down ones.
-  const seqEnv = { ANALYST_NIM_CONC: '4', ANALYST_SEARCH_CONC: '4', FIRECRAWL_RUN_CAP: '60', ANALYST_BROWSE_CONC: '4' };
+  const seqEnv = { ANALYST_NIM_CONC: '4', ANALYST_SEARCH_CONC: '4', ANALYST_BROWSE_CONC: '4' };
   const tabEnv = opts.sequential ? seqEnv : PARALLEL_ENV;
   const tabConcurrency = opts.sequential ? '8' : '3';
 
