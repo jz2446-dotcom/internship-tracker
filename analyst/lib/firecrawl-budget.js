@@ -8,7 +8,8 @@ const fs = require("fs");
 const path = require("path");
 
 const DEFAULT_FILE = path.join(__dirname, "..", "..", "data", "_firecrawl_budget.json");
-const DEFAULT_LIMIT = Math.max(0, parseInt(process.env.FIRECRAWL_DAILY_BUDGET || "450", 10) || 450);
+const parsedLimit = parseInt(process.env.FIRECRAWL_DAILY_BUDGET || "450", 10);
+const DEFAULT_LIMIT = Math.max(0, Number.isNaN(parsedLimit) ? 450 : parsedLimit);
 const LOCK_STALE_MS = 5000; // a lock older than this belongs to a crashed holder — safe to steal
 const MAX_ATTEMPTS = 40;
 

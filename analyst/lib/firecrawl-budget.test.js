@@ -43,3 +43,25 @@ test('concurrent reservations never exceed the limit', async () => {
   fs.rmSync(file, { force: true });
   fs.rmSync(file + '.lock', { force: true });
 });
+
+test('FIRECRAWL_DAILY_BUDGET="0" is honored as an explicit zero, not coerced to the 450 default', () => {
+  const prev = process.env.FIRECRAWL_DAILY_BUDGET;
+  process.env.FIRECRAWL_DAILY_BUDGET = '0';
+  delete require.cache[require.resolve('./firecrawl-budget.js')];
+  const { DEFAULT_LIMIT } = require('./firecrawl-budget.js');
+  assert.equal(DEFAULT_LIMIT, 0);
+  if (prev === undefined) delete process.env.FIRECRAWL_DAILY_BUDGET;
+  else process.env.FIRECRAWL_DAILY_BUDGET = prev;
+  delete require.cache[require.resolve('./firecrawl-budget.js')];
+});
+
+test('an unset FIRECRAWL_DAILY_BUDGET falls back to 450', () => {
+  const prev = process.env.FIRECRAWL_DAILY_BUDGET;
+  delete process.env.FIRECRAWL_DAILY_BUDGET;
+  delete require.cache[require.resolve('./firecrawl-budget.js')];
+  const { DEFAULT_LIMIT } = require('./firecrawl-budget.js');
+  assert.equal(DEFAULT_LIMIT, 450);
+  if (prev === undefined) delete process.env.FIRECRAWL_DAILY_BUDGET;
+  else process.env.FIRECRAWL_DAILY_BUDGET = prev;
+  delete require.cache[require.resolve('./firecrawl-budget.js')];
+});
