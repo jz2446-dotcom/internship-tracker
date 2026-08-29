@@ -9,6 +9,8 @@ jobs:
   refresh:
     runs-on: ubuntu-latest
     timeout-minutes: 350   # stay under GitHub's 360min (6h) hard cap on hosted runners
+    permissions:
+      contents: write
     steps:
       - uses: actions/checkout@v4
 
@@ -17,7 +19,7 @@ jobs:
           node-version: '22'   # cloudflare-worker/build-data.js needs stable ESM auto-detection
 
       - name: Install analyst dependencies
-        run: npm ci
+        run: npm install
         working-directory: analyst
 
       - name: Install Playwright browser
@@ -36,7 +38,7 @@ jobs:
         env:
           TAVILY_API_KEY: ${{ secrets.TAVILY_API_KEY }}
           FIRECRAWL_API_KEY: ${{ secrets.FIRECRAWL_API_KEY }}
-          NIM_API_KEY: ${{ secrets.NIM_API_KEY }}
+          NVIDIA_API_KEY: ${{ secrets.NVIDIA_API_KEY }}
 
       - name: Deploy Cloudflare Worker
         if: steps.check.outputs.due == 'true'
@@ -57,7 +59,7 @@ jobs:
           "
           git config user.name "tracker-bot"
           git config user.email "actions@github.com"
-          git add data/ cloudflare-worker/src/data.json
+          git add ../data/ ../cloudflare-worker/src/data.json
           git diff --cached --quiet || git commit -m "Scheduled refresh $(date -u +%F)"
           git push
         working-directory: analyst
