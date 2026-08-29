@@ -33,12 +33,22 @@ jobs:
 
       - name: Run full refresh (parallel)
         if: steps.check.outputs.due == 'true'
-        run: node _full_refresh_driver.js --parallel
+        run: node _full_refresh_driver.js --parallel --no-deploy
         working-directory: analyst
         env:
           TAVILY_API_KEY: ${{ secrets.TAVILY_API_KEY }}
           FIRECRAWL_API_KEY: ${{ secrets.FIRECRAWL_API_KEY }}
           NVIDIA_API_KEY: ${{ secrets.NVIDIA_API_KEY }}
+
+      - name: Fetch baseline data
+        if: steps.check.outputs.due == 'true'
+        run: curl -s https://internship-tracker.jz-tracker.workers.dev/api/data -o src/data.json
+        working-directory: cloudflare-worker
+
+      - name: Build data bundle
+        if: steps.check.outputs.due == 'true'
+        run: node build-data.js
+        working-directory: cloudflare-worker
 
       - name: Deploy Cloudflare Worker
         if: steps.check.outputs.due == 'true'

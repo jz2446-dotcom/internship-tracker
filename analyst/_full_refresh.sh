@@ -7,7 +7,7 @@ set -u
 cd "/c/Users/justi/Downloads/Internship Searcher/Internship Tracker/analyst" || exit 1
 mkdir -p ../data/_full_refresh_logs
 
-export ANALYST_NIM_CONC=1 ANALYST_SEARCH_CONC=1 FIRECRAWL_RUN_CAP=10 ANALYST_BROWSE_CONC=1
+export ANALYST_NIM_CONC=1 ANALYST_SEARCH_CONC=1 ANALYST_BROWSE_CONC=1
 
 run_tab() {
   local name="$1"; shift

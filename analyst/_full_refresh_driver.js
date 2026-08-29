@@ -90,6 +90,7 @@ function mergeFall2026() {
 
 async function main() {
   const PARALLEL = process.argv.includes("--parallel");
+  const NO_DEPLOY = process.argv.includes("--no-deploy");
   const failed = [];
 
   if (PARALLEL) {
@@ -115,6 +116,12 @@ async function main() {
 
   log("\n=== MERGE fall2026 + spring2027 ===");
   mergeFall2026();
+
+  if (NO_DEPLOY) {
+    log("\n=== DEPLOY skipped (--no-deploy) ===");
+    log(`\n=== DONE — failed tabs: ${failed.length ? failed.join(", ") : "none"}, deploy: skipped ===`);
+    return;
+  }
 
   log("\n=== DEPLOY ===");
   runSync("curl", ["-s", "https://internship-tracker.jz-tracker.workers.dev/api/data", "-o", path.join(WORKER_DIR, "src", "data.json")], WORKER_DIR, null, false);

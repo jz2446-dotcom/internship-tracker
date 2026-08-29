@@ -63,8 +63,9 @@ Needs on PATH: `node`, `curl`, `wrangler`. NIM key: `NVIDIA_API_KEY` env var or
 **Firecrawl (optional, key-gated):** with `FIRECRAWL_API_KEY` in the env or OneDrive
 `.env` (firecrawl.dev, free ~500 credits), JS-rendered posting pages that plain fetch
 can't read get render-extracted so the brain judges with real text (`analyst/lib/scrape.js`
-— fires only when plain fetch returns <300 chars, 3-day cache, capped at 60 calls/run
-via `FIRECRAWL_RUN_CAP`). No key → plain-fetch behavior, unchanged.
+— fires only when plain fetch returns <300 chars, 3-day cache). Usage is governed by a
+shared cross-process daily budget in `analyst/lib/firecrawl-budget.js`, not a per-run cap.
+No key → plain-fetch behavior, unchanged.
 
 ## What this app is NOT
 
