@@ -1,15 +1,23 @@
 // _full_refresh_driver.js — headless CLI replica of tracker-runner/main.js's
-// buildPlan({mode:'long', sequential:true}) + runStep engine, for running a real
-// full refresh without the Electron GUI. Same tab order, same env budgets, same
-// merge/build-data/deploy tail. See main.js for the source of truth this mirrors.
-const { spawnSync } = require("child_process");
+// buildPlan()+runStep engine, for running a real full refresh without the Electron
+// GUI. Same tab order, same merge/build-data/deploy tail. See main.js for the source
+// of truth this mirrors.
+//
+// Default mode is sequential (one tab at a time) — safe for a desktop machine but at
+// observed per-tab durations (tracker-runner/history/step-timings.json) sums to
+// roughly 23 wall-clock hours across all 14 tabs, which exceeds GitHub Actions'
+// 6-hour hosted-runner job limit. --parallel runs tabs in batches of 7 concurrently
+// (children run via `spawn`, not `spawnSync`) to fit that window; concurrency knobs
+// inside each tab (ANALYST_*_CONC) are also lower than the Electron app's parallel
+// mode, sized for a 2-vCPU GitHub Actions runner rather than a desktop.
+const { spawn, spawnSync } = require("child_process");
 const fs = require("fs");
 const path = require("path");
+const tabRegistry = require("./lib/tab-registry.js");
 
 const ROOT = __dirname;
 const DATA_DIR = path.join(ROOT, "..", "data");
 const WORKER_DIR = path.join(ROOT, "..", "cloudflare-worker");
-const tabRegistry = require("./lib/tab-registry.js");
 
 const TAB_ORDER = [
   "agent1", "agent2", "agent3", "agent4", "agent5",
@@ -17,22 +25,37 @@ const TAB_ORDER = [
   "sophomore", "fall2026", "spring2027", "fellowships", "china_hk",
 ];
 
-const seqEnv = { ANALYST_NIM_CONC: "4", ANALYST_SEARCH_CONC: "4", FIRECRAWL_RUN_CAP: "60", ANALYST_BROWSE_CONC: "4" };
-const tabConcurrency = "8";
+const seqEnv = { ANALYST_NIM_CONC: "4", ANALYST_SEARCH_CONC: "4", ANALYST_BROWSE_CONC: "4" };
+const parallelEnv = { ANALYST_NIM_CONC: "2", ANALYST_SEARCH_CONC: "2", ANALYST_BROWSE_CONC: "2" };
+const PARALLEL_BATCH_SIZE = 7;
 const BRAIN = process.env.RUNNER_BRAIN || "nim";
 
 function log(msg) {
-  const line = `[${new Date().toISOString()}] ${msg}`;
-  console.log(line);
+  console.log(`[${new Date().toISOString()}] ${msg}`);
 }
 
-function run(cmd, args, cwd, env, shell) {
+function buildArgs(cfg, brain, tabConcurrency) {
+  const args = ["run-analyst.js", "--roster", cfg.rosterPath, "--agent-name", cfg.agentName];
+  if (cfg.agentKey) args.push("--agent-key", cfg.agentKey);
+  if (cfg.allAgents) args.push("--all-agents");
+  if (cfg.tab) args.push("--tab", cfg.tab);
+  if (cfg.term) args.push("--term", cfg.term);
+  args.push("--concurrency", tabConcurrency);
+  return args;
+}
+
+function runSync(cmd, args, cwd, env, shell) {
   log(`$ ${cmd} ${(args || []).join(" ")}  (cwd=${cwd})`);
-  const res = spawnSync(cmd, args, {
-    cwd, shell: !!shell, stdio: "inherit",
-    env: env ? { ...process.env, ...env } : process.env,
-  });
+  const res = spawnSync(cmd, args, { cwd, shell: !!shell, stdio: "inherit", env: env ? { ...process.env, ...env } : process.env });
   return res.status;
+}
+
+function runAsync(cmd, args, cwd, env) {
+  log(`$ ${cmd} ${(args || []).join(" ")}  (cwd=${cwd}) [async]`);
+  return new Promise((resolve) => {
+    const child = spawn(cmd, args, { cwd, stdio: "inherit", env: env ? { ...process.env, ...env } : process.env });
+    child.on("close", (code) => resolve(code));
+  });
 }
 
 function mergeFall2026() {
@@ -65,30 +88,45 @@ function mergeFall2026() {
   log(`  → ${internships.length} merged entries → fall2026_results.json`);
 }
 
-(async () => {
-  log(`=== FULL REFRESH — sequential, brain=${BRAIN}, ${TAB_ORDER.length} tabs ===`);
+async function main() {
+  const PARALLEL = process.argv.includes("--parallel");
   const failed = [];
-  for (const tabId of TAB_ORDER) {
-    const cfg = tabRegistry.get(tabId);
-    const args = ["run-analyst.js", "--roster", cfg.rosterPath, "--agent-name", cfg.agentName, "--brain", BRAIN];
-    if (cfg.agentKey) args.push("--agent-key", cfg.agentKey);
-    if (cfg.allAgents) args.push("--all-agents");
-    if (cfg.tab) args.push("--tab", cfg.tab);
-    if (cfg.term) args.push("--term", cfg.term);
-    args.push("--concurrency", tabConcurrency);
-    log(`\n>>> ${cfg.label} (${tabId}) <<<`);
-    const code = run("node", args, ROOT, seqEnv, false);
-    if (code !== 0) { failed.push(tabId); log(`  !! ${tabId} exited ${code}`); }
+
+  if (PARALLEL) {
+    log(`=== FULL REFRESH — parallel (batches of ${PARALLEL_BATCH_SIZE}), brain=${BRAIN}, ${TAB_ORDER.length} tabs ===`);
+    for (let i = 0; i < TAB_ORDER.length; i += PARALLEL_BATCH_SIZE) {
+      const batch = TAB_ORDER.slice(i, i + PARALLEL_BATCH_SIZE);
+      log(`\n>>> batch: ${batch.join(", ")} <<<`);
+      const codes = await Promise.all(batch.map((tabId) => {
+        const cfg = tabRegistry.get(tabId);
+        return runAsync("node", buildArgs(cfg, BRAIN, "3"), ROOT, parallelEnv);
+      }));
+      batch.forEach((tabId, idx) => { if (codes[idx] !== 0) { failed.push(tabId); log(`  !! ${tabId} exited ${codes[idx]}`); } });
+    }
+  } else {
+    log(`=== FULL REFRESH — sequential, brain=${BRAIN}, ${TAB_ORDER.length} tabs ===`);
+    for (const tabId of TAB_ORDER) {
+      const cfg = tabRegistry.get(tabId);
+      log(`\n>>> ${cfg.label} (${tabId}) <<<`);
+      const code = runSync("node", buildArgs(cfg, BRAIN, "8"), ROOT, seqEnv, false);
+      if (code !== 0) { failed.push(tabId); log(`  !! ${tabId} exited ${code}`); }
+    }
   }
 
   log("\n=== MERGE fall2026 + spring2027 ===");
   mergeFall2026();
 
   log("\n=== DEPLOY ===");
-  run("curl", ["-s", "https://internship-tracker.jz-tracker.workers.dev/api/data", "-o", path.join(WORKER_DIR, "src", "data.json")], WORKER_DIR, null, false);
-  const buildCode = run("node", ["build-data.js"], WORKER_DIR, null, false);
+  runSync("curl", ["-s", "https://internship-tracker.jz-tracker.workers.dev/api/data", "-o", path.join(WORKER_DIR, "src", "data.json")], WORKER_DIR, null, false);
+  const buildCode = runSync("node", ["build-data.js"], WORKER_DIR, null, false);
   if (buildCode !== 0) { log("build-data.js FAILED — not deploying"); process.exit(1); }
-  const deployCode = run("wrangler deploy", null, WORKER_DIR, null, true);
+  const deployCode = runSync("wrangler deploy", null, WORKER_DIR, null, true);
 
   log(`\n=== DONE — failed tabs: ${failed.length ? failed.join(", ") : "none"}, deploy exit: ${deployCode} ===`);
-})();
+}
+
+if (require.main === module) {
+  main();
+}
+
+module.exports = { buildArgs };
