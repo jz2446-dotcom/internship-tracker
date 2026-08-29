@@ -618,13 +618,16 @@ ipcMain.handle('save-schedule', async (_event, cadenceHours) => {
   }
   const pushed = await new Promise((resolve) => {
     const child = spawn('git', ['add', 'data/_schedule_config.json'], { cwd: PROJECT_ROOT, stdio: 'inherit' });
+    child.on('error', () => resolve(false));
     child.on('close', (code) => {
       if (code !== 0) return resolve(false);
       const commit = spawn('git', ['commit', '-m', 'Update refresh cadence'], { cwd: PROJECT_ROOT, stdio: 'inherit' });
+      commit.on('error', () => resolve(false));
       commit.on('close', (commitCode) => {
         // exit 1 with nothing to commit (cadence unchanged) is not an error
         if (commitCode !== 0 && commitCode !== 1) return resolve(false);
         const push = spawn('git', ['push'], { cwd: PROJECT_ROOT, stdio: 'inherit' });
+        push.on('error', () => resolve(false));
         push.on('close', (pushCode) => resolve(pushCode === 0));
       });
     });
