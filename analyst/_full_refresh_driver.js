@@ -35,7 +35,7 @@ function log(msg) {
 }
 
 function buildArgs(cfg, brain, tabConcurrency) {
-  const args = ["run-analyst.js", "--roster", cfg.rosterPath, "--agent-name", cfg.agentName];
+  const args = ["run-analyst.js", "--roster", cfg.rosterPath, "--agent-name", cfg.agentName, "--brain", brain];
   if (cfg.agentKey) args.push("--agent-key", cfg.agentKey);
   if (cfg.allAgents) args.push("--all-agents");
   if (cfg.tab) args.push("--tab", cfg.tab);
