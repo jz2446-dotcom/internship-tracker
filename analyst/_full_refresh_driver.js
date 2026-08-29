@@ -17,7 +17,7 @@ const TAB_ORDER = [
   "sophomore", "fall2026", "spring2027", "fellowships", "china_hk",
 ];
 
-const seqEnv = { ANALYST_NIM_CONC: "4", ANALYST_SEARCH_CONC: "4", ANALYST_BROWSE_CONC: "4" };
+const seqEnv = { ANALYST_NIM_CONC: "4", ANALYST_SEARCH_CONC: "4", FIRECRAWL_RUN_CAP: "60", ANALYST_BROWSE_CONC: "4" };
 const tabConcurrency = "8";
 const BRAIN = process.env.RUNNER_BRAIN || "nim";
 
