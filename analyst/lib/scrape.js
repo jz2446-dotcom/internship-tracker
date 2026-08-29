@@ -6,10 +6,11 @@
 //
 // Credit discipline: Firecrawl only fires when plain fetch got <MIN_TEXT chars,
 // results cache in data/_scrape_cache.json (3-day TTL — posting text drives
-// open/closed calls, so don't cache it long), and each process caps Firecrawl at
-// FIRECRAWL_RUN_CAP calls (default 60) — when the cap trips, remaining thin pages
-// just proceed with whatever plain fetch got (exactly the pre-Firecrawl behavior),
-// and the cap event is logged once so a starved run is visible, never silent.
+// open/closed calls, so don't cache it long), and every call is checked against a
+// budget SHARED across all concurrently-running tab processes (lib/firecrawl-budget.js)
+// — when the budget's exhausted, remaining thin pages just proceed with whatever
+// plain fetch got (exactly the pre-Firecrawl behavior), logged once so a starved run
+// is visible, never silent.
 const fs = require("fs");
 const path = require("path");
 const { apiKey } = require("./keyfile");
@@ -18,9 +19,8 @@ const { rawRequest } = require("./http"); // NOT fetch()/undici — see lib/http
 const CACHE_FILE = path.join(__dirname, "..", "..", "data", "_scrape_cache.json");
 const CACHE_TTL_MS = 3 * 24 * 60 * 60 * 1000;
 const MIN_TEXT = 300; // plain-fetch text shorter than this = JS shell, worth rendering
-const RUN_CAP = Math.max(0, parseInt(process.env.FIRECRAWL_RUN_CAP || "60", 10) || 60);
+const budget = require("./firecrawl-budget");
 
-let used = 0;
 let capLogged = false;
 let _cache = null;
 function loadCache() {
@@ -59,11 +59,11 @@ async function firecrawl(url) {
   const cache = loadCache();
   const hit = cache[url];
   if (hit && Date.now() - hit.t < CACHE_TTL_MS) return hit.text;
-  if (used >= RUN_CAP) {
-    if (!capLogged) { capLogged = true; console.error(`  firecrawl run cap (${RUN_CAP}) reached — remaining thin pages use plain-fetch text`); }
+  const reserved = await budget.tryReserve();
+  if (!reserved.ok) {
+    if (!capLogged) { capLogged = true; console.error(`  firecrawl daily budget (${reserved.limit}) exhausted — remaining thin pages use plain-fetch text`); }
     return "";
   }
-  used++;
   try {
     const res = await rawRequest("https://api.firecrawl.dev/v1/scrape", {
       method: "POST",
@@ -91,4 +91,4 @@ async function fetchText(url, { timeoutMs = 15000, max = 9000 } = {}) {
   return (rendered.length > plain.length ? rendered : plain).slice(0, max);
 }
 
-module.exports = { fetchText, available };
+module.exports = { fetchText, available, _firecrawlForTest: firecrawl };

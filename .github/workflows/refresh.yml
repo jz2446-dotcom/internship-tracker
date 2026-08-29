@@ -1,0 +1,75 @@
+name: Scheduled refresh
+
+on:
+  schedule:
+    - cron: '0 */2 * * *'   # ticks every 2h; check-schedule.js decides whether to actually run
+  workflow_dispatch: {}
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 350   # stay under GitHub's 360min (6h) hard cap on hosted runners
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'   # cloudflare-worker/build-data.js needs stable ESM auto-detection
+
+      - name: Install analyst dependencies
+        run: npm install
+        working-directory: analyst
+
+      - name: Install Playwright browser
+        run: npx playwright install --with-deps chromium
+        working-directory: analyst
+
+      - name: Check schedule
+        id: check
+        run: node check-schedule.js
+        working-directory: analyst
+
+      - name: Run full refresh (parallel)
+        if: steps.check.outputs.due == 'true'
+        run: node _full_refresh_driver.js --parallel --no-deploy
+        working-directory: analyst
+        env:
+          TAVILY_API_KEY: ${{ secrets.TAVILY_API_KEY }}
+          FIRECRAWL_API_KEY: ${{ secrets.FIRECRAWL_API_KEY }}
+          NVIDIA_API_KEY: ${{ secrets.NVIDIA_API_KEY }}
+
+      - name: Fetch baseline data
+        if: steps.check.outputs.due == 'true'
+        run: curl -s https://internship-tracker.jz-tracker.workers.dev/api/data -o src/data.json
+        working-directory: cloudflare-worker
+
+      - name: Build data bundle
+        if: steps.check.outputs.due == 'true'
+        run: node build-data.js
+        working-directory: cloudflare-worker
+
+      - name: Deploy Cloudflare Worker
+        if: steps.check.outputs.due == 'true'
+        run: npx wrangler@4 deploy
+        working-directory: cloudflare-worker
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+
+      - name: Record last run and push data changes
+        if: steps.check.outputs.due == 'true'
+        run: |
+          node -e "
+            const s = require('./lib/schedule.js');
+            const p = require('path').join(__dirname, '..', 'data', '_schedule_config.json');
+            const c = s.loadConfig(p);
+            c.lastRunAt = new Date().toISOString();
+            s.saveConfig(p, c);
+          "
+          git config user.name "tracker-bot"
+          git config user.email "actions@github.com"
+          git add ../data/ ../cloudflare-worker/src/data.json
+          git diff --cached --quiet || git commit -m "Scheduled refresh $(date -u +%F)"
+          git push
+        working-directory: analyst

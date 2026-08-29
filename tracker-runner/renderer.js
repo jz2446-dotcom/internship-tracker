@@ -6,6 +6,9 @@ const stepsList = document.getElementById('stepsList');
 const startBtn = document.getElementById('startBtn');
 const dedupBtn = document.getElementById('dedupBtn');
 const stopBtn = document.getElementById('stopBtn');
+const cadenceSelect = document.getElementById('cadenceSelect');
+const saveScheduleBtn = document.getElementById('saveScheduleBtn');
+const scheduleStatus = document.getElementById('scheduleStatus');
 const clearBtn = document.getElementById('clearBtn');
 const statusBar = document.getElementById('statusBar');
 const modeHint = document.getElementById('modeHint');
@@ -229,6 +232,13 @@ dedupBtn.addEventListener('click', async () => {
   stopBtn.disabled = false;
   statusBar.className = '';
   statusBar.textContent = 'Running…';
+});
+
+saveScheduleBtn.addEventListener('click', async () => {
+  const cadenceHours = parseInt(cadenceSelect.value, 10);
+  scheduleStatus.textContent = 'Saving…';
+  const res = await window.api.saveSchedule(cadenceHours);
+  scheduleStatus.textContent = res.ok ? 'Saved.' : `Failed: ${res.error}`;
 });
 
 stopBtn.addEventListener('click', () => window.api.stopRun());
