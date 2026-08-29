@@ -21,7 +21,7 @@ const { dedupCategories } = require('./lib/dedup.js');
 const history = require('./lib/history.js');
 const historyServer = require('./lib/historyServer.js');
 const htmlLoader = require('./lib/htmlLoader.js');
-const schedule = require('../analyst/lib/schedule.js');
+const schedule = require('./lib/schedule.js');
 const TIMINGS_PATH = path.join(__dirname, 'history', 'step-timings.json');
 const HISTORY_DIR = path.join(__dirname, 'history');
 
