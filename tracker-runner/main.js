@@ -21,7 +21,8 @@ const { dedupCategories } = require('./lib/dedup.js');
 const history = require('./lib/history.js');
 const historyServer = require('./lib/historyServer.js');
 const htmlLoader = require('./lib/htmlLoader.js');
-const schedule = require('../analyst/lib/schedule.js');
+const schedule = require('./lib/schedule.js');
+const { startRunLog } = require('./lib/runLog.js');
 const TIMINGS_PATH = path.join(__dirname, 'history', 'step-timings.json');
 const HISTORY_DIR = path.join(__dirname, 'history');
 
@@ -64,6 +65,8 @@ const ANALYST_DIR = path.join(PROJECT_ROOT, 'analyst');
 const WORKER_DIR = path.join(PROJECT_ROOT, 'cloudflare-worker');
 const DATA_DIR = path.join(PROJECT_ROOT, 'data');
 const SCHEDULE_CONFIG_PATH = path.join(DATA_DIR, '_schedule_config.json');
+const LOGS_DIR = path.join(__dirname, 'logs');
+let currentRunLog = null; // safety-net handle so a thrown-before-completion pipeline still gets its log closed
 const LIVE_DATA_URL = 'https://internship-tracker.jz-tracker.workers.dev/api/data';
 
 // Single source of truth for what a "tab" means — shared with the analyst CLI and
@@ -322,7 +325,12 @@ async function runPipeline(opts, sender) {
   }
   aborted = false;
   sender.send('plan', { steps: steps.map(s => s.label), mode: opts.mode, brain: opts.brain || (process.env.RUNNER_BRAIN === 'claude-cli' ? 'claude-cli' : 'nim'), sequential: !!opts.sequential, smoke: !!opts.smokeTab });
-  const log = (chunk, stream) => sender.send('run-output', { stream: stream || 'meta', chunk });
+  const runLog = startRunLog(LOGS_DIR);
+  currentRunLog = runLog;
+  const log = (chunk, stream) => {
+    sender.send('run-output', { stream: stream || 'meta', chunk });
+    runLog.write(chunk);
+  };
 
   log(`=== Tracker refresh — ${opts.mode.toUpperCase()} mode${opts.smokeTab ? ` (SMOKE TEST: ${opts.smokeTab}, no deploy)` : ''} ===\n`);
   const resolvedBrain = opts.brain === 'claude-cli' || opts.brain === 'heuristic'
@@ -451,6 +459,8 @@ async function runPipeline(opts, sender) {
     }
   }
   running = false;
+  await runLog.close();
+  currentRunLog = null;
 }
 
 // ---------------------------------------------------------------------------
@@ -587,6 +597,7 @@ ipcMain.handle('start-run', (event, opts) => {
   runPipeline(opts || { mode: 'long' }, event.sender)
     .catch(e => {
       running = false;
+      if (currentRunLog) { currentRunLog.write(`\n[pipeline error] ${e.stack || e.message}\n`); currentRunLog.close(); currentRunLog = null; }
       event.sender.send('run-output', { stream: 'stderr', chunk: `\n[pipeline error] ${e.stack || e.message}\n` });
       event.sender.send('run-done', { ok: false, aborted: false, failures: ['pipeline error'] });
     });
@@ -599,6 +610,7 @@ ipcMain.handle('start-dedup', (event) => {
   runPipeline({ mode: 'long', dedupOnly: true }, event.sender)
     .catch(e => {
       running = false;
+      if (currentRunLog) { currentRunLog.write(`\n[pipeline error] ${e.stack || e.message}\n`); currentRunLog.close(); currentRunLog = null; }
       event.sender.send('run-output', { stream: 'stderr', chunk: `\n[pipeline error] ${e.stack || e.message}\n` });
       event.sender.send('run-done', { ok: false, aborted: false, failures: ['pipeline error'] });
     });
