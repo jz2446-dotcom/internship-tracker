@@ -65,7 +65,11 @@ const ANALYST_DIR = path.join(PROJECT_ROOT, 'analyst');
 const WORKER_DIR = path.join(PROJECT_ROOT, 'cloudflare-worker');
 const DATA_DIR = path.join(PROJECT_ROOT, 'data');
 const SCHEDULE_CONFIG_PATH = path.join(DATA_DIR, '_schedule_config.json');
-const LOGS_DIR = path.join(__dirname, 'logs');
+// __dirname resolves INSIDE app.asar in a packaged build — read-only, so fs.mkdirSync
+// there throws ENOTDIR. PROJECT_ROOT is the real on-disk project checkout (resolved
+// above even in a portable build via PORTABLE_EXECUTABLE_DIR), so logs land next to
+// the actual source tree instead of inside the packed app.
+const LOGS_DIR = path.join(PROJECT_ROOT, 'tracker-runner', 'logs');
 let currentRunLog = null; // safety-net handle so a thrown-before-completion pipeline still gets its log closed
 const LIVE_DATA_URL = 'https://internship-tracker.jz-tracker.workers.dev/api/data';
 
