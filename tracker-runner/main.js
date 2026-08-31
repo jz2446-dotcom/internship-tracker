@@ -271,6 +271,7 @@ function runStep(step, sender) {
     const handleData = (stream) => (d) => {
       const tagged = tagChunk(step.tag, d.toString());
       sender.send('run-output', { stream, chunk: tagged });
+      if (currentRunLog) currentRunLog.write(tagged);
       if (step.tag) {
         for (const line of tagged.split('\n')) {
           const parsed = parseResolvedLine(line);
@@ -281,7 +282,9 @@ function runStep(step, sender) {
     child.stdout.on('data', handleData('stdout'));
     child.stderr.on('data', handleData('stderr'));
     child.on('error', err => {
-      sender.send('run-output', { stream: 'stderr', chunk: `\n[spawn error] ${err.message}\n` });
+      const chunk = `\n[spawn error] ${err.message}\n`;
+      sender.send('run-output', { stream: 'stderr', chunk });
+      if (currentRunLog) currentRunLog.write(chunk);
     });
     child.on('close', code => { children.delete(child); resolve(code); });
   });
