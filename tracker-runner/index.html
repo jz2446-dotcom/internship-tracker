@@ -26,9 +26,9 @@
         <button class="mode-btn" data-brain="ollama">Ollama brain</button>
         <button class="mode-btn" data-brain="claude-cli">Claude brain</button>
       </div>
-      <div class="mode-toggle" id="concurrencyToggle" title="Parallel launches all research tabs at once — fastest wall-clock, but many Node/Chromium processes at once and heavy CPU/RAM load. Sequential runs one tab at a time — much lighter on the machine, slower overall.">
-        <button class="mode-btn active" data-conc="parallel">Parallel</button>
-        <button class="mode-btn" data-conc="sequential">One at a time</button>
+      <div class="conc-picker" id="concurrencyToggle" title="How many research tabs run at once. More = faster wall-clock but heavier CPU/RAM load (each tab is a full Node process, plus Playwright browser sessions when it needs the fallback pass). Fewer = lighter machine load but slower overall. The Recommended value is scaled to this machine's CPU core count.">
+        <label for="concurrencySelect" class="conc-label">Tabs at once:</label>
+        <select id="concurrencySelect"></select>
       </div>
       <div class="mode-toggle" id="themeToggle" title="Light/dark theme. Follows your OS by default; picking one here overrides it.">
         <button class="mode-btn" data-theme="light">Light</button>

@@ -15,6 +15,7 @@ const { app, BrowserWindow, BrowserView, ipcMain, shell } = require('electron');
 const { spawn } = require('child_process');
 const path = require('path');
 const fs = require('fs');
+const os = require('os');
 const timing = require('./lib/timing.js');
 const { parseResolvedLine } = require('./lib/resolvedParser.js');
 const { dedupCategories } = require('./lib/dedup.js');
@@ -94,6 +95,14 @@ const TAB_ORDER = [
   'sophomore', 'fall2026', 'spring2027', 'fellowships', 'china_hk', 'discovery',
 ];
 
+// A starting point for the "tabs at once" picker, not a hard cap — scaled to this
+// machine's core count since that's the real constraint (each tab is a full Node
+// process, +Playwright sessions on top). Clamped to a sane range: below 3 rarely
+// beats sequential's own generous per-tab budgets, above 8 is diminishing returns
+// on most desktops even with cores to spare (measured live 2026-08-06: 14 parallel
+// tabs on a 16GB box → ~190 chrome.exe processes, <1GB RAM free, machine thrashes).
+const RECOMMENDED_CONCURRENCY = Math.max(3, Math.min(8, os.cpus().length, TAB_ORDER.length));
+
 // Maps each dedupable category to the results file build-data.js reads. Mirrors
 // lib/dedup.js's CATEGORY_ORDER (minus spring2027, which merges into fall2026
 // before this ever runs).
@@ -125,29 +134,41 @@ function writeCategoryFiles(dataDir, cleaned, removals) {
     }
   }
 }
-// Split the old per-tab budgets across simultaneously-running tabs.
-// ANALYST_BROWSE_CONC stays at 1 here (not 2+): 14 tabs already run simultaneously in
-// this mode, each a full Node process; stacking more concurrent Playwright/Chromium
-// sessions PER TAB on top of that multiplies system-wide browser count and burns RAM
-// (measured live 2026-08-06: 14 parallel tabs + browse-conc 2 → ~190 chrome.exe procs,
-// <1GB RAM free on a 16GB box — the machine thrashes and the run gets SLOWER, not
-// faster). Sequential mode (one tab at a time) has the headroom for real browse
-// concurrency instead.
-const PARALLEL_ENV = { ANALYST_NIM_CONC: '1', ANALYST_SEARCH_CONC: '1', ANALYST_BROWSE_CONC: '1' };
+// How many tabs run AT ONCE is now a user-chosen number (opts.concurrency), not a
+// binary parallel/sequential toggle — but each tab is a full Node process (+
+// Playwright sessions on top when it needs the browser fallback), so the per-tab
+// resource budgets still need to shrink as more tabs share the machine at once
+// (measured live 2026-08-06: 14 parallel tabs + browse-conc 2 → ~190 chrome.exe
+// procs, <1GB RAM free on a 16GB box — the machine thrashes and the run gets
+// SLOWER, not faster). Three tiers: running alone gets the old generous
+// single-tab budgets; running all tabs at once gets the old throttled-down
+// budgets; anything in between gets a moderate middle ground.
+function envForConcurrency(n, totalTabs) {
+  if (n <= 1) return { ANALYST_NIM_CONC: '4', ANALYST_SEARCH_CONC: '4', ANALYST_BROWSE_CONC: '4' };
+  if (n >= totalTabs) return { ANALYST_NIM_CONC: '1', ANALYST_SEARCH_CONC: '1', ANALYST_BROWSE_CONC: '1' };
+  return { ANALYST_NIM_CONC: '2', ANALYST_SEARCH_CONC: '2', ANALYST_BROWSE_CONC: '2' };
+}
+function tabConcurrencyArg(n, totalTabs) {
+  if (n <= 1) return '8';
+  if (n >= totalTabs) return '3';
+  return '5';
+}
+// opts.concurrency: how many research tabs run at once, 1..TAB_ORDER.length.
+// Missing/invalid defaults to "all at once" (the old always-parallel behavior).
+function resolveConcurrency(opts, totalTabs) {
+  const n = Number(opts.concurrency);
+  return Number.isFinite(n) && n > 0 ? Math.min(totalTabs, Math.floor(n)) : totalTabs;
+}
 
-// opts: { mode: 'long'|'short', limit?: number, smokeTab?: string, skipDeploy?: boolean }
+// opts: { mode: 'long'|'short', limit?: number, smokeTab?: string, skipDeploy?: boolean, concurrency?: number }
 function buildPlan(opts) {
   const mode = opts.mode === 'short' ? 'short' : 'long';
   const steps = [];
   const tabs = opts.dedupOnly ? [] : (opts.smokeTab ? [opts.smokeTab] : TAB_ORDER);
 
-  // Sequential ("one at a time") trades wall-clock speed for a much lighter
-  // machine load: only one tab's Node process (+ its Playwright session) is ever
-  // alive at once, so each one can safely use the old single-tab budgets instead
-  // of the parallel-mode throttled-down ones.
-  const seqEnv = { ANALYST_NIM_CONC: '4', ANALYST_SEARCH_CONC: '4', ANALYST_BROWSE_CONC: '4' };
-  const tabEnv = opts.sequential ? seqEnv : PARALLEL_ENV;
-  const tabConcurrency = opts.sequential ? '8' : '3';
+  const concurrency = resolveConcurrency(opts, TAB_ORDER.length);
+  const tabEnv = envForConcurrency(concurrency, TAB_ORDER.length);
+  const tabConcurrency = tabConcurrencyArg(concurrency, TAB_ORDER.length);
 
   for (const tabId of tabs) {
     const cfg = tabRegistry.get(tabId);
@@ -331,7 +352,8 @@ async function runPipeline(opts, sender) {
     sender.send('step-status', { index, status, percent, ...(extra || {}) });
   }
   aborted = false;
-  sender.send('plan', { steps: steps.map(s => s.label), mode: opts.mode, brain: opts.brain || (process.env.RUNNER_BRAIN === 'claude-cli' ? 'claude-cli' : 'nim'), sequential: !!opts.sequential, smoke: !!opts.smokeTab });
+  const concurrency = resolveConcurrency(opts, TAB_ORDER.length);
+  sender.send('plan', { steps: steps.map(s => s.label), mode: opts.mode, brain: opts.brain || (process.env.RUNNER_BRAIN === 'claude-cli' ? 'claude-cli' : 'nim'), concurrency, smoke: !!opts.smokeTab });
   const runLog = startRunLog(LOGS_DIR);
   currentRunLog = runLog;
   const log = (chunk, stream) => {
@@ -349,7 +371,12 @@ async function runPipeline(opts, sender) {
     'nim': 'NIM (free, NVIDIA key) — no Claude tokens',
     'ollama': 'Ollama (free, local, offline) — no Claude tokens, no internet dependency',
   }[resolvedBrain];
-  log(`Project root: ${PROJECT_ROOT}\nBrain: ${brainLabel}\nResearch: ${opts.sequential ? 'one tab at a time (light load)' : 'all tabs in parallel (fast, heavier load)'}\n\n`);
+  const researchLabel = concurrency <= 1
+    ? 'one tab at a time (lightest load)'
+    : concurrency >= TAB_ORDER.length
+      ? `all ${TAB_ORDER.length} tabs in parallel (fastest, heaviest load)`
+      : `${concurrency} tabs at a time`;
+  log(`Project root: ${PROJECT_ROOT}\nBrain: ${brainLabel}\nResearch: ${researchLabel}\n\n`);
 
   let ok = true;
   let bail = false;
@@ -371,22 +398,16 @@ async function runPipeline(opts, sender) {
     }
   };
 
-  // Parallel: ALL research tabs at once, Promise.all as the barrier — fastest
-  // wall-clock, heaviest machine load. Sequential: one tab at a time — a plain
-  // for-loop, much lighter, slower overall. Either way nothing below starts
-  // until every research process has exited (done, failed, or stopped).
+  // Up to `concurrency` research tabs run at once — a promise-pool (limiter()),
+  // not a binary parallel/sequential split, so any number from 1 (old
+  // "Sequential") to TAB_ORDER.length (old "Parallel") works the same way.
+  // Nothing below starts until every research process has exited (done, failed,
+  // or stopped).
   const research = steps.map((s, i) => ({ s, i })).filter(({ s }) => s.wave);
   if (research.length && !aborted) {
-    if (opts.sequential) {
-      if (research.length > 1) log(`\n═══ Running ${research.length} research tabs one at a time ═══\n`);
-      for (const { s, i } of research) {
-        if (aborted) break;
-        await execResearch(s, i);
-      }
-    } else {
-      if (research.length > 1) log(`\n═══ Launching all ${research.length} research tabs simultaneously ═══\n`);
-      await Promise.all(research.map(({ s, i }) => execResearch(s, i)));
-    }
+    if (research.length > 1) log(`\n═══ Running ${research.length} research tabs, ${Math.min(concurrency, research.length)} at a time ═══\n`);
+    const run = limiter(Math.max(1, concurrency));
+    await Promise.all(research.map(({ s, i }) => run(() => execResearch(s, i))));
     if (!aborted) log(`\n═══ All research complete — moving to merge/build/deploy ═══\n`);
   }
 
@@ -593,6 +614,7 @@ ipcMain.handle('get-info', () => {
     analystExists: fs.existsSync(path.join(ANALYST_DIR, 'run-analyst.js')),
     workerExists: fs.existsSync(path.join(WORKER_DIR, 'build-data.js')),
     tabCount: TAB_ORDER.length,
+    recommendedConcurrency: RECOMMENDED_CONCURRENCY,
     searchProvider,
   };
 });

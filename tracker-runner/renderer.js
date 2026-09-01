@@ -17,7 +17,7 @@ const progressFill = document.getElementById('progressFill');
 const progressLabel = document.getElementById('progressLabel');
 const modeBtns = [...document.querySelectorAll('#modeToggle .mode-btn')];
 const brainBtns = [...document.querySelectorAll('#brainToggle .mode-btn')];
-const concBtns = [...document.querySelectorAll('#concurrencyToggle .mode-btn')];
+const concurrencySelect = document.getElementById('concurrencySelect');
 const themeBtns = [...document.querySelectorAll('#themeToggle .mode-btn')];
 
 // --- Theme (Light/Dark toggle) ---
@@ -55,7 +55,7 @@ let selectedHistoryDate = null;
 
 let mode = 'long';
 let brain = 'nim';
-let sequential = false;
+let concurrency = null; // set once get-info's recommendedConcurrency arrives at boot
 let running = false;
 
 let runStartTime = null;
@@ -101,14 +101,13 @@ brainBtns.forEach(b => b.addEventListener('click', () => {
   brainBtns.forEach(x => x.classList.toggle('active', x.dataset.brain === brain));
 }));
 
-concBtns.forEach(b => b.addEventListener('click', () => {
+concurrencySelect.addEventListener('change', () => {
   if (running) return;
-  sequential = b.dataset.conc === 'sequential';
-  concBtns.forEach(x => x.classList.toggle('active', x.dataset.conc === b.dataset.conc));
-}));
+  concurrency = parseInt(concurrencySelect.value, 10);
+});
 
 function runOpts() {
-  const opts = { mode, brain, sequential };
+  const opts = { mode, brain, concurrency };
   if (smokeCheck.checked) { opts.smokeTab = 'environmental'; opts.limit = 2; opts.skipDeploy = true; }
   return opts;
 }
@@ -162,7 +161,7 @@ window.api.onPlan(({ steps, mode: runMode, brain: runBrain }) => {
   stopBtn.disabled = false;
   modeBtns.forEach(b => { b.disabled = true; b.classList.toggle('active', b.dataset.mode === runMode); });
   brainBtns.forEach(b => { b.disabled = true; if (runBrain) b.classList.toggle('active', b.dataset.brain === runBrain); });
-  concBtns.forEach(b => { b.disabled = true; });
+  concurrencySelect.disabled = true;
   smokeCheck.disabled = true;
   resolvedReport = null;
   resolvedToggle.disabled = true;
@@ -194,7 +193,7 @@ window.api.onDone(({ ok, aborted, failures, resolved }) => {
   stopBtn.disabled = true;
   modeBtns.forEach(b => b.disabled = false);
   brainBtns.forEach(b => b.disabled = false);
-  concBtns.forEach(b => b.disabled = false);
+  concurrencySelect.disabled = false;
   smokeCheck.disabled = false;
   resolvedReport = resolved || {};
   resolvedToggle.disabled = false;
@@ -429,6 +428,19 @@ resolvedClose.addEventListener('click', () => resolvedPopup.classList.add('hidde
     + `worker build:   ${info.workerExists ? 'found ✓' : 'MISSING ✗'}\n`
     + `web search:     ${info.searchProvider ? info.searchProvider + ' ✓ (search-first discovery ON)' : 'NO KEY — set TAVILY_API_KEY in OneDrive\\Documents\\.env for ~10x faster discovery'}\n`
     + `${info.tabCount} research tabs + merge + build + deploy\n\n`);
+  concurrencySelect.innerHTML = '';
+  for (let n = 1; n <= info.tabCount; n++) {
+    const opt = document.createElement('option');
+    opt.value = String(n);
+    opt.textContent = n === info.tabCount
+      ? `${n} (all at once)`
+      : n === info.recommendedConcurrency
+        ? `${n} (Recommended)`
+        : String(n);
+    concurrencySelect.appendChild(opt);
+  }
+  concurrency = info.recommendedConcurrency || info.tabCount;
+  concurrencySelect.value = String(concurrency);
   if (!info.analystExists || !info.workerExists) {
     statusBar.textContent = 'Missing project components — check the console.';
     statusBar.className = 'err';
