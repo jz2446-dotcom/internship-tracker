@@ -55,6 +55,28 @@ test('FIRECRAWL_DAILY_BUDGET="0" is honored as an explicit zero, not coerced to 
   delete require.cache[require.resolve('./firecrawl-budget.js')];
 });
 
+test('retries past a transient EPERM on lock creation instead of crashing (Windows multi-process contention observed live)', async () => {
+  const file = tmpFile();
+  const realOpenSync = fs.openSync;
+  let calls = 0;
+  fs.openSync = (p, flags) => {
+    if (p === file + '.lock' && flags === 'wx' && calls++ === 0) {
+      const err = new Error(`EPERM: operation not permitted, open '${p}'`);
+      err.code = 'EPERM';
+      throw err;
+    }
+    return realOpenSync(p, flags);
+  };
+  try {
+    const res = await tryReserve({ file, limit: 5 });
+    assert.equal(res.ok, true);
+    assert.equal(res.used, 1);
+  } finally {
+    fs.openSync = realOpenSync;
+    fs.rmSync(file, { force: true });
+  }
+});
+
 test('an unset FIRECRAWL_DAILY_BUDGET falls back to 450', () => {
   const prev = process.env.FIRECRAWL_DAILY_BUDGET;
   delete process.env.FIRECRAWL_DAILY_BUDGET;

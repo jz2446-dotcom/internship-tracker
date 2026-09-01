@@ -16,13 +16,22 @@ const MAX_ATTEMPTS = 40;
 function sleep(ms) { return new Promise((resolve) => setTimeout(resolve, ms)); }
 function todayStr(now) { return now.toISOString().slice(0, 10); }
 
+// Errors that mean "someone else holds the lock right now" rather than a real
+// failure. Windows' O_CREAT|O_EXCL doesn't reliably surface EEXIST under real
+// multi-process contention (15 separate `node run-analyst.js` processes all
+// hammering the same lock file) the way POSIX does — it can throw EPERM or
+// EBUSY instead when another process has the path open or mid-delete at that
+// exact instant. Observed live: every tab crashed with an uncaught EPERM here
+// the first time 15 processes actually contended for this lock concurrently.
+const LOCK_CONTENTION_CODES = new Set(["EEXIST", "EPERM", "EBUSY"]);
+
 async function acquireLock(lockPath) {
   for (let attempt = 0; attempt < MAX_ATTEMPTS; attempt++) {
     try {
       fs.closeSync(fs.openSync(lockPath, "wx"));
       return true;
     } catch (e) {
-      if (e.code !== "EEXIST") throw e;
+      if (!LOCK_CONTENTION_CODES.has(e.code)) throw e;
       try {
         if (Date.now() - fs.statSync(lockPath).mtimeMs > LOCK_STALE_MS) { fs.unlinkSync(lockPath); continue; }
       } catch (_) { /* lock vanished between openSync and statSync — loop will re-acquire */ }
