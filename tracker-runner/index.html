@@ -20,9 +20,10 @@
         <button class="mode-btn" data-mode="short" id="modeShort">Short</button>
         <button class="mode-btn active" data-mode="long" id="modeLong">Long</button>
       </div>
-      <div class="mode-toggle" id="brainToggle" title="Who judges the ambiguous candidates (heuristic rules the clear ones either way, in every mode). Heuristic = zero AI calls, rules only. NIM = free AI, no Claude tokens. Claude = your subscription quota (~0.3-1.2M haiku tokens per full run), best judgment.">
+      <div class="mode-toggle" id="brainToggle" title="Who judges the ambiguous candidates (heuristic rules the clear ones either way, in every mode). Heuristic = zero AI calls, rules only. NIM = free cloud AI, no Claude tokens. Ollama = free LOCAL AI (offline, no key) — slower under 14-tab parallel load since every tab shares one local model. Claude = your subscription quota (~0.3-1.2M haiku tokens per full run), best judgment.">
         <button class="mode-btn" data-brain="heuristic">Heuristic only</button>
         <button class="mode-btn active" data-brain="nim">NIM brain</button>
+        <button class="mode-btn" data-brain="ollama">Ollama brain</button>
         <button class="mode-btn" data-brain="claude-cli">Claude brain</button>
       </div>
       <div class="mode-toggle" id="concurrencyToggle" title="Parallel launches all research tabs at once — fastest wall-clock, but many Node/Chromium processes at once and heavy CPU/RAM load. Sequential runs one tab at a time — much lighter on the machine, slower overall.">

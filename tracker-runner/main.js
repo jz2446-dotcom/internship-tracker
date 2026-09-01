@@ -156,7 +156,7 @@ function buildPlan(opts) {
     // UI toggle (opts.brain) or the RUNNER_BRAIN env var (autostart/scheduled
     // runs) can swap in the local `claude` CLI — subscription auth, best
     // judgment, still heuristic-triaged so volume stays small.
-    const brain = opts.brain === 'claude-cli' || opts.brain === 'heuristic'
+    const brain = opts.brain === 'claude-cli' || opts.brain === 'heuristic' || opts.brain === 'ollama'
       ? opts.brain
       : (!opts.brain && process.env.RUNNER_BRAIN === 'claude-cli') ? 'claude-cli' : 'nim';
     const args = [
@@ -340,13 +340,14 @@ async function runPipeline(opts, sender) {
   };
 
   log(`=== Tracker refresh — ${opts.mode.toUpperCase()} mode${opts.smokeTab ? ` (SMOKE TEST: ${opts.smokeTab}, no deploy)` : ''} ===\n`);
-  const resolvedBrain = opts.brain === 'claude-cli' || opts.brain === 'heuristic'
+  const resolvedBrain = opts.brain === 'claude-cli' || opts.brain === 'heuristic' || opts.brain === 'ollama'
     ? opts.brain
     : (!opts.brain && process.env.RUNNER_BRAIN === 'claude-cli') ? 'claude-cli' : 'nim';
   const brainLabel = {
     'claude-cli': 'Claude CLI (subscription quota) — heuristic-triaged, ambiguous tail only',
     'heuristic': 'Heuristic only — zero AI calls, rules only',
     'nim': 'NIM (free, NVIDIA key) — no Claude tokens',
+    'ollama': 'Ollama (free, local, offline) — no Claude tokens, no internet dependency',
   }[resolvedBrain];
   log(`Project root: ${PROJECT_ROOT}\nBrain: ${brainLabel}\nResearch: ${opts.sequential ? 'one tab at a time (light load)' : 'all tabs in parallel (fast, heavier load)'}\n\n`);
 
