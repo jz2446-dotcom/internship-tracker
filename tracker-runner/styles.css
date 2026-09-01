@@ -177,6 +177,25 @@ h1 {
   cursor: pointer;
 }
 
+.conc-picker {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 12px;
+  color: #b9c6d6;
+}
+.conc-picker select {
+  background: rgba(255,255,255,.05);
+  color: #e9e5da;
+  border: 1.5px solid rgba(255,255,255,.22);
+  border-radius: 999px;
+  padding: 6px 12px;
+  font-size: 12.5px;
+  font-weight: 500;
+  cursor: pointer;
+}
+.conc-picker select:disabled { opacity: 0.5; cursor: default; }
+
 /* --- Buttons: gold is the only accent; green/red exist only as state signals --- */
 button.start, button.stop, button.clear, button.dedup, .nav-btn {
   border: 1px solid var(--line-strong);
