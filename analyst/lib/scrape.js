@@ -61,7 +61,7 @@ async function firecrawl(url) {
   if (hit && Date.now() - hit.t < CACHE_TTL_MS) return hit.text;
   const reserved = await budget.tryReserve();
   if (!reserved.ok) {
-    if (!capLogged) { capLogged = true; console.error(`  firecrawl daily budget (${reserved.limit}) exhausted — remaining thin pages use plain-fetch text`); }
+    if (!capLogged) { capLogged = true; console.error(`  firecrawl monthly budget (${reserved.limit}) exhausted — remaining thin pages use plain-fetch text`); }
     return "";
   }
   try {

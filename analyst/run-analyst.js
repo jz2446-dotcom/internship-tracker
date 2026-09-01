@@ -63,9 +63,11 @@ const brainMod =
     ? { MODEL: "heuristic", judge: async (c, crit) => require("./lib/heuristic").judge(c, crit) }
     : BRAIN === "claude-cli"
       ? require("./lib/claudecli") // local `claude` CLI, subscription auth — heuristic-triaged, opt-in
-      : BRAIN === "nim" || DEFER
-        ? require("./lib/nimbrain")
-        : require("./lib/brain");
+      : BRAIN === "ollama"
+        ? require("./lib/ollamaBrain") // local Ollama server, fully offline, zero cost — heuristic-triaged, opt-in
+        : BRAIN === "nim" || DEFER
+          ? require("./lib/nimbrain")
+          : require("./lib/brain");
 // NIM backup runs in defer mode by default; --no-nim turns it off (Claude-only shortlist).
 const NIM_BACKUP = DEFER && !has("no-nim");
 const BROWSE = !has("no-browse");
