@@ -2,8 +2,10 @@
 // instant, works for server-rendered pages). If that comes back THIN — the classic
 // JS-rendered shell (Workday, embedded boards, SPA career sites) where the brain
 // would otherwise judge half-blind — fall back to Firecrawl's render-and-extract
-// API (FIRECRAWL_API_KEY via lib/keyfile.js; firecrawl.dev). If Firecrawl is
-// unavailable or its real account balance is exhausted (lib/firecrawl-budget.js),
+// API (FIRECRAWL_API_KEY via lib/keyfile.js; firecrawl.dev). If the primary
+// account's real balance is low, lib/firecrawl-budget.js automatically switches to
+// a second Firecrawl account's key (~\Downloads\Firecrawl2.env) before giving up on
+// Firecrawl entirely. Only once BOTH accounts are exhausted/unavailable does this
 // fall back further to a local Playwright render (lib/pw.js) — the same zero-token
 // browser engine the career-page discovery pass already uses. This is a hard rule:
 // a thin page NEVER just gives up with degraded text — there is always a path to
@@ -11,7 +13,9 @@
 // shrinks research coverage the way the old per-tab cap did.
 //
 // Credit discipline: Firecrawl only fires when plain fetch got <MIN_TEXT chars, and
-// every call is checked against the real account balance (lib/firecrawl-budget.js).
+// every call is checked against the real account balance AND a per-run cap shared
+// across all tab processes (lib/firecrawl-budget.js — the cap exists because the
+// balance check alone has no ceiling of its own; see the RUN CAP comment there).
 // Playwright has no credit cost but is slower (a real browser render per page) —
 // it only fires when Firecrawl ALSO didn't produce enough text, not on every thin
 // page unconditionally.
@@ -54,7 +58,7 @@ function cacheSet(url, text) {
   saveCache();
 }
 
-const available = () => !!apiKey("FIRECRAWL_API_KEY");
+const available = () => !!apiKey("FIRECRAWL_API_KEY") || !!budget.backupApiKey();
 
 function htmlToText(html) {
   return html
@@ -78,15 +82,20 @@ async function firecrawl(url) {
   if (!reserved.ok) {
     if (!capLogged) {
       capLogged = true;
-      const why = typeof reserved.remaining === "number" ? `${reserved.remaining} real credits left` : `local budget ${reserved.limit} reached`;
+      const why = reserved.reason === "run-cap"
+        ? `run cap of ${reserved.limit} real calls reached for this run`
+        : typeof reserved.remaining === "number"
+          ? `${reserved.remaining} real credits left on the ${reserved.account || "primary"} account${reserved.account === "primary" ? " (backup also unavailable/exhausted)" : ""}`
+          : `local budget ${reserved.limit} reached`;
       console.error(`  firecrawl budget exhausted (${why}) — falling back to local Playwright render`);
     }
     return "";
   }
+  const key = budget.keyForAccount(reserved.account);
   try {
     const res = await rawRequest("https://api.firecrawl.dev/v1/scrape", {
       method: "POST",
-      headers: { Authorization: `Bearer ${apiKey("FIRECRAWL_API_KEY")}`, "Content-Type": "application/json" },
+      headers: { Authorization: `Bearer ${key}`, "Content-Type": "application/json" },
       body: JSON.stringify({ url, formats: ["markdown"], onlyMainContent: true }),
       timeoutMs: 45000,
     });

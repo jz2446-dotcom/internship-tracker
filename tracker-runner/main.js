@@ -15,6 +15,7 @@ const { app, BrowserWindow, BrowserView, ipcMain, shell } = require('electron');
 const { spawn } = require('child_process');
 const path = require('path');
 const fs = require('fs');
+const os = require('os');
 const timing = require('./lib/timing.js');
 const { parseResolvedLine } = require('./lib/resolvedParser.js');
 const { dedupCategories } = require('./lib/dedup.js');
@@ -23,8 +24,15 @@ const historyServer = require('./lib/historyServer.js');
 const htmlLoader = require('./lib/htmlLoader.js');
 const schedule = require('./lib/schedule.js');
 const { startRunLog } = require('./lib/runLog.js');
-const TIMINGS_PATH = path.join(__dirname, 'history', 'step-timings.json');
-const HISTORY_DIR = path.join(__dirname, 'history');
+
+// Last-resort net: an uncaught exception in the main process otherwise crashes the
+// whole app (Electron's default dialog, then the process dies) — taking research
+// child processes and the Stop button down with it mid-run. safeSend() below covers
+// the known "webContents destroyed mid-send" case; this catches anything else so a
+// stray bug degrades to a logged error instead of an unrecoverable crash.
+process.on('uncaughtException', (err) => {
+  console.error('[uncaught exception in main process]', err);
+});
 
 // Resolve the project root the same way the control panel does: dev (`npm start`)
 // puts this dir directly under the root; packaged walks up from the exe;
@@ -68,10 +76,52 @@ const SCHEDULE_CONFIG_PATH = path.join(DATA_DIR, '_schedule_config.json');
 // __dirname resolves INSIDE app.asar in a packaged build — read-only, so fs.mkdirSync
 // there throws ENOTDIR. PROJECT_ROOT is the real on-disk project checkout (resolved
 // above even in a portable build via PORTABLE_EXECUTABLE_DIR), so logs land next to
-// the actual source tree instead of inside the packed app.
+// the actual source tree instead of inside the packed app. history/, step-timings.json,
+// and resume-state.json need the same treatment — all three used __dirname until
+// 2026-09-03, which silently broke History snapshots (ENOTDIR), progress-bar timing
+// learning, and Resume in every packaged build.
 const LOGS_DIR = path.join(PROJECT_ROOT, 'tracker-runner', 'logs');
+const HISTORY_DIR = path.join(PROJECT_ROOT, 'tracker-runner', 'history');
+const TIMINGS_PATH = path.join(HISTORY_DIR, 'step-timings.json');
+// Which steps had already finished when the user last hit Stop, so Resume can
+// skip straight past them instead of re-researching tabs that already wrote
+// their results file. Cleared on a fresh Start or a run that finishes on its own
+// (success or failure) — only a user-initiated Stop leaves it behind.
+const RESUME_STATE_PATH = path.join(HISTORY_DIR, 'resume-state.json');
+function saveResumeState(state) {
+  try { fs.mkdirSync(HISTORY_DIR, { recursive: true }); fs.writeFileSync(RESUME_STATE_PATH, JSON.stringify(state, null, 2)); }
+  catch (_) { /* best-effort — worst case Resume just isn't offered */ }
+}
+function loadResumeState() {
+  try { return JSON.parse(fs.readFileSync(RESUME_STATE_PATH, 'utf8')); } catch (_) { return null; }
+}
+function clearResumeState() {
+  try { fs.unlinkSync(RESUME_STATE_PATH); } catch (_) { /* already gone */ }
+}
 let currentRunLog = null; // safety-net handle so a thrown-before-completion pipeline still gets its log closed
 const LIVE_DATA_URL = 'https://internship-tracker.jz-tracker.workers.dev/api/data';
+
+// A research tab keeps streaming stdout/stderr on its own schedule, independent of
+// the renderer's lifecycle — if the window closes (or its webContents is mid-reload)
+// while a step is still running, a plain wc.send() throws "Object has been destroyed"
+// as an UNCAUGHT exception in the main process, which crashes the whole app (and take
+// the Stop button down with it, since there's no window left to click it in). Every
+// send to a renderer goes through here instead.
+function safeSend(wc, channel, payload) {
+  try {
+    if (wc && !wc.isDestroyed()) wc.send(channel, payload);
+  } catch (_) { /* window gone mid-send — nothing left to update */ }
+}
+
+// Shared catch handler for a runPipeline() call kicked off from an IPC/autostart
+// entry point — a thrown-before-completion pipeline still needs `running` reset
+// and its log closed, or every button locks up permanently.
+function onPipelineError(wc, e) {
+  running = false;
+  if (currentRunLog) { currentRunLog.write(`\n[pipeline error] ${e.stack || e.message}\n`); currentRunLog.close(); currentRunLog = null; }
+  safeSend(wc, 'run-output', { stream: 'stderr', chunk: `\n[pipeline error] ${e.stack || e.message}\n` });
+  safeSend(wc, 'run-done', { ok: false, aborted: false, failures: ['pipeline error'] });
+}
 
 // Single source of truth for what a "tab" means — shared with the analyst CLI and
 // the tracker-analyst MCP server so none of the three ever drift.
@@ -88,11 +138,22 @@ const tabRegistry = require(path.join(ANALYST_DIR, 'lib', 'tab-registry.js'));
 // writes never clobber. Known cost: the 6 whole-roster tabs can't share in-flight
 // search results, so an UNCACHED firm they all touch may be searched up to 6× —
 // a one-time Tavily-quota hit (30-day cache absorbs it on every later run).
+// libraries, fellowships, discovery, fall2026/spring2027, and ithaca were dropped
+// from the sweep (2026-09-02/03, user's call) — those tabs stay live on the site
+// with whatever data they last had, just frozen; re-add the tab ids here to resume
+// refreshing them.
 const TAB_ORDER = [
-  'agent1', 'agent2', 'agent3', 'agent4', 'agent5',
-  'libraries', 'environmental', 'realestate', 'ithaca',
-  'sophomore', 'fall2026', 'spring2027', 'fellowships', 'china_hk', 'discovery',
+  'agent1', 'agent2', 'agent3', 'agent4', 'agent5', 'agent6', 'agent7',
+  'environmental', 'realestate', 'sophomore', 'china_hk',
 ];
+
+// A starting point for the "tabs at once" picker, not a hard cap — scaled to this
+// machine's core count since that's the real constraint (each tab is a full Node
+// process, +Playwright sessions on top). Clamped to a sane range: below 3 rarely
+// beats sequential's own generous per-tab budgets, above 8 is diminishing returns
+// on most desktops even with cores to spare (measured live 2026-08-06: 14 parallel
+// tabs on a 16GB box → ~190 chrome.exe processes, <1GB RAM free, machine thrashes).
+const RECOMMENDED_CONCURRENCY = Math.max(3, Math.min(8, os.cpus().length, TAB_ORDER.length));
 
 // Maps each dedupable category to the results file build-data.js reads. Mirrors
 // lib/dedup.js's CATEGORY_ORDER (minus spring2027, which merges into fall2026
@@ -100,6 +161,7 @@ const TAB_ORDER = [
 const CATEGORY_FILES = {
   agent1: 'agent1_results.json', agent2: 'agent2_results.json', agent3: 'agent3_results.json',
   agent4: 'agent4_results.json', agent5: 'agent5_results.json',
+  agent6: 'agent6_results.json', agent7: 'agent7_results.json',
   sophomore: 'sophomore_results.json', fall2026: 'fall2026_results.json',
   libraries: 'libraries_results.json', environmental: 'environmental_results.json',
   realestate: 'realestate_results.json', fellowships: 'fellowships_results.json',
@@ -125,29 +187,43 @@ function writeCategoryFiles(dataDir, cleaned, removals) {
     }
   }
 }
-// Split the old per-tab budgets across simultaneously-running tabs.
-// ANALYST_BROWSE_CONC stays at 1 here (not 2+): 14 tabs already run simultaneously in
-// this mode, each a full Node process; stacking more concurrent Playwright/Chromium
-// sessions PER TAB on top of that multiplies system-wide browser count and burns RAM
-// (measured live 2026-08-06: 14 parallel tabs + browse-conc 2 → ~190 chrome.exe procs,
-// <1GB RAM free on a 16GB box — the machine thrashes and the run gets SLOWER, not
-// faster). Sequential mode (one tab at a time) has the headroom for real browse
-// concurrency instead.
-const PARALLEL_ENV = { ANALYST_NIM_CONC: '1', ANALYST_SEARCH_CONC: '1', ANALYST_BROWSE_CONC: '1' };
+// How many tabs run AT ONCE is now a user-chosen number (opts.concurrency), not a
+// binary parallel/sequential toggle — but each tab is a full Node process (+
+// Playwright sessions on top when it needs the browser fallback), so the per-tab
+// resource budgets still need to shrink as more tabs share the machine at once
+// (measured live 2026-08-06: 14 parallel tabs + browse-conc 2 → ~190 chrome.exe
+// procs, <1GB RAM free on a 16GB box — the machine thrashes and the run gets
+// SLOWER, not faster). Three tiers: running alone gets the old generous
+// single-tab budgets; running all tabs at once gets the old throttled-down
+// budgets; anything in between gets a moderate middle ground.
+function envForConcurrency(n, totalTabs) {
+  if (n <= 1) return { ANALYST_NIM_CONC: '4', ANALYST_SEARCH_CONC: '4', ANALYST_BROWSE_CONC: '4' };
+  if (n >= totalTabs) return { ANALYST_NIM_CONC: '1', ANALYST_SEARCH_CONC: '1', ANALYST_BROWSE_CONC: '1' };
+  return { ANALYST_NIM_CONC: '2', ANALYST_SEARCH_CONC: '2', ANALYST_BROWSE_CONC: '2' };
+}
+function tabConcurrencyArg(n, totalTabs) {
+  if (n <= 1) return '8';
+  if (n >= totalTabs) return '3';
+  return '5';
+}
+// opts.concurrency: how many research tabs run at once, 1..TAB_ORDER.length.
+// Missing/invalid defaults to "all at once" (the old always-parallel behavior).
+function resolveConcurrency(opts, totalTabs) {
+  const n = Number(opts.concurrency);
+  return Number.isFinite(n) && n > 0 ? Math.min(totalTabs, Math.floor(n)) : totalTabs;
+}
 
-// opts: { mode: 'long'|'short', limit?: number, smokeTab?: string, skipDeploy?: boolean }
+// opts: { mode: 'long'|'short', limit?: number, smokeTab?: string, skipDeploy?: boolean, concurrency?: number }
 function buildPlan(opts) {
   const mode = opts.mode === 'short' ? 'short' : 'long';
   const steps = [];
   const tabs = opts.dedupOnly ? [] : (opts.smokeTab ? [opts.smokeTab] : TAB_ORDER);
 
-  // Sequential ("one at a time") trades wall-clock speed for a much lighter
-  // machine load: only one tab's Node process (+ its Playwright session) is ever
-  // alive at once, so each one can safely use the old single-tab budgets instead
-  // of the parallel-mode throttled-down ones.
-  const seqEnv = { ANALYST_NIM_CONC: '4', ANALYST_SEARCH_CONC: '4', ANALYST_BROWSE_CONC: '4' };
-  const tabEnv = opts.sequential ? seqEnv : PARALLEL_ENV;
-  const tabConcurrency = opts.sequential ? '8' : '3';
+  const concurrency = resolveConcurrency(opts, TAB_ORDER.length);
+  // Shared across every tab process spawned for THIS run, so the Firecrawl run cap
+  // (analyst/lib/firecrawl-budget.js) sees one pool instead of resetting per tab.
+  const tabEnv = { ...envForConcurrency(concurrency, TAB_ORDER.length), ANALYST_RUN_ID: `run-${Date.now()}` };
+  const tabConcurrency = tabConcurrencyArg(concurrency, TAB_ORDER.length);
 
   for (const tabId of tabs) {
     const cfg = tabRegistry.get(tabId);
@@ -179,9 +255,6 @@ function buildPlan(opts) {
     });
   }
 
-  if (!opts.smokeTab && !opts.dedupOnly) {
-    steps.push({ label: 'Merge — Fall 2026 + Spring 2027 → fall2026', kind: 'merge-fall2026', key: 'merge' });
-  }
   if (opts.dedupOnly) {
     steps.push({ label: 'Remove cross-category duplicates', kind: 'dedup', key: 'dedup' });
   }
@@ -205,44 +278,6 @@ function buildPlan(opts) {
   }
 
   return steps;
-}
-
-// The fall2026 tab ships as ONE results file; its fall + spring terms are researched
-// as SEPARATE agent runs over the same company roster. Both runs frequently discover
-// the exact same posting (a generic off-cycle listing isn't tied to one term), and each
-// stamps its own copy with whichever term it ran as — deduping on company::program::term
-// (the old key) let both copies survive as if they were different postings. `term` is
-// stored per-entry but never actually read by the frontend (cloudflare-worker/src/index.js
-// only shows one combined "Fall 2026 / Spring 2027" tab label, never per-card), so there's
-// no UX reason to keep both — dedupe on company::program alone, first-seen wins.
-function mergeFall2026(log) {
-  const sources = ['fall2026_fall', 'fall2026_spring'];
-  const seen = new Set();
-  const internships = [];
-  let meta = { name: 'Fall 2026 / Spring 2027', focus: '' };
-  for (const a of sources) {
-    const p = path.join(DATA_DIR, `${a}_results.json`);
-    if (!fs.existsSync(p)) { log(`  (missing ${a}_results.json — skipping)\n`); continue; }
-    let d;
-    try { d = JSON.parse(fs.readFileSync(p, 'utf8')); }
-    catch (e) { log(`  (unreadable ${a}_results.json: ${e.message} — skipping)\n`); continue; }
-    if (d.name) meta.name = d.name;
-    if (d.focus && !meta.focus) meta.focus = d.focus;
-    let dupes = 0;
-    for (const e of d.internships || []) {
-      const k = `${(e.company || '').toLowerCase()}::${(e.program || '').toLowerCase()}`;
-      if (seen.has(k)) { dupes++; continue; }
-      seen.add(k);
-      internships.push(e);
-    }
-    log(`  + ${a}: ${(d.internships || []).length} entries${dupes ? ` (${dupes} already seen under the other term — skipped)` : ''}\n`);
-  }
-  const out = path.join(DATA_DIR, 'fall2026_results.json');
-  fs.writeFileSync(out, JSON.stringify({
-    agent: 'fall2026', name: meta.name, focus: meta.focus,
-    last_updated: new Date().toISOString().slice(0, 10), internships,
-  }, null, 2));
-  log(`  → ${internships.length} merged entries → fall2026_results.json\n`);
 }
 
 // ---------------------------------------------------------------------------
@@ -270,7 +305,7 @@ function runStep(step, sender) {
     children.add(child);
     const handleData = (stream) => (d) => {
       const tagged = tagChunk(step.tag, d.toString());
-      sender.send('run-output', { stream, chunk: tagged });
+      safeSend(sender, 'run-output', { stream, chunk: tagged });
       if (currentRunLog) currentRunLog.write(tagged);
       if (step.tag) {
         for (const line of tagged.split('\n')) {
@@ -283,7 +318,7 @@ function runStep(step, sender) {
     child.stderr.on('data', handleData('stderr'));
     child.on('error', err => {
       const chunk = `\n[spawn error] ${err.message}\n`;
-      sender.send('run-output', { stream: 'stderr', chunk });
+      safeSend(sender, 'run-output', { stream: 'stderr', chunk });
       if (currentRunLog) currentRunLog.write(chunk);
     });
     child.on('close', code => { children.delete(child); resolve(code); });
@@ -328,14 +363,15 @@ async function runPipeline(opts, sender) {
       steps.map((s, i) => ({ key: s.key, status: stepStatuses[i] })),
       timingsSnapshot,
     );
-    sender.send('step-status', { index, status, percent, ...(extra || {}) });
+    safeSend(sender, 'step-status', { index, status, percent, ...(extra || {}) });
   }
   aborted = false;
-  sender.send('plan', { steps: steps.map(s => s.label), mode: opts.mode, brain: opts.brain || (process.env.RUNNER_BRAIN === 'claude-cli' ? 'claude-cli' : 'nim'), sequential: !!opts.sequential, smoke: !!opts.smokeTab });
+  const concurrency = resolveConcurrency(opts, TAB_ORDER.length);
+  safeSend(sender, 'plan', { steps: steps.map(s => s.label), mode: opts.mode, brain: opts.brain || (process.env.RUNNER_BRAIN === 'claude-cli' ? 'claude-cli' : 'nim'), concurrency, smoke: !!opts.smokeTab });
   const runLog = startRunLog(LOGS_DIR);
   currentRunLog = runLog;
   const log = (chunk, stream) => {
-    sender.send('run-output', { stream: stream || 'meta', chunk });
+    safeSend(sender, 'run-output', { stream: stream || 'meta', chunk });
     runLog.write(chunk);
   };
 
@@ -349,14 +385,26 @@ async function runPipeline(opts, sender) {
     'nim': 'NIM (free, NVIDIA key) — no Claude tokens',
     'ollama': 'Ollama (free, local, offline) — no Claude tokens, no internet dependency',
   }[resolvedBrain];
-  log(`Project root: ${PROJECT_ROOT}\nBrain: ${brainLabel}\nResearch: ${opts.sequential ? 'one tab at a time (light load)' : 'all tabs in parallel (fast, heavier load)'}\n\n`);
+  const researchLabel = concurrency <= 1
+    ? 'one tab at a time (lightest load)'
+    : concurrency >= TAB_ORDER.length
+      ? `all ${TAB_ORDER.length} tabs in parallel (fastest, heaviest load)`
+      : `${concurrency} tabs at a time`;
+  log(`Project root: ${PROJECT_ROOT}\nBrain: ${brainLabel}\nResearch: ${researchLabel}\n\n`);
 
   let ok = true;
   let bail = false;
   const failures = [];
+  const resumeSkipSet = new Set(opts.resumeSkipKeys || []);
+  if (resumeSkipSet.size) log(`Resuming — skipping ${resumeSkipSet.size} step(s) already completed before the last stop.\n\n`);
 
   // One research step, parallel-safe (statuses/logs keyed by index).
   const execResearch = async (step, i) => {
+    if (resumeSkipSet.has(step.key)) {
+      sendStepStatus(i, 'done');
+      log(`\n━━━ [${i + 1}/${steps.length}] ${step.label} — already done, skipped (resumed) ━━━\n`);
+      return;
+    }
     if (aborted) { sendStepStatus(i, 'skipped'); return; }
     sendStepStatus(i, 'running');
     log(`\n━━━ [${i + 1}/${steps.length}] ${step.label} ━━━\n`);
@@ -371,22 +419,16 @@ async function runPipeline(opts, sender) {
     }
   };
 
-  // Parallel: ALL research tabs at once, Promise.all as the barrier — fastest
-  // wall-clock, heaviest machine load. Sequential: one tab at a time — a plain
-  // for-loop, much lighter, slower overall. Either way nothing below starts
-  // until every research process has exited (done, failed, or stopped).
+  // Up to `concurrency` research tabs run at once — a promise-pool (limiter()),
+  // not a binary parallel/sequential split, so any number from 1 (old
+  // "Sequential") to TAB_ORDER.length (old "Parallel") works the same way.
+  // Nothing below starts until every research process has exited (done, failed,
+  // or stopped).
   const research = steps.map((s, i) => ({ s, i })).filter(({ s }) => s.wave);
   if (research.length && !aborted) {
-    if (opts.sequential) {
-      if (research.length > 1) log(`\n═══ Running ${research.length} research tabs one at a time ═══\n`);
-      for (const { s, i } of research) {
-        if (aborted) break;
-        await execResearch(s, i);
-      }
-    } else {
-      if (research.length > 1) log(`\n═══ Launching all ${research.length} research tabs simultaneously ═══\n`);
-      await Promise.all(research.map(({ s, i }) => execResearch(s, i)));
-    }
+    if (research.length > 1) log(`\n═══ Running ${research.length} research tabs, ${Math.min(concurrency, research.length)} at a time ═══\n`);
+    const run = limiter(Math.max(1, concurrency));
+    await Promise.all(research.map(({ s, i }) => run(() => execResearch(s, i))));
     if (!aborted) log(`\n═══ All research complete — moving to merge/build/deploy ═══\n`);
   }
 
@@ -394,19 +436,14 @@ async function runPipeline(opts, sender) {
   for (let i = 0; i < steps.length; i++) {
     const step = steps[i];
     if (step.wave) continue; // research already ran above
+    if (resumeSkipSet.has(step.key)) {
+      sendStepStatus(i, 'done');
+      log(`\n━━━ [${i + 1}/${steps.length}] ${step.label} — already done, skipped (resumed) ━━━\n`);
+      continue;
+    }
     if (aborted || bail) { sendStepStatus(i, 'skipped'); continue; }
     sendStepStatus(i, 'running');
     log(`\n━━━ [${i + 1}/${steps.length}] ${step.label} ━━━\n`);
-
-    if (step.kind === 'merge-fall2026') {
-      try { mergeFall2026(log); sendStepStatus(i, 'done'); }
-      catch (e) {
-        log(`  merge failed: ${e.message}\n`, 'stderr');
-        sendStepStatus(i, 'failed');
-        failures.push(step.label); ok = false;
-      }
-      continue;
-    }
 
     if (step.kind === 'dedup') {
       try {
@@ -453,7 +490,22 @@ async function runPipeline(opts, sender) {
   if (failures.length) log(`Failed steps:\n${failures.map(f => `  ✗ ${f}`).join('\n')}\n`, 'stderr');
   const updatedTimings = timing.updateTimings(timingsSnapshot, observations);
   timing.saveTimings(TIMINGS_PATH, updatedTimings);
-  sender.send('run-done', { ok, aborted, failures, resolved: groupResolved(resolvedThisRun) });
+
+  // Only a user-initiated Stop leaves a resume point behind — a run that finishes
+  // on its own (success or failure) has nothing to pick back up. Save it even with
+  // zero done steps (e.g. stopped seconds in) — Resume should always be offered
+  // after Stop, not just when something happened to finish first.
+  let resumable = false;
+  if (aborted) {
+    const doneKeys = steps.filter((s, i) => stepStatuses[i] === 'done').map((s) => s.key);
+    const { resumeSkipKeys, ...baseOpts } = opts;
+    saveResumeState({ opts: baseOpts, doneKeys, savedAt: Date.now() });
+    resumable = true;
+    log(`  → ${doneKeys.length}/${steps.length} step(s) already done — Resume will pick up where this left off.\n`);
+  } else {
+    clearResumeState();
+  }
+  safeSend(sender, 'run-done', { ok, aborted, failures, resolved: groupResolved(resolvedThisRun), resumable });
 
   if (ok && !aborted && !opts.smokeTab) {
     try {
@@ -529,7 +581,7 @@ function createDebugView(win) {
 
   const sendNavState = () => {
     if (!win.isDestroyed()) {
-      win.webContents.send('browser-nav-state', {
+      safeSend(win.webContents, 'browser-nav-state', {
         url: debugView.webContents.getURL(),
         canGoBack: debugView.webContents.canGoBack(),
         canGoForward: debugView.webContents.canGoForward(),
@@ -569,11 +621,7 @@ app.whenReady().then(() => {
     const m = process.env.RUNNER_AUTOSTART;
     if ((m === 'short' || m === 'long') && !running) {
       running = true;
-      runPipeline({ mode: m }, win.webContents).catch((e) => {
-        running = false;
-        win.webContents.send('run-output', { stream: 'stderr', chunk: `\n[pipeline error] ${e.stack || e.message}\n` });
-        win.webContents.send('run-done', { ok: false, aborted: false, failures: ['pipeline error'] });
-      });
+      runPipeline({ mode: m }, win.webContents).catch((e) => onPipelineError(win.webContents, e));
     }
   });
   app.on('activate', () => { if (BrowserWindow.getAllWindows().length === 0) createWindow(); });
@@ -593,6 +641,7 @@ ipcMain.handle('get-info', () => {
     analystExists: fs.existsSync(path.join(ANALYST_DIR, 'run-analyst.js')),
     workerExists: fs.existsSync(path.join(WORKER_DIR, 'build-data.js')),
     tabCount: TAB_ORDER.length,
+    recommendedConcurrency: RECOMMENDED_CONCURRENCY,
     searchProvider,
   };
 });
@@ -601,27 +650,32 @@ ipcMain.handle('get-plan', (_e, opts) => buildPlan(opts || { mode: 'long' }).map
 
 ipcMain.handle('start-run', (event, opts) => {
   if (running) return { started: false, reason: 'busy' };
+  clearResumeState(); // a deliberate fresh Start abandons whatever stop point existed
   running = true;
-  runPipeline(opts || { mode: 'long' }, event.sender)
-    .catch(e => {
-      running = false;
-      if (currentRunLog) { currentRunLog.write(`\n[pipeline error] ${e.stack || e.message}\n`); currentRunLog.close(); currentRunLog = null; }
-      event.sender.send('run-output', { stream: 'stderr', chunk: `\n[pipeline error] ${e.stack || e.message}\n` });
-      event.sender.send('run-done', { ok: false, aborted: false, failures: ['pipeline error'] });
-    });
+  runPipeline(opts || { mode: 'long' }, event.sender).catch(e => onPipelineError(event.sender, e));
+  return { started: true };
+});
+
+ipcMain.handle('get-resume-state', () => {
+  const state = loadResumeState();
+  if (!state) return null;
+  const totalSteps = buildPlan(state.opts).length;
+  return { ...state, totalSteps, doneCount: state.doneKeys.length };
+});
+
+ipcMain.handle('resume-run', (event) => {
+  if (running) return { started: false, reason: 'busy' };
+  const state = loadResumeState();
+  if (!state) return { started: false, reason: 'no-resume-state' };
+  running = true;
+  runPipeline({ ...state.opts, resumeSkipKeys: state.doneKeys }, event.sender).catch(e => onPipelineError(event.sender, e));
   return { started: true };
 });
 
 ipcMain.handle('start-dedup', (event) => {
   if (running) return { started: false, reason: 'busy' };
   running = true;
-  runPipeline({ mode: 'long', dedupOnly: true }, event.sender)
-    .catch(e => {
-      running = false;
-      if (currentRunLog) { currentRunLog.write(`\n[pipeline error] ${e.stack || e.message}\n`); currentRunLog.close(); currentRunLog = null; }
-      event.sender.send('run-output', { stream: 'stderr', chunk: `\n[pipeline error] ${e.stack || e.message}\n` });
-      event.sender.send('run-done', { ok: false, aborted: false, failures: ['pipeline error'] });
-    });
+  runPipeline({ mode: 'long', dedupOnly: true }, event.sender).catch(e => onPipelineError(event.sender, e));
   return { started: true };
 });
 

@@ -171,3 +171,120 @@ test('a fresh live reading is cached and NOT re-fetched on the next call within 
   fs.rmSync(file, { force: true });
   fs.rmSync(file + '.lock', { force: true });
 });
+
+// --- Backup-account path (mocked fetchLive/fetchLiveBackup — no real network call) ---
+
+test('backup path: primary at/under the margin with a healthy backup switches automatically', async () => {
+  const file = tmpFile();
+  const res = await tryReserve({ file, fetchLive: async () => 1, fetchLiveBackup: async () => 500 });
+  assert.equal(res.ok, true);
+  assert.equal(res.remaining, 500);
+  assert.equal(res.account, 'backup');
+  fs.rmSync(file, { force: true });
+  fs.rmSync(file + '.lock', { force: true });
+});
+
+test('backup path: a healthy primary never even checks the backup', async () => {
+  const file = tmpFile();
+  let backupCalls = 0;
+  const res = await tryReserve({ file, fetchLive: async () => 500, fetchLiveBackup: async () => { backupCalls++; return 500; } });
+  assert.equal(res.ok, true);
+  assert.equal(res.account, 'primary');
+  assert.equal(backupCalls, 0);
+  fs.rmSync(file, { force: true });
+  fs.rmSync(file + '.lock', { force: true });
+});
+
+test('backup path: both accounts at/under the margin rejects, reporting the primary account', async () => {
+  const file = tmpFile();
+  const res = await tryReserve({ file, fetchLive: async () => 1, fetchLiveBackup: async () => 5 });
+  assert.equal(res.ok, false);
+  assert.equal(res.remaining, 1);
+  assert.equal(res.account, 'primary');
+  fs.rmSync(file, { force: true });
+});
+
+test('backup path: primary unverifiable but backup healthy still switches', async () => {
+  const file = tmpFile();
+  const res = await tryReserve({ file, fetchLive: async () => null, fetchLiveBackup: async () => 200 });
+  assert.equal(res.ok, true);
+  assert.equal(res.remaining, 200);
+  assert.equal(res.account, 'backup');
+  fs.rmSync(file, { force: true });
+  fs.rmSync(file + '.lock', { force: true });
+});
+
+test('backup path: a stubbed primary with no backup override never hits the real backup network call (existing tests stay isolated)', async () => {
+  const file = tmpFile();
+  const res = await tryReserve({ file, fetchLive: async () => 1 }); // no fetchLiveBackup passed
+  assert.equal(res.ok, false);
+  assert.equal(res.account, 'primary');
+  fs.rmSync(file, { force: true });
+});
+
+// --- Run cap (added 2026-09-08 after both Firecrawl accounts got drained in a
+// single run — the live-balance check above has no ceiling of its own) ---
+
+test('run cap: rejects once the per-run limit is hit, even though the live account has plenty left', async () => {
+  const file = tmpFile();
+  for (let i = 0; i < 2; i++) {
+    const r = await tryReserve({ file, fetchLive: async () => 500, runCapLimit: 2, runId: 'test-run-a' });
+    assert.equal(r.ok, true);
+  }
+  const res = await tryReserve({ file, fetchLive: async () => 500, runCapLimit: 2, runId: 'test-run-a' });
+  assert.equal(res.ok, false);
+  assert.equal(res.reason, 'run-cap');
+  assert.equal(res.remaining, 500); // the live balance check still ran and would have allowed it
+  fs.rmSync(file, { force: true });
+  fs.rmSync(file + '.runcap', { force: true });
+});
+
+test('run cap: a new runId starts a fresh counter instead of carrying forward', async () => {
+  const file = tmpFile();
+  await tryReserve({ file, fetchLive: async () => 500, runCapLimit: 1, runId: 'test-run-b1' });
+  const rejected = await tryReserve({ file, fetchLive: async () => 500, runCapLimit: 1, runId: 'test-run-b1' });
+  assert.equal(rejected.ok, false);
+  const freshRun = await tryReserve({ file, fetchLive: async () => 500, runCapLimit: 1, runId: 'test-run-b2' });
+  assert.equal(freshRun.ok, true);
+  fs.rmSync(file, { force: true });
+  fs.rmSync(file + '.runcap', { force: true });
+});
+
+test('run cap: shared across calls with the same runId (simulating multiple tab processes in one pipeline run)', async () => {
+  const file = tmpFile();
+  const calls = Array.from({ length: 10 }, () => tryReserve({ file, fetchLive: async () => 500, runCapLimit: 5, runId: 'test-run-shared' }));
+  const results = await Promise.all(calls);
+  assert.equal(results.filter((r) => r.ok).length, 5);
+  fs.rmSync(file, { force: true });
+  fs.rmSync(file + '.runcap', { force: true });
+});
+
+test('run cap: also applies on the fallback (no live signal) path', async () => {
+  const file = tmpFile();
+  await tryReserve({ file, fetchLive: NO_LIVE_SIGNAL, limit: 100, runCapLimit: 1, runId: 'test-run-c' });
+  const res = await tryReserve({ file, fetchLive: NO_LIVE_SIGNAL, limit: 100, runCapLimit: 1, runId: 'test-run-c' });
+  assert.equal(res.ok, false);
+  assert.equal(res.reason, 'run-cap');
+  fs.rmSync(file, { force: true });
+  fs.rmSync(file + '.runcap', { force: true });
+});
+
+test('run cap: runCapLimit 0 disables it entirely', async () => {
+  const file = tmpFile();
+  for (let i = 0; i < 5; i++) {
+    const r = await tryReserve({ file, fetchLive: async () => 500, runCapLimit: 0, runId: 'test-run-d' });
+    assert.equal(r.ok, true);
+  }
+  fs.rmSync(file, { force: true });
+});
+
+test('an unset FIRECRAWL_RUN_CAP falls back to 300', () => {
+  const prev = process.env.FIRECRAWL_RUN_CAP;
+  delete process.env.FIRECRAWL_RUN_CAP;
+  delete require.cache[require.resolve('./firecrawl-budget.js')];
+  const { DEFAULT_RUN_CAP } = require('./firecrawl-budget.js');
+  assert.equal(DEFAULT_RUN_CAP, 300);
+  if (prev === undefined) delete process.env.FIRECRAWL_RUN_CAP;
+  else process.env.FIRECRAWL_RUN_CAP = prev;
+  delete require.cache[require.resolve('./firecrawl-budget.js')];
+});
