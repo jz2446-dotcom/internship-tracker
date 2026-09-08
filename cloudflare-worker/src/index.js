@@ -5,11 +5,76 @@
 // NOTE: tracker-runner/lib/htmlLoader.js parses this file's getDashboardHTML() via a source-text rewrite — keep exactly one `export default {` and no other top-level `export` statements.
 
 import BUNDLED_DATA from './data.json';
-import RESUMES from './resumes.json';
+
+// Simple shared-password gate — this is a private dashboard, not a public site, so
+// a single fixed password + cookie is enough (no per-user accounts). Blocks every
+// route (dashboard HTML, /api/data, /resume/*) until the cookie is set via /login.
+const SITE_PASSWORD = 'qwerty123';
+const AUTH_COOKIE = 'tracker_auth';
+
+function isAuthed(request) {
+  const cookie = request.headers.get('Cookie') || '';
+  const match = cookie.match(/(?:^|;\s*)tracker_auth=([^;]+)/);
+  return !!match && match[1] === SITE_PASSWORD;
+}
+
+function loginPageHTML(showError) {
+  return `<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Internship Tracker — Login</title>
+  <style>
+    * { box-sizing: border-box; }
+    body { margin: 0; min-height: 100vh; display: flex; align-items: center; justify-content: center;
+      background: #0f172a; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; }
+    form { background: #1e293b; padding: 40px; border-radius: 12px; width: 320px; max-width: 90vw;
+      box-shadow: 0 10px 40px rgba(0,0,0,0.4); }
+    h1 { color: #f1f5f9; font-size: 18px; margin: 0 0 20px; text-align: center; }
+    input { width: 100%; padding: 12px 14px; border-radius: 8px; border: 1px solid #334155;
+      background: #0f172a; color: #f1f5f9; font-size: 15px; margin-bottom: 12px; }
+    input:focus { outline: none; border-color: #3b82f6; }
+    button { width: 100%; padding: 12px; border-radius: 8px; border: none; background: #3b82f6;
+      color: white; font-size: 15px; font-weight: 600; cursor: pointer; }
+    button:hover { background: #2563eb; }
+    .error { color: #f87171; font-size: 13px; margin: -4px 0 12px; text-align: center; }
+  </style>
+</head>
+<body>
+  <form method="POST" action="/login">
+    <h1>Internship Tracker</h1>
+    ${showError ? '<div class="error">Incorrect password</div>' : ''}
+    <input type="password" name="password" placeholder="Password" autofocus>
+    <button type="submit">Enter</button>
+  </form>
+</body>
+</html>`;
+}
 
 export default {
   async fetch(request, env, ctx) {
     const url = new URL(request.url);
+
+    if (url.pathname === '/login' && request.method === 'POST') {
+      const form = await request.formData();
+      if ((form.get('password') || '') === SITE_PASSWORD) {
+        return new Response(null, {
+          status: 302,
+          headers: {
+            'Location': '/',
+            // 30 days; HttpOnly so page JS can't read/leak it, Secure since the
+            // Worker is only ever served over https.
+            'Set-Cookie': `${AUTH_COOKIE}=${SITE_PASSWORD}; Path=/; Max-Age=2592000; HttpOnly; Secure; SameSite=Lax`
+          }
+        });
+      }
+      return new Response(loginPageHTML(true), { status: 401, headers: { 'Content-Type': 'text/html; charset=utf-8' } });
+    }
+
+    if (!isAuthed(request)) {
+      return new Response(loginPageHTML(false), { status: 401, headers: { 'Content-Type': 'text/html; charset=utf-8' } });
+    }
 
     // Serve internship data. Prefer KV (live updates) if set, else fall back to the bundled snapshot.
     if (url.pathname === '/api/data') {
@@ -22,16 +87,18 @@ export default {
       // Only trust KV if it actually holds the full dataset; otherwise serve the bundled snapshot.
       const payload = (data && data.agents) ? data : BUNDLED_DATA;
       return new Response(JSON.stringify(payload || {}), {
-        headers: { 'Content-Type': 'application/json' }
+        headers: { 'Content-Type': 'application/json', 'Cache-Control': 'no-store' }
       });
     }
 
-    // Serve a bundled, ATS-tailored resume PDF for an open role.
+    // Serve an ATS-tailored resume PDF for an open role. Stored in KV (not bundled
+    // into the Worker script) to stay under the 3 MiB Worker size limit.
     if (url.pathname.startsWith('/resume/')) {
       const id = url.pathname.slice('/resume/'.length).replace(/[^a-z0-9_]/gi, '');
-      let b64 = RESUMES[id];
-      // "alias:<other_id>" — identical tailored PDF shared between roles to stay under the 3 MiB worker limit
-      if (typeof b64 === 'string' && b64.startsWith('alias:')) b64 = RESUMES[b64.slice(6)];
+      const resumes = env.INTERNSHIP_KV ? await env.INTERNSHIP_KV.get('resumes_data', { type: 'json' }) : null;
+      let b64 = resumes ? resumes[id] : null;
+      // "alias:<other_id>" — identical tailored PDF shared between roles
+      if (typeof b64 === 'string' && b64.startsWith('alias:')) b64 = resumes[b64.slice(6)];
       if (!b64) return new Response('Resume not found', { status: 404 });
       const bytes = Uint8Array.from(atob(b64), c => c.charCodeAt(0));
       return new Response(bytes, {
@@ -58,7 +125,7 @@ export default {
 
     // Serve main dashboard
     return new Response(getDashboardHTML(), {
-      headers: { 'Content-Type': 'text/html; charset=utf-8' }
+      headers: { 'Content-Type': 'text/html; charset=utf-8', 'Cache-Control': 'no-store' }
     });
   },
 
@@ -458,7 +525,7 @@ function getDashboardHTML() {
       <span style="width:38px;height:38px;flex-shrink:0;display:flex;align-items:center;justify-content:center;border-radius:9px;background:rgba(255,255,255,.06);border:1px solid rgba(184,137,43,.5);font-family:var(--serif);font-weight:600;font-size:14px;color:var(--gold)">FT</span>
       <div>
         <h1>Finance Internship Tracker</h1>
-        <div class="subtitle">Tracking ~150 companies across 5 agents &middot; <span id="last-updated">Loading...</span></div>
+        <div class="subtitle">Tracking ~550 companies across 7 agents &middot; <span id="last-updated">Loading...</span></div>
       </div>
     </div>
     <div style="display:flex;align-items:center;gap:10px">
@@ -555,7 +622,9 @@ function getDashboardHTML() {
       2: 'Middle Market / International',
       3: 'Big Tech Corporate Finance',
       4: 'Consulting + Top F500',
-      5: 'Other F500'
+      5: 'Other F500',
+      6: 'Fortune 500 (A-I)',
+      7: 'Fortune 500 (I-Z)'
     };
 
     const AGENT_FOCUS = {
@@ -563,7 +632,9 @@ function getDashboardHTML() {
       2: 'Asset/risk management and investment banking roles',
       3: 'Corporate finance roles',
       4: 'Corporate finance roles',
-      5: 'Corporate finance roles'
+      5: 'Corporate finance roles',
+      6: 'Corporate finance roles',
+      7: 'Corporate finance roles'
     };
 
     async function loadData() {
@@ -659,12 +730,13 @@ function getDashboardHTML() {
         const program = card.dataset.program.toLowerCase();
         const status = card.dataset.status;
         const cat = card.dataset.cat.toLowerCase();
-        const cy = card.dataset.classYears;
+        let cyArr = [];
+        try { cyArr = JSON.parse(card.dataset.classYears) || []; } catch(e) {}
 
         const matchSearch = !q || company.includes(q) || program.includes(q);
         const matchStatus = activeStatusFilter === 'all' || status === activeStatusFilter;
         const matchCat = activeCatFilter === 'all' || cat === activeCatFilter;
-        const matchCY = cy.includes(activeClassYear);
+        const matchCY = cyArr.length === 0 || cyArr.includes(activeClassYear);
 
         const matchApplied = !(hideApplied && card.dataset.applied === '1');
         const visible = matchSearch && matchStatus && matchCat && matchCY && matchApplied;
@@ -708,7 +780,7 @@ function getDashboardHTML() {
 
     function buildCard(item) {
       const cyArr = item.class_years || [];
-      const matchesCY = cyArr.includes(activeClassYear);
+      const matchesCY = cyArr.length === 0 || cyArr.includes(activeClassYear);
       const applied = isApplied(item);
       const card = document.createElement('div');
       card.className = 'card' + (matchesCY ? '' : ' hidden') + (applied ? ' applied' : '');
@@ -978,7 +1050,7 @@ function getDashboardHTML() {
         items.forEach(item => grid.appendChild(buildCard(item)));
         if (!items.length) grid.innerHTML = '<div class="no-results" style="padding:24px">No Ithaca-area local finance jobs loaded.</div>';
       } else {
-        for (let agentNum = 1; agentNum <= 5; agentNum++) {
+        for (let agentNum = 1; agentNum <= 7; agentNum++) {
           const agentData = allData.agents && allData.agents[String(agentNum)];
           if (!agentData) continue;
           const section = document.createElement('div');
@@ -1001,7 +1073,7 @@ function getDashboardHTML() {
         }
       }
 
-      updateStats();
+      applyFilters();
     }
 
     function renderChangelog(container) {
