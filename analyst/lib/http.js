@@ -20,7 +20,14 @@ const { URL } = require("url");
 // `res.status` on a fetch() Response). Resolves null on network failure, timeout, or an
 // unparseable URL. Never throws — same contract fetch() callers here already expected
 // from their try/catch wrappers.
-function rawRequest(url, { method = "GET", headers = {}, body, timeoutMs = 15000 } = {}) {
+//
+// Optional third arg `timeoutRef`: if a plain object is passed, this sets
+// `timeoutRef.timedOut = true` when the null resolution was specifically caused by the
+// timeout firing (not a DNS/connection-refused/other network error). Callers that care
+// whether a failure was "just slow" vs. a real error (e.g. so they don't penalize an API
+// key/model as if it failed) can inspect this after the promise resolves. Omitting the
+// arg preserves the exact old behavior for every other call site.
+function rawRequest(url, { method = "GET", headers = {}, body, timeoutMs = 15000 } = {}, timeoutRef) {
   return new Promise((resolve) => {
     let u;
     try { u = new URL(url); } catch (_) { return resolve(null); }
@@ -44,7 +51,7 @@ function rawRequest(url, { method = "GET", headers = {}, body, timeoutMs = 15000
       }
     );
     req.on("error", () => resolve(null));
-    req.setTimeout(timeoutMs, () => { req.destroy(); resolve(null); });
+    req.setTimeout(timeoutMs, () => { if (timeoutRef) timeoutRef.timedOut = true; req.destroy(); resolve(null); });
     if (payload) req.write(payload);
     req.end();
   });

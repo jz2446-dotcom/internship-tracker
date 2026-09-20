@@ -53,6 +53,7 @@ Return ONLY a JSON object, no prose, with exactly these keys:
 // timed-out call used to bubble up as "This operation was aborted" and run-analyst
 // would DROP that candidate from the run entirely.
 async function attempt(key, id, candidate, criteria, timeoutMs) {
+  const timeoutRef = {};
   const res = await rawRequest(BASE, {
     method: "POST",
     headers: { Authorization: `Bearer ${key}`, "Content-Type": "application/json" },
@@ -63,8 +64,12 @@ async function attempt(key, id, candidate, criteria, timeoutMs) {
       temperature: 0,
     }),
     timeoutMs,
-  });
-  if (!res) throw new Error("NIM request failed");
+  }, timeoutRef);
+  if (!res) {
+    const e = new Error(timeoutRef.timedOut ? "NIM request timed out" : "NIM request failed");
+    e.isTimeout = !!timeoutRef.timedOut; // congestion/slow response — NOT evidence the key/model is dead, see judge()
+    throw e;
+  }
   if (res.status < 200 || res.status >= 300) throw new Error(`NIM ${res.status}`);
   return JSON.parse(res.body);
 }
@@ -148,6 +153,11 @@ async function judge(candidate, criteria, { timeoutMs = 45000 } = {}) {
         "This is the FREE brain — set that key, or use --brain none (deterministic only)."
     );
   }
+  // Only a REAL failure (429/5xx/bad response) counts as evidence the AI brain is
+  // unavailable. A chain where every attempt merely timed out (congestion, not a
+  // dead key/model) must NOT trip the breaker — see judge()'s call to recordFailure
+  // below, gated on this flag.
+  let hadRealFailure = false;
   for (const m of ORDER) {
     if (cooldownUntil[m] && Date.now() < cooldownUntil[m]) continue;
     for (let a = 0; a < 2; a++) {
@@ -159,6 +169,7 @@ async function judge(candidate, criteria, { timeoutMs = 45000 } = {}) {
         logCalibration(candidate, h, v, m);
         return v;
       } catch (e) {
+        if (!e.isTimeout) hadRealFailure = true;
         if (/429/.test(e.message || "")) {
           const s = coolOff(m);
           console.error(`  nim ${m} rate-limited — ${s}s cooldown, trying next model`);
@@ -173,7 +184,9 @@ async function judge(candidate, criteria, { timeoutMs = 45000 } = {}) {
     }
   }
   console.error("  all NIM models unavailable — heuristic brain ruling (low confidence)");
-  breaker.recordFailure("NIM: all models unavailable");
+  // Skip when every failure in the chain was just a timeout — that's congestion, not
+  // proof the brain is down, and shouldn't cost the breaker one of its 3 strikes.
+  if (hadRealFailure) breaker.recordFailure("NIM: all models unavailable");
   return h; // the triage ruling from the top — already computed, low-confidence
 }
 

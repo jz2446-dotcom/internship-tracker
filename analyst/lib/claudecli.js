@@ -52,7 +52,12 @@ function runClaude(text, timeoutMs) {
       env: { ...process.env, CLAUDECODE: "" }, // don't inherit nested-session markers
     });
     let out = "", err = "";
-    const timer = setTimeout(() => { try { child.kill(); } catch (_) {} reject(new Error("claude-cli timeout")); }, timeoutMs);
+    const timer = setTimeout(() => {
+      try { child.kill(); } catch (_) {}
+      const e = new Error("claude-cli timeout");
+      e.isTimeout = true; // slow/congested run, not proof the CLI/quota is dead — see judge()
+      reject(e);
+    }, timeoutMs);
     child.stdout.on("data", (d) => (out += d.toString()));
     child.stderr.on("data", (d) => (err += d.toString()));
     child.on("error", (e) => { clearTimeout(timer); reject(e); });
@@ -82,7 +87,9 @@ async function judge(candidate, criteria, { timeoutMs = 120000 } = {}) {
     breaker.recordSuccess();
   } catch (e) {
     console.error(`  claude-cli failed (${e.message}) — heuristic fallback`);
-    breaker.recordFailure("claude-cli: " + (e.message || "").slice(0, 60));
+    // A timeout is congestion/slowness, not evidence the CLI/subscription is dead —
+    // don't spend one of the breaker's 3 strikes on it.
+    if (!e.isTimeout) breaker.recordFailure("claude-cli: " + (e.message || "").slice(0, 60));
     return h;
   }
   const v = extractJson(out);
