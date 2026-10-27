@@ -1,8 +1,8 @@
-name: Scheduled refresh
+name: Cloud refresh
 
+# Cron schedule removed 2026-10-27 (user's call) — manual-trigger only now, fired from
+# the Tracker Runner app's "Run via GitHub" toggle (or `gh workflow run refresh.yml`).
 on:
-  schedule:
-    - cron: '0 */2 * * *'   # ticks every 2h; check-schedule.js decides whether to actually run
   workflow_dispatch: {}
 
 jobs:
