@@ -70,6 +70,19 @@ jobs:
           git config user.name "tracker-bot"
           git config user.email "actions@github.com"
           git add ../data/ ../cloudflare-worker/src/data.json
-          git diff --cached --quiet || git commit -m "Scheduled refresh $(date -u +%F)"
-          git push
+          git diff --cached --quiet || git commit -m "Cloud refresh $(date -u +%F)"
+          # master can move between checkout and here (a local push during the run,
+          # another workflow run, etc. — found live 2026-10-27: a local push mid-run
+          # caused a plain `git push` to be rejected with "fetch first"). Retry with a
+          # rebase onto whatever's new, a few times, before giving up for real.
+          for i in 1 2 3; do
+            git push && break
+            echo "push rejected — fetching + rebasing (attempt $i)"
+            git fetch origin master
+            git rebase origin/master
+            if [ "$i" = "3" ]; then
+              echo "::error::git push still failing after $i attempts"
+              exit 1
+            fi
+          done
         working-directory: analyst
